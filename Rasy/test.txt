@@ -1,1 +1,646 @@
-
+ALP Rasy
+<br>
+<br>
+<br>
+<br><h1>ELF</h1>
+<br><b>Ability Scores:</b> Dex +2
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.
+<br><b>Size:</b> Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.
+<br><b>Darkvision:</b> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Keen Senses:</b> You have proficiency in the Perception skill.
+<br><b>Fey Ancestry:</b> You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+<br><b>Trance:</b> Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "Trance") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+<br>If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.
+<br>
+<br><b>Languages:</b> You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.
+<br>
+<br><b>Elfs are split into five sub-races:</b> Coast, Drow, Forest, High and Sea.
+<br>
+<br>
+<br><h2>COAST</h2>
+<br><b>Ability Scores:</b> Wis +1
+<br>
+<br><b>Coast Elf Training:</b> You have proficiency with the glaive, shortbow, longbow and net.
+<br><b>Underwater Darkvision:</b> While you are submerged under water you can see in underwater dim light within 90 feet of you as if it were bright light, and in underwater darkness as if it were dim light.
+<br><b>Lungs of sea dog:</b> When calculating how long you can hold your breath or not choke once you run out of breath you count your Constitution modifier twice.
+<br><b>Coasts sailor:</b> You are proficient with vehicles (water)
+<br>
+<br><h2>DROW</h2>
+<br><b>Ability Scores:</b> Cha +1
+<br>
+<br><b>Superior Darkvision:</b> Blessed by Vacan, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Sunlight Sensitivity:</b> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+<br><b>Drow Magic:</b> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
+<br><b>Drow Weapon Training:</b> You have proficiency with rapiers, shortswords, and hand crossbows.
+<br>
+<br><h2>FOREST</h2>
+<br><b>Ability Scores:</b> Str +1
+<br><b>Speed:</b> Climb 30 ft
+<br>
+<br><b>Forest Elf Training:</b> You have proficiency with the longbow, oversized Longbow, whip and maul. 
+<br><b>Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall dam<b>Age:</b>
+<br><b>Long-Limbed:</b> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+<br>
+<br><h2>HIGH</h2>
+<br><b>Ability Scores:</b> Int +1
+<br>
+<br><b>High Elf Weapon Training:</b> You have proficiency with the longsword, shortsword, shortbow, and longbow.
+<br><b>Arcanist:</b> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+<br><b>Extra Language:</b> You can speak, read, and write one extra language of your choosing.
+<br>
+<br><h2>SEA</h2>
+<br><b>Ability Scores:</b> Con +1
+<br><b>Speed:</b> Swim 30 ft.
+<br>
+<br><b>Sea Elf Training:</b> You have proficiency with the spear, trident, light crossbow, and net.
+<br><b>Underwater Darkvision:</b> While you are submerged under water you can see in underwater dim light within 120 feet of you as if it were bright light, and in underwater darkness as if it were dim light.
+<br><b>Child of the Sea:</b> You have a swimming speed of 30 feet, and you can breathe air and water.
+<br><b>Friend of the Sea:</b> Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming <b>Speed:</b>
+<br><b>Extra Language:</b> You can speak, read, and write Aquan.
+<br>
+<br>  
+<br>
+<br>
+<br>
+<br><h1>GNOME</h1>
+<br><b>Ability Scores:</b> Int +2
+<br><b>Size:</b> Small
+<br><b>Speed:</b> 25 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.
+<br><b>Size:</b> Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.
+<br><b>Darkvision:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Gnome Cunning:</b> You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+<br><b>Languages:</b> You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.
+<br>
+<br><b>Gnomes are split into two sub-races:</b> Discovery and Strategy.
+<br>
+<br>
+<br><h2>DISCOVERY</h2>
+<br><b>Ability Scores:</b> Wis +1 or Cha +1
+<br>
+<br><b>Artificer's Lore:</b> Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+<br><b>Tinker:</b> You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+<br>When you create a device, choose one of the following options:
+<br>
+<br><b>Clockwork Toy -</b> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+<br><b>Fire Starter -</b> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
+<br><b>Music Box -</b> When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+<br><h2>STRATEGY</h2>
+<br><b>Ability Scores:</b> Str +1 or Dex +1
+<br>
+<br><b>Ready to Rumble:</b> You include your proficiency into your initiative rolls.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. 
+<br><b>Smither:</b> When you spend a short rest attending to a weapon with which you are proficient with you will learn how to use it in the smartest way. This will increase its durability by 1 for you. (Noone else can benefit from this.) You can do this once per weapon. You can only have one weapon ready at time.
+<br>
+<br><h1>GOBLIN</h1>
+<br>
+<br><b>Ability Scores:</b> Dex +3; Str -2; choose any other +1
+<br><b>Size:</b> Small
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Creature Type:</b> You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray.
+<br><b>Fey Ancestry:</b> You have advantage on saving throws you make to avoid or end the charmed condition on yourself.
+<br><b>Fury of the Small:</b> When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus.
+<br>You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.
+<br><b>Nimble Escape:</b> You can take the Disengage or Hide action as a bonus action on each of your turns.
+<br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
+<br>
+<br><h1>HUMAN</h1>
+<br><b>Ability Scores:</b> Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Humans reach adulthood in their late teens and live less than a century.
+<br><b>Size:</b> Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+<br><b>Languages:</b> You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
+<br>
+<br>Applies only if variant (b) is chosen:
+<br><b>Skills:</b> You gain proficiency in one skill of your choice.
+<br><b>Feat:</b> You gain one feat of your choice.
+<br>
+<br>
+<br><h1>ORC</h1>
+<br><b>Ability Scores:</b> Str +3; Int -2; choose any other +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br><b>Relentless <b>Endurance:</b></b> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest.
+<br><b>Primal Intuition:</b> You have proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.
+<br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
+<br>
+<br><b>Orcs are split into three sub-races:</b> Earth, Sand and Rock.
+<br>
+<br>
+<br><h2>EARTH</h2>
+<br><b>Aggressive:</b> As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.
+<br><b>Blood bath:</b> Whenever you strike an enemy down (either kill it or incapacitate it), you gain a number of temporary hit points equal to your proficiency bonus. You then also have advantage on your next attack roll.
+<br>
+<br><h2>SAND</h2>
+<br><b>Adrenaline Rush:</b> You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+<br>Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.
+<br>
+<br><h2>ROCK</h2>
+<br><b>Endurance:</b> Rock orcs are known for their remarkable endurance and ability to withstand harsh conditions. You have advantage on saving throws against exhaustion.
+<br><b>Tough as Hill:</b> Whenever you gain temporary hit points, the amount of temporary hit points you receive is increased by an additional 50% (rounded up). For example, if you would gain 11 temporary hit points, you gain 17 instead. (11+5.5)
+<br>
+<br>
+<br><h1>DWARF</h1>
+<br><b>Ability Scores:</b> Con +2
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 25 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.
+<br><b>Size:</b> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
+<br><b>Speed:</b> Your speed is not reduced by wearing heavy armor.
+<br><b>Darkvision:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Dwarven Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
+<br><b>Dwarven Combat Training:</b> You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.
+<br><b>Stonecunning:</b> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+<br><b>Languages:</b> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+<br>
+<br>
+<br>
+<br><b>Dwarfs are split into four sub-races:</b> Brewer, Forger, Miner and Jeweler.
+<br>
+<br>
+<br>
+<br><h2>BREWER</h2>
+<br><b>Ability Scores:</b> Int +1
+<br>
+<br><b>Tool Proficiency:</b> You gain proficiency with the Brewer's supplies.
+<br><b>Brewers Toughness:</b> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. 
+<br>
+<br><h2>FORGER</h2>
+<br><b>Ability Scores:</b> Dex +1
+<br>
+<br><b>Tool Proficiency:</b> You gain proficiency with the Smith's tools.
+<br><b>Heat of the Forge:</b> You gain resistance to Fire dam<b>Age:</b>
+<br>
+<br><h2>MINER</h2>
+<br><b>Ability Scores:</b> Str +1
+<br>
+<br><b>Tool Proficiency:</b> You gain proficiency with the Mason's tools.
+<br><b>Superior Darkvision:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Miners Magic:</b> When you reach 3rd level, you can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the Fortune's Favor spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.
+<br><b>Sunlight Sensitivity:</b> You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+<br>
+<br><h2>JEWELER</h2>
+<br><b>Ability Scores:</b> Cha +1
+<br>
+<br><b>Tool Proficiency:</b> You gain proficiency with the Jeweler's tools.
+<br><b>Craft and Sell:</b> You gain proficiency with two skills: Sleight of Hand and Persuasion.
+<br>
+<br><h1>HALFLING</h1>
+<br><b>Ability Scores:</b> Dex +2
+<br><b>Size:</b> Small
+<br><b>Speed:</b> 25 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.
+<br><b>Size:</b> Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.
+<br><b>Lucky:</b> When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+<br><b>Brave:</b> You have advantage on saving throws against being frightened.
+<br><b>Halfling Nimbleness:</b> You can move through the space of any creature that is of a size larger than yours.
+<br><b>Languages:</b> You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.
+<br>
+<br><b>Halflings are split into three sub-races:</b> Of Big foot, Of Charming tongue, Of Pure mind .
+<br>
+<br>
+<br><h2>OF BIG FOOT</h2>
+<br><b>Ability Scores:</b> Wis +1
+<br><b>Speed:</b> 30 ft.
+<br>
+<br><b>Natural to Stealth:</b> You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+<br><b>Big step for Halfling:</b> You can travel a bit faster than other halflings, you have a speed of 30 ft. instead of 25 ft.
+<br>
+<br><h2>OF CHARMING TONGUE</h2>
+<br><b>Ability Scores:</b> Cha +1
+<br>
+<br><b>Voice of people:</b> You are proficient with two skills: Performance and Deception.
+<br><b>Way with words:</b> When you use your Lucky feature for skill using Charisma you roll with advant<b>Age:</b> You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.
+<br>
+<br><h2>OF PURE MIND</h2>
+<br><b>Ability Scores:</b> Int +1
+<br>
+<br><b>Travelers knowledge:</b> You know the prestidigitation cantrip. When you reach 3rd level, you can cast the identify spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the See Invisibility spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Intelligence is your spellcasting ability for these spells.
+<br>
+<br>Nová Krv
+<br>
+<br>AASIMAR
+<br><b>Ability Scores:</b> Cha +2; and choose one (a) Str +1  (b) Wis +1 (c) Con +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 25 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Aasimar mature at the same rate as humans, but they can live up to 160 years.
+<br><b>Size:</b> Aasimar have the same range of height and weight as humans.
+<br><b>Darkvision:</b> Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Celestial Resistance. You have resistance to necrotic damage and radiant dam<b>Age:</b>
+<br>Healing Hands. As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
+<br>Light Bearer. You know the light cantrip. Charisma is your spellcasting ability for it.
+<br><b>Languages:</b> You can speak, read, and write Common and Celestial.
+<br>Celestial Revelation. When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.
+<br>Necrotic Shroud. Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br>
+<br>Radiant Consumption. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br>
+<br>Radiant Soul. Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br>
+<br>
+<br>DWORC
+<br><b>Ability Scores:</b> Choose one (a) Str +2; Con +1 or (b)  Str +1; Con +2
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 25 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Dworcs mature at the same rate as dwarfs (so as humans), but they're considered young until they reach the age of 35. On average, they live about 125 years.
+<br><b>Size:</b> Borks are usually around 5.5 feet tall and weigh between 180 and 230 pounds. Your size is Medium.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Dworcs Resilience. You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br><b>Primal Intuition:</b> You have proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.
+<br><b>Languages:</b> You can speak, read, and write Common, Orc and Dwarvish.
+<br>
+<br>
+<br>GENASI
+<br><b>Ability Scores:</b> Con +2
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.
+<br>Alignment. Independent and self-reliant, genasi tend toward a chaotic alignment.
+<br><b>Size:</b> Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.
+<br><b>Languages:</b> You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
+<br>
+<br>Genasi are split into five sub-races: Air, Earth, Fire, Lightning and Water
+<br>
+<br>
+<br>AIR
+<br><b>Ability Scores:</b> Dex +1
+<br>
+<br>Unending Breath. You can hold your breath indefinitely while you're not incapacitated.
+<br>Mingle with the Wind. You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br>
+<br>EARTH
+<br><b>Ability Scores:</b> Str +1
+<br>
+<br>Earth Walk. You can move across difficult terrain made of earth or stone without expending extra movement.
+<br>Merge with Stone. You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br>
+<br>FIRE
+<br><b>Ability Scores:</b> Int +1
+<br>
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.
+<br>Fire Resistance. You have resistance to fire dam<b>Age:</b>
+<br>Reach to the Blaze. You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+<br>
+<br>LIGHTNING
+<br><b>Ability Scores:</b> Cha +1
+<br>
+<br>Tireless. Your long rests require only half of normal resting time. You finish the long rest after only 4 hours of resting (does not include light activity). You otherwise obey all the rules for a long rest; only the duration is changed.
+<br>Lightning rod. You have resistance to Lightning and Thudner dam<b>Age:</b>
+<br>Storm on horizon. You can cast the Blur to go to page 3 spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br>
+<br>WATER
+<br><b>Ability Scores:</b> Wis +1
+<br><b>Speed:</b> swim 30 ft.
+<br>
+<br>Acid Resistance. You have resistance to acid dam<b>Age:</b>
+<br>Amphibious. You can breathe air and water.
+<br>Swim. You have a swimming speed of 30 feet.
+<br>Call to the Wave. You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+<br>
+<br>
+<br>Half-Elf
+<br><b>Ability Scores:</b> Cha +2; Choose any other two unique +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.
+<br><b>Size:</b> Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.
+<br><b>Darkvision:</b> Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Fey Ancestry:</b> You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+<br>Variant feature: Choose one.
+<br>(Human legacy) Skill Versatility. You gain proficiency in two skills of your choice.
+<br>(Coast legacy) <b>Lungs of sea dog:</b> When calculating how long you can hold your breath or not choke once you run out of breath you count your Constitution modifier twice.
+<br>(Drow legacy) <b>Drow Magic:</b> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
+<br>(Forest legacy) <b>Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall dam<b>Age:</b>
+<br>(High legacy) <b>Arcanist:</b> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+<br>(Sea legacy) <b>Underwater Darkvision:</b> While you are submerged under water you can see in underwater dim light within 120 feet of you as if it were bright light, and in underwater darkness as if it were dim light.
+<br><b>Languages:</b> You can speak, read, and write Common, Elvish, and one extra language of your choice.
+<br>
+<br>Half-Orc
+<br><b>Ability Scores:</b> Str +2; Con +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
+<br><b>Size:</b> Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.
+<br><b>Darkvision:</b> Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Menacing. You gain proficiency in the Intimidation skill.
+<br><b>Relentless <b>Endurance:</b></b> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
+<br>Variant feature: Choose one.
+<br>(Human legacy) Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
+<br>(Earth Clan legacy) <b>Blood bath:</b> Whenever you strike an enemy down (either kill it or incapacitate it), you gain a number of temporary hit points equal to your proficiency bonus. You then also have advantage on your next attack roll.
+<br>(Sand Clan legacy) <b>Adrenaline Rush:</b> You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.
+<br>(Rock Clan legacy) <b>Endurance:</b> You have advantage on saving throws against exhaustion.
+<br><b>Languages:</b> You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
+<br>
+<br>
+<br>HOBGOBLIN
+<br><b>Ability Scores:</b> Con +2; Int +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.
+<br><b>Size:</b> Your size is Medium.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Martial Training. You are proficient with two martial weapons of your choice and with light armor.
+<br>Fury of the Goblin. When a medium or larger size creature which you already damaged attacks you and deals damage to you. You can use your reaction and attack it back. You can use, weapon attack or cantrip. 
+<br>You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.
+<br><b>Languages:</b> You can speak, read, and write Common and Goblin.
+<br>
+<br>TIEFLING
+<br><b>Ability Scores:</b> Cha +2; Int +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Tieflings mature at the same rate as humans but live a few years longer.
+<br><b>Size:</b> Tieflings are about the same size and build as humans. Your size is Medium.
+<br><b>Darkvision:</b> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Hellish Resistance. You have resistance to fire dam<b>Age:</b>
+<br>Infernal Legacy. You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
+<br><b>Languages:</b> You can speak, read, and write Common and Infernal.
+<br>
+<br>Optional Trait.
+<br>Nature of the Beast. You inherited more than most of the tieflings, your blood is more “pure”. You have disadvantage on attack rolls and saving throws while close to holy items (radius 90 ft.) or while in location touched by good or neutral deities. (Like Churches, Cemeteries, Druid grows, Chapels, close to Altars..). On the other side you have claws and tail. You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike. You can use your tail to hold one not heavy item, such as a potion or dagger. Once you reach 3rd level, you grow bat-like wings which grant you 30 ft flying <b>Speed:</b> Once you reach 9th level, your wings grow larger which grant you 60 ft flying <b>Speed:</b> 
+<br>
+<br>VEDELKAN
+<br><b>Ability Scores:</b> Int +2; Wis +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Vedalken mature slower than humans do, reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.
+<br>Alignment. Vedalken are usually lawful and non-evil.
+<br><b>Size:</b> Tall and slender, Vedalken stand 6 to 6½ feet tall on average and usually weigh less than 200 pounds. Your size is Medium.
+<br>Vedalken Dispassion. You have advantage on all Intelligence, Wisdom, and Charisma saving throws.
+<br>Tireless Precision. You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.
+<br>Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.
+<br>Partially Amphibious. By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.
+<br><b>Languages:</b> You can speak, read, and write Common, Vedalken, and one other language of your choice.
+<br>
+<br>
+<br>
+<br>NÁVŠTEVNÍCI
+<br>AARAKOCRA
+<br><b>Ability Scores:</b> Dex +2; Wis +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 25 ft., fly 50 ft.
+<br>
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years.
+<br>Alignment. Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.
+<br><b>Size:</b> Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.
+<br>Flight. You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.
+<br>Talons and Beak. Your talons and beak are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+<br>Langu<b>Age:</b> You can speak, read, and write Common, Aarakocra, and Auran.
+<br>
+<br>BUGBEAR
+<br><b>Ability Scores:</b> Str +2; Dex +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Bugbears reach adulthood at age 16 and live up to 80 years.
+<br><b>Size:</b> Bugbears are between 6 and 8 feet tall and weigh between 250 and 350 pounds. Your size is Medium.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br><b>Long-Limbed:</b> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br>Sneaky. You are proficient in the Stealth skill.
+<br>Surprise Attack. If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+<br><b>Languages:</b> You can speak, read, and write Common and Goblin.
+<br>
+<br>CHANGELING
+<br><b>Ability Scores:</b> Cha +2; Choose any other +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Changelings mature slightly faster than humans but share a similar lifespan—typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.
+<br>Alignment. Changelings tend toward pragmatic neutrality, and few changelings embrace evil.
+<br><b>Size:</b> Your size is Medium.
+<br>Shapechanger. As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.
+<br>You stay in the new form until you use an action to revert to your true form or until you die.
+<br>Changeling Instincts. You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.
+<br><b>Languages:</b> You can speak, read, and write Common and two other languages of your choice.
+<br>
+<br>
+<br>DRAGONBORN
+<br><b>Ability Scores:</b> Str +2; Cha +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+<br><b>Size:</b> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+<br>Draconic Ancestry. You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+<br>Draconic Ancestry
+<br>Dragon	Damage Type	Breath Weapon
+<br>Black	Acid	5 by 30 ft. line (Dex. save)
+<br>Blue	Lightning	5 by 30 ft. line (Dex. save)
+<br>Brass	Fire	5 by 30 ft. line (Dex. save)
+<br>Bronze	Lightning	5 by 30 ft. line (Dex. save)
+<br>Copper	Acid	5 by 30 ft. line (Dex. save)
+<br>Gold	Fire	15 ft. cone (Dex. save)
+<br>Green	Poison	15 ft. cone (Con. save)
+<br>Red	Fire	15 ft. cone (Dex. save)
+<br>Silver	Cold	15 ft. cone (Con. save)
+<br>White	Cold	15 ft. cone (Con. save)
+<br>Breath Weapon. You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+<br>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+<br>
+<br>After you use your breath weapon, you can't use it again until you complete a short or long rest.
+<br>
+<br>Damage Resistance. You have resistance to the damage type associated with your draconic ancestry.
+<br><b>Languages:</b> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+<br>
+<br>FIRBOLG
+<br><b>Ability Scores:</b> Wis +2; Str +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years.
+<br><b>Size:</b> Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium.
+<br>Firbolg Magic. You can cast detect magic and disguise self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.
+<br>Hidden Step. As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br>Speech of Beast and Leaf. You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.
+<br><b>Languages:</b> You can speak, read, and write Common, Elvish, and Giant.
+<br>
+<br>GOLIATH
+<br><b>Ability Scores:</b> Str +2; Con +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
+<br><b>Size:</b> Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.
+<br>Natural Athlete. You have proficiency in the Athletics skill.
+<br>Stone's Endurance. You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br>Mountain Born. You have resistance to cold dam<b>Age:</b> You're also acclimated to high altitude, including elevations above 20,000 feet.
+<br><b>Languages:</b> You can speak, read, and write Common and Giant.
+<br>
+<br>HARENGON
+<br><b>Ability Scores:</b> Dex +2; Int +1
+<br><b>Size:</b> Small or Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Size:</b> You are Medium or Small. You choose the size when you select this race.
+<br>Hare-Trigger. You can add your proficiency bonus to your initiative rolls.
+<br>Leporine Senses. You have proficiency in the Perception skill.
+<br>Lucky Footwork. When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.
+<br>Rabbit Hop. As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+<br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
+<br>
+<br>KOBOLD
+<br><b>Ability Scores:</b> Str -2; Dex +2; Int +2
+<br><b>Size:</b> Small
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.
+<br><b>Size:</b> Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Grovel, Cower, and Beg. As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you use this trait, you can't use it again until you finish a short or long rest.
+<br>Pack Tactics. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.
+<br><b>Sunlight Sensitivity:</b> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+<br><b>Languages:</b> You can speak, read, and write Common and Draconic.
+<br>
+<br>LIZARDFOLK
+<br><b>Ability Scores:</b> Con +2; Wis +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft., swim 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.
+<br><b>Size:</b> Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.
+<br>Swim <b>Speed:</b> You have a swimming speed of 30 feet.
+<br>Bite. Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+<br>Cunning Artisan. As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.
+<br>Hold Breath. You can hold your breath for up to 15 minutes at a time.
+<br>Hunter's Lore. You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.
+<br>Natural Armor. You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.
+<br>Tip: AC Calculations Don't Stack
+<br>When the game gives you more than one way to calculate your Armor Class, you can use only one of them. You choose the one to use. For example, if you have the Natural Armor trait and the monk's Unarmored Defense feature, you don't mix them together. Instead, you choose which one determines your AC.
+<br>Hungry Jaws. In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
+<br><b>Languages:</b> You can speak, read, and write Common and Draconic.
+<br>
+<br>LOXODON
+<br><b>Ability Scores:</b> Con +2; Wis +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Loxodons physically mature at the same rate as humans, but they live about 450 years. They highly value the weight of wisdom and experience and are considered young until they reach the age of 60.
+<br>Alignment. Most loxodons are lawful, believing in the value of a peaceful, ordered life. They also tend toward good.
+<br><b>Size:</b> Loxodons stand between 7 and 8 feet tall. Their massive bodies weigh between 300 and 400 pounds. Your size is Medium.
+<br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+<br>Loxodon Serenity. You have advantage on saving throws against being charmed or frightened.
+<br>Natural Armor. You have thick, leathery skin. When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.
+<br>Tip: AC Calculations Don't Stack
+<br>When the game gives you more than one way to calculate your Armor Class, you can use only one of them. You choose the one to use. For example, if you have the Natural Armor trait and the monk's Unarmored Defense feature, you don't mix them together. Instead, you choose which one determines your AC.
+<br>
+<br>Trunk. You can grasp things with your trunk, and you can use it as a snorkel. It has a reach of 5 feet, and it can lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options.
+<br>Your trunk can't wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell.
+<br>
+<br>Keen Smell. Thanks to your sensitive trunk, you have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell.
+<br><b>Languages:</b> You can speak, read, and write Common and Loxodon.
+<br>
+<br>MINOTAUR
+<br><b>Ability Scores:</b> Str +2; Con +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Minotaurs mature and age at about the same rate as humans.
+<br><b>Size:</b> Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium.
+<br>Horns. Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+<br>Goring Rush. Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action.
+<br>Hammering Horns. Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.
+<br>Imposing Presence. You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.
+<br><b>Languages:</b> You can speak, read, and write Common and Minotaur.
+<br>
+<br>SHIFTER
+<br><b>Ability Scores:</b> See ASI from Shifting
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br>Bestial Instincts. Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.
+<br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray.
+<br>Shifting. As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 × your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+<br>Whenever you shift, you gain an additional benefit based on one of the following options (choose when you select this race):
+<br>
+<br>Beasthide. You gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class. <b>Ability Scores:</b> Con +2; Str +1
+<br>
+<br>Longtooth. When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. <b>Ability Scores:</b> Str +2; Dex +1
+<br>
+<br>Swiftstride. While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks. <b>Ability Scores:</b> Dex +2; Cha +1
+<br>
+<br>Wildhunt. While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated. <b>Ability Scores:</b> Wis +2; Dex +1
+<br>
+<br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
+<br>
+<br>TABAXI
+<br><b>Ability Scores:</b> Dex +2; Cha +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft., climb 20 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Tabaxi have lifespans equivalent to humans.
+<br><b>Size:</b> Tabaxi are taller on average than humans and relatively slender. Your size is Medium.
+<br><b>Darkvision:</b> You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+<br>Feline Agility. Your reflexes and agility allow you to move with a burst of <b>Speed:</b> When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+<br>Cat's Claws. Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+<br>Cat's Talents. You have proficiency in the Perception and Stealth <b>Skills:</b>
+<br><b>Languages:</b> You can speak, read, and write Common and one other language of your choice.
+<br>
+<br>TORTLE
+<br><b>Ability Scores:</b> Str +2; Wis +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.
+<br>Alignment. Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they <b>Age:</b> Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.
+<br><b>Size:</b> Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium.
+<br>Claws. Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike.
+<br>Hold Breath. You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.
+<br>Natural Armor. Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.
+<br>Shell Defense. You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
+<br>Survival Instinct. You gain proficiency in the Survival skill. Tortles have finely honed survival instincts.
+<br><b>Languages:</b> You can speak, read, and write Aquan and Common.
+<br>
+<br>WARFORGED
+<br><b>Ability Scores:</b> Con +2; Choose any other +1
+<br><b>Size:</b> Medium
+<br><b>Speed:</b> 30 ft.
+<br><br><h3>Traits</h3>
+<br><b>Age:</b> A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to <b>Age:</b> You are immune to magical aging effects.
+<br>Alignment. Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.
+<br><b>Size:</b> Your size is Medium.
+<br>Constructed Resilience. You were created to have remarkable fortitude, represented by the following benefits:
+<br>You have advantage on saving throws against being poisoned, and you have resistance to poison dam<b>Age:</b>
+<br>You don't need to eat, drink, or breathe.
+<br>You are immune to disease.
+<br>You don't need to sleep, and magic can't put you to sleep.
+<br>Sentry's Rest. When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.
+<br>Integrated Protection. Your body has built-in defensive layers, which can be enhanced with armor:
+<br>You gain a +1 bonus to Armor Class.
+<br>You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.
+<br>While you live, the armor incorporated into your body can't be removed against your will.
+<br>Specialized Design. You gain one skill proficiency and one tool proficiency of your choice.
+<br><b>Languages:</b> You can speak, read, and write Common and one other language of your choice.
+<br>
+<br>
+<br>
