@@ -237,7 +237,7 @@ ALP Rasy
 <br>
 <br>Nová Krv
 <br>
-<br>AASIMAR
+<br><h1>AASIMAR</h1>
 <br><b>Ability Scores:</b> Cha +2; and choose one (a) Str +1  (b) Wis +1 (c) Con +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft.
@@ -246,19 +246,19 @@ ALP Rasy
 <br><b>Age:</b> Aasimar mature at the same rate as humans, but they can live up to 160 years.
 <br><b>Size:</b> Aasimar have the same range of height and weight as humans.
 <br><b>Darkvision:</b> Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br>Celestial Resistance. You have resistance to necrotic damage and radiant dam<b>Age:</b>
-<br>Healing Hands. As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
-<br>Light Bearer. You know the light cantrip. Charisma is your spellcasting ability for it.
+<br><b>Celestial Resistance:</b> You have resistance to necrotic damage and radiant dam<b>Age:</b>
+<br><b>Healing Hands:</b> As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
+<br><b>Light Bearer:</b> You know the light cantrip. Charisma is your spellcasting ability for it.
 <br><b>Languages:</b> You can speak, read, and write Common and Celestial.
 <br>Celestial Revelation. When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.
-<br>Necrotic Shroud. Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br><b>- Necrotic Shroud:</b> Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
 <br>
-<br>Radiant Consumption. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br><b>- Radiant Consumption:</b> Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
 <br>
-<br>Radiant Soul. Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
+<br><b>- Radiant Soul:</b> Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
 <br>
 <br>
-<br>DWORC
+<br><h1>DWORC</h1>
 <br><b>Ability Scores:</b> Choose one (a) Str +2; Con +1 or (b)  Str +1; Con +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft.
@@ -266,59 +266,59 @@ ALP Rasy
 <br><b>Age:</b> Dworcs mature at the same rate as dwarfs (so as humans), but they're considered young until they reach the age of 35. On average, they live about 125 years.
 <br><b>Size:</b> Borks are usually around 5.5 feet tall and weigh between 180 and 230 pounds. Your size is Medium.
 <br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br>Dworcs Resilience. You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
+<br><b>Dworcs Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
 <br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
 <br><b>Primal Intuition:</b> You have proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.
 <br><b>Languages:</b> You can speak, read, and write Common, Orc and Dwarvish.
 <br>
 <br>
-<br>GENASI
+<br><h1>GENASI</h1>
 <br><b>Ability Scores:</b> Con +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.
-<br>Alignment. Independent and self-reliant, genasi tend toward a chaotic alignment.
+<br><b>Alignment:</b> Independent and self-reliant, genasi tend toward a chaotic alignment.
 <br><b>Size:</b> Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.
 <br><b>Languages:</b> You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
 <br>
-<br>Genasi are split into five sub-races: Air, Earth, Fire, Lightning and Water
+<br><b>Genasi are split into five sub-races:</b> Air, Earth, Fire, Lightning and Water
 <br>
 <br>
-<br>AIR
+<br><h2>AIR</h2>
 <br><b>Ability Scores:</b> Dex +1
 <br>
-<br>Unending Breath. You can hold your breath indefinitely while you're not incapacitated.
-<br>Mingle with the Wind. You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br><b>Unending Breath:</b> You can hold your breath indefinitely while you're not incapacitated.
+<br><b>Mingle with the Wind:</b> You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 <br>
-<br>EARTH
+<br><h2>EARTH</h2>
 <br><b>Ability Scores:</b> Str +1
 <br>
-<br>Earth Walk. You can move across difficult terrain made of earth or stone without expending extra movement.
-<br>Merge with Stone. You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br><b>Earth Walk:</b> You can move across difficult terrain made of earth or stone without expending extra movement.
+<br><b>Merge with Stone:</b> You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 <br>
-<br>FIRE
+<br><h2>FIRE</h2>
 <br><b>Ability Scores:</b> Int +1
 <br>
 <br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.
-<br>Fire Resistance. You have resistance to fire dam<b>Age:</b>
-<br>Reach to the Blaze. You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+<br><b>Fire Resistance:</b> You have resistance to fire dam<b>Age:</b>
+<br><b>Reach to the Blaze:</b> You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
 <br>
-<br>LIGHTNING
+<br><h2>LIGHTNING</h2>
 <br><b>Ability Scores:</b> Cha +1
 <br>
-<br>Tireless. Your long rests require only half of normal resting time. You finish the long rest after only 4 hours of resting (does not include light activity). You otherwise obey all the rules for a long rest; only the duration is changed.
-<br>Lightning rod. You have resistance to Lightning and Thudner dam<b>Age:</b>
-<br>Storm on horizon. You can cast the Blur to go to page 3 spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+<br><b>Tireless:</b> Your long rests require only half of normal resting time. You finish the long rest after only 4 hours of resting (does not include light activity). You otherwise obey all the rules for a long rest; only the duration is changed.
+<br><b>Lightning rod:</b> You have resistance to Lightning and Thudner dam<b>Age:</b>
+<br><b>Storm on horizon:</b>. You can cast the Blur to go to page 3 spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 <br>
-<br>WATER
+<br><h2>WATER</h2>
 <br><b>Ability Scores:</b> Wis +1
 <br><b>Speed:</b> swim 30 ft.
 <br>
-<br>Acid Resistance. You have resistance to acid dam<b>Age:</b>
-<br>Amphibious. You can breathe air and water.
-<br>Swim. You have a swimming speed of 30 feet.
-<br>Call to the Wave. You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+<br><b>Acid Resistance:</b> You have resistance to acid dam<b>Age:</b>
+<br><b>Amphibious:</b> You can breathe air and water.
+<br><b>Swim:</b> You have a swimming speed of 30 feet.
+<br><b>Call to the Wave:</b> You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
 <br>
 <br>
 <br>Half-Elf
@@ -391,12 +391,12 @@ ALP Rasy
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Vedalken mature slower than humans do, reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.
-<br>Alignment. Vedalken are usually lawful and non-evil.
+<br><b>Alignment:</b> Vedalken are usually lawful and non-evil.
 <br><b>Size:</b> Tall and slender, Vedalken stand 6 to 6½ feet tall on average and usually weigh less than 200 pounds. Your size is Medium.
 <br>Vedalken Dispassion. You have advantage on all Intelligence, Wisdom, and Charisma saving throws.
 <br>Tireless Precision. You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.
 <br>Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.
-<br>Partially Amphibious. By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.
+<br>Partially <b>Amphibious:</b> By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.
 <br><b>Languages:</b> You can speak, read, and write Common, Vedalken, and one other language of your choice.
 <br>
 <br>
@@ -409,7 +409,7 @@ ALP Rasy
 <br>
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years.
-<br>Alignment. Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.
+<br><b>Alignment:</b> Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.
 <br><b>Size:</b> Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.
 <br>Flight. You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.
 <br>Talons and Beak. Your talons and beak are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
@@ -435,7 +435,7 @@ ALP Rasy
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Changelings mature slightly faster than humans but share a similar lifespan—typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.
-<br>Alignment. Changelings tend toward pragmatic neutrality, and few changelings embrace evil.
+<br><b>Alignment:</b> Changelings tend toward pragmatic neutrality, and few changelings embrace evil.
 <br><b>Size:</b> Your size is Medium.
 <br>Shapechanger. As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.
 <br>You stay in the new form until you use an action to revert to your true form or until you die.
@@ -546,7 +546,7 @@ ALP Rasy
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Loxodons physically mature at the same rate as humans, but they live about 450 years. They highly value the weight of wisdom and experience and are considered young until they reach the age of 60.
-<br>Alignment. Most loxodons are lawful, believing in the value of a peaceful, ordered life. They also tend toward good.
+<br><b>Alignment:</b> Most loxodons are lawful, believing in the value of a peaceful, ordered life. They also tend toward good.
 <br><b>Size:</b> Loxodons stand between 7 and 8 feet tall. Their massive bodies weigh between 300 and 400 pounds. Your size is Medium.
 <br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
 <br>Loxodon Serenity. You have advantage on saving throws against being charmed or frightened.
@@ -612,7 +612,7 @@ ALP Rasy
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.
-<br>Alignment. Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they <b>Age:</b> Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.
+<br><b>Alignment:</b> Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they <b>Age:</b> Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.
 <br><b>Size:</b> Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium.
 <br>Claws. Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike.
 <br>Hold Breath. You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.
@@ -627,7 +627,7 @@ ALP Rasy
 <br><b>Speed:</b> 30 ft.
 <br><br><h3>Traits</h3>
 <br><b>Age:</b> A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to <b>Age:</b> You are immune to magical aging effects.
-<br>Alignment. Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.
+<br><b>Alignment:</b> Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.
 <br><b>Size:</b> Your size is Medium.
 <br>Constructed Resilience. You were created to have remarkable fortitude, represented by the following benefits:
 <br>You have advantage on saving throws against being poisoned, and you have resistance to poison dam<b>Age:</b>
