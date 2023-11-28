@@ -382,7 +382,7 @@ ALP Rasy
 <br><b>Infernal Legacy:</b> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
 <br><b>Languages:</b> You can speak, read, and write Common and Infernal.
 <br>
-<br><b>Optional Trait:</b>
+<br><h3>Optional Trait:</h3>
 <br><b>Nature of the Beast:</b> You inherited more than most of the tieflings, your blood is more “pure”. You have disadvantage on attack rolls and saving throws while close to holy items (radius 90 ft.) or while in location touched by good or neutral deities. (Like Churches, Cemeteries, Druid grows, Chapels, Altars, Ritual sites.. etc.). On the other side you have Claws and Tail. 
 <br><b>Claws and Tail:</b> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike. You can use your tail to hold one not heavy item, such as a potion or dagger. 
 <br><b>Wings of Hades:</b> Once you reach 3rd level, you grow bat-like wings which grant you 30 ft flying speed. Once you reach 9th level, your wings grow larger which grant you 60 ft flying speed. 
