@@ -42,7 +42,7 @@ ALP Rasy
 <br><b>Speed:</b> Climb 30 ft
 <br>
 <br><b>Forest Elf Training:</b> You have proficiency with the longbow, oversized Longbow, whip and maul. 
-<br><b>Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall dam<b>Age:</b>
+<br><b>Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall damage
 <br><b>Long-Limbed:</b> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
 <br>
 <br><h2>HIGH</h2>
@@ -164,7 +164,7 @@ ALP Rasy
 <br><b>Size:</b> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
 <br><b>Speed:</b> Your speed is not reduced by wearing heavy armor.
 <br><b>Darkvision:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br><b>Dwarven Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
+<br><b>Dwarven Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison damage
 <br><b>Dwarven Combat Training:</b> You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.
 <br><b>Stonecunning:</b> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
 <br><b>Languages:</b> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
@@ -185,7 +185,7 @@ ALP Rasy
 <br><b>Ability Scores:</b> Dex +1
 <br>
 <br><b>Tool Proficiency:</b> You gain proficiency with the Smith's tools.
-<br><b>Heat of the Forge:</b> You gain resistance to Fire dam<b>Age:</b>
+<br><b>Heat of the Forge:</b> You gain resistance to Fire damage
 <br>
 <br><h2>MINER</h2>
 <br><b>Ability Scores:</b> Str +1
@@ -246,7 +246,7 @@ ALP Rasy
 <br><b>Age:</b> Aasimar mature at the same rate as humans, but they can live up to 160 years.
 <br><b>Size:</b> Aasimar have the same range of height and weight as humans.
 <br><b>Darkvision:</b> Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br><b>Celestial Resistance:</b> You have resistance to necrotic damage and radiant dam<b>Age:</b>
+<br><b>Celestial Resistance:</b> You have resistance to necrotic damage and radiant damage
 <br><b>Healing Hands:</b> As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
 <br><b>Light Bearer:</b> You know the light cantrip. Charisma is your spellcasting ability for it.
 <br><b>Languages:</b> You can speak, read, and write Common and Celestial.
@@ -266,7 +266,7 @@ ALP Rasy
 <br><b>Age:</b> Dworcs mature at the same rate as dwarfs (so as humans), but they're considered young until they reach the age of 35. On average, they live about 125 years.
 <br><b>Size:</b> Borks are usually around 5.5 feet tall and weigh between 180 and 230 pounds. Your size is Medium.
 <br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br><b>Dworcs Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison dam<b>Age:</b>
+<br><b>Dworcs Resilience:</b> You have advantage on saving throws against poison, and you have resistance against poison damage
 <br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
 <br><b>Primal Intuition:</b> You have proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.
 <br><b>Languages:</b> You can speak, read, and write Common, Orc and Dwarvish.
@@ -301,21 +301,21 @@ ALP Rasy
 <br><b>Ability Scores:</b> Int +1
 <br>
 <br><b>Darkvision:</b> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.
-<br><b>Fire Resistance:</b> You have resistance to fire dam<b>Age:</b>
+<br><b>Fire Resistance:</b> You have resistance to fire damage
 <br><b>Reach to the Blaze:</b> You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
 <br>
 <br><h2>LIGHTNING</h2>
 <br><b>Ability Scores:</b> Cha +1
 <br>
 <br><b>Tireless:</b> Your long rests require only half of normal resting time. You finish the long rest after only 4 hours of resting (does not include light activity). You otherwise obey all the rules for a long rest; only the duration is changed.
-<br><b>Lightning rod:</b> You have resistance to Lightning and Thudner dam<b>Age:</b>
+<br><b>Lightning rod:</b> You have resistance to Lightning and Thudner damage
 <br><b>Storm on horizon:</b>. You can cast the Blur to go to page 3 spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
 <br>
 <br><h2>WATER</h2>
 <br><b>Ability Scores:</b> Wis +1
 <br><b>Speed:</b> swim 30 ft.
 <br>
-<br><b>Acid Resistance:</b> You have resistance to acid dam<b>Age:</b>
+<br><b>Acid Resistance:</b> You have resistance to acid damage
 <br><b>Amphibious:</b> You can breathe air and water.
 <br><b>Swim:</b> You have a swimming speed of 30 feet.
 <br><b>Call to the Wave:</b> You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
@@ -334,7 +334,7 @@ ALP Rasy
 <br><b>(Human legacy) Skill Versatility:</b> You gain proficiency in two skills of your choice.
 <br><b>(Coast legacy) <b>Lungs of sea dog:</b> When calculating how long you can hold your breath or not choke once you run out of breath you count your Constitution modifier twice.
 <br><b>(Drow legacy) Drow Magic:</b> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
-<br><b>(Forest legacy) Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall dam<b>Age:</b>
+<br><b>(Forest legacy) Natural climber:</b> You have a climbing speed of 30 feet, you receive only half damage from fall damage
 <br><b>(High legacy) Arcanist:</b> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
 <br><b>(Sea legacy) Underwater Darkvision:</b> While you are submerged under water you can see in underwater dim light within 120 feet of you as if it were bright light, and in underwater darkness as if it were dim light.
 <br><b>Languages:</b> You can speak, read, and write Common, Elvish, and one extra language of your choice.
@@ -378,7 +378,7 @@ ALP Rasy
 <br><b>Age:</b> Tieflings mature at the same rate as humans but live a few years longer.
 <br><b>Size:</b> Tieflings are about the same size and build as humans. Your size is Medium.
 <br><b>Darkvision:</b> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-<br><b>Hellish Resistance:</b> You have resistance to fire dam<b>Age:</b>
+<br><b>Hellish Resistance:</b> You have resistance to fire damage
 <br><b>Infernal Legacy:</b> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
 <br><b>Languages:</b> You can speak, read, and write Common and Infernal.
 <br>
@@ -526,7 +526,7 @@ ALP Rasy
 <br><b>Natural Athlete:</b> You have proficiency in the Athletics skill.
 <br><b>Stone's Enduranc:</b>. You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.
 <br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
-<br><b>Mountain Born:</b> You have resistance to cold dam<b>Age:</b> You're also acclimated to high altitude, including elevations above 20,000 feet.
+<br><b>Mountain Born:</b> You have resistance to cold damage You're also acclimated to high altitude, including elevations above 20,000 feet.
 <br><b>Languages:</b> You can speak, read, and write Common and Giant.
 <br>
 <h1>HARENGON</h1>
@@ -662,7 +662,7 @@ ALP Rasy
 <br><b>Alignment:</b> Most warforged take comfort in order and discipline, tending toward lawful. But some have absorbed the morality, or lack thereof, of the beings with which they served.
 <br><b>Size:</b> Your size is Medium.
 <br><b>Constructed Resilience:</b> You were created to have remarkable fortitude, represented by the following benefits:
-<br> - You have advantage on saving throws against being poisoned, and you have resistance to poison dam<b>Age:</b>
+<br> - You have advantage on saving throws against being poisoned, and you have resistance to poison damage
 <br> - You don't need to eat, drink, or breathe.
 <br> - You are immune to disease.
 <br> - You don't need to sleep, and magic can't put you to sleep.
