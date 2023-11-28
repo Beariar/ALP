@@ -2,7 +2,7 @@ ALP Rasy
 <br>
 <br>
 <br>
-<br><h1>ELF</h1>
+<h1>ELF</h1>
 <br><b>Ability Scores:</b> Dex +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -66,7 +66,7 @@ ALP Rasy
 <br>
 <br>
 <br>
-<br><h1>GNOME</h1>
+<h1>GNOME</h1>
 <br><b>Ability Scores:</b> Int +2
 <br><b>Size:</b> Small
 <br><b>Speed:</b> 25 ft.
@@ -98,7 +98,7 @@ ALP Rasy
 <br><b>Powerful Build:</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. 
 <br><b>Smither:</b> When you spend a short rest attending to a weapon with which you are proficient with you will learn how to use it in the smartest way. This will increase its durability by 1 for you. (Noone else can benefit from this.) You can do this once per weapon. You can only have one weapon ready at time.
 <br>
-<br><h1>GOBLIN</h1>
+<h1>GOBLIN</h1>
 <br>
 <br><b>Ability Scores:</b> Dex +3; Str -2; choose any other +1
 <br><b>Size:</b> Small
@@ -112,7 +112,7 @@ ALP Rasy
 <br><b>Nimble Escape:</b> You can take the Disengage or Hide action as a bonus action on each of your turns.
 <br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
 <br>
-<br><h1>HUMAN</h1>
+<h1>HUMAN</h1>
 <br><b>Ability Scores:</b> Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -126,7 +126,7 @@ ALP Rasy
 <br><b>Feat:</b> You gain one feat of your choice.
 <br>
 <br>
-<br><h1>ORC</h1>
+<h1>ORC</h1>
 <br><b>Ability Scores:</b> Str +3; Int -2; choose any other +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -154,7 +154,7 @@ ALP Rasy
 <br><b>Tough as Hill:</b> Whenever you gain temporary hit points, the amount of temporary hit points you receive is increased by an additional 50% (rounded up). For example, if you would gain 11 temporary hit points, you gain 17 instead. (11+5.5)
 <br>
 <br>
-<br><h1>DWARF</h1>
+<h1>DWARF</h1>
 <br><b>Ability Scores:</b> Con +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft.
@@ -201,7 +201,7 @@ ALP Rasy
 <br><b>Tool Proficiency:</b> You gain proficiency with the Jeweler's tools.
 <br><b>Craft and Sell:</b> You gain proficiency with two skills: Sleight of Hand and Persuasion.
 <br>
-<br><h1>HALFLING</h1>
+<h1>HALFLING</h1>
 <br><b>Ability Scores:</b> Dex +2
 <br><b>Size:</b> Small
 <br><b>Speed:</b> 25 ft.
@@ -237,7 +237,7 @@ ALP Rasy
 <br>
 <br>Nová Krv
 <br>
-<br><h1>AASIMAR</h1>
+<h1>AASIMAR</h1>
 <br><b>Ability Scores:</b> Cha +2; and choose one (a) Str +1  (b) Wis +1 (c) Con +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft.
@@ -258,7 +258,7 @@ ALP Rasy
 <br><b>- Radiant Soul:</b> Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.
 <br>
 <br>
-<br><h1>DWORC</h1>
+<h1>DWORC</h1>
 <br><b>Ability Scores:</b> Choose one (a) Str +2; Con +1 or (b)  Str +1; Con +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft.
@@ -272,7 +272,7 @@ ALP Rasy
 <br><b>Languages:</b> You can speak, read, and write Common, Orc and Dwarvish.
 <br>
 <br>
-<br><h1>GENASI</h1>
+<h1>GENASI</h1>
 <br><b>Ability Scores:</b> Con +2
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -321,7 +321,7 @@ ALP Rasy
 <br><b>Call to the Wave:</b> You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
 <br>
 <br>
-<br><h1>Half-Elf</h1>
+<h1>Half-Elf</h1>
 <br><b>Ability Scores:</b> Cha +2; Choose any other two unique +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -339,7 +339,7 @@ ALP Rasy
 <br><b>(Sea legacy) Underwater Darkvision:</b> While you are submerged under water you can see in underwater dim light within 120 feet of you as if it were bright light, and in underwater darkness as if it were dim light.
 <br><b>Languages:</b> You can speak, read, and write Common, Elvish, and one extra language of your choice.
 <br>
-<br><h1>Half-Orc</h1>
+<h1>Half-Orc</h1>
 <br><b>Ability Scores:</b> Str +2; Con +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -357,7 +357,7 @@ ALP Rasy
 <br><b>Languages:</b> You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
 <br>
 <br>
-<br><h1>HOBGOBLIN</h1>
+<h1>HOBGOBLIN</h1>
 <br><b>Ability Scores:</b> Con +2; Int +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -370,7 +370,7 @@ ALP Rasy
 <br>You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.
 <br><b>Languages:</b> You can speak, read, and write Common and Goblin.
 <br>
-<br><h1>TIEFLING</h1>
+<h1>TIEFLING</h1>
 <br><b>Ability Scores:</b> Cha +2; Int +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -387,7 +387,7 @@ ALP Rasy
 <br><b>Claws and Tail:</b> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike. You can use your tail to hold one not heavy item, such as a potion or dagger. 
 <br><b>Wings of Hades:</b> Once you reach 3rd level, you grow bat-like wings which grant you 30 ft flying speed. Once you reach 9th level, your wings grow larger which grant you 60 ft flying speed. 
 <br>
-<br><h1>VEDELKAN</h1>
+<h1>VEDELKAN</h1>
 <br><b>Ability Scores:</b> Int +2; Wis +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -404,7 +404,7 @@ ALP Rasy
 <br>
 <br>
 <br>NÁVŠTEVNÍCI
-<br><h1>AARAKOCRA</h1>
+<h1>AARAKOCRA</h1>
 <br><b>Ability Scores:</b> Dex +2; Wis +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 25 ft., fly 50 ft.
@@ -417,7 +417,7 @@ ALP Rasy
 <br><b>Talons and Beak:</b> Your talons and beak are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
 <br>Langu<b>Age:</b> You can speak, read, and write Common, Aarakocra, and Auran.
 <br>
-<br><h1>BUGBEAR</h1>
+<h1>BUGBEAR</h1>
 <br><b>Ability Scores:</b> Str +2; Dex +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -431,7 +431,7 @@ ALP Rasy
 <br><b>Surprise Attack:</b> If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
 <br><b>Languages:</b> You can speak, read, and write Common and Goblin.
 <br>
-<br><h1>CHANGELING</h1>
+<h1>CHANGELING</h1>
 <br><b>Ability Scores:</b> Cha +2; Choose any other +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -445,7 +445,7 @@ ALP Rasy
 <br><b>Languages:</b> You can speak, read, and write Common and two other languages of your choice.
 <br>
 <br>
-<br><h1>DRAGONBORN</h1>
+<h1>DRAGONBORN</h1>
 <br><b>Ability Scores:</b> Str +2; Cha +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -503,7 +503,7 @@ ALP Rasy
 <br><b>Damage Resistance:</b> You have resistance to the damage type associated with your draconic ancestry.
 <br><b>Languages:</b> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
 <br>
-<br><h1>FIRBOLG</h1>
+<h1>FIRBOLG</h1>
 <br><b>Ability Scores:</b> Wis +2; Str +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -516,7 +516,7 @@ ALP Rasy
 <br><b>Speech of Beast and Leaf:</b> You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.
 <br><b>Languages:</b> You can speak, read, and write Common, Elvish, and Giant.
 <br>
-<br><h1>GOLIATH</h1>
+<h1>GOLIATH</h1>
 <br><b>Ability Scores:</b> Str +2; Con +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -529,7 +529,7 @@ ALP Rasy
 <br><b>Mountain Born:</b> You have resistance to cold dam<b>Age:</b> You're also acclimated to high altitude, including elevations above 20,000 feet.
 <br><b>Languages:</b> You can speak, read, and write Common and Giant.
 <br>
-<br><h1>HARENGON</h1>
+<h1>HARENGON</h1>
 <br><b>Ability Scores:</b> Dex +2; Int +1
 <br><b>Size:</b> Small or Medium
 <br><b>Speed:</b> 30 ft.
@@ -541,7 +541,7 @@ ALP Rasy
 <br><b>Rabbit Hop:</b> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 <br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
 <br>
-<br><h1>KOBOLD</h1>
+<h1>KOBOLD</h1>
 <br><b>Ability Scores:</b> Str -2; Dex +2; Int +2
 <br><b>Size:</b> Small
 <br><b>Speed:</b> 30 ft.
@@ -554,7 +554,7 @@ ALP Rasy
 <br><b>Sunlight Sensitivity:</b> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
 <br><b>Languages:</b> You can speak, read, and write Common and Draconic.
 <br>
-<br><h1>LIZARDFOLK</h1>
+<h1>LIZARDFOLK</h1>
 <br><b>Ability Scores:</b> Con +2; Wis +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft., swim 30 ft.
@@ -572,7 +572,7 @@ ALP Rasy
 <br><b>Hungry Jaws:</b> In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
 <br><b>Languages:</b> You can speak, read, and write Common and Draconic.
 <br>
-<br><h1>LOXODON</h1>
+<h1>LOXODON</h1>
 <br><b>Ability Scores:</b> Con +2; Wis +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -592,7 +592,7 @@ ALP Rasy
 <br><b>Keen Smell:</b> Thanks to your sensitive trunk, you have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell.
 <br><b>Languages:</b> You can speak, read, and write Common and Loxodon.
 <br>
-<br><h1>MINOTAUR</h1>
+<h1>MINOTAUR</h1>
 <br><b>Ability Scores:</b> Str +2; Con +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -605,7 +605,7 @@ ALP Rasy
 <br><b>Imposing Presence:</b> You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.
 <br><b>Languages:</b> You can speak, read, and write Common and Minotaur.
 <br>
-<br><h1>SHIFTER</h1>
+<h1>SHIFTER</h1>
 <br><b>Ability Scores:</b> See ASI from Shifting
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -625,7 +625,7 @@ ALP Rasy
 <br>
 <br><b>Languages:</b> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
 <br>
-<br><h1>TABAXI</h1>
+<h1>TABAXI</h1>
 <br><b>Ability Scores:</b> Dex +2; Cha +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft., climb 20 ft.
@@ -638,7 +638,7 @@ ALP Rasy
 <br><b>Cat's Talents:</b> You have proficiency in the Perception and Stealth <b>Skills:</b>
 <br><b>Languages:</b> You can speak, read, and write Common and one other language of your choice.
 <br>
-<br><h1>TORTLE</h1>
+<h1>TORTLE</h1>
 <br><b>Ability Scores:</b> Str +2; Wis +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
@@ -653,7 +653,7 @@ ALP Rasy
 <br><b>Survival Instinct:</b> You gain proficiency in the Survival skill. Tortles have finely honed survival instincts.
 <br><b>Languages:</b> You can speak, read, and write Aquan and Common.
 <br>
-<br><h1>WARFORGED</h1>
+<h1>WARFORGED</h1>
 <br><b>Ability Scores:</b> Con +2; Choose any other +1
 <br><b>Size:</b> Medium
 <br><b>Speed:</b> 30 ft.
