@@ -143,6 +143,8 @@
 <body>
     <div id="HlavnyNadpis">
         <h1>Akadémia Lovcov Príšer</h1>
+    </div>
+        <div id="HlavnyNadpis">
         <img id="mapImage" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulty_All.png?raw=true"
             alt="Fakulty">
     </div>
