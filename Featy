@@ -1,0 +1,275 @@
+Shield Expert
+Potrebné: Poznať feat "Shield Master"
+
+Light štíť
+
+útoky so zbraňou v tejto ruke je profficient (ak je zbraň proficient) a nemá disadvantage na damage roll (stále však platia všetky obmedzenia podľa dual-wielding pravidiel)
+
+štíť sa dá použiť aj na útok, útok s ním je profficient a dáva 1d4 B damage (týmto sa klasifikuje štíť aj ako zbraň a môže sa použiť na reakciu "vykrytie", pre tento účel má štíť výdrž 3)
+
+Medium štíť
+
+Aj keď nie je zbraň, dá sa použiť na reakciu "vykrytie" a má výdrž 10
+
+Heavy štíť
+
+stráca vlastnosť "Prítaž"
+
+dáva spojencovi, ktorý stojí pri ruke so štítom a nie je vzdialený viac ako 5 ft "half cover"
+
+Quick Reflexes
+Potrebné: dex 13 alebo viac
+
+You have honed your reflexes to a razor edge, allowing you to use two reactions instead of one.
+
+You can use two reactions during your turn.
+
+Barbaric Infusion
+Prerequisite: Barbarian class, Wisdom or Intelligence 13 or higher
+
+You have learned to channel your raw, primal power into your weapons, infusing them with destructive potential. When you choose this feat, you gain the following benefits:
+
+Infused Weapons: You can infuse two weapons at a time with your primal rage. Only you can benefit from the weapon infusion. These infused weapons gain one additional durability and one of the following properties:
+
+Fury Strike: While raging, when you hit a creature with an infused weapon, you can choose to unleash your fury by sacrificing your rages left. The target takes additional damage equal to your missing health. This will leave you only with your current rage.
+
+Rending Blade: While wielding an infused weapon, your critical hits deal extra damage equal to your Barbarian level. (This damage is not doubled by the critical hit, it's only added to it.)
+
+Thunderous Impact: Once per round when you hit a creature with an infused weapon, you can choose to move the target. The target must succeed on a Strength saving throw (DC 8 + your Strength modifier + your proficiency bonus) or be pushed 10 feet away, or knocked prone.
+
+Savage Mastery: Your mastery over the art of battle allows you to adapt your infused weapons based on the situation. You can change the properties of your infused weapons during a long rest. 
+
+Anger issues: Your relentless combat style empowers your rage abilities. While wielding an infused weapon, you gain additional use of your rage ability.
+
+Guard Bard
+Prerequisite: Bard class, Dexterity 13 or higher
+
+You've honed your Bardic skills to become a versatile protector for your party. When you choose this feat, you gain the following benefits:
+
+Evasive Melody: You can use your Bardic Inspiration to grant a bonus to AC instead of an attack roll, saving throw, or ability check. When you provide a creature with your Bardic Inspiration die, they can choose to add the roll to their AC on a reaction against an incoming attack. This AC lasts only till the end of the current creature's turn.
+
+Shielding Performance: You've learned to blend your bardic magic with protective spells. Once per long rest when you cast a spell from the Bard spell list that affects you, you can choose to cast it as if it were one level higher than the spell slot you use. This feature allows you to bolster your own defenses to provide support to your allies longer.
+
+Diverse Resilience: Your versatility extends to resisting various forms of damage. Once during long rest, you can expend a use of your Bardic Inspiration to grant yourself and up to proficiency bonus allies resistance to a specific damage type. The type is determined by the result of your Bardic Inspiration roll. This resistance is active until the next short or long rest.
+
+- Piercing
+
+- Slashing
+
+- Bludgeoning
+
+- Cold
+
+- Fire
+
+- Acid
+
+- Poison
+
+- Lightning
+
+- Thunder
+
+- Necrotic
+
+- Radiant
+
+Cleric's Mercy
+Prerequisite: Cleric class, Wisdom 13 or higher
+
+You have honed your divine abilities to exploit vulnerabilities in your enemies and provide enhanced healing to your allies. When you choose this feat, you gain the following benefits:
+
+Merciful Touch: You can use your divine powers to heal your allies more effectively when conditions are in your favor. Once per long rest when you cast a healing spell that targets an ally within 5 feet of an enemy, you can add your Wisdom modifier times your Proficiency Bonus to the amount of hit points healed. 
+
+Clever Healer: Your understanding of vulnerabilities allows you to focus on weak points and enhance your healing spells. Once per long rest when you cast a healing spell, and the target has a condition, which grants advantage to attack rolls against it, you maximize the amount of hit points healed by that spell.
+
+Unexpected blessing: Once per long rest when you cast healing spell while hidden you can grant resistance to one of the damage: Piercing, Slashing, Bludgeoning, Cold, Fire
+
+Primal Druidic 
+Prerequisite: Druid class, Wisdom 13 or higher
+
+You have honed your connection to the primal forces of nature, you gain the following benefits:
+
+Magical Beast: When an ally which can cast any spell or cantrip is within 5 feet of you while you are in wild shape, you can cast Cantrips. For those you ignore the verbal component.
+
+Predator instinct: Once per long rest when you have advantage on attack, you can increase the damage done by your Wisdom modifier times your Proficiency Bonus.
+
+Tactical Leadership
+Prerequisite: Fighter class, Charisma 13 or higher
+
+You've developed a knack for inspiring your fellow warriors with your strategic mind and martial prowess. When you choose this feat, you gain the following benefits:
+
+Inspiring Presence: When using your ability Action Surge, you can choose a friendly creature within 60 feet of you that can see or hear you. Until the start of your next turn you grant that creature an advantage on attack roll, saving throw or ability check.
+
+Tactical Coordination: Your strategic thinking allows you to effectively coordinate your team. Once per long rest, when you use your extra attack you can use your bonus action to grant an extra bonus action to an ally within 10 feet of you. This bonus action then can be used by an ally to Disengage, or Hide, or even to make an extra attack.
+
+Monastic Inspiration
+Prerequisite: Monk class, Charisma 13 or higher
+
+You've learned to channel your inner power and inspiration to aid your allies in combat. When you choose this feat, you gain the following benefits:
+
+Ki-Fueled Support: When you use Ki-point to deal damage to an enemy, you can inspire an ally within 30 feet of you. This ally receives the dice size of your Martial Arts dice. They can add it to one attack roll they make against an enemy before the start of your next turn. The ally must use this bonus on their first attack or the effect is lost.
+
+Helping hand: When a ranged weapon attack against your ally flies within 5 feet of you, as a reaction you can use your ability Deflect Missile on this attack. You can use this feature number of times equal to your Proficiency Bonus.   
+
+Divine Infusion
+Prerequisite: Paladin class, Wisdom or Intelligence 13 or higher
+
+You have learned to channel the divine energy of your Oath into your armor, infusing it with protective blessings. When you choose this feat, you gain the following benefits:
+
+Infused Armor: You can infuse your armor with divine energy, granting it special property. Only you can benefit from the infused armor. Choose one of the following properties:
+
+Righteous Defender: While wearing infused armor, when you use your Divine Smite feature, you deal additional radiant damage to the target equal to your Paladin level. This extra damage is not multiplied in the case of a critical hit.
+
+Vigilant Guardian: While wearing infused armor, you gain a bonus to your passive Perception equal to half of your Paladin level (rounded down). Additionally, you have advantage on Wisdom (Perception) checks related to vision and hearing.
+
+Holy Resilience: While wearing infused armor, you gain resistance to one damage type of your choice (expect force). You can change this resistance type during a short rest.
+
+Angelic Protector: While wearing infused armor, your movement speed is increased by 10 feet. When you take the Dash action, angelic wings will shine around your armor and you gain extra movement for the current turn. The increase equals twice your speed, after applying any modifiers. (As if you took the Dash twice). Example: With a speed of 40 feet, you can move up to 80 feet on the dash, total 120 feet.
+
+Divine Grace: You've mastered the art of infusing your armor, allowing you to change the infused property during a long rest.
+
+Aura of Infused Protection: Your infused armor enhances your ability to protect your allies. When you use your Aura of Protection, allies within 10 feet of you gain an additional +1 bonus to their AC.
+
+Nature's Guardian
+Prerequisite: Ranger class, Constitution 13 or higher
+
+You have perfected your skills as a protector of the natural world, learning to harness the environment to safeguard your allies. When you choose this feat, you gain the following benefits:
+
+Terrain Insight: You've developed an innate understanding of the natural world. You can add your Wisdom modifier and your Dexterity modifier to your initiative rolls.
+
+Guardian's Vigilance: Once per long rest, you can choose a 15-foot radius area within your favored terrain. You and your allies within this area gain advantage on saving throws against magic, for 1 minute and heal 1d8 on each turn. Or when not in favorite terrain the radius is reduced to 10-foot and the healing is reduced to 1d4.
+
+Defensive Tactics: Your expertise in ranged combat makes you an effective shield for your allies. When you make a ranged weapon attack, you impose disadvantage on the target's next attack role. You can use this feature on each of your ranged attacks and it would stack on the target. The imposed disadvantage applies only until the start of your next turn. You can use this feature a number of times equal to your Proficiency Bonus before requiring a long rest to replenish.
+
+Roguish Infusion
+Prerequisite: Rogue class, Wisdom or Intelligence 13 or higher
+
+You've honed your skills to infuse your equipment with rogue-like enhancements, granting you new tactical options. When you choose this feat, you gain the following benefits:
+
+Master Planner: Your infused weapon can store one spell up to level 3. You need a caster to store the spell in it. Write down their spell attack bonus or spell save DC. It will be used when the spell is released. Only you or the caster can release the spell. When changing weapon or property the spell is released. 
+
+Infused Arsenal: You can infuse one item. One ranged weapon or one melee weapon. This infusion is allowing it to gain a special property. Only you can benefit from the special property. Choose one of the following properties:
+
+
+Ranged Weapon Properties:
+
+Silent Shot: When using a ranged weapon with this infusion, the weapon makes no sound when fired, eliminating the disadvantage of losing Stealth or Invisibility when attacking with it. 
+
+Trick Shot: While using a ranged weapon with this infusion, you can perform trick shots with ease. You add an additional proficiency Bonus your attack rolls with that weapon.
+
+Deadly Precision: When you score a critical hit with a ranged weapon infused with this property, you roll one additional damage dice for the critical hit. 
+
+OR
+
+Melee Weapon Properties:
+
+Sneak Strike: When using a melee weapon with this infusion, you can roll dice of sneak attack with advantage.
+
+Nimble Parry: While wielding a melee weapon with this infusion, you do not lose durability on the weapon when using "Vykrytie" reaction.
+
+Lethal Design: While wielding a melee weapon with this infusion, you can use your Sneak Attack ability even if the weapon is not finesse.
+
+Quick Adaptation: Your proficiency with infused equipment allows you to adapt on the fly. You can change the property of your infused arsenal during a short rest.
+
+Sorcerer's Fury
+Prerequisite: Sorcerer class, Wisdom 13 or higher
+
+You can channel your inner fury to push your magical abilities beyond their limits. When you choose this feat, you gain the following benefits:
+
+Angry Surge: Once per long rest, you can enter an Angry Surge state as a bonus action on your turn. While in this state, when using the metamagic option you must use the improved version listed below. During this state however, each use of Sorcery points consumes your CON modifier health. As metamagic forcefully blows around you, each creature within 5 feet of you must make athletics or acrobatics check DC (8 + 2 x your proficiency bonus + your Charisma modifier) on a failure it is pushed 15 feet from you. This state lasts for 1 minute. Angry Surge ends early only if you are knocked unconscious. You can also end this as a bonus action but only if a metamagic option was used during the same turn.
+
+Sorcerous Fatigue: After the Angry Surge state ends, you must succeed on a Constitution saving throw (DC 10 + sorcery points spend while in this state) or on fail you can only cast cantrips for the next 1d3+1 hours; if you succeed, the limitation lasts only for 1 hour.
+
+
+List of improved metamagic options:
+
+Careful Spell in Fury
+
+When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point for each creature up to your Charisma modifier (minimum of one creature). Chosen creatures are not affected by the spell at all.
+
+Distant Spell in Fury
+
+When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to triple the range of the spell.
+
+When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 45 feet.
+
+Empowered Spell in Fury
+
+When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You can do this twice but you must use one of the new rolls.
+
+You can use Empowered Spell in Fury even if you have already used a different Metamagic option during the casting of the spell.
+
+Extended Spell in Fury
+
+When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to triple its duration, to a maximum duration of 36 hours.
+
+Heightened Spell in Fury
+
+When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give up to two targets of the spell disadvantage on its first saving throw made against the spell.
+
+Quickened Spell in Fury
+
+When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting. For this turn you will gain additional bonus action.
+
+Subtle Spell in Fury
+
+When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components. Creatures within 10 feet of spells destination have disadvantage on Wisdom (Perception) checks to notice spellcasting or magical effects.
+
+Twinned Spell in Fury
+
+When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip) you can do this again for third target.
+
+To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.
+
+Seeking Spell in Fury
+
+If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20 with advantage, and you must use the new roll.
+
+You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.
+
+Transmuted Spell in Fury
+
+When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder, radiant, necrotic.
+
+Eldritch Guardian
+Prerequisite: Warlock class, Constitution 13 or higher
+
+Your connection to the eldritch forces has granted you the ability to act as a guardian for your allies. When you choose this feat, you gain the following benefits:
+
+Eldritch Ward: When you use your eldritch powers to protect yourself or others, your guardian instincts kick in. When you cast Armor of Agathys spell on yourself you can target one ally on which Armor of Agathys will be casted as well. This does not consume you spell slot, however the Armor of Agathys on ally is one level lower spell then armor on you. If you cast the Armor of Agathys as 1st level you can not target ally as there is no 0 level version of Armor of Agathys.
+
+Blasting guard: Once per long rest you can gain an aspect of Eldritch Protector as a bonus action on your turn. While in this state, you can target allies with your eldritch blast. You have advantage on such attack rolls. On hit your eldritch blast does not deal damage but gives temporary health instead. Half of the temporary health rounded down is healing you receive from this. Aspect of Eldritch Beast lasts for 1 minute. If allies already have temporary hit points, this ability would not affect them but it would still heal you.
+
+Wizard's Wrath
+Prerequisite: Wizard class, Wisdom 13 or higher
+
+You have learned to tap into the depths of your magical prowess in moments of intense fury and rage, turning your formidable intellect into a destructive force. When you enter the Wizard's Wrath state, you gain the following benefits:
+
+Arcane Fury: Once per long rest, you can enter the Wizard's Wrath state as a reaction when you take damage from an attack, spell, or effect that reduces you to half your maximum hit points or below. This state lasts for 1 minute. Wizard's Wrath ends early only if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or you have not taken damage since your last turn.
+
+Empowered Spells: While in the Wizard's Wrath state, your spells deal additional damage. Whenever you cast a spell that deals damage, add your Intelligence modifier twice to the damage. This bonus damage is of the same type as the spell.
+
+Resilience: Your rage fuels your determination. You have advantage on concentration saving throws to maintain concentration on spells.
+
+Arcane Onslaught: When the Wizard's Wrath state ends, you release a surge of raw arcane power. All your available spell slots of the highest level are consumed. Roll 1d6 for each level of spell slot consumed, you roll the damage for each spell used. The damage type is force. The point of origin is you and radius is 10 feet for each level of the spell slot consumed. (If three 4th level spell slots are consumed you roll 3*4d6 force damage and radius is 40 feet.) 
+
+Wizard's Fatigue: When the Wizard's Wrath state ends, you must succeed on a Constitution saving throw (DC 10 + number of d6s rolled for Arcane Onslaught) or be fatigued. If you fail, you can only cast cantrips for the next 1d3+1 hours; if you succeed, the limitation lasts for 1 hour.
+
+Artificer's Precision
+Prerequisite: Artificer class, Intelligence 13 or higher
+
+You have honed your precision and resourcefulness in combat, allowing you to exploit vulnerabilities in your enemies. When you choose this feat, you gain the following benefits:
+
+Vulnerable Strike: When you have advantage on attack against a creature and hit it, you can choose to make your attack deal an extra Intelligence modifier damage of the same type. You can use this feature a number of times equal to your Proficiency Bonus. You regain all expended uses of this feature after a short or long rest.
+
+Evasive Expert: Your nimbleness in combat allows you to better avoid attacks. Once per long rest when you take the Dodge action, you can choose to add your Intelligence modifier to your Armor Class until the start of your next turn.
+
+Plan B: You are quick to find a way out of trouble. If an ally is within 5 feet of you during combat, you can use Disengage as Bonus Action. 
+
+Blood Hunters Skill
+Prerequisite: Blood Hunter class, Charisma 13 or higher
+
+Hunter's Resonance: Once per long rest, when you activate your Blood Maledict, you can scare up to two allies to improve their actions. Target allies receive the dice size of your Hemocraft Die which can be used for attack rolls or saving throws they make in the next minute.
+
+Rite with crimson bubble: When you have crimson Rite active and deal damage to creature you can leave behind a crimson bubble on your last attack. Crimson bubbles stay there until the start of your next turn. While the crimson bubble is active, allies can target it. If the ally attack roll would exceed the creature's AC by more then 2, the crimson bubble pops. Such attack deals extra Hemocraft Die damage of your rite type.
