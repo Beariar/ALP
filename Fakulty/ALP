@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Giga' rel='stylesheet'>
+    <title>Spell List</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #530318;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fdfdfd;
+        }
+
+        body {
+            font-family: 'Lexend Giga';
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            /* 100% of the viewport height */
+            background-image: url(https://github.com/Beariar/ALP/blob/main/WoodBackground.jpg?raw=true);
+            background-attachment: fixed;
+        }
+
+        div {
+            width: 55%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            flex-direction: column;
+            background-color: #d0c08d;
+            background-image: url(https://github.com/Beariar/ALP/blob/main/SpellDetailBackground2.jpg?raw=true);
+            background-position: center;
+            background-size: cover;
+            padding: 10px;
+            border-radius: 12px;
+            border: 3px solid #000000;
+            box-shadow: 10px 10px 5px rgb(0, 0, 0);
+
+        }
+
+        div h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+
+        div h2,
+        div h3,
+        div h4,
+        div h5,
+        div h6 {
+            text-align: left;
+        }
+
+        .button {
+            font-family: 'Lexend Giga';
+            font-size: 16px;
+            cursor: pointer;
+            background-image: linear-gradient(black, #07105C);
+            border: 2px solid #07105C;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-image: linear-gradient(#1d2ec6, black);
+            border: 2px solid #1d2ec6;
+            color: white;
+            /* Add hover effect to the button */
+        }
+
+
+        #mapImage {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            /* To center the image */
+            margin: 0 auto;
+            /* Center the image */
+        }
+
+        /* Specific styles for the div with ID "StaraKrv" */
+        #HlavnyNadpis {
+            border-radius: 36px;
+            border: 6px solid #000000;
+            width: 70%;
+        }
+
+        /* Specific styles for headers (h1, h2, etc.) inside the div with ID "StaraKrv" */
+        #HlavnyNadpis h1,
+        #HlavnyNadpis h2,
+        #HlavnyNadpis h3 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        #BannerFakultyLeft {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            max-width: 40%;
+
+        }
+
+        #BannerFakultyRight {
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            max-width: 40%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="HlavnyNadpis">
+        <h1>Akadémia Lovcov Príšer</h1>
+        <img id="mapImage" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulty_All.png?raw=true"
+            alt="Fakulty">
+    </div>
+    <div id="Intro">
+        <br>
+        Akadémiou sa preženie mnoho študentov. Nie všetci však skončia ako lovci, niektorí to vzdajú ešte počas štúdia.
+        Iní padnú skôr ako doštudujú. Ďalší zasa nie sú schopní spraviť skúšky a tak sú veční študenti alebo to vzdajú.
+        Akadémia je v každom hlavnom meste. Najväčšia je ale v Jazierchate, v jej rodisku a na mieste kde prichádzajú
+        prváci. Akadémia totiž fungujú na princípe postupnosti.
+        <br><br>Podľa schopností a vzdelania študenta sa presúvajú medzi mestami. Pri Jazierchate je relatívne bezpečne
+        a príšery v tejto oblasti sú slabé. Pri Tmavohmle sú príšery až monštrózne silné, tam idú študenti na posledné
+        skúšky a dokázať či budú Jäger alebo potrava. No kým k tomu príde každý si musí prejsť celou akadémiou a na
+        začiatku si musí zvoliť v akom zameraní chce študovať. Zameraní na Akadémií je 5 a každé má vlastnú fakultu.
+        Prváci sa už pri zápise musia sami rozhodnúť pre fakultu. A okrem toho si musia priniesť obnos financií na
+        zápisné.
+        <br><br>Nie vždy to bolo tak, prvé generácie lovcov mali štúdium zadarmo. Bolo ich treba a tak sa prístup k
+        znalostiam nelimitoval. Keď však bolo lovcov viac a mnohých charakter ostal namyslený sťažil sa prístup k
+        znalostiam aby sa ešte viac pozdvihla prestíž lovcov ale zároveň aj aby sa vrecia plnili peniazmi. Dnes sa
+        peniaze veľmi efektívne využívajú na vývoj nových predmetov, zlepšovanie akadémie ale aj pomoc mestu. Školné sa
+        však platí každý rok podľa výsledku testov... No ale späť k fakultám:
+        <br>
+        <br>
+    </div>
+    <div id="Intro2">
+        <br>
+        Každá fakulta by sa dala definovať dvoma dominantnými statmi. Neznamená to však, že každý študent musí mať tieto
+        staty dominantné aby sa mohol stať členom danej fakulty. Je to len pre lepšiu predstavu čo od študenta danej
+        fakulty svet očakáva.
+        <br>
+        <br><b>Absorberi:</b>b> DEX,CHA
+        <br><b>Kati:</b> STR, DEX
+        <br><b>Krotitelia:</b> CHA,INT
+        <br><b>Ochrancovia:</b> WIS,STR
+        <br><b>Znalci:</b> INT,WIS
+        <br><br>
+        V každom ročníku vznikajú skupiny študentov, ktorých spojí fakulta. Dávajú si pozor aby nedávali veľa rovnakých
+        fakúlt do jednej skupiny. Skupina z katov všetko zničí ale skupina Ochrancov zasa nezničí nič. Ideálna skupina
+        má 5 členov a každý je z inej fakulty.
+        <br><br>
+        Počas štúdia sa nádejní lovci triedia do piatich tried (academy levelov) podľa ich schopností. Aby sa študent
+        presunul to vyššej triedy musí spraviť skúšku. Skúška je čosi iné ako každoročný test. Test je vždy pred
+        učiteľmi, každý študent ide do miestnosti sám. Skúška je individuálna a môže byť vždy čosi iné. K tejto skúške
+        však môžu ísť študenti len keď sú na to schopní a pripravení, nie skôr. V praxi to znamená level postavy a zápis
+        by vyzeral nasledovne:
+        <br>
+        <br>Academy level 1: <b>Mermel</b> (od zápisu)
+        <br>Academy level 2: <b>Skaut</b> (od lvl 4)
+        <br>Academy level 3: <b>Bojon</b> (od lvl 9)
+        <br>Academy level 4: <b>Hed</b> (od lvl 15)
+        <br>Academy level 5: <b>Jäger</b> (od lvl 18)
+        <br><br>Skupiny študentov nemusia byť vždy tvorené len študentami v rovnakej triede ale nesmie byť rozdiel viac
+        ako triedu. Teda môže byť Mermel aj Skaut ale Mermel, Skaut a Bojon už nie. Tieto triedy určujú oblasť kde sa
+        presúva štúdium ale zároveň dávajú študentovi lepšie postavenie v rámci fakulty a s ním sa nesie povolenie
+        využívať svoje štúdium aj mimo triedy. Takže v praxi to obnáša nejaké tie schopnosti alebo iné výhody, ktoré
+        predtým nemali. Tu je zoznam aké "možnosti" dávajú jednotlivé triedy podľa fakulty.
+    </div>
+    <div id="Absorber">
+        <h1>Absorber</h1>
+        <img id="BannerFakultyLeft" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulta_1.png?raw=true"
+            alt="Absorber">
+
+        <br>Slabý lovec neexistuje. Existujú len lovci, ktorý neabsorbovali dosť sily. Poraziť príšeru a absorbovať jej
+        celú esenciu je výsada týchto lovcov.
+        <br>Heslo: “Príšera, ktorá ti neujde ťa posilní”
+        <br>Cieľ: Absorbovať všetku silu a nenechať príšerám nič.
+        <br>(Hint: Absorberi sú Lovci zameraný na rituál "Absorbovanie" a teda sú zbehlí v súboji 1v1 a v narábaní s
+        esenciou)
+        <br>
+        <br>
+        <h2>Mermel</h2>
+        - Získa proff. s Survival skillom
+        <br>
+        <h2>Skaut</h2>
+        - Získa schopnosť "Vnútorný Pokoj" - Ritual absorbovanie dokáže vykonať len za 5 minút. A pred začatím si môže
+        spraviť "mental" check (WIS, INT, CHAR check). Pri úspechu začína súboj príšera oslabená.
+        <br>- Efekt Absorbovanej Esencie si vyberá s pomedzi dvoch, ktoré na 1d3 kocke nepadli.
+        <br>
+        <h2>Bojon</h2>
+        - Získa schopnosť "Pretvorca" - Po absorbovaní si môže spraviť % hod. Ak mu padne viac ako 75% nemusí si hádzať
+        1d3 ale vyberá s pomedzi všetkých efektov. Ak mu padne viac ako 95%, môže si vybrať hociktorý efekt y
+        predchádzajúcich kategórií.
+        <br>- Dokáže absorbovanú esenciu udržať a nevyužiť dvakrát tak dlho ako je písané.
+        <br>
+        <h2>Hed</h2>
+        - Schopnosť "Pretvorca" - Percentá sa posúvajú z 75% na 45% pre nepovinný hod s 1d3, a z 95% na 75% na výber z
+        inej predchádzajúcej kategórie + nová šanca, ak hodí cez 95% môže si skombinovať dva efekty jedného typu príšery
+        z nižšej kategórie.
+        <br>- Získa schopnosť "Spása" - Pokiaľ lovec udržuje neaktívnu esenciu a absorbuje novú, stará esencia sa
+        nerozplynie len tak ale lieči všetky rany v rádiuse 15 feet od lovca. Liečenie je "academy level"d10 HP. Túto
+        schopnosť dokáže využiť dvakrát medzi long restami.
+        <br>- Efekt esencie dokáže udržať dvakrát tak dlho ako je písané.
+        <br>
+        <h2>Jäger</h2>
+        - Schopnosť "Vnútorný Pokoj" - Mental check si robí s advatange. Navyše ak obetuje hit dice je schopný začať a
+        skončiť ritual na kolo kombatu. V danom kole bude incapacitated.
+        <br>- Schopnosť "Pretvorca" - Na vyhnutie sa hodu z 1d3 uspeje automaticky. Navyše percentá sa posúvajú z 75% na
+        40% pre výber z predchádzajúcej kategórie a šanca na kombináciu efektov z 95% na 75% a ak uspeje vie skombinovať
+        dve schopnosti aj na aktuálnej kategórií.
+        <br>- Schopnosť "Spása" - Lieči v radiuse 30 ft za ("academy level"*2)d10 HP a dokáže ju využiť trikrát medzi
+        long restami.
+    </div>
+    <div id="Kat">
+        <h1>Kat</h1>
+        <img id="BannerFakultyRight" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulta_2.png?raw=true"
+            alt="Absorber">
+
+        <br>Správny kat za sebou nenechá ani jednu živú príšeru. Srdce a myseľ lovca je zamerané len na zabíjanie a
+        zabíjanie je to čo robia Kati najlepšie.
+        <br>Heslo: “Mŕtva príšera dobrá príšera”
+        <br>Cieľ: Zbaviť svet všetkých príšer.
+        <br>(Hint: Kati sú Lovci zameraný na súboj. Idú do boja a ničia všetko čo majú predsebou. Sú zbehlí v narábaní
+        so zbraňami a olejmi.)
+        <br>
+        <br>
+        <h2>Mermel</h2>
+        - Dokáže aplikovať olej na akciu
+        <br>- Získa proff. s Intimidation skillom.
+        <br>
+        <h2>Skaut</h2>
+        - Získa schopnosť "Nebojácny" - Pri prvom útoku si vie dať advantage na všetky útoky v danom kole ale všetky
+        útoky na neho do začiatku jeho ďalšieho kola majú tiež advantage. Túto schopnosť dokáže použiť 2*profficiency
+        bonus-krát medzi long restami.
+        <br>
+        <h2>Bojon</h2>
+        - Dokáže aplikovať olej na bonus akciu
+        <br>- Počas long restu ak sa aspoň hodinu venuje príprave, má materiál a nástroje tak je schopný pripraviť si
+        vlastný olej.
+        <br>
+        <h2>Hed</h2>
+        - Pri útoku dokáže obetovať jednu svoju hit dice a dať o toľko väčšie poškodenie zbraňou.
+        <br>- Olej vydrží dlhšie o "Academy level" hodín.
+        <br>
+        <h2>Jäger</h2>
+        - Schopnosť "Nebojácny" už nedáva advantage na útoky smerované na študenta/lovca ale dokáže ju použiť len
+        profficiency bonus-krát medzi long restami.
+        <br>- Keď dostane poškodenie, že jeho HP by padlo pod 0 ale nie pod (-2)*max_HP, vie si na reakciu použiť
+        maximálne 5 hit dice ak má dostupné.
+        <br>- Zbraň s olejom aplikovaným Katom dáva aj základný damage ale aj damage oleja. (Ako keby mala vlastnosť Flowing)
+
+    </div>
+    <div id="Krotitel">
+        <h1>Krotitel</h1>
+        <img id="BannerFakultyLeft" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulta_3.png?raw=true"
+            alt="Krotitel">
+        <br>Príšery sa dajú využívať. Treba ich len skrotiť, zotročiť či inak zmanipulovať a hneď sa postavili proti
+        svojmu druhu. Lovec musí využiť všetky prostriedky pre výhru.
+        <br>Heslo: “Každý predátor ma predátora
+        <br>Cieľ: Vytvoriť systém kde sa príšery ničia navzájom.
+        <br>(Hint: Krotielia sú Lovci zameraný na manipuláciu. Znažia sa zmanipulovať situaciu v svoj prospech a vyviesť
+        oponenta z miery. Sú zbehlí klamári a manipulátori. Tieto schopnosti sa vedia zísť aj mimo bojiska.)
+        <br>
+        <br>
+
+        <h2>Mermel</h2>
+        - Získa proff. s Persuation a Deception skillom
+        <h2>Skaut</h2>
+        - Získa cantrip "Minor Illusion"
+        <br>- Získa schopnosť "Zmätok" - Na bonus akciu dokáže aplikovať disadvantage na útoky jedného nepriateľa,
+        ktorého vidí do začiatku jeho ďalšieho kola. Túto schopnosť dokáže použiť dvakrát medzi long restami.
+        <h2>Bojon</h2>
+        - Pozná spell "Mirror Image", ktorý dokáže použiť dvakrát medzi long restami.
+        <h2>Hed</h2>
+        - Získa schopnosť "Strach" - Na bonus akciu môže obetovať hit dice a vytvoriť na moment ilúziu predátora
+        príšery/príšer, ktorá/ktoré sú rovnakého druhu a vidia na krotiteľa. Príšera si robí saving throw proti 8 +
+        krotiteľov profficiency bonus + charizma modifier, ak failne je na kolo vydesená (Frightened), pokiaľ CR
+        príšery/príšer je menej ako polovica levelu krotiteľa, príšera/príšery sa dá/dajú na útek.
+        <h2>Jäger</h2>
+        - Spell "Mirror Image" dokáže použiť štyri krát medzi long restami a za jeden hit dice ho vie rozšíriť na dve
+        ďalšie postavy.
+        <br>- Schopnosť "Zmätok" vie použiť trikrát medzi long restami a zasahuje všetky príšery, ktoré sú v rádiuse 15
+        ft od krotiteľa alebo na dvoch nepriateľov, ktorých vidí.
+
+    </div>
+    <div id="Ochranca">
+        <h1>Ochranca</h1>
+        <img id="BannerFakultyRight" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulta_4.png?raw=true"
+            alt="Ochranca">
+        <br>Všetky tvory sa dajú rozdeliť na dobré a zlé. To platí aj pri príšerách. Lovci nemajú chrániť len obyvateľov
+        sveta ale aj príšery, ktoré sú toho hodné. Záchrana je prvoradá.
+        <br>Heslo: “Je tenká hranica medzi príšerou a obeťou”
+        <br>Cieľ: Zachrániť "dobré" príšery a postarať sa aby zlé nepáchali ďalšie zlo.
+        <br>(Hint: Ochrancovia sú Lovci zameraný na ochranu a právo. Sä to zdatný bojovníci, často v ťažkej zbroji,
+        ktorú používajú na to aby odváratili pozornosť príšeri na seba anechali nevinní mohli újsť. Sú zbehlí v prežití
+        a vydržia na bojisku najdlhšie.
+
+        <br>
+        <br>
+        <h2>Mermel</h2>
+        - Dokáže aplikovať olej na medium alebo heavy zbroj a získať tak resistance
+        <br>- Získa proff. s Insight skillom
+        <h2>Skaut</h2>
+        - Získa schopnosť "Chrabrý" - Počas prvého kola v kombate dokáže na bonus akciu získať temporary HP z dostupných
+        hit dice , môže si hodiť až profficiency bonus-krát. Ak do začiatku svojho nasledujúceho ťahu nedostane žiadne
+        poškodenie, získa späť polovicu (zaokrúhlené dolu) použitých hit dice.
+        <h2>Bojon</h2>
+        - Temporary HP ochrancu sa môže stakovať
+        <br>- Ak počas long restu strávi aspoň hodinu času prácou a má materiál tak je schopný vytvoriť 1d4+1 obväzov
+        rýchlo liečby.
+        <br>- Schopnosť "Chrabrý" - pokiaľ už získal polovicu použitých hit dice a následne opäť nedostane žiadne
+        poškoniede do svoj nasledujúce ťahu získa späť aj zvyšné použité hit dice.
+        <h2>Hed</h2>
+        - Magické liečenie, ktoré prekročí maximálne HP sa pretvorí na temporary HP.
+        <br>- Získa schopnosť "Nezištný" - Na akciu dokáže použiť svoju hit dice na liečenie iných.
+        <br>- Olej vydrží "Academy level" hodín
+        <h2>Jäger</h2>
+        - Schopnosť "Chrabrý" vie požiť stále aj nazačiatku kombatu ale aj raz počas kombatu. Ale len ak nemá žiadne
+        temporary HP.
+        <br>- Schopnosť "Nezištný" lieči za dve hit dice ale konzumuje len jednu hit dice.
+
+    </div>
+    <div id="Znalec">
+        <h1>Znalec</h1>
+        <img id="BannerFakultyLeft" src="https://github.com/Beariar/ALP/blob/main/Fakulty/Fakulta_5.png?raw=true"
+            alt="Znalec">
+        <br>Pozorovať príšery je nebezpečné ale nevyhnutné k ich pochopeniu. Niekedy sa lovec boju nevyhne ale vždy
+        získa nové poznatky ktoré využije neskôr.
+        <br>Heslo: “Nikdy nie je neskoro naučiť sa niečo nové”
+        <br>Cieľ: Zistiť ako a prečo príšery vznikajú.
+        <br>(Hint: Znalci sú Lovci zameraný na vedomosti. Kumulujú znalosti a vedia seba a skupiny najlepšie pripraviť
+        na boj. Často krát je mágia ich najvernejšia zbraň. Sú zbehlí v čítaní oponenta, dedukcií a stopovaní.)
+
+        <br>
+        <br>
+        <h2>Mermel</h2>
+        - získa proff. s Investigation a Nature skillmi
+        <h2>Skaut</h2>
+        - získa proff. s Perception skillom (Ak už má proff. získa expertise)
+        <br>- získa schopnosť "Oko pre detail" - Môže použiť svoju akciu na perception check a tak určiť možné magické
+        útoky od príšery vďaka čomu získa advantage na saving throwi voči danej príšere do konca kombatu. Túto schopnosť
+        vie použiť raz za kombat.
+        <h2>Bojon</h2>
+        - ak počas long restu strávi aspoň hodinu času prácou, má materiál a náradie tak je schopný vytvoriť obnomág.
+        <h2>Hed</h2>
+        - získa proff. s Arcana skillom (Ak už má proff. získa expertise)
+        <br>- Prvý Obnomág nespôsobuje exhaustion.
+        <br>- Získa schopnosť "Odhalenie" - Môže použiť svoju akciu na arcana check a tak nájsť slabiny príšery. Slabina
+        môže byť typ poškodenia alebo časť teľa. Túto schopnosť môže použiť dvakrát medzi long restami.
+        <h2>Jäger</h2>
+        - Schopnosť "Oko pre detail" dokáže použiť dvakrát počas kombatu. Schopnosť smie použiť aj na bonus akciu ak
+        obetuje hit dice.
+        <br>- Schopnosť "Odhalenie" môže použiť štyri krát medzi long restami. Schopnosť smie použiť aj na bonus akciu
+        ak obetuje hit dice.
+        <br>- Získa expertise s Investigation a Nature skillmi.
+        <br>- Získa advantage na iniciatívu a vie určiť koľká v poradí pôjde jedna vybraná príšera.
+    </div>
+</body>
+
+</html>
