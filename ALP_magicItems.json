@@ -95,6 +95,36 @@
 				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
 				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
 			]
+		},
+        {
+			"name": "4th Item Name",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "yes (by Wizard)",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "yes",
+			"properties": ["fire","ice"],
+			"tags": [],
+			"entries": [
+				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
+				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
+				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
+			]
 		}
 	]
 }
