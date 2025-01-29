@@ -1,0 +1,100 @@
+{
+	"_comment": {
+			"type": "Allowed values: wondrous, weapon, armor, tool, ammunition, vehicle, other",
+			"rarity": "Allowed values: common, uncommon, rare, very rare, legendary, artifact",
+			"reqAttune": "Use 'no' or 'yes (SPECIFICATION)'"
+		},
+	"item": [
+		
+		{
+			"name": "First Item Name",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "uncommon",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"wis": 1,
+					"int": 1,
+					"cha": 1
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
+				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
+				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
+			]
+		},
+        {
+			"name": "Second Item Name",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 1,
+				"spellSaveDc": 1,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
+				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
+				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
+			]
+		},
+        {
+			"name": "Third Item Name",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "yes (by Wizard)",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 1
+			},
+			"spellFocus": "yes",
+			"properties": ["fire","ice"],
+			"tags": [],
+			"entries": [
+				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
+				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
+				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
+			]
+		}
+	]
+}
