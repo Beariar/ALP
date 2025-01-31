@@ -8,23 +8,23 @@
 		{
 			"name": "#First Item Name",
 			"source": "ALP",
-			"page": 0,
+			"page": "0",
 			"rarity": "varies",
 			"reqAttune": "no",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow": 0
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [],
@@ -39,23 +39,23 @@
 		{
 			"name": "Weapon Oils",
 			"source": "ALP",
-			"page": 0,
+			"page": "0",
 			"rarity": "varies",
 			"reqAttune": "no",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow": 0
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [
@@ -81,23 +81,23 @@
 		{
 			"name": "#Dark Ice Huhammer",
 			"source": "ALP",
-			"page": 0,
+			"page": "0",
 			"rarity": "Legendary",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow": 0
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [
@@ -128,23 +128,23 @@
 		{
 			"name": "#Shadow Fire Chakram",
 			"source": "ALP",
-			"page": 0,
+			"page": "0",
 			"rarity": "Legendary",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis":"0",
+					"int":"0",
+					"cha":"0"
 				},
-				"savingThrow": 0
+				"savingThrow":"0"
 			},
 			"spellFocus": "no",
 			"properties": [
@@ -176,23 +176,23 @@
 			{
 				"name": "Spiked Armor",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "rare",
 				"reqAttune": "no",
 				"type": "armor",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["medium", "heavy"],
@@ -206,23 +206,23 @@
 			{
 				"name": "Noble Masochist",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "very rare",
 				"reqAttune": "yes",
 				"type": "armor",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["heavy"],
@@ -236,23 +236,23 @@
 			{
 				"name": "Reductor",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "varies",
 				"reqAttune": "no",
 				"type": "armor",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["light", "medium"],
@@ -266,23 +266,23 @@
 			{
 				"name": "Swift-Healing Bandages",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "uncommon",
 				"reqAttune": "no",
 				"type": "wondrous",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["consumable"],
@@ -295,23 +295,23 @@
 			{
 				"name": "Last Aid Brooch",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "very rare",
 				"reqAttune": "no",
 				"type": "wondrous",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["consumable"],
@@ -325,23 +325,23 @@
 			{
 				"name": "Healing and Health Potions",
 				"source": "ALP",
-				"page": 0,
+				"page":"0",
 				"rarity": "varies",
 				"reqAttune": "no",
 				"type": "wondrous",
 				"bonuses": {
-					"spellAttack": 0,
-					"spellSaveDc": 0,
-					"weaponAttack": 0,
+					"spellAttack":"0",
+					"spellSaveDc":"0",
+					"weaponAttack":"0",
 					"abilityScores": {
-						"str": 0,
-						"dex": 0,
-						"con": 0,
-						"wis": 0,
-						"int": 0,
-						"cha": 0
+						"str":"0",
+						"dex":"0",
+						"con":"0",
+						"wis":"0",
+						"int":"0",
+						"cha":"0"
 					},
-					"savingThrow": 0
+					"savingThrow":"0"
 				},
 				"spellFocus": "no",
 				"properties": ["consumable"],
@@ -359,23 +359,23 @@
 		{
 			"name": "Arcane Biscuit",
 			"source": "ALP",
-			"page": 0,
+			"page":"0",
 			"rarity": "very rare",
 			"reqAttune": "no",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
 				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"str":"0",
+					"dex":"0",
+					"con":"0",
+					"wis":"0",
+					"int":"0",
+					"cha":"0"
 				},
-				"savingThrow": 0
+				"savingThrow":"0"
 			},
 			"spellFocus": "no",
 			"properties": ["consumable"],
@@ -388,33 +388,174 @@
 			]
 		},
 		{
-			"name": "Muscle Weapon",
+			"name": "Weapon of Power",
 			"source": "ALP",
-			"page": 0,
-			"rarity": "uncommon ",
+			"page":"0",
+			"rarity": "uncommon",
 			"reqAttune": "yes",
-			"type": "wondrous",
+			"type": "weapon",
 			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
 				"abilityScores": {
 					"str": "+2",
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
+					"dex":"0",
+					"con":"0",
+					"wis":"0",
+					"int":"0",
+					"cha":"0"
 				},
-				"savingThrow": 0
+				"savingThrow":"0"
 			},
 			"spellFocus": "no",
-			"properties": ["weapon"],
+			"properties": [],
 			"tags": [],
 			"entries": [
 				"Your Strength score increases by 2 but can't exceed 20",
 				"This item variant can be applied to the following base items: Simple Melee Weapon,Simple Range Weapon, Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon"
 			]
+		},
+		{
+			"name": "Weapon of Agility",
+			"source": "ALP",
+			"page":"0",
+			"rarity": "uncommon",
+			"reqAttune": "yes",
+			"type": "weapon",
+			"bonuses": {
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "+2",
+					"con":"0",
+					"wis":"0",
+					"int":"0",
+					"cha":"0"
+				},
+				"savingThrow":"0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Your Dexterity score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following base items: Simple Melee Weapon,Simple Range Weapon, Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon"
+			]
+		},
+		{
+			"name": "Shield of Endurance",
+			"source": "ALP",
+			"page":"0",
+			"rarity": "uncommon",
+			"reqAttune": "yes",
+			"type": "armor",
+			"bonuses": {
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "+2",
+					"wis":"0",
+					"int":"0",
+					"cha":"0"
+				},
+				"savingThrow":"0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Your Constitution score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following base items: Buckler Shield, Classic Shield, Tower Shield"
+			]
+		},
+		{
+			"name": "Staff of Instinct",
+			"source": "ALP",
+			"page":"0",
+			"rarity": "uncommon",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con":"0",
+					"wis": "+2",
+					"int":"0",
+					"cha":"0"
+				},
+				"savingThrow":"0"
+			},
+			"spellFocus": "yes",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Your Wisdom score increases by 2 but can't exceed 20"
+			]
+		},
+		{
+			"name": "Wand of Knowledge",
+			"source": "ALP",
+			"page":"0",
+			"rarity": "uncommon ",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack":"0",
+				"spellSaveDc":"0",
+				"weaponAttack":"0",
+				"abilityScores": {
+					"str": "0",
+					"dex":"0",
+					"con":"0",
+					"wis":"0",
+					"int": "+2",
+					"cha":"0"
+				},
+				"savingThrow":"0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Your Intelligence score increases by 2 but can't exceed 20"
+			]
+		},
+		{
+			"name": "Gem of Impression",
+			"source": "ALP",
+			"page":"0",
+			"rarity": "uncommon ",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "+2"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Your Charisma score increases by 2 but can't exceed 20"]
 		}
 	]
 }
