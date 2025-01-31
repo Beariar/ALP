@@ -350,7 +350,10 @@
 					"These magical potions are designed to restore vitality and cure ailments. A creature can drink a potion as a bonus action, rapidly benefiting from its effects. However, administering a potion to another creature within 5 feet requires an action as it takes more time and care.",
 					"Once used, the brooch crumbles into dust and is destroyed.",
 					"<b>Elixir of Health</b> (rare) - This potent elixir purges afflictions from the body. When you drink this potion, it:<br> - Cures any disease affecting you.<br> - Removes the blinded, deafened, paralyzed, and poisoned conditions.",
-					"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points."
+					"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points.",
+					"<b>⇊ ⇊ CAREFULL ⇊ ⇊</b>",
+					"<b>Potion of Poison (uncommon)</b> - This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.",
+					"If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
 				]
 			},
 		{
