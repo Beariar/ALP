@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "First Item Name",
+			"name": "#First Item Name",
 			"source": "ALP",
 			"page": 0,
 			"rarity": "varies",
