@@ -203,17 +203,69 @@
 				"two-handed",
 				"special"
 			],
-			"tags": [],
+			"tags": ["attunement by creature with cold resistnace or cold immunity"],
 			"entries": [
+				"3d6 bludgeoning + 2d8 cold",
 				"<b>Special Traits</b>",
 				"This weapon grants the access to all traits to any wielder, even without attunement.",
 				"<b>Glacial Slam</b>",
-				"When you use the HuHammer's special property to knock an enemy prone, the intense impact sends out a shockwave of frost: All creatures within a 10-foot cone behind the target must make a DC 16 Dexterity saving throw or take 2d6 cold damage and have their speed reduced by 15 feet until the end of their next turn.","<b>Frostborn Momentum</b>",
-				"Each time you hit with the HuHammer, its chilling power builds:<br>On a hit, the target must make a DC 15 Constitution saving throw or suffer Frostbite until the end of its next turn. While Frostbitten:<br>- The target has disadvantage on Strength and Dexterity saving throws.<br>- The target's speed is halved.<br>- If you crit, Frostbite applies automatically, and the target's speed is reduced to 0 until the end of its next turn.","<b>Shatter Terrain</b>",
-				"When you use the HuHammer to strike the ground as an action, you can freeze and shatter a 15-foot radius area:<br>All creatures within the area must succeed on a DC 16 Dexterity saving throw or fall prone and take 3d8 cold damage.<br>The terrain in this area becomes frozen and counts as difficult terrain for 1 minute. Non-magical objects within the area become brittle and can be shattered. (Whenever the object is hit, the hit is a Critical Hit.)","<b>Passive Freezing</b>",
+				"When you use the HuHammer's special property to knock an enemy prone, the intense impact sends out a shockwave of frost: All creatures within a 10-foot cone behind the target must make a DC 16 Dexterity saving throw or take 2d6 cold damage and have their speed reduced by 15 feet until the end of their next turn.",
+				"<b>Frostborn Momentum</b>",
+				"Each time you hit with the HuHammer, its chilling power builds:<br>On a hit, the target must make a DC 15 Constitution saving throw or suffer Frostbite until the end of its next turn. While <i>Frostbitten:</i><br>- The target has disadvantage on Strength and Dexterity saving throws.<br>- The target's speed is halved.<br>If you crit, Frostbite applies automatically, and the target's speed is reduced to 0 until the end of its next turn.",
+				"<b>Shatter Terrain</b>",
+				"When you use the HuHammer to strike the ground as an action, you can freeze and shatter a 15-foot radius area:<br>All creatures within the area must succeed on a DC 16 Dexterity saving throw or fall prone and take 3d8 cold damage.<br>The terrain in this area becomes frozen and counts as difficult terrain for 1 minute. Non-magical objects within the area become brittle and can be shattered. (Whenever the object is hit, the hit is a Critical Hit.)",
+				"<b>Passive Freezing</b>",
 				"When left unattended, the HuHammer exerts its icy influence:<br>Within 1 minute, it freezes a 30-foot radius of water, turning it into solid ice.<br>Within 1 hour, it freezes a 30-foot radius area of terrain, creating slippery, difficult terrain.<br>Creatures in 15-feet radius will receive condition Frostbitten after an 1 hour, unless the weapon is in special container or the creature is attuned to the weapon or creature is immune to the cold damage.",
 				"<b>Cold Recoil<b>",
 				"If the wielder is not attuned to the HuHammer, they take 3d10 cold damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are petrified in ice until thawed."
+			]
+		},
+		{
+			"name": "Dark Ice Huhammer",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "Legendary",
+			"reqAttune": "yes",
+			"type": "weapon",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": [
+				"Axria weapon",
+				"melee weapon",
+				"2 lb.",
+				"Exquisite",
+				"light",
+				"thrown (60/150)",
+				"special"
+			],
+			"tags": ["attunement by creature with fire resistnace or fire immunity"],
+			"entries": [
+				"1d6 bludgeoning + 2d6 fire",
+				"<b>Special Traits</b>",
+				"This weapon grants the access to all traits to any wielder, even without attunement.",
+				"<b>Blazing fire</b>",
+				"When you use the Chakram's special property to hit multiple targets the heat will build up in moment and every target beyond the first will receive extra 1d6 fire damag.",
+				"<b>Overheating</b>",
+				"Each time you hit with the Chakram, its heating power leaves a mark:<br>On a hit, the target must make a DC 15 Constitution saving throw or suffer Overheating until the end of its next turn. While <i>Overheating:</i><br>- The target has disadvantage on Strength and Intelligence saving throws.<br>- The target's can not take reactions.<br>If you crit, Overheating applies automatically, and the target's takes 1d6 fire damage on the start of its next turn.",
+				"<b>Power of the Forge</b>",
+				"When you use the Chakram to strike the metal object as an action, you can melt it and shatter a 15-foot radius area:<br>- If its an armor, you will reduce its AC by 3 and it will also deal 2d8 fire damage to any creature wearing the armor for the next 1d4 turns.<br>- If its a weapon, you will reduce its durability by 2 and it will also 2d8 fire damage to any creature holding it for the next 1d4 turns.<br>- If its other metal object, you will reduce its properties and make it "gummy" for 1 minute. (Whenever the object is hit, the hit is a Critical Hit.)<br>If the object is of magical nature you must pass Arcana check to affect the metal object. DC is given by DM. On fail the object will only deal the fire damage but its properties will not be affect..<br>Also the Chakram can be used as source of heat for any forge.",
+				"<b>Passive Heating</b>",
+				"When left unattended, the Chakram exerts its fiery influence:<br>Within 1 minute, it boils a 15-foot radius of water, turning it into steam.<br>Within 1 hour, it heats a 15-foot radius area of terrain, creating slippery, difficult terrain.<br>If Chakram will touch with any flammable object it will ignites instantly.<br>Creatures in 10-feet radius will receive condition Overheated after an 1 hour, unless the weapon is in special container or the creature is attuned to the weapon or creature is immune to the fire damage.",
+				"<b>Fire Recoil</b>",
+				"If the wielder is not attuned to the Chakram, they take 3d8 Fire damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are reduced to ash."
 			]
 		}
 	]
