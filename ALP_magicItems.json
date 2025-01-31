@@ -1,11 +1,10 @@
 {
 	"_comment": {
-			"type": "Allowed values: wondrous, weapon, armor, tool, ammunition, vehicle, other",
-			"rarity": "Allowed values: common, uncommon, rare, very rare, legendary, artifact",
-			"reqAttune": "Use 'no' or 'yes (SPECIFICATION)'"
-		},
+		"type": "Allowed values: wondrous, weapon, armor, tool, ammunition, vehicle, other",
+		"rarity": "Allowed values: common, uncommon, rare, very rare, legendary, artifact",
+		"reqAttune": "Use 'no' or 'yes (SPECIFICATION)'"
+	},
 	"item": [
-		
 		{
 			"name": "First Item Name",
 			"source": "ALP",
@@ -36,7 +35,7 @@
 				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
 			]
 		},
-        {
+		{
 			"name": "Second Item Name",
 			"source": "ALP",
 			"page": 0,
@@ -66,7 +65,7 @@
 				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
 			]
 		},
-        {
+		{
 			"name": "Third Item Name",
 			"source": "ALP",
 			"page": 0,
@@ -88,7 +87,10 @@
 				"savingThrow": 1
 			},
 			"spellFocus": "yes",
-			"properties": ["fire","ice"],
+			"properties": [
+				"fire",
+				"ice"
+			],
 			"tags": [],
 			"entries": [
 				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
@@ -96,7 +98,7 @@
 				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
 			]
 		},
-        {
+		{
 			"name": "4th Item Name",
 			"source": "ALP",
 			"page": 0,
@@ -118,16 +120,18 @@
 				"savingThrow": 0
 			},
 			"spellFocus": "yes",
-			"properties": ["fire","ice"],
+			"properties": [
+				"fire",
+				"ice"
+			],
 			"tags": [],
 			"entries": [
 				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
 				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
 				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
 			]
-		}
-		,
-        {
+		},
+		{
 			"name": "Weapon Oils",
 			"source": "ALP",
 			"page": 0,
@@ -149,24 +153,76 @@
 				"savingThrow": 0
 			},
 			"spellFocus": "no",
-			"properties": ["consumable"],
+			"properties": [
+				"consumable"
+			],
 			"tags": [],
 			"entries": [
-"Weapon Oils are alchemical concoctions designed by monster hunters to imbue their weapons with specific types of damage. These oils replace the weapon’s normal damage type with a different one upon application.",
-"<b>Each oil belongs to one of five tiers of rarity and provides a distinct elemental, magical, or supernatural damage type:</b>",
-"<ul><li>- <b>Basic (Common) Oils</b> [Fire, Cold]</li><li>- <b>Searing (Uncommon) Oils</b> [Poison, Acid]</li><li>- <b>Storm (Rare) Oils</b> [Lightning, Thunder]</li><li>- <b>Exalted (Very Rare) Oils</b> [Radiant, Necrotic]</li><li>- <b>Invisible (Legendary) Oils</b> [Force, Psychic]</li></ul>",
-"<b>Additionally, Weapon Oils are classified by potency:</b><ul><li>- <b>Minimus:</b> The weapon deals damage with a die half the size of its original damage die (e.g., 1d12 becomes 1d6, 2d6 becomes 2d3).</li><li>- <b>Medianus:</b> The weapon retains its original damage dice, but the damage type changes.</li><li>- <b>Maximus:</b> The weapon deals damage with double the number of its original damage dice (e.g., 1d12 becomes 2d12, 2d6 becomes 4d6).</li></ul>",
-"<b>Application and Activation:</b> Applying an oil to a weapon takes 5 minutes. Once applied, the oil remains on the weapon for 5 hours, but its magical effect must be activated. Activating an oil is a free action, and once activated, it lasts for 10 minutes. If deactivated before the duration ends, the oil is expended and cannot be reused.",
-"<b>Special Properties:</b> A weapon enhanced with an oil loses its original damage type unless it has the Flowing property. Only one oil can be applied to a weapon at a time. These oils are rare and typically reserved for experienced hunters.",
-"<b>Example Conversions:</b>",
-"- A Greataxe (1d12 Slashing) with Basic Fire Minimus deals 1d6 Fire damage.",
-"- A Greataxe with Basic Fire Medianus deals 1d12 Fire damage.",
-"- A Greataxe with Basic Fire Maximus deals 2d12 Fire damage.",
-"- A Maul (2d6 Bludgeoning) with Storm Lightning Minimus deals 2d3 Lightning damage.",
-"- A Maul with Storm Lightning Medianus deals 2d6 Lightning damage.",
-"- A Maul with Storm Lightning Maximus deals 4d6 Lightning damage.",
-"Weapon Oils provide hunters with a means to overcome creatures resistant or immune to conventional attacks, ensuring they are always prepared for the hunt."
-]
+				"Weapon Oils are alchemical concoctions designed by monster hunters to imbue their weapons with specific types of damage. These oils replace the weapon’s normal damage type with a different one upon application.",
+				"Each oil belongs to one of five tiers of rarity and provides a distinct elemental, magical, or supernatural damage type:<ul><li>- <b>Basic (Common) Oils</b> [Fire, Cold]</li><li>- <b>Searing (Uncommon) Oils</b> [Poison, Acid]</li><li>- <b>Storm (Rare) Oils</b> [Lightning, Thunder]</li><li>- <b>Exalted (Very Rare) Oils</b> [Radiant, Necrotic]</li><li>- <b>Invisible (Legendary) Oils</b> [Force, Psychic]</li></ul>",
+				"<b>Additionally, Weapon Oils are classified by potency:</b><ul><li>- <b>Minimus:</b> The weapon deals damage with a die half the size of its original damage die (e.g., 1d12 becomes 1d6, 2d6 becomes 2d3).</li><li>- <b>Medianus:</b> The weapon retains its original damage dice, but the damage type changes.</li><li>- <b>Maximus:</b> The weapon deals damage with double the number of its original damage dice (e.g., 1d12 becomes 2d12, 2d6 becomes 4d6).</li></ul>",
+				"<b>Application and Activation:</b> Applying an oil to a weapon takes 5 minutes. Once applied, the oil remains on the weapon for 5 hours, but its magical effect must be activated. Activating an oil is a free action, and once activated, it lasts for 10 minutes. If deactivated before the duration ends, the oil is expended and cannot be reused.",
+				"<b>Special Properties:</b> A weapon enhanced with an oil loses its original damage type unless it has the Flowing property. Only one oil can be applied to a weapon at a time. These oils are rare and typically reserved for experienced hunters.",
+				"<b>Example Conversions:</b>",
+				"- A Greataxe (1d12 Slashing) with Basic Fire Minimus deals 1d6 Fire damage.",
+				"- A Greataxe with Basic Fire Medianus deals 1d12 Fire damage.",
+				"- A Greataxe with Basic Fire Maximus deals 2d12 Fire damage.",
+				"- A Maul (2d6 Bludgeoning) with Storm Lightning Minimus deals 2d3 Lightning damage.",
+				"- A Maul with Storm Lightning Medianus deals 2d6 Lightning damage.",
+				"- A Maul with Storm Lightning Maximus deals 4d6 Lightning damage.",
+				"Weapon Oils provide hunters with a means to overcome creatures resistant or immune to conventional attacks, ensuring they are always prepared for the hunt."
+			]
+		},
+		{
+			"name": "Huhammer čierneho ľadu",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "Legendary",
+			"reqAttune": "yes",
+			"type": "weapon",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": [
+				"Axria weapon",
+				"melee weapon",
+				"28 lb.",
+				"Hulking",
+				"two-handed",
+				"special"
+			],
+			"tags": [],
+			"entries": [
+				"<b>Special Traits</b>",
+				"This weapon grants the access to all traits to any wielder, even without attunement.",
+				"<b>Glacial Slam</b>",
+				"When you use the HuHammer's special property to knock an enemy prone, the intense impact sends out a shockwave of frost:
+				All creatures within a 10-foot cone behind the target must make a DC 16 Dexterity saving throw or take 2d6 cold damage and have their speed reduced by 15 feet until the end of their next turn.","<b>Frostborn Momentum</b>",
+				"Each time you hit with the HuHammer, its chilling power builds:
+				<br>On a hit, the target must make a DC 15 Constitution saving throw or suffer Frostbite until the end of its next turn. While Frostbitten:
+				<br>- The target has disadvantage on Strength and Dexterity saving throws.
+				<br>- The target's speed is halved.
+				<br>- If you crit, Frostbite applies automatically, and the target's speed is reduced to 0 until the end of its next turn.","<b>Shatter Terrain</b>",
+				"When you use the HuHammer to strike the ground as an action, you can freeze and shatter a 15-foot radius area:
+				<br>All creatures within the area must succeed on a DC 16 Dexterity saving throw or fall prone and take 3d8 cold damage.
+				<br>The terrain in this area becomes frozen and counts as difficult terrain for 1 minute. Non-magical objects within the area become brittle and can be shattered. (Whenever the object is hit, the hit is a Critical Hit.)","<b>Passive Freezing</b>",
+				"When left unattended, the HuHammer exerts its icy influence:
+				<br>Within 1 minute, it freezes a 30-foot radius of water, turning it into solid ice.
+				<br>Within 1 hour, it freezes a 30-foot radius area of terrain, creating slippery, difficult terrain.
+				<br>Creatures in 15-feet radius will receive condition Frostbitten after an 1 hour, unless the weapon is in special container or the creature is attuned to the weapon or creature is immune to the cold damage.","<b>Cold Recoil<b>","If the wielder is not attuned to the HuHammer, they take 3d10 cold damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are petrified in ice until thawed."
+			]
 		}
 	]
 }
