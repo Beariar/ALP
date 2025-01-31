@@ -267,6 +267,217 @@
 				"<b>Fire Recoil</b>",
 				"If the wielder is not attuned to the Chakram, they take 3d8 Fire damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are reduced to ash."
 			]
+			},
+			{
+				"name": "Spiked Armor",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "rare",
+				"reqAttune": "no",
+				"type": "armor",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["medium", "heavy"],
+				"tags": [],
+				"entries": [
+					"Hunters known as \"Hedgehog Hunters\" or \"Porcupine Stalkers\" favor this armor, which is covered in sharp, sturdy spikes. While wearing this armor, whenever a creature within 5 feet of you hits you with a melee attack, it must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier + academy level). On a failed save, the attacker takes piercing damage equal to your academy level in d6s (e.g., at academy level 3 (bojon), the damage is 3d6).",
+					"This damage is always piercing. However, some hunters coat the armor in weapon oils to change the damage type. Applying an oil to this armor takes twice as long as applying it to a weapon.",
+					"Additionally, only clumsy or reckless creatures suffer from the armor’s spikes—creatures with high agility can avoid them. A creature that has the Evasion feature or advantage on Dexterity saving throws against effects it can see automatically succeeds on this saving throw."
+				]
+			},
+			{
+				"name": "Noble Masochist",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "very rare",
+				"reqAttune": "yes",
+				"type": "armor",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["heavy"],
+				"tags": [],
+				"entries": [
+					"This enchanted armor is favored by those who would sacrifice themselves to protect others. While wearing this armor, you can use a bonus action or a reaction to form a protective bond with a creature within 50 feet of you. While bonded, any damage that the bonded creature would take is instead transferred to you. This bond lasts until you end it as a bonus action, the bonded creature moves more than 50 feet away from you, or you become unconscious.",
+					"You gain temporary hit points equal to your academy level * your constitution bonus when forming the bond.",
+					"Damage transferred in this way bypasses any resistances or immunities you have. If the damage would reduce you to 0 hit points, the bond ends, but the excess damage is still taken by you." 
+				]
+			},
+			{
+				"name": "Reductor",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "varies",
+				"reqAttune": "no",
+				"type": "armor",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["light", "medium"],
+				"tags": [],
+				"entries": [
+					"Crafted primarily from the hides of powerful creatures, this armor retains traces of their natural resistances. While it does not grant full immunity to damage types, it reduces their effects.",
+					"<b>Rare</b>: Grants resistance to one damage type.<br><b>Very Rare:</b> Grants resistance to two damage types.<br><b>Legendary:</b> Grants resistance to three damage types.",
+					"The damage types are determined when the armor is created and cannot be changed."
+				]
+			},
+			{
+				"name": "Swift-Healing Bandages",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "uncommon",
+				"reqAttune": "no",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["consumable"],
+				"tags": [],
+				"entries": [
+					"These enchanted bandages accelerate the body's natural healing process, providing an alternative to resting. Using a set of bandages requires an action, and when applied, they allow a creature to regain hit points as if they had completed a Short Rest, including the ability to spend Hit Dice for healing.",
+					"Each set of bandages can be used three times before becoming ineffective. If a creature exhausts its hit dices, it cannot regain additional hit points through normal Short Rest healing unless it completes a Long Rest or restore the hit dices by other means."
+				]
+			},
+			{
+				"name": "Last Aid Brooch",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "very rare",
+				"reqAttune": "no",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["consumable"],
+				"tags": [],
+				"entries": [
+					"When all hope is lost and a hunter falls, this magical brooch—shaped like a small spider—offers one final chance at survival. If a creature wearing this brooch dies, another creature can use an action to activate it within 1 hour of the wearer’s death.",
+					"Upon activation, the brooch unfolds into a spectral spider that weaves a cocoon of enchanted webbing around the fallen creature. Over the next 1d3 + 1 days, the cocoon slowly restores the body, healing wounds and repairing damage. When the process is complete, the cocoon crumbles away, and the creature emerges fully restored to life, as if finishing long rest. However, the revived creature suffers two levels of exhaustion due to the strain of regeneration.",
+					"Once used, the brooch crumbles into dust and is destroyed."
+				]
+			},
+			{
+				"name": "Healing and Health Potions",
+				"source": "ALP",
+				"page": 0,
+				"rarity": "varies",
+				"reqAttune": "no",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": 0,
+					"spellSaveDc": 0,
+					"weaponAttack": 0,
+					"abilityScores": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"wis": 0,
+						"int": 0,
+						"cha": 0
+					},
+					"savingThrow": 0
+				},
+				"spellFocus": "no",
+				"properties": ["consumable"],
+				"tags": [],
+				"entries": [
+					"These magical potions are designed to restore vitality and cure ailments. A creature can drink a potion as a bonus action, rapidly benefiting from its effects. However, administering a potion to another creature within 5 feet requires an action as it takes more time and care.",
+					"Once used, the brooch crumbles into dust and is destroyed.",
+					"<b>Elixir of Health</b> (rare) - This potent elixir purges afflictions from the body. When you drink this potion, it:<br> - Cures any disease affecting you.<br> - Removes the blinded, deafened, paralyzed, and poisoned conditions.",
+					"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points."
+				]
+			},
+		{
+			"name": "Arcane Biscuit",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "very rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": 0,
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": ["consumable"],
+			"tags": [],
+			"entries": [
+				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Mana Biscuit—a notoriously foul-tasting ration that restores magical power at a cost.",
+				"When you eat a Mana Biscuit as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the biscuit is not potent enough to replenish such immense power.",
+				"However, the sudden surge of magic strains the body. Upon consuming a Mana Biscuit, you immediately gain one level of exhaustion. If you already have exhaustion levels, consuming another biscuit exacerbates the toll, making further spellcasting even more dangerous.",
+				"Many experienced mages learn the secrets of the Mana Biscuit, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
+			]
 		}
 	]
 }
