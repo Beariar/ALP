@@ -121,7 +121,7 @@
 				"When you use the HuHammer to strike the ground as an action, you can freeze and shatter a 15-foot radius area:<br>All creatures within the area must succeed on a DC 16 Dexterity saving throw or fall prone and take 3d8 cold damage.<br>The terrain in this area becomes frozen and counts as difficult terrain for 1 minute. Non-magical objects within the area become brittle and can be shattered. (Whenever the object is hit, the hit is a Critical Hit.)",
 				"<b>Passive Freezing</b>",
 				"When left unattended, the HuHammer exerts its icy influence:<br>Within 1 minute, it freezes a 30-foot radius of water, turning it into solid ice.<br>Within 1 hour, it freezes a 30-foot radius area of terrain, creating slippery, difficult terrain.<br>Creatures in 15-feet radius will receive condition Frostbitten after an 1 hour, unless the weapon is in special container or the creature is attuned to the weapon or creature is immune to the cold damage.",
-				"<b>Cold Recoil<b>",
+				"<b>Cold Recoil</b>",
 				"If the wielder is not attuned to the HuHammer, they take 3d10 cold damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are petrified in ice until thawed."
 			]
 		},
