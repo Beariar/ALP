@@ -221,7 +221,7 @@
 			]
 		},
 		{
-			"name": "Dark Ice Huhammer",
+			"name": "Shadow Fire Chakram",
 			"source": "ALP",
 			"page": 0,
 			"rarity": "Legendary",
@@ -261,7 +261,7 @@
 				"<b>Overheating</b>",
 				"Each time you hit with the Chakram, its heating power leaves a mark:<br>On a hit, the target must make a DC 15 Constitution saving throw or suffer Overheating until the end of its next turn. While <i>Overheating:</i><br>- The target has disadvantage on Strength and Intelligence saving throws.<br>- The target's can not take reactions.<br>If you crit, Overheating applies automatically, and the target's takes 1d6 fire damage on the start of its next turn.",
 				"<b>Power of the Forge</b>",
-				"When you use the Chakram to strike the metal object as an action, you can melt it and shatter a 15-foot radius area:<br>- If its an armor, you will reduce its AC by 3 and it will also deal 2d8 fire damage to any creature wearing the armor for the next 1d4 turns.<br>- If its a weapon, you will reduce its durability by 2 and it will also 2d8 fire damage to any creature holding it for the next 1d4 turns.<br>- If its other metal object, you will reduce its properties and make it gummy for 1 minute. (Whenever the object is hit, the hit is a Critical Hit.)<br>If the object is of magical nature you must pass Arcana check to affect the metal object. DC is given by DM. On fail the object will only deal the fire damage but its properties will not be affected.<br>Also the Chakram can be used as source of heat for any forge.",
+				"When you use the Chakram to strike the metal object as an action, you can melt it and shatter a 15-foot radius area:<br>- If its an armor, you will reduce its AC by 3 and it will also deal 2d8 fire damage to any creature wearing the armor for the next 1d4 turns.<br>- If its a weapon, you will reduce its durability by 2 and it will also 2d8 fire damage to any creature holding it for the next 1d4 turns.<br>- If its other metal object, you will reduce its properties and make it \"gummy\" for 1 minute. (Whenever the object is hit, the hit is a Critical Hit.)<br>If the object is of magical nature you must pass Arcana check to affect the metal object. DC is given by DM. On fail the object will only deal the fire damage but its properties will not be affected.<br>Also the Chakram can be used as source of heat for any forge.",
 				"<b>Passive Heating</b>",
 				"When left unattended, the Chakram exerts its fiery influence:<br>Within 1 minute, it boils a 15-foot radius of water, turning it into steam.<br>Within 1 hour, it heats a 15-foot radius area of terrain, creating slippery, difficult terrain.<br>If Chakram will touch with any flammable object it will ignites instantly.<br>Creatures in 10-feet radius will receive condition Overheated after an 1 hour, unless the weapon is in special container or the creature is attuned to the weapon or creature is immune to the fire damage.",
 				"<b>Fire Recoil</b>",
