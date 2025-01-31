@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"name": "Dark Ice Huhammer",
+			"name": "#Dark Ice Huhammer",
 			"source": "ALP",
 			"page": 0,
 			"rarity": "Legendary",
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "Shadow Fire Chakram",
+			"name": "#Shadow Fire Chakram",
 			"source": "ALP",
 			"page": 0,
 			"rarity": "Legendary",
@@ -385,6 +385,35 @@
 				"When you eat a Arcane biscuit as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the biscuit is not potent enough to replenish such immense power.",
 				"However, the sudden surge of magic strains the body. Upon consuming a Arcane biscuit, you immediately gain one level of exhaustion. If you already have exhaustion levels, consuming another biscuit exacerbates the toll, making further spellcasting even more dangerous.",
 				"Many experienced mages learn the secrets of the Arcane biscuit, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
+			]
+		},
+		{
+			"name": "Muscle Weapon",
+			"source": "ALP",
+			"page": 0,
+			"rarity": "uncommon ",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": 0,
+				"spellSaveDc": 0,
+				"weaponAttack": 0,
+				"abilityScores": {
+					"str": "+2",
+					"dex": 0,
+					"con": 0,
+					"wis": 0,
+					"int": 0,
+					"cha": 0
+				},
+				"savingThrow": 0
+			},
+			"spellFocus": "no",
+			"properties": ["weapon"],
+			"tags": [],
+			"entries": [
+				"Your Strength score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following base items: Simple Melee Weapon,Simple Range Weapon, Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon"
 			]
 		}
 	]
