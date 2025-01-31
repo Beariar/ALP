@@ -154,20 +154,17 @@
 			"entries": [
 "Weapon Oils are alchemical concoctions designed by monster hunters to imbue their weapons with specific types of damage. These oils replace the weapon’s normal damage type with a different one upon application.",
 "Each oil belongs to one of five tiers of rarity and provides a distinct elemental, magical, or supernatural damage type:",
-"<ul><li>Basic Oils (Fire, Cold)</li><li>Searing Oils (Poison, Acid)</li><li>Storm Oils (Lightning, Thunder)</li><li>Exalted Oils (Radiant, Necrotic)</li><li>Invisible Oils (Force, Psychic)</li></ul>",
-"Additionally, Weapon Oils are classified by potency:",
-"Minimus: The weapon deals damage with a die half the size of its original damage die (e.g., 1d12 becomes 1d6, 2d6 becomes 2d3).",
-"Medianus: The weapon retains its original damage dice, but the damage type changes.",
-"Maximus: The weapon deals damage with double the number of its original damage dice (e.g., 1d12 becomes 2d12, 2d6 becomes 4d6).",
+"<ul><li>- Basic Oils (Fire, Cold)</li><li>- Searing Oils (Poison, Acid)</li><li>- Storm Oils (Lightning, Thunder)</li><li>- Exalted Oils (Radiant, Necrotic)</li><li>- Invisible Oils (Force, Psychic)</li></ul>",
+"<b>Additionally, Weapon Oils are classified by potency:</b><ul><li>- Minimus: The weapon deals damage with a die half the size of its original damage die (e.g., 1d12 becomes 1d6, 2d6 becomes 2d3).</li><li>- Medianus: The weapon retains its original damage dice, but the damage type changes.</li><li>- Maximus: The weapon deals damage with double the number of its original damage dice (e.g., 1d12 becomes 2d12, 2d6 becomes 4d6).</li></ul>",
 "<b>Application and Activation:</b> Applying an oil to a weapon takes 5 minutes. Once applied, the oil remains on the weapon for 5 hours, but its magical effect must be activated. Activating an oil is a free action, and once activated, it lasts for 10 minutes. If deactivated before the duration ends, the oil is expended and cannot be reused.",
 "<b>Special Properties:</b> A weapon enhanced with an oil loses its original damage type unless it has the Flowing property. Only one oil can be applied to a weapon at a time. These oils are rare and typically reserved for experienced hunters.",
 "<b>Example Conversions:</b>",
-"A Greataxe (1d12 Slashing) with Basic Fire Minimus deals 1d6 Fire damage.",
-"A Greataxe with Basic Fire Medianus deals 1d12 Fire damage.",
-"A Greataxe with Basic Fire Maximus deals 2d12 Fire damage.",
-"A Maul (2d6 Bludgeoning) with Storm Lightning Minimus deals 2d3 Lightning damage.",
-"A Maul with Storm Lightning Medianus deals 2d6 Lightning damage.",
-"A Maul with Storm Lightning Maximus deals 4d6 Lightning damage.",
+"- A Greataxe (1d12 Slashing) with Basic Fire Minimus deals 1d6 Fire damage.",
+"- A Greataxe with Basic Fire Medianus deals 1d12 Fire damage.",
+"- A Greataxe with Basic Fire Maximus deals 2d12 Fire damage.",
+"- A Maul (2d6 Bludgeoning) with Storm Lightning Minimus deals 2d3 Lightning damage.",
+"- A Maul with Storm Lightning Medianus deals 2d6 Lightning damage.",
+"- A Maul with Storm Lightning Maximus deals 4d6 Lightning damage.",
 "Weapon Oils provide hunters with a means to overcome creatures resistant or immune to conventional attacks, ensuring they are always prepared for the hunt."
 ]
 		}
