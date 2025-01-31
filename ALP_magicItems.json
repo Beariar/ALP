@@ -9,42 +9,12 @@
 			"name": "First Item Name",
 			"source": "ALP",
 			"page": 0,
-			"rarity": "uncommon",
+			"rarity": "varies",
 			"reqAttune": "no",
 			"type": "wondrous",
 			"bonuses": {
 				"spellAttack": 0,
 				"spellSaveDc": 0,
-				"weaponAttack": 0,
-				"abilityScores": {
-					"str": 1,
-					"dex": 1,
-					"con": 1,
-					"wis": 1,
-					"int": 1,
-					"cha": 1
-				},
-				"savingThrow": 0
-			},
-			"spellFocus": "no",
-			"properties": [],
-			"tags": [],
-			"entries": [
-				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
-				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
-				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
-			]
-		},
-		{
-			"name": "Second Item Name",
-			"source": "ALP",
-			"page": 0,
-			"rarity": "rare",
-			"reqAttune": "no",
-			"type": "wondrous",
-			"bonuses": {
-				"spellAttack": 1,
-				"spellSaveDc": 1,
 				"weaponAttack": 0,
 				"abilityScores": {
 					"str": 0,
@@ -60,75 +30,10 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
-				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
-				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
-			]
-		},
-		{
-			"name": "Third Item Name",
-			"source": "ALP",
-			"page": 0,
-			"rarity": "legendary",
-			"reqAttune": "yes (by Wizard)",
-			"type": "wondrous",
-			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
-				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
-				},
-				"savingThrow": 1
-			},
-			"spellFocus": "yes",
-			"properties": [
-				"fire",
-				"ice"
-			],
-			"tags": [],
-			"entries": [
-				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
-				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
-				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
-			]
-		},
-		{
-			"name": "4th Item Name",
-			"source": "ALP",
-			"page": 0,
-			"rarity": "legendary",
-			"reqAttune": "yes (by Wizard)",
-			"type": "wondrous",
-			"bonuses": {
-				"spellAttack": 0,
-				"spellSaveDc": 0,
-				"weaponAttack": 0,
-				"abilityScores": {
-					"str": 0,
-					"dex": 0,
-					"con": 0,
-					"wis": 0,
-					"int": 0,
-					"cha": 0
-				},
-				"savingThrow": 0
-			},
-			"spellFocus": "yes",
-			"properties": [
-				"fire",
-				"ice"
-			],
-			"tags": [],
-			"entries": [
-				"Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1 Line 1",
-				"Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - Long Line 2 - ",
-				"Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - Last Line 3 - "
+				"Line_1",
+				"Line_2",
+				"Line_3",
+				"Line_4"
 			]
 		},
 		{
@@ -473,10 +378,10 @@
 			"properties": ["consumable"],
 			"tags": [],
 			"entries": [
-				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Mana Biscuit—a notoriously foul-tasting ration that restores magical power at a cost.",
-				"When you eat a Mana Biscuit as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the biscuit is not potent enough to replenish such immense power.",
-				"However, the sudden surge of magic strains the body. Upon consuming a Mana Biscuit, you immediately gain one level of exhaustion. If you already have exhaustion levels, consuming another biscuit exacerbates the toll, making further spellcasting even more dangerous.",
-				"Many experienced mages learn the secrets of the Mana Biscuit, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
+				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Arcane biscuit—a notoriously foul-tasting ration that restores magical power at a cost.",
+				"When you eat a Arcane biscuit as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the biscuit is not potent enough to replenish such immense power.",
+				"However, the sudden surge of magic strains the body. Upon consuming a Arcane biscuit, you immediately gain one level of exhaustion. If you already have exhaustion levels, consuming another biscuit exacerbates the toll, making further spellcasting even more dangerous.",
+				"Many experienced mages learn the secrets of the Arcane biscuit, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
 			]
 		}
 	]
