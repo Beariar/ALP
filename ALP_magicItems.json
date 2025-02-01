@@ -506,7 +506,7 @@
 			"name": "Wand of Knowledge",
 			"source": "ALP",
 			"page":"0",
-			"rarity": "uncommon ",
+			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
@@ -534,7 +534,7 @@
 			"name": "Gem of Impression",
 			"source": "ALP",
 			"page":"0",
-			"rarity": "uncommon ",
+			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
@@ -556,6 +556,117 @@
 			"tags": [],
 			"entries": [
 				"Your Charisma score increases by 2 but can't exceed 20"]
-		}
+			},
+			{
+				"name": "Quickmagic Coin",
+				"source": "ALP",
+				"page":"0",
+				"rarity": "varies",
+				"reqAttune": "no",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": "0",
+					"spellSaveDc": "0",
+					"weaponAttack": "0",
+					"abilityScores": {
+						"str": "0",
+						"dex": "0",
+						"con": "0",
+						"wis": "0",
+						"int": "0",
+						"cha": "0"
+					},
+					"savingThrow": "0"
+				},
+				"spellFocus": "no",
+				"properties": [],
+				"tags": [],
+				"entries": [
+					"Not all hunters have the luxury of a mage in their ranks, and magical scrolls remain useless to those untrained in the arcane arts. Quickmagic Coins offer a different solution—single-use magic imbued within a small enchanted token, requiring no prior magical knowledge to activate.",
+					"Each Quickmagic Coin contains a single spell, represented by intricate patterns engraved on its surface. Some symbols may be misleading or unclear, but the Identify spell can always reveal the spell within.",
+					"<b>Using a Quickmagic Coin</b>",
+					"Anyone, even those without magical ability, can activate a Quickmagic Coin by pressing it against a magic-sensitive vein (such as the wrist or temple). The coin is absorbed into the user, and the spell is immediately cast. If the spell requires an attack roll or saving throw, its effectiveness depends on the user's mental attributes.",
+					"<b>Determining Spellcasting Ability</b>",
+					"The effectiveness of a Quickmagic Coin depends on the spell’s school, which dictates which mental ability modifies its power:", 
+					"<i><b>Intelligence:</b><br>Evocation, Abjuration, Transmutation, Divination<i>",
+					"<i><b>Wisdom:</b><br>Conjuration, Necromancy<i>",
+					"<i><b>Charisma:</b><br>Enchantment, Illusion<i>",
+					"<b>Spellcasting Attributes</b>",
+					"<i><b>Quickmagic Saved DC:</b><br>6 + proficiency bonus + spell ability modifier<i>",
+					"<i><b>Quickmagic Attack Bonus:</b><br>proficiency bonus + spell ability modifier - 2<i>",
+					"Since these coins require no training to use, they have become highly sought-after items—even appearing frequently on the black market, where untrained individuals can wield dangerous magic without restriction."
+				]
+			},
+			{
+				"name": "Self-Squire",
+				"source": "ALP",
+				"page":"0",
+				"rarity": "rare",
+				"reqAttune": "yes",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": "0",
+					"spellSaveDc": "0",
+					"weaponAttack": "0",
+					"abilityScores": {
+						"str": "0",
+						"dex": "0",
+						"con": "0",
+						"wis": "0",
+						"int": "0",
+						"cha": "0"
+					},
+					"savingThrow": "0"
+				},
+				"spellFocus": "no",
+				"properties": [],
+				"tags": [],
+				"entries": [
+					"During battle, a hunter may need to swap weapons quickly—yet not all weapons can be conveniently carried on a belt or back. To solve this problem, the Self-Squire was created, a magical assistant that hovers near its wielder and manages their armaments.",
+					"<b>Functionality</b>",
+					"When activated as a bonus action, the Auto-Squire levitates within 5 feet of its attuned user, similar to the Quill-Scribe or Tome-Glide. While active, it can:",
+					" - <b>Hold up to three weapons</b> - additionaly it can also carry one shield",
+					" - <b>Retrieve dropped weapons</b> - it can lift one weapon per round from the ground",
+					" - <b>Swap weapons</b> - as a free action user can drop current weapon and pick new one, provided Self-Squire is within reach.",
+					"<b>Limitations</b>",
+					"The Auto-Squire does not wield weapons, attack, or block. It simply carries and retrieves them.",
+					"If struck by an area effect (such as Fireball), it makes a Dexterity saving throw using the attuned user’s Dexterity modifier + proficiency bonus. On failure, it drops all carried weapons.",
+					"This magical assistant ensures that a hunter is never caught unarmed, even in the heat of battle."
+				]
+			},
+			{
+				"name": "LongSpeak 2.0",
+				"source": "ALP",
+				"page":"0",
+				"rarity": "rare",
+				"reqAttune": "no",
+				"type": "wondrous",
+				"bonuses": {
+					"spellAttack": "0",
+					"spellSaveDc": "0",
+					"weaponAttack": "0",
+					"abilityScores": {
+						"str": "0",
+						"dex": "0",
+						"con": "0",
+						"wis": "0",
+						"int": "0",
+						"cha": "0"
+					},
+					"savingThrow": "0"
+				},
+				"spellFocus": "no",
+				"properties": [],
+				"tags": [],
+				"entries": [
+					"Long-distance communication is vital for hunters. Cities rely on it for up-to-date reports from the wilds, while hunters need to stay informed about the state of civilization. Traditional magic alone is insufficient to connect every hunter, leading to the development of LongSpeak, a techno-magical device that enables instant communication over great distances.",
+					"Functionality",
+					"The LongSpeak 2.0 is a small pouch-like device with metal components. As an action, the user can establish a connection with another LongSpeak within range.",
+					" - <b>Relay Tower Network:</b> The LongSpeak 2.0 functions only within the coverage area of magical relay towers, which each have a range of 400 miles. These towers can connect with each other, extending communication range indefinitely as long as a chain of towers exists between users.",
+					" - <b>Direct Pairing (Legacy Mode):</b> If outside tower coverage, the LongSpeak 2.0 cannot establish a direct link. However, the older LongSpeak 1.0—a bulkier backpack-sized model—can still operate without towers by linking directly with another LongSpeak 1.0 or LongSpeak 2.0 within 40 miles.", 
+					" - <b>Legacy Tower Link:</b> The LongSpeak 1.0 can also connect to magical relay towers, and like the towers themselves, LongSpeak 1.0 units can link together to extend their range, creating a relay chain. In fact, this direct-link system was the blueprint for how the relay towers were eventually designed.",
+					"Though LongSpeak 2.0 is far more convenient, hunters traveling deep into the wilderness may still carry a LongSpeak 1.0 as a backup—despite its impractical size—when tower coverage is uncertain."
+				]
+			}
 	]
 }
