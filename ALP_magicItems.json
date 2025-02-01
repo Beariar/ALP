@@ -7,6 +7,7 @@
 	"item": [
 		{
 			"name": "#First Item Name",
+			"meno": "",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -38,6 +39,7 @@
 		},
 		{
 			"name": "Weapon Oils",
+			"meno": "Oleje na zbrane",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -80,6 +82,7 @@
 		},
 		{
 			"name": "#Dark Ice Huhammer",
+			"meno": "HuHammer temného ľadu",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "Legendary",
@@ -127,6 +130,7 @@
 		},
 		{
 			"name": "#Shadow Fire Chakram",
+			"meno": "Chakram Tieňového Plameňa",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "Legendary",
@@ -175,6 +179,7 @@
 			},
 			{
 				"name": "Spiked Armor",
+				"meno": "ÚtokOchrany",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "rare",
@@ -205,6 +210,7 @@
 			},
 			{
 				"name": "Noble Masochist",
+				"meno": "DokonalýOchranca",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "very rare",
@@ -235,6 +241,7 @@
 			},
 			{
 				"name": "Reductor",
+				"meno": "Reduktor",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "varies",
@@ -265,6 +272,7 @@
 			},
 			{
 				"name": "Swift-Healing Bandages",
+				"meno": "Obväzy Rýchlo Liečby",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "uncommon",
@@ -294,6 +302,7 @@
 			},
 			{
 				"name": "Last Aid Brooch",
+				"meno": "Posledná pomoc",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "very rare",
@@ -324,6 +333,7 @@
 			},
 			{
 				"name": "Healing and Health Potions",
+				"meno": "",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "varies",
@@ -358,6 +368,7 @@
 			},
 		{
 			"name": "Arcane Biscuit",
+			"meno": "Obnomág",
 			"source": "ALP",
 			"page":"0",
 			"rarity": "very rare",
@@ -389,7 +400,8 @@
 		},
 		{
 			"name": "Weapon of Power",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -418,7 +430,8 @@
 		},
 		{
 			"name": "Weapon of Agility",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -447,7 +460,8 @@
 		},
 		{
 			"name": "Shield of Endurance",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -476,7 +490,8 @@
 		},
 		{
 			"name": "Staff of Instinct",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -504,7 +519,8 @@
 		},
 		{
 			"name": "Wand of Knowledge",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -532,7 +548,8 @@
 		},
 		{
 			"name": "Gem of Impression",
-			"source": "ALP",
+			"meno": "",
+"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
@@ -559,7 +576,8 @@
 			},
 			{
 				"name": "Quickmagic Coin",
-				"source": "ALP",
+				"meno": "RýchloMágia",
+"source": "ALP",
 				"page":"0",
 				"rarity": "varies",
 				"reqAttune": "no",
@@ -599,7 +617,8 @@
 			},
 			{
 				"name": "Self-Squire",
-				"source": "ALP",
+				"meno": "SamoPanoš",
+"source": "ALP",
 				"page":"0",
 				"rarity": "rare",
 				"reqAttune": "yes",
@@ -636,6 +655,7 @@
 			},
 			{
 				"name": "LongSpeak 2.0",
+				"meno": "DiaľkoReč 2.0",
 				"source": "ALP",
 				"page":"0",
 				"rarity": "rare",
@@ -667,6 +687,7 @@
 			},
 			{
 			"name": "Quill-Scribe & Tome-Glide",
+			"meno": "Peropíš a Kniholet",
 			"source": "ALP",
 			"page":"0",
 			"rarity": "uncommon",
