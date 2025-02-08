@@ -680,7 +680,7 @@
 				"tags": [],
 				"entries": [
 					"Long-distance communication is vital for hunters. Cities rely on it for up-to-date reports from the wilds, while hunters need to stay informed about the state of civilization. Traditional magic alone is insufficient to connect every hunter, leading to the development of LongSpeak, a techno-magical device that enables instant communication over great distances.",
-					"<b>Functionality<b>",
+					"<b>Functionality</b>",
 					"The LongSpeak 2.0 is a small pouch-like device with metal components. As an action, the user can establish a connection with another LongSpeak within range.<br> - <b>Relay Tower Network:</b> The LongSpeak 2.0 functions only within the coverage area of magical relay towers, which each have a range of 400 miles. These towers can connect with each other, extending communication range indefinitely as long as a chain of towers exists between users.<br> - <b>Direct Pairing (Legacy Mode):</b> If outside tower coverage, the LongSpeak 2.0 cannot establish a direct link. However, the older LongSpeak 1.0—a bulkier backpack-sized model—can still operate without towers by linking directly with another LongSpeak 1.0 or LongSpeak 2.0 within 40 miles.<br> - <b>Legacy Tower Link:</b> The LongSpeak 1.0 can also connect to magical relay towers, and like the towers themselves, LongSpeak 1.0 units can link together to extend their range, creating a relay chain. In fact, this direct-link system was the blueprint for how the relay towers were eventually designed.",
 					"Though LongSpeak 2.0 is far more convenient, hunters traveling deep into the wilderness may still carry a LongSpeak 1.0 as a backup—despite its impractical size—when tower coverage is uncertain."
 				]
@@ -712,15 +712,58 @@
 			"tags": [],
 			"entries": [
 				"Hunters, especially Scholars, often need to take notes even in the midst of dangerous expeditions. To ensure no crucial thought is lost, two magical tools were created: the Quill-Scribe and the Tome-Glide—an enchanted quill and book that assist in recording knowledge without disrupting combat.",
-				"<b>Quill-Scribe<b>",
+				"<b>Quill-Scribe</b>",
 				"This magical quill hovers within 5 feet of its attuned user, automatically writing down anything they dictate in their own handwriting. If the user also writes manually, the quill learns their writing style and can mimic it when scribing independently.",
-				"<b>Tome-Glide<b>",
+				"<b>Tome-Glide</b>",
 				"This enchanted book follows the attuned user, floating within 5 feet of them. It remains open to a chosen page, allowing the Quill-Scribe to write without needing a surface. The book can also be commanded to turn pages or close itself with a simple verbal command.",
-				"<b>Limitations & Spell Usage<b>",
+				"<b>Limitations & Spell Usage</b>",
 				"The Quill-Scribe cannot be used to copy spells into a spellbook for reduced cost or time—the intricate process of transcribing magic still requires the user's full attention and magical effort.",
 				"However, Tome-Glide can function as a wizard’s spellbook, allowing spells to be recorded in it just as they would in any normal spellbook.",
 				"Together, these items allow a hunter to take notes even during combat, ensuring that valuable insights are never lost."
 			]
-		}
+		},
+		{
+		"name": "Magical Glasses of...",
+		"meno": "",
+		"source": "ALP",
+		"page":"0",
+		"rarity": "uncommon",
+		"reqAttune": "no",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "no",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"These finely crafted glasses come in a variety of designs, each imbued with a subtle magical enhancement. While wearing a pair, you gain one of the following benefits, depending on the type of glasses:",
+			"<b>Glasses of the Scribe</b> → You can read one additional language of your choice.",
+			"<b>Glasses of the Scout</b> → You gain a +1 bonus to Perception checks.",
+			"<b>Glasses of the Night</b> → Your darkvision increases by 5 feet.",
+			"<b>Glasses of Magic</b> → The range of Detect Magic increases by 10 feet.",
+			"<b>Glasses of Arcana</b> → You gain a +5-foot increase to the range at which you can see the aura of magical objects and effects.",
+			"<b>Glasses of the Silver Tongue</b> → You gain a +1 bonus to Persuasion checks.",
+			"<b>Glasses of the Deceiver</b> → You gain a +1 bonus to Deception checks.",
+			"<b>Glasses of the Scholar</b> → You gain a +1 bonus to History checks.",
+			"<b>Glasses of the Mystic</b> → You gain a +1 bonus to Arcana checks.",
+			"<b>Glasses of the Investigator</b> → You gain a +1 bonus to Investigation checks.",
+			"<b>Glasses of the Observer</b> → You gain a +1 bonus to Insight checks.",
+			"<b>Glasses of the Masquerade</b> → The DC to see through your Disguise Self spell increases by 1.",
+			"<b>Glasses of the Sharpshooter</b> → If a weapon or spell has a range greater than 30 feet, its range increases by 5 feet (e.g., a shortbow’s range changes from 80/320 to 85/325).",
+			"Each pair of glasses grants only one effect, and their magic does not stack with other magical items that provide the same benefit."
+			]
+	}
 	]
 }
