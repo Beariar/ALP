@@ -764,6 +764,39 @@
 			"<b>Glasses of the Sharpshooter</b> → If a weapon or spell has a range greater than 30 feet, its range increases by 5 feet (e.g., a shortbow’s range changes from 80/320 to 85/325).",
 			"Each pair of glasses grants only one effect, and their magic does not stack with other magical items that provide the same benefit."
 			]
+	},
+	{
+		"name": "Injecti-nator",
+		"meno": "Život žilou",
+		"source": "ALP",
+		"page": "0",
+		"rarity": "rare",
+		"reqAttune": "yes",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "no",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"This intricate arcane bracer is fitted with a small vial chamber, capable of holding one potion of healing. When a potion is placed inside, the bracer magically refines and pressurizes it, enhancing its effects.",
+			"While attuned to this item, you can activate it in one of the following ways:<br>• <b>Adrenaline Surge (Free Action)</b>: You can inject yourself with the stored healing potion as a free action on your turn.<br>• <b>Last-Second Save (Reaction)</b>: If you are reduced to 0 HP but not killed outright, you can use your reaction to inject the potion instead of falling unconscious.",
+			"Enhanced Healing:",
+			"When consumed through the Auto-Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
+			"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
+		]
 	}
-	]
+]
 }
