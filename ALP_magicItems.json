@@ -766,8 +766,8 @@
 			]
 	},
 	{
-		"name": "Injecti-nator",
-		"meno": "Život žilou",
+		"name": "Health Injector",
+		"meno": "Ihla zdravia",
 		"source": "ALP",
 		"page": "0",
 		"rarity": "rare",
@@ -793,8 +793,8 @@
 		"entries": [
 			"This intricate arcane bracer is fitted with a small vial chamber, capable of holding one potion of healing. When a potion is placed inside, the bracer magically refines and pressurizes it, enhancing its effects.",
 			"While attuned to this item, you can activate it in one of the following ways:<br>• <b>Adrenaline Surge (Free Action)</b>: You can inject yourself with the stored healing potion as a free action on your turn.<br>• <b>Last-Second Save (Reaction)</b>: If you are reduced to 0 HP but not killed outright, you can use your reaction to inject the potion instead of falling unconscious.",
-			"Enhanced Healing:",
-			"When consumed through the Auto-Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
+			"<b>Enhanced Healing:</b>",
+			"When consumed through the Health Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
 			"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
 		]
 	}
