@@ -797,6 +797,37 @@
 			"When consumed through the Health Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
 			"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
 		]
+	},
+	{
+		"name": "Arcane Condenser",
+		"meno": "Arcanicský vodolapač",
+		"source": "ALP",
+		"page": "0",
+		"rarity": "common",
+		"reqAttune": "no",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "no",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"Can rapidly extract water from the air, refilling flasks or hydrating a group in minutes.",
+			"Combat Effect: When used against creatures with the [Water] trait (e.g., water elementals), it siphons moisture from them, dealing force or necrotic damage as they partially dry out.",
+			"Charges: Has 3 charges, regaining all at dawn. One charge can:<br>- Create water equivalent to a full waterskin.<br>- Deal 2d8 force/necrotic damage to a water-based creature"
+		]
 	}
 ]
 }
