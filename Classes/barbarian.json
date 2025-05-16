@@ -9,6 +9,11 @@
         "Strength",
         "Constitution"
       ],
+            "refImage": [
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianZealoth.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianGiant.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianBerserkeer.png"
+            ],
       "level_table": [
         {
           "level": 1,
