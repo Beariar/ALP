@@ -292,7 +292,7 @@
             ],
             "core_traits": [
                 {
-                    "hit_point_die": "D8 per Artificer level",
+                    "hit_point_die": "D8 per level",
                     "hit_points_level_1": "8 + Con. modifier",
                     "hit_points_additional_levels": "D8 + Con. modifier or 5 + Con. modifier",
                     "saving_throw_proficiencies": [
@@ -344,6 +344,9 @@
                     "ability_score_minimum": {
                         "Intelligence": 13
                     },
+                    "weapon_proficiencies": [
+                        "None"
+                    ],
                     "tool_proficiencies": [
                         "Thieves' tools",
                         "Tinker's tools"
