@@ -254,9 +254,8 @@
     "4th Ss": "3",
     "5th Ss": "2"
   }
-]
-,
-      "core_traits": [
+],
+"core_traits": [
     {
       "hit_point_die": "D8 per Artificer level",
       "hit_points_level_1": "8 + Con. modifier",
