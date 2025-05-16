@@ -9,6 +9,11 @@
                 "Constitution",
                 "Intelligence"
             ],
+           "refImage": [
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerArtilerist.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerArmorer.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerSmith.png"
+            ],
             "level_table": [
                 {
                     "level": 1,
