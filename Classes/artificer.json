@@ -425,36 +425,202 @@
                     "feature_detail": "You've achieved a profound understanding of how to use and make magic items:\r\n\r\n - You can attune to up to four magic items at once.\r\n - If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold."
                 },
                 {
-                    "level": 1,
-                    "feature_name": "Rage",
-                    "feature_detail": "deteail"
+                    "level": 11,
+                    "feature_name": "Spell-Storing Item",
+                    "feature_detail": "You can now store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you needn't have it prepared).\r\n\r\nWhile holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
+                },
+                {
+                    "level": 12,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\r\n\r\nIf your DM allows the use of feats, you may instead take a feat."
+                },
+                {
+                    "level": 14,
+                    "feature_name": "Magic Item Savant",
+                    "feature_detail": "Your skill with magic items deepens:\r\n\r\nYou can attune to up to five magic items at once.\r\nYou ignore all class, race, spell, and level requirements on attuning to or using a magic item."
+                },
+                {
+                    "level": 15,
+                    "feature_name": "Artificer Specialist Feature",
+                    "feature_detail": "You gain a feature granted by your Artificer Specialist choice."
+                },
+                {
+                    "level": 16,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\r\n\r\nIf your DM allows the use of feats, you may instead take a feat."
+                },
+                {
+                    "level": 18,
+                    "feature_name": "Magic Item Master",
+                    "feature_detail": "Your magic items attune limit has increased by 3."
+                },
+                {
+                    "level": 19,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\r\n\r\nIf your DM allows the use of feats, you may instead take a feat."
+                },
+                {
+                    "level": 20,
+                    "feature_name": "Soul of Artifice",
+                    "feature_detail": "You have developed a mystical connection to your magic items, which you can draw on for protection:\r\n\r\nYou gain a +1 bonus to all saving throws per magic item you are currently attuned to.\r\nIf you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0."
                 }
             ],
             "subclasses": [
                 {
-                    "name": "sublass",
+                    "name": "Alchemist",
                     "source": "TCE",
-                    "description": "description",
+                    "description": "An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
                     "features": [
                         {
-                            "name": "FormoftheBeast",
+                            "name": "Tool Proficiency",
                             "level": 3,
-                            "description": "description"
+                            "description": "When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
                         },
                         {
-                            "name": "FormoftheBeast",
-                            "level": 6,
-                            "description": "description"
+                            "name": "Alchemist Spells",
+                            "level": 3,
+                            "description": "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\r\n\r\nAlchemist Spells\r\nArtificer Level\tSpell\r\n3rd\thealing word, ray of sickness\r\n5th\tflaming sphere, Melf's acid arrow\r\n9th\tgaseous form, mass healing word\r\n13th\tblight, death ward\r\n17th\tcloudkill, raise dead"
                         },
                         {
-                            "name": "FormoftheBeast",
-                            "level": 10,
-                            "description": "description"
+                            "name": "Experimental Elixir",
+                            "level": 3,
+                            "description": "Beginning at 3rd level, whenever you finish a long rest, you can magically produce an experimental elixir in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an incapacitated creature.\r\n\r\nCreating an experimental elixir requires you to have alchemist's supplies on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.\r\n\r\nWhen you reach certain levels in this class, you can make more elixirs at the end of a long rest: two at 6th level and three at 15th level. Roll for each elixir's effect separately. Each elixir requires its own flask.\r\n\r\nYou can create additional experimental elixirs by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir's effect from the Experimental Elixir table.\r\n\r\nExperimental Elixir\r\nd6\tEffect\r\n1\tHealing. The drinker regains a number of hit points equal to 2d4 + your Intelligence modifier.\r\n2\tSwiftness. The drinker's walking speed increases by 10 feet for 1 hour.\r\n3\tResilience. The drinker gains a +1 bonus to AC for 10 minutes.\r\n4\tBoldness. The drinker can roll a d4 and add the number rolled to every attack roll and saving throw they make for the next minute.\r\n5\tFlight. The drinker gains a flying speed of 10 feet for 10 minutes.\r\n6\tTransformation. The drinker's body is transformed as if by the alter self spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes."
                         },
                         {
-                            "name": "FormoftheBeast",
-                            "level": 14,
-                            "description": "description"
+                            "name": "Alchemical Savant",
+                            "level": 5,
+                            "description": "At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your alchemist's supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)."
+                        },
+                        {
+                            "name": "Restorative Reagents",
+                            "level": 9,
+                            "description": "Starting at 9th level, you can incorporate restorative reagents into some of your works:\r\n\r\n - Whenever a creature drinks an experimental elixir you created, the creature gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum of 1 temporary hit point).\r\n - You can cast lesser restoration without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+                        },
+                        {
+                            "name": "Chemical Mastery",
+                            "level": 15,
+                            "description": "By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:\r\n\r\n - You gain resistance to acid damage and poison damage, and you are immune to the poisoned condition.\r\n - You can cast greater restoration and heal without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+                        }
+                    ]
+                },
+                {
+                    "name": "Armorer",
+                    "source": "TCE",
+                    "description": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
+                    "features": [
+                        {
+                            "name": "Tools of the Trade",
+                            "level": 3,
+                            "description": "You gain proficiency with heavy armor. You also gain proficiency with smith's tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+                        },
+                        {
+                            "name": "Armorer Spells",
+                            "level": 3,
+                            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\r\n\r\nArmorer Spells\r\nArtificer Level\tSpell\r\n3rd\tmagic missile, thunderwave\r\n5th\tmirror image, shatter\r\n9th\thypnotic pattern, lightning bolt\r\n13th\tfire shield, greater invisibility\r\n17th\tpasswall, wall of force"
+                        },
+                        {
+                            "name": "Arcane Armor",
+                            "level": 3,
+                            "description": "Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have smith's tools in hand.\r\n\r\nYou gain the following benefits while wearing this armor:\r\n\r\n - If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.\r\n - You can use the arcane armor as a spellcasting focus for your artificer spells.\r\n - The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces.\r\n- You can doff or don the armor as an action. The armor continues to be Arcane Armor until you don another suit of armor or you die."
+                        },
+                        {
+                            "name": "Armor Model",
+                            "level": 3,
+                            "description": "You can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.\r\n\r\nEach model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.\r\n\r\nYou can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.\r\n\r\n\r\nGuardian. \r\nYou design your armor to be in the front line of conflict. It has the following features:\r\n\r\n - Thunder Gauntlets. Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.\r\n \r\n- Defensive Field. As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\r\n\r\n\r\nInfiltrator. \r\nYou customize your armor for subtle undertakings. It has the following features:\r\n\r\n - Lightning Launcher. A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.\r\n\r\n - Powered Steps. Your walking speed increases by 5 feet.\r\n\r\n - Dampening Field. You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal."
+                        },
+                        {
+                            "name": "Extra Attack",
+                            "level": 5,
+                            "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn."
+                        },
+                        {
+                            "name": "Armor Modifications",
+                            "level": 9,
+                            "description": "You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
+                        },
+                        {
+                            "name": "Perfected Armor",
+                            "level": 15,
+                            "description": "Your Arcane Armor gains additional benefits based on its model, as shown below.\r\n\r\nGuardian. \r\nWhen a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force it to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.\r\n\r\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.\r\n\r\nInfiltrator. \r\nAny creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage."
+                        }
+                    ]
+                },
+                {
+                    "name": "Artillerist",
+                    "source": "TCE",
+                    "description": "An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.\r\n\r\nThe gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: \"It's about time we fixed things instead of blowing them all to hell.\"",
+                    "features": [
+                        {
+                            "name": "Tool Proficiency",
+                            "level": 3,
+                            "description": "When you adopt this specialization at 3rd level, you gain proficiency with woodcarver's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+                        },
+                        {
+                            "name": "Artillerist Spells",
+                            "level": 3,
+                            "description": "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\r\n\r\nArtillerist Spells\r\nArtificer Level\tSpell\r\n3rd\tshield, thunderwave\r\n5th\tscorching ray, shatter\r\n9th\tfireball, wind wall\r\n13th\tice storm, wall of fire\r\n17th\tcone of cold, wall of force"
+                        },
+                        {
+                            "name": "Eldritch Cannon",
+                            "level": 3,
+                            "description": "At 3rd level, you learn how to create a magical cannon. Using woodcarver's tools or smith's tools, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.\r\n\r\nOnce you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.\r\n\r\nThe cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the mending spell is cast on it, it regains 2d6 hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.\r\n\r\nWhen you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.\r\n\r\nEldritch Cannons\r\nCannon\tActivation\r\nFlamethrower\tThe cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 2d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.\r\nForce Ballista\tMake a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon.\r\nProtector\tThe cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1)."
+                        },
+                        {
+                            "name": "Arcane Firearm",
+                            "level": 5,
+                            "description": "At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use woodcarver's tools to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.\r\n\r\nYou can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a d8, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
+                        },
+                        {
+                            "name": "Explosive Cannon",
+                            "level": 9,
+                            "description": "Starting at 9th level, every eldritch cannon you create is more destructive:\r\n\r\nThe cannon's damage rolls all increase by 1d8.\r\nAs an action, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d8 force damage on a failed save or half as much damage on a successful one."
+                        },
+                        {
+                            "name": "Fortified Position",
+                            "level": 15,
+                            "description": "Starting at 15th level, you're a master at forming well-defended emplacements using Eldritch Cannon:\r\n\r\nYou and your allies have half cover while within 10 feet of a cannon you create with Eldritch Cannon, as a result of a shimmering field of magical protection that the cannon emits.\r\nYou can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both of them with the same bonus action. You determine whether the cannons are identical to each other or different. You can't create a third cannon while you have two."
+                        }
+                    ]
+                },
+                {
+                    "name": "Battle Smith",
+                    "source": "TCE",
+                    "description": "Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.\r\n\r\nBattle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
+                    "features": [
+                        {
+                            "name": "Tool Proficiency",
+                            "level": 3,
+                            "description": "When you adopt this specialization at 3rd level, you gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+                        },
+                        {
+                            "name": "Battle Smith Spells",
+                            "level": 3,
+                            "description": "Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.\r\n\r\nBattle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles."
+                        },
+                        {
+                            "name": "Battle Ready",
+                            "level": 3,
+                            "description": "When you reach 3rd level, your combat training and your experiments with magic have paid off in two ways:\r\n\r\n - You gain proficiency with martial weapons.\r\n - When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                        },
+                        {
+                            "name": "Steel Defender",
+                            "level": 3,
+                            "description": "By 3rd level, your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.\r\n\r\nIn combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.\r\n\r\nIf the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.\r\n\r\nAt the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die.\r\n\r\n\r\nSteel Defender\r\nMedium Construct\r\nAC 15 (natural armor)\r\nInitiative +1 (11)\r\nHP 2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)\r\nSpeed 40 ft.\r\n\r\nStr 14\/+2; save +2\r\nDex 12\/+1; save +1 plus PB \r\nCon 14\/+2; save +2 plus PB\r\nInt 4\/-3; save -3\r\nWis 10\/+0; save +0\r\nCha 6\/-2; save -2\r\n\r\nSkills Athletics +2 plus PB, Perception +0 plus PB \u00D7 2\r\nImmunities Poison; Charmed, Exhaustion, Poisoned\r\nSenses Darkvision 60 ft., Passive Perception 10 + (PB \u00D7 2)\r\nLanguages Understands the languages you speak\r\nCR None (XP 0; PB equals your bonus)\r\nClass Level \r\n\u2014\r\nTraits\r\nVigilant. The defender can't be surprised.\r\n\r\nActions (Requires Your Bonus Action)\r\nForce-Empowered Rend. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + PB force damage.\r\n\r\nRepair (3\/Day). The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.\r\n\r\nReactions\r\nDeflect Attack. The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender."
+                        },
+                        {
+                            "name": "Extra Attack",
+                            "level": 5,
+                            "description": "Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn."
+                        },
+                        {
+                            "name": "Arcane Jolt",
+                            "level": 9,
+                            "description": "At 9th level, you learn new ways to channel arcane energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:\r\n\r\n - The target takes an extra 2d6 force damage.\r\n - Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.\r\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest."
+                        },
+                        {
+                            "name": "Improved Defender",
+                            "level": 15,
+                            "description": "At 15th level, your Arcane Jolt and steel defender become more powerful:\r\n\r\n - The extra damage and the healing of your Arcane Jolt both increase to 4d6.\r\n - Your steel defender gains a +2 bonus to Armor Class.\r\n - Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier."
                         }
                     ]
                 },
@@ -470,17 +636,17 @@
                         },
                         {
                             "name": "FormoftheBeast",
-                            "level": 6,
+                            "level": 5,
                             "description": "description"
                         },
                         {
                             "name": "FormoftheBeast",
-                            "level": 10,
+                            "level": 9,
                             "description": "description"
                         },
                         {
                             "name": "FormoftheBeast",
-                            "level": 14,
+                            "level": 15,
                             "description": "description"
                         }
                     ]
