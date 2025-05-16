@@ -1,0 +1,42 @@
+{
+  "classes": [
+    {
+      "name": "Barbarian",
+      "source": "PHB",
+      "hit_die": "d12",
+      "primary_ability": "Strength",
+      "saving_throws": ["Strength", "Constitution"],
+      "level_table": [
+        {
+          "level": 1,
+          "features": ["Rage", "Unarmored Defense"],
+          "rages": 2,
+          "rage_damage": "+2"
+        },
+        ...
+      ],
+      "features": [
+        {
+          "name": "Rage",
+          "level": 1,
+          "description": "You can enter a rage as a bonus action..."
+        },
+        ...
+      ],
+      "subclasses": [
+        {
+          "name": "Path of the Berserker",
+          "source": "PHB",
+          "features": [
+            {
+              "name": "Frenzy",
+              "level": 3,
+              "description": "When you choose this path..."
+            },
+            ...
+          ]
+        }
+      ]
+    }
+  ]
+}
