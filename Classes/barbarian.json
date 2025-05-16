@@ -393,16 +393,43 @@
           "description": "Known as Kuldjargh (literally 'axe idiot') in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
           "features": [
           {
-            "name": "FeatureName",
+            "name": "Restriction—Dwarves Only",
             "level": 3,
-            "description": "Description"
+            "description": "Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.\r\n\r\nYour DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
           },
           {
-            "name": "FeatureName2",
-            "level": 32,
-            "description": "Description2"
+            "name": "Battlerager Armor",
+            "level": 3,
+            "description": "When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.\r\n\r\nWhile you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.\r\n\r\nAdditionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+          },
+          {
+            "name": "Reckless Abandon",
+            "level": 6,
+            "description": "Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+          },
+          {
+            "name": "Battlerager Charge",
+            "level": 10,
+            "description": "Beginning at 10th level, you can take the Dash action as a bonus action while you are raging."
+          },
+          {
+            "name": "Spiked Retribution",
+            "level": 14,
+            "description": "Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor."
           }
         ]
+        },
+        {
+          "name": "Path of the Beast",
+          "source": "TCE",
+          "description": "Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.\r\n\r\nSuch a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.\r\n\r\nOrigin of the Beast\r\nd4\tOrigin\r\n1\tOne of your parents is a lycanthrope, and you've inherited some of their curse.\r\n2\tYou are descended from an archdruid and inherited the ability to partially change shape.\r\n3\tA fey spirit gifted you with the ability to adopt different bestial aspects.\r\n4\tAn ancient animal spirit dwells within you, allowing you to walk this path.",
+          "features": [
+          {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          }
+          ]
         }
       ]
     }
