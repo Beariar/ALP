@@ -200,6 +200,9 @@
             "Simple",
             "Martial weapons"
           ],
+          "tool_proficiencies": [
+                        "None"
+                    ],
           "armor_training": [
             "Light armor",
             "Medium armor",
