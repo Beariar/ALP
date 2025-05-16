@@ -427,12 +427,12 @@
           {
             "name": "Form of the Beast",
             "level": 3,
-            "description": "When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.\r\n\r\nYou choose the weapon's form each time you rage:\r\n\r\nBite. Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.\r\n\r\nClaws. Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.\r\n\r\nTail. You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you."
+            "description": "When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.\r\n\r\nYou choose the weapon's form each time you rage:\r\n\r\nBite - Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.\r\n\r\nClaws - Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.\r\n\r\nTail - You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you."
           },
           {
             "name": "Bestial Soul",
             "level": 6,
-            "description": "The feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\r\n\r\nYou can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish your next short or long rest:\r\n\r\nYou gain a swimming speed equal to your walking speed, and you can breathe underwater.\r\nYou gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\r\nWhen you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn."
+            "description": "The feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\r\n\r\nYou can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish your next short or long rest:\r\n\r\n - You gain a swimming speed equal to your walking speed, and you can breathe underwater.\r\n - You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\r\n - When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn."
           },
           {
             "name": "Infectious Fury",
@@ -447,6 +447,269 @@
           {
             "name": "FormoftheBeast",
             "level": 3,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "Path of the Berserker",
+          "source": "PHB",
+          "description": "For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+          "features": [
+            {
+            "name": "Frenzy",
+            "level": 3,
+            "description": "Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion."
+          },
+          {
+            "name": "Mindless Rage",
+            "level": 6,
+            "description": "Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage."
+          },
+          {
+            "name": "Intimidating Presence",
+            "level": 10,
+            "description": "Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.\r\n\r\nIf the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+          },
+          {
+            "name": "Retaliation",
+            "level": 14,
+            "description": "Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+          }
+          ]
+        },
+        {
+          "name": "Path of the Giant",
+          "source": "BGG",
+          "description": "Barbarians who walk the Path of the Giant draw strength from the same primal forces as giants. As they rage, these barbarians surge with elemental power and grow in size, taking on forms that evoke the glory of giants. Some barbarians look like oversized versions of themselves, perhaps with a hint of elemental energy flaring in their eyes and around their weapons. Others transform more dramatically, taking on the appearance of an actual giant or a form similar to an Elemental, wreathed in fire, frost, or lightning.",
+          "features": [
+            {
+            "name": "Giant Power",
+            "level": 3,
+            "description": "When you choose this path, you learn to speak, read, and write Giant or one other language of your choice if you already know Giant. Additionally, you learn a cantrip of your choice: either druidcraft or thaumaturgy. Wisdom is your spellcasting ability for this spell."
+          },
+          {
+            "name": "Giant's Havoc",
+            "level": 3,
+            "description": "Your rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits:\r\n\r\nCrushing Throw. When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attack's damage roll.\r\n\r\nGiant Stature. Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to increase your size, your size doesn't change."
+          },
+          {
+            "name": "Elemental Cleaver",
+            "level": 6,
+            "description": "Your bond with the elemental might of giants grows, and you learn to infuse weapons with primordial energy.\r\n\r\nWhen you enter your rage, you can choose one weapon that you are holding and infuse it with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon's damage type changes to the chosen type, it deals an extra 1d6 damage of the chosen type when it hits, and it gains the thrown property, with a normal range of 20 feet and a long range of 60 feet. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. The infused weapon's benefits are suppressed while a creature other than you wields it.\r\n\r\nWhile raging and holding the infused weapon, you can use a bonus action to change the infused weapon's current damage type to another one from the damage type options above."
+          },
+          {
+            "name": "Mighty Impel",
+            "level": 10,
+            "description": "Your connection to giant strength allows you to hurl both allies and enemies on the battlefield. As a bonus action while raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) to avoid the effect.\r\n\r\nIf, at the end of this movement, the thrown creature isn't on a surface or liquid that can support it, the creature falls, taking damage as normal and landing prone."
+          },
+          {
+            "name": "Demiurgic Colossus",
+            "level": 14,
+            "description": "The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice), and you can use your Mighty Impel to move creatures that are Large or smaller.\r\n\r\nIn addition, the extra damage dealt by your Elemental Cleaver feature increases to 2d6."
+          }
+          ]
+        },
+        {
+          "name": "Path of the Juggernaut",
+          "source": "TDCSR",
+          "description": "Barbarians who follow the Path of the Juggernaut stand so resolutely that none can deter them, and they swing their weapons with such force that all who stand against them are flung aside. In might and in spirit, juggernauts are immovable object and unstoppable force all at once.\r\n\r\nJuggernaut barbarians can be found all over Tal'Dorei, and are common among the goliath warriors of the Rivermaw herd that wanders the Dividing Plains. Some dwarves and humanoid survivalists of the Cliffkeep Mountains adopt this fighting style as an extension of their rugged determinism. And a number of stalwart juggernauts hail from the jungles of the Rifenmist Peninsula, having cast off the oppressive yoke of the Iron Authority.",
+          "features": [
+            {
+            "name": "Thunderous Blows",
+            "level": 3,
+            "description": "Starting when you choose this path at 3rd level, your rage instills you with the strength to shove and smash your way through your foes, making any battlefield your domain. When you hit a creature with a melee attack while you're raging, you can push that creature up to 5 feet away from you in a direction of your choice. A creature that is Huge or larger makes a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a success, the creature is not pushed.\r\n\r\nRules Tip: Forced Movement\r\np166\r\nUsually when one creature moves out of a hostile creature's reach, the hostile creature can use its reaction to make an opportunity attack. However, forced movement\u2014such as being pushed by a Path of the Juggernaut barbarian's Thunderous Blows feature\u2014doesn't provoke opportunity attacks.\r\n\r\nLikewise, a juggernaut barbarian's Hurricane Strike feature allows an ally to make a melee weapon attack as a reaction only if the foe ends its forced movement within 5 feet of the ally. If a foe is pushed through other spaces within 5 feet of your allies, those allies can't make normal opportunity attacks against the foe."
+          },
+          {
+            "name": "Spirit of the Mountain",
+            "level": 3,
+            "description": "At 3rd level, you harness your fury to anchor your feet to the ground, becoming a bulwark of strength. While you are raging, you can't be knocked prone or moved along the ground against your will."
+          },
+          {
+            "name": "Demolishing Might",
+            "level": 6,
+            "description": "Starting at 6th level, your melee weapon attacks deal an extra 1d8 damage to constructs, and deal double damage to objects and structures."
+          },
+          {
+            "name": "Resolute Stance",
+            "level": 6,
+            "description": "Also at 6th level, you can temporarily refocus your combat ability to make yourself a bulwark of defense. At the start of your turn (no action required), you can assume a defensive stance that lasts until the start of your next turn. While in this stance, you can't be grappled, attack rolls against you have disadvantage, and your weapon attacks are made with disadvantage."
+          },
+          {
+            "name": "Thunderous Blows (10th Level)",
+            "level": 10,
+            "description": "Starting at 10th level, you can push a creature up to 10 feet when you hit it with a melee attack while you're raging."
+          },
+          {
+            "name": "Hurricane Strike",
+            "level": 10,
+            "description": "Starting at 10th level, your blows can hurl foes through the air and into the attacks of your allies. As a reaction when you push a creature at least 5 feet, you can then leap into an unoccupied space next to the creature. If you do so, the creature must succeed on a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier or be knocked prone. This leap costs no movement and does not provoke opportunity attacks.\r\n\r\nAdditionally, whenever you push a creature into a space within 5 feet of one of your allies, the ally can use its reaction to make a melee weapon attack against that creature."
+          },
+          {
+            "name": "Unstoppable",
+            "level": 14,
+            "description": "At 14th level, your fury in battle makes you unstoppable. While you're raging, your speed cannot be reduced, and you are immune to the frightened, paralyzed, prone, and stunned conditions.\r\n\r\nIf you are frightened, paralyzed, or stunned, you can still use a bonus action to enter a rage (even if you can't otherwise take actions). You aren't affected by any of these conditions while you're raging."
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
+            "description": "description"
+          }
+          ]
+        },
+        {
+          "name": "sublass",
+          "source": "TCE",
+          "description": "description",
+          "features": [
+            {
+            "name": "FormoftheBeast",
+            "level": 3,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 6,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 10,
+            "description": "description"
+          },
+          {
+            "name": "FormoftheBeast",
+            "level": 14,
             "description": "description"
           }
           ]
