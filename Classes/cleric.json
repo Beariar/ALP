@@ -10,7 +10,9 @@
                 "Charisma"
             ],
             "refImage": [
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Image.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericLife.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericNature.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericPeace.png"
             ],
             "level_table": [
   {
