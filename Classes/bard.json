@@ -10,7 +10,9 @@
                 "Charisma"
             ],
             "refImage": [
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Image.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardWhispers.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardLore.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardEloquence.png"
             ],
             "level_table": [
   {
