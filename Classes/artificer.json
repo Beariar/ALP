@@ -12,7 +12,10 @@
            "refImage": [
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerArtilerist.png",
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerArmorer.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerSmith.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ArtificerSmith.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Artificer00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Artificer01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Artificer02.png"
             ],
             "level_table": [
                 {
