@@ -12,7 +12,10 @@
             "refImage": [
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericLife.png",
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericNature.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericPeace.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/ClericPeace.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Cleric00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Cleric01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Cleric03.png"
             ],
             "level_table": [
   {
