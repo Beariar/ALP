@@ -12,7 +12,10 @@
             "refImage": [
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardWhispers.png",
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardLore.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardEloquence.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BardEloquence.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Bard00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Bard01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Bard02.png"
             ],
             "level_table": [
   {
