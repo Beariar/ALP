@@ -12,7 +12,10 @@
             "refImage": [
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianZealoth.png",
                 "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianGiant.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianBerserkeer.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/BarbarianBerserkeer.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Barbarian00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Barbarian01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Barbarian02.png"
             ],
       "level_table": [
         {
