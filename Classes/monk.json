@@ -1,7 +1,7 @@
 {
     "classes": [
         {
-            "name": "Fighter",
+            "name": "Monk",
             "source": "PHB",
             "hit_die": "d10",
             "primary_ability": "Strength",
@@ -10,12 +10,12 @@
                 "Constitution"
             ],
             "refImage": [
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter00.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter01.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter02.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter03.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter04.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Fighter05.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk02.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk03.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk04.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Monk05.png"
             ],
             "level_table": [
                 {
