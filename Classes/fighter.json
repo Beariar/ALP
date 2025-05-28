@@ -103,7 +103,7 @@
                 {
                     "hit_point_die": "D10 per level",
                     "hit_points_level_1": "10 + Con. modifier",
-                    "hit_points_additional_levels": "D10 + Con. modifier or 5 + Con. modifier",
+                    "hit_points_additional_levels": "D10 + Con. modifier or 6 + Con. modifier",
                     "saving_throw_proficiencies": [
                         "Strength",
                         "Constitution"
