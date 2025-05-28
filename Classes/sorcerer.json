@@ -10,12 +10,12 @@
                 "Charisma"
             ],
             "refImage": [
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue00.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue01.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue02.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue03.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue04.png",
-                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Rogue05.png"
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer00.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer01.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer02.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer03.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer04.png",
+                "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Classes/Sorcerer05.png"
             ],
             "level_table": [
                 {
