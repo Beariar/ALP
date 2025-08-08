@@ -1,0 +1,464 @@
+[
+  {
+    "No": "1",
+    "Character": "Amara",
+    "Card": "Aberration",
+    "Upright Effect": "Your phychokinetic mind awakes and untill long rest you can her voices which in crutial moment can help you avoid trouble. You have advatage on Wisdom and Intelligence saving throws.",
+    "Reverse Effect": "Something from the realm of unknown is focusing you and firring at your grey matter. Untill long rest, you have disadvatange on Wisdom and Intelligence saving throws."
+  },
+  {
+    "No": "2",
+    "Character": "Avalon",
+    "Card": "Balance",
+    "Upright Effect": "Your alignment temporarily shifts to its opposite, until the next long rest. (True neutral alignment is not shifted)",
+    "Reverse Effect": "Your alignment temporarily shifts to \"\"True neutral\"\", until the next long rest."
+  },
+  {
+    "No": "3",
+    "Character": "Alpha",
+    "Card": "Beast",
+    "Upright Effect": "Instinct takes over as soon as battle begins. Until your next long rest, you have advantage on initiative rolls and cannot be surprised.",
+    "Reverse Effect": "You feel sluggish, as if your body craves hibernation. Until your next long rest, you have disadvantage on initiative rolls and cannot surprise enemies with attacks."
+  },
+  {
+    "No": "4",
+    "Character": "Gashi",
+    "Card": "Book",
+    "Upright Effect": "The situation may be dire, but your memory will not fail you. Until your next long rest, you have advantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks.",
+    "Reverse Effect": "Your thoughts feel scattered, as if knowledge slips through your fingers. Until your next long rest, you have disadvantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks."
+  },
+  {
+    "No": "5",
+    "Character": "Zac a Aaron",
+    "Card": "Bridge",
+    "Upright Effect": "You feel confident and capable of overcoming any obstacle. Until your next long rest, you may choose to automatically succeed on one ability check, attack roll, or saving throw as if you had rolled a natural 20. You must decide to use this before rolling.",
+    "Reverse Effect": "Not every bridge holds. Until your next long rest, one of your successful ability checks, attack rolls, or saving throws will instead count as a natural 1, determined by the DM."
+  },
+  {
+    "No": "6",
+    "Character": "Xander",
+    "Card": "Campfire",
+    "Upright Effect": "The warmth of the fire soothes your body and soul. Your next long rest requires only the time of a short rest to complete.",
+    "Reverse Effect": "The fire offers no comfort. You cannot take a short rest until you have completed a long rest first."
+  },
+  {
+    "No": "7",
+    "Character": "Sandar",
+    "Card": "Cavern",
+    "Upright Effect": "You attune to the twists and turns of stone and shadow. Until your next long rest, you gain a magical climbing ability that lets you move along vertical surfaces and ceilings as if under the effect of spider climb. This ability cannot be dispelled by magic. Lasts until the next long rest.",
+    "Reverse Effect": "The ground shifts beneath you, and even the air feels unfriendly. Until your next long rest, you cannot benefit from any climbing speed. Your flying speed is halved. Whenever you dash, roll a d4 — on a 1, you fall prone and slide uncontrollably to your destination. Lasts until the next long rest."
+  },
+  {
+    "No": "8",
+    "Character": "Xar",
+    "Card": "Celestial",
+    "Upright Effect": "It’s as if the gods have chosen you for a glorious purpose. Until your next long rest, your weapon attacks deal an additional die of radiant damage. If the attack normally uses multiple dice, the highest die is added again (e.g., a greatsword adds 1d6 radiant).",
+    "Reverse Effect": "You feel abandoned, as if the gods have turned their gaze from you. Until your next long rest, whenever a creature within 15 feet of you takes damage, you suffer psychic pain equal to one-tenth of the damage they receive (rounded down)."
+  },
+  {
+    "No": "9",
+    "Character": "Kometa",
+    "Card": "Comet",
+    "Upright Effect": "You feel hunted — as if an unexpected foe is drawing closer with every moment. It may be minutes or days, but they will come, and they will bring trouble. Paranoia clouds your senses: until your next long rest, you have disadvantage on Wisdom (Insight) checks, and you always act last in initiative (treat your initiative roll as 0).",
+    "Reverse Effect": "Whatever storm was coming has already passed — and you survived. You move with clarity and boldness. Until your next long rest, you always act first in initiative (treat your initiative as 30), and your first attack in each combat is a critical hit (normal crit, not extreme)."
+  },
+  {
+    "No": "10",
+    "Character": "Aigwon",
+    "Card": "Construct",
+    "Upright Effect": "It all feels so simple — was it always this way, or is it just a new perspective? Until your next long rest, you gain proficiency with smith’s tools and tinker’s tools. You can repair damaged constructs and, with time and DM approval, temporarily upgrade your equipment (e.g., improving durability, damage, or function). This intuitive knowledge fades after your next long rest.",
+    "Reverse Effect": "Is it just your luck, or is everything falling apart in your hands? Until your next long rest, your weapons lose 1 point of durability (if tracked), your Armor Class is reduced by 1, and any equipment you use seems prone to faults or minor failures. After long rest everything seeems to back in working order, its just it still needs to be repaired."
+  },
+  {
+    "No": "11",
+    "Character": "Bangrin",
+    "Card": "Corpse",
+    "Upright Effect": "At the start of each turn in combat, you must make a Constitution saving throw (DC 15). On a failed save, you cannot use your action or reaction and can only use a bonus action and half of your movement speed. This effect lasts until the next long rest.",
+    "Reverse Effect": "At the start of each turn in combat, you must make a Constitution saving throw (DC 15). On a success save, you can use your bonus action, reaction or movement twice that turn. This effect lasts until the next long rest."
+  },
+  {
+    "No": "12",
+    "Character": "Kentaro",
+    "Card": "Crossroads",
+    "Upright Effect": "Decisions are hard — stay or go, left or right? But now, you feel a subtle glimpse into fate. The next time you must make an important in-game decision, you may ask the DM to reveal a brief glimpse of the possible outcomes. This effect lasts until it is used.",
+    "Reverse Effect": "Sometimes we walk a path simply because we don’t see the others. Until this effect is used, the next time your character is faced with a decision, they will perceive only one valid option — even if others are obvious to the player. The DM will inform you when this moment arises, and your character must act on the single perceived path."
+  },
+  {
+    "No": "13",
+    "Character": "Harun",
+    "Card": "Donjon",
+    "Upright Effect": "You feel invisible chains binding you — as if you're a prisoner on the run, still dragging the weight of your confinement. Until your next long rest, whenever you take the Dash action, your movement speed becomes 0 on your following turn.",
+    "Reverse Effect": "Something had been holding you back — but for now, you've escaped. Until your next long rest, if you did not use any movement on your previous turn, you gain the benefits of the freedom of movement spell for your current turn."
+  },
+  {
+    "No": "14",
+    "Character": "Zita",
+    "Card": "Door",
+    "Upright Effect": "Beware the doors, for not all are merely man-made — some hide magical paths, and you seem especially attuned to them. Until your next long rest, entering a random door may transport you to a different location than expected. You might discover treasure, knowledge, or an unusual experience — but the path back may not be easy. You can avoid this effect by using windows... maybe.",
+    "Reverse Effect": "Beware the doors, for not all are merely man-made — some hide dangers waiting to find you. Until your next long rest, entering a random door may teleport you to a location filled with threats, traps, or misfortune. You’ll likely return, but not without pain. You can avoid this effect by using windows... probably."
+  },
+  {
+    "No": "15",
+    "Character": "Yossarian",
+    "Card": "Dragon",
+    "Upright Effect": "You will stumple upon a treasure, it might be physical or magical in nature, but in the end you will gain some long term benefit soon. (Roll 1d4- 1. Gold, 2.Item, 3.Gold 4.ASI)",
+    "Reverse Effect": "Oh boy, you are about to loose something precious. It might be stolle, missplaced or forgotten. Best to put something really important to someone else for save keeping. (Roll 1d4- 1. Gold, 2.Item, 3.Gold 4.ASI)"
+  },
+  {
+    "No": "16",
+    "Character": "Geneva",
+    "Card": "Elemental",
+    "Upright Effect": "In the end, even the most complex beings are made of simple elements — and so are you. Until your next long rest, you may use one of your racial abilities one additional time before requiring a rest or recharge.",
+    "Reverse Effect": "Something in your core feels off — as though your essence is incomplete. Until your next long rest, one of your racial abilities is suppressed and cannot be used. The DM chooses which ability is affected."
+  },
+  {
+    "No": "17",
+    "Character": "Cerin2",
+    "Card": "Euryale",
+    "Upright Effect": "You know what you need to know about your next target, the knowledge comes to you naturaly as you investigae further.",
+    "Reverse Effect": "Nothing… odd…"
+  },
+  {
+    "No": "18",
+    "Character": "Berrian",
+    "Card": "Expert",
+    "Upright Effect": "You gain proficiency in all skill checks and expertise with two skills of your choice. This effect lasts until the next long rest.",
+    "Reverse Effect": "You lose all skill proficiencies. This effect lasts untill the next long rest."
+  },
+  {
+    "No": "19",
+    "Character": "Michael",
+    "Card": "Fates",
+    "Upright Effect": "You gain +2 to all saving throws. This effect lasts until the next long.",
+    "Reverse Effect": "You lose -2 from all saving throws. This effect lasts until the next long."
+  },
+  {
+    "No": "20",
+    "Character": "Haluna",
+    "Card": "Fey",
+    "Upright Effect": "Next time when you will fall Unconscious you will wake in a safe place.",
+    "Reverse Effect": "Next time when you will fall Unconscious you will wake in a dangerous place."
+  },
+  {
+    "No": "21",
+    "Character": "Agony",
+    "Card": "Fiend",
+    "Upright Effect": "You feel tempared to act selfishly and benefit on others, whenever you do such act you will have advatage on the realted dice roll. This effect lasts until the next long.",
+    "Reverse Effect": "Each time you try to act selfleshy something goes wrong, related dice roll is with disadvatage. This effect lasts until the next long."
+  },
+  {
+    "No": "22",
+    "Character": "Keldan",
+    "Card": "Flames",
+    "Upright Effect": "You are imunte to fire damage, this affects last for 1 combat.",
+    "Reverse Effect": "You are vulberableto fire damage, this affects last for 1 combat."
+  },
+  {
+    "No": "23",
+    "Character": "Tamarin",
+    "Card": "Fool",
+    "Upright Effect": "You can reroll 2 failed saving throws or ability checks. You must take the new result. This effect lasts until the next long rest.",
+    "Reverse Effect": "Enemies can reroll their saving throws or ability check against you/your effect twice. They must take the new result. This effect lasts until the next long rest."
+  },
+  {
+    "No": "24",
+    "Character": "Velryn",
+    "Card": "Gem",
+    "Upright Effect": "Untill the long rest you will gain 500 gold.",
+    "Reverse Effect": "Untill the long rest you will lose 500 gold. (if you have less, you fall in debt to someone powerfull.)"
+  },
+  {
+    "No": "25",
+    "Character": "Aza",
+    "Card": "Giant",
+    "Upright Effect": "You gain a +6 bonus to Strength score. This effect lasts until the next long rest.",
+    "Reverse Effect": "You gain a -6 penalty to Strength score. This effect lasts until the next long rest."
+  },
+  {
+    "No": "26",
+    "Character": "Zigfried",
+    "Card": "Humanoid",
+    "Upright Effect": "You gain +1 to all stats.This effect lasts until the next long.",
+    "Reverse Effect": "You lose -1 from all stats.This effect lasts until the next long."
+  },
+  {
+    "No": "27",
+    "Character": "Ginger",
+    "Card": "Jester",
+    "Upright Effect": "You gain +2 to constitution and charisma stats. This effect lasts until the next long.",
+    "Reverse Effect": "You lose -2 from constitution and charisma stats. This effect lasts until the next long."
+  },
+  {
+    "No": "28",
+    "Character": "Avalon",
+    "Card": "Key",
+    "Upright Effect": "When you will need specific tool to get the job done, you will unexpectedly receive it.",
+    "Reverse Effect": "You will lose the tool you relly on and it will be problem to carry out the specific job."
+  },
+  {
+    "No": "29",
+    "Character": "Diana",
+    "Card": "Knight",
+    "Upright Effect": "You gain +2 to strength and charisma stats. This effect lasts until the next long.",
+    "Reverse Effect": "You lose -2 from strength and charisma stats. This effect lasts until the next long."
+  },
+  {
+    "No": "30",
+    "Character": "Darag",
+    "Card": "Lance",
+    "Upright Effect": "You gain +5 bonus to the attack rolls.",
+    "Reverse Effect": "You lose -5 from the attack rolls."
+  },
+  {
+    "No": "31",
+    "Character": "Kaatgar",
+    "Card": "Mage",
+    "Upright Effect": "You gain a temporary +4 bonus to your spellcasting ability score. This effect lasts until the next long rest. Characters without spellcasting will instead gain advantage on saving throws against spell effects.",
+    "Reverse Effect": "You gain a temporary -4 penalty to your spellcasting ability score. This effect lasts until the next long rest. Characters without spellcasting will instead gain disadvantage on saving throws against spell effects."
+  },
+  {
+    "No": "32",
+    "Character": "Harmony",
+    "Card": "Map",
+    "Upright Effect": "You can find the quickest way to destination. Last for 1d4 + 2 destinations.",
+    "Reverse Effect": "You will use the slowest way to destination. Last for 1d4 + 2 destinations."
+  },
+  {
+    "No": "33",
+    "Character": "Kara/Gjord",
+    "Card": "Maze",
+    "Upright Effect": "Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you can cast misty step spell on that turn. This effect lasts until the next long.",
+    "Reverse Effect": "Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you became disoriented for that round. This effect lasts until the next long."
+  },
+  {
+    "No": "34",
+    "Character": "Arty",
+    "Card": "Mine",
+    "Upright Effect": "You gain tremorsense out to 15 feet until your next long rest. Once, upon drawing this card, you uncover a natural cache of rare ore or lost coins. Roll 3d10 × 10 gold pieces — this wealth manifests in your pack or nearby terrain (DM's discretion).",
+    "Reverse Effect": "Until your next long rest, you are blinded while in darkness (magical or non-magical). You find no treasure, even where it should be."
+  },
+  {
+    "No": "35",
+    "Character": "Chuchvalec",
+    "Card": "Monstrosity",
+    "Upright Effect": "Until the next long rest, you can enter a monstrous state as a bonus action, this transformation last for 1d4+1rounds: - You gain temporary HP equal to your level × 2. - Your melee attacks deal an additional 1d6 damage. You are immune to being frightene. - Once this state ends, gain one level of exhaustion.",
+    "Reverse Effect": "At the start of each combat, roll a DC 13 Wisdom saving throw: On a fail, you are frightened of the nearest creature, ally or foe, for 1 round. Your appearance subtly shifts: eyes glow, veins darken, voice distorts — you suffer disadvantage on Charisma checks with humanoid. This effect lasts until the next long rest."
+  },
+  {
+    "No": "36",
+    "Character": "Garf",
+    "Card": "Moon",
+    "Upright Effect": "You gain the ability to see invisible creatures and objects within 30 feet until your next long rest.\nOnce before your next long rest, you may cast Silent Image without using a spell slot.\nWhile in dim light or darkness, you have advantage on Stealth checks.",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on Insight checks and saving throws against illusions.\nYour dreams are haunted by shifting shapes. When you finish a long rest, roll a d6:\nOn a 1, you do not regain a spell slot of your highest available level."
+  },
+  {
+    "No": "37",
+    "Character": "Selena",
+    "Card": "Ooze",
+    "Upright Effect": "Until your next long rest:\nYou can squeeze through spaces as narrow as 4 inches wide without squeezing penalties.\nYou have resistance to acid damage.\nOnce, you may reroll a failed Dexterity saving throw (must accept the second result).\nYour touch leaves behind faint slime, but nothing harmful… yet.",
+    "Reverse Effect": "You are vulnerable to acid damage.\nWeapons lose one durability when you draw them. \nYou leave behind a noticeable slime trail, making stealth nearly impossible in natural environments."
+  },
+  {
+    "No": "38",
+    "Character": "Darrag2",
+    "Card": "Path",
+    "Upright Effect": "Until your next long rest, when you make a skill check or saving throw using an ability score you used on your previous turn, you gain advantage.",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on skill checks or saving throws using an ability score you already used in your previous turn."
+  },
+  {
+    "No": "39",
+    "Character": "Otis",
+    "Card": "Pit",
+    "Upright Effect": "Until your next long rest, when you fall or are knocked prone, you take no damage and can immediately stand using no movement. You also gain resistance to bludgeoning damage from falling or collapsing terrain.",
+    "Reverse Effect": "Until your next long rest, you fall prone when critically hit or if you roll a natural 1 on a Strength or Dexterity check."
+  },
+  {
+    "No": "40",
+    "Character": "Tiberius",
+    "Card": "Plant",
+    "Upright Effect": "Until your next long rest, you passively regenerate 1 hit point at the start of each of your turns (or every 6 seconds outside combat). This regeneration doesn’t function if you are at 0 HP or unconscious.",
+    "Reverse Effect": "Until your next long rest, you lose 1 hit point every hour due to creeping decay. This damage cannot reduce you below a minimum threshold of hit points equal to your Constitution modifier × proficiency bonus, but cannot be healed naturally while the effect is active."
+  },
+  {
+    "No": "41",
+    "Character": "črevor",
+    "Card": "Priest",
+    "Upright Effect": "You gain a +2 bonus to your Wisdom and Charisma score, lasts until the next long rest.",
+    "Reverse Effect": "You gain a -2 penalty to your Wisdom and Charisma score, lasts until the next long rest."
+  },
+  {
+    "No": "42",
+    "Character": "495",
+    "Card": "Prisoner",
+    "Upright Effect": "Until your next long rest, you have disadvantage on saving throws to resist the following conditions: Grappled, Restrained, Paralyzed, Petrified, Incapacitated, Prone, Stunned, or Unconscious. <br>You also have disadvantage on ability checks to escape from these conditions.",
+    "Reverse Effect": "Until your next long rest, you have advantage on saving throws to resist the following conditions: Grappled, Restrained, Paralyzed, Petrified, Incapacitated, Prone, Stunned, or Unconscious.<br>You also have advantage on ability checks to escape from these conditions."
+  },
+  {
+    "No": "43",
+    "Character": "Rohes",
+    "Card": "Puzzle",
+    "Upright Effect": "You gain knowledge of one additional language (your choice), and have advantage on Intelligence (Investigation) and Wisdom (Insight) checks until your next long rest.",
+    "Reverse Effect": "You learn one new language (your choice), but forget two others (excluding Common), and have disadvantage on Intelligence (Investigation) and Wisdom (Insight) checks until your next long rest."
+  },
+  {
+    "No": "44",
+    "Character": "Lea",
+    "Card": "Ring",
+    "Upright Effect": "You gain +2 to your Charisma score and advantage on all Charisma checks. This effect lasts until the next long rest.",
+    "Reverse Effect": "You lose -2 to your Charisma score and gain disadvantage on all Charisma checks. This effect lasts until the next long rest."
+  },
+  {
+    "No": "45",
+    "Character": "Mela",
+    "Card": "Rogue",
+    "Upright Effect": "Until your next long rest, you gain advantage on Dexterity (Stealth) and Dexterity (Sleight of Hand) checks, and your movement does not provoke opportunity attacks.",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on Dexterity (Stealth) and Dexterity (Sleight of Hand) checks, and whenever you leave a creature’s reach, it always makes an opportunity attack against you."
+  },
+  {
+    "No": "46",
+    "Character": "Armagoden",
+    "Card": "Ruin",
+    "Upright Effect": "Until your next long rest, whenever you take damage from any source, roll a d6 — on a 1, one random nonmagical item you carry is destroyed beyond repair.",
+    "Reverse Effect": "Until your next long rest, you have resistance to all damage dealt by traps, falling, or structural collapse, and you cannot be surprised by environmental hazards."
+  },
+  {
+    "No": "47",
+    "Character": "Lucian",
+    "Card": "Sage",
+    "Upright Effect": "Until your next long rest, you gain advantage on Intelligence (Arcana), Intelligence (History), and Intelligence (Religion) checks, and you can cast the *Identify* spell once without expending a spell slot or material components.",
+    "Reverse Effect": "Until your next long rest, you are haunted by forgotten truths — you have disadvantage on Intelligence (Arcana), Intelligence (History), and Intelligence (Religion)  checks, and whenever you cast a spell, roll a d20; on a 1, the spell fails and the slot is wasted."
+  },
+  {
+    "No": "48",
+    "Character": "Stephen",
+    "Card": "Shield",
+    "Upright Effect": "Until your next long rest, when a creature within 5 feet of you is targeted by an attack, you can use your reaction to impose disadvantage on the attack roll, even without a shield. Additionally, once per combat, when you would drop to 0 HP, you instead drop to 1 HP and remain standing.",
+    "Reverse Effect": "Until your next long rest, whenever you take damage, you must succeed on a DC 10 Constitution saving throw or be knocked prone as if your guard failed."
+  },
+  {
+    "No": "49",
+    "Character": "Henry",
+    "Card": "Ship",
+    "Upright Effect": "You gain 50% of your movement speed as a bonus to your movement speed. This effect lasts until the next long rest.",
+    "Reverse Effect": "You lose 50% of your movement speed. This effect lasts until the next long rest."
+  },
+  {
+    "No": "50",
+    "Character": "Surxeb",
+    "Card": "Skull",
+    "Upright Effect": "Your maximum hit points are reduced to 10% of your usual maximum until the next long rest.",
+    "Reverse Effect": "Your receive only 10% of the damage dealt to you, this effect lasts until the next long rest."
+  },
+  {
+    "No": "51",
+    "Character": "Metifh",
+    "Card": "Staff",
+    "Upright Effect": "Until your next long rest, your spell save DC and spell attack bonus each increase by +2. If you do not cast spells, you gain advantage on ability checks made to assist allies.",
+    "Reverse Effect": "Until your next long rest, your spell save DC and spell attack bonus each decrease by -2. If you do not cast spells, you have disadvantage on ability checks made to assist allies."
+  },
+  {
+    "No": "52",
+    "Character": "Tagashi",
+    "Card": "Stairway",
+    "Upright Effect": "Until your next long rest, you can move vertically (up or down) up to 10 feet as part of your movement, as if walking an invisible staircase. In addition, your jump height and distance are doubled.",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on Athletics checks made to climb or jump, your jump distance is halved, and you cannot fly or levitate more than 10 feet above the ground due to an overwhelming fear of heights imposed by this card."
+  },
+  {
+    "No": "53",
+    "Character": "Calvin",
+    "Card": "Star",
+    "Upright Effect": "Until your next long rest, you gain 8 temporary ability score points, which you may distribute freely among your stats (maximum +4 to any one score).",
+    "Reverse Effect": "Until your next long rest, you must subtract a total of 8 ability score points, divided among your stats as you choose (maximum -4 from any one score)."
+  },
+  {
+    "No": "54",
+    "Character": "Remi",
+    "Card": "Statue",
+    "Upright Effect": "Until your next long rest, while you remain motionless for at least 1 full round, you gain +3 AC and emit a protective aura in a 10-foot radius: allies within the aura gain +1 AC and advantage on saving throws against being frightened. The aura ends if you move, and reactivates after standing still again.",
+    "Reverse Effect": "Until your next long rest, your movement speed is halved, and whenever you end your turn without moving, you must succeed on a DC 13 Constitution saving throw or become restrained until the end of your next turn, as your body begins to stiffen like stone."
+  },
+  {
+    "No": "55",
+    "Character": "Xander",
+    "Card": "Sun",
+    "Upright Effect": "Until your next long rest, any fire damage you deal ignores resistance. Creatures immune to fire damage are treated as resistant instead against your attacks. Once per long rest, when you would take fire damage, you can chose to instead absorb it and regain hit points equal to half the damage prevented.",
+    "Reverse Effect": "Until your next long rest,  you are vulnerable to fire damage, and whenever you take fire damage, you gain the Overheated condition until the end of your next turn."
+  },
+  {
+    "No": "56",
+    "Character": "Padre",
+    "Card": "Talons",
+    "Upright Effect": "You gain +2 to your Intelligence and Wisdom scores but -4 to your Charisma score until the next long rest.",
+    "Reverse Effect": "You lose -2 of your Intelligence and Wisdom scores but gain +4 to your Charisma score until the next long rest."
+  },
+  {
+    "No": "57",
+    "Character": "Obenavy",
+    "Card": "Tavern",
+    "Upright Effect": "Until your next long rest, once per short rest, you can choose to 'toast' with an ally within 30 feet — both of you regain 2 hit dices of hit points and gain advantage on Charisma checks for 1 hour.",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on Wisdom saving throws and Charisma checks, and the next time you take a short rest, it does not count. You can only use hit dices."
+  },
+  {
+    "No": "58",
+    "Character": "Dristan",
+    "Card": "Temple",
+    "Upright Effect": "Until your next long rest, you gain advantage on death saving throws and saving throws against being charmed or frightened. Once during this time, you may cast *lesser restoration* without using a spell slot.",
+    "Reverse Effect": "Until your next long rest, you cannot benefit from spells or magical effects that restore hit points or remove conditions. In addition, you have disadvantage on death saving throws as divine forces turn away from you."
+  },
+  {
+    "No": "59",
+    "Character": "Zaldria",
+    "Card": "Throne",
+    "Upright Effect": "Until your next long rest, you gain advantage on Charisma (Persuasion) and Charisma (Intimidation) checks, and once, you may issue a command as per the *command* spell without using a spell slot (cast with Charisma).",
+    "Reverse Effect": "Until your next long rest, you have disadvantage on Charisma checks made to influence others, and NPCs of equal or lower status are instinctively defiant or dismissive unless magically compelled."
+  },
+  {
+    "No": "60",
+    "Character": "Lucian2",
+    "Card": "Tomb",
+    "Upright Effect": "Until your next long rest, you are considered undead for effects that detect or interact with undead. You do not need to eat, drink, or breathe, and you have advantage on saving throws against exhaustion and necrotic damage.",
+    "Reverse Effect": "Until your next long rest, healing spells restore only half as many hit points to you, and creatures have advantage on attack rolls against you while you are unconscious or paralyzed, as if sensing your soul slipping toward death."
+  },
+  {
+    "No": "61",
+    "Character": "Kaatgar 2",
+    "Card": "Tower",
+    "Upright Effect": "Until your next long rest, the first time you would fail a saving throw or ability check, you instead succeed.",
+    "Reverse Effect": "Until your next long rest, the first time you succeed on a saving throw or ability check, it instead fails."
+  },
+  {
+    "No": "62",
+    "Character": "Blyskac",
+    "Card": "Tree",
+    "Upright Effect": "Until your next long rest, whenever you receive healing from any source, you regain the maximum possible amount instead of rolling.",
+    "Reverse Effect": "Until your next long rest, you cannot regain hit points from healing spells or magical effects unless the healer succeeds on a DC 15 Wisdom (Medicine) check. On a failure, the healing is wasted as your body fails to absorb it."
+  },
+  {
+    "No": "63",
+    "Character": "Jano",
+    "Card": "Undead",
+    "Upright Effect": "Until your next long rest, when you drop to 0 hit points, you instead remain conscious and active for 1 additional round. During this time, you cannot regain hit points, but you cannot fall unconscious or die unless reduced to negative hit points equal to your Max health",
+    "Reverse Effect": "Until your next long rest, you cannot regain hit points from non-magical sources (such as resting, bandages or even potions), and you have disadvantage on saving throws against effects with radiant damage, as your soul begins to slip from the living world."
+  },
+  {
+    "No": "64",
+    "Character": "Ruffus",
+    "Card": "Void",
+    "Upright Effect": "Until your next long rest, you are immune to being charmed or frightened. Your mind cannot be read, and you are undetectable by divination magic unless you choose to be.",
+    "Reverse Effect": "Until your next long rest, you are subconsciously ignored or overlooked in social situations. You have disadvantage on Charisma checks and cannot gain advantage on Stealth checks — but if you become hidden or unseen by normal means, you become a beacon to entities beyond reality, which may take interest in your presence."
+  },
+  {
+    "No": "65",
+    "Character": "Ace",
+    "Card": "Warrior",
+    "Upright Effect": "You gain an advantage on all damage rolls. Lasts until the next long rest.",
+    "Reverse Effect": "All damage rolls against you have advantage. Lasts until the next long rest."
+  },
+  {
+    "No": "66",
+    "Character": "Iskra",
+    "Card": "Well",
+    "Upright Effect": "Until your next long rest, you may use one of your class features, feats, or racial traits one additional time beyond its normal limit. If it has no limited uses, you gain advantage when using it once during this time.",
+    "Reverse Effect": ""
+  }
+]
