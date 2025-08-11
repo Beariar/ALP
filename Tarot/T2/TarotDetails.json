@@ -8,7 +8,7 @@
   },
   {
     "No": "2",
-    "Character": "Avalon",
+    "Character": "Ryan",
     "Card": "Balance",
     "Upright Effect": "Your alignment temporarily shifts to its opposite, until the next long rest. (True neutral alignment is not shifted)",
     "Reverse Effect": "Your alignment temporarily shifts to \"\"True neutral\"\", until the next long rest."
@@ -150,8 +150,8 @@
     "No": "22",
     "Character": "Keldan",
     "Card": "Flames",
-    "Upright Effect": "You are imunte to fire damage, this affects last for 1 combat.",
-    "Reverse Effect": "You are vulberableto fire damage, this affects last for 1 combat."
+    "Upright Effect": "You are imunte to fire damage, this affects lasts until the long rest.",
+    "Reverse Effect": "You are vulberableto fire damage, this affects lasts until the long rest."
   },
   {
     "No": "23",
