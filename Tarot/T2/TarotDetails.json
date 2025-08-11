@@ -185,8 +185,8 @@
     "No": "27",
     "Character": "Ginger",
     "Card": "Jester",
-    "Upright Effect": "You gain +2 to constitution and charisma stats. This effect lasts until the next long.",
-    "Reverse Effect": "You lose -2 from constitution and charisma stats. This effect lasts until the next long."
+    "Upright Effect": "You gain +2 to constitution and charisma stats. This effect lasts until the next long rest.",
+    "Reverse Effect": "You lose -2 from constitution and charisma stats. This effect lasts until the next long rest."
   },
   {
     "No": "28",
