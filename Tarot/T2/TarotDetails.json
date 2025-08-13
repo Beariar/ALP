@@ -143,8 +143,8 @@
     "No": "21",
     "Character": "Agony",
     "Card": "Fiend",
-    "Upright Effect": "You feel tempared to act selfishly and benefit on others, whenever you do such act you will have advatage on the realted dice roll. This effect lasts until the next long.",
-    "Reverse Effect": "Each time you try to act selfleshy something goes wrong, related dice roll is with disadvatage. This effect lasts until the next long."
+    "Upright Effect": "You feel tempared to act selfishly and benefit on others, whenever you do such act you will have advatage on the related dice roll. This effect lasts until the next long.",
+    "Reverse Effect": "Each time you try to act selfleshy something goes wrong, related dice roll is with disadvatage and you cant provide HELP action. This effect lasts until the next long."
   },
   {
     "No": "22",
