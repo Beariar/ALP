@@ -52,7 +52,7 @@
     "No": "8",
     "Character": "Xar",
     "Card": "Celestial",
-    "Upright Effect": "It’s as if the gods have chosen you for a glorious purpose. Until your next long rest, your weapon attacks deal an additional die of radiant damage. If the attack normally uses multiple dice, the highest die is added again (e.g., a greatsword adds 1d6 radiant).",
+    "Upright Effect": "It’s as if the gods have chosen you for a glorious purpose. Until your next long rest, your weapon attacks deal an additional dice of radiant damage. If the attack normally uses multiple dices, the highest dice is added again (e.g., a greatsword adds 1d6 radiant).",
     "Reverse Effect": "You feel abandoned, as if the gods have turned their gaze from you. Until your next long rest, whenever a creature within 15 feet of you takes damage, you suffer psychic pain equal to one-tenth of the damage they receive (rounded down)."
   },
   {
