@@ -828,6 +828,49 @@
 			"Combat Effect: When used against creatures with the [Water] trait (e.g., water elementals), it siphons moisture from them, dealing force or necrotic damage as they partially dry out.",
 			"Charges: Has 3 charges, regaining all at dawn. One charge can:<br>- Create water equivalent to a full waterskin.<br>- Deal 2d8 force/necrotic damage to a water-based creature"
 		]
+	},
+	{
+		"name": "Obsidian Parchment",
+		"meno": "Obsidiánový pergamen",
+		"source": "ALP",
+		"page": "0",
+		"rarity": "rare",
+		"reqAttune": "no",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "no",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"This book is bound in smooth obsidian and contains pages of absolute blackness that swallow light. Its pages cannot be marked, read, or altered by mundane or magical means unless the proper passwords are used.",
+"Layered Passwords",
+"When the obsidian parchment is completely empty, its owner sets up to four passwords, each tied to a specific function. Each password can be a word, phrase, name, or short spoken statement, chosen by the owner at the time of setting.",
+"The default layers are:",
+"Reveal Password — Allows the reader to see text already written on the pages.",
+"Write Password — Allows the user to write on the pages using any writing implement.",
+"Erase Password — Allows the user to erase text from the pages.",
+"Hidden Password — Reveals concealed annotations, invisible script, or suppressed entries if any exist.",
+"A creature must speak the appropriate password aloud while holding the book to activate that layer. Speaking an incorrect password has no effect.",
+"Magical Resilience",
+"The obsidian parchment is immune to spells that would reveal, copy, alter, or magically transcribe its contents unless the correct password is used. Attempts to bypass the passwords with divination magic automatically fail.",
+"Antimagic Fragility",
+"If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
+"Once this occurs, the item loses all magical properties and cannot be restored, even by wish.",
+		]
 	}
 ]
 }
+
