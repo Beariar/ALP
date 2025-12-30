@@ -868,9 +868,10 @@
 "The obsidian parchment is immune to spells that would reveal, copy, alter, or magically transcribe its contents unless the correct password is used. Attempts to bypass the passwords with divination magic automatically fail.",
 "Antimagic Fragility",
 "If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
-"Once this occurs, the item loses all magical properties and cannot be restored, even by wish.",
+"Once this occurs, the item loses all magical properties and cannot be restored, even by wish."
 		]
 	}
 ]
 }
+
 
