@@ -856,22 +856,20 @@
 		"tags": [],
 		"entries": [
 			"This book is bound in smooth obsidian and contains pages of absolute blackness that swallow light. Its pages cannot be marked, read, or altered by mundane or magical means unless the proper passwords are used.",
-"Layered Passwords",
+"<b>Layered Passwords</b>",
 "When the obsidian parchment is completely empty, its owner sets up to four passwords, each tied to a specific function. Each password can be a word, phrase, name, or short spoken statement, chosen by the owner at the time of setting.",
 "The default layers are:",
-"Reveal Password — Allows the reader to see text already written on the pages.",
-"Write Password — Allows the user to write on the pages using any writing implement.",
-"Erase Password — Allows the user to erase text from the pages.",
-"Hidden Password — Reveals concealed annotations, invisible script, or suppressed entries if any exist.",
+"Reveal Password — Allows the reader to see text already written on the pages.<br>Write Password — Allows the user to write on the pages using any writing implement.<br>Erase Password — Allows the user to erase text from the pages.<br>Hidden Password — Reveals concealed annotations, invisible script, or suppressed entries if any exist.",
 "A creature must speak the appropriate password aloud while holding the book to activate that layer. Speaking an incorrect password has no effect.",
-"Magical Resilience",
+"<b>Magical Resilience</b>",
 "The obsidian parchment is immune to spells that would reveal, copy, alter, or magically transcribe its contents unless the correct password is used. Attempts to bypass the passwords with divination magic automatically fail.",
-"Antimagic Fragility",
+"<b>Antimagic Fragility</b>",
 "If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
 "Once this occurs, the item loses all magical properties and cannot be restored, even by wish."
 		]
 	}
 ]
 }
+
 
 
