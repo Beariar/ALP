@@ -409,56 +409,56 @@
     "No": "59",
     "Character": "Zaldria",
     "Card": "Throne",
-    "Upright Effect": "Until your next long rest, you gain advantage on Charisma (Persuasion) and Charisma (Intimidation) checks, and once, you may issue a command as per the *command* spell without using a spell slot (cast with Charisma).",
-    "Reverse Effect": "Until your next long rest, you have disadvantage on Charisma checks made to influence others, and NPCs of equal or lower status are instinctively defiant or dismissive unless magically compelled."
+    "Upright Effect": "Those who sit on the thore have authority like none else. <br><br>Until your next long rest, you gain advantage on Charisma (Persuasion) and Charisma (Intimidation) checks, and once, you may issue a command as per the *command* spell without using a spell slot (cast with Charisma).",
+    "Reverse Effect": "Losing thore means losing status and with it authority. <br><br>Until your next long rest, you have disadvantage on Charisma checks made to influence others, and NPCs of equal or lower status are instinctively defiant or dismissive unless magically compelled."
   },
   {
     "No": "60",
-    "Character": "Lucian2",
+    "Character": "Lucian of New World",
     "Card": "Tomb",
-    "Upright Effect": "Until your next long rest, you are considered undead for effects that detect or interact with undead. You do not need to eat, drink, or breathe, and you have advantage on saving throws against exhaustion and necrotic damage.",
-    "Reverse Effect": "Until your next long rest, healing spells restore only half as many hit points to you, and creatures have advantage on attack rolls against you while you are unconscious or paralyzed, as if sensing your soul slipping toward death."
+    "Upright Effect": "Those who dwell too deep into one topic might lose track of time and the bodily needs and simply dont need them anymore. <br><br> Until your next long rest, you are considered undead for effects that detect or interact with undead. You do not need to eat, drink, or breathe, and you have advantage on saving throws against exhaustion and necrotic damage.",
+    "Reverse Effect": "Those who dweel too deep into one topic might become paralyzed in that deep state of mind. <br><br>Until your next long rest, healing spells restore only half as many hit points to you, and creatures have advantage on attack rolls against you while you are unconscious or paralyzed, as if sensing your soul slipping toward death."
   },
   {
     "No": "61",
-    "Character": "Kaatgar 2",
+    "Character": "Kaatgar of New World",
     "Card": "Tower",
-    "Upright Effect": "Until your next long rest, the first time you would fail a saving throw or ability check, you instead succeed.",
-    "Reverse Effect": "Until your next long rest, the first time you succeed on a saving throw or ability check, it instead fails."
+    "Upright Effect": "There is no better motivation to success then losing everything. <br><br>Until your next long rest, the first time you would fail a saving throw or ability check, you instead succeed.",
+    "Reverse Effect": "One might might try so hard and give their but in the end everything will fall. <br><br>Until your next long rest, the first time you succeed on a saving throw or ability check, it instead fails. (This check must be initiated by DM not by player)"
   },
   {
     "No": "62",
-    "Character": "Blyskac",
+    "Character": "Blýskač",
     "Card": "Tree",
-    "Upright Effect": "Until your next long rest, whenever you receive healing from any source, you regain the maximum possible amount instead of rolling.",
-    "Reverse Effect": "Until your next long rest, you cannot regain hit points from healing spells or magical effects unless the healer succeeds on a DC 15 Wisdom (Medicine) check. On a failure, the healing is wasted as your body fails to absorb it."
+    "Upright Effect": "Trees are what shields us from rain, shelter us from wind and hide from hot sun rais. <br><br>Until your next long rest, whenever you receive healing from any source, you regain the maximum possible amount instead of rolling.",
+    "Reverse Effect": "Cut down tree will never offer the same sanctuary and the young tree cant offer one yet either. <br><br>Until your next long rest, you cannot regain hit points from healing spells or magical effects unless the healer succeeds on a DC 15 Wisdom (Medicine) check. On a failure, the healing is wasted as your body fails to absorb it."
   },
   {
     "No": "63",
     "Character": "Jano",
     "Card": "Undead",
-    "Upright Effect": "Until your next long rest, when you drop to 0 hit points, you instead remain conscious and active for 1 additional round. During this time, you cannot regain hit points, but you cannot fall unconscious or die unless reduced to negative hit points equal to your Max health",
-    "Reverse Effect": "Until your next long rest, you cannot regain hit points from non-magical sources (such as resting, bandages or even potions), and you have disadvantage on saving throws against effects with radiant damage, as your soul begins to slip from the living world."
+    "Upright Effect": "Being of feeling like you already live after dying has its benefits. <br><br>Until your next long rest, when you drop to 0 hit points, you instead remain conscious and active for 1 additional round. During this time, you cannot regain hit points, but you cannot fall unconscious or die unless reduced to negative hit points equal to your Max health",
+    "Reverse Effect": "Being of feeling like you already live after dying has its losses. <br><br>Until your next long rest, you cannot regain hit points from non-magical sources (such as resting, bandages or even potions), and you have disadvantage on saving throws against effects with radiant damage, as your soul begins to slip from the living world."
   },
   {
     "No": "64",
     "Character": "Ruffus",
     "Card": "Void",
-    "Upright Effect": "Until your next long rest, you are immune to being charmed or frightened. Your mind cannot be read, and you are undetectable by divination magic unless you choose to be.",
-    "Reverse Effect": "Until your next long rest, you are subconsciously ignored or overlooked in social situations. You have disadvantage on Charisma checks and cannot gain advantage on Stealth checks — but if you become hidden or unseen by normal means, you become a beacon to entities beyond reality, which may take interest in your presence."
+    "Upright Effect": "They might care about, deeply even, but they still wont be able to tell what you think. <br><br>Until your next long rest, you are immune to being charmed or frightened. Your mind cannot be read, and you are undetectable by divination magic unless you choose to be.",
+    "Reverse Effect": "When it seems like no one cares about yout, it me better then if unknown entity took intrest of you. <br><br>Until your next long rest, you are subconsciously ignored or overlooked in social situations. You have disadvantage on Charisma checks and cannot gain advantage on Stealth checks — but if you become hidden or unseen by normal means, you become a beacon to entities beyond reality, which may take interest in your presence."
   },
   {
     "No": "65",
     "Character": "Ace",
     "Card": "Warrior",
-    "Upright Effect": "You gain an advantage on all damage rolls. Lasts until the next long rest.",
-    "Reverse Effect": "All damage rolls against you have advantage. Lasts until the next long rest."
+    "Upright Effect": "The warrior which sacrifices all is the daedliest in his profession. <br><br>You gain an advantage on all damage rolls. Lasts until the next long rest.",
+    "Reverse Effect": "Beware the enemy with nothing to lose and all to gain. His strikes are the deadliest. <br><br>All damage rolls against you have advantage. Lasts until the next long rest."
   },
   {
     "No": "66",
     "Character": "Iskra",
     "Card": "Well",
-    "Upright Effect": "Until your next long rest, you may use one of your class features, feats, or racial traits one additional time beyond its normal limit. If it has no limited uses, you gain advantage when using it once during this time.",
-    "Reverse Effect": "Until your next long rest, one of your class features, feats, or racial traits becomes inaccessible — as if the source of its power is cut off. The DM selects which, or you may roll randomly among them."
+    "Upright Effect": "At the bottom of the well there is not only water, there is whole village of possibilities. <br><br>Until your next long rest, you may use one of your class features, feats, or racial traits one additional time beyond its normal limit. If it has no limited uses, you gain advantage when using it once during this time.",
+    "Reverse Effect": "At the bottom of the well there is not only water, there is also sewage. <br><br>Until your next long rest, one of your class features, feats, or racial traits becomes inaccessible — as if the source of its power is cut off. The DM selects which, or you may roll randomly among them."
   }
 ]
