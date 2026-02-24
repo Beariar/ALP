@@ -227,8 +227,8 @@
     "No": "33",
     "Character": "Kara/Gjörd of New World",
     "Card": "Maze",
-    "Upright Effect": "Life is tricky and the mazes you get to can be hard to navigate but you are too talented to let them slow you down.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you can cast misty step spell on that turn as free action. This effect lasts until the next long.",
-    "Reverse Effect": "Life is tricky and the mazes you get to can be hard to navigate, sometimes you might even lose your self in them.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you became disoriented for that round. This effect lasts until the next long."
+    "Upright Effect": "Life is tricky and the mazes you get to can be hard to navigate but you are too talented to let them slow you down.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you can cast misty step spell on that turn as free action. This effect lasts until the next long rest.",
+    "Reverse Effect": "Life is tricky and the mazes you get to can be hard to navigate, sometimes you might even lose your self in them.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you became disoriented for that round. This effect lasts until the next long rest."
   },
   {
     "No": "34",
