@@ -22,7 +22,7 @@
   },
   {
     "No": "4",
-    "Character": "Gashi",
+    "Character": "Gashi of New World",
     "Card": "Book",
     "Upright Effect": "The situation may be dire, but your memory will not fail you its like you have all the memorries written down. <br><br>Until your next long rest, you have advantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks.",
     "Reverse Effect": "Your thoughts feel scattered, as if knowledge slips through your fingers right before you note it.. <br><br>Until your next long rest, you have disadvantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks."
@@ -36,7 +36,7 @@
   },
   {
     "No": "6",
-    "Character": "Xander",
+    "Character": "Xander of New World",
     "Card": "Campfire",
     "Upright Effect": "The warmth of the fire soothes your body and soul. <br><br>Your next long rest requires only the time of a short rest to complete.",
     "Reverse Effect": "The fire offers no comfort. This night shines with grim glow. <br><br>You cannot take a short rest until you have completed a long rest first."
@@ -57,7 +57,7 @@
   },
   {
     "No": "9",
-    "Character": "Kometa",
+    "Character": "Kometa of New World",
     "Card": "Comet",
     "Upright Effect": "You feel hunted — as if an unexpected foe is drawing closer with every moment. It may be minutes or days, but they will come, and they will bring trouble. Paranoia clouds your senses. <br><br>Until your next long rest, you have disadvantage on Wisdom (Insight) checks, and you always act last in initiative (treat your initiative roll as 0).",
     "Reverse Effect": "Whatever storm was coming has already passed — and you survived! You move with clarity and boldness. <br><br>Until your next long rest, you always act first in initiative (treat your initiative as 30), and your first attack in each combat is a critical hit (normal crit, not extreme)."
@@ -99,14 +99,14 @@
   },
   {
     "No": "15",
-    "Character": "Yossarian",
+    "Character": "Yossarian of New World",
     "Card": "Dragon",
     "Upright Effect": "You will stumple upon a treasure, it might be physical or magical in nature, but in the end you will gain some long term benefit soon. <br><br> Roll 1d4- 1. Gold, 2.Item, 3.Gold 4.ASI",
     "Reverse Effect": "Oh boy, you are about to loose something precious. It might be stolle, missplaced or forgotten. Best to put something really important to someone else for save keeping. (And hope they will not fail you) <br><br>Roll 1d4- 1. Gold, 2.Item, 3.Gold 4.ASI"
   },
   {
     "No": "16",
-    "Character": "Geneva",
+    "Character": "Geneva of New World",
     "Card": "Elemental",
     "Upright Effect": "In the end, even the most complex beings are made of simple elements — and so are you. <br><br>Until your next long rest, you may use one of your racial abilities one additional time before requiring a rest or recharge.",
     "Reverse Effect": "Something in your core feels off — as though your core is incomplete. <br><br>Until your next long rest, one of your racial abilities is suppressed and cannot be used. The DM chooses which ability is affected."
@@ -141,7 +141,7 @@
   },
   {
     "No": "21",
-    "Character": "Agony",
+    "Character": "Agony of New World",
     "Card": "Fiend",
     "Upright Effect": "Your intentions are blessed by some fiendish desire. You are tempared to act selfishly and benefit on others, whenever you do such act you will have advatage on the related dice roll. <br><br>This effect lasts until the next long.",
     "Reverse Effect": "Your intentions are grounded by some fiendish desire. Each time you try to act selflessly something goes wrong, related dice roll is with disadvatage and you cant provide HELP action. <br><br>This effect lasts until the next long."
@@ -225,14 +225,14 @@
   },
   {
     "No": "33",
-    "Character": "Kara/Gjörd",
+    "Character": "Kara/Gjörd of New World",
     "Card": "Maze",
     "Upright Effect": "Life is tricky and the mazes you get to can be hard to navigate but you are too talented to let them slow you down.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you can cast misty step spell on that turn as free action. This effect lasts until the next long.",
     "Reverse Effect": "Life is tricky and the mazes you get to can be hard to navigate, sometimes you might even lose your self in them.<br><br>Until your next long rest, you must roll a d6 at the start of each of your turns in combat: If you roll 1 you became disoriented for that round. This effect lasts until the next long."
   },
   {
     "No": "34",
-    "Character": "Arty",
+    "Character": "Arty of New World",
     "Card": "Mine",
     "Upright Effect": "Wiseman in a mine? Well he sure knows how to handle himself.<br><br>You gain tremorsense out to 15 feet until your next long rest. Once, upon drawing this card, you uncover a natural cache of rare ore or lost coins. Roll 3d10 × 10 gold pieces — this wealth manifests in your pack or nearby terrain (DM's discretion).",
     "Reverse Effect": "Wiseman in a mine? Well he sure knows how to handle himself. Right? <br><br>Until your next long rest, you are blinded while in darkness (magical or non-magical). You find no treasure, even where it should be."
@@ -253,7 +253,7 @@
   },
   {
     "No": "37",
-    "Character": "Selena",
+    "Character": "Selena of New World",
     "Card": "Ooze",
     "Upright Effect": "In extremly rare case of stepping to ooze certain benefits might be obtained. <br><br>Until your next long rest: <br>You can squeeze through spaces as narrow as 4 inches wide without squeezing penalties.<br>You have resistance to acid damage.<br>Once, you may reroll a failed Dexterity saving throw (must accept the second result).<br>Your touch leaves behind faint slime, but nothing harmful… yet.",
     "Reverse Effect": "Watch your step! <br><br>You are vulnerable to acid damage.<br>Weapons lose one durability when you draw them. <br>You leave behind a noticeable slime trail, making stealth nearly impossible in natural environments."
@@ -309,7 +309,7 @@
   },
   {
     "No": "45",
-    "Character": "Mela",
+    "Character": "Mela of New World",
     "Card": "Rogue",
     "Upright Effect": "In the shadows or in sky, still hard to notice with naked eye. <br><br>Until your next long rest, you gain advantage on Dexterity (Stealth) and Dexterity (Sleight of Hand) checks, and your movement does not provoke opportunity attacks.",
     "Reverse Effect": "Once cant expect to fly on ginat bat and remain un detected. <br><br>Until your next long rest, you have disadvantage on Dexterity (Stealth) and Dexterity (Sleight of Hand) checks, and whenever you leave a creature’s reach, it always makes an opportunity attack against you."
@@ -358,14 +358,14 @@
   },
   {
     "No": "52",
-    "Character": "Tagashi",
+    "Character": "Tagashi of New World",
     "Card": "Stairway",
     "Upright Effect": "Tea for good luck and then lets head to towers aracene lab. <br><br>Until your next long rest, you can move vertically (up or down) up to 10 feet as part of your movement, as if walking an invisible staircase. In addition, your jump height and distance are doubled.",
     "Reverse Effect": "Is it already tea break time? It should be by now. <br><br>Until your next long rest, you have disadvantage on Athletics checks made to climb or jump, your jump distance is halved, and you cannot fly or levitate more than 10 feet above the ground due to an overwhelming fear of heights imposed by this card."
   },
   {
     "No": "53",
-    "Character": "Calvin",
+    "Character": "Calvin of New World",
     "Card": "Star",
     "Upright Effect": "Its blessing of the blood line, carry it with honor shine like star. <br><br>Until your next long rest, you gain 8 temporary ability score points, which you may distribute freely among your stats (maximum +4 to any one score).",
     "Reverse Effect": "Even the blessing might become curse under the wrong star constellation. <br><br>Until your next long rest, you must subtract a total of 8 ability score points, divided among your stats as you choose (maximum -4 from any one score)."
@@ -456,7 +456,7 @@
   },
   {
     "No": "66",
-    "Character": "Iskra",
+    "Character": "Iskra of New World",
     "Card": "Well",
     "Upright Effect": "At the bottom of the well there is not only water, there is whole village of possibilities. <br><br>Until your next long rest, you may use one of your class features, feats, or racial traits one additional time beyond its normal limit. If it has no limited uses, you gain advantage when using it once during this time.",
     "Reverse Effect": "At the bottom of the well there is not only water, there is also sewage. <br><br>Until your next long rest, one of your class features, feats, or racial traits becomes inaccessible — as if the source of its power is cut off. The DM selects which, or you may roll randomly among them."
