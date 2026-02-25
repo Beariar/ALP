@@ -867,6 +867,40 @@
 "If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
 "Once this occurs, the item loses all magical properties and cannot be restored, even by wish."
 		]
+	},
+	{
+		"name": "Bow of Trinity",
+		"meno": "Luk trojice",
+		"source": "ALP",
+		"page": "0",
+		"rarity": "rare",
+		"reqAttune": "yes",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "yes",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"TThree crystal rings hum with psionic energy. When worn on three different fingers (Thumb, Index finger, Little finger) of the same hand, faint lines of force connect them in a triangular lattice.",
+			"While attuned and wearing all three rings, you can use a bonus action to manifest a psionic hand-bow—a construct of luminous force stretching between your fingers. The hand-bow lasts until dismissed (no action), you are incapacitated, or you remove a ring.",
+			"<b>Psionic Hand-Bow</b>",
+			"The hand-bow is a ranged weapon with which you are proficient if you are proficient with hand crossbows or simple weapons.<br><b>Damage:</b> 1d6 piercing/psychic<br><b>Properties:</b> Light, Loading<br><b>Range:</b> 30/120<br><b>Damage Type:</b> Piercing (force for conjured darts; see below)<br><b>Attack Ability:</b> Dexterity<br>The rings share a pool of <b>30 charges</b> and regain 2d6 + 4 charges daily at dawn. If the last charge is expended, roll a d20. On a 1, one ring cracks and becomes nonmagical.",
+			"<b>Ammunition Options</b>",
+			"When you make an attack with the hand-bow, choose one of the following:<br><br>Regular Dart (1 Charge)<br>- You may fire a normal dart (you provide the ammunition).<br>- The dart is propelled by psionic force.<br>- The attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.<br>- The dart deals 1d6 piercing damage.<br><br>Conjured Psionic Dart (3 Charges)<br>- You create a glowing dart of solidified thought and fire it as part of the same attack.<br>- The dart deals 1d6 psychic damage.<br>- The dart vanishes immediately after hitting or missing.<br>- On a hit, the target must succeed on a DC 14 Strength saving throw or have its speed reduced by 10 feet until the start of your next turn as faint psionic tethers cling to it."
+		]
 	}
 ]
 }
