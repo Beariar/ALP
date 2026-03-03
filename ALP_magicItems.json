@@ -901,6 +901,41 @@
 			"<b>Ammunition Options</b>",
 			"When you make an attack with the hand-bow, choose one of the following:<br><br>Regular Dart (1 Charge)<br>- You may fire a normal dart (you provide the ammunition).<br>- The dart is propelled by psionic force.<br>- The attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.<br>- The dart deals 1d6 piercing damage.<br><br>Conjured Psionic Dart (3 Charges)<br>- You create a glowing dart of solidified thought and fire it as part of the same attack.<br>- The dart deals 1d6 psychic damage.<br>- The dart vanishes immediately after hitting or missing.<br>- On a hit, the target must succeed on a DC 14 Strength saving throw or have its speed reduced by 10 feet until the start of your next turn as faint psionic tethers cling to it."
 		]
+	},
+	{
+		"name": "Archivist’s Arcane Camera",
+		"meno": "Foťhák",
+		"source": "ALP",
+		"page": "0",
+		"rarity": "very rare",
+		"reqAttune": "no",
+		"type": "wondrous",
+		"bonuses": {
+			"spellAttack": "0",
+			"spellSaveDc": "0",
+			"weaponAttack": "0",
+			"abilityScores": {
+				"str": "0",
+				"dex": "0",
+				"con": "0",
+				"wis": "0",
+				"int": "0",
+				"cha": "0"
+			},
+			"savingThrow": "0"
+		},
+		"spellFocus": "no",
+		"properties": [],
+		"tags": [],
+		"entries": [
+			"This intricate brass-and-crystal device contains a polished smoky quartz lens etched with faint illusion glyphs. The camera captures magical visual impressions and stores them within removable arcane cartridges.",
+			"<b>Arcane Capture</b>",
+			"While holding the camera, you can use an action to speak its command word and capture a still image of a creature, object, or area you can see within 120 feet of you. The captured image perfectly records visual detail, including lighting and coloration at the moment of capture.<br>The camera can store up to 20 still images at one time. Invisible creatures or objects appear in an image only if they are visible to naked eye when the image is taken.<br>As a bonus action, you can project one stored image into an unoccupied space within 10 feet of you. The image appears as a floating, intangible illusion up to 10 feet on a side and lasts for 1 minute, or until dismissed (no concentration required).<br>A creature can use its action to examine the projection and must succeed on an Intelligence (Investigation) check against your spell save DC to determine that it is an illusion.",
+			"<b>Three-Dimensional Scan</b>",
+			"Instead of capturing a still image, you can use an action to record a three-dimensional arcane scan of an area within 60 feet of you. The scan captures a 30-foot-radius area centered on a point you can see. This scan occupies 10 image slots.<br>As an action, you can project a stored scan into an area within 10 feet of item. The projection creates an illusory recreation of the recorded space in a 30-foot radius centered on you and lasts for up to 10 minutes.<br>Creatures and objects within the projection are intangible and cannot cause damage, provide cover, or physically impede movement. Hidden doors, invisible creatures, and magical effects are recorded only if visible at the time of the scan.<br>Such projection is visible illusion and any creature with intelligence above 6 can spot it without need for any check.",
+			"<b>Arcane Cartridges</b>",
+			"The camera stores its images within a removable arcane cartridge. Each cartridge can hold up to 20 still images or two three-dimensional scans (or a combination thereof, where one scan equals 10 images).<br>Swapping a cartridge requires 1 minute. Blank cartridges are uncommon magical items and typically cost 250–500 gp at the DM’s discretion."	
+		]
 	}
 ]
 }
