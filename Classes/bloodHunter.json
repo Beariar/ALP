@@ -460,8 +460,7 @@
                             "description": "At 18th level, your body has adapted to produce mutagens naturally in a moment of need. As a bonus action, choose one mutagen currently affecting you. Its effects and side effects end, and you can immediately have a mutagen you know the formula for take effect in its place.\r\n\r\nYou can use this feature a number of times equal to your Hemocraft modifier (minimum of once). You regain all expended uses when you finish a long rest."
                         }
                     ]
-                }
-                ,
+                },
                 {
                     "name": "Order of the Profane Soul",
                     "source": "DNDB",
