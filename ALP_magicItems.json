@@ -367,7 +367,7 @@
 				]
 			},
 		{
-			"name": "Arcane Biscuit",
+			"name": "Arcane Syringe",
 			"meno": "Obnomág",
 			"source": "ALP",
 			"page":"0",
@@ -392,10 +392,10 @@
 			"properties": ["consumable"],
 			"tags": [],
 			"entries": [
-				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Arcane biscuit—a notoriously foul-tasting ration that restores magical power at a cost.",
-				"When you eat a Arcane biscuit as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the biscuit is not potent enough to replenish such immense power.",
-				"However, the sudden surge of magic strains the body. Upon consuming a Arcane biscuit, you immediately gain one level of exhaustion. If you already have exhaustion levels, consuming another biscuit exacerbates the toll, making further spellcasting even more dangerous.",
-				"Many experienced mages learn the secrets of the Arcane biscuit, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
+				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Arcane Syringe notoriously painful injection that restores magical power at a cost.",
+				"When you use a Arcane Syringe as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the Syringe is not potent enough to replenish such immense power.",
+				"However, the sudden surge of magic strains the body. Upon injecting the fluid to your Magic Vein, you immediately gain one level of exhaustion. If you already have exhaustion levels, using another Syringe exacerbates the toll, making further spellcasting even more dangerous.",
+				"Many experienced mages learn the secrets of the Arcane Syringe, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
 			]
 		},
 		{
