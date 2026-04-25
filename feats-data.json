@@ -1,0 +1,1699 @@
+{
+  "schemaVersion": 1,
+  "title": "Feats",
+  "sourceFile": "Developing 2.html",
+  "description": "Feat data extracted from the original static HTML page. contentHtml preserves the original feat body for rendering; metadata fields are derived for filtering/search UI.",
+  "sections": [
+    {
+      "key": "core",
+      "label": "Featy"
+    },
+    {
+      "key": "axrie",
+      "label": "Featy Axrie"
+    }
+  ],
+  "filterOptions": {
+    "sources": [
+      {
+        "key": "core",
+        "label": "Featy"
+      },
+      {
+        "key": "axrie",
+        "label": "Featy Axrie"
+      }
+    ],
+    "prerequisiteTypes": [
+      "ability-score",
+      "armor-proficiency",
+      "class",
+      "feat",
+      "spellcasting"
+    ],
+    "requiredAbilities": [
+      "charisma",
+      "constitution",
+      "dexterity",
+      "intelligence",
+      "strength",
+      "wisdom"
+    ],
+    "requiredClasses": [
+      "Artificer",
+      "Barbarian",
+      "Bard",
+      "Blood Hunter",
+      "Cleric",
+      "Druid",
+      "Fighter",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "abilityScoreIncreases": [
+      "any",
+      "charisma",
+      "constitution",
+      "dexterity",
+      "intelligence",
+      "strength",
+      "wisdom"
+    ],
+    "tags": [
+      "ability-score",
+      "action",
+      "armor",
+      "armor-proficiency",
+      "bonus-action",
+      "class",
+      "class-specific",
+      "core",
+      "damage",
+      "defense",
+      "feat",
+      "healing",
+      "homebrew",
+      "initiative",
+      "melee",
+      "mobility",
+      "perception",
+      "ranged",
+      "reaction",
+      "resource",
+      "shield",
+      "spellcasting",
+      "stealth",
+      "teamwork",
+      "weapon"
+    ]
+  },
+  "feats": [
+    {
+      "order": 1,
+      "id": "Actor",
+      "name": "Actor",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "charisma"
+      ],
+      "tags": [
+        "core"
+      ],
+      "contentHtml": "Skilled at mimicry and dramatics, you gain the following benefits:\n        <br/><br/>• Increase your Charisma score by 1, to a maximum of 20.\n        <br/><br/>• You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass\n        yourself off as a different person.\n        <br/><br/>• You can mimic the speech of another person or the sounds made by other creatures. You must have heard\n        the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight)\n        check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.",
+      "contentText": "Skilled at mimicry and dramatics, you gain the following benefits:\n• Increase your Charisma score by 1, to a maximum of 20.\n• You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass\nyourself off as a different person.\n• You can mimic the speech of another person or the sounds made by other creatures. You must have heard\nthe person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight)\ncheck contested by your Charisma (Deception) check allows a listener to determine that the effect is faked."
+    },
+    {
+      "order": 2,
+      "id": "Alert",
+      "name": "Alert",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "initiative"
+      ],
+      "contentHtml": "Always on the lookout for danger, you gain the following benefits:\n        <br/><br/>• You gain a +5 bonus to initiative.\n        <br/><br/>• You can't be surprised while you are conscious.\n        <br/><br/>• Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.",
+      "contentText": "Always on the lookout for danger, you gain the following benefits:\n• You gain a +5 bonus to initiative.\n• You can't be surprised while you are conscious.\n• Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+    },
+    {
+      "order": 3,
+      "id": "Athlete",
+      "name": "Athlete",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength",
+        "dexterity"
+      ],
+      "tags": [
+        "core",
+        "mobility",
+        "resource"
+      ],
+      "contentHtml": "You have undergone extensive physical training to gain the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• When you are prone, standing up uses only 5 feet of your movement.\n        <br/><br/>• Climbing doesn't cost you extra movement.\n        <br/><br/>• You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than\n        10 feet.",
+      "contentText": "You have undergone extensive physical training to gain the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• When you are prone, standing up uses only 5 feet of your movement.\n• Climbing doesn't cost you extra movement.\n• You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than\n10 feet."
+    },
+    {
+      "order": 4,
+      "id": "Charger",
+      "name": "Charger",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "mobility",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<br/>When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a\n        creature.\n        <br/><br/>If you move at least 10 feet in a straight line immediately before taking this bonus action, you either\n        gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up\n        to 10 feet away from you (if you chose to shove and you succeed).",
+      "contentText": "When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.\nIf you move at least 10 feet in a straight line immediately before taking this bonus action, you either\ngain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up\nto 10 feet away from you (if you chose to shove and you succeed)."
+    },
+    {
+      "order": 5,
+      "id": "CrossbowExpert",
+      "name": "Crossbow Expert",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ranged",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource"
+      ],
+      "contentHtml": "Thanks to extensive practice with the crossbow, you gain the following benefits:\n        <br/><br/>• You ignore the loading quality of crossbows with which you are proficient.\n        <br/><br/>• Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.\n        <br/><br/>• When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to\n        attack with a hand crossbow you are holding.",
+      "contentText": "Thanks to extensive practice with the crossbow, you gain the following benefits:\n• You ignore the loading quality of crossbows with which you are proficient.\n• Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.\n• When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to\nattack with a hand crossbow you are holding."
+    },
+    {
+      "order": 6,
+      "id": "DefensiveDuelist",
+      "name": "Defensive Duelist",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "dex 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "dexterity",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ability-score",
+        "melee",
+        "defense",
+        "reaction",
+        "weapon",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> dex 13 alebo viac\n        <br/><br/>When you are wielding a finesse weapon with which you are proficient and another creature hits you with\n        a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially\n        causing the attack to miss you.",
+      "contentText": "Prerequisite:\ndex 13 alebo viac\nWhen you are wielding a finesse weapon with which you are proficient and another creature hits you with\na melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially\ncausing the attack to miss you."
+    },
+    {
+      "order": 7,
+      "id": "DualWielder",
+      "name": "Dual Wielder",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "defense",
+        "weapon",
+        "resource"
+      ],
+      "contentHtml": "You master fighting with two weapons, gaining the following benefits:\n        <br/><br/>• You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.\n        <br/><br/>• You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.\n        <br/><br/>• You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+      "contentText": "You master fighting with two weapons, gaining the following benefits:\n• You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.\n• You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.\n• You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
+    },
+    {
+      "order": 8,
+      "id": "DungeonDelver",
+      "name": "Dungeon Delver",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "defense",
+        "stealth",
+        "perception",
+        "damage"
+      ],
+      "contentHtml": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:\n        <br/><br/>• You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the\n        presence of secret doors.\n        <br/><br/>• You have advantage on saving throws made to avoid or resist traps.\n        <br/><br/>• You have resistance to the damage dealt by traps.\n        <br/><br/>• Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception)\n        score.",
+      "contentText": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:\n• You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the\npresence of secret doors.\n• You have advantage on saving throws made to avoid or resist traps.\n• You have resistance to the damage dealt by traps.\n• Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception)\nscore."
+    },
+    {
+      "order": 9,
+      "id": "Durable",
+      "name": "Durable",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "constitution"
+      ],
+      "tags": [
+        "core",
+        "defense",
+        "resource"
+      ],
+      "contentHtml": "Hardy and resilient, you gain the following benefits:\n        <br/><br/>• Increase your Constitution score by 1, to a maximum of 20.\n        <br/><br/>• When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the\n        roll equals twice your Constitution modifier (minimum of 2).",
+      "contentText": "Hardy and resilient, you gain the following benefits:\n• Increase your Constitution score by 1, to a maximum of 20.\n• When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the\nroll equals twice your Constitution modifier (minimum of 2)."
+    },
+    {
+      "order": 10,
+      "id": "ElementalAdept",
+      "name": "Elemental Adept",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "The ability to cast at least one spell",
+      "prerequisiteTypes": [
+        "spellcasting"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "spellcasting",
+        "defense",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> The ability to cast at least one spell\n        <br/><br/>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or\n        thunder.\n        <br/><br/>Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a\n        spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\n        <br/><br/>You can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+      "contentText": "Prerequisite:\nThe ability to cast at least one spell\nWhen you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or\nthunder.\nSpells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a\nspell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type."
+    },
+    {
+      "order": 11,
+      "id": "Grappler",
+      "name": "Grappler",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "str 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "strength",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ability-score",
+        "melee",
+        "action",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> str 13 alebo viac\n        <br/>You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following\n        benefits:\n        <br/><br/>• You have advantage on attack rolls against a creature you are grappling.\n        <br/><br/>• You can use your action to try to pin a creature grappled by you. To do so, make another grapple\n        check. If you succeed, you and the creature are both restrained until the grapple ends.",
+      "contentText": "Prerequisite:\nstr 13 alebo viac\nYou've developed the skills necessary to hold your own in close-quarters grappling. You gain the following\nbenefits:\n• You have advantage on attack rolls against a creature you are grappling.\n• You can use your action to try to pin a creature grappled by you. To do so, make another grapple\ncheck. If you succeed, you and the creature are both restrained until the grapple ends."
+    },
+    {
+      "order": 12,
+      "id": "GreatWeaponMaster",
+      "name": "Great Weapon Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You\n        gain the following benefits:\n        <br/><br/>• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points\n        with one, you can make one melee weapon attack as a bonus action.\n        <br/><br/>• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to\n        take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+      "contentText": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You\ngain the following benefits:\n• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points\nwith one, you can make one melee weapon attack as a bonus action.\n• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to\ntake a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
+    },
+    {
+      "order": 13,
+      "id": "Healer",
+      "name": "Healer",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "healing",
+        "action",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain\n        the following benefits:\n        <br/><br/>• When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.\n        <br/><br/>• As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit\n        points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't\n        regain hit points from this feat again until it finishes a short or long rest.",
+      "contentText": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain\nthe following benefits:\n• When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.\n• As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit\npoints to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't\nregain hit points from this feat again until it finishes a short or long rest."
+    },
+    {
+      "order": 14,
+      "id": "HeavilyArmored",
+      "name": "Heavily Armored",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "Proficiency with medium armor",
+      "prerequisiteTypes": [
+        "armor-proficiency"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength"
+      ],
+      "tags": [
+        "core",
+        "armor-proficiency",
+        "defense",
+        "armor",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Proficiency with medium armor\n        <br/>You have trained to master the use of heavy armor, gaining the following benefits:\n        <br/><br/>• Increase your Strength score by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with heavy armor.",
+      "contentText": "Prerequisite:\nProficiency with medium armor\nYou have trained to master the use of heavy armor, gaining the following benefits:\n• Increase your Strength score by 1, to a maximum of 20.\n• You gain proficiency with heavy armor."
+    },
+    {
+      "order": 15,
+      "id": "HeavyArmorMaster",
+      "name": "Heavy Armor Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "Proficiency with heavy armor",
+      "prerequisiteTypes": [
+        "armor-proficiency"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength"
+      ],
+      "tags": [
+        "core",
+        "armor-proficiency",
+        "defense",
+        "armor",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Proficiency with heavy armor\n        <br/>You can use your armor to deflect strikes that would kill others. You gain the following benefits:\n        <br/><br/>• Increase your Strength score by 1, to a maximum of 20.\n        <br/><br/>• While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from\n        nonmagical attacks is reduced by 3.",
+      "contentText": "Prerequisite:\nProficiency with heavy armor\nYou can use your armor to deflect strikes that would kill others. You gain the following benefits:\n• Increase your Strength score by 1, to a maximum of 20.\n• While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from\nnonmagical attacks is reduced by 3."
+    },
+    {
+      "order": 16,
+      "id": "InspiringLeader",
+      "name": "Inspiring Leader",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "cha 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "charisma",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ability-score",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> cha 13 alebo viac\n        <br/>You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so,\n        choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you\n        and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma\n        modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long\n        rest.",
+      "contentText": "Prerequisite:\ncha 13 alebo viac\nYou can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so,\nchoose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you\nand who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma\nmodifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long\nrest."
+    },
+    {
+      "order": 17,
+      "id": "KeenMind",
+      "name": "Keen Mind",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "intelligence"
+      ],
+      "tags": [
+        "core"
+      ],
+      "contentHtml": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following\n        benefits:\n        <br/><br/>• Increase your Intelligence score by 1, to a maximum of 20.\n        <br/><br/>• You always know which way is north.\n        <br/><br/>• You always know the number of hours left before the next sunrise or sunset.\n        <br/><br/>• You can accurately recall anything you have seen or heard within the past month.",
+      "contentText": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following\nbenefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You always know which way is north.\n• You always know the number of hours left before the next sunrise or sunset.\n• You can accurately recall anything you have seen or heard within the past month."
+    },
+    {
+      "order": 18,
+      "id": "LightlyArmored",
+      "name": "Lightly Armored",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength",
+        "dexterity"
+      ],
+      "tags": [
+        "core",
+        "defense",
+        "armor",
+        "resource"
+      ],
+      "contentHtml": "You have trained to master the use of light armor, gaining the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with light armor.",
+      "contentText": "You have trained to master the use of light armor, gaining the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• You gain proficiency with light armor."
+    },
+    {
+      "order": 19,
+      "id": "Linguist",
+      "name": "Linguist",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "intelligence"
+      ],
+      "tags": [
+        "core",
+        "spellcasting",
+        "resource"
+      ],
+      "contentHtml": "You have studied languages and codes, gaining the following benefits:\n        <br/><br/>• Increase your Intelligence score by 1, to a maximum of 20.\n        <br/><br/>• You learn three languages of your choice.\n        <br/><br/>• You can ably create written ciphers. Others can't decipher a code you create unless you teach them,\n        they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they\n        use magic to decipher it.",
+      "contentText": "You have studied languages and codes, gaining the following benefits:\n• Increase your Intelligence score by 1, to a maximum of 20.\n• You learn three languages of your choice.\n• You can ably create written ciphers. Others can't decipher a code you create unless you teach them,\nthey succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they\nuse magic to decipher it."
+    },
+    {
+      "order": 20,
+      "id": "Lucky",
+      "name": "Lucky",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "defense",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<br/>You have inexplicable luck that seems to kick in at just the right moment.\n        <br/>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend\n        one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the\n        die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability\n        check, or saving throw.\n        <br/>You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose\n        whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence\n        the outcome of a roll, the points cancel each other out; no additional dice are rolled.\n        <br/>You regain your expended luck points when you finish a long rest.",
+      "contentText": "You have inexplicable luck that seems to kick in at just the right moment.\nYou have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend\none luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the\ndie, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability\ncheck, or saving throw.\nYou can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose\nwhether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence\nthe outcome of a roll, the points cancel each other out; no additional dice are rolled.\nYou regain your expended luck points when you finish a long rest."
+    },
+    {
+      "order": 21,
+      "id": "MageSlayer",
+      "name": "Mage Slayer",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "spellcasting",
+        "defense",
+        "reaction",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:\n        <br/><br/>• When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon\n        attack against that creature.\n        <br/><br/>• When you damage a creature that is concentrating on a spell, that creature has disadvantage on the\n        saving throw it makes to maintain its concentration.\n        <br/><br/>• You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+      "contentText": "You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:\n• When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon\nattack against that creature.\n• When you damage a creature that is concentrating on a spell, that creature has disadvantage on the\nsaving throw it makes to maintain its concentration.\n• You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+    },
+    {
+      "order": 22,
+      "id": "MagicInitiate",
+      "name": "Magic Initiate",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "class-specific",
+        "spellcasting",
+        "resource"
+      ],
+      "contentHtml": "<br/>Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice\n        from that class's spell list.\n        <br/>In addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the\n        spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.\n        <br/>Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or\n        warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+      "contentText": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice\nfrom that class's spell list.\nIn addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the\nspell once at its lowest level, and you must finish a long rest before you can cast it in this way again.\nYour spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or\nwarlock; Wisdom for cleric or druid; or Intelligence for wizard."
+    },
+    {
+      "order": 23,
+      "id": "MartialAdept",
+      "name": "Martial Adept",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [
+        "Fighter"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "class-specific",
+        "defense",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:\n        <br/><br/>• You learn two maneuvers of your choice from among those available to the Battle Master archetype in\n        the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's\n        effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your\n        choice).\n        <br/><br/>• You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from\n        another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You\n        regain your expended superiority dice when you finish a short or long rest.",
+      "contentText": "You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:\n• You learn two maneuvers of your choice from among those available to the Battle Master archetype in\nthe fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's\neffects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your\nchoice).\n• You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from\nanother source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You\nregain your expended superiority dice when you finish a short or long rest."
+    },
+    {
+      "order": 24,
+      "id": "MediumArmorMaster",
+      "name": "Medium Armor Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "Proficiency with medium armor",
+      "prerequisiteTypes": [
+        "armor-proficiency"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "armor-proficiency",
+        "defense",
+        "stealth",
+        "armor"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Proficiency with medium armor\n        <br/>You have practiced moving in medium armor to gain the following benefits:\n        <br/><br/>• Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.\n        <br/><br/>• When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or\n        higher.",
+      "contentText": "Prerequisite:\nProficiency with medium armor\nYou have practiced moving in medium armor to gain the following benefits:\n• Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.\n• When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or\nhigher."
+    },
+    {
+      "order": 25,
+      "id": "Mobile",
+      "name": "Mobile",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "mobility",
+        "action",
+        "resource"
+      ],
+      "contentHtml": "You are exceptionally speedy and agile. You gain the following benefits:\n        <br/><br/>• Your speed increases by 10 feet.\n        <br/><br/>• When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.\n        <br/><br/>• When you make a melee attack against a creature, you don't provoke opportunity attacks from that\n        creature for the rest of the turn, whether you hit or not.",
+      "contentText": "You are exceptionally speedy and agile. You gain the following benefits:\n• Your speed increases by 10 feet.\n• When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.\n• When you make a melee attack against a creature, you don't provoke opportunity attacks from that\ncreature for the rest of the turn, whether you hit or not."
+    },
+    {
+      "order": 26,
+      "id": "ModeratelyArmored",
+      "name": "Moderately Armored",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "Proficiency with light armor",
+      "prerequisiteTypes": [
+        "armor-proficiency"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength",
+        "dexterity"
+      ],
+      "tags": [
+        "core",
+        "armor-proficiency",
+        "defense",
+        "armor",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Proficiency with light armor\n        <br/>You have trained to master the use of medium armor and shields, gaining the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with medium armor and shields.",
+      "contentText": "Prerequisite:\nProficiency with light armor\nYou have trained to master the use of medium armor and shields, gaining the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• You gain proficiency with medium armor and shields."
+    },
+    {
+      "order": 27,
+      "id": "MountedCombatant",
+      "name": "Mounted Combatant",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "defense",
+        "damage"
+      ],
+      "contentHtml": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the\n        following benefits:\n        <br/><br/>• You have advantage on melee attack rolls against any unmounted creature that is smaller than your\n        mount.\n        <br/><br/>• You can force an attack targeted at your mount to target you instead.\n        <br/><br/>• If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only\n        half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+      "contentText": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the\nfollowing benefits:\n• You have advantage on melee attack rolls against any unmounted creature that is smaller than your\nmount.\n• You can force an attack targeted at your mount to target you instead.\n• If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only\nhalf damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "order": 28,
+      "id": "Observant",
+      "name": "Observant",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "intelligence",
+        "wisdom"
+      ],
+      "tags": [
+        "core",
+        "perception"
+      ],
+      "contentHtml": "Quick to notice details of your environment, you gain the following benefits:\n        <br/><br/>• Increase your Intelligence or Wisdom by 1, to a maximum of 20.\n        <br/><br/>• If you can see a creature's mouth while it is speaking a language you understand, you can interpret\n        what it's saying by reading its lips.\n        <br/><br/>• You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation)\n        scores.",
+      "contentText": "Quick to notice details of your environment, you gain the following benefits:\n• Increase your Intelligence or Wisdom by 1, to a maximum of 20.\n• If you can see a creature's mouth while it is speaking a language you understand, you can interpret\nwhat it's saying by reading its lips.\n• You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation)\nscores."
+    },
+    {
+      "order": 29,
+      "id": "PolearmMaster",
+      "name": "Polearm Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You can keep your enemies at bay with reach weapons. You gain the following benefits:\n        <br/><br/>• When you take the Attack action and attack with only a glaive, halberd, quarterstaff, or spear, you\n        can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same\n        ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals\n        bludgeoning damage.\n        <br/><br/>• While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an\n        opportunity attack from you when they enter the reach you have with that weapon.",
+      "contentText": "You can keep your enemies at bay with reach weapons. You gain the following benefits:\n• When you take the Attack action and attack with only a glaive, halberd, quarterstaff, or spear, you\ncan use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same\nability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals\nbludgeoning damage.\n• While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an\nopportunity attack from you when they enter the reach you have with that weapon."
+    },
+    {
+      "order": 30,
+      "id": "Resilient",
+      "name": "Resilient",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "any"
+      ],
+      "tags": [
+        "core",
+        "defense"
+      ],
+      "contentHtml": "Choose one ability score. You gain the following benefits:\n        <br/><br/>• Increase the chosen ability score by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency in saving throws using the chosen ability.",
+      "contentText": "Choose one ability score. You gain the following benefits:\n• Increase the chosen ability score by 1, to a maximum of 20.\n• You gain proficiency in saving throws using the chosen ability."
+    },
+    {
+      "order": 31,
+      "id": "RitualCaster",
+      "name": "Ritual Caster",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "int or wis 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "intelligence",
+          "minimum": 13
+        },
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "class-specific",
+        "ability-score",
+        "spellcasting"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> int or wis 13 alebo viac\n        <br/>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book,\n        which you must have in hand while casting one of them.\n        <br/><br/>When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose\n        one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells\n        from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also\n        determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for\n        cleric or druid; or Intelligence for wizard.\n        <br/><br/>If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you\n        might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the\n        spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process\n        of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The\n        cost represents material components you expend as you experiment with the spell to master it, as well as the\n        fine inks you need to record it.",
+      "contentText": "Prerequisite:\nint or wis 13 alebo viac\nYou have learned a number of spells that you can cast as rituals. These spells are written in a ritual book,\nwhich you must have in hand while casting one of them.\nWhen you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose\none of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells\nfrom that class's spell list, and the spells you choose must have the ritual tag. The class you choose also\ndetermines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for\ncleric or druid; or Intelligence for wizard.\nIf you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you\nmight be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the\nspell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process\nof copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The\ncost represents material components you expend as you experiment with the spell to master it, as well as the\nfine inks you need to record it."
+    },
+    {
+      "order": 32,
+      "id": "SavageAttacker",
+      "name": "Savage Attacker",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use\n        either total.",
+      "contentText": "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use\neither total."
+    },
+    {
+      "order": 33,
+      "id": "Sentinel",
+      "name": "Sentinel",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "mobility",
+        "reaction",
+        "action",
+        "weapon",
+        "resource"
+      ],
+      "contentHtml": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following\n        benefits:\n        <br/><br/>• When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the\n        turn.\n        <br/><br/>• Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving\n        your reach.\n        <br/><br/>• When a creature within 5 feet of you makes an attack against a target other than you (and that target\n        doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.",
+      "contentText": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following\nbenefits:\n• When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the\nturn.\n• Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving\nyour reach.\n• When a creature within 5 feet of you makes an attack against a target other than you (and that target\ndoesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
+    },
+    {
+      "order": 34,
+      "id": "Sharpshooter",
+      "name": "Sharpshooter",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ranged",
+        "weapon",
+        "damage"
+      ],
+      "contentHtml": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following\n        benefits:\n        <br/><br/>• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n        <br/><br/>• Your ranged weapon attacks ignore half cover and three-quarters cover.\n        <br/><br/>• Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a\n        -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+      "contentText": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following\nbenefits:\n• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n• Your ranged weapon attacks ignore half cover and three-quarters cover.\n• Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a\n-5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
+    },
+    {
+      "order": 35,
+      "id": "ShieldMaster",
+      "name": "Shield Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "spellcasting",
+        "defense",
+        "reaction",
+        "bonus-action",
+        "action",
+        "shield",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "You use shields not just for protection but also for offense. You gain the following benefits while you are\n        wielding a shield:\n        <br/><br/>• If you take the Attack action on your turn, you can use a bonus action to try to shove a creature\n        within 5 feet of you with your shield.\n        <br/><br/>• If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make\n        against a spell or other harmful effect that targets only you.\n        <br/><br/>• If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half\n        damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield\n        between yourself and the source of the effect.",
+      "contentText": "You use shields not just for protection but also for offense. You gain the following benefits while you are\nwielding a shield:\n• If you take the Attack action on your turn, you can use a bonus action to try to shove a creature\nwithin 5 feet of you with your shield.\n• If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make\nagainst a spell or other harmful effect that targets only you.\n• If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half\ndamage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield\nbetween yourself and the source of the effect."
+    },
+    {
+      "order": 36,
+      "id": "Skilled",
+      "name": "Skilled",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core"
+      ],
+      "contentHtml": "You gain proficiency in any combination of three skills or tools of your choice.",
+      "contentText": "You gain proficiency in any combination of three skills or tools of your choice."
+    },
+    {
+      "order": 37,
+      "id": "Skulker",
+      "name": "Skulker",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "dex 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "dexterity",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "ability-score",
+        "ranged",
+        "stealth",
+        "perception",
+        "weapon"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> dex 13 alebo viac\n        <br/>You are expert at slinking through shadows. You gain the following benefits:\n        <br/><br/>• You can try to hide when you are lightly obscured from the creature from which you are hiding.\n        <br/><br/>• When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't\n        reveal your position.\n        <br/><br/>• Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.",
+      "contentText": "Prerequisite:\ndex 13 alebo viac\nYou are expert at slinking through shadows. You gain the following benefits:\n• You can try to hide when you are lightly obscured from the creature from which you are hiding.\n• When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't\nreveal your position.\n• Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight."
+    },
+    {
+      "order": 38,
+      "id": "SpellSniper",
+      "name": "Spell Sniper",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "The ability to cast at least one spell",
+      "prerequisiteTypes": [
+        "spellcasting"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "class-specific",
+        "spellcasting",
+        "ranged"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> The ability to cast at least one spell\n        <br/>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following\n        benefits:\n        <br/><br/>• When you cast a spell that requires you to make an attack roll, the spell's range is doubled.\n        <br/><br/>• Your ranged spell attacks ignore half cover and three-quarters cover.\n        <br/><br/>• You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid,\n        sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list\n        you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+      "contentText": "Prerequisite:\nThe ability to cast at least one spell\nYou have learned techniques to enhance your attacks with certain kinds of spells, gaining the following\nbenefits:\n• When you cast a spell that requires you to make an attack roll, the spell's range is doubled.\n• Your ranged spell attacks ignore half cover and three-quarters cover.\n• You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid,\nsorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list\nyou chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+    },
+    {
+      "order": 39,
+      "id": "TavernBrawler",
+      "name": "Tavern Brawler",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength",
+        "constitution"
+      ],
+      "tags": [
+        "core",
+        "melee",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following\n        benefits:\n        <br/><br/>• Increase your Strength or Constitution by 1, to a maximum of 20.\n        <br/><br/>• You are proficient with improvised weapons.\n        <br/><br/>• Your unarmed strike uses a d4 for damage.\n        <br/><br/>• When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a\n        bonus action to attempt to grapple the target.",
+      "contentText": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following\nbenefits:\n• Increase your Strength or Constitution by 1, to a maximum of 20.\n• You are proficient with improvised weapons.\n• Your unarmed strike uses a d4 for damage.\n• When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a\nbonus action to attempt to grapple the target."
+    },
+    {
+      "order": 40,
+      "id": "Tough",
+      "name": "Tough",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "resource"
+      ],
+      "contentHtml": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you\n        gain a level thereafter, your hit point maximum increases by an additional 2 hit points.",
+      "contentText": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you\ngain a level thereafter, your hit point maximum increases by an additional 2 hit points."
+    },
+    {
+      "order": 41,
+      "id": "WarCaster",
+      "name": "War Caster",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": "The ability to cast at least one spell",
+      "prerequisiteTypes": [
+        "spellcasting"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "spellcasting",
+        "defense",
+        "mobility",
+        "reaction",
+        "action",
+        "weapon",
+        "shield",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> The ability to cast at least one spell\n        <br/>You have practiced casting spells in the midst of combat, learning techniques that grant you the following\n        benefits:\n        <br/><br/>• You have advantage on Constitution saving throws that you make to maintain your concentration on a\n        spell when you take damage.\n        <br/><br/>• You can perform the somatic components of spells even when you have weapons or a shield in one or both\n        hands.\n        <br/><br/>• When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction\n        to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of\n        1 action and must target only that creature.",
+      "contentText": "Prerequisite:\nThe ability to cast at least one spell\nYou have practiced casting spells in the midst of combat, learning techniques that grant you the following\nbenefits:\n• You have advantage on Constitution saving throws that you make to maintain your concentration on a\nspell when you take damage.\n• You can perform the somatic components of spells even when you have weapons or a shield in one or both\nhands.\n• When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction\nto cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of\n1 action and must target only that creature."
+    },
+    {
+      "order": 42,
+      "id": "WeaponMaster",
+      "name": "Weapon Master",
+      "source": "core",
+      "sourceLabel": "Featy",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "strength",
+        "dexterity"
+      ],
+      "tags": [
+        "core",
+        "weapon"
+      ],
+      "contentHtml": "<br/>You have practiced extensively with a variety of weapons, gaining the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon.",
+      "contentText": "You have practiced extensively with a variety of weapons, gaining the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+    },
+    {
+      "order": 43,
+      "id": "ShieldExpert",
+      "name": "Shield Expert",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Poznať feat \"Shield Master\"",
+      "prerequisiteTypes": [
+        "feat"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "feat",
+        "defense",
+        "shield",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Poznať feat \"Shield Master\"\n        <br/>\n<br/><b>Light štíť</b>\n<br/> - útoky so zbraňou v tejto ruke je profficient (ak je zbraň proficient) a nemá disadvantage na damage roll\n        (stále však platia všetky obmedzenia podľa dual-wielding pravidiel)\n        <br/> - štíť sa dá použiť aj na útok, útok s ním je profficient a dáva 1d4 B damage (týmto sa klasifikuje štíť aj\n        ako zbraň a môže sa použiť na reakciu \"vykrytie\", pre tento účel má štíť výdrž 3)\n        <br/><br/><b>Medium štíť</b>\n<br/> - Aj keď nie je zbraň, dá sa použiť na reakciu \"vykrytie\" a má výdrž 10\n        <br/><br/><b>Heavy štíť</b>\n<br/> - stráca vlastnosť \"Prítaž\"\n        <br/> - dáva spojencovi, ktorý stojí pri ruke so štítom a nie je vzdialený viac ako 5 ft \"half cover\"",
+      "contentText": "Prerequisite:\nPoznať feat \"Shield Master\"\nLight štíť\n- útoky so zbraňou v tejto ruke je profficient (ak je zbraň proficient) a nemá disadvantage na damage roll\n(stále však platia všetky obmedzenia podľa dual-wielding pravidiel)\n- štíť sa dá použiť aj na útok, útok s ním je profficient a dáva 1d4 B damage (týmto sa klasifikuje štíť aj\nako zbraň a môže sa použiť na reakciu \"vykrytie\", pre tento účel má štíť výdrž 3)\nMedium štíť\n- Aj keď nie je zbraň, dá sa použiť na reakciu \"vykrytie\" a má výdrž 10\nHeavy štíť\n- stráca vlastnosť \"Prítaž\"\n- dáva spojencovi, ktorý stojí pri ruke so štítom a nie je vzdialený viac ako 5 ft \"half cover\""
+    },
+    {
+      "order": 44,
+      "id": "QuickReflexes",
+      "name": "Quick Reflexes",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "dex 13 alebo viac",
+      "prerequisiteTypes": [
+        "ability-score"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "dexterity",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "ability-score",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> dex 13 alebo viac\n        <br/><br/>You can use two reactions during combat round.",
+      "contentText": "Prerequisite:\ndex 13 alebo viac\nYou can use two reactions during combat round."
+    },
+    {
+      "order": 45,
+      "id": "MagesAid",
+      "name": "Mages Aid",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Ability to cast at least one spell of 1st level",
+      "prerequisiteTypes": [
+        "spellcasting"
+      ],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "spellcasting",
+        "action",
+        "weapon",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Ability to cast at least one spell of 1st level\n        <br/><br/>Your spellcasting harmonizes with allies, allowing you to infuse their magic with a secondary damage\n        type. (This feat is HELP action upgrade)\n        <br/><br/>When you take the Help action to aid an ally who casts a damaging spell before the start of your next\n        turn, you can use your spell slot (same level or higher) to improve the ally spell which then deals additional damage equal to the same dice rolled for the original damage, but of a\n        different type.\n        <br/> - The extra damage type is determined by the category of the original spell’s primary damage type, using\n        the table below.\n        <br/> - If a spell has multiple damage types, Arcane Empowerment applies only to one of them, chosen by you when\n        you use the Help action.\n        <br/> - The extra damage uses the same number and size of dice as the original roll.\n\n        <br/><br/>\n<table>\n<thead>\n<tr>\n<th>Damage Category</th>\n<th>Damage Types</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Weapon</td>\n<td>Piercing, Slashing, Bludgeoning</td>\n</tr>\n<tr>\n<td>Element</td>\n<td>Cold, Fire</td>\n</tr>\n<tr>\n<td>Corrosive</td>\n<td>Acid, Poison</td>\n</tr>\n<tr>\n<td>Metal</td>\n<td>Silver, Adamantine</td>\n</tr>\n<tr>\n<td>Storm</td>\n<td>Lightning, Thunder</td>\n</tr>\n<tr>\n<td>Faith</td>\n<td>Necrotic, Radiant</td>\n</tr>\n<tr>\n<td>Mystic</td>\n<td>Force, Psychic</td>\n</tr>\n</tbody>\n</table>\n<br/><br/>Example:\n        <br/>A character casts Fireball. An allied caster uses the Help action with Mages Aid Feat. Because spell deals\n        <b>5d6</b> Fire which is in the Element category, the spell now also deals <b>5d6</b> Cold damage in addition to its basic - Fire damage.",
+      "contentText": "Prerequisite:\nAbility to cast at least one spell of 1st level\nYour spellcasting harmonizes with allies, allowing you to infuse their magic with a secondary damage\ntype. (This feat is HELP action upgrade)\nWhen you take the Help action to aid an ally who casts a damaging spell before the start of your next\nturn, you can use your spell slot (same level or higher) to improve the ally spell which then deals additional damage equal to the same dice rolled for the original damage, but of a\ndifferent type.\n- The extra damage type is determined by the category of the original spell’s primary damage type, using\nthe table below.\n- If a spell has multiple damage types, Arcane Empowerment applies only to one of them, chosen by you when\nyou use the Help action.\n- The extra damage uses the same number and size of dice as the original roll.\nDamage Category\nDamage Types\nWeapon\nPiercing, Slashing, Bludgeoning\nElement\nCold, Fire\nCorrosive\nAcid, Poison\nMetal\nSilver, Adamantine\nStorm\nLightning, Thunder\nFaith\nNecrotic, Radiant\nMystic\nForce, Psychic\nExample:\nA character casts Fireball. An allied caster uses the Help action with Mages Aid Feat. Because spell deals\n5d6\nFire which is in the Element category, the spell now also deals\n5d6\nCold damage in addition to its basic - Fire damage."
+    },
+    {
+      "order": 46,
+      "id": "TeamworkMastery",
+      "name": "Teamwork Mastery",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "melee",
+        "ranged",
+        "spellcasting",
+        "healing",
+        "defense",
+        "stealth",
+        "initiative",
+        "reaction",
+        "weapon",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Note: </b><i>Atleast 2 teammates must have this feat with same style or the feat has no benefit.</i>\n<br/><br/>You and an ally have trained together to fight as a seamless unit. Only two creatures can share this\n        feat's effects at a time. If a third creature has this feat with same style, they cannot activate its benefits\n        unless one of the original two is removed from combat (e.g., incapacitated, unconscious, or dead).\n        <br/><br/>When combat begins, and you have same teamwork style, both of you may choose to act on the same\n        initiative count (Average of the initial values). If you do, you gain the following general benefits:\n        <br/>• You may interweave your actions freely on your shared turn, moving, attacking, and taking actions in any\n        order between each other.\n        <br/>• Once initiative is set, you cannot change your shared turn until combat ends.\n        <br/><br/><b>Choose one of the following teamwork styles:</b>\n<h2>Warriors</h2>\n        (Prerequisite: Proficiency with Martial Melee Weapons)\n        <br/><br/>• When making melee attacks, if both of you are within 5 feet of the same enemy, you gain advantage on\n        your first attack against that enemy.\n        <br/>• If either of you is subjected to a Dexterity saving throw, and you are within 10 feet of each other, one\n        of you can use your reaction to grant advantage on that saving throw.\n        <h2>Archers</h2>\n        (Prerequisite: Proficiency with Martial Ranged Weapons)\n        <br/><br/>• If both of you attack the same target on your turn, you gain +1 to attack rolls.\n        <br/>• If either of you is engaged in melee with an enemy, the ally not in melee has advantage on ranged attacks\n        against that enemy.\n        <h2>Battle Mages</h2>\n        (Prerequisite: Ability to cast at least one spell of 1st level)\n        <br/><br/>• If one of you casts a damaging cantrip, the other can use their reaction to cast a cantrip targeting\n        the same creature. If the second cantrip is different from the first, it deals only half damage.\n        <br/>• If an enemy is subjected to saving throws against both of your spells on the same turn, they make the\n        second save at disadvantage.\n        <h2>Healers</h2>\n        (Prerequisite: Ability to cast a spell that restores hit points)\n        <br/><br/>• If both of you cast a single-target healing spell on the same creature, the second spell restores\n        maximum hit points instead of rolling. If the second spell does not roll dice, it instead grants 20 temporary\n        hit points.\n        <br/>• If either of you would take damage, the other can use their reaction to grant +2 AC until the end of the\n        turn.\n        <h2>Shadows</h2>\n        (Prerequisite: Proficiency in Stealth)\n        <br/><br/>• If both of you are hidden at the start of your turn and attack the same creature, and the first attack\n        hits, the second attacker rolls 1d6 to determine the outcome of their first attack: (1: Critical Miss | 2-3:\n        Miss | 4: Hit | 5-6: Critical Hit)\n        <br/>• If one of you makes a Stealth check while the other is already hidden, the check is rolled with advantage.\n        <br/><b>Outside of combat:</b> If you and your ally are in a group of up to 7 creatures making a group Stealth\n        check, the lowest roll is ignored for the purpose of determining the group’s success.\n        <br/><br/><br/><i>You can select this feat multiple times. Each time you do so, you must choose a different\n            style.</i>",
+      "contentText": "Note:\nAtleast 2 teammates must have this feat with same style or the feat has no benefit.\nYou and an ally have trained together to fight as a seamless unit. Only two creatures can share this\nfeat's effects at a time. If a third creature has this feat with same style, they cannot activate its benefits\nunless one of the original two is removed from combat (e.g., incapacitated, unconscious, or dead).\nWhen combat begins, and you have same teamwork style, both of you may choose to act on the same\ninitiative count (Average of the initial values). If you do, you gain the following general benefits:\n• You may interweave your actions freely on your shared turn, moving, attacking, and taking actions in any\norder between each other.\n• Once initiative is set, you cannot change your shared turn until combat ends.\nChoose one of the following teamwork styles:\nWarriors\n(Prerequisite: Proficiency with Martial Melee Weapons)\n• When making melee attacks, if both of you are within 5 feet of the same enemy, you gain advantage on\nyour first attack against that enemy.\n• If either of you is subjected to a Dexterity saving throw, and you are within 10 feet of each other, one\nof you can use your reaction to grant advantage on that saving throw.\nArchers\n(Prerequisite: Proficiency with Martial Ranged Weapons)\n• If both of you attack the same target on your turn, you gain +1 to attack rolls.\n• If either of you is engaged in melee with an enemy, the ally not in melee has advantage on ranged attacks\nagainst that enemy.\nBattle Mages\n(Prerequisite: Ability to cast at least one spell of 1st level)\n• If one of you casts a damaging cantrip, the other can use their reaction to cast a cantrip targeting\nthe same creature. If the second cantrip is different from the first, it deals only half damage.\n• If an enemy is subjected to saving throws against both of your spells on the same turn, they make the\nsecond save at disadvantage.\nHealers\n(Prerequisite: Ability to cast a spell that restores hit points)\n• If both of you cast a single-target healing spell on the same creature, the second spell restores\nmaximum hit points instead of rolling. If the second spell does not roll dice, it instead grants 20 temporary\nhit points.\n• If either of you would take damage, the other can use their reaction to grant +2 AC until the end of the\nturn.\nShadows\n(Prerequisite: Proficiency in Stealth)\n• If both of you are hidden at the start of your turn and attack the same creature, and the first attack\nhits, the second attacker rolls 1d6 to determine the outcome of their first attack: (1: Critical Miss | 2-3:\nMiss | 4: Hit | 5-6: Critical Hit)\n• If one of you makes a Stealth check while the other is already hidden, the check is rolled with advantage.\nOutside of combat:\nIf you and your ally are in a group of up to 7 creatures making a group Stealth\ncheck, the lowest roll is ignored for the purpose of determining the group’s success.\nYou can select this feat multiple times. Each time you do so, you must choose a different\nstyle."
+    },
+    {
+      "order": 47,
+      "id": "BarbaricInfusion",
+      "name": "Barbaric Infusion",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Barbarian class, Wisdom or Intelligence 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "intelligence",
+          "minimum": 13
+        },
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Barbarian"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "defense",
+        "mobility",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Barbarian class, Wisdom or Intelligence 13 or higher\n        <br/>\n<br/>You have learned to channel your raw, primal power into your weapons, infusing them with destructive\n        potential. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Infused Weapons:</b> You can infuse two weapons at a time with your primal rage. Only you can benefit\n        from the weapon infusion. These infused weapons gain one additional durability and one of the following\n        properties:\n        <br/><b> - Fury Strike:</b> While raging, when you hit a creature with an infused weapon, you can choose to\n        unleash your fury by sacrificing your rages left. The target takes additional damage equal to your missing\n        health. This will leave you only with your current rage.\n        <br/><b> - Rending Blade:</b> While wielding an infused weapon, your critical hits deal extra damage equal to\n        your Barbarian level. (This damage is not doubled by the critical hit, it's only added to it.)\n        <br/><b> - Thunderous Impact:</b> Once per round when you hit a creature with an infused weapon, you can choose\n        to move the target. The target must succeed on a Strength saving throw (DC 8 + your Strength modifier + your\n        proficiency bonus) or be pushed 10 feet away, or knocked prone.\n        <br/>\n<br/><b>Savage Mastery:</b> Your mastery over the art of battle allows you to adapt your infused weapons based on\n        the situation. You can change the properties of your infused weapons during a long rest.\n        <br/>\n<br/><b>Anger issues:</b> Your relentless combat style empowers your rage abilities. While wielding an infused\n        weapon, you gain additional use of your rage ability.",
+      "contentText": "Prerequisite:\nBarbarian class, Wisdom or Intelligence 13 or higher\nYou have learned to channel your raw, primal power into your weapons, infusing them with destructive\npotential. When you choose this feat, you gain the following benefits:\nInfused Weapons:\nYou can infuse two weapons at a time with your primal rage. Only you can benefit\nfrom the weapon infusion. These infused weapons gain one additional durability and one of the following\nproperties:\n- Fury Strike:\nWhile raging, when you hit a creature with an infused weapon, you can choose to\nunleash your fury by sacrificing your rages left. The target takes additional damage equal to your missing\nhealth. This will leave you only with your current rage.\n- Rending Blade:\nWhile wielding an infused weapon, your critical hits deal extra damage equal to\nyour Barbarian level. (This damage is not doubled by the critical hit, it's only added to it.)\n- Thunderous Impact:\nOnce per round when you hit a creature with an infused weapon, you can choose\nto move the target. The target must succeed on a Strength saving throw (DC 8 + your Strength modifier + your\nproficiency bonus) or be pushed 10 feet away, or knocked prone.\nSavage Mastery:\nYour mastery over the art of battle allows you to adapt your infused weapons based on\nthe situation. You can change the properties of your infused weapons during a long rest.\nAnger issues:\nYour relentless combat style empowers your rage abilities. While wielding an infused\nweapon, you gain additional use of your rage ability."
+    },
+    {
+      "order": 48,
+      "id": "GuardBard",
+      "name": "Guard Bard",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Bard class, Dexterity 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "dexterity",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Bard"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "defense",
+        "reaction",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Bard class, Dexterity 13 or higher\n        <br/>\n<br/>You've honed your Bardic skills to become a versatile protector for your party. When you choose this feat,\n        you gain the following benefits:\n        <br/>\n<br/><b>Evasive Melody:</b> You can use your Bardic Inspiration to grant a bonus to AC instead of an attack roll,\n        saving throw, or ability check. When you provide a creature with your Bardic Inspiration die, they can choose to\n        add the roll to their AC on a reaction against an incoming attack. This AC lasts only till the end of the\n        current creature's turn.\n        <br/>\n<br/><b>Shielding Performance:</b> You've learned to blend your bardic magic with protective spells. Once per\n        long rest when you cast a spell from the Bard spell list that affects you, you can choose to cast it as if it\n        were one level higher than the spell slot you use. This feature allows you to bolster your own defenses to\n        provide support to your allies longer.\n        <br/>\n<br/><b>Diverse Resilience:</b> Your versatility extends to resisting various forms of damage. Once during long\n        rest, you can expend a use of your Bardic Inspiration to grant yourself and up to proficiency bonus allies\n        resistance to a specific damage type. The type is determined by the result of your Bardic Inspiration roll. This\n        resistance is active until the next short or long rest.\n        <br/>1. - Piercing\n        <br/>2. - Slashing\n        <br/>3. - Bludgeoning\n        <br/>4. - Cold\n        <br/>5. - Fire\n        <br/>6. - Acid\n        <br/>7. - Poison\n        <br/>8. - Lightning\n        <br/>9. - Thunder\n        <br/>10.- Necrotic\n        <br/>11.- Radiant",
+      "contentText": "Prerequisite:\nBard class, Dexterity 13 or higher\nYou've honed your Bardic skills to become a versatile protector for your party. When you choose this feat,\nyou gain the following benefits:\nEvasive Melody:\nYou can use your Bardic Inspiration to grant a bonus to AC instead of an attack roll,\nsaving throw, or ability check. When you provide a creature with your Bardic Inspiration die, they can choose to\nadd the roll to their AC on a reaction against an incoming attack. This AC lasts only till the end of the\ncurrent creature's turn.\nShielding Performance:\nYou've learned to blend your bardic magic with protective spells. Once per\nlong rest when you cast a spell from the Bard spell list that affects you, you can choose to cast it as if it\nwere one level higher than the spell slot you use. This feature allows you to bolster your own defenses to\nprovide support to your allies longer.\nDiverse Resilience:\nYour versatility extends to resisting various forms of damage. Once during long\nrest, you can expend a use of your Bardic Inspiration to grant yourself and up to proficiency bonus allies\nresistance to a specific damage type. The type is determined by the result of your Bardic Inspiration roll. This\nresistance is active until the next short or long rest.\n1. - Piercing\n2. - Slashing\n3. - Bludgeoning\n4. - Cold\n5. - Fire\n6. - Acid\n7. - Poison\n8. - Lightning\n9. - Thunder\n10.- Necrotic\n11.- Radiant"
+    },
+    {
+      "order": 49,
+      "id": "ClericsMercy",
+      "name": "Cleric's Mercy",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Cleric class, Wisdom 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Cleric"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "healing",
+        "defense",
+        "stealth",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Cleric class, Wisdom 13 or higher\n        <br/>\n<br/>You have honed your divine abilities to exploit vulnerabilities in your enemies and provide enhanced healing\n        to your allies. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Merciful Touch:</b> You can use your divine powers to heal your allies more effectively when conditions\n        are in your favor. Once per long rest when you cast a healing spell that targets an ally within 5 feet of an\n        enemy, you can add your Wisdom modifier times your Proficiency Bonus to the amount of hit points healed.\n        <br/>\n<br/><b>Clever Healer:</b> Your understanding of vulnerabilities allows you to focus on weak points and enhance\n        your healing spells. Once per long rest when you cast a healing spell, and the target has a condition, which\n        grants advantage to attack rolls against it, you maximize the amount of hit points healed by that spell.\n        <br/>\n<br/><b>Unexpected blessing:</b> Once per long rest when you cast healing spell while hidden you can grant\n        resistance to one of the damage: Piercing, Slashing, Bludgeoning, Cold, Fire",
+      "contentText": "Prerequisite:\nCleric class, Wisdom 13 or higher\nYou have honed your divine abilities to exploit vulnerabilities in your enemies and provide enhanced healing\nto your allies. When you choose this feat, you gain the following benefits:\nMerciful Touch:\nYou can use your divine powers to heal your allies more effectively when conditions\nare in your favor. Once per long rest when you cast a healing spell that targets an ally within 5 feet of an\nenemy, you can add your Wisdom modifier times your Proficiency Bonus to the amount of hit points healed.\nClever Healer:\nYour understanding of vulnerabilities allows you to focus on weak points and enhance\nyour healing spells. Once per long rest when you cast a healing spell, and the target has a condition, which\ngrants advantage to attack rolls against it, you maximize the amount of hit points healed by that spell.\nUnexpected blessing:\nOnce per long rest when you cast healing spell while hidden you can grant\nresistance to one of the damage: Piercing, Slashing, Bludgeoning, Cold, Fire"
+    },
+    {
+      "order": 50,
+      "id": "PrimalDruidic",
+      "name": "Primal Druidic",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Druid class, Wisdom 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Druid"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Druid class, Wisdom 13 or higher\n        <br/>\n<br/>You have honed your connection to the primal forces of nature, you gain the following benefits:\n        <br/>\n<br/><b>Magical Beast:</b> When an ally which can cast any spell or cantrip is within 5 feet of you while you are\n        in wild shape, you can cast Cantrips. For those you ignore the verbal component.\n        <br/>\n<br/><b>Predator instinct:</b> Once per long rest when you have advantage on attack, you can increase the damage\n        done by, your Proficiency Bonus * your Wisdom modifier (minimal 1).",
+      "contentText": "Prerequisite:\nDruid class, Wisdom 13 or higher\nYou have honed your connection to the primal forces of nature, you gain the following benefits:\nMagical Beast:\nWhen an ally which can cast any spell or cantrip is within 5 feet of you while you are\nin wild shape, you can cast Cantrips. For those you ignore the verbal component.\nPredator instinct:\nOnce per long rest when you have advantage on attack, you can increase the damage\ndone by, your Proficiency Bonus * your Wisdom modifier (minimal 1)."
+    },
+    {
+      "order": 51,
+      "id": "TacticalLeadership",
+      "name": "Tactical Leadership",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Fighter class, Charisma 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "charisma",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Fighter"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "defense",
+        "stealth",
+        "bonus-action",
+        "action",
+        "teamwork",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Fighter class, Charisma 13 or higher\n        <br/>\n<br/>You've developed a knack for inspiring your fellow warriors with your strategic mind and martial prowess.\n        When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Inspiring Presence:</b> When using your ability Action Surge, you can choose a friendly creature within\n        60 feet of you that can see or hear you. Until the start of your next turn you grant that creature an advantage\n        on attack roll, saving throw or ability check.\n        <br/>\n<br/><b>Tactical Coordination:</b> Your strategic thinking allows you to effectively coordinate your team. Once\n        per long rest, when you use your extra attack you can use your bonus action to grant an extra bonus action to an\n        ally within 10 feet of you. This bonus action then can be used by an ally to Disengage, or Hide, or even to make\n        an extra attack.",
+      "contentText": "Prerequisite:\nFighter class, Charisma 13 or higher\nYou've developed a knack for inspiring your fellow warriors with your strategic mind and martial prowess.\nWhen you choose this feat, you gain the following benefits:\nInspiring Presence:\nWhen using your ability Action Surge, you can choose a friendly creature within\n60 feet of you that can see or hear you. Until the start of your next turn you grant that creature an advantage\non attack roll, saving throw or ability check.\nTactical Coordination:\nYour strategic thinking allows you to effectively coordinate your team. Once\nper long rest, when you use your extra attack you can use your bonus action to grant an extra bonus action to an\nally within 10 feet of you. This bonus action then can be used by an ally to Disengage, or Hide, or even to make\nan extra attack."
+    },
+    {
+      "order": 52,
+      "id": "MonasticInspiration",
+      "name": "Monastic Inspiration",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Monk class, Charisma 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "charisma",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Monk"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "ranged",
+        "reaction",
+        "weapon",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Monk class, Charisma 13 or higher\n        <br/>\n<br/>You've learned to channel your inner power and inspiration to aid your allies in combat. When you choose\n        this feat, you gain the following benefits:\n        <br/>\n<br/><b>Kispiration:</b> When you use Ki-point to deal damage to an enemy, you can inspire an ally within 30 feet\n        of you. This ally receives the dice size of your Martial Arts dice. They can add it to one attack roll they make\n        against an enemy before the start of your next turn. The ally must use this bonus on their first attack or the\n        effect is lost.\n        <br/>\n<br/><b>Helping hand:</b> When a ranged weapon attack against your ally flies within 5 feet of you, as a reaction\n        you can use your ability Deflect Missile on this attack. You can use this feature number of times equal to your\n        Proficiency Bonus.",
+      "contentText": "Prerequisite:\nMonk class, Charisma 13 or higher\nYou've learned to channel your inner power and inspiration to aid your allies in combat. When you choose\nthis feat, you gain the following benefits:\nKispiration:\nWhen you use Ki-point to deal damage to an enemy, you can inspire an ally within 30 feet\nof you. This ally receives the dice size of your Martial Arts dice. They can add it to one attack roll they make\nagainst an enemy before the start of your next turn. The ally must use this bonus on their first attack or the\neffect is lost.\nHelping hand:\nWhen a ranged weapon attack against your ally flies within 5 feet of you, as a reaction\nyou can use your ability Deflect Missile on this attack. You can use this feature number of times equal to your\nProficiency Bonus."
+    },
+    {
+      "order": 53,
+      "id": "DivineInfusion",
+      "name": "Divine Infusion",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Paladin class, Wisdom or Intelligence 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "intelligence",
+          "minimum": 13
+        },
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Paladin"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "defense",
+        "mobility",
+        "perception",
+        "action",
+        "armor",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Paladin class, Wisdom or Intelligence 13 or higher\n        <br/>\n<br/>You have learned to channel the divine energy of your Oath into your armor, infusing it with protective\n        blessings. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Infused Armor:</b> You can infuse your armor with divine energy, granting it special property. Only you\n        can benefit from the infused armor. Choose one of the following properties:\n        <br/><b> - Righteous Defender:</b> While wearing infused armor, when you use your Divine Smite feature, you deal\n        additional radiant damage to the target equal to your Paladin level. This extra damage is not multiplied in the\n        case of a critical hit.\n        <br/><b> - Vigilant Guardian:</b> While wearing infused armor, you gain a bonus to your passive Perception equal\n        to half of your Paladin level (rounded down). Additionally, you have advantage on Wisdom (Perception) checks\n        related to vision and hearing.\n        <br/><b> - Holy Resilience:</b> While wearing infused armor, you gain resistance to one damage type of your\n        choice (expect force). You can change this resistance type during a short rest.\n        <br/><b> - Angelic Protector:</b> While wearing infused armor, your movement speed is increased by 10 feet.\n        Additional, once per short rest, when you take the Dash action, you can choose to use armors Ability, then\n        angelic wings will shine around your armor and you gain extra movement for the current turn. The increase equals\n        twice your speed, after applying any modifiers. (As if you took the Dash twice). Example: With a speed of 40\n        feet, you can move up to 80 feet on the dash, total 120 feet.\n        <br/>\n<br/><b>Divine Grace:</b> You've mastered the art of infusing your armor, allowing you to change the infused\n        property during a long rest.\n        <br/>\n<br/><b>Aura of Infused Protection:</b> Your infused armor enhances your ability to protect your allies. When you\n        use your Aura of Protection, allies within 10 feet of you gain an additional +1 bonus to their AC.",
+      "contentText": "Prerequisite:\nPaladin class, Wisdom or Intelligence 13 or higher\nYou have learned to channel the divine energy of your Oath into your armor, infusing it with protective\nblessings. When you choose this feat, you gain the following benefits:\nInfused Armor:\nYou can infuse your armor with divine energy, granting it special property. Only you\ncan benefit from the infused armor. Choose one of the following properties:\n- Righteous Defender:\nWhile wearing infused armor, when you use your Divine Smite feature, you deal\nadditional radiant damage to the target equal to your Paladin level. This extra damage is not multiplied in the\ncase of a critical hit.\n- Vigilant Guardian:\nWhile wearing infused armor, you gain a bonus to your passive Perception equal\nto half of your Paladin level (rounded down). Additionally, you have advantage on Wisdom (Perception) checks\nrelated to vision and hearing.\n- Holy Resilience:\nWhile wearing infused armor, you gain resistance to one damage type of your\nchoice (expect force). You can change this resistance type during a short rest.\n- Angelic Protector:\nWhile wearing infused armor, your movement speed is increased by 10 feet.\nAdditional, once per short rest, when you take the Dash action, you can choose to use armors Ability, then\nangelic wings will shine around your armor and you gain extra movement for the current turn. The increase equals\ntwice your speed, after applying any modifiers. (As if you took the Dash twice). Example: With a speed of 40\nfeet, you can move up to 80 feet on the dash, total 120 feet.\nDivine Grace:\nYou've mastered the art of infusing your armor, allowing you to change the infused\nproperty during a long rest.\nAura of Infused Protection:\nYour infused armor enhances your ability to protect your allies. When you\nuse your Aura of Protection, allies within 10 feet of you gain an additional +1 bonus to their AC."
+    },
+    {
+      "order": 54,
+      "id": "NaturesGuardian",
+      "name": "Nature's Guardian",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Ranger class, Constitution 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "constitution",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Ranger"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "ranged",
+        "spellcasting",
+        "healing",
+        "defense",
+        "initiative",
+        "weapon",
+        "shield",
+        "teamwork",
+        "resource"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Ranger class, Constitution 13 or higher\n        <br/>\n<br/>You have perfected your skills as a protector of the natural world, learning to harness the environment to\n        safeguard your allies. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Terrain Insight:</b> You've developed an innate understanding of the natural world. You can add your\n        Wisdom modifier and your Dexterity modifier to your initiative rolls.\n        <br/>\n<br/><b>Guardian's Vigilance:</b> Once per long rest, you can choose a 15-foot radius area within your favored\n        terrain. You and your allies within this area gain advantage on saving throws against magic, for 1 minute and\n        heal 1d8 on each turn. Or when not in favorite terrain the radius is reduced to 10-foot and the healing is\n        reduced to 1d4.\n        <br/>\n<br/><b>Defensive Tactics:</b> Your expertise in ranged combat makes you an effective shield for your allies.\n        When you make a ranged weapon attack, you impose disadvantage on the target's next attack role. You can use this\n        feature on each of your ranged attacks and it would stack on the target. The imposed disadvantage applies only\n        until the start of your next turn. You can use this feature a number of times equal to your Proficiency Bonus\n        before requiring a long rest to replenish.",
+      "contentText": "Prerequisite:\nRanger class, Constitution 13 or higher\nYou have perfected your skills as a protector of the natural world, learning to harness the environment to\nsafeguard your allies. When you choose this feat, you gain the following benefits:\nTerrain Insight:\nYou've developed an innate understanding of the natural world. You can add your\nWisdom modifier and your Dexterity modifier to your initiative rolls.\nGuardian's Vigilance:\nOnce per long rest, you can choose a 15-foot radius area within your favored\nterrain. You and your allies within this area gain advantage on saving throws against magic, for 1 minute and\nheal 1d8 on each turn. Or when not in favorite terrain the radius is reduced to 10-foot and the healing is\nreduced to 1d4.\nDefensive Tactics:\nYour expertise in ranged combat makes you an effective shield for your allies.\nWhen you make a ranged weapon attack, you impose disadvantage on the target's next attack role. You can use this\nfeature on each of your ranged attacks and it would stack on the target. The imposed disadvantage applies only\nuntil the start of your next turn. You can use this feature a number of times equal to your Proficiency Bonus\nbefore requiring a long rest to replenish."
+    },
+    {
+      "order": 55,
+      "id": "RoguishInfusion",
+      "name": "Roguish Infusion",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Rogue class, Wisdom or Intelligence 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "intelligence",
+          "minimum": 13
+        },
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Rogue"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "melee",
+        "ranged",
+        "spellcasting",
+        "stealth",
+        "reaction",
+        "weapon",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Rogue class, Wisdom or Intelligence 13 or higher\n        <br/>\n<br/>You've honed your skills to infuse your equipment with rogue-like enhancements, granting you new tactical\n        options. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Master Planner:</b> Your infused weapon can store one spell up to level 3. You need a caster to store the\n        spell in it. Write down their spell attack bonus or spell save DC. It will be used when the spell is released.\n        Only you or the caster can release the spell. When changing weapon or property the spell is released.\n        <br/>\n<br/><b>Infused Arsenal:</b> You can infuse one item. One ranged weapon or one melee weapon. This infusion is\n        allowing it to gain a special property. Only you can benefit from the special property. Choose one of the\n        following properties:\n        <br/>\n<br/>\n<br/>\n<h2>Ranged Weapon Properties:</h2>\n<br/><b> - Silent Shot:</b> When using a ranged weapon with this infusion, the weapon makes no sound when fired,\n        eliminating the disadvantage of losing Stealth or Invisibility when attacking with it.\n        <br/><b> - Trick Shot:</b> While using a ranged weapon with this infusion, you can perform trick shots with ease.\n        You add an additional proficiency Bonus your attack rolls with that weapon.\n        <br/><b> - Deadly Precision:</b> When you score a critical hit with a ranged weapon infused with this property,\n        you roll one additional damage dice for the critical hit.\n        <br/>\n<br/>OR\n        <br/>\n<br/>\n<h2>Melee Weapon Properties:</h2>\n<br/><b> - Sneak Strike:</b> When using a melee weapon with this infusion, you can roll dice of sneak attack with\n        advantage.\n        <br/><b> - Nimble Parry:</b> While wielding a melee weapon with this infusion, you do not lose durability on the\n        weapon when using \"Vykrytie\" reaction.\n        <br/><b> - Lethal Design:</b> While wielding a melee weapon with this infusion, you can use your Sneak Attack\n        ability even if the weapon is not finesse.\n        <br/>\n<br/><b>Quick Adaptation:</b> Your proficiency with infused equipment allows you to adapt on the fly. You can\n        change the property of your infused arsenal during a short rest.",
+      "contentText": "Prerequisite:\nRogue class, Wisdom or Intelligence 13 or higher\nYou've honed your skills to infuse your equipment with rogue-like enhancements, granting you new tactical\noptions. When you choose this feat, you gain the following benefits:\nMaster Planner:\nYour infused weapon can store one spell up to level 3. You need a caster to store the\nspell in it. Write down their spell attack bonus or spell save DC. It will be used when the spell is released.\nOnly you or the caster can release the spell. When changing weapon or property the spell is released.\nInfused Arsenal:\nYou can infuse one item. One ranged weapon or one melee weapon. This infusion is\nallowing it to gain a special property. Only you can benefit from the special property. Choose one of the\nfollowing properties:\nRanged Weapon Properties:\n- Silent Shot:\nWhen using a ranged weapon with this infusion, the weapon makes no sound when fired,\neliminating the disadvantage of losing Stealth or Invisibility when attacking with it.\n- Trick Shot:\nWhile using a ranged weapon with this infusion, you can perform trick shots with ease.\nYou add an additional proficiency Bonus your attack rolls with that weapon.\n- Deadly Precision:\nWhen you score a critical hit with a ranged weapon infused with this property,\nyou roll one additional damage dice for the critical hit.\nOR\nMelee Weapon Properties:\n- Sneak Strike:\nWhen using a melee weapon with this infusion, you can roll dice of sneak attack with\nadvantage.\n- Nimble Parry:\nWhile wielding a melee weapon with this infusion, you do not lose durability on the\nweapon when using \"Vykrytie\" reaction.\n- Lethal Design:\nWhile wielding a melee weapon with this infusion, you can use your Sneak Attack\nability even if the weapon is not finesse.\nQuick Adaptation:\nYour proficiency with infused equipment allows you to adapt on the fly. You can\nchange the property of your infused arsenal during a short rest."
+    },
+    {
+      "order": 56,
+      "id": "EldritchGuardian",
+      "name": "Eldritch Guardian",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Warlock class, Constitution 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "constitution",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Warlock"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "healing",
+        "defense",
+        "bonus-action",
+        "action",
+        "armor",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Warlock class, Constitution 13 or higher\n        <br/>\n<br/>Your connection to the eldritch forces and your skills grants you the ability to act as a guardian for your\n        allies. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Eldritch Ward:</b> When you use your eldritch powers to protect yourself or others, your guardian\n        instincts kick in. When you cast Armor of Agathys spell on yourself you can target one ally on which Armor of\n        Agathys will be casted as well. This does not consume you spell slot, however the Armor of Agathys on ally is\n        one level lower spell then armor on you. If you cast the Armor of Agathys as 1st level you can not target ally\n        as there is no 0 level version of Armor of Agathys.\n        <br/>\n<br/><b>Blasting guard:</b> Once per long rest you can gain an aspect of Eldritch Protector as a bonus action on\n        your turn. While in this state, you can target allies with your eldritch blast. You have advantage on such\n        attack rolls. On hit your eldritch blast does not deal damage but gives temporary health instead. Half of the\n        temporary health rounded down is healing you receive from this. Aspect of Eldritch Beast lasts for 1 minute. If\n        allies already have temporary hit points, this ability would not affect them but it would still heal you.",
+      "contentText": "Prerequisite:\nWarlock class, Constitution 13 or higher\nYour connection to the eldritch forces and your skills grants you the ability to act as a guardian for your\nallies. When you choose this feat, you gain the following benefits:\nEldritch Ward:\nWhen you use your eldritch powers to protect yourself or others, your guardian\ninstincts kick in. When you cast Armor of Agathys spell on yourself you can target one ally on which Armor of\nAgathys will be casted as well. This does not consume you spell slot, however the Armor of Agathys on ally is\none level lower spell then armor on you. If you cast the Armor of Agathys as 1st level you can not target ally\nas there is no 0 level version of Armor of Agathys.\nBlasting guard:\nOnce per long rest you can gain an aspect of Eldritch Protector as a bonus action on\nyour turn. While in this state, you can target allies with your eldritch blast. You have advantage on such\nattack rolls. On hit your eldritch blast does not deal damage but gives temporary health instead. Half of the\ntemporary health rounded down is healing you receive from this. Aspect of Eldritch Beast lasts for 1 minute. If\nallies already have temporary hit points, this ability would not affect them but it would still heal you."
+    },
+    {
+      "order": 57,
+      "id": "WizardsWrath",
+      "name": "Wizard's Wrath",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Wizard class, Wisdom 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Wizard"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "defense",
+        "reaction",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Wizard class, Wisdom 13 or higher\n        <br/>\n<br/>You have learned to tap into the depths of your magical prowess in moments of intense fury and rage, turning\n        your formidable intellect into a destructive force. When you enter the Wizard's Wrath state, you gain the\n        following benefits:\n        <br/>\n<br/><b>Arcane Fury:</b> Once per long rest, you can enter the Wizard's Wrath state as a reaction when you take\n        damage from an attack, spell, or effect that reduces you to half your maximum hit points or below. This state\n        lasts for 1 minute. Wizard's Wrath ends early only if you are knocked unconscious or if your turn ends and you\n        haven't attacked a hostile creature since your last turn or you have not taken damage since your last turn.\n        <br/>\n<br/><b>Empowered Spells:</b> While in the Wizard's Wrath state, your spells deal additional damage. Whenever you\n        cast a spell that deals damage, add your Intelligence modifier twice to the damage. This bonus damage is of the\n        same type as the spell.\n        <br/>\n<br/><b>Resilience:</b> Your rage fuels your determination. You have advantage on concentration saving throws to\n        maintain concentration on spells.\n        <br/>\n<br/><b>Arcane Onslaught:</b> When the Wizard's Wrath state ends, you release a surge of raw arcane power. All\n        your available spell slots of the highest level are consumed. Roll 1d6 for each level of spell slot consumed,\n        you roll the damage for each spell used. The damage type is force. The point of origin is you and radius is 10\n        feet for each level of the spell slot consumed. (If three 4th level spell slots are consumed you roll 3*4d6\n        force damage and radius is 40 feet.)\n        <br/>\n<br/><b>Wizard's Fatigue:</b> When the Wizard's Wrath state ends, you must succeed on a Constitution saving throw\n        (DC 10 + number of d6s rolled for Arcane Onslaught) or be fatigued. If you fail, you can only cast cantrips for\n        the next 1d3+1 hours; if you succeed, the limitation lasts for 1 hour.",
+      "contentText": "Prerequisite:\nWizard class, Wisdom 13 or higher\nYou have learned to tap into the depths of your magical prowess in moments of intense fury and rage, turning\nyour formidable intellect into a destructive force. When you enter the Wizard's Wrath state, you gain the\nfollowing benefits:\nArcane Fury:\nOnce per long rest, you can enter the Wizard's Wrath state as a reaction when you take\ndamage from an attack, spell, or effect that reduces you to half your maximum hit points or below. This state\nlasts for 1 minute. Wizard's Wrath ends early only if you are knocked unconscious or if your turn ends and you\nhaven't attacked a hostile creature since your last turn or you have not taken damage since your last turn.\nEmpowered Spells:\nWhile in the Wizard's Wrath state, your spells deal additional damage. Whenever you\ncast a spell that deals damage, add your Intelligence modifier twice to the damage. This bonus damage is of the\nsame type as the spell.\nResilience:\nYour rage fuels your determination. You have advantage on concentration saving throws to\nmaintain concentration on spells.\nArcane Onslaught:\nWhen the Wizard's Wrath state ends, you release a surge of raw arcane power. All\nyour available spell slots of the highest level are consumed. Roll 1d6 for each level of spell slot consumed,\nyou roll the damage for each spell used. The damage type is force. The point of origin is you and radius is 10\nfeet for each level of the spell slot consumed. (If three 4th level spell slots are consumed you roll 3*4d6\nforce damage and radius is 40 feet.)\nWizard's Fatigue:\nWhen the Wizard's Wrath state ends, you must succeed on a Constitution saving throw\n(DC 10 + number of d6s rolled for Arcane Onslaught) or be fatigued. If you fail, you can only cast cantrips for\nthe next 1d3+1 hours; if you succeed, the limitation lasts for 1 hour."
+    },
+    {
+      "order": 58,
+      "id": "ArtificersPrecision",
+      "name": "Artificer's Precision",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Artificer class, Intelligence 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "intelligence",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Artificer"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "defense",
+        "bonus-action",
+        "action",
+        "armor",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Artificer class, Intelligence 13 or higher\n        <br/>\n<br/>You have honed your precision and resourcefulness in combat, allowing you to exploit vulnerabilities in your\n        enemies. When you choose this feat, you gain the following benefits:\n        <br/>\n<br/><b>Vulnerable Strike:</b> When you have advantage on attack against a creature and hit it, you can choose to\n        make your attack deal an extra Intelligence modifier damage of the same type. You can use this feature a number\n        of times equal to your Proficiency Bonus. You regain all expended uses of this feature after a short or long\n        rest.\n        <br/>\n<br/><b>Evasive Expert:</b> Your nimbleness in combat allows you to better avoid attacks. Once per long rest when\n        you take the Dodge action, you can choose to add your Intelligence modifier to your Armor Class until the start\n        of your next turn.\n        <br/>\n<br/><b>Plan B:</b> You are quick to find a way out of trouble. If an ally is within 5 feet of you during combat,\n        you can use Disengage as Bonus Action.",
+      "contentText": "Prerequisite:\nArtificer class, Intelligence 13 or higher\nYou have honed your precision and resourcefulness in combat, allowing you to exploit vulnerabilities in your\nenemies. When you choose this feat, you gain the following benefits:\nVulnerable Strike:\nWhen you have advantage on attack against a creature and hit it, you can choose to\nmake your attack deal an extra Intelligence modifier damage of the same type. You can use this feature a number\nof times equal to your Proficiency Bonus. You regain all expended uses of this feature after a short or long\nrest.\nEvasive Expert:\nYour nimbleness in combat allows you to better avoid attacks. Once per long rest when\nyou take the Dodge action, you can choose to add your Intelligence modifier to your Armor Class until the start\nof your next turn.\nPlan B:\nYou are quick to find a way out of trouble. If an ally is within 5 feet of you during combat,\nyou can use Disengage as Bonus Action."
+    },
+    {
+      "order": 59,
+      "id": "CrimsonHunter",
+      "name": "Crimson Hunter",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Blood Hunter class, Charisma 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "charisma",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Blood Hunter"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "defense",
+        "teamwork",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Blood Hunter class, Charisma 13 or higher\n        <br/>\n<br/><b>Hunter's Resonance:</b> Once per long rest, when you activate your Blood Maledict, you can scare up to\n        two allies to improve their actions. Target allies receive the dice size of your Hemocraft Die which can be used\n        for attack rolls or saving throws they make in the next minute.\n        <br/>\n<br/><b>Rite with crimson bubble:</b> When you have crimson Rite active and deal damage to creature you can leave\n        behind a crimson bubble on your last attack. Crimson bubbles stay there until the start of your next turn. While\n        the crimson bubble is active, allies can target it. If the ally attack roll would exceed the creature's AC by\n        more then 2, the crimson bubble pops. Such attack deals extra Hemocraft Die damage of your rite type.",
+      "contentText": "Prerequisite:\nBlood Hunter class, Charisma 13 or higher\nHunter's Resonance:\nOnce per long rest, when you activate your Blood Maledict, you can scare up to\ntwo allies to improve their actions. Target allies receive the dice size of your Hemocraft Die which can be used\nfor attack rolls or saving throws they make in the next minute.\nRite with crimson bubble:\nWhen you have crimson Rite active and deal damage to creature you can leave\nbehind a crimson bubble on your last attack. Crimson bubbles stay there until the start of your next turn. While\nthe crimson bubble is active, allies can target it. If the ally attack roll would exceed the creature's AC by\nmore then 2, the crimson bubble pops. Such attack deals extra Hemocraft Die damage of your rite type."
+    },
+    {
+      "order": 60,
+      "id": "SorcerersFury",
+      "name": "Sorcerer's Fury",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": "Sorcerer class, Wisdom 13 or higher",
+      "prerequisiteTypes": [
+        "ability-score",
+        "class"
+      ],
+      "requiredAbilities": [
+        {
+          "ability": "wisdom",
+          "minimum": 13
+        }
+      ],
+      "requiredClasses": [
+        "Sorcerer"
+      ],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "homebrew",
+        "class-specific",
+        "ability-score",
+        "class",
+        "spellcasting",
+        "defense",
+        "perception",
+        "bonus-action",
+        "action",
+        "resource",
+        "damage"
+      ],
+      "contentHtml": "<b>Prerequisite:</b> Sorcerer class, Wisdom 13 or higher\n        <br/>\n<br/>You can channel your inner fury to push your magical abilities beyond their limits. When you choose this\n        feat, you gain the following benefits:\n        <br/>\n<br/><b>Angry Surge:</b> Once per long rest, you can enter an Angry Surge state as a bonus action on your turn.\n        While in this state, when using the metamagic option you must use the improved version listed below. During this\n        state however, each use of Sorcery points consumes your CON modifier health. As metamagic forcefully blows\n        around you, each creature within 5 feet of you must make athletics or acrobatics check DC (8 + 2 * your\n        proficiency bonus + your Charisma modifier) on a failure it is pushed 15 feet from you. This state lasts for 1\n        minute. Angry Surge ends early only if you are knocked unconscious. You can also end this as a bonus action but\n        only if a metamagic option was used during the same turn.\n        <br/>\n<br/><b>Sorcerous Fatigue:</b> After the Angry Surge state ends, you must succeed on a Constitution saving throw\n        (DC 10 + sorcery points spend while in this state) or on fail you can only cast cantrips for the next 1d3+1\n        hours; if you succeed, the limitation lasts only for 1 hour.\n        <br/>\n<br/>\n<br/>\n<h2>List of improved metamagic options:</h2>\n<b>Careful Spell in Fury</b>\n<br/>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those\n        creatures from the spell's full force. To do so, you spend 1 sorcery point for each creature up to your Charisma\n        modifier (minimum of one creature). Chosen creatures are not affected by the spell at all.\n        <br/>\n<br/><b>Distant Spell in Fury</b>\n<br/>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to triple the\n        range of the spell.\n        <br/>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the\n        spell 45 feet.\n        <br/>\n<br/><b>Empowered Spell in Fury</b>\n<br/>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to\n        your Charisma modifier (minimum of one). You can do this twice but you must use one of the new rolls.\n        <br/>You can use Empowered Spell in Fury even if you have already used a different Metamagic option during the\n        casting of the spell.\n        <br/>\n<br/><b>Extended Spell in Fury</b>\n<br/>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to triple its\n        duration, to a maximum duration of 36 hours.\n        <br/>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3\n        sorcery points to give up to two targets of the spell disadvantage on its first saving throw made against the\n        spell.\n        <br/>\n<br/><b>Quickened Spell in Fury</b>\n<br/>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the\n        casting time to 1 bonus action for this casting. For this turn you will gain additional bonus action.\n        <br/>\n<br/><b>Subtle Spell in Fury</b>\n<br/>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.\n        Creatures within 10 feet of spells destination have disadvantage on Wisdom (Perception) checks to notice\n        spellcasting or magical effects.\n        <br/>\n<br/><b>Twinned Spell in Fury</b>\n<br/>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a\n        number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1\n        sorcery point if the spell is a cantrip) you can do this again for third target.\n        <br/>To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level.\n        For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.\n        <br/>\n<br/><b>Seeking Spell in Fury</b>\n<br/>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20 with\n        advantage, and you must use the new roll.\n        <br/>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of\n        the spell.\n        <br/>\n<br/><b>Transmuted Spell in Fury</b>\n<br/>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to\n        change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder, radiant,\n        necrotic.",
+      "contentText": "Prerequisite:\nSorcerer class, Wisdom 13 or higher\nYou can channel your inner fury to push your magical abilities beyond their limits. When you choose this\nfeat, you gain the following benefits:\nAngry Surge:\nOnce per long rest, you can enter an Angry Surge state as a bonus action on your turn.\nWhile in this state, when using the metamagic option you must use the improved version listed below. During this\nstate however, each use of Sorcery points consumes your CON modifier health. As metamagic forcefully blows\naround you, each creature within 5 feet of you must make athletics or acrobatics check DC (8 + 2 * your\nproficiency bonus + your Charisma modifier) on a failure it is pushed 15 feet from you. This state lasts for 1\nminute. Angry Surge ends early only if you are knocked unconscious. You can also end this as a bonus action but\nonly if a metamagic option was used during the same turn.\nSorcerous Fatigue:\nAfter the Angry Surge state ends, you must succeed on a Constitution saving throw\n(DC 10 + sorcery points spend while in this state) or on fail you can only cast cantrips for the next 1d3+1\nhours; if you succeed, the limitation lasts only for 1 hour.\nList of improved metamagic options:\nCareful Spell in Fury\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those\ncreatures from the spell's full force. To do so, you spend 1 sorcery point for each creature up to your Charisma\nmodifier (minimum of one creature). Chosen creatures are not affected by the spell at all.\nDistant Spell in Fury\nWhen you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to triple the\nrange of the spell.\nWhen you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the\nspell 45 feet.\nEmpowered Spell in Fury\nWhen you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to\nyour Charisma modifier (minimum of one). You can do this twice but you must use one of the new rolls.\nYou can use Empowered Spell in Fury even if you have already used a different Metamagic option during the\ncasting of the spell.\nExtended Spell in Fury\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to triple its\nduration, to a maximum duration of 36 hours.\nWhen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3\nsorcery points to give up to two targets of the spell disadvantage on its first saving throw made against the\nspell.\nQuickened Spell in Fury\nWhen you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the\ncasting time to 1 bonus action for this casting. For this turn you will gain additional bonus action.\nSubtle Spell in Fury\nWhen you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.\nCreatures within 10 feet of spells destination have disadvantage on Wisdom (Perception) checks to notice\nspellcasting or magical effects.\nTwinned Spell in Fury\nWhen you cast a spell that targets only one creature and doesn't have a range of self, you can spend a\nnumber of sorcery points equal to the spell's level to target a second creature in range with the same spell (1\nsorcery point if the spell is a cantrip) you can do this again for third target.\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level.\nFor example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.\nSeeking Spell in Fury\nIf you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20 with\nadvantage, and you must use the new roll.\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of\nthe spell.\nTransmuted Spell in Fury\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to\nchange that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder, radiant,\nnecrotic."
+    }
+  ]
+}
