@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Olej na zbrane",
+    "category": "Recipe",
+    "variants": [
+      {
+        "name": "Minimus",
+        "ingredients": "One small organ of specific damage type + crafting components worth 10 gp",
+        "tools": [
+          "Alchemist's Supplies",
+          "Poisoner's Kit"
+        ],
+        "craftingTime": "1 Workday"
+      },
+      {
+        "name": "Medianus",
+        "ingredients": "One small organ of specific damage type + crafting components worth 50 gp",
+        "tools": [
+          "Alchemist's Supplies",
+          "Poisoner's Kit"
+        ],
+        "craftingTime": "2 Workdays"
+      },
+      {
+        "name": "Maximus",
+        "ingredients": "Two small organs or one large organ of specific damage type + crafting components worth 50 gp",
+        "tools": [
+          "Alchemist's Supplies",
+          "Poisoner's Kit"
+        ],
+        "craftingTime": "4 Workdays"
+      }
+    ]
+  },
+  {
+    "name": "Obväzy Rýchlo Liečby",
+    "category": "Recipe",
+    "variants": [
+      {
+        "name": "Default",
+        "ingredients": "Blood of creature with regenerate trait + crafting herbs worth 10 gp OR crafting herbs worth 25 gp",
+        "tools": [
+          "Herbalism Kit",
+          "Weaver's Tools"
+        ],
+        "craftingTime": "2 Workdays"
+      }
+    ]
+  },
+  {
+    "name": "Obnomág",
+    "category": "Recipe",
+    "variants": [
+      {
+        "name": "Default",
+        "ingredients": "Fresh magic-gatherer gland + crafting components worth 200 gp",
+        "tools": [
+          "Alchemist's Supplies",
+          "Cook's Utensils"
+        ],
+        "craftingTime": "1 Workday"
+      }
+    ]
+  },
+  {
+    "name": "Nový recept",
+    "category": "Recipe",
+    "variants": [],
+    "placeholder": true
+  }
+]
