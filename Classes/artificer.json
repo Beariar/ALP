@@ -634,33 +634,6 @@
                             "description": "At 15th level, your Arcane Jolt and steel defender become more powerful:\r\n\r\n - The extra damage and the healing of your Arcane Jolt both increase to 4d6.\r\n - Your steel defender gains a +2 bonus to Armor Class.\r\n - Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier."
                         }
                     ]
-                },
-                {
-                    "name": "sublass",
-                    "source": "TCE",
-                    "description": "description",
-                    "features": [
-                        {
-                            "name": "FormoftheBeast",
-                            "level": 3,
-                            "description": "description"
-                        },
-                        {
-                            "name": "FormoftheBeast",
-                            "level": 5,
-                            "description": "description"
-                        },
-                        {
-                            "name": "FormoftheBeast",
-                            "level": 9,
-                            "description": "description"
-                        },
-                        {
-                            "name": "FormoftheBeast",
-                            "level": 15,
-                            "description": "description"
-                        }
-                    ]
                 }
             ]
         }
