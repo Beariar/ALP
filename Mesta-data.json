@@ -123,7 +123,7 @@
   "uniqueLocations":"???"
   },
   {"name": "Juhiera",
-  "description": "<br>Mesto zničené príšerami. Nebolo to prvé mesto ale prvé z hlavných miest. Spočiatku tu žila primárne rasa ľudí. Dôvod? Mesto sa nachádzalo v doline medzi troma horami. V každom okamihu dňa bola časť mesta zahalené tieňom z hôr. Na kopcoch mali polia a v okolí nich zver. Sem tam sa tu našla aj menšia baňa no boli veľmi ojedinelé. Stráže mesta neboli na len na múroch no sídlili aj na horách. Odtiaľ mali výhľad na celé mesto. Okrem toho mali rozhľad aj časť krajiny z opačnej strany hory. Vďaka tomu vedeli vždy dať informáciu o možnom prichádzajúcom útoku. Ich strážne rohy sa dolinami tiahli tak silne, že niekedy len to samotný útok zastavilo. Útočníci zistili, že sú odhalený a otočili sa. Ak to nestačilo v dolinách sa nachádzalo mnoho pascí, ktoré poznali domáci. Sem tam sa našiel zradca, ktorý ich útočníkom ukázal. Preto malo mesto aj armádu, kvôli nepravidelnosti terénu to neboli ťažko odetý vojaci.<br>Mesto malo výborný prehľad a obranu no aj tak príšerám padlo. Dôvod bol, ten, že príšery sa nezľakli zvuku z rohu, ani pasce pre nich neboli prekážkou. Mnohé im nespravili alebo boli pre nich primalé. Armáda v ľahkej zbroji bola síce mrštná no príšery boli mrštnejšie. Jediné útočisko doliny ostalo hlavné mesto s jeho múrmi. Keďže ale mesto nikdy nečelilo priamemu útoku jeho hradby neboli ideálne. Múry boli široké no nie dosť vysoký. Mali len tri veže a žiadne nemala zo schodiska rozhľad na celé okolie. Pri príšerách, ktoré dokázali múry preskočiť si nemohli lukostrelci dovoliť byť vo veži s výhľadom na okolie mesta. Mnohý museli byť na hradbách kde boli pre príšery ľahšou korisťou.",
+  "description": "<br>Plodné mesto juhu. Kým neprišli príšery toto mesto malo všetko. V meste sa nachádza prístav, ktorý prechádzala väčšina tovaru priplavená na svetadiel. Mesto malo priamu cestu cez tunel do Dolinoraju ale aj lesnú cestu do Lesohaju. Hory v okolí mesta boli posiate baňami. V lesoch rástli pevné silné stromy hodné na výrobu trupov lodí. Okrem toho sa v lesoch nachádzalo veľa masívnych zverov, ktoré sa lovili pre ich kožu a na jedlo. Tunajší elfovia uprednostňovali noc a vodu. Oni preskúmavali pobrežie a podmorské jaskynné priestory. Trpaslíci sa dali do práce v horách, postavili bane a počas toho aj vystavali severný tunel. Ľudia sa dali na lov v lesoch a starali sa o to aby sa zver nevyhynula. Tunajší lovci sa neskôr stali poľovníkmi a práve tí boli kľúčoví pre vznik prvých lovcov príšer. <br> <br>Keďže mesto bolo veľmi dôležité na obchodnej trase a vo veľkom tu žili viaceré rasy architektúra mesta je tiež ich kombináciou. Nachádzajú sa tu elegantné elfské veže v trpasličom štýle ale aj zastavané domy ľudí v hlbokými pivnicami, niektoré končia v podzemných jaskyniach ktoré vedú priamo k moru. Maják je unikať akého niet v inom prístave. Základ je postavený totiž elfami, zvyšok veži je ale stavba ľudí no celé vnútro veži je trpasličie a kovové. Takže aj keby maják stratil svoju vonkajšiu vrstvu stále zostáva kovové jadro. Okrem toho, že je maják postavený vo viacerých štýloch je to aj unikát v tom, že je to jediný maják, ktorý aktívne stavali trpaslíci a nedodávali naň len materiál. <br> <br>Tunajšia flotila zabezpečovala mesto pred útokom aj zo súše a tak mesto nemalo také silné hradby ako ostatné. Keď prišli príšery flotila však nestíhala a tak sa museli hradby rýchlo zosilnieť. Nedalo sa však stavať za mesto ale museli stavať priamo v meste. Tým sa celé mesto zmenšilo. Keďže ale obyvateľov bolo viac a územia mesta menej, preto sa mesto počas príšer rozšírilo aj na vodu. Tunajšie vody sú dosť pokojné na to aby sa tam dali umiestniť príbytky na vodu. Keďže sa tým pádom posunul aj prístav musela sa odsunúť aj flotila. Tým pádom flotila dokáže chrániť mesto len pár kilometrov od jeho hradieb namiesto pár desiatok ako tomu bolo predtým. ",
   "imgreference": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Mesta/Juhiera.png",
   "population":[
       {
@@ -210,11 +210,11 @@
   "population":[
       {
         "race": "Human",
-        "coverage": "15%"
+        "coverage": "40%"
       },
       {
         "race": "Elf",
-        "coverage": "40%"
+        "coverage": "15%"
       },
       {
         "race": "Dwarf",
@@ -452,7 +452,7 @@
   },
   {"name": "Ogramište",
   "description": "<br>Ogramište, hlavné mesto orkov a ale aj goblinov je uhniezdené medzi horami a rozľahlým morom. Je symbolom sily, odolnosti a úcty k dávnym tradíciám. Na rozdiel od stereotypcej predstavy o divokých orkských kmeňov je Ogramište prosperujúcou metropolou, kde sa konflikty riešia prostredníctvom prastarého zvyku, súboj sily. <br> <br>Samotné mesto je rušné a v uliciach sa ozývajú zvuky trieštiacich zbraní a davov. Architektúra je zmesou drsného, neohrabaného štýlu a prírodných krás okolitej krajiny. Mesto je posiate stanmi a podobnými stavbami. Je tu veľmi málo vysokých, kamenných alebo komplexných stavieb. Aj budova akadémie je len súhluk stanov s kameným základom, dreveným krovom a natiahnutou kožou namiesto strechy. <br> <br>Najväčšiou stavbou je veľká aréna v srdci Ogramišta, mohutné koloseum, kde sa riešia najdôležitejšie spory a prekonávajú výzvy. Okrem rozhodovanie smerovania polity je najväčšiou udalosťou súboj s príšerami. Veľká aréna nie je len miestom boja, ale aj symbolom jednoty a sily pre komunitu orkov a goblinov. Tiež sa tu konajú obete. <br> <br>Bohovia orcov požadujú od svojich prívržencov obete ako formu úcty a oddanosti. V aréne sa pripravujú prepracované rituálne obete na uspokojenie bohov a na získanie si ich náklonnosti. Tieto obete môžu zahŕňať cenné zdroje, cenné majetky, životy zajatých príšer alebo dokonca životy orcských bojovníkov či bývalích náčelníkov. ",
-  "imgreference": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Mesta/Ogramište.png",
+  "imgreference": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Mesta/Ogramiste.png",
   "population":[
       {
         "race": "Human",
@@ -460,7 +460,7 @@
       },
       {
         "race": "Elf",
-        "coverage": "<1"
+        "coverage": "<1%"
       },
       {
         "race": "Dwarf",
@@ -520,6 +520,10 @@
         "coverage": "<2%"
       },
       {
+        "race": "Goblin",
+        "coverage": "<2%"
+      },
+      {
         "race": "Other",
         "coverage": "<8%"
       }
@@ -576,7 +580,7 @@
   "population":[
       {
         "race": "Human",
-        "coverage": "<1%"
+        "coverage": "<2%"
       },
       {
         "race": "Elf",
@@ -596,7 +600,7 @@
       },
       {
         "race": "Halfling",
-        "coverage": "<21%"
+        "coverage": "<1%"
       },
       {
         "race": "Goblin",
