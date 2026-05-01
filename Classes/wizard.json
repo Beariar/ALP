@@ -635,38 +635,6 @@
                     "description": "The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
                     "features": [
                         {
-                            "name": "NAME",
-                            "level": 2,
-                            "description": "DESCDESCDESC"
-                        },
-                        {
-                            "name": "NAME",
-                            "level": 2,
-                            "description": "DESCDESCDESC"
-                        },
-                        {
-                            "name": "NAME",
-                            "level": 6,
-                            "description": "DESCDESCDESC"
-                        },
-                        {
-                            "name": "NAME",
-                            "level": 10,
-                            "description": "DESCDESCDESC"
-                        },
-                        {
-                            "name": "NAME",
-                            "level": 14,
-                            "description": "DESCDESCDESC"
-                        }
-                    ]
-                },
-                {
-                    "name": "NAME",
-                    "source": "ALP",
-                    "description": "DESCDESCDESC",
-                    "features": [
-                        {
                             "name": "Divination Savant",
                             "level": 2,
                             "description": "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved."
