@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "calendar": {
+    "name": "Axria Calendar",
+    "era": "PR",
+    "monthsPerYear": 10,
+    "daysPerMonth": 36,
+    "weekdays": [
+      "Prven",
+      "Druhen",
+      "Treten",
+      "Štvrtnik",
+      "Piatenik",
+      "Šiesten",
+      "Sedmen",
+      "Osemnik",
+      "Deviatnik"
+    ],
+    "months": [
+      { "number": 1, "key": "odmakok", "name": "ODMAKOK", "lomiPhase": "🌖" },
+      { "number": 2, "key": "rozkvetov", "name": "ROZKVETOV", "lomiPhase": "🌗" },
+      { "number": 3, "key": "tepelnik", "name": "TEPELNIK", "lomiPhase": "🌗" },
+      { "number": 4, "key": "horucak", "name": "HORUCAK", "lomiPhase": "🌘" },
+      { "number": 5, "key": "rovnovnik", "name": "ROVNOVNIK", "lomiPhase": "🌚" },
+      { "number": 6, "key": "urodnik", "name": "ÚRODNIK", "lomiPhase": "🌒" },
+      { "number": 7, "key": "vetrak", "name": "VETRAK", "lomiPhase": "🌓" },
+      { "number": 8, "key": "chladocas", "name": "CHLADOČAS", "lomiPhase": "🌓" },
+      { "number": 9, "key": "mrazovak", "name": "MRAZOVAK", "lomiPhase": "🌔" },
+      { "number": 10, "key": "ladoviak", "name": "LADOVIAK", "lomiPhase": "🌝" }
+    ]
+  },
+  "campaign": {
+    "initialDate": {
+      "year": 750,
+      "month": 1,
+      "day": 1,
+      "label": "Začiatok kampane"
+    },
+    "currentDate": {
+      "year": 750,
+      "month": 2,
+      "day": 18,
+      "label": "Aktuálny dátum"
+    }
+  },
+  "events": [
+    {
+      "id": "darkest-night",
+      "name": "Darkest Night",
+      "date": {
+        "month": 5,
+        "day": 36
+      },
+      "recurrence": "yearly",
+      "category": "holy-day",
+      "importance": "major",
+      "description": "This is when neither god quards the night, is when the vilest creatures roam the land and folk gathers together to pray for safe return of both Rohan and Zervon"
+    },
+    {
+      "id": "brightest-night",
+      "name": "Brightest night",
+      "date": {
+        "month": 10,
+        "day": 18
+      },
+      "recurrence": "yearly",
+      "category": "holy-day",
+      "importance": "major",
+      "description": "Night of Celebration as both gods Rohan and Zervon protect the sky and share their duty, its the night when gifts are shared among folk to show gratitude to others"
+    }
+  ]
+}
