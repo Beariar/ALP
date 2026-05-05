@@ -32,8 +32,8 @@
   "campaign": {
     "initialDate": {
       "year": 750,
-      "month": 1,
-      "day": 1,
+      "month": 2,
+      "day": 18,
       "label": "Začiatok kampane"
     },
     "currentDate": {
@@ -45,8 +45,8 @@
   },
   "events": [
     {
-      "id": "darkest-night",
-      "name": "Darkest Night",
+      "id": "najtemnejšia-noc",
+      "name": "Najtemnejšia Noc",
       "date": {
         "month": 5,
         "day": 36
@@ -54,11 +54,11 @@
       "recurrence": "yearly",
       "category": "holy-day",
       "importance": "major",
-      "description": "This is when neither god quards the night, is when the vilest creatures roam the land and folk gathers together to pray for safe return of both Rohan and Zervon"
+      "description": "To je čas, keď noc nestráži žiadny boh, keď sa po krajine potulujú najohavnejšie stvorenia a ľudia sa schádzajú, aby sa modlili za bezpečný návrat Rohana i Zervona"
     },
     {
-      "id": "brightest-night",
-      "name": "Brightest night",
+      "id": "noc-svetla",
+      "name": "Noc Svetla",
       "date": {
         "month": 10,
         "day": 18
@@ -66,7 +66,7 @@
       "recurrence": "yearly",
       "category": "holy-day",
       "importance": "major",
-      "description": "Night of Celebration as both gods Rohan and Zervon protect the sky and share their duty, its the night when gifts are shared among folk to show gratitude to others"
+      "description": "Oslavná noc, keď bohovia Rohan a Zervon spoločne strážia oblohu a delia sa o túto úlohu; je to noc, keď si ľudia navzájom vymieňajú darčeky, aby vyjadrili vďačnosť ostatným"
     }
   ]
 }
