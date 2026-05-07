@@ -1215,20 +1215,60 @@
   },
   {
     "name": "Herbalism Kit",
-    "category": "Tool",
-    "cost": "",
-    "weight": "",
+    "category": "Specific Tool",
+    "cost": "5 gp",
+    "weight": "3 lb.",
     "craftingUses": [
       "Healing Potions"
     ],
-    "summary": "",
+    "summary": "his kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing. Proficiency with an herbalism kit allows you to identify plants and safely collect their useful elements.",
     "canDo": [
       "Craft Healing Potions"
     ],
-    "components": "",
-    "skillUses": [],
-    "features": [],
-    "activities": [],
-    "note": "Listed in the crafting table only; no detailed tool entry was present in the source page."
+    "components": "An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.",
+    "skillUses": [
+      {
+        "skills": [
+          "Arcana"
+        ],
+        "text": "Your knowledge of the nature and uses of herbs can add insight to your magical studies that deal with plants and your attempts to identify potions."
+      },
+      {
+        "skills": [
+          "Investigation"
+        ],
+        "text": "When you inspect an area overgrown with plants, your proficiency can help you pick out details and clues that others might miss."
+      },
+      {
+        "skills": [
+          "Medicine"
+        ],
+        "text": "Your mastery of herbalism improves your ability to treat illnesses and wounds by augmenting your methods of care with medicinal plants."
+      }
+      ,
+      {
+        "skills": [
+          "Nature",
+          "Survival"
+        ],
+        "text": "When you travel in the wild, your skill in herbalism makes it easier to identify plants and spot sources of food that others might overlook."
+      }
+    ],
+    "features": [
+      {
+        "name": "Identify Plants",
+        "text": "You can identify most plants with a quick inspection of their appearance and smell."
+      }
+    ],
+    "activities": [
+       {
+        "activity": "Find plants",
+        "dc": "15"
+      },
+      {
+        "activity": "Identify poison",
+        "dc": "20"
+      }
+    ]
   }
 ]
