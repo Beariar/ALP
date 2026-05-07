@@ -1,0 +1,2123 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Example Downtime Activities",
+  "intendedUse": "Structured data source for a web page or app that displays and processes downtime activities.",
+  "units": {
+    "currency": "gp",
+    "time": [
+      "day",
+      "week",
+      "workweek"
+    ],
+    "diceNotation": "Standard tabletop notation, e.g. 1d6 means roll one six-sided die."
+  },
+  "globalDmGuidance": [
+    "The DM has the final say on which activities are available.",
+    "Available activities can depend on the area where the characters are located.",
+    "The DM can disallow magic item creation or buying if the location is too isolated or unsuitable."
+  ],
+  "activities": [
+    {
+      "id": "buying_magic_item",
+      "name": "Buying a Magic Item",
+      "category": "commerce",
+      "summary": "A character spends time and money looking for sellers of magic items, with no guarantee that the desired item is available.",
+      "resources": {
+        "minimumTime": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "minimumCost": {
+          "amount": 100,
+          "currency": "gp",
+          "purpose": "search expenses"
+        },
+        "costNotes": [
+          "Spending more time and money increases the chance of finding a high-quality seller.",
+          "The monetary cost includes maintaining a wealthy lifestyle to impress potential business partners."
+        ]
+      },
+      "resolution": {
+        "check": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Determine the quality of seller found."
+        },
+        "modifiers": [
+          {
+            "bonus": "+1",
+            "condition": "For every workweek beyond the first spent seeking a seller."
+          },
+          {
+            "bonus": "+1",
+            "condition": "For every additional 100 gp spent on the search."
+          },
+          {
+            "maximumTotalBonus": "+10",
+            "appliesTo": "extra time and money bonus"
+          },
+          {
+            "bonus": "-10",
+            "condition": "Optional DM modifier for low magic campaigns."
+          },
+          {
+            "bonus": "+10",
+            "condition": "Optional DM modifier for high magic campaigns."
+          }
+        ],
+        "specificItemThresholds": [
+          {
+            "rarity": "Common",
+            "minimumCheckTotal": 10
+          },
+          {
+            "rarity": "Uncommon",
+            "minimumCheckTotal": 15
+          },
+          {
+            "rarity": "Rare",
+            "minimumCheckTotal": 20
+          },
+          {
+            "rarity": "Very rare",
+            "minimumCheckTotal": 25
+          },
+          {
+            "rarity": "Legendary",
+            "minimumCheckTotal": 30
+          }
+        ],
+        "dmOptions": [
+          "The DM decides whether a specific requested item is allowed in the game.",
+          "The DM may roll on the listed table or on any lower table associated with a lower check total.",
+          "The DM has final say on which items are for sale and their final price.",
+          "In low magic campaigns, the DM may double magic item costs."
+        ]
+      },
+      "tables": [
+        {
+          "id": "buying_magic_items",
+          "title": "Buying Magic Items",
+          "columns": [
+            "checkTotal",
+            "itemsAcquired"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—5"
+              },
+              "itemsAcquired": "Roll 1d6 times on Magic Item Table A."
+            },
+            {
+              "checkTotal": {
+                "display": "6—10"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table B."
+            },
+            {
+              "checkTotal": {
+                "display": "11—15"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table C."
+            },
+            {
+              "checkTotal": {
+                "display": "16—20"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table D."
+            },
+            {
+              "checkTotal": {
+                "display": "21—25"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table E."
+            },
+            {
+              "checkTotal": {
+                "display": "26—30"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table F."
+            },
+            {
+              "checkTotal": {
+                "display": "31—35"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table G."
+            },
+            {
+              "checkTotal": {
+                "display": "36—40"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table H."
+            },
+            {
+              "checkTotal": {
+                "display": "41+"
+              },
+              "itemsAcquired": "Roll 1d4 times on Magic Item Table I."
+            }
+          ]
+        },
+        {
+          "id": "magic_item_price",
+          "title": "Magic Item Price",
+          "columns": [
+            "rarity",
+            "askingPrice",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "askingPrice": {
+                "display": "(1d6 + 1) × 10 gp",
+                "expression": "(1d6 + 1) * 10",
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Uncommon",
+              "askingPrice": {
+                "display": "1d6 × 100 gp",
+                "expression": "1d6 * 100",
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Rare",
+              "askingPrice": {
+                "display": "2d10 × 1,000 gp",
+                "expression": "2d10 * 1000",
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Very rare",
+              "askingPrice": {
+                "display": "(1d4 + 1) × 10,000 gp",
+                "expression": "(1d4 + 1) * 10000",
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Legendary",
+              "askingPrice": {
+                "display": "2d6 × 25,000 gp",
+                "expression": "2d6 * 25000",
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            }
+          ],
+          "notes": [
+            "Consumables include items such as potions and scrolls."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "type": "dmChoice",
+          "display": "DM may roll or invent a complication."
+        },
+        "table": {
+          "id": "magic_item_purchase_complications",
+          "title": "Magic Item Purchase Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "The item is a fake, planted by an enemy.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "The item is stolen by the party's enemies.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "The item is cursed by a god.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "The item's original owner will kill to reclaim it; the party's enemies spread news of its sale.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "The item is at the center of a dark prophecy.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "The seller is murdered before the sale.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 7,
+              "text": "The seller is a devil looking to make a bargain.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 8,
+              "text": "The item is the key to freeing an evil entity.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 9,
+              "text": "A third party bids on the item, doubling its price.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 10,
+              "text": "The item is an enslaved, intelligent entity.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 11,
+              "text": "The item is tied to a cult.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 12,
+              "text": "The party's enemies spread rumors that the item is an artifact of evil.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carousing",
+      "name": "Carousing",
+      "category": "social",
+      "summary": "A character spends a workweek socializing, drinking, and making contacts among a chosen social class.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "socialClassOptions": [
+          {
+            "class": "lower",
+            "cost": {
+              "amount": 10,
+              "currency": "gp"
+            },
+            "accessRequirement": "None specified."
+          },
+          {
+            "class": "middle",
+            "cost": {
+              "amount": 50,
+              "currency": "gp"
+            },
+            "accessRequirement": "None specified."
+          },
+          {
+            "class": "upper",
+            "cost": {
+              "amount": 250,
+              "currency": "gp"
+            },
+            "accessRequirement": "Access to local nobility."
+          }
+        ],
+        "accessNotes": [
+          "A character with the noble background can mingle with the upper class.",
+          "Other characters need sufficient contacts, or may use a disguise kit and Deception to pass as a noble."
+        ]
+      },
+      "resolution": {
+        "check": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Determine contacts gained."
+        },
+        "contactRules": {
+          "contactDefinition": "An NPC who shares a bond with the character and either owes a favor or bears a grudge.",
+          "hostileContact": "Works against the character by placing obstacles, but stops short of crime or violence.",
+          "alliedContact": "Can render aid, but not at the risk of their life.",
+          "useLimit": "A contact provides help once; the character must carouse again to get back into that NPC's good graces.",
+          "unspecifiedAlliedContactMaximum": "1 + Charisma modifier, minimum 1. Specific named contacts do not count toward this limit."
+        },
+        "socialClassContactExamples": [
+          {
+            "class": "lower",
+            "examples": [
+              "criminals",
+              "laborers",
+              "mercenaries",
+              "town guard",
+              "cheapest tavern regulars"
+            ]
+          },
+          {
+            "class": "middle",
+            "examples": [
+              "guild members",
+              "spellcasters",
+              "town officials",
+              "well-kept establishment regulars"
+            ]
+          },
+          {
+            "class": "upper",
+            "examples": [
+              "nobles",
+              "personal servants",
+              "formal banquet or state dinner attendees"
+            ]
+          }
+        ],
+        "dmOptions": [
+          "The DM may assign specific NPCs as contacts.",
+          "Alternatively, the player may later designate an NPC as a contact on the spot, provided the NPC matches the social class and the relationship is explained.",
+          "A mixed approach can provide both concrete NPCs and player flexibility.",
+          "The same options can be used for hostile contacts."
+        ]
+      },
+      "tables": [
+        {
+          "id": "carousing_results",
+          "title": "Carousing",
+          "columns": [
+            "checkTotal",
+            "result"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—5"
+              },
+              "result": "Character has made a hostile contact."
+            },
+            {
+              "checkTotal": {
+                "display": "6—10"
+              },
+              "result": "Character has made no new contacts."
+            },
+            {
+              "checkTotal": {
+                "display": "11—15"
+              },
+              "result": "Character has made an allied contact."
+            },
+            {
+              "checkTotal": {
+                "display": "16—20"
+              },
+              "result": "Character has made two allied contacts."
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "result": "Character has made three allied contacts."
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "tables": [
+          {
+            "id": "lower_class_carousing_complications",
+            "title": "Lower-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "A pickpocket lifts 1d10 × 5 gp from you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "A bar brawl leaves you with a scar.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 3,
+                "text": "You have fuzzy memories of doing something very, very illegal, but can't remember exactly what.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 4,
+                "text": "You are banned from a tavern after some obnoxious behavior.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "After a few drinks, you swore in the town square to pursue a dangerous quest.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 6,
+                "text": "Surprise! You're married.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "Streaking naked through the streets seemed like a great idea at the time.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 8,
+                "text": "Everyone is calling you by some weird, embarrassing nickname, like Puddle Drinker or Bench Slayer, and no one will say why.",
+                "mightInvolveRival": true
+              }
+            ]
+          },
+          {
+            "id": "middle_class_carousing_complications",
+            "title": "Middle-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "You accidentally insulted a guild master, and only a public apology will let you do business with the guild again.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "You swore to complete some quest on behalf of a temple or a guild.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 3,
+                "text": "A social gaffe has made you the talk of the town.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 4,
+                "text": "A particularly obnoxious person has taken an intense romantic interest in you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "You have made a foe out of a local spellcaster.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 6,
+                "text": "You have been recruited to help run a local festival, play, or similar event.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "You made a drunken toast that scandalized the locals.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 8,
+                "text": "You spent an additional 100 gp trying to impress people.",
+                "mightInvolveRival": false
+              }
+            ]
+          },
+          {
+            "id": "upper_class_carousing_complications",
+            "title": "Upper-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "A pushy noble family wants to marry off one of their scions to you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "You tripped and fell during a dance, and people can't stop talking about it.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 3,
+                "text": "You have agreed to take on a noble's debts.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 4,
+                "text": "You have been challenged to a joust by a knight.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "You have made a foe out of a local noble.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 6,
+                "text": "A boring noble insists you visit each day and listen to long, tedious theories of magic.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "You have become the target of a variety of embarrassing rumors.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 8,
+                "text": "You spent an additional 500 gp trying to impress people.",
+                "mightInvolveRival": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crafting_an_item",
+      "name": "Crafting an Item",
+      "category": "crafting",
+      "summary": "A character crafts nonmagical gear or, with additional requirements, a magic item.",
+      "nonmagicalCrafting": {
+        "resources": {
+          "tools": "Appropriate tools for the item being crafted.",
+          "rawMaterialsCost": "Half of the item's selling cost.",
+          "toolProficiencyRequired": true,
+          "equipmentRequired": "Appropriate equipment, as judged by the DM."
+        },
+        "timeCalculation": {
+          "formula": "itemGoldCost / 50",
+          "unit": "workweeks",
+          "notes": [
+            "A character can complete multiple items in a workweek if their combined cost is 50 gp or lower.",
+            "Items costing more than 50 gp can be completed over longer periods if stored safely."
+          ]
+        },
+        "collaboration": {
+          "allowed": true,
+          "timeFormula": "baseTime / numberOfCollaboratingCharacters",
+          "requirements": "Every collaborator needs the appropriate tool proficiency.",
+          "dmGuidance": "The DM decides how many characters can reasonably work on an item."
+        },
+        "result": "If requirements are met, the process creates the desired item. The item can be sold at its listed price."
+      },
+      "magicItemCrafting": {
+        "summary": "Creating a magic item is a long-term process involving formulae, rare materials, and often an adventure.",
+        "exceptions": [
+          "Potions of healing",
+          "Spell scrolls"
+        ],
+        "requirements": {
+          "formulaRequired": true,
+          "exoticMaterialRequired": true,
+          "adventureLikelyRequired": true,
+          "proficiencyOptions": [
+            "Appropriate tool proficiency",
+            "Arcana skill proficiency"
+          ]
+        },
+        "consumableRule": "Halve the listed cost and creation time for consumable items.",
+        "dmGuidance": [
+          "Choose monsters or locations that thematically fit the item.",
+          "Facing a creature does not necessarily mean killing it; the creature might guard the needed location or resource."
+        ],
+        "examples": [
+          {
+            "item": "mariner's armor",
+            "possibleRequirement": "essence of a water weird"
+          },
+          {
+            "item": "staff of charming",
+            "possibleRequirement": "cooperation of a specific arcanaloth"
+          },
+          {
+            "item": "staff of power",
+            "possibleRequirement": "a piece of ancient stone touched by the god of magic and guarded by an androsphinx"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "crafting_tool_examples",
+          "title": "Crafting Tool Examples",
+          "columns": [
+            "proficiency",
+            "items"
+          ],
+          "rows": [
+            {
+              "proficiency": "Herbalism kit",
+              "items": [
+                "Antitoxin",
+                "Potion of healing"
+              ]
+            },
+            {
+              "proficiency": "Leatherworker's tools",
+              "items": [
+                "Leather armor",
+                "Boots"
+              ]
+            },
+            {
+              "proficiency": "Smith's tools",
+              "items": [
+                "Armor",
+                "Weapons"
+              ]
+            },
+            {
+              "proficiency": "Weaver's tools",
+              "items": [
+                "Cloaks",
+                "Robes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "magic_item_ingredients",
+          "title": "Magic Item Ingredients",
+          "columns": [
+            "itemRarity",
+            "crRange"
+          ],
+          "rows": [
+            {
+              "itemRarity": "Common",
+              "crRange": "1—3"
+            },
+            {
+              "itemRarity": "Uncommon",
+              "crRange": "4—8"
+            },
+            {
+              "itemRarity": "Rare",
+              "crRange": "9—12"
+            },
+            {
+              "itemRarity": "Very rare",
+              "crRange": "13—18"
+            },
+            {
+              "itemRarity": "Legendary",
+              "crRange": "19+"
+            }
+          ]
+        },
+        {
+          "id": "magic_item_crafting_time_and_cost",
+          "title": "Magic Item Crafting Time and Cost",
+          "columns": [
+            "itemRarity",
+            "workweeks",
+            "cost",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "itemRarity": "Common",
+              "workweeks": 1,
+              "cost": {
+                "amount": 50,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Uncommon",
+              "workweeks": 2,
+              "cost": {
+                "amount": 200,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Rare",
+              "workweeks": 10,
+              "cost": {
+                "amount": 2000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Very rare",
+              "workweeks": 25,
+              "cost": {
+                "amount": 20000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Legendary",
+              "workweeks": 50,
+              "cost": {
+                "amount": 100000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            }
+          ]
+        },
+        {
+          "id": "potion_of_healing_creation",
+          "title": "Potion of Healing Creation",
+          "columns": [
+            "type",
+            "time",
+            "cost"
+          ],
+          "rows": [
+            {
+              "type": "Healing",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Greater healing",
+              "time": {
+                "quantity": 1,
+                "unit": "workweek"
+              },
+              "cost": {
+                "amount": 100,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Superior healing",
+              "time": {
+                "quantity": 3,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 1000,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Supreme healing",
+              "time": {
+                "quantity": 4,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 10000,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "5 workweeks spent crafting an item"
+        },
+        "notes": [
+          "Complications are most interesting when characters are working on a magic item."
+        ],
+        "table": {
+          "id": "crafting_complications",
+          "title": "Crafting Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Rumors swirl that what you're working on is unstable and a threat to the community.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your tools are stolen, forcing you to buy new ones.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A local wizard shows keen interest in your work and insists on observing you.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A powerful noble offers a hefty price for your work and is not interested in hearing no for an answer.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "A dwarf clan accuses you of stealing its secret lore to fuel your work.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "A competitor spreads rumors that your work is shoddy and prone to failure.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crime",
+      "name": "Crime",
+      "category": "illegal",
+      "summary": "A character gathers information, chooses a target difficulty, and attempts a crime for possible profit at risk of arrest.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "week"
+        },
+        "minimumCost": {
+          "amount": 25,
+          "currency": "gp",
+          "purpose": "gathering information on potential targets"
+        }
+      },
+      "resolution": {
+        "dcOptions": [
+          10,
+          15,
+          20,
+          25
+        ],
+        "checks": [
+          {
+            "ability": "Dexterity",
+            "skill": "Stealth"
+          },
+          {
+            "ability": "Dexterity",
+            "tool": "Thieves' tools"
+          },
+          {
+            "choice": [
+              {
+                "ability": "Intelligence",
+                "skill": "Investigation"
+              },
+              {
+                "ability": "Wisdom",
+                "skill": "Perception"
+              },
+              {
+                "ability": "Charisma",
+                "skill": "Deception"
+              }
+            ]
+          }
+        ],
+        "outcomesBySuccesses": [
+          {
+            "successes": 0,
+            "outcome": "Caught and jailed.",
+            "penalty": "Pay a fine equal to the profit the crime would have earned and spend one week in jail per 25 gp of the fine."
+          },
+          {
+            "successes": 1,
+            "outcome": "The heist fails, but the character escapes."
+          },
+          {
+            "successes": 2,
+            "outcome": "Partial success.",
+            "payoutMultiplier": 0.5
+          },
+          {
+            "successes": 3,
+            "outcome": "Full success.",
+            "payoutMultiplier": 1
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "loot_value",
+          "title": "Loot Value",
+          "columns": [
+            "dc",
+            "value",
+            "target"
+          ],
+          "rows": [
+            {
+              "dc": 10,
+              "value": {
+                "amount": 50,
+                "currency": "gp"
+              },
+              "target": "Robbery of a struggling merchant"
+            },
+            {
+              "dc": 15,
+              "value": {
+                "amount": 100,
+                "currency": "gp"
+              },
+              "target": "Robbery of a prosperous merchant"
+            },
+            {
+              "dc": 20,
+              "value": {
+                "amount": 200,
+                "currency": "gp"
+              },
+              "target": "Robbery of a noble"
+            },
+            {
+              "dc": 25,
+              "value": {
+                "amount": 1000,
+                "currency": "gp"
+              },
+              "target": "Robbery of one of the richest figures in town"
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "trigger": [
+          "Roll or create a complication if the character succeeds on only one check.",
+          "If the character's rival is involved in crime or law enforcement, a complication occurs if the character succeeds on only two checks."
+        ],
+        "table": {
+          "id": "crime_complications",
+          "title": "Crime Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A bounty equal to your earnings is offered for information about your crime.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "An unknown person contacts you, threatening to reveal your crime if you don't render a service.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "Your victim is financially ruined by your crime.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "Someone who knows of your crime has been arrested on an unrelated matter.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "Your loot is a single, easily identified item that you can't fence in this region.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "You robbed someone who was under a local crime lord's protection, and who now wants revenge.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 7,
+              "text": "Your victim calls in a favor from a guard, doubling the efforts to solve the case.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 8,
+              "text": "Your victim asks one of your adventuring companions to solve the crime.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gambling",
+      "name": "Gambling",
+      "category": "games",
+      "summary": "A character risks money in games of chance, making checks against random DCs determined by the quality of competition.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "stake": {
+          "minimum": 10,
+          "maximumDefault": 1000,
+          "currency": "gp",
+          "notes": "The DM may allow a higher maximum."
+        }
+      },
+      "resolution": {
+        "dcFormula": "5 + 2d10",
+        "dcGeneration": "Generate a separate DC for each of the three checks.",
+        "checks": [
+          {
+            "ability": "Wisdom",
+            "skill": "Insight"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Deception"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Intimidation"
+          }
+        ],
+        "toolSubstitution": "Proficiency with an appropriate gaming set can replace the relevant skill in any of the checks."
+      },
+      "tables": [
+        {
+          "id": "gambling_results",
+          "title": "Gambling Results",
+          "columns": [
+            "successes",
+            "value"
+          ],
+          "rows": [
+            {
+              "successes": 0,
+              "value": "Lose all the money you bet, and accrue a debt equal to that amount.",
+              "netStakeMultiplier": -2
+            },
+            {
+              "successes": 1,
+              "value": "Lose half the money you bet.",
+              "netStakeMultiplier": -0.5
+            },
+            {
+              "successes": 2,
+              "value": "Gain the amount you bet plus half again more.",
+              "grossStakeMultiplier": 1.5
+            },
+            {
+              "successes": 3,
+              "value": "Gain double the amount you bet.",
+              "grossStakeMultiplier": 2
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "gambling_complications",
+          "title": "Gambling Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You are accused of cheating. You decide whether you actually did cheat or were framed.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "The town guards raid the gambling hall and throw you in jail.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A noble in town loses badly to you and loudly vows to get revenge.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "A local crime boss insists you start frequenting the boss's gambling parlor and no others.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "A high-stakes gambler comes to town and insists that you take part in a game.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pit_fighting",
+      "name": "Pit Fighting",
+      "category": "competition",
+      "summary": "A character participates in organized nonlethal combat such as boxing or wrestling.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+        "scope": "Nonlethal organized fighting with predetermined matches.",
+        "deathMatchNote": "For battle-to-the-death combat, use standard combat rules instead.",
+        "dcFormula": "5 + 2d10",
+        "dcGeneration": "Generate a separate DC for each of the three checks.",
+        "checks": [
+          {
+            "ability": "Strength",
+            "skill": "Athletics"
+          },
+          {
+            "ability": "Dexterity",
+            "skill": "Acrobatics"
+          },
+          {
+            "ability": "Constitution",
+            "specialBonus": "Roll the character's largest Hit Die and add it as a bonus; this does not spend the die."
+          }
+        ],
+        "substitution": "The character may replace one of these skill checks with an attack roll using one of the character's weapons."
+      },
+      "tables": [
+        {
+          "id": "pit_fighting_results",
+          "title": "Pit Fighting Results",
+          "columns": [
+            "successes",
+            "value"
+          ],
+          "rows": [
+            {
+              "successes": 0,
+              "value": "Lose your bouts, earning nothing.",
+              "earnings": {
+                "amount": 0,
+                "currency": "gp"
+              }
+            },
+            {
+              "successes": 1,
+              "value": "Win 50 gp.",
+              "earnings": {
+                "amount": 50,
+                "currency": "gp"
+              }
+            },
+            {
+              "successes": 2,
+              "value": "Win 100 gp.",
+              "earnings": {
+                "amount": 100,
+                "currency": "gp"
+              }
+            },
+            {
+              "successes": 3,
+              "value": "Win 200 gp.",
+              "earnings": {
+                "amount": 200,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "pit_fighting_complications",
+          "title": "Pit Fighting Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "An opponent swears to take revenge on you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "A crime boss approaches you and offers to pay you to intentionally lose a few matches.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "You defeat a popular local champion, drawing the crowd's ire.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "You defeat a noble's servant, drawing the wrath of the noble's house.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You accidentally deliver a near-fatal wound to a foe.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "relaxation",
+      "name": "Relaxation",
+      "category": "recovery",
+      "summary": "A character takes time off to rest, recover, and avoid engaging deeply with downtime systems.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "week"
+        },
+        "lifestyleMinimum": "Modest"
+      },
+      "resolution": {
+        "benefits": [
+          "Gain advantage on saving throws to recover from long-acting diseases and poisons while relaxing.",
+          "At the end of the week, end one effect that prevents regaining hit points, or restore one ability score reduced below normal."
+        ],
+        "limitations": [
+          "The end-of-week benefit cannot be used if the harmful effect was caused by a spell or other magical effect with an ongoing duration."
+        ]
+      },
+      "complications": {
+        "chance": {
+          "type": "rare"
+        },
+        "guidance": "Relaxation rarely has complications. If desired, the DM can introduce an event connected to a rival."
+      }
+    },
+    {
+      "id": "religious_service",
+      "name": "Religious Service",
+      "category": "social",
+      "summary": "A character serves a temple through rites or proselytizing and may earn future assistance.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "cost": {
+          "amount": 0,
+          "currency": "gp"
+        },
+        "accessRequirement": "Access to a temple whose beliefs and ethos align with the character."
+      },
+      "resolution": {
+        "checkChoice": [
+          {
+            "ability": "Intelligence",
+            "skill": "Religion"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Persuasion"
+          }
+        ],
+        "favorRules": {
+          "definition": "A promise of future assistance from a representative of the temple.",
+          "uses": [
+            "Help with a specific problem.",
+            "General political or social support.",
+            "Reduce the cost of cleric spellcasting by 50%.",
+            "Possible deity intervention such as an omen, vision, or minor miracle, at the DM's discretion."
+          ],
+          "storageMaximum": "1 + Charisma modifier, minimum 1 unused favor."
+        }
+      },
+      "tables": [
+        {
+          "id": "religious_service_results",
+          "title": "Religious Service",
+          "columns": [
+            "checkTotal",
+            "result",
+            "favorsEarned"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—10"
+              },
+              "result": "No effect. Your efforts fail to make a lasting impression.",
+              "favorsEarned": 0
+            },
+            {
+              "checkTotal": {
+                "display": "11—20"
+              },
+              "result": "You earn one favor.",
+              "favorsEarned": 1
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "result": "You earn two favors.",
+              "favorsEarned": 2
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "religious_service_complications",
+          "title": "Religious Service Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You have offended a priest through your words or actions.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Blasphemy is still blasphemy, even if you did it by accident.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 3,
+              "text": "A secret sect in the temple offers you membership.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "Another temple tries to recruit you as a spy.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "The temple elders implore you to take up a holy quest.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "You accidentally discover that an important person in the temple is a fiend worshiper.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "category": "knowledge",
+      "summary": "A character studies a specific person, place, monster, magic item, or other topic to learn useful lore.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "minimumCost": {
+          "amount": 50,
+          "currency": "gp",
+          "purpose": "materials, bribes, gifts, and other expenses"
+        },
+        "accessRequirement": "Usually access to a library or sage."
+      },
+      "resolution": {
+        "researchFocusRequired": true,
+        "check": {
+          "ability": "Intelligence",
+          "skill": null
+        },
+        "modifiers": [
+          {
+            "bonus": "+1",
+            "condition": "For each additional 50 gp spent beyond the initial 50 gp.",
+            "maximumBonus": "+6"
+          },
+          {
+            "advantage": true,
+            "condition": "Access to a particularly well-stocked library or knowledgeable sages."
+          }
+        ],
+        "loreDefinition": "Each piece of lore is one true statement about the researched person, place, or thing.",
+        "exampleLore": [
+          "A creature's resistances.",
+          "The password needed to enter a sealed dungeon level.",
+          "The spells commonly prepared by an order of wizards.",
+          "Elements of a monster or NPC's statistics or personality.",
+          "A hidden entrance, answer to a riddle, or nature of a guardian."
+        ],
+        "dmGuidance": "The DM is the final arbiter of exactly what the character learns."
+      },
+      "tables": [
+        {
+          "id": "research_outcomes",
+          "title": "Research Outcomes",
+          "columns": [
+            "checkTotal",
+            "outcome",
+            "piecesOfLore"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—5"
+              },
+              "outcome": "No effect.",
+              "piecesOfLore": 0
+            },
+            {
+              "checkTotal": {
+                "display": "6—10"
+              },
+              "outcome": "You learn one piece of lore.",
+              "piecesOfLore": 1
+            },
+            {
+              "checkTotal": {
+                "display": "11—20"
+              },
+              "outcome": "You learn two pieces of lore.",
+              "piecesOfLore": 2
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "outcome": "You learn three pieces of lore.",
+              "piecesOfLore": 3
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "riskTheme": "False information, especially if a scholarly rival interferes.",
+        "rivalOptions": [
+          "Plant false information.",
+          "Bribe sages to give bad advice.",
+          "Steal key tomes needed to find the truth."
+        ],
+        "table": {
+          "id": "research_complications",
+          "title": "Research Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You accidentally damage a rare book.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 2,
+              "text": "You offend a sage, who demands an extravagant gift.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "If you had known that book was cursed, you never would have opened it.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A sage becomes obsessed with convincing you of a number of strange theories about reality.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "Your actions cause you to be banned from a library until you make reparations.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You uncovered useful lore, but only by promising to complete a dangerous task in return.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scribing_a_spell_scroll",
+      "name": "Scribing a Spell Scroll",
+      "category": "crafting",
+      "summary": "A spellcaster transfers a known or prepared spell to a scroll by spending time, money, and required components.",
+      "resources": {
+        "requirements": [
+          "The character must have proficiency in Arcana.",
+          "The character must provide any material components required for casting the spell.",
+          "The spell must be prepared or among the character's known spells."
+        ],
+        "cantripRule": "If the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st level."
+      },
+      "tables": [
+        {
+          "id": "spell_scroll_costs",
+          "title": "Spell Scroll Costs",
+          "columns": [
+            "spellLevel",
+            "time",
+            "cost"
+          ],
+          "rows": [
+            {
+              "spellLevel": "Cantrip",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 15,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "1st",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "2nd",
+              "time": {
+                "quantity": 3,
+                "unit": "days"
+              },
+              "cost": {
+                "amount": 250,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "3rd",
+              "time": {
+                "quantity": 1,
+                "unit": "workweek"
+              },
+              "cost": {
+                "amount": 500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "4th",
+              "time": {
+                "quantity": 2,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 2500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "5th",
+              "time": {
+                "quantity": 4,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 5000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "6th",
+              "time": {
+                "quantity": 8,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 15000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "7th",
+              "time": {
+                "quantity": 16,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 25000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "8th",
+              "time": {
+                "quantity": 32,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 50000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "9th",
+              "time": {
+                "quantity": 48,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 250000,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "notes": [
+          "Scribing is solitary; complications are more likely to involve preparation for the activity."
+        ],
+        "table": {
+          "id": "scribe_a_scroll_complications",
+          "title": "Scribe a Scroll Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You bought up the last of the rare ink used to craft scrolls, angering a wizard in town.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 2,
+              "text": "The priest of a temple of good accuses you of trafficking in dark magic.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A wizard eager to collect one of your spells in a book presses you to sell the scroll.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "Due to a strange error in creating the scroll, it is instead a random spell of the same level.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "The rare parchment you bought for your scroll has a barely visible map on it.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "A thief attempts to break into your workroom.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "selling_a_magic_item",
+      "name": "Selling a Magic Item",
+      "category": "commerce",
+      "summary": "A character spends time and money finding a buyer for one magic item, then makes a check to determine the offer.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "cost": {
+          "amount": 25,
+          "currency": "gp",
+          "purpose": "spread word of the desired sale"
+        },
+        "itemLimit": "One magic item at a time."
+      },
+      "resolution": {
+        "check": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Determine what kind of offer comes in."
+        },
+        "sellerChoice": "The character can choose not to sell, forfeiting the workweek and trying again later.",
+        "pricingMethod": "Use base price by rarity, then apply offer percentage from the check result."
+      },
+      "tables": [
+        {
+          "id": "magic_item_base_prices",
+          "title": "Magic Item Base Prices",
+          "columns": [
+            "rarity",
+            "basePrice",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "basePrice": {
+                "amount": 100,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Uncommon",
+              "basePrice": {
+                "amount": 400,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Rare",
+              "basePrice": {
+                "amount": 4000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Very rare",
+              "basePrice": {
+                "amount": 40000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Legendary",
+              "basePrice": {
+                "amount": 200000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            }
+          ]
+        },
+        {
+          "id": "magic_item_offer",
+          "title": "Magic Item Offer",
+          "columns": [
+            "checkTotal",
+            "offer"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—10"
+              },
+              "offer": {
+                "basePricePercent": 50,
+                "display": "50% of base price"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "11—20"
+              },
+              "offer": {
+                "basePricePercent": 100,
+                "display": "100% of base price"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "offer": {
+                "basePricePercent": 150,
+                "display": "150% of base price"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "riskTheme": "Thieves, illegitimate buyers, and people attempting to undermine the sale.",
+        "table": {
+          "id": "magic_item_sale_complications",
+          "title": "Magic Item Sale Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Your enemy secretly arranges to buy the item to use it against you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "A thieves' guild, alerted to the sale, attempts to steal your item.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A foe circulates rumors that your item is a fake.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "A sorcerer claims your item as a birthright and demands you hand it over.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "Your item's previous owner, or surviving allies of the owner, vow to retake the item by force.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "The buyer is murdered before the sale is finalized.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "category": "learning",
+      "summary": "A character learns a language or tool proficiency with enough time and an instructor.",
+      "resources": {
+        "baseTime": {
+          "quantity": 10,
+          "unit": "workweeks"
+        },
+        "timeReduction": "Reduce by a number of workweeks equal to the character's Intelligence modifier. An Intelligence penalty does not increase the time.",
+        "costPerWorkweek": {
+          "amount": 25,
+          "currency": "gp"
+        },
+        "requiresInstructor": true,
+        "learnableOptions": [
+          "Language",
+          "Tool proficiency"
+        ]
+      },
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "10 workweeks spent training"
+        },
+        "theme": "Complications usually involve the teacher.",
+        "table": {
+          "id": "training_complications",
+          "title": "Training Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Your instructor disappears, forcing you to spend one workweek finding a new one.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your teacher instructs you in rare, archaic methods, which draw comments from others.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 3,
+              "text": "Your teacher is a spy sent to learn your plans.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "Your teacher is a wanted criminal.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "Your teacher is a cruel taskmaster.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "Your teacher asks for help dealing with a threat.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "work",
+      "name": "Work",
+      "category": "employment",
+      "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+        "checkOptions": [
+          {
+            "ability": "Strength",
+            "skill": "Athletics"
+          },
+          {
+            "ability": "Dexterity",
+            "skill": "Acrobatics"
+          },
+          {
+            "ability": "Intelligence",
+            "tool": "A set of tools"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Performance"
+          },
+          {
+            "ability": "Charisma",
+            "tool": "A musical instrument"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "wages",
+          "title": "Wages",
+          "columns": [
+            "checkTotal",
+            "earnings"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "9 or lower"
+              },
+              "earnings": "Poor lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "10—14"
+              },
+              "earnings": "Modest lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "15—20"
+              },
+              "earnings": "Comfortable lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "earnings": "Comfortable lifestyle for the week + 25 gp",
+              "bonus": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "work_complications",
+          "title": "Work Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A difficult customer or a fight with a coworker reduces the wages you earn by one category.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your employer's financial difficulties result in your not being paid.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A coworker with ties to an important family in town takes a dislike to you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "Your employer is involved with a dark cult or a criminal enterprise.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "A crime ring targets your business for extortion.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You gain a reputation for laziness, justified or not, giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
