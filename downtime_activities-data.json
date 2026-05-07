@@ -95,7 +95,7 @@
         ]
       },
       "tables": [
-        {
+        /*{
           "id": "buying_magic_items",
           "title": "Buying Magic Items",
           "columns": [
@@ -158,7 +158,7 @@
               "itemsAcquired": "Roll 1d4 times on Magic Item Table I."
             }
           ]
-        },
+        },*/
         {
           "id": "magic_item_price",
           "title": "Magic Item Price",
