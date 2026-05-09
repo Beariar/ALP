@@ -2142,74 +2142,46 @@
           ],
           "rows": [
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Príšerný"
               },
-              "earnings": "",
-              "bonus": {
-                "amount": "1d4",
-                "currency": "sp"
-              }
+              "earnings": "1d4 sp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Biedny"
               },
-              "earnings": "36 sp",
-              "bonus": {
-                "amount": "1d4",
-                "currency": "sp"
-              }
+              "earnings": "36 +1d4 sp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Chudobný"
               },
-              "earnings": "36*2 sp",
-              "bonus": {
-                "amount": "2d4",
-                "currency": "sp"
-              }
+              "earnings": "36*2 + 2d4 sp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Skromný"
               },
-              "earnings": "36 gp",
-              "bonus": {
-                "amount": "1d4",
-                "currency": "gp"
-              }
+              "earnings": "36 +1d4 gp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Pohodlný"
               },
-              "earnings": "36*2 gp",
-              "bonus": {
-                "amount": "2d6",
-                "currency": "gp"
-              }
+              "earnings": "36*2 +2d4 gp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Bohatý"
               },
-              "earnings": "36*4 gp",
-              "bonus": {
-                "amount": "2d6",
-                "currency": "gp"
-              }
+              "earnings": "36*4 + 2d6 gp"
             },
             {
-              "checkTotal": {
+              "Lifestyle": {
                 "display": "Aristokratický"
               },
-              "earnings": "36*10 gp",
-              "bonus": {
-                "amount": "2d8",
-                "currency": "gp"
-              }
+              "earnings": "36*10 + 2d8 gp"
             }
           ]
         }
