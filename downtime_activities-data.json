@@ -1999,7 +1999,7 @@
     },
     {
       "id": "work",
-      "name": "Work",
+      "name": "Additional Work",
       "category": "employment",
       "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
       "resources": {
@@ -2063,7 +2063,7 @@
               "checkTotal": {
                 "display": "21+"
               },
-              "earnings": "Comfortable lifestyle for the week + 25 gp",
+              "earnings": "Wealthy lifestyle for the week + 25 gp",
               "bonus": {
                 "amount": 25,
                 "currency": "gp"
@@ -2118,6 +2118,102 @@
           ]
         }
       }
+    },
+    {
+      "id": "work",
+      "name": "Regular Income",
+      "category": "employment",
+      "summary": "A character spends time to ear his monthly income + something extra",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+      },
+      "tables": [
+        {
+          "id": "income",
+          "title": "Income",
+          "columns": [
+            "Lifestyle",
+            "earnings"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "Príšerný"
+              },
+              "earnings": "",
+              "bonus": {
+                "amount": "1d4",
+                "currency": "sp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Biedny"
+              },
+              "earnings": "36 sp",
+              "bonus": {
+                "amount": "1d4",
+                "currency": "sp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Chudobný"
+              },
+              "earnings": "36*2 sp",
+              "bonus": {
+                "amount": "2d4",
+                "currency": "sp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Skromný"
+              },
+              "earnings": "36 gp",
+              "bonus": {
+                "amount": "1d4",
+                "currency": "gp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Pohodlný"
+              },
+              "earnings": "36*2 gp",
+              "bonus": {
+                "amount": "2d6",
+                "currency": "gp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Bohatý"
+              },
+              "earnings": "36*4 gp",
+              "bonus": {
+                "amount": "2d6",
+                "currency": "gp"
+              }
+            },
+            {
+              "checkTotal": {
+                "display": "Aristokratický"
+              },
+              "earnings": "36*10 gp",
+              "bonus": {
+                "amount": "2d8",
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
