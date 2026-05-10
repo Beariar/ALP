@@ -2223,8 +2223,7 @@
       "resolution": {
        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, but the DM may impose disadvantage on one check or require an in-story reason.",
         "dcRule": {
-          "description": "Use the Study DC for the character's current academy level.",
-          "tableId": "study_academy_level_dcs",
+          "description": "Use the Study DC for the character's current academy level. (Table: Study DC by Academy Level)",
           "currentLevelDefinition": "The relevant academy level is the level whose curriculum the character is currently studying."
         },
         "checks": [
@@ -2287,8 +2286,8 @@
           }
         ],
         "dmGuidance": [
-          "Academy know-how should only apply to academy exams, academy practicals, and closely related academy challenges.",
-          "Academy know-how is not general expertise and should not reduce unrelated adventuring DCs.",
+          "Academy know-how will only apply to academy exams, academy practicals, and closely related academy challenges.",
+          "Academy know-how is not general expertise and will not reduce unrelated adventuring DCs.",
           "If a character reaches the suggested maximum Academy know-how, further successful Study workweeks can grant narrative benefits such as a mentor's praise, access to better notes, or advantage on one future academy-related check instead of increasing the value."
         ]
       },
@@ -2393,7 +2392,8 @@
           ],
           "notes": [
             "The DC rises with academy level.",
-            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific lesson."
+            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific lesson.",
+            "Jäger will not lose the academy know-how and does not have to improve it as it will grant no benefit in exams (as there are none) it can only grant narrative benefits."
           ]
         },
         {
