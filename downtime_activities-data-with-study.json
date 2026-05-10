@@ -2190,7 +2190,7 @@
       "id": "study",
       "name": "Study",
       "category": "academy",
-      "summary": "A character spends a workweek attending lessons, practicing faculty techniques, reviewing notes, and maintaining Academy know-how for future academy exams.",
+      "summary": "A character spends a workweek attending lessons, practicing faculty techniques, reviewing notes, and maintaining Academy know-how for future academy exams. The Study DC depends on the character's current academy level.",
       "resources": {
         "time": {
           "quantity": 1,
@@ -2221,8 +2221,12 @@
         "resetNote": "Note: Each academy level will reset the academy know-how."
       },
       "resolution": {
-        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, IF they intend to witch faculty, but the DM may impose disadvantage on one check or require an in-story reason.",
-        "dc": 13,
+       "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, but the DM may impose disadvantage on one check or require an in-story reason.",
+        "dcRule": {
+          "description": "Use the Study DC for the character's current academy level.",
+          "tableId": "study_academy_level_dcs",
+          "currentLevelDefinition": "The relevant academy level is the level whose curriculum the character is currently studying."
+        },
         "checks": [
           {
             "type": "dominantAbility",
@@ -2258,6 +2262,28 @@
             "bonus": "+1",
             "condition": "Another student who succeeded on Study this same workweek helps the character review.",
             "maximumBonus": "+1"
+          }
+        ],
+         "outcomesBySuccesses": [
+          {
+            "successes": 0,
+            "outcome": "The character falls behind and loses 1 Academy know-how, to a minimum of 0.",
+            "academyKnowHowChange": -1
+          },
+          {
+            "successes": 1,
+            "outcome": "The character keeps up but makes no meaningful progress.",
+            "academyKnowHowChange": 0
+          },
+          {
+            "successes": 2,
+            "outcome": "The character improves their grasp of academy methods and gains 1 Academy know-how.",
+            "academyKnowHowChange": 1
+          },
+          {
+            "successes": 3,
+            "outcome": "The character has an excellent study week and gains 2 Academy know-how.",
+            "academyKnowHowChange": 2
           }
         ],
         "dmGuidance": [
