@@ -2398,22 +2398,22 @@
             },
             {
               "roll": 4,
-              "text": "A faculty tradition clashes with your personal methods. The next time you study outside your own faculty, increase one Study DC by 2.",
+              "text": "A faculty tradition clashes with your personal methods. The next time you study curriculums of your faculty, increase one Study DC by 2.",
               "mightInvolveRival": false
             },
             {
               "roll": 5,
-              "text": "You damage, lose, or overuse academy materials and must pay 10 gp or owe a favor before using that resource again.",
+              "text": "You damage, lose, or overuse academy materials and must pay 1d4*10 gp or owe a favor before using that resource again.",
               "mightInvolveRival": false
             },
             {
               "roll": 6,
-              "text": "A teacher publicly criticizes your technique. You have disadvantage on your next Charisma check involving academy reputation unless you address the criticism.",
+              "text": "A teacher publicly criticizes your technique. You have disadvantage on your next 1d6 social checks involving academy or reputation unless you duel the teacher.",
               "mightInvolveRival": true
             },
             {
               "roll": 7,
-              "text": "Your study group breaks apart over faculty politics, removing the helper bonus from your next Study activity.",
+              "text": "Your study group breaks apart over faculty politics, removing any possible bonus or advatange from your next Study activity.",
               "mightInvolveRival": true
             },
             {
