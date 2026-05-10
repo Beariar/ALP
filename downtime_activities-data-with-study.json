@@ -2357,6 +2357,46 @@
           ]
         },
         {
+          "id": "study_academy_level_dcs",
+          "title": "Study DC by Academy Level",
+          "columns": [
+            "academyLevel",
+            "rank",
+            "dc"
+          ],
+          "rows": [
+            {
+              "academyLevel": 1,
+              "rank": "Mermel",
+              "dc": 13
+            },
+            {
+              "academyLevel": 2,
+              "rank": "Skaut",
+              "dc": 18
+            },
+            {
+              "academyLevel": 3,
+              "rank": "Bojon",
+              "dc": 21
+            },
+            {
+              "academyLevel": 4,
+              "rank": "Hed",
+              "dc": 24
+            },
+            {
+              "academyLevel": 5,
+              "rank": "Jäger",
+              "dc": 27
+            }
+          ],
+          "notes": [
+            "The DC rises with academy level.",
+            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific lesson."
+          ]
+        },
+        {
           "id": "study_results",
           "title": "Study Results",
           "columns": [
