@@ -2218,7 +2218,7 @@
         "suggestedMaximum": 10,
         "startingValue": 0,
         "finalExamUse": "During final exams, reduce the DC of academy-related ability checks and saving throws by 1 for each point of Academy know-how the character has. The suggested maximum DC reduction is 10.",
-        "resetNote": "Note: Each academy level will reset the academy know-how."
+        "resetNote": "Each academy level will reset the academy know-how."
       },
       "resolution": {
        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, but the DM may impose disadvantage on one check or require an in-story reason.",
@@ -2245,7 +2245,6 @@
         ],
         "skillRules": [
           "For faculties with more than one granted skill, the player chooses one unless the DM says the week's lesson requires a specific skill.",
-          "If your campaign treats faculty skills as granted proficiencies, add proficiency as normal.",
           "The DM may pair a faculty skill with a nonstandard ability when it fits the lesson, such as Strength (Intimidation), Intelligence (Survival), or Charisma (Nature)."
         ],
         "modifiers": [
@@ -2261,28 +2260,6 @@
             "bonus": "+1",
             "condition": "Another student who succeeded on Study this same workweek helps the character review.",
             "maximumBonus": "+1"
-          }
-        ],
-         "outcomesBySuccesses": [
-          {
-            "successes": 0,
-            "outcome": "The character falls behind and loses 1 Academy know-how, to a minimum of 0.",
-            "academyKnowHowChange": -1
-          },
-          {
-            "successes": 1,
-            "outcome": "The character keeps up but makes no meaningful progress.",
-            "academyKnowHowChange": 0
-          },
-          {
-            "successes": 2,
-            "outcome": "The character improves their grasp of academy methods and gains 1 Academy know-how.",
-            "academyKnowHowChange": 1
-          },
-          {
-            "successes": 3,
-            "outcome": "The character has an excellent study week and gains 2 Academy know-how.",
-            "academyKnowHowChange": 2
           }
         ],
         "dmGuidance": [
@@ -2391,9 +2368,8 @@
             }
           ],
           "notes": [
-            "The DC rises with academy level.",
-            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific lesson.",
-            "Jäger will not lose the academy know-how and does not have to improve it as it will grant no benefit in exams (as there are none) it can only grant narrative benefits."
+            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific reason or lesson.",
+            "Jäger will not lose the academy know-how due to absence and does not have to improve it as it will grant no benefit in exams (as there are none) it can only grant narrative benefits."
           ]
         },
         {
