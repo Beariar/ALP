@@ -2215,72 +2215,13 @@
         "variableName": "Academy know-how",
         "description": "Academy know-how represents the character's current grasp of the academy's methods, terminology, rituals, expectations, and practical exam habits.",
         "minimum": 0,
-        "suggestedMaximum": 5,
+        "suggestedMaximum": 10,
         "startingValue": 0,
-        "finalExamUse": "During final exams, reduce the DC of academy-related ability checks and saving throws by 1 for each point of Academy know-how the character has. The suggested maximum DC reduction is 5.",
+        "finalExamUse": "During final exams, reduce the DC of academy-related ability checks and saving throws by 1 for each point of Academy know-how the character has. The suggested maximum DC reduction is 10.",
         "resetNote": "Note: Each academy level will reset the academy know-how."
       },
-      "faculties": [
-        {
-          "name": "Absorberi",
-          "dominantAbilities": [
-            "Dexterity",
-            "Charisma"
-          ],
-          "grantedSkills": [
-            "Survival"
-          ],
-          "expectationNote": "These dominant abilities describe what the world tends to expect from students of this faculty; they are not prerequisites for joining."
-        },
-        {
-          "name": "Popravcovia",
-          "dominantAbilities": [
-            "Strength",
-            "Dexterity"
-          ],
-          "grantedSkills": [
-            "Intimidation"
-          ],
-          "expectationNote": "These dominant abilities describe what the world tends to expect from students of this faculty; they are not prerequisites for joining."
-        },
-        {
-          "name": "Krotitelia",
-          "dominantAbilities": [
-            "Charisma",
-            "Intelligence"
-          ],
-          "grantedSkills": [
-            "Persuasion",
-            "Deception"
-          ],
-          "expectationNote": "These dominant abilities describe what the world tends to expect from students of this faculty; they are not prerequisites for joining."
-        },
-        {
-          "name": "Ochrancovia",
-          "dominantAbilities": [
-            "Wisdom",
-            "Strength"
-          ],
-          "grantedSkills": [
-            "Insight"
-          ],
-          "expectationNote": "These dominant abilities describe what the world tends to expect from students of this faculty; they are not prerequisites for joining."
-        },
-        {
-          "name": "Znalci",
-          "dominantAbilities": [
-            "Intelligence",
-            "Wisdom"
-          ],
-          "grantedSkills": [
-            "Investigation",
-            "Nature"
-          ],
-          "expectationNote": "These dominant abilities describe what the world tends to expect from students of this faculty; they are not prerequisites for joining."
-        }
-      ],
       "resolution": {
-        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, but the DM may impose disadvantage on one check or require an in-story reason.",
+        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, IF they intend to witch faculty, but the DM may impose disadvantage on one check or require an in-story reason.",
         "dc": 13,
         "checks": [
           {
@@ -2307,38 +2248,16 @@
         "modifiers": [
           {
             "advantage": true,
-            "condition": "A relevant mentor, tutor, library, laboratory, training hall, or field exercise directly supports the week's study."
+            "condition": "A relevant mentor, tutor, library, laboratory, training hall, or field exercise directly supports the week's study. (Often costs extra effort/time or money)"
           },
           {
             "disadvantage": true,
-            "condition": "The character lacks access to academy resources, is studying the wrong faculty's curriculum, or is trying to catch up after a major absence."
+            "condition": "The character lacks access to academy resources, is studying the wrong faculty's curriculum, or is trying to catch up after a major absence. (Often means less time spend on actvity)"
           },
           {
             "bonus": "+1",
             "condition": "Another student who succeeded on Study this same workweek helps the character review.",
             "maximumBonus": "+1"
-          }
-        ],
-        "outcomesBySuccesses": [
-          {
-            "successes": 0,
-            "outcome": "The character falls behind and loses 1 Academy know-how, to a minimum of 0.",
-            "academyKnowHowChange": -1
-          },
-          {
-            "successes": 1,
-            "outcome": "The character keeps up but makes no meaningful progress.",
-            "academyKnowHowChange": 0
-          },
-          {
-            "successes": 2,
-            "outcome": "The character improves their grasp of academy methods and gains 1 Academy know-how.",
-            "academyKnowHowChange": 1
-          },
-          {
-            "successes": 3,
-            "outcome": "The character has an excellent study week and gains 2 Academy know-how.",
-            "academyKnowHowChange": 2
           }
         ],
         "dmGuidance": [
@@ -2442,8 +2361,8 @@
             }
           ],
           "notes": [
-            "Academy know-how cannot go below 0.",
-            "Suggested maximum Academy know-how is 5 per academy level.",
+            "Academy know-how can go below 0. Then its added to DC on exams.",
+            "Suggested maximum Academy know-how is 10 per academy level.",
             "Note: Each academy level will reset the academy know-how."
           ]
         }
@@ -2506,9 +2425,7 @@
         }
       },
       "notes": [
-        "The faculty dominant abilities are expectations and themes, not entry requirements.",
-        "Faculty skills are intended to matter in Study checks and academy exam scenes.",
-        "Note: Each academy level will reset the academy know-how."
+        "Not participating in study for a month will result in -2 Academy know-how."
       ]
     }
   ]
