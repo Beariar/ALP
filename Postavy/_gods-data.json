@@ -551,7 +551,7 @@
                   "tags": []
                 },
                 {
-                  "deity": "Riana/Zari/Zariana, bohyňa nádeje, pochopenia, prázdnoty a smútku",
+                  "deity": "Riana/Zari/Zariana, bohyňa nádeje/beznádeje/pochopenia",
                   "alignment": "CN",
                   "suggested_domains": "Life, Light, Tempest, Death, War",
                   "symbol": "Čierny Kruh so bielym okrajom alebo jeho opak",
@@ -1553,7 +1553,7 @@
                   "tags": []
                 },
                 {
-                  "deity": "Riana/Zari/Zariana, bohyňa nádeje, pochopenia, prázdnoty a smútku",
+                  "deity": "Riana/Zari/Zariana, bohyňa nádeje/beznádeje/pochopenia",
                   "divine_boon": "Synaptic Static",
                   "divine_boon_list": [
                     "Synaptic Static"
