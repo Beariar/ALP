@@ -538,6 +538,19 @@
                   "tags": []
                 },
                 {
+                  "deity": "Dybok, boh chovnej zvery a kože",
+                  "alignment": "CN",
+                  "suggested_domains": "Life, Nature",
+                  "symbol": "Prsten v nose",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
                   "deity": "Riana/Zari/Zariana, bohyňa nádeje, pochopenia, prázdnoty a smútku",
                   "alignment": "CN",
                   "suggested_domains": "Life, Light, Tempest, Death, War",
@@ -1524,6 +1537,16 @@
                   "divine_boon": "Swift Quiver",
                   "divine_boon_list": [
                     "Swift Quiver"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Dybok, boh chovnej zvery a kože",
+                  "divine_boon": "Stinking Cloud",
+                  "divine_boon_list": [
+                    "Stinking Cloud"
                   ],
                   "description": "",
                   "image": "",
