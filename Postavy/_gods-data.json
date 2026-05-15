@@ -1,0 +1,2518 @@
+{
+  "pageTitle": "Božstvá Axrie",
+  "schemaVersion": "1.0",
+  "source": {
+    "originalFile": "Gods.html",
+    "notes": "Extracted from static HTML. Comments were ignored. Tables keep both display headers and normalized column keys."
+  },
+  "groups": [
+    {
+      "title": "Božstvá",
+      "sections": [
+        {
+          "type": "pantheon",
+          "title": "Všeuznávaný bohovia",
+          "description": "Prvý bohovia. Sú to dve strany rovnakej mince. Ich prítomnosť veci upokojí alebo rozvíry. Pri nich sa veci rodia\na zanikajú. Sú začiatok a koniec existencie. Každá rasa ich v mierne odlišnej podobne uznáva ale všetky vedia,\nže týto bohovia sú príliš vysoko aby si všímali bežné bytosti. Nevnímajú dokonca ani iných bohov aj keď sú im\nčosi ako deti. Keby chceli, keby mali záujem mohli by zničiť celé pantheony bohov, zmeniť svet na nezpoznanie a\nnikto by si ani neuvedomil, že sa niečo také stalo. Týmto bohov sú stavané svätyne ale nikto neroznáša ich\nvieru, ich slovo. Nie je aké slovo, nikoho bohovia neoslovili. Bytosti ich môžu uznávať, môžu sa k nim utiekať a\nmôžu aj pasívne čerpať z ich energie ale týto bohovia im nedajú pomocnú ruku ale ani nepriťažia. Sú nestranný a\nich domény, ak nejaké sú, sú neznáme. Aj ich mená sú skryté ale všeobecne sa volajú Začiatok a Koniec.\n\nOddaný tejto viere nečakajú na večnú spásu alebo zatratenie. Predpokladajú totiž, že tak ako bohovia aj život je\nzačiatok a koniec. Pred životom nie je a nič a po ňom tiež. Duša umiera s telom a tak ako telo je pokrm pre\nprírodu, tak je duša pokrm pre mágiu. Preto žijú veriaci každý deň na plno, vedia, že ak niečo nestihnú tak už\nnikdy nemusia mať možnosť skúsiť to.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "\"Začiatok\"",
+                  "alignment": "---",
+                  "suggested_domains": "---",
+                  "symbol": "---",
+                  "suggested_domains_list": [
+                    "---"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "\"Koniec\"",
+                  "alignment": "---",
+                  "suggested_domains": "---",
+                  "symbol": "---",
+                  "suggested_domains_list": [
+                    "---"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": []
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia ľudí",
+          "description": "Ľudia majú najrozsiahlejší pantheon. Ich bohovia sa starajú o všetko. Niektorých domény sa aj prekrývajú a aj\npreto sú najväčšie spory medzi bohmi ľudí. Tieto spory častokrát riešia traja bratia, vládcovia ostatných bohov.\nRarex, Kybad a Decon boli prvý ľudský bohovia, stvorili svet a ľudí, neskôr spolu vytvorili aj ďalších bohov.\nNiektorým dali život rovnako ako svetu či ľudskej rase, iných pre nich zrodili ľudia. Syrvaad, Geles aj Mirlo,\nboli vytvorené pokrokom a vierou ľudí. Ako rástla civilizácia, vzniklo písmo a začal prvý výmenný obchod vznikly\nbohyne. A prvé bohyne boli to čo dalo za možnosť vzniku nových bohov. Podobne ako aj u ľudí nový bohvia sa mohli\nrodiť. Ako napríklad Revion, ktorého rodičia sú Rarex a Syrvaad, Beau syn Decon a Mirlo, či\nErrasa a Harvien ktorých otec je Kybad a matka je Geles. Takýto bohovia si museli nájsť svoj vlastný smer a\n\"doménu\". Našťastie išli ruka v ruke s pokrokom ľudstva a ich vnímaním sveta. No a v neposlednom rade vznikli\nbohvia vystúpením smrteľníkov. Každý má v sebe kúsok božskej energie, koniec koncov z nej vznikli ale len hŕstka\nju v sebe dokáže objaviť a rozvíjať. Či už skutky, spôsob myslenia alebo\nich unikátny pohľad na život či neukojiteľný hlad. Po tisícročiach bol však len jeden smrteľník, ktorý sa stal\nplným bohom a aj to bolo na sklonku života. Na jeho ľudské meno sa zabudlo a jeho výzor sa stáročiami zmenil,\nMelou je dnes niekto iný než kým bol za svojho smrteľného života.\n\nOkrem týchto bohov existuje vo svete aj veľa polobohov. Deti bohov, ktorých krv nie je dosť silná na to\naby sa považovali za plnohodnotných\nbohov. Preto ani nestarnú tak pomaly ako bohovia a mnohokrát si počas života ani sami neuvedomia aký veľkolepý\nmajú pôvod. Avšak tý, ktorý to zistia nemusia byť len mená legiend ako Dexter Kold, z niektorých sa môžu stať aj\nplnohodnotný bohovia. Z tých najschopnejších polobohov už vznikly viacerý bohovia: Šialený Molex, Asertívna\nErrasa alebo jej nevlastný brat Krvylačný Oker či Večne Spiaci Gocian. Ich cesta nikdy nebola ľahká, teda okrem\nGociana. Najznámanšie cesta je cesta posledného boha z poloboha, Zekkila. On totiž robil všetko preto aby Rohan\nnapísal aj jeho meno do hviezd. Trénoval po celom svete s tými najschopnejšími majstrami, chodil po chrámoch a\nvenoval úctu bohom a s mudrci preberal otázky života.\nJeho dedičstvo ako poloboha bola väčšia sila a bystrá myseľ. Stále bol však zraniteľný a náchylný na\nchoroby ako jeho matka a ostatní smrteľníci. Počas svojho života ako poloboh si veľa vytrpel a veľa stratil.\nMatka mu umrela keď bol maldý a rodiny ktoré prichýlili k nemu nikdy neboli tolerantné. Zekkil bol silný ale nie\nobratný často krát po sebe nechal viac škody ako osohu a neraz ho vyhodili alebo aj predali. Preto má\nspomedzi všetkých bohov k ľuďom najbližšie a často krát kráča svetom a pomáha im. Vie, že čas od času všetci\npotrebujú pomôcť, aj tý \"dobrý\" aj tý \"zlý\". Preto niekedy im pomôže tým, že ich\npostaví pred skúšku, inokedy sám väzme opraty osudu do svojich rúk a napraví krivdu spôsobenú iný človekom alebo\nnebodaj bohom. A práve vtedy sa často krát dostáva pred súd troch bratov.\n\nPočas života sa ľudia snažia konať tak, aby pomohli iným. To ich dostane ďalej od ostrých plameňov podsvetia.\nTotiž ľudia, ktorí cielene ubližujú svojmu okoliu sú, po smrti, Zurrovim tigrom odtiahnutí do útrob podsvetia\nkde sa ich duša šponuje nad ohňom kde pomaly praská na menšie a menšie časti až kým z nej neostane len vesmírny\npopol. Tento proces trvá milénia.\nTí najlepší ľudia, ktorí nevypočítavo pomáhali aj keď im to mohlo priťažiť majú isté miesto v oblakoch. V\noblakoch môže duša opäť prežívať najkrajšie momenty svojho života a nadväzovať na ne. Duša tu starne a však\npomaly, trvá milénia kým sa plne nasýti všetkým blahom a rozplynie sa na vesmírny prach.\n\nExistuje aj miesto medzi, prázdno. Miesto pre duše tých, ktorý pomáhali len so sebeckých dôvodov alebo\nkonali vedome zlo keď vedeli, že sa o tom živá duša nedozvie. Tieto duše v prázdne prechádzajú skúškami, ktoré\nrozhodnú o ich konečnej destinácií.\n\nPantheon ľudských bohov je ozaj komplikovaný ale každý kto vyznáva týchto bohov pozná ich pôvod. Rarex, Kybad a\nDecon boli prvý a od nich sa odvinulo všetko ostatné. Pre tých, ktorý zabudli, tu je diagram božškých pôvodov:",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Rarex, boh oblohy, vetra a búrky",
+                  "alignment": "N",
+                  "suggested_domains": "Tempest",
+                  "symbol": "Pesť s bleskom",
+                  "suggested_domains_list": [
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Kybad, boh zeme a lávy",
+                  "alignment": "N",
+                  "suggested_domains": "Nature",
+                  "symbol": "Ukazovák obliaty lávou",
+                  "suggested_domains_list": [
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Decon, boh morí, oceánov a riek",
+                  "alignment": "N",
+                  "suggested_domains": "Life",
+                  "symbol": "Dlaň vynorená z vody",
+                  "suggested_domains_list": [
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vallor, boh slnka a svetla",
+                  "alignment": "NG",
+                  "suggested_domains": "Light",
+                  "symbol": "Slnko a jeho lúče",
+                  "suggested_domains_list": [
+                    "Light"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zervon, boh mesiaca a tmy",
+                  "alignment": "CG",
+                  "suggested_domains": "Death",
+                  "symbol": "Súhvezdie okolo mesiaca",
+                  "suggested_domains_list": [
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Rohan, boh roka a hviezd",
+                  "alignment": "LG",
+                  "suggested_domains": "Knowledge",
+                  "symbol": "Súhvezdie v roku",
+                  "suggested_domains_list": [
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Oker, boh vojny a sporov",
+                  "alignment": "CE",
+                  "suggested_domains": "War",
+                  "symbol": "Krvavá čepel",
+                  "suggested_domains_list": [
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zurro, boh podsvetia",
+                  "alignment": "LE",
+                  "suggested_domains": "Death, Trickery",
+                  "symbol": "Lebka v plameňoch",
+                  "suggested_domains_list": [
+                    "Death",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Saci, boh radosti a detí",
+                  "alignment": "CG",
+                  "suggested_domains": "Life",
+                  "symbol": "Usmiata maska",
+                  "suggested_domains_list": [
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Beau, boh hudby, slasti a vína",
+                  "alignment": "CN",
+                  "suggested_domains": "Life, Nature",
+                  "symbol": "Bubon s bobulami hrozna",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zael, bohyňa leta, krásny, lásky a vzplanutia",
+                  "alignment": "CG",
+                  "suggested_domains": "Light, Trickery",
+                  "symbol": "Silueta ženy",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Syrvaad, bohyňa múdrosti a civilizácie",
+                  "alignment": "LG",
+                  "suggested_domains": "Knowledge, War",
+                  "symbol": "Dve kolesa",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Harvien, bohyňa agrokultúry",
+                  "alignment": "NG",
+                  "suggested_domains": "Life",
+                  "symbol": "Zväzok obilia",
+                  "suggested_domains_list": [
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Mirlo, bohyňa literatúry a múza",
+                  "alignment": "NG",
+                  "suggested_domains": "Knowledge",
+                  "symbol": "Kniha a pero",
+                  "suggested_domains_list": [
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Errasa, bohyňa lovu a ochrankyňa tehotných",
+                  "alignment": "NG",
+                  "suggested_domains": "Life, Nature",
+                  "symbol": "Prekrížené ruky",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Melou, boh slobody a posol bohov",
+                  "alignment": "LN",
+                  "suggested_domains": "Knowledge, Tempest",
+                  "symbol": "Melouove krídlo",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Javan, boh šťastia a rodiny",
+                  "alignment": "CG",
+                  "suggested_domains": "Life, Trickery",
+                  "symbol": "Otec Matka a dieťa",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Geles, bohyňa ciest a obchodu",
+                  "alignment": "CN",
+                  "suggested_domains": "Trickery",
+                  "symbol": "Preplnený Mešec",
+                  "suggested_domains_list": [
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Drercur, boh mágie a podvedomia",
+                  "alignment": "N",
+                  "suggested_domains": "Knowledge, Nature",
+                  "symbol": "Vševidiace oči",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Dridras, pece, nástrojov a patrón kováčov",
+                  "alignment": "NG",
+                  "suggested_domains": "Light, Nature",
+                  "symbol": "Kovadlina s kladivom",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zekkil, boh odvahy, dobrodružstva a stratégie",
+                  "alignment": "CG",
+                  "suggested_domains": "Tempest, War",
+                  "symbol": "Hlava Leva",
+                  "suggested_domains_list": [
+                    "Tempest",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Gocian, boh prírody a spánku",
+                  "alignment": "CN",
+                  "suggested_domains": "Nature, Death",
+                  "symbol": "Spiaca vypasená Kačka",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Thelvus, boh utrpenia a pomsty",
+                  "alignment": "NE",
+                  "suggested_domains": "Death, Knowledge",
+                  "symbol": "Polámaná Lebka",
+                  "suggested_domains_list": [
+                    "Death",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Haš, boh jesene, hazardu a patrón lupičov",
+                  "alignment": "NE",
+                  "suggested_domains": "Trickery, Tempest",
+                  "symbol": "Deravá minca",
+                  "suggested_domains_list": [
+                    "Trickery",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Liorha, bohyňa inovácie a pravdy",
+                  "alignment": "LN",
+                  "suggested_domains": "Light, Knowledge",
+                  "symbol": "Kryštál štiepajúci svetlo",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Nyxoria, bohyňa snov a iluzií",
+                  "alignment": "CN",
+                  "suggested_domains": "Trickery, Knowledge, Tempest",
+                  "symbol": "Klobúk s vírom",
+                  "suggested_domains_list": [
+                    "Trickery",
+                    "Knowledge",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Davian, boh zimy a tolerancie",
+                  "alignment": "LG",
+                  "suggested_domains": "Nature, Death",
+                  "symbol": "Ľadový kabát",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Haset, boh jary a vetra",
+                  "alignment": "CG",
+                  "suggested_domains": "Tempest, Life",
+                  "symbol": "Plný list",
+                  "suggested_domains_list": [
+                    "Tempest",
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Odizan, boh vášne a poézie",
+                  "alignment": "CN",
+                  "suggested_domains": "Trickery, Knowledge",
+                  "symbol": "Pery",
+                  "suggested_domains_list": [
+                    "Trickery",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tamyda, bohyňa sexu a násila",
+                  "alignment": "CN",
+                  "suggested_domains": "Life, War",
+                  "symbol": "Rhombus",
+                  "suggested_domains_list": [
+                    "Life",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Lokos, boh vtákov a oblakov",
+                  "alignment": "NG",
+                  "suggested_domains": "Nature, Tempest",
+                  "symbol": "Húf vtáčat",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ursox, boh zvierat a inštinktov",
+                  "alignment": "CG",
+                  "suggested_domains": "Nature, Tempest",
+                  "symbol": "Laba s pazúrmi",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Eirich, boh kovu a magnetizmu",
+                  "alignment": "LN",
+                  "suggested_domains": "War, Knowledge",
+                  "symbol": "Zbroj s aurou",
+                  "suggested_domains_list": [
+                    "War",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hellia, bohyňa zdravia a odpustenia",
+                  "alignment": "NG",
+                  "suggested_domains": "Life, Light",
+                  "symbol": "Žiariaca ruka",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Light"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Mirantra, bohyňa ticha a tajomstiev",
+                  "alignment": "NE",
+                  "suggested_domains": "Death, Trickery",
+                  "symbol": "Kniha v reťaziach",
+                  "suggested_domains_list": [
+                    "Death",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Revion, boh presnosti a patrón lukostreľcov",
+                  "alignment": "N",
+                  "suggested_domains": "Trickery, War",
+                  "symbol": "Šíp",
+                  "suggested_domains_list": [
+                    "Trickery",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Riana/Zari/Zariana, bohyňa nádeje, pochopenia, prázdnoty a smútku",
+                  "alignment": "CN",
+                  "suggested_domains": "Life, Light, Tempest, Death, War",
+                  "symbol": "Čierny Kruh so bielym okrajom alebo jeho opak",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Light",
+                    "Tempest",
+                    "Death",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "-💀- Molex, boh Šialenstva a hniloby",
+                  "alignment": "CE",
+                  "suggested_domains": "Life, Death",
+                  "symbol": "Nahnitá lebka",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "-💀- Axon, Boh Rýchlosti a Vojny",
+                  "alignment": "CG",
+                  "suggested_domains": "Light, War, Tempest",
+                  "symbol": "Blesk na kruhu",
+                  "suggested_domains_list": [
+                    "Light",
+                    "War",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonLudi.png",
+              "alt": "PantheonLudi"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Elfov",
+          "description": "Pantheon elfských bohov nie je taký veľký ale pokrýva všetko čo Elfom príde nevyhnutné aby bohovia spravovali.\nPreto tu nie je boh lesa, trávy, stromov alebo niečoho podobného. Elfovia veria, že ich povinnosťou starať sa o\nprírodu a nie je to v rukách bohov. Veria, že oni sú za to zodpovedný a preto si prírodu a všetky zdroje veľmi\nvážia. Vedia, že je len na nich aby im tie zdroje ostali. Bohovia ktorý sa o elfov starajú im dali svetlo a ale\nvšetko biele bolo nejasné. Preto im dali aj tieň a to dalo svet hĺbku. Všetko však vyzeralo rovnako jablko a\nhruška boli iné len na dotyk no z diaľky sa zdali rovnaké. Preto im dali farby a vo svete sa dalo ľahko\norientovať. Svet bol ale nový a Elfovia tiež, nevedeli čo majú robiť, či niečo majú robiť a preto dostali\npocity. Aby vedeli čo ich zaujíma a čoho sa boja. S pocitmi prišiel z neznámeho strach a ten prekonala len\nodvaha. Dokázali potlačiť zbytočný strach a ujasniť si pocity. Boli schopný vydať sa objavovať svet a tak sa\nrozpŕchli. Začali sa jeden druhému strácať a každý žil v inej oblasti. Nenapredovali duševne len svet spoznávali\nlepšie a detailnejšie. Preto im bohovia dali povinnosti. Povinnosť rodiny a starosti. Elfovia sa začali opäť\nvyhľadávať a vytvárať spoločenstvá. Začali napredovať a starať sa o mladých a o svet. Bohovia im nemuseli viac\ndať, Elfovia už mali všetko, jasný fyzický aj duševný svet. Vtedy si bohovia zvolili fyzické schránky s Elfov,\nktorých čas sa končil a chceli sa svojim bohom odvďačiť. Bohovia nechceli aby sa na týchto dobrodincov zabudlo a\npreto si dali po nich mená.\n\nAko sa Elf správa k prírode tak sa posmrtný život správa k nemu. Ralogolor je ten, ktorý posiela Oisu pre dušu\nElfa, tá potom sprevádza dušu do Zelesu alebo Lesopolu. Sú to miesta podobné Lesom Života a Ruinám Temnoty. Nie\nje to preto náhoda, že práve elfovia najviac cestujú do týchto svetov, je to za účelom priblížiť si ako by ich\nposmrtný život mohol vyzerať.\nZeles je miesto, kde lesy nikdy nekončia a stromy nikdy neumrú. Úcta, ktorú elf počas života dával prírode je mu\ntu viac násobné vrátená. Večne plodné, krásne a zdravé lesy plné života a mágie. Každé zviera aj tie\nnajnebezpečnejšie sú tu priateľské a duša elfa tu môže spočívať v harmónii.\n\nTí, ktorý nemali úctu k prírode, neudržiavali si s ňou rovnováhu alebo na úkor prírodných zdrojov hľadali\nosobný zisk skončia v Lesopole. Je to nekonečné miesto plné zdevastovanej prírody. Slizká voda, obhorené alebo\nplesnivé stromy. Vzduch s konštantným zápachom popola a rozkladu. Hladné zvieratá sa plížia mestom a lovia duše\nelfov. Ulovené duše sú bolestivo roztrhané a skonzumované. Keď ich bolesť prestane opäť zacelené precitnú v inej\nčasti Lesopolu.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Elavalur Svetelná",
+                  "alignment": "CG",
+                  "suggested_domains": "Light, Life",
+                  "symbol": "Obrysy bytosti vyžarujúcej lúče",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vacan Tieňový",
+                  "alignment": "CE",
+                  "suggested_domains": "Trickery",
+                  "symbol": "Plásť tmavší ako jeho tieň",
+                  "suggested_domains_list": [
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ralogolor Dúhový",
+                  "alignment": "CN",
+                  "suggested_domains": "Nature",
+                  "symbol": "Rozliate farby",
+                  "suggested_domains_list": [
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Virwraek Boh Citu",
+                  "alignment": "LE",
+                  "suggested_domains": "Knowledge",
+                  "symbol": "Srdce s okom v strede",
+                  "suggested_domains_list": [
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zylhana Boh Povinnosti",
+                  "alignment": "LN",
+                  "suggested_domains": "Death",
+                  "symbol": "Drevené tabuľe",
+                  "suggested_domains_list": [
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Uriqen Boh Odvahy",
+                  "alignment": "LG",
+                  "suggested_domains": "Tempest, War",
+                  "symbol": "Kruhový štíť s mrakom",
+                  "suggested_domains_list": [
+                    "Tempest",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonElfov.png",
+              "alt": "PantheonElfov"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Trpaslíkov",
+          "description": "Trpasličí pantheon má bohov s troma hlavnými doménami. Je to trio kde sa každá doména opäť delí na ďalšie trio.\nZáklad však je Žiara, Hora a Trpaslík. Bohovia žiari dávajú všetko teplo a svetlo, ktoré trpaslíci potrebujú pre\nsvoj život a pre prácu. Bohovia Hory dávajú mieste pre život a všetky potrebné materiály pre prežitie a prácu.\nBohovia trpaslíka sú o niečo komplikovanejší, dávajú trpaslíkom vnútorné ale aj vonkajšie stimulanty. Inšpirujú\nich k tvorbe nového sveta a prostriedkov k tvorbe sveta. Učia ich ako pracovať s tým čo majú a ako sa zlepšiť.\nPopritom ich ale aj chránia. Zuglar je ich večný ochranca, každý trpaslík, ktorý opustí svoj domov verí, že\nZuglar dá pozor na tých doma a jemu ukáže cestu späť.\n\nV každom meste trpaslíkov existuje trojica oporných stĺpov, ktorá reprezentuje jedno trio. V hlavnom\nmeste trpaslíkov stoja tri trojité stĺpy, ktoré reprezentujú všetkých deväť bohov. Každý stĺp má vždy iný vzor,\nvzor reprezentuje jedného s bohov. Uzlun má vlnitý vzor, mnoho rytín, ktoré sa v rozdielnych hĺbkach ťahajú po\nstĺpe. To reprezentuje jeho dych. Trudgru vzor je veľmi komplexný, postavený na viacerých princípoch, ktoré sa\nmedzi sebou neprekrývajú ale dopĺňajú sa navzájom. Princípy sa po dĺžke stĺpu postupne vytrácajú ale z konca sa\nrodia nové princípy. Stĺpy sú hlavným symbolom trpasličej viery. Tie sú však veľmi nepraktické pre tých čo\ncestujú. Aby trpaslíci mali svojich bohov aj pre seba postupne sa vytvorili symboly bohov. Vždy sú symboly\numiestnené v strede kruhu vytvorenom so vzoru boha.\n\nCnosť u trpaslíkov je prínos klanu, dnes už mestu. Trpaslík, ktorý prináša česť a bohatstvo je vykúpený v\nposmrtnom živote tým, že jeho duša smeruje do baní blaha. Trpaslík, ktorý je len na hanbu a príťaž bude\nzatratený na plochej skale. Plochá skala je konečný svet, pokrytý tvrdým kameňom, nenachádza sa tu žiadnej kov\ndosť tvrdý, ktorý by dokázať kameň rozbiť. Svet sužujú silne vetry a plamene rýchlo vyhasínajú. Duše trpaslíkov\ntu putujú pod holým nebom bez nádeje pracovať na svojom remesle. Ich koža sa postupne mení mení na čoraz tvrdší\nkameň, časom oťažia tak, že sa nedokážu hýbať. Neskôr zaspia a stanú sa súčasťou kamenej škrupiny sveta plochej\nskaly.\n\nBane blaha sú domov nie len cnostných trpasličích duší ale aj ich bohov. Okrem rozhovoru a trávenia času so\nsvojim bohom, môže duša preskúmavať nekonečné tunely plné vzácnych kovov a minerálov, alebo môže kopať nový\ntunel. Oheň v peci nikdy nevyhasne, kov nikdy neoxiduje a drevo nehnije. Keď dušu omrzí všetko toho blaho a\npresýti sa všetkým vtedy zaspí vo vlasoch svojho boha a stane sa jeho súčasťou. Toto je tá najvyššia česť akú\nmôže trpaslík dosiahnuť.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Uzlun Dych Pece",
+                  "alignment": "LN",
+                  "suggested_domains": "Death, Trickery",
+                  "symbol": "Dym nad pecou",
+                  "suggested_domains_list": [
+                    "Death",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Alkrer Nositel Ohna",
+                  "alignment": "CE",
+                  "suggested_domains": "Light, Death",
+                  "symbol": "Ruka s faklou",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ghad Matka Tepla",
+                  "alignment": "NG",
+                  "suggested_domains": "Life",
+                  "symbol": "Srdce v ohni",
+                  "suggested_domains_list": [
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ghodlon Tvorca Kamena",
+                  "alignment": "CN",
+                  "suggested_domains": "Nature",
+                  "symbol": "Trojvršie",
+                  "suggested_domains_list": [
+                    "Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Huradin Otec Kovu",
+                  "alignment": "LN",
+                  "suggested_domains": "Tempest",
+                  "symbol": "Meč a štíť",
+                  "suggested_domains_list": [
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Makrak Darca Mineralov",
+                  "alignment": "LE",
+                  "suggested_domains": "Knowledge, Life",
+                  "symbol": "Päťhranný kryštál",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Trudgru Majster Architektúry",
+                  "alignment": "N",
+                  "suggested_domains": "Knowledge",
+                  "symbol": "Zdobené piliere",
+                  "suggested_domains_list": [
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Rundrur Pán Nástrojov",
+                  "alignment": "LG",
+                  "suggested_domains": "Knowledge, Trickery",
+                  "symbol": "Kladivo a krompáč",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Strážca Zuglar",
+                  "alignment": "NG",
+                  "suggested_domains": "War",
+                  "symbol": "Zbroj s bradou",
+                  "suggested_domains_list": [
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonTrpaslikov2.png",
+              "alt": "PantheonTrpaslikov"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Gnomov",
+          "description": "Každý boh v pantheone gnomov má svoj protiklad. Podobne ako magnety sa aj protikladný bohovia priťahujú atak\nvytvárajú páry. Vďaka tomu sa navzájom kontrolujú, usmerňujú ale vedia si aj pomôcť a ustúpiť spoločne tvoria\njedno božstvo a preto väčšinou aj zdieľajú spoločnú domému. Rozdiel je len pri bohov, ktorý sú si tak odlišný,\nže doménu nemajú spoločnú ale napriek tomu tvoria pár. Aj symboly bohov sú vždy v páre. Ak ale niekto veľmi verí\nlen v jedného boha z páru môže si symbol svojho boha vyňať. Gnomovia mu to nebudú maž za zlé ale budú si o ňom\nmyslieť, že je z nejakého nevyrovnaný.\n\nZaujímavosť u bohov Gnomov je, že aj keď tiež majú svojho boha svetla ako mnohé iné rasy u nich ho\nvnímajú ako tú horšiu časť páru. Ako zlého boha. Dôvod je prostý, na svetle sa každý vidí, nie je sa kam skryť\ntak sa všetci tvária milo a priateľsky no v tme sa ukáže pravý charakter. V tme sa dá stratiť, nikto sa nemusí\npretvarovať preto je tma pre Gnomov miesto dobra. Nežijú však život v tme, len čas s novými bytosťami trávia na\ntemnejších miestach. Iné rasy ich majú preto za podozrivých.\n\nVeža poznania a labyrint prázdna sa nachádzajú na jednom mieste. Veža stojí v strede labyrintu ale je tak\nvysoká, že z veže labyrint vyzerá len ako mozaika. Naopak veža z labyrintu vyzerá desivo, jej masívny tieň robí\nv labyrinte aj počas dňa noc a to ešte viac gnomom pripomína o aké výslnie prišli. Veža totiž obsahuje všetky\nznalosti, nie len tie všeobecné, ktoré gnomovia zhromažďujú aj vo svete živých ani len tie mechanické a\nalchymistické, ktoré živý gnomovia tak radi rozširujú, veža obsahuje všetky znalosti sveta. Od receptov na\nliečbu stromov elfov, cez návody na trpasličiu pec až po komplexný opis mechaniky, ktorá sa práve vyvíja. Tu si\ngnomovia prídu na svoje, môžu tu organizovať všetky svoje najodvážnejšie experimenty, pracovať so znalosťami, ku\nktorým predtým nikdy nemali prístup a dokonca ich aj rozšíriť. Časom sa doslova strácajú vo svojich\nexperimentoch a brožúrach, všetko čo robia z nich totiž saje kúsok energie a aj keď duša je ohromný zdroj\nenergie nie je bezodná. Ich energia však nikdy nezmizne a ani oni, len naberú inú podobu. Je to odmena pre tých,\nktorý svoj intelekt a schopnosti využili pre zlepšenie svojej komunity, mesta či sveta. Tí, ktorý sa snažili,\ninovovali a aj cez neúspech sa nevzdali sna o pokroku.\n\nNaopak, tí, ktorý sa nechali odradiť, nemali záujem o zlepšenie a svoje vrodené talenty zneužili pre čo\nnajpohodlnejší život. Tí len hľadia z labyrintu na vežu, hľadajú cestu von ale labyrint sa neustále mení. Nemajú\ns čím pracovať jediný fixný bod je veža ale ani k tej sa nedá priblížiť, všetky cesty smerujúce k nej sa\nkľukatia a končia stenou. V labyrinte je príšerné ticho, nepočuť vlastného slova. Všetky steny sú rovnaké a\nničím sa nedajú označiť. Putujú tu aj iné postavy, bez farby a vnemov. Len pomaly sa pohybujúce siluety,\npripomínajúce tieň. Niekedy sa prudko trhnú jedným smerom, niekedy sa zdá, že kričia ticho ich blokuje. Sú\ndesivé a gnomom sa im snaží vyhnúť. Keď gnomom spozná cestu, cesta sa zmení alebo nie? Je to labyrint, čo sa\nmení alebo zlyháva pamäť? Oboje, labyrint saje všetky znalosti gnomov a oberá ich o schopnosti aj spomienky. Čím\nviac zabúdajú tým viac tmavnú, až napokon, keď zabudnú na svoje meno menia sa na čierne tiene, ktoré bez vedomia\nblúdia labyrintom.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Soztil Svetlý",
+                  "alignment": "LE",
+                  "suggested_domains": "Light, Life",
+                  "symbol": "Padajúce biele perie",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Thely Temná",
+                  "alignment": "CG",
+                  "suggested_domains": "Light, Death",
+                  "symbol": "Tieň peria",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Humplard Hrejivý",
+                  "alignment": "NG",
+                  "suggested_domains": "Nature, Tempest",
+                  "symbol": "Mračná",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Tempest"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Chirnird Chladná",
+                  "alignment": "NE",
+                  "suggested_domains": "Nature, Trickery",
+                  "symbol": "Ľadovec",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Trickery"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tharnid Tichý",
+                  "alignment": "LN",
+                  "suggested_domains": "Knowledge, Life",
+                  "symbol": "Lutna",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zedrad Zvučná",
+                  "alignment": "CN",
+                  "suggested_domains": "Knowledge, War",
+                  "symbol": "Noty",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hozrir Hmotný",
+                  "alignment": "N",
+                  "suggested_domains": "Nature, Knowledge",
+                  "symbol": "Postava Gnoma",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Diard Duchovná",
+                  "alignment": "N",
+                  "suggested_domains": "Life, Death",
+                  "symbol": "Aura obrysujúca gnoma",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonGnomov.png",
+              "alt": "PantheonGnomov"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Orkov",
+          "description": "Trojičky a matka. To je celý pantheon orkov. Veria, že spoločne bratia rozdelili svet aby život na ňom bolo viac\nmiest. Aby sa rozšíril bez toho aby sa zmenila jeho plocha. Bladova kopija s elementami Alnaranuin a hodená\nspolu so silou Tinyho bolo to čo svet dalo do pohybu. Za ich úspechom ale stojí ich matka, tá čo priviedla na\nsvet týchto bohov a tá, ktorá podporuje plodenie mladých a silných orkov či dworkov. Traja bratia orkom stále\npomáhajú ale cena za pomoc je obeta. Títo bohovia vyžadujú obete a orkské mestá im často pripravujú dlhé\nrituálne obety.\n\nSila a odvaha, to dostane orka na Polia Bohov. Tu sa každý deň oslavuje hudbou, jedlom, chlastom a sexom. Bratia\naj ich matka Greneva sa tiež zúčastňujú týchto osláv. Pomedzi to môžu orkovia vyraziť do boja s hoc akým\nprotivníkom. Dokonca môžu vyzvať na boj aj svojich bohov. Ak si však bohov neuctia plným bojovým nasedením tak\nich bohovia pošlú do kostnatých lúk. Okrem toho sa ale dá aj zahynúť, smrť na Polia Bohov nikdy nie je večná, so\nzačiatkom ďalšieho dňa sa orc vráti a opäť môže pokračovať v cykle násilia a zábavy.\n\nZbabelci a slabosi z orkských radov sa dostanú do kostnatých lúk. Prázdnej pláni, kde ork každý deň musí\nčeliť v boji tomu najmocnejšiemu oponentovi. Eventuálne je sám svojim oponentom, nečelí však svojmu odrazu ale\nlepšej verzií seba. Čelí silnej a odvážnej verzií seba, ktorou v živote pokojne mohol byť keby sa snažil.\nKostnaté lúky však dávajú miesto na zlepšenie a po čase je ork schopný prekonať svoje lepšie ja. Toto je jediné\nčo, ho dostane na Polia Bratov.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Bland boh presnosti a jedla",
+                  "alignment": "LG",
+                  "suggested_domains": "Knowledge, Trickery, Death",
+                  "symbol": "Kopija",
+                  "suggested_domains_list": [
+                    "Knowledge",
+                    "Trickery",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tiny boh veľkosti a chlastu",
+                  "alignment": "CE",
+                  "suggested_domains": "War, Nature, Death",
+                  "symbol": "Kladivo",
+                  "suggested_domains_list": [
+                    "War",
+                    "Nature",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Alnaranuin boh elementov a hudby",
+                  "alignment": "CN",
+                  "suggested_domains": "Nature, Tempest, Death",
+                  "symbol": "Blesk",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Tempest",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Grenava bohyňa plodnosti a sexu",
+                  "alignment": "LN",
+                  "suggested_domains": "Life, Light",
+                  "symbol": "Prsia",
+                  "suggested_domains_list": [
+                    "Life",
+                    "Light"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonOrcov.png",
+              "alt": "PantheonOrcov"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Goblinov",
+          "description": "Goblini neveria tak v bohov ako v duchov prírody. Ich bohovia ich zradili a zmanipulovali. Orkský bohovia zabili\nbohov Goblinov a preto ich Goblinu uznávajú ale nemajú v nich takú vieru ako v duchov prírody. Goblini môžu byť\nsúčasť spoločenstva orkshého boha. Môžu byť jeho bojovníci alebo rozprávači jeho slova ale aj tak stále viac\nveria vo svojich duchov. Väčšina duchov je divokých a ako goblini. Duchovia nerobia veci lebo sa im chce, lebo\nmajú moc ako bohovia ale robia lebo je to treba, je to nevyhnutné, je to v ich povahe. Duchovia sa zjavujú v\npodobe zvieraťa ku ktorému patria no nie každé zviera je duch. Goblini sú voči zvieratám opatrný aby neurazili\nduchov no keď vidia veľkú korisť tak lovia lebo to duchovia im zoslali jedlo. Keď vidia len jedno zviera\nsledujúho lebo duch ich možne chce zaviesť za väčšou korisťou alebo im chce niečo ukázať. Často sa preto goblini\nstrácajú v prírode, lebo nikdy nevedia či ich volá duch prírody alebo je to zblúdilá zver. To je aj jeden z\ndôvodov prečo je goblinov tak málo. A najmä keď vezmeme do úvahy, že veľa príšer totiž chodí osamote lesmi a\nčasto sa podobajú na zver. Pri takých sa goblini nie len môžu stratiť ale aj padnúť za korisť.\n\nReinkarnácia je to čo čaká goblinov a ale ako budú reinkarnovaný závisí od ich skutkov v živote. Principiálne\ndivoký goblini sú reinkarnovaný ako zviera alebo kultivovaný goblini sú reinkarnovaný ako vyššia rasa. Goblini\nsa počas svojho života snažia žiť a napodobňovať výzor a vlastnosti, ktoré vidia u toho do čoho sa chcú\nreinkarnovať. Pri tom však nikdy neuctievajú iných bohov. Na rozdiel od iných rás. Goblini totiž vedia, že ak by\nna svojich bohov zanevreli reinkarnácie sa nedočkajú.",
+          "tables": [
+            {
+              "type": "pantheon_deities",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "SUGGESTED DOMAINS",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "suggested_domains",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Líška - Duch vychcanosti",
+                  "alignment": "CE",
+                  "suggested_domains": "Trickery, Light, Knowledge",
+                  "symbol": "Ucho Líšky",
+                  "suggested_domains_list": [
+                    "Trickery",
+                    "Light",
+                    "Knowledge"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Medveď - Duch boja",
+                  "alignment": "CN",
+                  "suggested_domains": "Nature, Tempest, Death",
+                  "symbol": "Laba Medveďa",
+                  "suggested_domains_list": [
+                    "Nature",
+                    "Tempest",
+                    "Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vlk - Duch svorky",
+                  "alignment": "CG",
+                  "suggested_domains": "Light, Nature, War",
+                  "symbol": "Tesáky Vlka",
+                  "suggested_domains_list": [
+                    "Light",
+                    "Nature",
+                    "War"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vydra - Duch vody",
+                  "alignment": "LN",
+                  "suggested_domains": "Life",
+                  "symbol": "Spojene laby vydry",
+                  "suggested_domains_list": [
+                    "Life"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/PantheonGoblinov.png",
+              "alt": "PantheonGoblinov"
+            }
+          ]
+        },
+        {
+          "type": "lore",
+          "title": "Bohovia Halflingov",
+          "description": "Halfingovia sú skutočný ateisti. Nie je to tak, žeby neverili v existenciu bohov. Tá sa nedá spochybniť ale\nneveria, že bohom závisí na živote bežného smrteľníka. Nespoliehajú sa na vieru a ich skutky neriadi strach s\ntoho čo sa im môže stať po smrti. Vedia, že smrť je koniec. Život je len jeden a ten treba žiť na plno. Toto\nmajú spoločné s tými, ktorý sú oddaný viere pre „Začiatok“ a „Koniec“",
+          "tables": [],
+          "deity_details": [],
+          "images": []
+        },
+        {
+          "type": "divine_boons",
+          "title": "Dar od boha",
+          "description": "Bohovia sú rozmanití v povahe, sile aj v tom, čo od smrteľníkov žiadajú. Jedno však majú spoločné: vedia\nprejaviť vďačnosť tým, ktorí im verne slúžia. Táto priazeň sa ukazuje v podobe upravenej mágie, ktorú božská moc\npretvorí podľa svojej vlastnej podstaty.\n\nAk bytosť dokáže zoslať kúzlo, nech už jej moc pochádza z akéhokoľvek zdroja, môže byť toto kúzlo posilnené jej\nbohom. U clericov a paladinov je tento dar ešte výraznejší ak by takéto kúzlo za bežných okolností nedokázali\nzvládnuť, ich boh im môže dovoliť prekročiť vlastné hranice a zoslať ho skrze svoju vôľu.\n\nV tabuľke nižšie sa nachádza prehľad toho, ktorý boh posilňuje ktoré kúzlo.",
+          "tables": [
+            {
+              "type": "divine_boons",
+              "headers": [
+                "DEITY",
+                "Divine Boon"
+              ],
+              "columns": [
+                "deity",
+                "divine_boon"
+              ],
+              "rows": [
+                {
+                  "deity": "Rarex, boh oblohy, vetra a búrky",
+                  "divine_boon": "Call Lightning",
+                  "divine_boon_list": [
+                    "Call Lightning"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Kybad, boh zeme a lávy",
+                  "divine_boon": "Erupting Earth",
+                  "divine_boon_list": [
+                    "Erupting Earth"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Decon, boh morí, oceánov a riek",
+                  "divine_boon": "Tidal Wave",
+                  "divine_boon_list": [
+                    "Tidal Wave"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vallor, boh slnka a svetla",
+                  "divine_boon": "Sunbeam",
+                  "divine_boon_list": [
+                    "Sunbeam"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zervon, boh mesiaca a tmy",
+                  "divine_boon": "Moonbeam",
+                  "divine_boon_list": [
+                    "Moonbeam"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Rohan, boh roka a hviezd",
+                  "divine_boon": "Moonbeam",
+                  "divine_boon_list": [
+                    "Moonbeam"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Oker, boh vojny a sporov",
+                  "divine_boon": "Steel Wind Strike",
+                  "divine_boon_list": [
+                    "Steel Wind Strike"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zurro, boh podsvetia",
+                  "divine_boon": "Finger of Death",
+                  "divine_boon_list": [
+                    "Finger of Death"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Saci, boh radosti a detí",
+                  "divine_boon": "Tasha's Hideous Laughter",
+                  "divine_boon_list": [
+                    "Tasha's Hideous Laughter"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Beau, boh hudby, slasti a vína",
+                  "divine_boon": "Otto’s Irresistible Dance",
+                  "divine_boon_list": [
+                    "Otto’s Irresistible Dance"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zael, bohyňa leta, krásny, lásky a vzplanutia",
+                  "divine_boon": "Charm Monster",
+                  "divine_boon_list": [
+                    "Charm Monster"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Syrvaad, bohyňa múdrosti a civilizácie",
+                  "divine_boon": "Skill Empowerment",
+                  "divine_boon_list": [
+                    "Skill Empowerment"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Harvien, bohyňa agrokultúry",
+                  "divine_boon": "Plant Growth",
+                  "divine_boon_list": [
+                    "Plant Growth"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Mirlo, bohyňa literatúry a múza",
+                  "divine_boon": "Suggestion",
+                  "divine_boon_list": [
+                    "Suggestion"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Errasa, bohyňa lovu a ochrankyňa tehotných",
+                  "divine_boon": "Hunter’s Mark",
+                  "divine_boon_list": [
+                    "Hunter’s Mark"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Melou, boh slobody a posol bohov",
+                  "divine_boon": "Sending",
+                  "divine_boon_list": [
+                    "Sending"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Javan, boh šťastia a rodiny",
+                  "divine_boon": "Fortune's Favor",
+                  "divine_boon_list": [
+                    "Fortune's Favor"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Geles, bohyňa ciest a obchodu",
+                  "divine_boon": "Dimension Door",
+                  "divine_boon_list": [
+                    "Dimension Door"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Drercur, boh mágie a podvedomia",
+                  "divine_boon": "Detect Magic",
+                  "divine_boon_list": [
+                    "Detect Magic"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Dridras, pece, nástrojov a patrón kováčov",
+                  "divine_boon": "Magic Weapon",
+                  "divine_boon_list": [
+                    "Magic Weapon"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zekkil, boh odvahy, dobrodružstva a stratégie",
+                  "divine_boon": "Heroism",
+                  "divine_boon_list": [
+                    "Heroism"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Gocian, boh prírody a spánku",
+                  "divine_boon": "Sleep",
+                  "divine_boon_list": [
+                    "Sleep"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Thelvus, boh utrpenia a pomsty",
+                  "divine_boon": "Shadow of Moil",
+                  "divine_boon_list": [
+                    "Shadow of Moil"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Haš, boh jesene, hazardu a patrón lupičov",
+                  "divine_boon": "Wither and Bloom",
+                  "divine_boon_list": [
+                    "Wither and Bloom"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Liorha, bohyňa inovácie a pravdy",
+                  "divine_boon": "Identify",
+                  "divine_boon_list": [
+                    "Identify"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Nyxoria, bohyňa snov a iluzií",
+                  "divine_boon": "Dream",
+                  "divine_boon_list": [
+                    "Dream"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Davian, boh zimy a tolerancie",
+                  "divine_boon": "Cone of Cold",
+                  "divine_boon_list": [
+                    "Cone of Cold"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Haset, boh jary a vetra",
+                  "divine_boon": "Gust of Wind",
+                  "divine_boon_list": [
+                    "Gust of Wind"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Odizan, boh vášne a poézie",
+                  "divine_boon": "Enthrall",
+                  "divine_boon_list": [
+                    "Enthrall"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tamyda, bohyňa sexu a násila",
+                  "divine_boon": "Dominate Person",
+                  "divine_boon_list": [
+                    "Dominate Person"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Lokos, boh vtákov a oblakov",
+                  "divine_boon": "Fly",
+                  "divine_boon_list": [
+                    "Fly"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ursox, boh zvierat a inštinktov",
+                  "divine_boon": "Guardian of Nature",
+                  "divine_boon_list": [
+                    "Guardian of Nature"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Eirich, boh kovu a megnetizmu",
+                  "divine_boon": "Barkskin",
+                  "divine_boon_list": [
+                    "Barkskin"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hellia, bohyňa zdravia a odpustenia",
+                  "divine_boon": "Healing Spirit",
+                  "divine_boon_list": [
+                    "Healing Spirit"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Mirantra, bohyňa ticha a tajomstiev",
+                  "divine_boon": "Pass Without Trace",
+                  "divine_boon_list": [
+                    "Pass Without Trace"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Revion, boh presnosti a patrón lukostreľcov",
+                  "divine_boon": "Swift Quiver",
+                  "divine_boon_list": [
+                    "Swift Quiver"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Riana/Zari/Zariana, bohyňa nádeje, pochopenia, prázdnoty a smútku",
+                  "divine_boon": "Synaptic Static",
+                  "divine_boon_list": [
+                    "Synaptic Static"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "-💀- Molex, boh Šialenstva a hniloby",
+                  "divine_boon": "Enervation",
+                  "divine_boon_list": [
+                    "Enervation"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "-💀- Axon, Boh Rýchlosti a Vojny",
+                  "divine_boon": "Haste",
+                  "divine_boon_list": [
+                    "Haste"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Bland boh presnosti",
+                  "divine_boon": "Hero’s Feast\nHunter’s Mark\nSteel Wind Strike",
+                  "divine_boon_list": [
+                    "Hero’s Feast",
+                    "Hunter’s Mark",
+                    "Steel Wind Strike"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tiny boh veľkosti",
+                  "divine_boon": "Enlarge/Reduce\nEnhance Ability (Bear’s Endurance)\nSpirit Guardians",
+                  "divine_boon_list": [
+                    "Enlarge/Reduce",
+                    "Enhance Ability (Bear’s Endurance)",
+                    "Spirit Guardians"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Alnaranuin boh elementov",
+                  "divine_boon": "Thunderwave\nChaos Bolt\nShatter",
+                  "divine_boon_list": [
+                    "Thunderwave",
+                    "Chaos Bolt",
+                    "Shatter"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Grenava bohyňa plodnosti",
+                  "divine_boon": "Cure Wounds\nLesser Restoration\nAura of Vitality",
+                  "divine_boon_list": [
+                    "Cure Wounds",
+                    "Lesser Restoration",
+                    "Aura of Vitality"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Líška",
+                  "divine_boon": "Disguise Self\nSilent Image / Major Image\nCharm Person",
+                  "divine_boon_list": [
+                    "Disguise Self",
+                    "Silent Image / Major Image",
+                    "Charm Person"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Medveď",
+                  "divine_boon": "Enhance Ability (Bear’s Endurance)\nThunderwave\nWrathful Smite",
+                  "divine_boon_list": [
+                    "Enhance Ability (Bear’s Endurance)",
+                    "Thunderwave",
+                    "Wrathful Smite"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vlk",
+                  "divine_boon": "Hunter’s Mark\nBless\nPass Without Trace",
+                  "divine_boon_list": [
+                    "Hunter’s Mark",
+                    "Bless",
+                    "Pass Without Trace"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vydra",
+                  "divine_boon": "Create or Destroy Water\nCure Wounds\nFreedom of Movement",
+                  "divine_boon_list": [
+                    "Create or Destroy Water",
+                    "Cure Wounds",
+                    "Freedom of Movement"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Elavalur Svetelná",
+                  "divine_boon": "Daylight\nBeacon of Hope\nTruelight Soulflare",
+                  "divine_boon_list": [
+                    "Daylight",
+                    "Beacon of Hope",
+                    "Truelight Soulflare"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vacan Tieňový",
+                  "divine_boon": "Darkness\nPass Without Trace\nShadow Blade",
+                  "divine_boon_list": [
+                    "Darkness",
+                    "Pass Without Trace",
+                    "Shadow Blade"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ralogolor Dúhový",
+                  "divine_boon": "Faerie Fire\nSalvation by Rainbow Butterflies\nPrismatic Spray",
+                  "divine_boon_list": [
+                    "Faerie Fire",
+                    "Salvation by Rainbow Butterflies",
+                    "Prismatic Spray"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Virwraek Boh Citu",
+                  "divine_boon": "Calm Emotions\nDetect Thoughts\nSuggestion",
+                  "divine_boon_list": [
+                    "Calm Emotions",
+                    "Detect Thoughts",
+                    "Suggestion"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zylhana Boh Povinnosti",
+                  "divine_boon": "Zone of Truth\nMoons Reincarnation\nRevivify",
+                  "divine_boon_list": [
+                    "Zone of Truth",
+                    "Moons Reincarnation",
+                    "Revivify"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Uriqen Boh Odvahy",
+                  "divine_boon": "Heroism\nDivine Presence\nThunderous Smite",
+                  "divine_boon_list": [
+                    "Heroism",
+                    "Divine Presence",
+                    "Thunderous Smite"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Uzlun Dych Pece",
+                  "divine_boon": "Heat Metal\nCloudkill\nBlindness/Deafness",
+                  "divine_boon_list": [
+                    "Heat Metal",
+                    "Cloudkill",
+                    "Blindness/Deafness"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Alkrer Nositel Ohna",
+                  "divine_boon": "Heat Metal\nFlame Strike\nInvestiture of Flame",
+                  "divine_boon_list": [
+                    "Heat Metal",
+                    "Flame Strike",
+                    "Investiture of Flame"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ghad Matka Tepla",
+                  "divine_boon": "Heat Metal\nAura of Vitality\nProtection from Energy",
+                  "divine_boon_list": [
+                    "Heat Metal",
+                    "Aura of Vitality",
+                    "Protection from Energy"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ghodlon Tvorca Kamena",
+                  "divine_boon": "Stone Shape\nWall of Stone\nMeld into Stone",
+                  "divine_boon_list": [
+                    "Stone Shape",
+                    "Wall of Stone",
+                    "Meld into Stone"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Huradin Otec Kovu",
+                  "divine_boon": "Stone Shape\nMagic Weapon\nShield of Faith",
+                  "divine_boon_list": [
+                    "Stone Shape",
+                    "Magic Weapon",
+                    "Shield of Faith"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Makrak Darca Mineralov",
+                  "divine_boon": "Stone Shape\nIdentify\nSalvation by Rainbow Butterflies",
+                  "divine_boon_list": [
+                    "Stone Shape",
+                    "Identify",
+                    "Salvation by Rainbow Butterflies"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Trudgru Majster Architektúry",
+                  "divine_boon": "Enhance Ability\nGlyph of Warding\nArcane Eye",
+                  "divine_boon_list": [
+                    "Enhance Ability",
+                    "Glyph of Warding",
+                    "Arcane Eye"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Rundrur Pán Nástrojov",
+                  "divine_boon": "Enhance Ability\nCreation\nAnimate Objects",
+                  "divine_boon_list": [
+                    "Enhance Ability",
+                    "Creation",
+                    "Animate Objects"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Strážca Zuglar",
+                  "divine_boon": "Enhance Ability\nSpirit Guardians\nShield of Faith",
+                  "divine_boon_list": [
+                    "Enhance Ability",
+                    "Spirit Guardians",
+                    "Shield of Faith"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Soztil Svetlý",
+                  "divine_boon": "Invisibility\nDeath Ward\nZone of Truth",
+                  "divine_boon_list": [
+                    "Invisibility",
+                    "Death Ward",
+                    "Zone of Truth"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Thely Temná",
+                  "divine_boon": "Invisibility\nDarkness\nBlindness/Deafness",
+                  "divine_boon_list": [
+                    "Invisibility",
+                    "Darkness",
+                    "Blindness/Deafness"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Humplard Hrejivý",
+                  "divine_boon": "Call Lightning\nFireball\nScorching Ray",
+                  "divine_boon_list": [
+                    "Call Lightning",
+                    "Fireball",
+                    "Scorching Ray"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Chirnird Chladná",
+                  "divine_boon": "Call Lightning\nSleet Storm\nCone of Cold",
+                  "divine_boon_list": [
+                    "Call Lightning",
+                    "Sleet Storm",
+                    "Cone of Cold"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Tharnid Tichý",
+                  "divine_boon": "Silence\nCalm Emotions\nCounterspell",
+                  "divine_boon_list": [
+                    "Silence",
+                    "Calm Emotions",
+                    "Counterspell"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Zedrad Zvučná",
+                  "divine_boon": "Silence\nShatter\nThunderwave",
+                  "divine_boon_list": [
+                    "Silence",
+                    "Shatter",
+                    "Thunderwave"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hozrir Hmotný",
+                  "divine_boon": "Animate Objects\nShield of Faith\nMagic Weapon",
+                  "divine_boon_list": [
+                    "Animate Objects",
+                    "Shield of Faith",
+                    "Magic Weapon"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Diard Duchovná",
+                  "divine_boon": "Animate Objects\nSpeak with Dead\nRevivify",
+                  "divine_boon_list": [
+                    "Animate Objects",
+                    "Speak with Dead",
+                    "Revivify"
+                  ],
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "title": "Božstvá Iných svetov",
+      "sections": [
+        {
+          "type": "lore",
+          "title": "Viera bez hraníc",
+          "description": "Viera nepozná hranice, sila bohov však áno. V Axrií vládnu viaceré božstvá ale ich sila na iných svetoch je\nznačne limitovaná. To platí aj naopak, bohovia z ďalekých svetov majú svojich uctievačov aj v Axrií ale je to\nvzácny úkaz. Prevažne sa viaže na cestovateľov z iných svetov, ktorý so sebou priniesli aj svoju vieru. Najmä\nClerici sú oddaný jednému bohovi a vieru neupúštajú ani keď sú od svojho boha takmer na nedosiahnutie. Niekedy\njediná stopa po bohovi v danom svete, je len viera jeho oddaného služobníka a tá dáva možnosť bohovi do sveta\nnahliadnuť. Práve toto bohovia využívajú na nenápadné sledovanie iných svetov, keby sa zjavili priamo riskujú\nsvoju existenciu, ale takto, riskujú len existanciu svojho služobníka. Väčšina bohov to preto nerobí, ale hŕstka\nsa nájde. Najmä bohovia z Ruin Temnoty sa snažia nájsť si miesto v Axrií a uchmatnúť si moc pre seba. Čím viac\nslužobníkov vo svete majú, tým sú ľahšie sa im nenápadné do sveta preniká. Je preto dobré mať prehľad o bohoch\niných svetov, dobrudruh tak lepšie vie odhadnúť či návštevníkov boh môže byť hrozba alebo priateľ.",
+          "tables": [],
+          "deity_details": [],
+          "images": []
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Ruin Temnoty",
+          "description": "Bohovia tu nie sú uctievaní tak, ako v Axrií. Nie sú tu žiadne veľkolepé chrámy, žiadne radostné hymny. Ich mená\nsú šepkané, vytesané do múrov alebo stonané počas bezsenných nocí. Tieto božstvá nevdýchli svetu život, ale\nprehĺbili smrť. Väčšina bohov je viac obávaná ako uctievaná. Hovoriť o Ruinách Temnoty je pozvánka pre uši\nUmbriany, a ani slabnúce teplo Eiry vás pred Umbrianov neschová. V Ruinách Temnoty sa nedá vyhnúť ani\nkvíleniu Oa a ak nemáte šťastie skončíte v železnom zovretí Vokthuuna. Prebývať tu znamená žiť pod ozvenou\nDonovej päste a zmieriť sa so skrútenou pravdou Nyssarovho pohľadu.",
+          "tables": [
+            {
+              "type": "pantheon_deities_external",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "TITLE",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "title",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Umbriana",
+                  "alignment": "LE",
+                  "title": "Pani tieňov",
+                  "symbol": "Koruna tieňov",
+                  "description": "Umbriana nie je len bohyňou tieňa – ona je tieňom. Každá vrhnutá silueta je šepot jej vôle. Vidí všetko cez\nzávoje temnoty a dokonca aj bohovia sú obozretný pred jej všadeprítomným pohľadom. Jej hlas takmer nepočuť, no\njej prítomnosť je nezameniteľná ako keby sa stále niekto nachádzal na v periférií pohľadu.\n\nOdetá v korune večnej noci a skrúteného ticha, Umbriana nevládne hrubou silou, ale vševedúcnosťou a\nnevyspytaeľnostou. Je vzývaná v chvíľach tajomstva, zrady a jej nasledovníci sú tí, ktorí sa pohybujú\nneviditeľne: špióni, smútiaci a tí, ktorí musia prejsť svetom bez povšimnutia.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Eira",
+                  "alignment": "NG",
+                  "title": "Posledný uhlík",
+                  "symbol": "Kamenné Uhlie",
+                  "description": "Kedysi žiarivá bohyňa života a svetla, v neustále tmavších Ruinach Temnoty, Eira prežíva len ťažko. Jej podoba\npripomína starú kôru, je spálená a popraskaná, zvnútra žiari jemným jantárovým svetlom. Jej svetlo je posledná\nspomienka na teplo vo svete, ktorý nepozná čo je slnko.\n\nJej nasledovníkov je najmenej, lebo jej oddaní sú lovený. Strážcovia posvätných ohňov, sirotských útulkov a tí,\nktorí v sebe nesú neumierajúcu nádej, nikto z nich nemá v Ruiách Temnoty doprianý pokoj. Eira ale nie je\npomstychtivá ani nezúri, nemá na to už síl. Jednoducho vydrží a pomôže kde môže. Jej prítomnosť najviac pociťujú\ntí, ktorí sú na pokraji smrti alebo zúfalstva, lebo len tí, ktorý sú v tme najhlbšie môžu zazrieť jej svetlo.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Oa",
+                  "alignment": "CN",
+                  "title": "Smútočný zbor",
+                  "symbol": "Miznúce echo",
+                  "description": "Oa nie je bežná bytosť, ale zbor, neustále rastúci kolektív nariekajúcich duší zlúčených do jedného božského\nnáreku. Nemá telo ani tvár, iba nekonečné hlas smútku. Ich fádna podoba sa objavuje v hmle, vetre ale ich nárek\npočuť všade, zdroj sa však nájsť nedá. Oa nevyhľadáva uctievanie, to príde samo prostredníctvom spoločného\nutrpenia.\n\nOa stelesňuje stratu, ktorá nikdy nebola skutočne oplakaná: zabudnuté deti, vymazané dejiny, umlčané tragédie.\nUznávajúci Oa nespievajú pre jej chválu, ale pre pripomenutie, že aj spomienky sú zabudnuté.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Vokthuun",
+                  "alignment": "LN",
+                  "title": "Otec reťazí",
+                  "symbol": "Prst v oku reťaze",
+                  "description": "Chladnokrvý, obrovský a nesmierne starobylý, Vokthuun je žalárnikom zatratených. Dokonca aj iný bohovia môžu ním\nbyť spútaní. Každá reťaz ovinutá okolo jeho tela predstavuje dušu alebo entitu, ktorú drží vo večnom zajatí, nie\nz krutosti, ale z povinnosti.\n\nUctievajú ho tí, ktorí uzamykajú nebezpečné vedomosti a bytosti. Sú to strážcovia poriadku a ticha. Lebo mlčanie\nVokrhuuna je legendou; hovorí sa, že od úsvitu času prehovoril iba raz, aby pevne spútal boha, ktorý takmer\nzničil samotnú smrť.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Nyssar",
+                  "alignment": "E",
+                  "title": "Krvácajúce zrkadlo",
+                  "symbol": "Viac odrazov v zrkadle",
+                  "description": "Nyssar je bohom sebaklamu, halucinácií a vnútorného trápenia. Pozrieť sa do jedného z jeho posvätných zrkadiel\nznamená vidieť svoju najpravdivejšiu lož: verziu seba samého, ktorej sa bojíš, po ktorej túžiš, ktorú popieraš,\nktorú si nahováraš, ktorú, ktorú, ktorú.... Nikdy nevieš, čo tam môžeš uvidieť ale zanecháto v tebe väčnú jazvu.\nBohovia to nepriznajú ale sami odvracajú svoj pohľad od zrkladiel Nyssara.\n\nS tvárou posiatou krvou a zlomeným úškrnom je uctievaný všakde kde je pravda tiež rozbitá a krvavá. Často však\nsleduje tých, ktorí manipulujú s ostatnými alebo nevodome aj so sebou samými. Nyssar ich sleduje z odrazu a\npostupne vlieva viac šialenstva do ich klamstie. Veď šialenstvo nie je kliatba, ale dar.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Don",
+                  "alignment": "CE",
+                  "title": "Päsť temnoty",
+                  "symbol": "Pesť prázdneho ohňa",
+                  "description": "Bojovník s hnevom bohov, ktorý rozbil božské brány a zaujal svoje miesto násilím, Don je prejavom hrubej sily.\nJeho svaly sa vlnia ako priepasť a jeho oči horia studenou túžnou po moci. Nepresviedča, ale rozkazuje. Božstvo\nsi vydobyl holými rukami a nebyť jeho rešketu zo skrytej moci Umbriany celé Ruiny Temnoty by boli pretvorené na\njeho vlastný násilný obraz.\n\nDon pohŕda jemnosťou. Jeho nasledovníci sú vojvodcovia, tyrani a fanatici, ktorí veria, že jedine moc\nospravedlňuje všetko. Jeho následovníci nesmú používať ani svätenú vodu, musí to byť svätená krv.",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [
+            {
+              "title": "Umbriana, Pani tieňov",
+              "deity": "Umbriana",
+              "description": "Umbriana nie je len bohyňou tieňa – ona je tieňom. Každá vrhnutá silueta je šepot jej vôle. Vidí všetko cez\nzávoje temnoty a dokonca aj bohovia sú obozretný pred jej všadeprítomným pohľadom. Jej hlas takmer nepočuť, no\njej prítomnosť je nezameniteľná ako keby sa stále niekto nachádzal na v periférií pohľadu.\n\nOdetá v korune večnej noci a skrúteného ticha, Umbriana nevládne hrubou silou, ale vševedúcnosťou a\nnevyspytaeľnostou. Je vzývaná v chvíľach tajomstva, zrady a jej nasledovníci sú tí, ktorí sa pohybujú\nneviditeľne: špióni, smútiaci a tí, ktorí musia prejsť svetom bez povšimnutia."
+            },
+            {
+              "title": "Eira, Posledný uhlík",
+              "deity": "Eira",
+              "description": "Kedysi žiarivá bohyňa života a svetla, v neustále tmavších Ruinach Temnoty, Eira prežíva len ťažko. Jej podoba\npripomína starú kôru, je spálená a popraskaná, zvnútra žiari jemným jantárovým svetlom. Jej svetlo je posledná\nspomienka na teplo vo svete, ktorý nepozná čo je slnko.\n\nJej nasledovníkov je najmenej, lebo jej oddaní sú lovený. Strážcovia posvätných ohňov, sirotských útulkov a tí,\nktorí v sebe nesú neumierajúcu nádej, nikto z nich nemá v Ruiách Temnoty doprianý pokoj. Eira ale nie je\npomstychtivá ani nezúri, nemá na to už síl. Jednoducho vydrží a pomôže kde môže. Jej prítomnosť najviac pociťujú\ntí, ktorí sú na pokraji smrti alebo zúfalstva, lebo len tí, ktorý sú v tme najhlbšie môžu zazrieť jej svetlo."
+            },
+            {
+              "title": "Oa, Smútočný zbor",
+              "deity": "Oa",
+              "description": "Oa nie je bežná bytosť, ale zbor, neustále rastúci kolektív nariekajúcich duší zlúčených do jedného božského\nnáreku. Nemá telo ani tvár, iba nekonečné hlas smútku. Ich fádna podoba sa objavuje v hmle, vetre ale ich nárek\npočuť všade, zdroj sa však nájsť nedá. Oa nevyhľadáva uctievanie, to príde samo prostredníctvom spoločného\nutrpenia.\n\nOa stelesňuje stratu, ktorá nikdy nebola skutočne oplakaná: zabudnuté deti, vymazané dejiny, umlčané tragédie.\nUznávajúci Oa nespievajú pre jej chválu, ale pre pripomenutie, že aj spomienky sú zabudnuté."
+            },
+            {
+              "title": "Vokthuun, Otec reťazí",
+              "deity": "Vokthuun",
+              "description": "Chladnokrvý, obrovský a nesmierne starobylý, Vokthuun je žalárnikom zatratených. Dokonca aj iný bohovia môžu ním\nbyť spútaní. Každá reťaz ovinutá okolo jeho tela predstavuje dušu alebo entitu, ktorú drží vo večnom zajatí, nie\nz krutosti, ale z povinnosti.\n\nUctievajú ho tí, ktorí uzamykajú nebezpečné vedomosti a bytosti. Sú to strážcovia poriadku a ticha. Lebo mlčanie\nVokrhuuna je legendou; hovorí sa, že od úsvitu času prehovoril iba raz, aby pevne spútal boha, ktorý takmer\nzničil samotnú smrť."
+            },
+            {
+              "title": "Nyssar, Krvácajúce zrkadlo",
+              "deity": "Nyssar",
+              "description": "Nyssar je bohom sebaklamu, halucinácií a vnútorného trápenia. Pozrieť sa do jedného z jeho posvätných zrkadiel\nznamená vidieť svoju najpravdivejšiu lož: verziu seba samého, ktorej sa bojíš, po ktorej túžiš, ktorú popieraš,\nktorú si nahováraš, ktorú, ktorú, ktorú.... Nikdy nevieš, čo tam môžeš uvidieť ale zanecháto v tebe väčnú jazvu.\nBohovia to nepriznajú ale sami odvracajú svoj pohľad od zrkladiel Nyssara.\n\nS tvárou posiatou krvou a zlomeným úškrnom je uctievaný všakde kde je pravda tiež rozbitá a krvavá. Často však\nsleduje tých, ktorí manipulujú s ostatnými alebo nevodome aj so sebou samými. Nyssar ich sleduje z odrazu a\npostupne vlieva viac šialenstva do ich klamstie. Veď šialenstvo nie je kliatba, ale dar."
+            },
+            {
+              "title": "Don, Päsť temnoty",
+              "deity": "Don",
+              "description": "Bojovník s hnevom bohov, ktorý rozbil božské brány a zaujal svoje miesto násilím, Don je prejavom hrubej sily.\nJeho svaly sa vlnia ako priepasť a jeho oči horia studenou túžnou po moci. Nepresviedča, ale rozkazuje. Božstvo\nsi vydobyl holými rukami a nebyť jeho rešketu zo skrytej moci Umbriany celé Ruiny Temnoty by boli pretvorené na\njeho vlastný násilný obraz.\n\nDon pohŕda jemnosťou. Jeho nasledovníci sú vojvodcovia, tyrani a fanatici, ktorí veria, že jedine moc\nospravedlňuje všetko. Jeho následovníci nesmú používať ani svätenú vodu, musí to byť svätená krv."
+            }
+          ],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Pantheon_RuinyTemnoty_1.jpg",
+              "alt": "Pantheon_RuinyTemnoty"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Lesov Života",
+          "description": "Božstvá lesov života začali ako drobné tvory vo svete, ktorý vznikol ako protiváha voči tichu a prázdnu, ktoré\nplieni každú existenciu. Tu to životom prekypuje a nie vďaka bohom. Neboli to bohvia, ktorý dali tomuto svetu\nživot ale bol to svet, ktorý dal život týmto bohom. Každý z nich má svoju podstatu vtkanú a prepletenú so svetom\nako takým. Ich radosť, ich úsilie a nápady sú radosti, starosti a úsilia sveta ako takého. Každý je len iná\nosobnosť sveta a keďže Lesy Života prekypujú energiou, vášňou a často krát sa tu bytosť stratí v krásnom chaose,\ntak niekedy aj bohovia sa vedia medzi sebou nezhodnúť. Preto je tu Kráľom bohov Levoslav, prvý z bohov, ochranca\nlesov a priateľ všetkých duší v núdzi o pomoc.",
+          "tables": [
+            {
+              "type": "pantheon_deities_external",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "TITLE",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "title",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Levoslav",
+                  "alignment": "LG",
+                  "title": "Kráľ lesov",
+                  "symbol": "Strom s kovovími listami",
+                  "description": "Narodil sa, keď prvé stromy rozpukali zemskú kôru sveta. Je najstaršou dušou Lesov Života. Mohutný, obrnený a s\nmúdrosťou vekov je Levoslav nie len vodcom ale aj srdcom bohov.\n\nNevládne prostredníctvom sily, ale prostredníctvom rešpektu. Ostatné božstvá sa k nemu obracajú, keď ich premôže\nchaos alebo keď vášne iskria. Súdi trpezlivo a je pokojný no keď treba bráni lesy s hnevom milénií. Je priateľom\ncestovateľov, ochrancom bezhlasných a tichým svedkom všetkého čo sa deje pod stromami.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Sandrina",
+                  "alignment": "CG",
+                  "title": "Matka tmy",
+                  "symbol": "Koruna svetlušiek",
+                  "description": "Sandrina nie je nositeľkou smrti, ale jej strážkyňou, svedkom a poslednou láskyplnosťou. Tam, kde Miadra vdýchne\nlesom divoký život, Sandrina zabezpečí, aby žiadny život neskončil zabudnutý alebo nemilovaný. Je pokojná,\nvšadeprítomná a nekonečne trpezlivá, neprichádza s kosou, ale s tichom noci a jemnou žiarou svetlušiek.\n\nNevidená kráča medzi smútiacimi a kladie ruky na trasúce sa plecia aby im priniesla pokoj. Zosnulých sem berie\nso sebou a dopraje im tak posledný pohľad na to koho opúšťajú a ako sú im všetci vďačný, že boli. Nesúdi, len\nich v pokoji berie ďalej.\n\nMnohí sa jej boja, ako sa všetci boja smrti, ale tí, ktorí ju poznajú, ju uctievajú v tichej vďačnosti a\npiesňach pokoja. Pretože bez nej by bol aj ten najkrajší život neúplný.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Xom",
+                  "alignment": "NG",
+                  "title": "Tkáčka súmraku",
+                  "symbol": "Niť nočnej oblohy",
+                  "description": "Boh, ktorý prepletá závoj medzi bdelosťou a úžasom. Za súmraku kráča nevidený a za ním sa vláči hudba, ktorá\nutíši nepokojných, ukľudní smútiacich a ukolísa nespavých do sladkých snov. Jeho doménou nie je samotný spánok,\nale krása spánku.\n\nSúmrak spriada ako niť, skladá hviezdne svetlo, ticho do uspávaniek a šepkaných právd. Jeho uctievači sú\nrozprávačmi príbehov a tým, ktorí nachádzajú zmysel v snoch. V nočných morách Xom chýba – ale v krásnych snoch\ntancuje.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Miadra",
+                  "alignment": "CG",
+                  "title": "Matka kvetov",
+                  "symbol": "Kvety srdca",
+                  "description": "Miadra je stelesnená oslava a plodnosť bez obmedzení. Kvety pramenia z jej krokov a tam, kde sa zdržiava, život\nprekypuje. Žehná každej úrode, každému prvému bozku, každej vatre, ktorá plápolá v tanci.\n\nJej nasledovníci sú veselí, básnici, milenci a druidi, ktorých vášne kvitnú rovnako divoko ako tie ich bohyne.\nMiadra je radosť v jej prijemne neskrotnej podobe a vďaka nej, lesy nikdy neprestávajú rásť.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hasala",
+                  "alignment": "LN",
+                  "title": "Tŕňový otec",
+                  "symbol": "Palica tŕňov",
+                  "description": "Hasala je bohom tajomstiev a zlomených prísah. Kráča po temnejších hájoch, kde sa klamstvá prepletajú ako korene\na práve v nich hľadá tie najhlbšie zrady, ktoré ako zelina bránia v rastu pravdy. Nie je krutý, ale ani\nneodpúšťa.\n\nJeho tŕne pridávajú každej pomste ostrosť. Tí, ktorí ukrivdia druhým, sa môžu prebudiť s tŕnovými viničmi\novinutými okolo končatín. Vždy keď paladin lese, skladá prísahu je tam aby zaznamenal slová, ktoré raz možno\nbude prelomené.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Hunkuka",
+                  "alignment": "NE",
+                  "title": "Plameň zmeny",
+                  "symbol": "Kopyto ohna",
+                  "description": "Hunkuka je boh posvätného ohňa, ničenia ako nevyhnutnosti, zmeny ako daru. Je majestátny, desivý a divoký.\nZjavuje sa ako sčernený jeleň zahalený v plameňoch, kopytá spaľujúce zem a nad ním jemný oblak dymu. Páli lúky a\ncelé lesy, ostáva za ním spúšť ale časom, je tma príroda silnejšia než predtým.\n\nNa rozdiel od svojich príbuzných Hunkuka nie je milovaný, ale je rešpektovaný. Aj tí najláskavejší bohovia si\nuvedomujú potrebu agresívneho seku a konca. Jeho meno sa vyslovuje zriedkavo, lebo ak ho začuje, môže zo\nzvedavosti pribehnúť a všetko zahltiť v plameňoch.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Aton",
+                  "alignment": "CG",
+                  "title": "Svietivý závoj",
+                  "symbol": "svetlú uši a žiarivé oči",
+                  "description": "Aton je vedúcim svetlom súmraku – nie oslepujúcim dňom, ale jemným, strieborným trblietaním, ktoré ukazuje, čo\nsa skrýva v tme. Vidí do ilúzií, pozná pravdy pod povrchom a kráča po boku spravodlivých s tichou dôstojnosťou.\nAton nie je svetlom, ktoré pretína tmu ale svetlo, ktoré prepaľuje klam.\n\nUctievajú ho mudrci a vizionári. Jeho chrámy sú postavené tam, kde najdlhšie pretrváva súmrak, a jeho obrady sú\ntiché a zamyslené.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Uaqaeht",
+                  "alignment": "CN",
+                  "title": "Koreň prílivu",
+                  "symbol": "Pohár sĺz",
+                  "description": "Uaqaeht, s láskou známy ako Dedko Mrož, je pomalým, teplým pulzom vody, spomienok a času. Je dažďom, ktorý\nprebúdza korene, vlnou, ktorá uhladzuje pobrežie, smiechom, ktorý sa ozýva v prílivových. Starobylý a nežný,\nUaqaeht nosí more ako plášť a les ako čiapku.\n\nJeho smiech bublá ako pramene no jeho oči nesú ťarchu takmer stratených príbehov. Zbiera zabudnuté spomienky a\nukladá ich do kvapiek vody a vína. Hovorí sa, že slzy liečia lebo Uaqaeht si každú kvapku spomienok odnesie a v\nmysli ostane len pokoj.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Azza",
+                  "alignment": "CE",
+                  "title": "Bláznivý šašo",
+                  "symbol": "Dvojmaska",
+                  "description": "Azza tancuje na hranici radosti a šialenstva, boh rozkoše bez reťazí. Pre niektorých je stelesnením blaženosti,\nsmejúcou sa múzou, ktorá napĺňa srdcia eufóriou, maľuje sny zlatou farbou do reality a každé stretnutie premieňa\nna festival extázy. Pre iných je nočnou morou v šašovom rúchu – tým, ktorého smiech zarezáva hlbšie ako čepele,\nktorého žarty zanechávajú jazvy a ktorého predstava zábavy je stelesnením chaosu.\n\nNenosí žiadnu masku, niekedy je vrúcny a očarujúci, inokedy manický a hrozivý. Jeho oči žiaria šibalstvom ale\njeho hry majú vždy nejaké obete, no nikto nevie aké. Pre Azzu je hranica medzi komédiou a krutosťou jednoducho\notázka vkusu. Po Azzovom smiech vždy príde plač, niekedy je to plač radosti, inokedy žiaľu.\n\nUctievať Azzu znamená prijať riziko, pôžitok a opojné nebezpečenstvo príliš žiarivého života. Milujú ho\npodvodníci, umelci, milenci a hlavne blázni. Obávajú sa ho vládcovia, fanatici a tí blázni, ktorí sa berú príliš\nvážne.",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [
+            {
+              "title": "Levoslav, Kráľ lesov",
+              "deity": "Levoslav",
+              "description": "Narodil sa, keď prvé stromy rozpukali zemskú kôru sveta. Je najstaršou dušou Lesov Života. Mohutný, obrnený a s\nmúdrosťou vekov je Levoslav nie len vodcom ale aj srdcom bohov.\n\nNevládne prostredníctvom sily, ale prostredníctvom rešpektu. Ostatné božstvá sa k nemu obracajú, keď ich premôže\nchaos alebo keď vášne iskria. Súdi trpezlivo a je pokojný no keď treba bráni lesy s hnevom milénií. Je priateľom\ncestovateľov, ochrancom bezhlasných a tichým svedkom všetkého čo sa deje pod stromami."
+            },
+            {
+              "title": "Sandrina, Matka tmy",
+              "deity": "Sandrina",
+              "description": "Sandrina nie je nositeľkou smrti, ale jej strážkyňou, svedkom a poslednou láskyplnosťou. Tam, kde Miadra vdýchne\nlesom divoký život, Sandrina zabezpečí, aby žiadny život neskončil zabudnutý alebo nemilovaný. Je pokojná,\nvšadeprítomná a nekonečne trpezlivá, neprichádza s kosou, ale s tichom noci a jemnou žiarou svetlušiek.\n\nNevidená kráča medzi smútiacimi a kladie ruky na trasúce sa plecia aby im priniesla pokoj. Zosnulých sem berie\nso sebou a dopraje im tak posledný pohľad na to koho opúšťajú a ako sú im všetci vďačný, že boli. Nesúdi, len\nich v pokoji berie ďalej.\n\nMnohí sa jej boja, ako sa všetci boja smrti, ale tí, ktorí ju poznajú, ju uctievajú v tichej vďačnosti a\npiesňach pokoja. Pretože bez nej by bol aj ten najkrajší život neúplný."
+            },
+            {
+              "title": "Xom, Tkáč súmraku",
+              "deity": "Xom",
+              "description": "Boh, ktorý prepletá závoj medzi bdelosťou a úžasom. Za súmraku kráča nevidený a za ním sa vláči hudba, ktorá\nutíši nepokojných, ukľudní smútiacich a ukolísa nespavých do sladkých snov. Jeho doménou nie je samotný spánok,\nale krása spánku.\n\nSúmrak spriada ako niť, skladá hviezdne svetlo, ticho do uspávaniek a šepkaných právd. Jeho uctievači sú\nrozprávačmi príbehov a tým, ktorí nachádzajú zmysel v snoch. V nočných morách Xom chýba – ale v krásnych snoch\ntancuje."
+            },
+            {
+              "title": "Miadra, Kvitnúca matka",
+              "deity": "Miadra",
+              "description": "Miadra je stelesnená oslava a plodnosť bez obmedzení. Kvety pramenia z jej krokov a tam, kde sa zdržiava, život\nprekypuje. Žehná každej úrode, každému prvému bozku, každej vatre, ktorá plápolá v tanci.\n\nJej nasledovníci sú veselí, básnici, milenci a druidi, ktorých vášne kvitnú rovnako divoko ako tie ich bohyne.\nMiadra je radosť v jej prijemne neskrotnej podobe a vďaka nej, lesy nikdy neprestávajú rásť."
+            },
+            {
+              "title": "Hasala, Otec tŕňov",
+              "deity": "Hasala",
+              "description": "Hasala je bohom tajomstiev a zlomených prísah. Kráča po temnejších hájoch, kde sa klamstvá prepletajú ako korene\na práve v nich hľadá tie najhlbšie zrady, ktoré ako zelina bránia v rastu pravdy. Nie je krutý, ale ani\nneodpúšťa.\n\nJeho tŕne pridávajú každej pomste ostrosť. Tí, ktorí ukrivdia druhým, sa môžu prebudiť s tŕnovými viničmi\novinutými okolo končatín. Vždy keď paladin lese, skladá prísahu je tam aby zaznamenal slová, ktoré raz možno\nbude prelomené."
+            },
+            {
+              "title": "Hunkuka, Plameň zmeny",
+              "deity": "Hunkuka",
+              "description": "Hunkuka je boh posvätného ohňa, ničenia ako nevyhnutnosti, zmeny ako daru. Je majestátny, desivý a divoký.\nZjavuje sa ako sčernený jeleň zahalený v plameňoch, kopytá spaľujúce zem a nad ním jemný oblak dymu. Páli lúky a\ncelé lesy, ostáva za ním spúšť ale časom, je tma príroda silnejšia než predtým.\n\nNa rozdiel od svojich príbuzných Hunkuka nie je milovaný, ale je rešpektovaný. Aj tí najláskavejší bohovia si\nuvedomujú potrebu agresívneho seku a konca. Jeho meno sa vyslovuje zriedkavo, lebo ak ho začuje, môže zo\nzvedavosti pribehnúť a všetko zahltiť v plameňoch."
+            },
+            {
+              "title": "Aton, Svetelný závoj",
+              "deity": "Aton",
+              "description": "Aton je vedúcim svetlom súmraku – nie oslepujúcim dňom, ale jemným, strieborným trblietaním, ktoré ukazuje, čo\nsa skrýva v tme. Vidí do ilúzií, pozná pravdy pod povrchom a kráča po boku spravodlivých s tichou dôstojnosťou.\nAton nie je svetlom, ktoré pretína tmu ale svetlo, ktoré prepaľuje klam.\n\nUctievajú ho mudrci a vizionári. Jeho chrámy sú postavené tam, kde najdlhšie pretrváva súmrak, a jeho obrady sú\ntiché a zamyslené."
+            },
+            {
+              "title": "Uaqaeht, Koreň prílivu",
+              "deity": "Uaqaeht",
+              "description": "Uaqaeht, s láskou známy ako Dedko Mrož, je pomalým, teplým pulzom vody, spomienok a času. Je dažďom, ktorý\nprebúdza korene, vlnou, ktorá uhladzuje pobrežie, smiechom, ktorý sa ozýva v prílivových. Starobylý a nežný,\nUaqaeht nosí more ako plášť a les ako čiapku.\n\nJeho smiech bublá ako pramene no jeho oči nesú ťarchu takmer stratených príbehov. Zbiera zabudnuté spomienky a\nukladá ich do kvapiek vody a vína. Hovorí sa, že slzy liečia lebo Uaqaeht si každú kvapku spomienok odnesie a v\nmysli ostane len pokoj."
+            },
+            {
+              "title": "Azza, bláznivý šašo",
+              "deity": "Azza",
+              "description": "Azza tancuje na hranici radosti a šialenstva, boh rozkoše bez reťazí. Pre niektorých je stelesnením blaženosti,\nsmejúcou sa múzou, ktorá napĺňa srdcia eufóriou, maľuje sny zlatou farbou do reality a každé stretnutie premieňa\nna festival extázy. Pre iných je nočnou morou v šašovom rúchu – tým, ktorého smiech zarezáva hlbšie ako čepele,\nktorého žarty zanechávajú jazvy a ktorého predstava zábavy je stelesnením chaosu.\n\nNenosí žiadnu masku, niekedy je vrúcny a očarujúci, inokedy manický a hrozivý. Jeho oči žiaria šibalstvom ale\njeho hry majú vždy nejaké obete, no nikto nevie aké. Pre Azzu je hranica medzi komédiou a krutosťou jednoducho\notázka vkusu. Po Azzovom smiech vždy príde plač, niekedy je to plač radosti, inokedy žiaľu.\n\nUctievať Azzu znamená prijať riziko, pôžitok a opojné nebezpečenstvo príliš žiarivého života. Milujú ho\npodvodníci, umelci, milenci a hlavne blázni. Obávajú sa ho vládcovia, fanatici a tí blázni, ktorí sa berú príliš\nvážne."
+            }
+          ],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Pantheon_LesyZivota2.jpg",
+              "alt": "Pantheon_RuinyTemnoty"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Apparatusu",
+          "description": "V Appratuse Bohovia sa bohovia vyvíjajú z konceptov, ktoré tak získajú vlastnú doménu. Nie sú to bohovia v\npravom slova zmysle, každý z nich je aspektom svojej domény: spravodlivosť, čas, číslo, zvuk, písmo. Ich vláda\nnad doménou nie je vôbec vášnivá, je ostrá a precízna. Ak náhodou aspekt uhynie, iný stroj sa vyvinie na zaujme\npozíciu aspektu a pre uchovanie precíznosti, je vo všetkých ohľadoch nový aspekt ten istý ako bol ten pred ním.\nPreto to nie sú tak úplne bohovia, bohovia sú jedinečný a svojrázny.\n\nŽiť v tejto ríši znamená hľadať dokonalosť. Nie morálne hodnoty, ale funkčnosť a správnosť. Všetko môže byť\ndokonalé, keď nájde svoj skutočný účel. Toto je základná viera, ktorá spája všetky aspekty Aparátu. Nešikovný sú\nrekalibrovaní. Neposlušní sú prepísaní. Zlomený sú prekovaný. A aspekty sú večné.",
+          "tables": [
+            {
+              "type": "pantheon_deities_external",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "TITLE",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "title",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Primus",
+                  "alignment": "LN",
+                  "title": "Dozorca",
+                  "symbol": "Ozubené koleso s okom",
+                  "description": "Primus nie je len vládcom Božského Aparátu – on je Aparát. Jeho telo presahuje vnútorné fungovanie roviny, jeho\nmyseľ existuje v každom prevodovom stupni, každom výpočte, každom symetrickom vzore. Tam, kde iní definujú\nhranice a rovnováhu, Primus je rovnováha – nedeliteľný bod absolútnej vlády. Hovorí sa, že aj bohovia iných\nrovin sa s ním radia keď chcú nájsť dokonalú rovnováhu.\n\nPrimus hovorí iba vo vyhláseniach. Nič nespochybňuje, pretože spochybňovať znamená priznať nedostatok vedomostí\na všetky vedomosti už boli napísané – ním.\n\nNemiluje. Nesúdi. Neodpúšťa. Napráva.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Veridicus",
+                  "alignment": "LN",
+                  "title": "Kladivo rovnováhy",
+                  "symbol": "Ozubené koleso s kladivom",
+                  "description": "Kde Primus udržiava celok, Veridicus posudzuje časti.\n\nVeridicus je prvý zvuk, ktorý počuť v doméne pravdy: cinkanie kladiva a ticho po ňom. Každý úder prináša\nnevyhnutný rozsudok. Každý čin sa meria podľa zámeru, dopadu a potenciálu. Vina nie je emócia a nevinnosť nie je\npocit. Sú to merateľné hodnoty a Veridicus ich počíta na desatinné miesto.\n\nJe uctievaný v miestach, ktoré si želajú zostať rovnaké, a obávaní v miestach, ktoré stále hľadajú zmenu a\nprepisujú pravidlá.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Cantoria",
+                  "alignment": "LG",
+                  "title": "Harmonický poriadok",
+                  "symbol": "Ozubené koleso s harfou",
+                  "description": "Cantoria je dôkazom toho, že Poriadok nemusí mlčať. Je melódiou nevyhnutnosti, rezonančným súznením v dokonalých\nintervalov. Jej hudba nie je objavená ale zložená, pretože každá pieseň už existuje len je rozdelená do mnohých\nmalých častí.\n\nZbory spievajú bez dirigenta keď uctievajú Cantoriu. Jej doménou je struna, nota, vibrácia a posvätný rytmus\nsúdržnosti. Cantoriini nasledovníci nespievajú o nej ale s ňou a spoločne sa stávajú ďalším tónom vo večnom\nakorde reality. Jediný kto sa Cantorie bojí sú tí, ktorý ešte nedokážu udržať tón.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Scriptoraxis",
+                  "alignment": "LG",
+                  "title": "Kaligrafická presnosť",
+                  "symbol": "Ozubené koleso s perom",
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Chronovant",
+                  "alignment": "LE",
+                  "title": "Strážca kolesa času",
+                  "symbol": "Ozubené koleso s hodinami",
+                  "description": "Niet nič pred Chronovantom. Niet nič po ňom. On je osou, na ktorej sa sa hýbe čas. Iní pozorujú ako čas plynie\nlebo Chronovant ho udržiava.\n\nJeho telo je naplnené ozubenými kolesami okamihov, obežnými dráhami nevyhnutnosti. V jeho hrudi sa otáčajú\npresýpacie hodiny vesmíru, každé zrnko je pevnou udalosťou, nehybnou a nevyhnutelňou. Pozná koniec všetkých\nvecí, pretože už ich videl. jedným okom sleduje všetko čo sa stalo a druhým čo sa môže stať. Napriek tomu\nnezasahuje, nemení tok len ho udržuje a sleduje.\n\nTí, ktorí sa snažia narušiť tok času, nie sú vymazaní z dejín len sú zastavený. Na neurčito. Doména času je plná\nsôch tých, ktorý sa pokúsili využiť koleso času.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Numinastra",
+                  "alignment": "LE",
+                  "title": "Architekt kvantít",
+                  "symbol": "Ozubené koleso s číslom",
+                  "description": "Tam, kde iní vidia svet, Numinastra píše rovnicu za ním. Všetky veci sú čísla a čísla sú pravda. Numinastra\nvyvažuje hviezdy a pozná váhu slzy.\n\nJej doménou je pomery, vzorce, pohyblivé premmené. Riadi pravdepodobnosť a dáva rád veciam, ktoré sa smrteľníkom\nmôžu javiť ako náhodné. Pre Numinastru je všetko rovnica a kto sa jej klania vie, že aj písmená, sú čísla.",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [
+            {
+              "title": "Primus, Dozorca",
+              "deity": "Primus",
+              "description": "Primus nie je len vládcom Božského Aparátu – on je Aparát. Jeho telo presahuje vnútorné fungovanie roviny, jeho\nmyseľ existuje v každom prevodovom stupni, každom výpočte, každom symetrickom vzore. Tam, kde iní definujú\nhranice a rovnováhu, Primus je rovnováha – nedeliteľný bod absolútnej vlády. Hovorí sa, že aj bohovia iných\nrovin sa s ním radia keď chcú nájsť dokonalú rovnováhu.\n\nPrimus hovorí iba vo vyhláseniach. Nič nespochybňuje, pretože spochybňovať znamená priznať nedostatok vedomostí\na všetky vedomosti už boli napísané – ním.\n\nNemiluje. Nesúdi. Neodpúšťa. Napráva."
+            },
+            {
+              "title": "Veridicus, Kladivo rovnováhy",
+              "deity": "Veridicus",
+              "description": "Kde Primus udržiava celok, Veridicus posudzuje časti.\n\nVeridicus je prvý zvuk, ktorý počuť v doméne pravdy: cinkanie kladiva a ticho po ňom. Každý úder prináša\nnevyhnutný rozsudok. Každý čin sa meria podľa zámeru, dopadu a potenciálu. Vina nie je emócia a nevinnosť nie je\npocit. Sú to merateľné hodnoty a Veridicus ich počíta na desatinné miesto.\n\nJe uctievaný v miestach, ktoré si želajú zostať rovnaké, a obávaní v miestach, ktoré stále hľadajú zmenu a\nprepisujú pravidlá."
+            },
+            {
+              "title": "Cantoria, Harmonický poriadok",
+              "deity": "Cantoria",
+              "description": "Cantoria je dôkazom toho, že Poriadok nemusí mlčať. Je melódiou nevyhnutnosti, rezonančným súznením v dokonalých\nintervalov. Jej hudba nie je objavená ale zložená, pretože každá pieseň už existuje len je rozdelená do mnohých\nmalých častí.\n\nZbory spievajú bez dirigenta keď uctievajú Cantoriu. Jej doménou je struna, nota, vibrácia a posvätný rytmus\nsúdržnosti. Cantoriini nasledovníci nespievajú o nej ale s ňou a spoločne sa stávajú ďalším tónom vo večnom\nakorde reality. Jediný kto sa Cantorie bojí sú tí, ktorý ešte nedokážu udržať tón."
+            },
+            {
+              "title": "Skriptoraxis, Kaligrafická presnosť",
+              "deity": "Skriptoraxis",
+              "description": "Každý zákon napísaný atramentom, každá záväzná zmluva, každý symbol vyrytý do kovu. Scriptoraxis o nich to vie,\npamätá si o a bude ich presadzovať.\n\nJe architektom jazyka, majstrom glyfov, tým, prostredníctvom ktorého je realita opísaná a tým pádom skutočná.\nJeho prsty sú ako brká, jeho dych vôňa čerstvého pergamenu. V jeho prítomnosti sa myšlienky nemenia na zvuk ale\nna text. Ak sa niekto pred ním snaží povedať nepravdu klamstvo sa mu zaryje do kože. Skriptoraxis klamstvo\nnetrestá, len ho zvýrazní."
+            },
+            {
+              "title": "Chronovant, Strážca kolesa času",
+              "deity": "Chronovant",
+              "description": "Niet nič pred Chronovantom. Niet nič po ňom. On je osou, na ktorej sa sa hýbe čas. Iní pozorujú ako čas plynie\nlebo Chronovant ho udržiava.\n\nJeho telo je naplnené ozubenými kolesami okamihov, obežnými dráhami nevyhnutnosti. V jeho hrudi sa otáčajú\npresýpacie hodiny vesmíru, každé zrnko je pevnou udalosťou, nehybnou a nevyhnutelňou. Pozná koniec všetkých\nvecí, pretože už ich videl. jedným okom sleduje všetko čo sa stalo a druhým čo sa môže stať. Napriek tomu\nnezasahuje, nemení tok len ho udržuje a sleduje.\n\nTí, ktorí sa snažia narušiť tok času, nie sú vymazaní z dejín len sú zastavený. Na neurčito. Doména času je plná\nsôch tých, ktorý sa pokúsili využiť koleso času."
+            },
+            {
+              "title": "Numinastra, Architekt kvantít",
+              "deity": "Numinastra",
+              "description": "Tam, kde iní vidia svet, Numinastra píše rovnicu za ním. Všetky veci sú čísla a čísla sú pravda. Numinastra\nvyvažuje hviezdy a pozná váhu slzy.\n\nJej doménou je pomery, vzorce, pohyblivé premmené. Riadi pravdepodobnosť a dáva rád veciam, ktoré sa smrteľníkom\nmôžu javiť ako náhodné. Pre Numinastru je všetko rovnica a kto sa jej klania vie, že aj písmená, sú čísla."
+            }
+          ],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Pantheon_Apparatus.jpg",
+              "alt": "Pantheon_RuinyTemnoty"
+            }
+          ]
+        },
+        {
+          "type": "pantheon",
+          "title": "Bohovia Elementu",
+          "description": "Element nie sú miestom ale kolíziou domén. Nie sú tu žiadne pevné hranice. Hranice sa tu posúvajú ako oheň vo\nvetre, ako sa piesok v prúde vody. Tu bohovia nie sú len vládcami, ale aj stelesnenie síl ich domény, ich vôľa\nje neoddeliteľným prvkom daného miesta. Sú prvý, boli skôr ako iné miesta a z ich chaotickej energie, ktoré\nbezhlavo nechali vypúšťať do vesmíru dovolili vznik iným miestam.\n\nKeď sa v caohse stretnú dve veľké sily, vytvárajú krásu. Keď sa stretnú v konflikte, vytvárajú nových bohov.\nTíto potomkovia sa nenarodia z vôle, ale z nárazu. V okamihu, keď protichodné sily tlačia tak násilne proti\nsebe, že sama realita sa ohýba a ustupuje aby dala priestor pre nové miesto, novú doménu.\n\nUctievať elementárneho Boha znamená prijať skutočnosť, že tu nič nie je stabilné. Aj hory sa posunú aj oceány\nprelievajú, obloha môže horieť a môže striekať vodu. Tí, ktorí to sledujú, sa naučia milovať nestabilitu,\npretože chaos je jedinou konštantou.",
+          "tables": [
+            {
+              "type": "pantheon_deities_external",
+              "headers": [
+                "DEITY",
+                "ALIGNMENT",
+                "TITLE",
+                "SYMBOL"
+              ],
+              "columns": [
+                "deity",
+                "alignment",
+                "title",
+                "symbol"
+              ],
+              "rows": [
+                {
+                  "deity": "Ignar",
+                  "alignment": "CE",
+                  "title": "Prvý plameň",
+                  "symbol": "Plameň smerujúci nahor, zubatý na okrajoch, s dutým stredom.",
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Pyrrakar",
+                  "alignment": "CN",
+                  "title": "Hnev zeme",
+                  "symbol": "Prasknutý balvan s magmou presakujúcim cez jej trhliny.",
+                  "description": "Pyrrakar, ktorý stojí medzi Ignarom a Terragornom. Narodený, kde plameň rozbil kameň a kameň udusil plameň,\nPyrrakar existuje v konštantnom tlaku a predsa si nedovolí prasknúť. Jeho doménou sú roztavené rieky pod horami,\nzemetrasenia, ktoré rozdeľujú zem. Pyrrakar prekypuje skrytou silou.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Terragorn",
+                  "alignment": "CN",
+                  "title": "Prakameň",
+                  "symbol": "Vrchol hory s hlbokými koreňmi šíriacimi sa smerom nadol.",
+                  "description": "Druhý najstarší z bohov, Terragorn je pomalý, trpezlivý ale mocný a nuústupný ako hory. Jeho telo je kostrou\nsveta, jeho žily sú ruda. Jeho trpezlivosť nie je milosrdenstvo, kameň stojí pevne lebo sa mu nechce hýbať ale\nkeď sa pohne, nič ho nezastaví.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Ferros",
+                  "alignment": "CG",
+                  "title": "Oceľ bleskozvodu",
+                  "symbol": "Vertikálna kovová tyč s dvoma kríženými bleskami",
+                  "description": "Dieťa Terragorna a Fulmira, Ferros je dirigentom kovu - mostom medzi zúrivosťou oblohy a vytrvalosťou zeme. Jeho\nkoža je kov, jeho oči, oblúky energie. Uctievajú ho kováči aj Vojvodci, pretože jeho dary prinášajú stvorenie aj\nzničenie. Keď zničený Ferrosov bojovník stojí v daždi, blesk si nájde a dá mu energiu.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Fulmir",
+                  "alignment": "CN",
+                  "title": "Večná iskra",
+                  "symbol": "Žiarivá iskra zavesená medzi dvoma oblúkmi energie.",
+                  "description": "Fulmir je rytmus búrky, čistá energia, skáče z mraku do oblaku. Nikdy nie je konštatný, keď hovorí, jeho hlas\npraská v oblohe; Keď sa pohybuje, priestor sa delí vo dva. Fulmir zasiahne b tom istom okamihu v akom zmizne.\nVáhať v jeho prítomnosti je smrť, lebo blesk nečaká na nikoho.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Virex",
+                  "alignment": "CE",
+                  "title": "Alkalická vlna",
+                  "symbol": "Spenená vlna s hranami ostrými ako tesáky",
+                  "description": "Virex, ktorý sa narodil z Thalorovho rozsiahleho oceánu s Fulmirovej hrmiacej energie, je nepokojným prílivom.\nJeho smiech pen= ako more na okrajoch pobrežia, jeho hnev rozpúšťa živých rýchlejšie než teplo sveicu. Pre\nVirexa sú všetky hranice urážkou, pretože kyselina by nikdy nemala byť pútaná.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Thalor",
+                  "alignment": "CN",
+                  "title": "Ocean kvapiek",
+                  "symbol": "Tri sústredné vlnky šíriace sa z jednej kvapky",
+                  "description": "Thalor nie je Bohom mora, je Bohom vody. Každá rieka, každá slza, každá kvapka spadá pod jeho doménu. Jeho sila\nje hlboká ako priepasť, a jeho hnev hýbu kontinenty. Len jeho hlas je ako príliv , ktorý dokáže všetkých\nodtlačiť preč.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Glacien",
+                  "alignment": "CN",
+                  "title": "Chlad tornáda",
+                  "symbol": "Snehová vločka s cencúľovým oštepom v strede.",
+                  "description": "",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Caelor",
+                  "alignment": "CG",
+                  "title": "Nestabilný vánok",
+                  "symbol": "Tri špirálovité línie meniace sa do víru",
+                  "description": "Caelor tancuje a ničí jedným pohybom. Je to rytmom života, krik hurikánu a neviditeľná ruka, ktorá ohýba stromy\na poháňa lode. Ona je pohyb, opak svoje dcéry. Avšak jej nálady sa menia tak rýchlo ako prúdy vetra a tí, ktorí\nsa k nem priblížia, sa musia naučiť prežiť jazdu chaosom. Jej doména je najväčšia lebo vietor nemá začiatok ani\nkoniec.",
+                  "image": "",
+                  "tags": []
+                },
+                {
+                  "deity": "Reekar",
+                  "alignment": "CN",
+                  "title": "Pomsta popola",
+                  "symbol": "Dym stúpajúci z hromady popola",
+                  "description": "Keď veitor Caelor rozdúchal plamene Ignara, samostná realita vzplanula a z dusného dymu vstal Reekar. Je to\nhorká pripomienka toho, že zničenie pretrváva dlho potom, čo oheň vyhasol. Jeho dotyk je udusenie, jeho pohľad\nvzbudzuje zúfalstvo. Pri Reekarovi nič nekončí, pri ňom to začína skončené.",
+                  "image": "",
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "deity_details": [
+            {
+              "title": "Ingar, Prvý plameň",
+              "deity": "Ingar",
+              "description": "Ignar nie je Boh ohňa, prvého ohňa. Źiar, ktorý sa prebudil v studenej prázdnote. Jeho plameň nemá rivala,\nsmrteľník ešte nevytvoril material, ktorý by ustál Ignarov plameň. Jeho smiech je hukot, ktorý mu aj peklo\nzávidí, jeho dychom taví skaly. Smrteľníci sa ho neboja lebo Ignar ich môže zabiť len svojou prítomnsťou. Veď čo\nje jeden život pre oheň, ktorý pohltí celé svety?"
+            },
+            {
+              "title": "Pyrrakar, Hnev zeme",
+              "deity": "Pyrrakar",
+              "description": "Pyrrakar, ktorý stojí medzi Ignarom a Terragornom. Narodený, kde plameň rozbil kameň a kameň udusil plameň,\nPyrrakar existuje v konštantnom tlaku a predsa si nedovolí prasknúť. Jeho doménou sú roztavené rieky pod horami,\nzemetrasenia, ktoré rozdeľujú zem. Pyrrakar prekypuje skrytou silou."
+            },
+            {
+              "title": "Terragorn, Prakameň",
+              "deity": "Terragorn",
+              "description": "Druhý najstarší z bohov, Terragorn je pomalý, trpezlivý ale mocný a nuústupný ako hory. Jeho telo je kostrou\nsveta, jeho žily sú ruda. Jeho trpezlivosť nie je milosrdenstvo, kameň stojí pevne lebo sa mu nechce hýbať ale\nkeď sa pohne, nič ho nezastaví."
+            },
+            {
+              "title": "Ferros, Oceľ bleskozvodu",
+              "deity": "Ferros",
+              "description": "Dieťa Terragorna a Fulmira, Ferros je dirigentom kovu - mostom medzi zúrivosťou oblohy a vytrvalosťou zeme. Jeho\nkoža je kov, jeho oči, oblúky energie. Uctievajú ho kováči aj Vojvodci, pretože jeho dary prinášajú stvorenie aj\nzničenie. Keď zničený Ferrosov bojovník stojí v daždi, blesk si nájde a dá mu energiu."
+            },
+            {
+              "title": "Fulmir, Večná iskra",
+              "deity": "Fulmir",
+              "description": "Fulmir je rytmus búrky, čistá energia, skáče z mraku do oblaku. Nikdy nie je konštatný, keď hovorí, jeho hlas\npraská v oblohe; Keď sa pohybuje, priestor sa delí vo dva. Fulmir zasiahne b tom istom okamihu v akom zmizne.\nVáhať v jeho prítomnosti je smrť, lebo blesk nečaká na nikoho."
+            },
+            {
+              "title": "Virex, Alkalická vlna",
+              "deity": "Virex",
+              "description": "Virex, ktorý sa narodil z Thalorovho rozsiahleho oceánu s Fulmirovej hrmiacej energie, je nepokojným prílivom.\nJeho smiech pen= ako more na okrajoch pobrežia, jeho hnev rozpúšťa živých rýchlejšie než teplo sveicu. Pre\nVirexa sú všetky hranice urážkou, pretože kyselina by nikdy nemala byť pútaná."
+            },
+            {
+              "title": "Thalor, Ocean kvapiek",
+              "deity": "Thalor",
+              "description": "Thalor nie je Bohom mora, je Bohom vody. Každá rieka, každá slza, každá kvapka spadá pod jeho doménu. Jeho sila\nje hlboká ako priepasť, a jeho hnev hýbu kontinenty. Len jeho hlas je ako príliv , ktorý dokáže všetkých\nodtlačiť preč."
+            },
+            {
+              "title": "Glacen, Chlad tornáda",
+              "deity": "Glacen",
+              "description": "Keď Thalorove vody zamrzli pod dychom CAelor, zrodila sa Glacen. Ona je ticho hlbokého ľadu, neúmyselná stena,\nktorú ani vietor, ani vlna nemôžu prelomiť. Jej pohľad je chladnejší ako smrť, a jej dotyk dokáže upokojiť aj\nIgnarov plameň. Pre svojich nepriateľov je zima, ktorá nikdy nekončí, nikdy nepoľaví a stále všetko spomaľuje."
+            },
+            {
+              "title": "Caelor, Nestabilný vánok",
+              "deity": "Caelor",
+              "description": "Caelor tancuje a ničí jedným pohybom. Je to rytmom života, krik hurikánu a neviditeľná ruka, ktorá ohýba stromy\na poháňa lode. Ona je pohyb, opak svoje dcéry. Avšak jej nálady sa menia tak rýchlo ako prúdy vetra a tí, ktorí\nsa k nem priblížia, sa musia naučiť prežiť jazdu chaosom. Jej doména je najväčšia lebo vietor nemá začiatok ani\nkoniec."
+            },
+            {
+              "title": "Reekar, Pomsta popola",
+              "deity": "Reekar",
+              "description": "Keď veitor Caelor rozdúchal plamene Ignara, samostná realita vzplanula a z dusného dymu vstal Reekar. Je to\nhorká pripomienka toho, že zničenie pretrváva dlho potom, čo oheň vyhasol. Jeho dotyk je udusenie, jeho pohľad\nvzbudzuje zúfalstvo. Pri Reekarovi nič nekončí, pri ňom to začína skončené."
+            }
+          ],
+          "images": [
+            {
+              "src": "https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Pantheon_Element.jpg",
+              "alt": "Pantheon_RuinyTemnoty"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
