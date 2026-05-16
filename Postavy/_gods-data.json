@@ -1,5 +1,5 @@
 {
-  "pageTitle": "Božstvá Axrie",
+  "pageTitle": "Božstvá",
   "schemaVersion": "1.0",
   "source": {
     "originalFile": "Gods.html",
@@ -7,7 +7,7 @@
   },
   "groups": [
     {
-      "title": "Božstvá",
+      "title": "Božstvá Axrie",
       "sections": [
         {
           "type": "pantheon",
