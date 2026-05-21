@@ -164,7 +164,7 @@
       }
     ],
   "ruler": "???",
-  "noblehouses": "???",
+  "noblehouses": "Lor’niala, Fier'Nuano",
   "uniqueLocations":"Kovové jadro majáku, Vodné obytné štvrte, Podmorské jaskyne elfov, Severný tunel do Dolinoraju, Lodenice z lesných obrov"
   },
   {"name": "Stromoraj",
@@ -583,8 +583,8 @@
         "coverage": "<7%"
       }
     ],
-  "ruler": "???",
-  "noblehouses": "???",
+  "ruler": "Sepet",
+  "noblehouses": "Sepet, Elinuran, ",
   "uniqueLocations":"Hmlové výcvikové cvičiská, Výskumné centrum čiernej hmly, Vnútrozemská brána, Lampášové ulice, Pevnosť posledného majáka, Finálne skúšobné pole lovcov"
   }
   ,
