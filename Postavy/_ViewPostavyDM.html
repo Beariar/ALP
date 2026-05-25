@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Giga' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sedgwick Ave Display' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Postavy</title>
+    <style>
+	
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+			word-wrap: break-word;     /* Break long words to prevent overflow */
+    word-break: break-all;     /* Break long words that would overflow */
+        }
+
+        th {
+            background-color: #530318;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fdfdfd;
+        }
+
+        body {
+            font-family: 'Lexend Giga';
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            /* 100% of the viewport height */
+            background-image: url(https://github.com/Beariar/ALP/blob/main/WoodBackground.jpg?raw=true);
+            background-attachment: fixed;
+        }
+
+        div {
+            width: 55%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            flex-direction: column;
+            background-color: #e0b384;
+            background-image: url(https://github.com/Beariar/ALP/blob/main/SpellDetailBackground3.jpg?raw=true);
+        background-position: center;
+        background-size: auto;
+        background-repeat: repeat;
+            padding: 10px;
+            border-radius: 12px;
+            border: 3px solid #000000;
+            box-shadow: 10px 10px 5px rgb(0, 0, 0);
+            position: relative;
+
+        }
+
+        div h1 {
+overflow-wrap: break-word;
+            font-size: 50px;
+            text-align: center;
+        }
+        h2 {
+overflow-wrap: break-word;
+            
+            font-size: x-large;
+            color: #040832;
+        }
+
+
+        div h2,
+        div h3,
+        div h4,
+        div h5,
+        div h6 {
+overflow-wrap: break-word;
+            text-align: left;
+        }
+
+        .button {
+            font-family: 'Lexend Giga';
+            font-size: 16px;
+            cursor: pointer;
+            background-image: linear-gradient(black, #07105C);
+            border: 2px solid #07105C;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-image: linear-gradient(#1d2ec6, black);
+            border: 2px solid #1d2ec6;
+            color: white;
+            /* Add hover effect to the button */
+        }
+
+
+        .MapImage {
+            max-width: 55%;
+            height: auto;
+            display: block;
+            /* To center the image */
+            margin: 0 auto;
+            /* Center the image */
+        }
+
+                /* Specific styles for the div with ID "StaraKrv" */
+        .HlavnyNadpis {
+            border-radius: 36px;
+            border: 6px solid #000000;
+            width: 70%;
+        }
+
+        /* Specific styles for headers (h1, h2, etc.) inside the div with ID "StaraKrv" */
+        .HlavnyNadpis h1, .HlavnyNadpis h2, .HlavnyNadpis h3 {
+overflow-wrap: break-word;
+            text-align: center;
+            font-size: 60px;
+        }
+        #Recept {
+        /*text-align: center;
+    font-style: bold;
+    font-size: smaller;*/
+        margin: 0 auto;
+
+        margin-bottom: 15px;
+
+        /*background-color: transparent;
+    background-image: none;*/
+        box-shadow: 5px 5px 2px rgb(0, 0, 0);
+        border: 2px solid #000000;
+        width: 80%;
+    }
+
+    section{
+        font-family: 'Sedgwick Ave Display';
+        font-size:x-large;
+        color: #040832;
+    }
+    section a {
+        font-family: 'Lexend Giga';
+        font-size:large;
+        font-style: bold;
+    }
+
+    hr {
+        height:2px;
+        border-width:0;
+        color:#040832;
+        background-color:#040832
+    }
+	
+	.wide-mode {
+   
+}
+
+/* Narrow-mode class for portrait */
+.narrow-mode {
+    width: 95%;  /* The style to be applied in portrait mode */
+    border-radius: 0px;
+            border: 3px solid #000000;
+            box-shadow:none;
+            margin-top: 3px;
+            margin-bottom: 3px;
+}
+
+
+    .Controls {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+    }
+
+    .Controls label {
+        font-weight: bold;
+        color: #040832;
+    }
+
+    .Controls input,
+    .Controls select {
+        font-family: 'Lexend Giga';
+        font-size: 14px;
+        padding: 9px;
+        border: 2px solid #040832;
+        border-radius: 8px;
+        background-color: #fdfdfd;
+        max-width: 100%;
+    }
+
+    .Controls input {
+        min-width: 240px;
+        flex: 1 1 260px;
+    }
+
+    .Controls select {
+        flex: 0 1 210px;
+    }
+
+    #resultCount {
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #040832;
+    }
+
+
+    .Controls.narrow-mode {
+        width: 95%;
+    }
+
+    .Controls.narrow-mode input,
+    .Controls.narrow-mode select,
+    .Controls.narrow-mode button {
+        flex: 1 1 100%;
+    }
+
+
+    .Postava::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .character-portrait {
+        width: 33%;
+        float: left;
+        display: block;
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+        margin-right: 10px;
+        border-radius: 8px;
+        background: #1b120c;
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .character-portrait img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: inherit;
+        transition: filter 220ms ease, transform 220ms ease;
+    }
+
+    .portrait--living img {
+        filter: none;
+    }
+
+    .portrait--departed img {
+        /* The image itself is only partly aged. The strongest effect comes from the radial overlay below. */
+        filter: sepia(55%) saturate(58%) grayscale(18%) contrast(1.08) brightness(0.9);
+    }
+
+    .portrait--departed::before,
+    .portrait--departed::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .portrait--departed::before {
+        /* Circular edge ageing: center stays more colorful, edges become old parchment / shadow. */
+        background:
+            radial-gradient(circle at 50% 43%,
+                rgba(255, 245, 220, 0) 0%,
+                rgba(255, 245, 220, 0.03) 34%,
+                rgba(132, 82, 36, 0.28) 63%,
+                rgba(38, 25, 18, 0.82) 100%);
+        mix-blend-mode: multiply;
+    }
+
+    .portrait--departed::after {
+        /* Cold desaturation haze + subtle inner frame for a memorial / gone feeling. */
+        background:
+            radial-gradient(circle at 50% 45%,
+                rgba(255, 255, 255, 0.06) 0%,
+                rgba(255, 255, 255, 0.015) 38%,
+                rgba(18, 16, 22, 0.22) 73%,
+                rgba(0, 0, 0, 0.55) 100%),
+            linear-gradient(135deg,
+                rgba(255, 236, 190, 0.12),
+                rgba(47, 30, 24, 0.28));
+        box-shadow: inset 0 0 38px rgba(0, 0, 0, 0.72);
+    }
+
+    .Postava.narrow-mode .character-portrait {
+        width: 38%;
+        max-width: 230px;
+    }
+
+    .character-quote {
+        /*margin: -4px 0 12px 0;
+        padding: 4px 8px;*/
+        font-family: 'Playwrite SK', cursive;
+        font-style: italic;
+       /* font-size: 1.55rem;
+        line-height: 1.25;
+        text-align: center;
+        color: #530318;
+        overflow-wrap: break-word;
+        text-shadow: 1px 1px 0 rgba(255, 236, 190, 0.55);*/
+    }
+
+    .Postava.narrow-mode .character-quote {
+        /*font-size: 1.3rem;*/
+        text-align: left;
+    }
+
+    .character-music-button {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        z-index: 3;
+        width: 42px;
+        height: 42px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border-radius: 50%;
+        border: 2px solid #040832;
+        background-image: linear-gradient(#fff2c8, #a86a39);
+        color: #040832;
+        font-family: 'Lexend Giga';
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.45);
+    }
+
+    .character-music-button:hover {
+        background-image: linear-gradient(#fff7de, #530318);
+        border-color: #530318;
+        color: white;
+    }
+
+    .music-player-sticky {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        box-sizing: border-box;
+        width: min(430px, calc(100vw - 36px));
+        padding: 12px;
+        border: 3px solid #040832;
+        border-radius: 14px;
+        background-color: #e0b384;
+        background-image: url(https://github.com/Beariar/ALP/blob/main/SpellDetailBackground3.jpg?raw=true);
+        background-position: center;
+        background-size: auto;
+        background-repeat: repeat;
+        box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.65);
+        color: #040832;
+    }
+
+    .music-player-sticky[hidden] {
+        display: none !important;
+    }
+
+    .music-player-title {
+        display: block;
+        margin-right: 94px;
+        font-weight: bold;
+        overflow-wrap: break-word;
+    }
+
+    .music-player-subtitle,
+    .music-player-queue {
+        display: block;
+        margin-top: 4px;
+        font-size: 0.78rem;
+        color: #530318;
+        overflow-wrap: break-word;
+    }
+
+    .music-player-sticky audio {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .music-player-actions {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: flex-end;
+    }
+
+    .music-player-action-button {
+        font-family: 'Lexend Giga';
+        font-size: 0.78rem;
+        cursor: pointer;
+        background-image: linear-gradient(black, #07105C);
+        border: 2px solid #07105C;
+        color: white;
+        border-radius: 8px;
+        padding: 7px 10px;
+        text-align: center;
+    }
+
+    .music-player-action-button[hidden] {
+        display: none !important;
+    }
+
+    .Postava.narrow-mode .character-music-button {
+        width: 38px;
+        height: 38px;
+        top: 8px;
+        right: 8px;
+        font-size: 20px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="HlavnyNadpis">
+        <h1>Postavy</h1>
+    </div>
+
+    <div class="Controls">
+        <label for="searchInput">Hľadať:</label>
+        <input id="searchInput" type="text" placeholder="Meno, citát, hudba, priezvisko, rasa, zameranie, pôvod...">
+
+        <label for="searchField">V poli:</label>
+        <select id="searchField">
+            <option value="All">Všetko</option>
+            <option value="Name">Meno</option>
+            <option value="FirstName">Krstné meno</option>
+            <option value="FamilyName">Priezvisko</option>
+            <option value="Race">Rasa</option>
+            <option value="Focus">Zameranie</option>
+            <option value="Origin">Pôvod</option>
+            <option value="God">Boh</option>
+            <option value="Age">Vek</option>
+            <option value="Status">Stav</option>
+            <option value="Title">Titul</option>
+            <option value="Position">Pozícia</option>
+            <option value="Logo">Okupácia</option>
+            <option value="Quote">Citát</option>
+            <option value="Music">Hudba</option>
+            <option value="Description">Popis</option>
+        </select>
+
+        <label for="sortField">Zoradiť podľa:</label>
+        <select id="sortField">
+            <option value="OriginalOrder">Pôvodné poradie zo súboru</option>
+            <option value="Name">Meno</option>
+            <option value="FirstName">Krstné meno</option>
+            <option value="FamilyName">Priezvisko</option>
+            <option value="Race">Rasa</option>
+            <option value="Focus">Zameranie</option>
+            <option value="Origin">Pôvod</option>
+            <option value="God">Boh</option>
+            <option value="Age">Vek</option>
+            <option value="Status">Stav</option>
+            <option value="Title">Titul</option>
+            <option value="Position">Pozícia</option>
+            <option value="Logo">Okupácia</option>
+        </select>
+
+        <button id="sortDirectionButton" class="button" type="button" data-direction="asc">A → Z</button>
+        <button id="resetFiltersButton" class="button" type="button">Reset</button>
+        <span id="resultCount"></span>
+    </div>
+
+    <aside id="musicPlayer" class="music-player-sticky" hidden>
+        <span id="musicPlayerTitle" class="music-player-title">Hudba postavy</span>
+        <span id="musicPlayerSubtitle" class="music-player-subtitle"></span>
+        <audio id="sharedCharacterAudio" controls preload="none"></audio>
+        <span class="music-player-actions">
+            <button id="musicStopButton" class="music-player-action-button" type="button">Stop</button>
+            <button id="musicSkipButton" class="music-player-action-button" type="button" hidden>Skip</button>
+        </span>
+        <span id="musicQueueStatus" class="music-player-queue"></span>
+    </aside>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script>
+    let allCharacters = [];
+    const musicQueue = [];
+    let currentMusicTrack = null;
+
+    const searchableFields = [
+        "Name", "FirstName", "FamilyName", "Race", "Focus", "Origin",
+        "God", "Age", "Status", "Title", "Position", "Logo", "Quote", "Music", "Description"
+    ];
+
+    function escapeHtml(value) {
+        return String(value ?? "")
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
+    }
+
+    function normalizeText(value) {
+        return String(value ?? "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+    }
+
+    function isLivingStatus(status) {
+        const normalizedStatus = normalizeText(status);
+        return normalizedStatus === "zivy" || normalizedStatus === "ziva";
+    }
+
+    function hasCharacterQuote(quote) {
+        const normalizedQuote = normalizeText(quote);
+        return normalizedQuote !== "" && normalizedQuote !== "none";
+    }
+
+    function getCharacterMusic(character) {
+        const musicColumnCandidates = ["Music", "Hudba", "Pieseň", "Piesen", "Song", "Skladba"];
+
+        for (const columnName of musicColumnCandidates) {
+            if (character[columnName] !== undefined) return character[columnName];
+        }
+
+        const normalizedCandidateNames = musicColumnCandidates.map(normalizeText);
+        const matchingColumnName = Object.keys(character).find(columnName =>
+            normalizedCandidateNames.includes(normalizeText(columnName))
+        );
+
+        return matchingColumnName ? character[matchingColumnName] : "";
+    }
+
+    function hasCharacterMusic(music) {
+        const normalizedMusic = normalizeText(music);
+        return normalizedMusic !== "" && normalizedMusic !== "none";
+    }
+
+    function buildCharacterMusicUrl(music) {
+        const trimmedMusic = String(music ?? "").trim();
+        const musicFileName = trimmedMusic.toLowerCase().endsWith(".mp3")
+            ? trimmedMusic
+            : `${trimmedMusic}.mp3`;
+
+        return `https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Music/${encodeURIComponent(musicFileName)}`;
+    }
+
+    function getNameParts(name) {
+        const parts = String(name ?? "").trim().split(/\s+/).filter(Boolean);
+
+        return {
+            firstName: parts[0] || "",
+            familyName: parts.length > 1 ? parts[parts.length - 1] : ""
+        };
+    }
+
+    function getFieldValue(character, fieldName) {
+        const nameParts = getNameParts(character.Name);
+
+        if (fieldName === "FirstName") return nameParts.firstName;
+        if (fieldName === "FamilyName") return nameParts.familyName;
+        if (fieldName === "Quote") return character["Citát"] ?? "";
+        if (fieldName === "Music") return getCharacterMusic(character);
+
+        return character[fieldName] ?? "";
+    }
+
+    function compareCharacters(a, b, fieldName, direction) {
+        if (fieldName === "OriginalOrder") {
+            const originalOrderResult = (a._originalIndex ?? 0) - (b._originalIndex ?? 0);
+            return direction === "desc" ? -originalOrderResult : originalOrderResult;
+        }
+
+        const valueA = getFieldValue(a, fieldName);
+        const valueB = getFieldValue(b, fieldName);
+        const numberA = Number(String(valueA).replace(/[^0-9.-]/g, ""));
+        const numberB = Number(String(valueB).replace(/[^0-9.-]/g, ""));
+
+        let result;
+
+        if (fieldName === "Age" && !Number.isNaN(numberA) && !Number.isNaN(numberB)) {
+            result = numberA - numberB;
+        } else {
+            result = String(valueA).localeCompare(String(valueB), "sk", {
+                sensitivity: "base",
+                numeric: true
+            });
+        }
+
+        return direction === "desc" ? -result : result;
+    }
+
+    function characterMatchesSearch(character, searchTerm, selectedField) {
+        if (!searchTerm) return true;
+
+        const normalizedSearchTerm = normalizeText(searchTerm);
+        const fieldsToSearch = selectedField === "All" ? searchableFields : [selectedField];
+
+        return fieldsToSearch.some(fieldName => {
+            const fieldValue = getFieldValue(character, fieldName);
+            return normalizeText(fieldValue).includes(normalizedSearchTerm);
+        });
+    }
+
+    function createCharacterCard(character) {
+        const {
+            Image,
+            Logo,
+            Name,
+            Race,
+            Focus,
+            Origin,
+            God,
+            Age,
+            Status,
+            Title,
+            Position,
+            Description
+        } = character;
+
+        const quote = character["Citát"] ?? "";
+        const characterQuoteMarkup = hasCharacterQuote(quote)
+            ? `<hr><p class="character-quote">“${escapeHtml(quote)}”</p>`
+            : "";
+
+        const music = getCharacterMusic(character);
+        const characterMusicMarkup = hasCharacterMusic(music)
+            ? `
+                <button
+                    class="character-music-button"
+                    type="button"
+                    data-character-music-button
+                    data-music-character="${escapeHtml(Name)}"
+                    data-music-title="${escapeHtml(music)}"
+                    data-music-url="${escapeHtml(buildCharacterMusicUrl(music))}"
+                    aria-label="Prehrať hudbu postavy ${escapeHtml(Name)}"
+                    title="Prehrať hudbu postavy">
+                    ♪
+                </button>
+              `
+            : "";
+
+        const livingCharacter = isLivingStatus(Status);
+        const portraitStateClass = livingCharacter ? "portrait--living" : "portrait--departed";
+        const portraitTitle = livingCharacter
+            ? escapeHtml(Name)
+            : `${escapeHtml(Name)} - táto postava už nežije`;
+
+        const characterDiv = document.createElement('div');
+        characterDiv.className = 'Postava';
+
+        characterDiv.innerHTML = `
+            <span class="character-portrait ${portraitStateClass}" title="${portraitTitle}">
+                <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/JPEG_2026/${escapeHtml(Image)}.jpg" alt="${escapeHtml(Name)}">
+            </span>
+            <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/FactionLogo/${escapeHtml(Logo)}.png" alt="${escapeHtml(Logo)}" style="width: 5%; position: absolute; top: 2%; left: 1%; z-index: 2;">
+            ${characterMusicMarkup}
+            <h2>${escapeHtml(Name)}</h2>
+            ${characterQuoteMarkup}
+            <hr>
+            <b>Rasa:</b> ${escapeHtml(Race)}
+            <br><b>Zameranie:</b> ${escapeHtml(Focus)}
+            <br><b>Pôvod:</b> ${escapeHtml(Origin)}
+            <br><b>Boh:</b> ${escapeHtml(God)}
+            <br><b>Vek:</b> ${escapeHtml(Age)}
+            <br><b>Stav:</b> ${escapeHtml(Status)}
+            <br><b>Titul:</b> ${escapeHtml(Title)}
+            <br><b>Pozícia:</b> ${escapeHtml(Position)}
+            <br><b>Okupácia:</b> ${escapeHtml(Logo)}
+            <hr>
+            ${Description ?? ""}
+        `;
+
+        return characterDiv;
+    }
+
+    function getMusicPlayerElements() {
+        return {
+            player: document.getElementById("musicPlayer"),
+            audio: document.getElementById("sharedCharacterAudio"),
+            title: document.getElementById("musicPlayerTitle"),
+            subtitle: document.getElementById("musicPlayerSubtitle"),
+            queueStatus: document.getElementById("musicQueueStatus"),
+            stopButton: document.getElementById("musicStopButton"),
+            skipButton: document.getElementById("musicSkipButton")
+        };
+    }
+
+    function updateMusicPlayerUi() {
+        const { player, title, subtitle, queueStatus, skipButton } = getMusicPlayerElements();
+        const hasCurrentTrack = Boolean(currentMusicTrack);
+
+        player.hidden = !hasCurrentTrack;
+
+        if (!hasCurrentTrack) {
+            title.textContent = "Hudba postavy";
+            subtitle.textContent = "";
+            queueStatus.textContent = "";
+            skipButton.hidden = true;
+            return;
+        }
+
+        title.textContent = currentMusicTrack.characterName;
+        subtitle.textContent = currentMusicTrack.songName;
+        skipButton.hidden = musicQueue.length === 0;
+        queueStatus.textContent = musicQueue.length > 0
+            ? `V poradí: ${musicQueue.length}`
+            : "";
+    }
+
+    function playMusicTrack(track) {
+        const { audio } = getMusicPlayerElements();
+
+        currentMusicTrack = track;
+        audio.src = track.url;
+        audio.load();
+        updateMusicPlayerUi();
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(() => {
+                // Some browsers may still require direct user interaction with the audio control.
+                updateMusicPlayerUi();
+            });
+        }
+    }
+
+    function enqueueCharacterMusic(track) {
+        const { audio } = getMusicPlayerElements();
+
+        if (!currentMusicTrack) {
+            playMusicTrack(track);
+            return;
+        }
+
+        if (currentMusicTrack.url === track.url) {
+            if (audio.paused) {
+                audio.play().catch(() => updateMusicPlayerUi());
+            }
+            updateMusicPlayerUi();
+            return;
+        }
+
+        musicQueue.push(track);
+        updateMusicPlayerUi();
+    }
+
+    function playNextQueuedMusic() {
+        if (musicQueue.length > 0) {
+            playMusicTrack(musicQueue.shift());
+            return;
+        }
+
+        stopMusicPlayer();
+    }
+
+    function stopMusicPlayer() {
+        const { audio } = getMusicPlayerElements();
+
+        audio.pause();
+        audio.removeAttribute("src");
+        audio.load();
+        currentMusicTrack = null;
+        musicQueue.length = 0;
+        updateMusicPlayerUi();
+    }
+
+    function setupSharedMusicPlayer() {
+        const { audio, stopButton, skipButton } = getMusicPlayerElements();
+
+        document.body.addEventListener("click", event => {
+            const musicButton = event.target.closest("[data-character-music-button]");
+            if (!musicButton) return;
+
+            enqueueCharacterMusic({
+                characterName: musicButton.dataset.musicCharacter || "Neznáma postava",
+                songName: musicButton.dataset.musicTitle || "Hudba postavy",
+                url: musicButton.dataset.musicUrl || ""
+            });
+        });
+
+        stopButton.addEventListener("click", stopMusicPlayer);
+        skipButton.addEventListener("click", playNextQueuedMusic);
+        audio.addEventListener("ended", playNextQueuedMusic);
+    }
+
+    function renderCharacters() {
+        const searchTerm = document.getElementById("searchInput").value;
+        const searchField = document.getElementById("searchField").value;
+        const sortField = document.getElementById("sortField").value;
+        const sortDirection = document.getElementById("sortDirectionButton").dataset.direction;
+
+        document.querySelectorAll('.Postava').forEach(card => card.remove());
+
+        const visibleCharacters = allCharacters
+            .filter(character => characterMatchesSearch(character, searchTerm, searchField))
+            .sort((a, b) => compareCharacters(a, b, sortField, sortDirection));
+
+        visibleCharacters.forEach(character => {
+            document.body.appendChild(createCharacterCard(character));
+        });
+
+        document.getElementById("resultCount").textContent = `Zobrazené: ${visibleCharacters.length} / ${allCharacters.length}`;
+        applyOrientationStyles();
+    }
+
+    async function loadCharacters() {
+        const response = await fetch('https://raw.githubusercontent.com/Beariar/ALP/main/Postavy/_PostavyFormatDM.csv');
+        const data = await response.text();
+
+        // Pre-process the data to remove lines that start with '#'
+        const filteredData = data.split('\n').filter(line => !line.trim().startsWith('#')).join('\n');
+
+        Papa.parse(filteredData, {
+            delimiter: "|",  // Specify the custom delimiter
+            header: true,
+            skipEmptyLines: true,
+            complete: function(results) {
+                // Keep the original CSV order so Reset can restore it later.
+                allCharacters = results.data.map((character, index) => ({
+                    ...character,
+                    _originalIndex: index
+                }));
+                renderCharacters();
+            }
+        });
+    }
+
+    function setupControls() {
+        document.getElementById("searchInput").addEventListener("input", renderCharacters);
+        document.getElementById("searchField").addEventListener("change", renderCharacters);
+        document.getElementById("sortField").addEventListener("change", renderCharacters);
+
+        document.getElementById("sortDirectionButton").addEventListener("click", event => {
+            const button = event.currentTarget;
+            const currentDirection = button.dataset.direction;
+            const nextDirection = currentDirection === "asc" ? "desc" : "asc";
+
+            button.dataset.direction = nextDirection;
+            button.textContent = nextDirection === "asc" ? "A → Z" : "Z → A";
+            renderCharacters();
+        });
+
+        document.getElementById("resetFiltersButton").addEventListener("click", () => {
+            document.getElementById("searchInput").value = "";
+            document.getElementById("searchField").value = "All";
+            document.getElementById("sortField").value = "OriginalOrder";
+            document.getElementById("sortDirectionButton").dataset.direction = "asc";
+            document.getElementById("sortDirectionButton").textContent = "A → Z";
+            renderCharacters();
+        });
+    }
+
+    function applyOrientationStyles() {
+        const orientation = window.innerWidth > window.innerHeight ? 'landscape' : 'portrait';
+        const contentDivs = document.querySelectorAll('.Postava, .HlavnyNadpis, .Controls');
+
+        contentDivs.forEach(contentDiv => {
+            // Remove any existing orientation-related classes
+            contentDiv.classList.remove('wide-mode', 'narrow-mode');
+
+            // Add appropriate class based on current orientation
+            if (orientation === 'landscape') {
+                contentDiv.classList.add('wide-mode');
+            } else {
+                contentDiv.classList.add('narrow-mode');
+            }
+        });
+
+        console.log(`Orientation: ${orientation}, Width: ${window.innerWidth}, Height: ${window.innerHeight}`);
+    }
+
+    setupControls();
+    setupSharedMusicPlayer();
+    loadCharacters();
+
+    // Add event listener for window resize to detect orientation change
+    window.addEventListener('resize', applyOrientationStyles);
+</script>
+
+    
+
+</body>
+
+</html>
