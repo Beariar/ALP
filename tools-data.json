@@ -760,7 +760,7 @@
     "features": [
       {
         "name": "Repair",
-        "text": "With access to your tools and an open flame hot enough to make metal pliable, you can restore 10 hit points to a damaged metal object for each hour of work."
+        "text": "With access to your tools and an open flame hot enough to make metal pliable, you can restore 10 hit points to a damaged metal object or 0,5 výdrž to weapon for each hour of work."
       }
     ],
     "activities": [
