@@ -35,7 +35,7 @@ Olqan-Eroz-Archivar|Akademia|Olqan Eroz|None|None|Race|Focus|Origin|God|Age|Živ
 Maria-Šiphova-Medic|Akademia|Maria Šiphova|None|None|Race|Focus|Origin|God|Age|Živá|Title|Liečiteľka Jazierchatu|Description|
 Richard-Dkn|Absorber|Richard Dkn - Had|None|None|Half-Orc|Rogue|Granulia|Bland|35|Živý|Hed|Učiteľ|Na prvý pohľad pôsobí ako príšera z nočných môr, telo polo-Orka poznačené rokmi bezohľadného využívania esencie sa pretvorilo do podoby, ktorú si mnohí mýlia so strygou. Svaly i koža nesú jazvy nadprirodzených premien a jeho oči žiaria cudzím svetlom. No hoci jeho vzhľad vzbudzuje strach, skutočná povaha ho prezrádza inak: je priateľský, otvorený a loajálny. Ovláda luk s pozoruhodnou presnosťou a esenciu s takou ľahkosťou, že sa zdá, akoby mu pretekala žilami. Je paradoxom sám o sebe – desivý navonok, no blízky a spoľahlivý spoločník pre tých, čo sa odvážia priblížiť.|
 Melion-Lor’niala|Popravca|Melion Lor’niala - Dym|None|None|Elf (Drow)|Rogue|Lesohaj|Vacan|189|Živý|Hed|Učiteľ|Narodil sa ako druhý syn urodzenej rodiny, vždy v tieni svojej staršej sestry. Kým ona pútala pozornosť a obdiv, on zostával nepovšimnutý. Pozorne sledoval dianie okolo seba a učil sa, kým si iní jeho prítomnosť sotva všímali. Z nenápadného mladíka vyrástol schopný aristokrat, ktorý vie viesť zdvorilé rozhovory v sieňach šľachty, no zároveň sa osvedčil aj v boji so zbraňou v ruke. Jeho pravou silou však zostáva schopnosť pohybovať sa nevidený, zostať skrytý v pozadí a objaviť sa až vtedy, keď nastane tá správna chvíľa.|
-Enedrie-Onaior|Krotiteľ|Enedrie Onaior - Struna|None|None|Tiefling|Bard|Pieskostan|Beau|27|Živá|Hed|Učiteľ|Táto tieflingská bardka je známa svojím pokojným a nežným hlasom, ktorý dokáže upokojiť ducha a obmäkčiť srdce. No keď sa rozčertí, jej spev získa silu, akoby sa z jej hrdla ozývali samotné plamene pekla – zvuk taký mocný, že dokáže otriasť stenami. Jej vernou spoločníčkou je lutna, na ktorej hrá s vášňou, ktorá neraz prerastie do takého entuziazmu, že pri predstavení praskne struna. Napriek týmto drobným nehodám jej hudba nikdy nestráca čaro, a práve v nej sa spája krása a sila, ktoré z nej robia nezabudnuteľnú krotiteľku.|
+Enedrie-Onaior|Krotiteľ|Enedrie Onaior - Struna|None|None|Tiefling|Bard|Pieskostan|Beau|27|Živá|Hed|Učiteľ|Táto tieflingská bardka je známa svojím pokojným a nežným hlasom, ktorý dokáže upokojiť ducha a obmäkčiť srdce. No keď sa rozčertí, jej spev získa silu, akoby sa z jej hrdla ozývali samotné plamene pekla – zvuk taký mocný, že dokáže otriasť stenami. Jej vernou spoločníčkou je 16-strunová harfa, na ktorej hrá s vášňou, ktorá neraz prerastie do takého entuziazmu, že pri predstavení praskne struna. Napriek týmto drobným nehodám jej hudba nikdy nestráca čaro, a práve v nej sa spája krása a sila, ktoré z nej robia nezabudnuteľnú krotiteľku.|
 Ludvik-Grats|Ochranca|Ludvik Grats - Snehumil|None|None|Human|Cleric/Barbarian|Jazierchat|Rohan|36|Živý|Hed|Učiteľ|Mladší brat Bolyvara a rešpektuhodný lovec vo svojom vlastnom odbore. Ludvik ma omnoho pokojnejšiu povahu než jeho brat a pravdepodobne aj preto si zvolil inú fakultu alebo možno len následoval stopy najstaršieho brata, Gregoriho. Posledné roky trávil Ludvik v Chladohrade kde pracoval na výpravách za Aurora Serpentom. Nové povinnosti ho však zavolali späť do rodného mesta Jazierchatu.|
 Niliana-Lor’niala|Znalec|Niliana Lor’niala - Svetlica|None|None|Elf (Drow)|Wizard|Lesohaj|Elavalur|189|Živá|Hed|Učiteľ|Na rozdiel od svojho mladšieho brata vždy stála v popredí. Ľudia ju obklopovali, rozprávali sa s ňou, hľadali jej pozornosť a ona si ju užívala. Bola šťastná vždy, keď mohla žiariť v strede diania, a práve táto túžba po svetle ju priviedla k najznámejšiemu kúzlu, ktoré vytvorila – zaklínadlu, schopnému oslepiť a očariť celú miestnosť jediným gestom. Pre jej povahu a mocnú mágiu jej prischlo meno Svetlica. Hoci je jej koža tmavá ako uhlie jej prítomnosť žiari tak, že ju nemožno prehliadnuť.|
 Henrieta-Gûl'hosta|Znalec|Henrieta Gûl'hosta|None|None|Elf (Drow)|Wizard|Juhiera|Zylhana|189|Živá|---|Lovec študent - Skupina 750~1|Mladá kúzelníčka z nižšej šľachty elfského rodu, ktorá má už za sebou prvé skúšky mágie a obstála v nich so cťou. Je znalá, no jej najväčšou prednosťou nie je iba vedomosť, ale aj neutíchajúca snaha a mladícka ambicióznosť. Hoci ešte nemá toľko skúseností ako jej starší druhovia, jej odhodlanie a chuť rásť ju neraz posunuli ďalej, než by kto očakával. V jej očiach sa spája iskra zvedavosti s túžbou po uznaní – a je jasné, že pred sebou má cestu, ktorá môže viesť k veľkým veciam.|
@@ -124,7 +124,7 @@ George-Hviezda|Ochranca|George Hviezda|None|None|Race|Focus|Origin|God|Age|Živ�
 Krasko-Horenik|Znalec|Krasko Horenik|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 740~7|Description|
 Ukulea-Straka|Absorber|Ukulea Straka|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
 Eliaš-Rudla|Popravca|Eliaš Rudla|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
-Arthur-Lotekam|Krotiteľ|Arthur Lotekam|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
+Arthur-Lotekam|Krotiteľ|Arthur Lotekam Kováčik|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
 Andre-Ako|Ochranca|Andre Ako|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
 Lesana-Ial'Nalar|Znalec|Lesana Ial'Nalar|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 735~1|Description|
 Ivgar-Kugon|Absorber|Ivgar Kugon|None|None|Race|Focus|Origin|God|Age|Živý|Hed|Lovec študent - Skupina 745~1|Description|
@@ -158,119 +158,119 @@ Edimia-Gygar|None|Edimia-Gygar|None|None|empty|empty|empty|empty|empty|Živý|em
 Eleanor-Augeht|None|Eleanor-Augeht|None|None|empty|empty|empty|empty|empty|Živý|empty|High Priestess|empty|
 Elnarie-Huf'Hof|None|Elnarie-Huf'Hof|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 725|empty|
 Elwira-Raktoskiniel|None|Elwira-Raktoskiniel|None|None|empty|empty|empty|empty|empty|Živý|empty|Yellow spectral soldier|empty|
-Emilia-Blankit|None|Emilia-Blankit|None|None|empty|empty|empty|empty|empty|Živý|empty|Zločinec|empty|
+Emilia-Blankit|Wanted|Emilia-Blankit|None|None|empty|empty|empty|empty|empty|Živý|empty|Zločinec|empty|
 Enu'Ana'Lia-Ounogou|None|Enu'Ana'Lia-Ounogou|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Ervart-Goldschmied|None|Ervart-Goldschmied|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 740|empty|
+Ervart-Goldschmied|Absorber|Ervart-Goldschmied|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 740|empty|
 Forbidden-Alfira|None|Forbidden-Alfira|None|None|empty|empty|empty|empty|empty|Živý|empty|Old hunter circa 85|empty|
 Forbidden-Iovor|None|Forbidden-Iovor|None|None|empty|empty|empty|empty|empty|Živý|empty|Old hunter circa 85|empty|
 Forbidden-Leahlan|None|Forbidden-Leahlan|None|None|empty|empty|empty|empty|empty|Živý|empty|Old hunter circa 85|empty|
 Frederick-Raktoskiniel|None|Frederick-Raktoskiniel|None|None|empty|empty|empty|empty|empty|Živý|empty|Yellow Spectral Knight, Lovec skupiny 715|empty|
-FrederickSagar|None|FrederickSagar|None|None|empty|empty|empty|empty|empty|Živý|empty|Monk, Lovec študent - Skupina 755|empty|
-Fúhš|None|Fúhš|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
+FrederickSagar|Ochranca|Frederick Sagar|None|None|empty|empty|empty|empty|empty|Živý|empty|Monk, Lovec študent - Skupina 735|empty|
+Fúhš|Znalec|Fúhš|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
 Gabor-Ferezo|None|Gabor-Ferezo|None|None|empty|empty|empty|empty|empty|Živý|empty|Blue Spectral knight|empty|
-Gabriel-Ferezo|None|Gabriel-Ferezo|None|None|empty|empty|empty|empty|empty|Živý|empty|Blue Spectral elder,Lovec skupiny 715|empty|
+Gabriel-Ferezo|Ochranca|Gabriel-Ferezo|None|None|empty|empty|empty|empty|empty|Živý|empty|Blue Spectral elder,Lovec skupiny 715|empty|
 Galarien-Fey'Eluna|None|Galarien-Fey'Eluna|None|None|empty|empty|empty|empty|empty|Živý|empty|Púštna čarodejnica|empty|
-Gema-Vrba|None|Gema-Vrba|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
-Genta-Rabdos|None|Genta-Rabdos|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 730|empty|
-Gors-Kotandan|None|Gors-Kotandan|None|None|empty|empty|empty|empty|empty|Živý|empty|Mafia boss|empty|
-Gretha-Grats|None|Gretha-Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Hayden-Vainor-Wineboy|None|Hayden-Vainor|None|None|empty|empty|empty|empty|empty|Živý|empty|Posledny Kalsar|empty|
+Gema-Vrba|Krotiteľ|Gema-Vrba|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
+Genta-Rabdos|Popravca|Genta-Rabdos|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 730|empty|
+Gors-Kotandan|Wanted|Gors-Kotandan|None|None|empty|empty|empty|empty|empty|Živý|empty|Mafia boss|empty|
+Gretha-Grats|Krotiteľ|Gretha-Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Hayden-Vainor-Wineboy|Remeslo|Hayden-Vainor|None|None|empty|empty|empty|empty|empty|Živý|empty|Posledny Kalsar|empty|
 Hayden-Vainor|None|Hayden-Vainor|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin??|empty|
 Hayden-Vainor--Boris-Kalsar|None|Hayden-Vainor--Boris-Kalsar|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Hayden-Vainor-Masked|None|Hayden-Vainor-Masked|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
-Helena-Sajkl|None|Helena-Sajkl|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Ilibor-Kravke|None|Ilibor-Kravke|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Janet-Majakova|None|Janet-Majakova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Helena-Sajkl|Popravca|Helena-Sajkl|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Ilibor-Kravke|Krotiteľ|Ilibor-Kravke|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Janet-Majakova|Znalec|Janet-Majakova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Kaelys-Mezere|None|Kaelys-Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Kaerth-Lanua|None|Kaerth-Lanua|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Kaerth-Lanua|Ochranca|Kaerth-Lanua|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Karlita-Elinuranova|None|Karlita-Elinuranova|None|None|empty|empty|empty|empty|empty|Živý|empty|Noble of Tmavohmla|empty|
 Katharina-Popelova|None|Katharina-Popelova|None|None|empty|empty|empty|empty|empty|Živý|empty|Križiak Kňažka|empty|
-Kranga-Guroles|None|Kranga-Guroles|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Kulkumak-Hularo|None|Kulkumak-Hularo|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Kuristoon-Maloque|None|Kuristoon-Maloque|None|None|empty|empty|empty|empty|328|Živý|Jäger|Lovec Skupina 485|empty|
-Kwandu-Malrik|None|Kwandu-Malrik|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Dytria_Grats|None|Dytria_Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Ladislav-Bor|None|Ladislav-Bor|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Lana-Pecova|None|Lana-Pecova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Kranga-Guroles|Popravca|Kranga-Guroles|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Kulkumak-Hularo|Znalec|Kulkumak-Hularo|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Kuristoon-Maloque|Znalec|Kuristoon-Maloque|None|None|empty|empty|empty|empty|328|Živý|Jäger|Lovec Skupina 485|empty|
+Kwandu-Malrik|Popravca|Kwandu-Malrik|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Dytria_Grats|Popravca|Dytria_Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Ladislav-Bor|Popravca|Ladislav-Bor|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Lana-Pecova|Absorber|Lana-Pecova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Lavrina-Oblag|None|Lavrina-Oblag|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Lazarin-Mezere|None|Lazarin-Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Ľudmila-Grats|None|Ľudmila-Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Lynda-Grookova|None|Lynda-Grookova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Maghol|None|Maghol|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Ľudmila-Grats|Ochranca|Ľudmila-Grats|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Lynda-Grookova|Popravca|Lynda-Grookova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Maghol|Absorber|Maghol|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Majk|None|Majk|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Majlo-Burinka|None|Majlo-Burinka|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 730|empty|
+Majlo-Burinka|Ochranca|Majlo-Burinka|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 730|empty|
 Manoforge|None|Manoforge|None|None|empty|empty|empty|empty|empty|Živý|empty|Wanderer|empty|
 Markus-Renta|None|Markus-Renta|None|None|empty|empty|empty|empty|empty|Živý|empty|High Priest|empty|
 Maximus-Noe-Cor|None|Maximus-Noe-Cor|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
-Melisa-Svetlíková|None|Melisa-Svetlíková|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Menea-Nor'Niala|None|Menea-Nor'Niala|None|None|empty|empty|empty|empty|empty|Živý|empty|Assassin|empty|
+Melisa-Svetlíková|Absorber|Melisa-Svetlíková|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Menea-Nor'Niala|Remeslo|Menea-Nor'Niala|None|None|empty|empty|empty|empty|empty|Živý|empty|Assassin|empty|
 Mezere|None|Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|Patron, Warlock, Goddess from Tmavohmla|empty|
 Mezere_2|None|Mezere_2|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Mikaela-Aufanz|None|Mikaela-Aufanz|None|None|empty|empty|empty|empty|empty|Živý|empty|Purple Spectral Knight|empty|
-Milena-Kladivova|None|Milena-Kladivova|None|None|empty|empty|empty|empty|empty|Živý|empty|Dobrodruh|empty|
-Moritz-Papilio|None|Moritz-Papilio|None|None|empty|empty|empty|empty|empty|Živý|empty|Mudrc|empty|
+Milena-Kladivova|Bohovia|Milena-Kladivova|None|None|empty|empty|empty|empty|empty|Živý|empty|Dobrodruh|empty|
+Moritz-Papilio|Mudrc|Moritz-Papilio|None|None|empty|empty|empty|empty|empty|Živý|empty|Mudrc|empty|
 Murez-Elinuran|None|Murez-Elinuran|None|None|empty|empty|empty|empty|empty|Živý|empty|Dedič|empty|
-Nathalie-Resartén|None|Nathalie-Resartén|None|None|empty|empty|empty|empty|empty|Živý|empty|Zlodej|empty|
-Niara-Oracle|None|Niara-Oracle|None|None|empty|empty|empty|empty|empty|Živý|empty|Oracle of Ogramište|empty|
+Nathalie-Resartén|Wanted|Nathalie-Resartén|None|None|empty|empty|empty|empty|empty|Živý|empty|Zlodej|empty|
+Niara-Oracle|Mudrc|Niara-Oracle|None|None|empty|empty|empty|empty|empty|Živý|empty|Oracle of Ogramište|empty|
 NiaraOrcBeaty|None|NiaraOrcBeaty|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Nyxira-Mezere|None|Nyxira-Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Oatis-Field|None|Oatis-Field|None|None|empty|empty|empty|empty|empty|Živý|empty|Farmar|empty|
+Oatis-Field|Remeslo|Oatis-Field|None|None|empty|empty|empty|empty|empty|Živý|empty|Farmar|empty|
 Orgar-Brakfi|None|Orgar-Brakfi|None|None|empty|empty|empty|empty|empty|Živý|empty|Chieftan Gramište|empty|
-Page-Fields|None|Page-Fields|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
+Page-Fields|Mesto|Page-Fields|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Page-Meadow_NewOutfit|None|Page-Meadow_NewOutfit|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
-Pavria-Rhei'aou|None|Pavria-Rhei'aou|None|None|empty|empty|empty|empty|empty|Živý|empty|High Priestess|empty|
-Peater-Fields|None|Peater-Fields|None|None|empty|empty|empty|empty|empty|Živý|empty|Farmár|empty|
-Pier-Maco|None|Pier-Maco|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec skupiny 720|empty|
-Pieta-Lensen|None|Pieta-Lensen|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Privana-Ryzo|None|Privana-Ryzo|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Quill-Meadow|None|Quill-Meadow|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Pavria-Rhei'aou|Bohovia|Pavria-Rhei'aou|None|None|empty|empty|empty|empty|empty|Živý|empty|High Priestess|empty|
+Peater-Fields|Remeslo|Peater-Fields|None|None|empty|empty|empty|empty|empty|Živý|empty|Farmár|empty|
+Pier-Maco|Remeslo|Pier-Maco|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec skupiny 720|empty|
+Pieta-Lensen|Ochranca|Pieta-Lensen|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Privana-Ryzo|Absorber|Privana-Ryzo|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Quill-Meadow|Znalec|Quill-Meadow|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
 Quinn-Mursa-Now|None|Quinn-Mursa-Now|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
-Radovan-Rybník|None|Radovan-Rybník|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Razag|None|Razag|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Radovan-Rybník|Ochranca|Radovan-Rybník|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Razag|Popravca|Razag|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
 Rebeka-Kajna|None|Rebeka-Kajna|None|None|empty|empty|empty|empty|???|Živý|empty|empty|empty|
-Richtor-Derueox|None|Richtor-Derueox|None|None|empty|empty|empty|empty|59|Živý|empty|Lovec skupiny 715|empty|
+Richtor-Derueox|Ochranca|Richtor-Derueox|None|None|empty|empty|empty|empty|59|Živý|empty|Lovec skupiny 715|empty|
 Roderick-Plamenný|None|Roderick-Plamenný|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|Priatel rodu Elinuran (Zoriho rodiny – Zori ho spozná)|
-Seravin-Gokolova|None|Seravin-Gokolova|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Seravin-Gokolova|Absorber|Seravin-Gokolova|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
 Serelith-Mezere|None|Serelith-Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Sofia-Klarueox|None|Sofia-Klarueox|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Stela-Rifs|None|Stela-Rifs|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
-Tadeaz-Aufanz|None|Tadeaz-Aufanz|None|None|empty|empty|empty|empty|empty|Živý|empty|Zabávač|empty|
-Tatiana-Rokhen|None|Tatiana-Rokhen|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Thomas-Vyt|None|Thomas-Vyt|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 735|empty|
-Trinta-Golhes|None|Trinta-Golhes|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Sofia-Klarueox|Znalec|Sofia-Klarueox|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Stela-Rifs|Krotiteľ|Stela-Rifs|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745|empty|
+Tadeaz-Aufanz|Umenie|Tadeaz-Aufanz|None|None|empty|empty|empty|empty|empty|Živý|empty|Zabávač|empty|
+Tatiana-Rokhen|Ochranca|Tatiana-Rokhen|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Thomas-Vyt|Popravca|Thomas-Vyt|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 735|empty|
+Trinta-Golhes|Krotiteľ|Trinta-Golhes|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Ťurkup-Kopor|None|Ťurkup-Kopor|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
 Ugo-Musstank|None|Ugo-Musstank|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
 Urganginos|None|Urganginos|None|None|empty|empty|empty|empty|empty|Živý|empty|Cultist|empty|
-Valiana-Kajna|None|Valiana-Kajna|None|None|empty|empty|empty|empty|326|Živý|empty|Lovec skupiny 715, High Priestess|empty|
-Vašek-Kováčik|None|Vašek-Kováčik|None|None|empty|empty|empty|empty|64|Živý|empty|Lovec skupiny 705|empty|
-Vasil-Calson|None|Vasil-Calson|None|None|empty|empty|empty|empty|68|Živý|empty|Lovec skupiny 705|empty|
-Vayla-Rosa|None|Vayla-Rosa|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Vector-Karl|None|Vector-Karl|None|None|empty|empty|empty|empty|empty|Živý|empty|Vedator|empty|
-Veilner-Vilion-El'Nari|None|Veilner-Vilion-El'Nari|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Valiana-Kajna|Bohovia|Valiana-Kajna|None|None|empty|empty|empty|empty|326|Živý|empty|Lovec skupiny 715, High Priestess|empty|
+Vašek-Kováčik|Znalec|Vašek-Kováčik|None|None|empty|empty|empty|empty|64|Živý|empty|Lovec skupiny 705|empty|
+Vasil-Calson|Absorber|Vasil-Calson|None|None|empty|empty|empty|empty|68|Živý|empty|Lovec skupiny 705|empty|
+Vayla-Rosa|Popravca|Vayla-Rosa|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Vector-Karl|Mudrc|Vector-Karl|None|None|empty|empty|empty|empty|empty|Živý|empty|Vedator|empty|
+Veilner-Vilion-El'Nari|Umenie|Veilner-Vilion-El'Nari|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
 Veyrion-Mezere|None|Veyrion-Mezere|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Viliam-Rozsipal|None|Viliam-Rozsipal|None|None|empty|empty|empty|empty|57|Živý|empty|Lovec skupiny 715|empty|
-Vilo-Rozsipal|None|Vilo-Rozsipal|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Violet-Martin|None|Violet-Martin|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Vladislav-Marinovič|None|Vladislav-Marinovič|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 730|empty|
-Volia-Xazit|None|Volia-Xazit|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Waab|None|Waab|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Wakro|None|Wakro|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Waoch|None|Waoch|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Wapo|None|Wapo|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Wazn|None|Wazn|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Želmíra-TmavoKrvá|None|Želmíra-TmavoKrvá|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Viliam-Rozsipal|Absorber|Viliam-Rozsipal|None|None|empty|empty|empty|empty|57|Živý|empty|Lovec skupiny 715|empty|
+Vilo-Rozsipal|Absorber|Vilo-Rozsipal|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Violet-Martin|Znalec|Violet-Martin|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Vladislav-Marinovič|Popravca|Vladislav-Marinovič|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 730|empty|
+Volia-Xazit|Krotiteľ|Volia-Xazit|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Waab|Absorber|Waab|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Wakro|Krotiteľ|Wakro|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Waoch|Ochranca|Waoch|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Wapo|Popravca|Wapo|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Wazn|Znalec|Wazn|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Želmíra-TmavoKrvá|Ochranca|Želmíra-TmavoKrvá|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
 Zitha-Riebus|None|Zitha-Riebus|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
-Zuzalia-Biela|None|Zuzalia-Biela|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Chris'tana-Hof’Goria|None|Chris'tana-Hof’Goria|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Franze-Ogram|None|Franze-Ogram|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Garfolso-Ala'nuiara-Zelený|None|Garfolso-Ala'nuiara-Zelený|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
-Iveth-Asmaliova|None|Iveth-Asmaliova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 746|empty|
+Zuzalia-Biela|Krotiteľ|Zuzalia-Biela|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Chris'tana-Hof’Goria|None|Chris'tana-Hof’Goria|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
+Franze-Ogram|Krotiteľ|Franze-Ogram|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
+Garfolso-Ala'nuiara-Zelený|Popravca|Garfolso-Ala'nuiara-Zelený|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745|empty|
+Iveth-Asmaliova|Ochranca|Iveth-Asmaliova|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
 Jeniva-Rakh`Vezhof|None|Jeniva-Rakh`Vezhof|None|None|empty|empty|empty|empty|empty|Živý|empty|Headhunter|empty|
-Ogscar-Rogba|None|Ogscar-Rogba|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 748|empty|
-Piter-Heinricht|None|Piter-Heinricht|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 749|empty|
-Roman-Romulus|None|Roman-Romulus|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 750|empty|
-Sindarin-El'Nari|None|Sindarin-El'Nari|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 751|empty|
-Urbar-Heinricht|None|Urbar-Heinricht|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 752|empty|
+Ogscar-Rogba|Popravca|Ogscar-Rogba|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
+Piter-Heinricht|Absorber|Piter-Heinricht|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
+Roman-Romulus|Absorber|Roman-Romulus|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
+Sindarin-El'Nari|Krotiteľ|Sindarin-El'Nari|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
+Urbar-Heinricht|Ochranca|Urbar-Heinricht|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
 Velimira_NewMay2026|None|Velimira_NewMay2026|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
-Zasmal-Zink|None|Zasmal-Zink|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 754|empty|
-Zilou-Yund|None|Zilou-Yund|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 755|empty|
+Zasmal-Zink|Znalec|Zasmal-Zink|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
+Zilou-Yund|Znalec|Zilou-Yund|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
