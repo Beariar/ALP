@@ -560,6 +560,46 @@ overflow-wrap: break-word;
         return normalizedMusic !== "" && normalizedMusic !== "none";
     }
 
+    function getCharacterLogos(logoValue) {
+        return String(logoValue ?? "")
+            .split(/[;,]+/)
+            .map(logoName => logoName.trim())
+            .filter(logoName => {
+                const normalizedLogoName = normalizeText(logoName);
+                return normalizedLogoName !== "" && normalizedLogoName !== "none";
+            });
+    }
+
+    function buildCharacterLogoUrl(logoName) {
+        const trimmedLogoName = String(logoName ?? "").trim();
+        const logoFileName = trimmedLogoName.toLowerCase().endsWith(".png")
+            ? trimmedLogoName
+            : `${trimmedLogoName}.png`;
+
+        return `https://cdn.jsdelivr.net/gh/Beariar/ALP@main/FactionLogo/${encodeURIComponent(logoFileName)}`;
+    }
+
+    function buildCharacterLogoMarkup(logoValue) {
+        const logos = getCharacterLogos(logoValue);
+
+        if (logos.length === 0) return "";
+
+        return logos.map((logoName, index) => {
+            //const offset = index * 1.5 * 5;
+            const zIndex = 10 - index;
+            const widthOfLogo = 5* (1/((index/2)+1));
+            const offset = index*widthOfLogo+index;
+
+            return `
+                <img
+                    src="${escapeHtml(buildCharacterLogoUrl(logoName))}"
+                    alt="${escapeHtml(logoName)}"
+                    title="${escapeHtml(logoName)}"
+                    style="width: ${widthOfLogo}%; position: absolute; top: ${2}%; left: ${1 + offset}%; z-index: ${zIndex};">
+            `;
+        }).join("");
+    }
+
     function buildCharacterMusicUrl(music) {
         const trimmedMusic = String(music ?? "").trim();
         const musicFileName = trimmedMusic.toLowerCase().endsWith(".mp3")
@@ -677,7 +717,7 @@ overflow-wrap: break-word;
             <span class="character-portrait ${portraitStateClass}" title="${portraitTitle}">
                 <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/JPEG_2026/${escapeHtml(Image)}.jpg" alt="${escapeHtml(Name)}">
             </span>
-            <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/FactionLogo/${escapeHtml(Logo)}.png" alt="${escapeHtml(Logo)}" style="width: 5%; position: absolute; top: 2%; left: 1%; z-index: 2;">
+            ${buildCharacterLogoMarkup(Logo)}
             ${characterMusicMarkup}
             <h2>${escapeHtml(Name)}</h2>
             ${characterQuoteMarkup}
