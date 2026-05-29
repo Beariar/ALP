@@ -67,6 +67,56 @@
       "category": "holy-day",
       "importance": "major",
       "description": "Oslavná noc, keď bohovia Rohan a Zervon spoločne strážia oblohu a delia sa o túto úlohu; je to noc, keď si ľudia navzájom vymieňajú darčeky, aby vyjadrili vďačnosť ostatným"
+    },
+    {
+      "id": "letny-semester-zac",
+      "name": "Začiatok letného Semestra",
+      "date": {
+        "month": 3,
+        "day": 1
+      },
+      "recurrence": "yearly",
+      "category": "Akademia",
+      "importance": "medium",
+      "description": "Oficálne zahájenie štúdia lovcov na letný semester a termín do kedy je potrebné mať zaplatené školné"
+    }
+    ,
+    {
+      "id": "letny-semester-kon",
+      "name": "Koniec letného Semestra",
+      "date": {
+        "month": 6,
+        "day": 36
+      },
+      "recurrence": "yearly",
+      "category": "Akademia",
+      "importance": "medium",
+      "description": "Oficálne ukončenie štúdia letného semestera a termín do kedy je potrebné absorvovať skúšku"
+    },
+    {
+      "id": "zimný-semester-zac",
+      "name": "Začiatok zimného Semestra",
+      "date": {
+        "month": 8,
+        "day": 1
+      },
+      "recurrence": "yearly",
+      "category": "Akademia",
+      "importance": "medium",
+      "description": "Oficálne zahájenie štúdia lovcov na zimný semester a termín do kedy je potrebné mať zaplatené školné"
+    }
+    ,
+    {
+      "id": "zimný-semester-kon",
+      "name": "Koniec zimného Semestra",
+      "date": {
+        "month": 1,
+        "day": 36
+      },
+      "recurrence": "yearly",
+      "category": "Akademia",
+      "importance": "medium",
+      "description": "Oficálne ukončenie štúdia zimného semestera a termín do kedy je potrebné absorvovať skúšku"
     }
   ]
 }
