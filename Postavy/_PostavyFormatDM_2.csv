@@ -166,13 +166,13 @@ Forbidden-Alfira|Popravca|Forbidden-Alfira|None|None|empty|empty|empty|empty|emp
 Forbidden-Iovor|Ochranca|Forbidden-Iovor|None|None|empty|empty|empty|empty|empty|Živý|empty|Old hunter circa 85|empty|
 Forbidden-Leahlan|Absorber|Forbidden-Leahlan|None|None|empty|empty|empty|empty|empty|Živý|empty|Old hunter circa 85|empty|
 Frederick-Raktoskiniel|Krotiteľ|Frederick-Raktoskiniel|None|None|empty|empty|empty|empty|empty|Živý|empty|Yellow Spectral Knight, Lovec skupiny 715|empty|
-FrederickSagar|Ochranca|Frederick Sagar|None|None|empty|empty|empty|empty|empty|Živý|empty|Monk, Lovec študent - Skupina 735|empty|
+FrederickSagar|Ochranca|Frederick Sagar|None|None|Drakarim|Monk|empty|empty|40|Živý|empty|Monk, Lovec študent - Skupina 735|empty|
 Fúhš|Znalec|Fúhš|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
 Gabor-Ferezo|Mesto|Gabor-Ferezo|None|None|empty|empty|empty|empty|empty|Živý|empty|Blue Spectral knight|empty|
 Gabriel-Ferezo|Ochranca|Gabriel-Ferezo|None|Blue Light Eternal|empty|empty|empty|empty|empty|Živý|empty|Blue Spectral elder,Lovec skupiny 715|empty|
 Galarien-Fey'Eluna|None|Galarien-Fey'Eluna|None|None|empty|empty|empty|empty|empty|Živý|empty|Púštna čarodejnica|empty|
 Gema-Vrba|Krotiteľ|Gema-Vrba|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 735|empty|
-Genta-Rabdos|Popravca|Genta-Rabdos|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 730|empty|
+Genta-Rabdos|Popravca|Genta Rabdos|None|None|Human|Barbarian|Juhiera|Hellia|41|Živá|Jäger|Lovec Skupina 730|empty|
 Gors-Kotandan|Wanted|Gors-Kotandan|None|None|empty|empty|empty|empty|empty|Živý|empty|Mafia boss|empty|
 Gretha-Grats|Krotiteľ|Gretha Grats|None|None|Human|Cleric|Jazierchat|Saci|24|Živý|Bojon|Lovec študent - Skupina 745~9|Gretha Grats je dcéra Gregora Gratsa, hoci svojho otca nikdy nespoznala. Narodila sa až po jeho smrti a meno dostala práve na jeho pamiatku, ako posledný odraz človeka, ktorý jej v živote zostal skôr príbehom než spomienkou. Vyrastala medzi rozprávaniami o Gregorovi, jeho odvahe, dobrote a smrti, ktorá po ňom v rode zanechala tiché prázdno.  Spoznala svojich strýkov, Bolivara a Ľudviga, no otca poznala len cez slová iných. Práve preto sa celý život snažila žiť tak, aby by na ňu mohol byť hrdý. Vybrala si cestu lovkyne, podobne ako on, no nie rovnakým spôsobom. Gregor bol ochranca, ktorý padol pri tom, keď chránil iných. Gretha si z jeho smrti nevzala len obdiv, ale aj otázku — či sa tomu nedalo zabrániť skôr.  Preto sa ako jediná z poslednej generácie Gratsovcov nevydala priamo v stopách svojho rodiča. Namiesto fakulty Ochrancov si vybrala Krotiteľov. Nechcela iba stáť medzi monštrom a obeťou, keď už je neskoro. Chcela sa naučiť príšery pochopiť, nalákať, oklamať, skrotiť alebo dostať do pasce ešte predtým, než ony dostanú do pasce ľudí.  Gretha nie je menej odvážna než jej otec. Je len inak odvážna. Verí, že zachrániť život niekedy znamená nebojovať silou, ale predvídať, pripraviť pascu a zmeniť výsledok skôr, než sa tragédia zopakuje. V jej očiach nie je krotenie slabosťou, ale spôsobom, ako dať smrti menej príležitostí. |
 Hayden-Vainor-Wineboy|Remeslo|Hayden-Vainor|None|None|empty|empty|empty|empty|empty|Živý|empty|Posledny Kalsar|empty|
@@ -275,3 +275,6 @@ Urbar-Heinricht|Ochranca|Urbar-Heinricht|None|None|empty|empty|empty|empty|empty
 Velimira_NewMay2026|None|Velimira_NewMay2026|None|None|empty|empty|empty|empty|empty|Živý|empty|Skin|empty|
 Zasmal-Zink|Znalec|Zasmal-Zink|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~5|empty|
 Zilou-Yund|Znalec|Zilou-Yund|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent - Skupina 745~4|empty|
+Joe-Ursidea|None|Joe-Ursidea|None|None|empty|empty|empty|empty|empty|Živý|empty|empty|empty|
+Targeria-Uroqal|None|Targeria-Uroqal|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 730 |empty|
+Uhoboz-Muniop|None|Uhoboz-Muniop|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec Skupina 730 |empty|
