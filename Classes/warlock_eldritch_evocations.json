@@ -209,9 +209,9 @@
       "source": "XGE",
       "prerequisite-entry": "5th-level Warlock, Pact of the Blade",
       "entries": [
-        "Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra {@damage 1d8} force damage to the target, plus another {@damage 1d8} per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+        "Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller."
       ],
-      "allowed": "not allowed"
+      "allowed": "allowed"
     },
     {
       "name": "Eldritch Smite",
@@ -386,9 +386,9 @@
       "entries": [
         "You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
         "In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
-        "Finally, the weapon you conjure can be a {@item shortbow|phb}, {@item longbow|phb}, {@item light crossbow|phb}, or {@item heavy crossbow|phb}."
+        "Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow."
       ],
-      "allowed": "not allowed"
+      "allowed": "allowed"
     },
     {
       "name": "Investment of the Chain Master",
@@ -808,9 +808,9 @@
       "source": "TCE",
       "prerequisite-entry": "5th-level Warlock",
       "entries": [
-        "You can cast {@spell animate dead} without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest."
+        "You can cast spell Animate Dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest."
       ],
-      "allowed": "not allowed"
+      "allowed": "allowed"
     },
     {
       "name": "Visions of Distant Realms",
