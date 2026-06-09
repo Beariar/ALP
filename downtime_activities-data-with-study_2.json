@@ -2121,9 +2121,147 @@
     },
     {
       "id": "work",
+      "name": "Additional Work ALP",
+      "category": "employment",
+      "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+        "checkOptions": [
+          {
+            "ability": "Strength",
+            "skill": "Athletics"
+          },
+          {
+            "ability": "Dexterity",
+            "skill": "Acrobatics"
+          },
+          {
+            "ability": "Intelligence",
+            "tool": "A set of tools"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Performance"
+          },
+          {
+            "ability": "Charisma",
+            "tool": "A musical instrument"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "income",
+          "title": "Income",
+          "columns": [
+            "Lifestyle",
+            "check total",
+            "earnings"
+          ],
+          "rows": [
+            {
+              "Lifestyle": {
+                "display": "Príšerný"
+              },
+              "check total": "9 or lower",
+              "earnings": "1d4 sp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Biedny"
+              },
+              "earnings": "1d4 sp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Chudobný"
+              },
+              "earnings": "2d4 sp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Skromný"
+              },
+              "earnings": "1d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Pohodlný"
+              },
+              "earnings": "2d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Bohatý"
+              },
+              "earnings": "2d6 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Aristokratický"
+              },
+              "earnings": "2d8 gp"
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "work_complications",
+          "title": "Work Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A difficult customer or a fight with a coworker reduces the wages you earn by one category.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your employer's financial difficulties result in your not being paid.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A coworker with ties to an important family in town takes a dislike to you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "Your employer is involved with a dark cult or a criminal enterprise.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "A crime ring targets your business for extortion.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You gain a reputation for laziness, justified or not, giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "work",
       "name": "Regular Income",
       "category": "employment",
-      "summary": "A character spends time to ear his monthly income + something extra",
+      "summary": "A character spends time to ear his monthly income + something extra. This actvity however can be used only once per month as such opportunity is rare to rise.",
       "resources": {
         "time": {
           "quantity": 1,
@@ -2144,19 +2282,19 @@
               "Lifestyle": {
                 "display": "Príšerný"
               },
-              "earnings": "1d4 sp"
+              "earnings": "+1d4 gp"
             },
             {
               "Lifestyle": {
                 "display": "Biedny"
               },
-              "earnings": "36 +1d4 sp"
+              "earnings": "36 sp +1d4 gp"
             },
             {
               "Lifestyle": {
                 "display": "Chudobný"
               },
-              "earnings": "36*2 + 2d4 sp"
+              "earnings": "36*2 sp +2d4 sp"
             },
             {
               "Lifestyle": {
@@ -2174,13 +2312,13 @@
               "Lifestyle": {
                 "display": "Bohatý"
               },
-              "earnings": "36*4 + 2d6 gp"
+              "earnings": "36*4 +2d6 gp"
             },
             {
               "Lifestyle": {
                 "display": "Aristokratický"
               },
-              "earnings": "36*10 + 2d8 gp"
+              "earnings": "36*10 +2d8 gp"
             }
           ]
         }
