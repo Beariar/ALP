@@ -2165,9 +2165,9 @@
           "title": "Income",
           "columns": [
             "Lifestyle",
-            "Low Honor",
-            "Medium Honor",
-            "High Honor"
+            "Low Honor (0-9)",
+            "Medium Honor (10-19)",
+            "High Honor (20+)"
           ],
           "rows": [
             {
