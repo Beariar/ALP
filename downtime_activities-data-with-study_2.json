@@ -2133,24 +2133,29 @@
       "resolution": {
         "checkOptions": [
           {
-            "ability": "Strength",
-            "skill": "Athletics"
+            "result": "9 or lower",
+            "earning": "25%",
+            "effect": "100% Complication"
           },
           {
-            "ability": "Dexterity",
-            "skill": "Acrobatics"
+            "result": "10–14",
+            "earning": "50%",
+            "effect": "30% Complication"
           },
           {
-            "ability": "Intelligence",
-            "tool": "A set of tools"
+            "result": "15–19",
+            "earning": "100%",
+            "effect": "10% Complication"
           },
           {
-            "ability": "Charisma",
-            "skill": "Performance"
+            "result": "20–24",
+            "earning": "125%",
+            "effect": "5% Complication"
           },
           {
-            "ability": "Charisma",
-            "tool": "A musical instrument"
+            "result": "25+",
+            "earning": "150%",
+            "effect": "0% Complication"
           }
         ]
       },
@@ -2160,64 +2165,74 @@
           "title": "Income",
           "columns": [
             "Lifestyle",
-            "check total",
-            "earnings"
+            "Low Honor",
+            "Medium Honor",
+            "High Honor"
           ],
           "rows": [
             {
               "Lifestyle": {
                 "display": "Príšerný"
               },
-              "check total": "9 or lower",
-              "earnings": "1d4 sp"
+              "Low Honor": "25 gp",
+              "Medium Honor": "1 gp",
+              "High Honor": "1 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Biedny"
               },
-              "earnings": "1d4 sp"
+              "Low Honor": "12 gp",
+              "Medium Honor": "1 gp",
+              "High Honor": "2 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Chudobný"
               },
-              "earnings": "2d4 sp"
+              "Low Honor": "5 gp",
+              "Medium Honor": "2 gp",
+              "High Honor": "3 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Skromný"
               },
-              "earnings": "1d4 gp"
+              "Low Honor": "12 gp",
+              "Medium Honor": "9 gp",
+              "High Honor": "11 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Pohodlný"
               },
-              "earnings": "2d4 gp"
+              "Low Honor": "24 gp",
+              "Medium Honor": "18 gp",
+              "High Honor": "32 gp"
             },
             {
               "Lifestyle": {
                 "display": "Bohatý"
               },
-              "earnings": "2d6 gp"
+              "Low Honor": "60 gp",
+              "Medium Honor": "36 gp",
+              "High Honor": "75 gp"
             },
             {
               "Lifestyle": {
                 "display": "Aristokratický"
               },
-              "earnings": "2d8 gp"
+              "Low Honor": "120 gp",
+              "Medium Honor": "90 gp",
+              "High Honor": "160 gp"
             }
           ]
         }
       ],
       "complications": {
-        "chance": {
-          "percent": 10,
-          "per": "workweek"
-        },
         "table": {
-          "id": "work_complications",
-          "title": "Work Complications",
+          "id": "crime_complications",
+          "title": "Low honor (Crime) Complications",
           "columns": [
             "roll",
             "text"
@@ -2225,33 +2240,149 @@
           "rows": [
             {
               "roll": 1,
-              "text": "A difficult customer or a fight with a coworker reduces the wages you earn by one category.",
+              "text": "Someone saw something. Rumors begin.",
               "mightInvolveRival": true
             },
             {
               "roll": 2,
-              "text": "Your employer's financial difficulties result in your not being paid.",
+              "text": "Local guards or gangs start asking questions.",
               "mightInvolveRival": true
             },
             {
               "roll": 3,
-              "text": "A coworker with ties to an important family in town takes a dislike to you.",
+              "text": "The character is watched, followed, or blackmailed.",
               "mightInvolveRival": true
             },
             {
               "roll": 4,
-              "text": "Your employer is involved with a dark cult or a criminal enterprise.",
+              "text": "Bounty, arrest attempt, gang revenge, or victim’s family seeks justice.",
               "mightInvolveRival": false
             },
             {
               "roll": 5,
-              "text": "A crime ring targets your business for extortion.",
+              "text": "Serious legal/criminal consequence. Trial, exile, assassination attempt, confiscation, etc.",
               "mightInvolveRival": true
             },
             {
               "roll": 6,
-              "text": "You gain a reputation for laziness, justified or not, giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.",
+              "text": "Before the work ended you were kindnapped.",
               "mightInvolveRival": true
+            }
+          ]
+        },
+        "table2": {
+          "id": "work_complications",
+          "title": "Medium Honor (Work) Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "The work was harder than expected; gain 1 level of exhaustion unless resting.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Payment is delayed until next week.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A tool, weapon, or piece of gear is damaged.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "The employer is dissatisfied. And work with you again for some time.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "Not knowing why some of the 'customers' are irritaed by you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You were accused of stealing and now have to face the court.",
+              "mightInvolveRival": true
+            }
+          ]
+        },
+        "table3": {
+          "id": "obligcation_complications",
+          "title": "High Honor (Obligcation) Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Someone asks for help later.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "A temple, guild, or noble expects loyalty.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "Your name is attached to the outcome of someones else plan, they relay on you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "You need to spend 1d4 days to provide support for someone.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "You become temporarely responsible for someone or something.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "The job lead you to the local ruller which asks you for a Favor",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      },
+      "favor": {
+        "table": {
+          "id": "favor_table",
+          "title": "Favor Table",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "type": "Temple Favor",
+              "text": "free lesser restoration, shelter, funeral rites, sanctuary."
+            },
+            {
+              "type": "Guild Favor",
+              "text": "discount, access to restricted tool, legal crafting permit."
+            },
+            {
+              "type": "Noble Favor",
+              "text": "invitation, recommendation, political protection."
+            },
+            {
+              "type": "Commoner Favor",
+              "text": "rumors, hiding place, local help."
+            },
+            {
+              "type": "Guard Favor",
+              "text": "ignored minor offense, warning before arrest."
+            },
+            {
+              "type": "Merchant Favor",
+              "text": "discount, special item, transport."
             }
           ]
         }
