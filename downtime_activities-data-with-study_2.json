@@ -2227,6 +2227,51 @@
               "High Honor": "160 gp"
             }
           ]
+        },
+        {"id": "favor",
+          "title": "Favor",
+          "columns": [
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            {
+              "Type": {
+                "display": "Temple Favor"
+              },
+              "Example": "free lesser restoration, shelter, funeral rites, sanctuary"
+            },
+            {
+              "Type": {
+                "display": "Guild Favor"
+              },
+              "Example": "discount, access to restricted tool, legal crafting permit"
+            },
+            {
+              "Type": {
+                "display": "Noble Favor"
+              },
+              "Example": "invitation, recommendation, political protection"
+            },
+            {
+              "Type": {
+                "display": "Commoner Favor"
+              },
+              "Example": "rumors, hiding place, local help"
+            },
+            {
+              "Type": {
+                "display": "Guard Favor"
+              },
+             "Example": "ignored minor offense, warning before arrest"
+            },
+            {
+              "Type": {
+                "display": "Merchant Favor"
+              },
+             "Example": "discount, special item, transport"
+            }
+          ]
         }
       ],
       "complications": {
@@ -2347,42 +2392,6 @@
               "roll": 6,
               "text": "The job lead you to the local ruller which asks you for a Favor",
               "mightInvolveRival": true
-            }
-          ]
-        }
-      },
-      "favor": {
-        "table": {
-          "id": "favor_table",
-          "title": "Favor Table",
-          "columns": [
-            "roll",
-            "text"
-          ],
-          "rows": [
-            {
-              "type": "Temple Favor",
-              "text": "free lesser restoration, shelter, funeral rites, sanctuary."
-            },
-            {
-              "type": "Guild Favor",
-              "text": "discount, access to restricted tool, legal crafting permit."
-            },
-            {
-              "type": "Noble Favor",
-              "text": "invitation, recommendation, political protection."
-            },
-            {
-              "type": "Commoner Favor",
-              "text": "rumors, hiding place, local help."
-            },
-            {
-              "type": "Guard Favor",
-              "text": "ignored minor offense, warning before arrest."
-            },
-            {
-              "type": "Merchant Favor",
-              "text": "discount, special item, transport."
             }
           ]
         }
