@@ -14,7 +14,8 @@
   "globalDmGuidance": [
     "The DM has the final say on which activities are available.",
     "Available activities can depend on the area where the characters are located.",
-    "The DM can disallow magic item creation or buying if the location is too isolated or unsuitable."
+    "The DM can disallow magic item creation or buying if the location is too isolated or unsuitable.",
+    "Spells or magic item effect can affect with skill check only if the effect is applied during the whole Time"
   ],
   "activities": [
     {
