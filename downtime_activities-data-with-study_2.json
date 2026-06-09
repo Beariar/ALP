@@ -2276,119 +2276,118 @@
       ],
       "complications": {
         "table": {
-          "id": "crime_complications",
-          "title": "Low honor (Crime) Complications",
+          "id": "Work_complications",
+          "title": "Work Complications",
           "columns": [
+            "honor",
             "roll",
             "text"
           ],
           "rows": [
             {
+              "honor": "Low",
               "roll": 1,
               "text": "Someone saw something. Rumors begin.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Low",
               "roll": 2,
               "text": "Local guards or gangs start asking questions.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Low",
               "roll": 3,
               "text": "The character is watched, followed, or blackmailed.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Low",
               "roll": 4,
               "text": "Bounty, arrest attempt, gang revenge, or victim’s family seeks justice.",
               "mightInvolveRival": false
             },
             {
+              "honor": "Low",
               "roll": 5,
               "text": "Serious legal/criminal consequence. Trial, exile, assassination attempt, confiscation, etc.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Low",
               "roll": 6,
               "text": "Before the work ended you were kindnapped.",
               "mightInvolveRival": true
-            }
-          ]
-        },
-        "table2": {
-          "id": "work_complications",
-          "title": "Medium Honor (Work) Complications",
-          "columns": [
-            "roll",
-            "text"
-          ],
-          "rows": [
+            },
             {
+              "honor": "Medium",
               "roll": 1,
               "text": "The work was harder than expected; gain 1 level of exhaustion unless resting.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Medium",
               "roll": 2,
               "text": "Payment is delayed until next week.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Medium",
               "roll": 3,
               "text": "A tool, weapon, or piece of gear is damaged.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Medium",
               "roll": 4,
               "text": "The employer is dissatisfied. And work with you again for some time.",
               "mightInvolveRival": false
             },
             {
+              "honor": "Medium",
               "roll": 5,
               "text": "Not knowing why some of the 'customers' are irritaed by you.",
               "mightInvolveRival": true
             },
             {
+              "honor": "Medium",
               "roll": 6,
               "text": "You were accused of stealing and now have to face the court.",
               "mightInvolveRival": true
-            }
-          ]
-        },
-        "table3": {
-          "id": "obligcation_complications",
-          "title": "High Honor (Obligcation) Complications",
-          "columns": [
-            "roll",
-            "text"
-          ],
-          "rows": [
+            },
             {
+              "honor": "High",
               "roll": 1,
               "text": "Someone asks for help later.",
               "mightInvolveRival": true
             },
             {
+              "honor": "High",
               "roll": 2,
               "text": "A temple, guild, or noble expects loyalty.",
               "mightInvolveRival": true
             },
             {
+              "honor": "High",
               "roll": 3,
               "text": "Your name is attached to the outcome of someones else plan, they relay on you.",
               "mightInvolveRival": true
             },
             {
+              "honor": "High",
               "roll": 4,
               "text": "You need to spend 1d4 days to provide support for someone.",
               "mightInvolveRival": false
             },
             {
+              "honor": "High",
               "roll": 5,
               "text": "You become temporarely responsible for someone or something.",
               "mightInvolveRival": true
             },
             {
+              "honor": "High",
               "roll": 6,
               "text": "The job lead you to the local ruller which asks you for a Favor",
               "mightInvolveRival": true
