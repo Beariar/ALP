@@ -2053,57 +2053,57 @@
               "Lifestyle": {
                 "display": "Príšerný"
               },
-              "Low Honor": "25 gp",
-              "Medium Honor": "1 gp",
-              "High Honor": "1 gp + favor"
+              "Low Honor (0-9)": "25 gp",
+              "Medium Honor (10-19)": "1 gp",
+              "High Honor (20+)": "1 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Biedny"
               },
-              "Low Honor": "12 gp",
-              "Medium Honor": "1 gp",
-              "High Honor": "2 gp + favor"
+              "Low Honor (0-9)": "12 gp",
+              "Medium Honor (10-19)": "1 gp",
+              "High Honor (20+)": "2 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Chudobný"
               },
-              "Low Honor": "5 gp",
-              "Medium Honor": "2 gp",
-              "High Honor": "3 gp + favor"
+              "Low Honor (0-9)": "5 gp",
+              "Medium Honor (10-19)": "2 gp",
+              "High Honor (20+)": "3 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Skromný"
               },
-              "Low Honor": "12 gp",
-              "Medium Honor": "9 gp",
-              "High Honor": "11 gp + favor"
+              "Low Honor (0-9)": "12 gp",
+              "Medium Honor (10-19)": "9 gp",
+              "High Honor (20+)": "11 gp + favor"
             },
             {
               "Lifestyle": {
                 "display": "Pohodlný"
               },
-              "Low Honor": "24 gp",
-              "Medium Honor": "18 gp",
-              "High Honor": "32 gp"
+              "Low Honor (0-9)": "24 gp",
+              "Medium Honor (10-19)": "18 gp",
+              "High Honor (20+)": "32 gp"
             },
             {
               "Lifestyle": {
                 "display": "Bohatý"
               },
-              "Low Honor": "60 gp",
-              "Medium Honor": "36 gp",
-              "High Honor": "75 gp"
+              "Low Honor (0-9)": "60 gp",
+              "Medium Honor (10-19)": "36 gp",
+              "High Honor (20+)": "75 gp"
             },
             {
               "Lifestyle": {
                 "display": "Aristokratický"
               },
-              "Low Honor": "120 gp",
-              "Medium Honor": "90 gp",
-              "High Honor": "160 gp"
+              "Low Honor (0-9)": "120 gp",
+              "Medium Honor (10-19)": "90 gp",
+              "High Honor (20+)": "160 gp"
             }
           ]
         },
