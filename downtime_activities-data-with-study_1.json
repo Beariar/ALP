@@ -1998,10 +1998,132 @@
       }
     },
     {
+      "id": "work",
+      "name": "Additional Work",
+      "category": "employment",
+      "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+        "checkOptions": [
+          {
+            "ability": "Strength",
+            "skill": "Athletics"
+          },
+          {
+            "ability": "Dexterity",
+            "skill": "Acrobatics"
+          },
+          {
+            "ability": "Intelligence",
+            "tool": "A set of tools"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Performance"
+          },
+          {
+            "ability": "Charisma",
+            "tool": "A musical instrument"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "wages",
+          "title": "Wages",
+          "columns": [
+            "checkTotal",
+            "earnings"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "9 or lower"
+              },
+              "earnings": "Poor lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "10—14"
+              },
+              "earnings": "Modest lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "15—20"
+              },
+              "earnings": "Comfortable lifestyle for the week"
+            },
+            {
+              "checkTotal": {
+                "display": "21+"
+              },
+              "earnings": "Wealthy lifestyle for the week + 25 gp",
+              "bonus": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "work_complications",
+          "title": "Work Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A difficult customer or a fight with a coworker reduces the wages you earn by one category.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your employer's financial difficulties result in your not being paid.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A coworker with ties to an important family in town takes a dislike to you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "Your employer is involved with a dark cult or a criminal enterprise.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "A crime ring targets your business for extortion.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You gain a reputation for laziness, justified or not, giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "workalp",
       "name": "Additional Work ALP",
       "category": "employment",
-      "summary": "A character finds temporary work, with quality and wages determined by an specific ability check relating to the work/task decided by DM.",
+      "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
       "resources": {
         "time": {
           "quantity": 1,
