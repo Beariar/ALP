@@ -2120,7 +2120,7 @@
       }
     },
     {
-      "id": "work",
+      "id": "workalp",
       "name": "Additional Work ALP",
       "category": "employment",
       "summary": "A character finds temporary work, with quality and wages determined by an ability check.",
@@ -2397,7 +2397,7 @@
       }
     },
     {
-      "id": "work",
+      "id": "income",
       "name": "Regular Income",
       "category": "employment",
       "summary": "A character spends time to ear his monthly income + something extra. This actvity however can be used only once per month as such opportunity is rare to rise.",
