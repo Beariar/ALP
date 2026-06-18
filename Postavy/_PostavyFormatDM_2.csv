@@ -27,8 +27,8 @@ Urbon-Fik|Akademia|Urbon Fik|None|None|Race|Focus|Origin|God|Age|Živý|Title|Al
 Vivien-Fik|Akademia|Vivien Fik|None|None|Race|Focus|Origin|God|Age|Živá|Title|Kováč Jazierchatu|Description
 Wena-Bezmena|Akademia|Wena Bezmena|None|None|Race|Focus|Origin|God|Age|Živá|Title|---|Description
 Žigmun-Ropak|Akademia|Žigmund Ropak|None|None|Race|Focus|Origin|God|Age|Živý|Title|Kováč Jazierchatu|Description
-Pier-Ursidae|Akademia|Pier Ursidae|None|None|Human|Fighter|Jazierchat|Errasa|59|Živý|Jäger|Krčmár Jazierchatu, Lovec skupiny 715 |Description
-Joe-Ursidea|Akademia|Joe Ursidae – Opatrovateľ|None|Keeper of the Wild Flame|Human|Fighter|Jazierchat|Ursox|36|Živý|Hed|Opatroval Magických tvorov, Ex-študent - Skupina 735~1|Description
+Pier-Ursidae|Akademia, Ochranca|Pier Ursidae|None|None|Human|Fighter|Jazierchat|Errasa|55|Živý|Jäger|Krčmár Jazierchatu, Lovec skupiny 720|Description
+Joe-Ursidea|Mesto, Absorber|Joe Ursidae – Opatrovateľ|None|Keeper of the Wild Flame|Human|Fighter|Jazierchat|Ursox|36|Živý|Hed|Opatroval Magických tvorov, Ex-študent - Skupina 735~1|Description
 Aren-Vey-Lady|Akademia|Aren Vey|None|None|Race|Focus|Origin|God|Age|Živá|Title|Krčmárka Jazierchatu|Description
 Kajn-leba-Stablemaster|Akademia|Kajn leba|None|None|Race|Focus|Origin|God|Age|Živý|Title|Stajniar Jazierchatu|Description
 Mia-Krostova-Dorm|Akademia|Mia Krostova|None|None|Race|Focus|Origin|God|Age|Živá|Title|Domovníčka Jazierchatu|Description
@@ -88,8 +88,8 @@ Vasil-Calson|Absorber|Vasil Calson|Dobrý nápad, tvrdá hlava a silná vôla do
 Richtor-Derueox|Ochranca|Richtor Derueox|None|None|empty|empty|empty|empty|59|Živý|Jäger|Lovec skupiny 715|empty
 Viliam-Rozsipal|Absorber|Viliam Rozsipal|None|None|Human|Fighter|Jazierchat|Errasa|57|Živý|Jäger|Lovec skupiny 715|empty
 Valiana-Kajna|Bohovia, Absorber|Valiana Kajna|Nikto nie je dokonalý ani ty, ani ja, ani lovci a ani bohovia. |The Road of Valiana Kajna|Elf|Cleric|Juhiera|Syrvaad|326|Živá|Jäger|Lovec skupiny 715, High Priestess|empty
-Pier-Maco|Remeslo|Pier Maco|None|None|empty|empty|empty|empty|55|Živý|Jäger|Lovec skupiny 720|empty
 Claus-Erldikt|Znalec|Claus Erldikt|None|None|Human|Wizard|Chladohrad|Zurro|81|Živý|Jäger|Lovec študent - Skupina 705|empty
+Diagor-Dragovič|Absorber|Diagor Dragovič|None|Wrath of the Diagor|Human|Druid|Lesohaj|Kybad|50|Živý|empty|Odpadlík, Lovec študent - Skupina 725|empty
 Vladislav-Marinovič|Ochranca|Vladislav Marinovič|None|None|Human|Warlock|Tmavohmla|Uaqaeht|42|Živý|Jäger|Lovec študent - Skupina 730|empty
 Ukulea-Straka|Absorber|Ukulea Straka|None|None|Human|Druid|Pieskostan|Haset|33|Živá|Hed|Lovec študent - Skupina 735~1|Description
 Eliaš-Rudla|Popravca|Eliaš Rudla|None|None|Human|Blood Hunter|Sostrov|Ursox|34|Živý|Hed|Lovec študent - Skupina 735~1|Description
@@ -193,10 +193,7 @@ Majk|Ochranca|Majk|None|None|Goliath|Druid|Lesy Života|Uaqaeht|23|Živý|Hed|Lo
 Sofia-Klarueox|Znalec|Sofia Klarueox|None|None|Half-Elf|Sorcerer|Jazierchat|Geles|28|Živá|Hed|Lovec študent - Skupina 745~9|empty
 Gors-Kotandan|Wanted|Gors Kotandan|None|None|empty|empty|empty|empty|empty|Živý|empty|Mafia boss|empty
 Moritz-Papilio|Mudrc|Moritz Papilio|None|None|empty|empty|empty|empty|empty|Živý|empty|Mudrc|empty
-Azor-Elinuran|None|Azor Elinuran|None|None|empty|empty|empty|empty|empty|Živý|empty|Noble of Tmavohmla|empty
-Karlita-Elinuranova|None|Karlita Elinuranova|None|None|empty|empty|empty|empty|empty|Živá|empty|Noble of Tmavohmla|empty
 Driana-Prachova|Remeslo|Driana Prachova|None|None|empty|empty|empty|empty|empty|Živý|empty|Obchodník|empty
-Diagor-Dragovič|Ochranca|Diagor Dragovič|None|Wrath of the Diagor|empty|empty|empty|empty|empty|Živý|empty|Odpadlík, Lovec študent - Skupina 725|empty
 Forbidden-Alfira|Popravca|Forbidden Alfira|None|None|empty|empty|empty|empty|empty|Mŕtva|empty|Old hunter circa 85|empty
 Forbidden-Iovor|Ochranca|Forbidden Iovor|None|None|empty|empty|empty|empty|empty|Mŕtvy|empty|Old hunter circa 85|empty
 Forbidden-Leahlan|Absorber|Forbidden Leahlan|None|None|empty|empty|empty|empty|empty|Mŕtvy|empty|Old hunter circa 85|empty
@@ -243,6 +240,8 @@ Clebort-Ronatus|Ochranca|Clebort Ronatus|None|None|empty|empty|empty|empty|empty
 Urganginos|None|Urganginos|None|None|empty|empty|empty|empty|empty|Živý|empty|Cultist|empty
 Murez-Elinuran|None|Murez Elinuran|None|None|empty|empty|empty|empty|empty|Živý|empty|Dedič|empty
 Aztrid-Elinuranova|None|Aztrid Elinuranova|None|None|empty|empty|empty|empty|empty|Živý|empty|Dedička|empty
+Azor-Elinuran|None|Azor Elinuran|None|None|empty|empty|empty|empty|empty|Živý|empty|Noble of Tmavohmla|empty
+Karlita-Elinuranova|None|Karlita Elinuranova|None|None|empty|empty|empty|empty|empty|Živá|empty|Noble of Tmavohmla|empty
 Draxlia-Austiefental|Popravca|Draxlia Aus Tiefental|None|None|Human|Fighter|Severana|Kybad|24|Živá|---|Diplomat/Head-hunter|Rod VonHohenberg má zlú reputáciu vo svete ale rod AusTiefental má voči nemu intenzívnu nenávisť a tá sa najviac prejavuje u Draxlie. Netají sa tým a pri každej možnosti spomie ako jej rod padol a stratil hodnotu len kvôli VonBergovcom. Okrem toho je však veľmi schopná diplomatka a čo je horšie aj bojovník, takže ak neloví prímerie loví hlavy a niekedy sa tieto dve množiny môžu aj pretínať.
 Milena-Kladivova|Bohovia|Milena Kladivova|None|None|empty|empty|empty|empty|empty|Živý|empty|Dobrodruh|empty
 Dorian-Kold|empty|Dorian Kold|None|None|Human|Rogue|Severana|Kybad|29|Živý|---|empty|Samozvaný ochranca práva alebo narušiteľ poriadku, oba opisy vystihujú polnočný tieň. Ten tieto dni hlavne riadi na Sostrove, inak o ňom nie je veľa známe.
