@@ -27,8 +27,8 @@ Urbon-Fik|Akademia|Urbon Fik|None|None|Race|Focus|Origin|God|Age|Živý|Title|Al
 Vivien-Fik|Akademia|Vivien Fik|None|None|Race|Focus|Origin|God|Age|Živá|Title|Kováč Jazierchatu|Description|
 Wena-Bezmena|Akademia|Wena Bezmena|None|None|Race|Focus|Origin|God|Age|Živá|Title|---|Description|
 Žigmun-Ropak|Akademia|Žigmund Ropak|None|None|Race|Focus|Origin|God|Age|Živý|Title|Kováč Jazierchatu|Description|
-Pier-Ursidae|Akademia|Pier Ursidae|None|None|Race|Focus|Origin|God|Age|Živý|Title|Krčmár Jazierchatu|Description|
-Joe-Ursidea|Akademia|Joe Ursidea – Opatrovateľ|None|Keeper of the Wild Flame|Race|Focus|Origin|God|Age|Živý|Title|Opatroval Magických tvorov|Description|
+Pier-Ursidae|Akademia|Pier Ursidae|None|None|Human|Fighter|Jazierchat|Errasa|59|Živý|Jäger|Krčmár Jazierchatu, Lovec skupiny 715 |Description|
+Joe-Ursidea|Akademia|Joe Ursidae – Opatrovateľ|None|Keeper of the Wild Flame|Human|Fighter|Jazierchat|Ursox|36|Živý|Hed|Opatroval Magických tvorov, Ex-študent - Skupina 735~1|Description|
 Aren-Vey-Lady|Akademia|Aren Vey|None|None|Race|Focus|Origin|God|Age|Živá|Title|Krčmárka Jazierchatu|Description|
 Kajn-leba-Stablemaster|Akademia|Kajn leba|None|None|Race|Focus|Origin|God|Age|Živý|Title|Stajniar Jazierchatu|Description|
 Mia-Krostova-Dorm|Akademia|Mia Krostova|None|None|Race|Focus|Origin|God|Age|Živá|Title|Domovníčka Jazierchatu|Description|
@@ -81,13 +81,15 @@ Targeria-Uroqal|Znalec|Targeria Uroqal|None|None|empty|empty|empty|empty|43|Živ
 Uhoboz-Muniop|Krotiteľ|Uhoboz Muniop|None|None|empty|empty|empty|empty|56|Živý|Jäger|Lovec Skupina 730 |empty|
 Fúhš|Znalec|Fúhš|None|None|empty|empty|empty|empty|105|Živý|Jäger|Lovec Skupina 735|empty|
 Gema-Vrba|Krotiteľ|Gema-Vrba|None|None|empty|empty|empty|empty|36|Živá|Jäger|Lovec Skupina 735|empty|
+Thomas-Vyt|Popravca|Thomas Vyt|None|None|Shifter|Ranger|Lesohaj|Ursox|37|Živý|Jäger|Lovec študent – Skupina 735|empty|
+FrederickSagar|Ochranca|Frederick Sagar|None|None|Drakarim|Monk|Ogramište|Bland|40|Živý|Jäger|Monk, Lovec študent - Skupina 735|empty|
 Vašek-Kováčik|Znalec|Vašek Kováčik|None|Wizard of Heavy Metal|Human|Wizard|Granulia|Eirich|64|Živý|Jäger|Lovec skupiny 705|empty|
 Vasil-Calson|Absorber|Vasil Calson|Dobrý nápad, tvrdá hlava a silná vôla dokáže viac než slepá dôvera v príkaz. |Cyan Legend|Human|Spectral Knight|Severana|Vallor|68|Živý|Jäger|Spectral Knight Cyan, Lovec skupiny 705|Vasil Calson, zvaný Hviezda, je Rytier tyrkysového svetla a jeden z najznámejších lovcov svojej generácie. Tyrkysové svetlo je medzi rytiermi spojené s prúdom prispôsobenia a schopnosťou meniť sa skôr, než sa zmení bojisko. Práve táto vzácnosť z Vasila robí nielen rytiera svetla, ale aj vysoko adaptívneho bojovníka. <br><br> Od detstva túžil byť lovcom. Rytieri svetla boli vznešení, jedineční lebo sú viazaní krvou, no Vasil veril, že lovci sú potrební tam, kde ľudia skutočne krvácajú. Preto sa hádal s otcom aj rádom, až kým im nezostalo nič iné, než ustúpiť. Vasil sa totiž aj bez povolenia vrhal do bojov s príšerami a svojimi skutkami robil rytierom svetla dobré meno. <br><br> Čas ukázal, že to bolo správne rozhodnutie. Ako rytier tyrkysového svetla dokázal Vasil meniť svoje konštrukty rýchlejšie, než iní lovci menili zbrane. Tam, kde iný siahal po kladive, Vasil už udieral kovadlinou. Tam, kde iný prebíjal kušu, on vypustil sériu tyrkysových šípov. A keď sila nestačila, premenil šípy na popruhy, reťaze či putá, ktoré príšeru zastavili skôr, než mohla znova zaútočiť. <br><br> Vasil nebol dokonalý, ale bol neobyčajne prispôsobivý. Ak niečo nevyšlo, zmenil rytmus, zbraň, plán aj úsmev. Nebol silný len v boji, ale aj v slove, a práve preto jeho sláva rástla rýchlejšie než legendy o ňom. Jeho podpísané plagáty majú dodnes vysokú hodnotu a jeden z nich ho zachytáva vo chvíli mimo bojiska, keď sa mu ženy doslova hádžu pod nohy. <br><br> Napriek všetkej sláve však Vasil zatiaľ nezvládol jednu vec, ktorá je pre rytierov svetla najdôležitejšia... zabezpečiť pokračovanie krvnej línie. Bez potomka môže tyrkysové svetlo vyhasnúť, a keďže červený rod už zhasol, rádu by zostali už len štyri rody. Kým však Vasil žije, stále svieti aj nádej, že Hviezda ešte nezhasne. |
 Richtor-Derueox|Ochranca|Richtor-Derueox|None|None|empty|empty|empty|empty|59|Živý|Jäger|Lovec skupiny 715|empty|
 Viliam-Rozsipal|Absorber|Viliam-Rozsipal|None|None|Human|Fighter|Jazierchat|Errasa|57|Živý|Jäger|Lovec skupiny 715|empty|
 Valiana-Kajna|Bohovia, Absorber|Valiana Kajna|Nikto nie je dokonalý ani ty, ani ja, ani lovci a ani bohovia. |The Road of Valiana Kajna|Elf|Cleric|Juhiera|Syrvaad|326|Živá|Jäger|Lovec skupiny 715, High Priestess|empty|
 Pier-Maco|Remeslo|Pier-Maco|None|None|empty|empty|empty|empty|55|Živý|Jäger|Lovec skupiny 720|empty|
-Claus-Erldikt|Znalec|Claus-Erldikt|None|None|Human|Wizard|Chladohrad|Drercur|81|Živý|Jäger|Lovec študent - Skupina 705|empty|
+Claus-Erldikt|Znalec|Claus Erldikt|None|None|Human|Wizard|Chladohrad|Zurro|81|Živý|Jäger|Lovec študent - Skupina 705|empty|
 Vladislav-Marinovič|Ochranca|Vladislav-Marinovič|None|None|Human|Warlock|Tmavohmla|Uaqaeht|42|Živý|Jäger|Lovec študent - Skupina 730|empty|
 Ukulea-Straka|Absorber|Ukulea Straka|None|None|Human|Druid|Pieskostan|Haset|33|Živá|Hed|Lovec študent - Skupina 735~1|Description|
 Eliaš-Rudla|Popravca|Eliaš Rudla|None|None|Human|Blood Hunter|Sostrov|Ursox|34|Živý|Hed|Lovec študent - Skupina 735~1|Description|
@@ -148,6 +150,7 @@ Ilibor-Kravke|Krotiteľ|Ilibor Kravke|None|None|Human|Blood Hunter|Jazierchat|Ei
 Janet-Majakova|Znalec|Janet Majakova|None|None|Human|Sorcerer|Juhiera|Zael|25|Živá|Hed|Lovec študent - Skupina 745~1|empty|
 Kwandu-Malrik|Popravca|Kwandu Malrik|None|None|Human|Warlock|Sostrov|Hellia|23|Živý|Hed|Lovec študent - Skupina 745~1|empty|
 Želmíra-TmavoKrvá|Ochranca|Želmíra TmavoKrvá|None|None|Human|Monk|Pieskostan|Syrvaad|26|Živá|Hed|Lovec študent - Skupina 745~1|empty|
+Roderick-Plamenný|Absorber|Roderick Plamenný|None|Hellfire Absolver|Tiefling|Sorcerer|Tmavohmla|Thelvus|28|Živý|empty|Lovec študent – Skupina 745~1|Priatel rodu Elinuran (Zoriho rodiny – Zori ho spozná)|
 Ivgar-Kugon|Absorber|Ivgar Kugon|None|None|Orc|Blood Hunter|Ogramište|Bland|17|Živý|Hed|Lovec študent - Skupina 745~2|Description|
 Anmada-Una'Lari|Popravca|Anmada-Una'Lari|None|None|Elf|Fighter|Lesohaj|Virwraek|128|Živá|Hed|Lovec študent - Skupina 745~2|empty|
 Balwok-Wardan|Krotiteľ|Balwok-Wardan|None|None|Dwarf|Barbarian|Vyskyna|Makrak|75|Živý|Hed|Lovec študent - Skupina 745~2|empty|
@@ -163,35 +166,32 @@ Ogscar-Rogba|Popravca|Ogscar Rogba|None|None|Orc|Paladin|Ogramište|Tiny|18|Živ
 Roman-Romulus|Absorber|Roman Romulus|None|None|Human|Fighter|Severana|Oker|24|Živý|Hed|Lovec študent - Skupina 745~4|empty|
 Sindarin-El'Nari|Krotiteľ|Sindarin El'Nari|None|None|Elf|Sorcerer|Chladohrad|Zylhana|128|Živá|Hed|Lovec študent - Skupina 745~4|empty|
 Zilou-Yund|Znalec|Zilou Yund|None|None|Genasi|Wizard|Chladohrad|empty|26|Živý|Hed|Lovec študent - Skupina 745~4|empty|
-Chris'tana-Hof’Goria|Popravca|Chris'tana Hof’Goria|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~5|empty|
-Franze-Ogram|Krotiteľ|Franze Ogram|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~5|empty|
-Piter-Heinricht|Absorber|Piter Heinricht|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~5|empty|
-Urbar-Heinricht|Ochranca|Urbar Heinricht|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~5|empty|
-Zasmal-Zink|Znalec|Zasmal Zink|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~5|empty|
-Claire-Erldikt|Znalec|Claire Erldikt|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~6|empty|
-Kaerth-Lanua|Ochranca|Kaerth Lanua|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~6|empty|
-Lana-Pecova|Absorber|Lana Pecova|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~6|empty|
-Volia-Xazit|Krotiteľ|Volia Xazit|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~6|empty|
-Garfolso-Ala'nuiara-Zelený|Popravca|Garfolso Ala'nuiara Zelený|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~6|empty|
-Ladislav-Bor|Popravca|Ladislav Bör Ursidae|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~7|empty|
-Privana-Ryzo|Absorber|Privana Ryzo|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~7|empty|
-Quill-Meadow|Znalec|Quill Meadow|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~7|empty|
-Tatiana-Rokhen|Ochranca|Tatiana Rokhen|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~7|empty|
-Zuzalia-Biela|Krotiteľ|Zuzalia Biela|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~7|empty|
+Chris'tana-Hof’Goria|Popravca|Chris'tana Hof’Goria|None|None|Elf|Ranger|Juhiera|Zylhana|130|Živá|Hed|Lovec študent - Skupina 745~5|empty|
+Franze-Ogram|Krotiteľ|Franze Ogram|None|None|Half-Orc|Monk|Granulia|Beau|23|Živý|Hed|Lovec študent - Skupina 745~5|empty|
+Piter-Heinricht|Absorber|Piter Heinricht|None|None|Human|Fighter|Granulia|Eirich|24|Živý|Hed|Lovec študent - Skupina 745~5|empty|
+Urbar-Heinricht|Ochranca|Urbar Heinricht|None|None|Human|Fighter|Granulia|Eirich|56|Živý|Hed|Lovec študent - Skupina 745~5|empty|
+Zasmal-Zink|Znalec|Zasmal Zink|None|None|Gnome|Artificier|Granulia|Tharnid|59|Živý|Hed|Lovec študent - Skupina 745~5|empty|
+Claire-Erldikt|Znalec|Claire Erldikt|None|None|Half-Elf|Wizard|Pieskostan|Zurro|29|Živá|Hed|Lovec študent - Skupina 745~6|empty|
+Kaerth-Lanua|Ochranca|Kaerth Lanua|None|None|Tiefling|Bard|Tmavohmla|Mirlo|24|Živý|Hed|Lovec študent - Skupina 745~6|empty|
+Lana-Pecova|Absorber|Lana Pecova|None|None|Genasi|Druid|Stromoraj|Glacien|26|Živá|Hed|Lovec študent - Skupina 745~6|empty|
+Volia-Xazit|Krotiteľ|Volia Xazit|None|None|Human|Sorcerer|Skalodom|Ghad|27|Živá|Hed|Lovec študent - Skupina 745~6|empty|
+Garfolso-Ala'nuiara-Zelený|Popravca|Garfolso Ala'nuiara Zelený|None|None|Tabaxi|Fighter|Juhiera|Elavalur|25|Živý|Hed|Lovec študent - Skupina 745~6|empty|
+Ladislav-Bor|Popravca|Ladislav Bör Ursidae|None|None|Human|Fighter|Jazierchat|Errasa|24|Živý|Hed|Lovec študent - Skupina 745~7|empty|
+Privana-Ryzo|Absorber|Privana Ryzo|None|None|Halken|Blood Hunter|Juhiera|Ursox|26|Živá|Hed|Lovec študent - Skupina 745~7|empty|
+Quill-Meadow|Znalec|Quill Meadow|None|None|Half-Elf|Wizard|Lesohaj|Mirlo|28|Živá|Hed|Lovec študent - Skupina 745~7|empty|
+Tatiana-Rokhen|Ochranca|Tatiana Rokhen|None|None|Aasimar|Sorcerer|Severana|Zael|29|Živá|Hed|Lovec študent - Skupina 745~7|empty|
+Zuzalia-Biela|Krotiteľ|Zuzalia Biela|None|None|Aasimar|Paladin|Pieskostan|Hellia|28|Živá|Hed|Lovec študent - Skupina 745~7|empty|
 Kulkumak-Hularo|Znalec|Kulkumak Hularo|None|Midnight Mix of Kulkumak|Tabaxi|Artificier|Pieskostan|Rundrur|27|Živý|Hed|Lovec študent - Skupina 745~8|empty|
-Maghol|Absorber|Maghol|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~8|empty|
-Pieta-Lensen|Ochranca|Pieta Lensen|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~8|empty|
-Trinta-Golhes|Krotiteľ|Trinta Golhes|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~8|empty|
-Vayla-Rosa|Popravca|Vayla Rosa|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~8|empty|
-Juraj-Arachnit|Absorber|Juraj Arachnit|None|None|Human|Rogue|Jazierchat|Melou|Age|Živý|Hed|Lovec študent - Skupina 745~9|Description|
+Maghol|Absorber|Maghol|None|None|Tortle|Fighter|Sostrov|Hunkuka|24|Živý|Hed|Lovec študent - Skupina 745~8|empty|
+Pieta-Lensen|Ochranca|Pieta Lensen|None|None|Human|Barbarian|Ogramište|Rarex|24|Živá|Hed|Lovec študent - Skupina 745~8|empty|
+Trinta-Golhes|Krotiteľ|Trinta Golhes|None|None|Half-Elf|Artificier|Granulia|Mirantra|28|Živá|Hed|Lovec študent - Skupina 745~8|empty|
+Vayla-Rosa|Popravca|Vayla Rosa|None|None|Human|Ranger|Jazierchat|Revion|25|Živá|Hed|Lovec študent - Skupina 745~8|empty|
+Juraj-Arachnit|Absorber|Juraj Arachnit|None|None|Human|Rogue|Jazierchat|Melou|27|Živý|Hed|Lovec študent - Skupina 745~9|Description|
 Gretha-Grats|Krotiteľ|Gretha Grats|None|None|Human|Cleric|Jazierchat|Saci|24|Živá|Hed|Lovec študent - Skupina 745~9|Gretha Grats je dcéra Gregora Gratsa, hoci svojho otca nikdy nespoznala. Narodila sa až po jeho smrti a meno dostala práve na jeho pamiatku, ako posledný odraz človeka, ktorý jej v živote zostal skôr príbehom než spomienkou. Vyrastala medzi rozprávaniami o Gregorovi, jeho odvahe, dobrote a smrti, ktorá po ňom v rode zanechala tiché prázdno.  Spoznala svojich strýkov, Bolyvara a Ľudviga, no otca poznala len cez slová iných. Práve preto sa celý život snažila žiť tak, aby by na ňu mohol byť hrdý. Vybrala si cestu lovkyne, podobne ako on, no nie rovnakým spôsobom. Gregor bol ochranca, ktorý padol pri tom, keď chránil iných. Gretha si z jeho smrti nevzala len obdiv, ale aj otázku — či sa tomu nedalo zabrániť skôr.  Preto sa ako jediná z poslednej generácie Gratsovcov nevydala priamo v stopách svojho rodiča. Namiesto fakulty Ochrancov si vybrala Krotiteľov. Nechcela iba stáť medzi monštrom a obeťou, keď už je neskoro. Chcela sa naučiť príšery pochopiť, nalákať, oklamať, skrotiť alebo dostať do pasce ešte predtým, než ony dostanú do pasce ľudí.  Gretha nie je menej odvážna než jej otec. Je len inak odvážna. Verí, že zachrániť život niekedy znamená nebojovať silou, ale predvídať, pripraviť pascu a zmeniť výsledok skôr, než sa tragédia zopakuje. V jej očiach nie je krotenie slabosťou, ale spôsobom, ako dať smrti menej príležitostí. |
-Kranga-Guroles|Popravca|Kranga Guroles|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~9|empty|
-Majk|Ochranca|Majk|None|None|empty|empty|empty|empty|empty|Živý|Hed|Lovec študent - Skupina 745~9|empty|
-Sofia-Klarueox|Znalec|Sofia Klarueox|None|None|empty|empty|empty|empty|empty|Živá|Hed|Lovec študent - Skupina 745~9|empty|
-Thomas-Vyt|Popravca|Thomas Vyt|None|None|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 735|empty|
-Roderick-Plamenný|Absorber|Roderick Plamenný|None|Hellfire Absolver|empty|empty|empty|empty|empty|Živý|empty|Lovec študent – Skupina 745~1|Priatel rodu Elinuran (Zoriho rodiny – Zori ho spozná)|
+Kranga-Guroles|Popravca|Kranga Guroles|None|None|Orc|Blood Hunter|Ogramište|Grenava|20|Živá|Hed|Lovec študent - Skupina 745~9|empty|
+Majk|Ochranca|Majk|None|None|Goliath|Druid|Lesy Života|Uaqaeht|23|Živý|Hed|Lovec študent - Skupina 745~9|empty|
+Sofia-Klarueox|Znalec|Sofia Klarueox|None|None|Half-Elf|Sorcerer|Jazierchat|Geles|28|Živá|Hed|Lovec študent - Skupina 745~9|empty|
 Gors-Kotandan|Wanted|Gors Kotandan|None|None|empty|empty|empty|empty|empty|Živý|empty|Mafia boss|empty|
-FrederickSagar|Ochranca|Frederick Sagar|None|None|Drakarim|Monk|empty|empty|40|Živý|empty|Monk, Lovec študent - Skupina 735|empty|
 Moritz-Papilio|Mudrc|Moritz-Papilio|None|None|empty|empty|empty|empty|empty|Živý|empty|Mudrc|empty|
 Azor-Elinuran|None|Azor-Elinuran|None|None|empty|empty|empty|empty|empty|Živý|empty|Noble of Tmavohmla|empty|
 Karlita-Elinuranova|None|Karlita-Elinuranova|None|None|empty|empty|empty|empty|empty|Živá|empty|Noble of Tmavohmla|empty|
