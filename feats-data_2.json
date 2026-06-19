@@ -2095,35 +2095,82 @@
       "order": 76,
       "id": "RitualCasterALP",
       "name": "Ritual Caster ALP",
-      "source": "core",
+      "source": "axrie",
       "sourceLabel": "Featy Axrie",
-      "prerequisite": "wis, int or cha 13 alebo viac (determined by the class you choose for this feat)",
+      "prerequisite": "wis, int or cha 11 alebo viac (determined by the class you choose for this feat)",
       "prerequisiteTypes": [
         "ability-score"
       ],
       "requiredAbilities": [
         {
           "ability": "wisdom",
-          "minimum": 13
+          "minimum": 11
         },
         {
           "ability": "intelligence",
-          "minimum": 13
+          "minimum": 11
         },
         {
           "ability": "charisma",
-          "minimum": 13
+          "minimum": 11
         }
       ],
       "requiredClasses": [],
       "abilityScoreIncreases": [],
       "tags": [
-        "core",
         "class-specific",
         "ability-score",
         "spellcasting"
       ],
-      "contentHtml": "<b>Prerequisite:</b> 4th level; Intelligence, Wisdom, or Charisma 13 or higher, as determined by the class you choose for this feat <br><br> You have learned how to cast certain spells through careful ritual practice. These spells are recorded in a ritual book, which you must have in hand while casting one of them as a ritual. <br><br> When you gain this feat, choose one of the following classes: artificier, bard, cleric, druid, sorcerer, warlock, or wizard. The class you choose determines which spell list you use for this feat, as well as the spellcasting ability for the rituals you gain from it. <br><br> If you choose bard, sorcerer, or warlock, you must have Charisma 13 or higher, and Charisma is your spellcasting ability for the rituals gained from this feat. If you choose cleric or druid, you must have Wisdom 13 or higher, and Wisdom is your spellcasting ability for the rituals gained from this feat. If you choose artificier or wizard, you must have Intelligence 13 or higher, and Intelligence is your spellcasting ability for the rituals gained from this feat. <br><br> Then you gain the following benefits: <br><br> <b>Ritual Book</b> <br><br> You acquire a ritual book containing a number of 1st-level spells equal to your Proficiency Bonus. These spells must be chosen from the spell list of the class you chose for this feat, and each spell must have the Ritual tag. <br><br> You can cast these spells as rituals while holding your ritual book. You do not need to have these spells prepared, and they do not count against the number of spells you can prepare or know from any other feature. <br><br> Unless you know or prepare one of these spells from another feature, you can cast it only as a ritual through this feat. <br><br> <b>Expanding the Book</b> <br><br> Whenever your Proficiency Bonus increases after you gain this feat, you can add one additional 1st-level spell with the Ritual tag to your ritual book. The spell must be from the spell list of the class you chose for this feat. <br><br> If you already have every available 1st-level ritual spell from that class’s spell list in your ritual book, you may instead choose a 1st-level ritual spell from another class’s spell list. To do so, you must meet the ability score requirement for that class as described in this feat. The spellcasting ability for that spell is determined by the class whose spell list it came from. <br><br> <b>Copying Rituals</b> <br><br> If you find a spell in written form, such as a magical spell scroll or another spellbook, you may copy it into your ritual book. The spell must be on the spell list of the class you chose for this feat, the spell’s level can be no higher than half your character level, rounded up, and the spell must have the Ritual tag. <br><br> Copying the spell into your ritual book takes 2 hours per level of the spell and costs 50 gp per level. This cost represents magical inks, special materials, and the experimentation required to master the ritual. <br><br> <b>Multiple Ritual Traditions</b> <br><br> You can take this feat more than once. Each time you do so, you must choose a different class. <br><br> When you take this feat again, you may either acquire a new ritual book for that class or record the new rituals in a ritual book you already own. If rituals from multiple classes are kept in the same book, each ritual still belongs to the class whose spell list it came from, and it uses that class’s spellcasting ability. <br><br> A ritual book can therefore contain rituals from multiple traditions, but each ritual must still follow the rules of the class through which it was gained.",
+      "contentHtml": "<b>Prerequisite:</b> 4th level; Intelligence, Wisdom, or Charisma 11 or higher, as determined by the class you choose for this feat <br><br> You have learned how to cast certain spells through careful ritual practice. These spells are recorded in a ritual book, which you must have in hand while casting one of them as a ritual. <br><br> When you gain this feat, choose one of the following classes: artificier, bard, cleric, druid, sorcerer, warlock, or wizard. The class you choose determines which spell list you use for this feat, as well as the spellcasting ability for the rituals you gain from it. <br><br> If you choose bard, sorcerer, or warlock, you must have Charisma 11 or higher, and Charisma is your spellcasting ability for the rituals gained from this feat. If you choose cleric or druid, you must have Wisdom 11 or higher, and Wisdom is your spellcasting ability for the rituals gained from this feat. If you choose artificier or wizard, you must have Intelligence 11 or higher, and Intelligence is your spellcasting ability for the rituals gained from this feat. <br><br> Then you gain the following benefits: <br><br> <b>Ritual Book</b> <br><br> You acquire a ritual book containing a number of 1st-level spells equal to your Proficiency Bonus. These spells must be chosen from the spell list of the class you chose for this feat, and each spell must have the Ritual tag. <br><br> You can cast these spells as rituals while holding your ritual book. You do not need to have these spells prepared, and they do not count against the number of spells you can prepare or know from any other feature. <br><br> Unless you know or prepare one of these spells from another feature, you can cast it only as a ritual through this feat. <br><br> <b>Expanding the Book</b> <br><br> Whenever your Proficiency Bonus increases after you gain this feat, you can add one additional 1st-level spell with the Ritual tag to your ritual book. The spell must be from the spell list of the class you chose for this feat. <br><br> If you already have every available 1st-level ritual spell from that class’s spell list in your ritual book, you may instead choose a 1st-level ritual spell from another class’s spell list. To do so, you must meet the ability score requirement for that class as described in this feat. The spellcasting ability for that spell is determined by the class whose spell list it came from. <br><br> <b>Copying Rituals</b> <br><br> If you find a spell in written form, such as a magical spell scroll or another spellbook, you may copy it into your ritual book. The spell must be on the spell list of the class you chose for this feat, the spell’s level can be no higher than half your character level, rounded up, and the spell must have the Ritual tag. <br><br> Copying the spell into your ritual book takes 2 hours per level of the spell and costs 50 gp per level. This cost represents magical inks, special materials, and the experimentation required to master the ritual. <br><br> <b>Multiple Ritual Traditions</b> <br><br> You can take this feat more than once. Each time you do so, you must choose a different class. <br><br> When you take this feat again, you may either acquire a new ritual book for that class or record the new rituals in a ritual book you already own. If rituals from multiple classes are kept in the same book, each ritual still belongs to the class whose spell list it came from, and it uses that class’s spellcasting ability. <br><br> A ritual book can therefore contain rituals from multiple traditions, but each ritual must still follow the rules of the class through which it was gained.",
+      "contentText": ""
+    },
+    {
+      "order": 77,
+      "id": "OrderTouched",
+      "name": "Order Touched",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "intelligence",
+        "wisdom",
+        "charisma"
+      ],
+      "tags": [
+        "spellcasting",
+        "utility",
+        "resource",
+        "healing"
+      ],
+      "contentHtml": "Touched by the Apparatus Plane, you carry a fragment of cosmic structure within you. Doors, wards, bindings, contracts, and exact paths answer more easily to your will. <br> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. <br> You learn the Aid spell and one 1st-level spell of your choice. The 1st-level spell must be from the Abjuration or Conjuration school of magic. <br> You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you cannot cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. <br> The spells’ spellcasting ability is the ability increased by this feat. ",
+      "contentText": ""
+    },
+    {
+      "order": 78,
+      "id": "ChaosTouched",
+      "name": "Chaos Touched",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [
+        "intelligence",
+        "wisdom",
+        "charisma"
+      ],
+      "tags": [
+        "spellcasting",
+        "mobility",
+        "utility",
+        "resource"
+      ],
+      "contentHtml": "Touched by the Elemental Chaos, your body and magic remember that matter is not fixed. Flame, stone, water, wind, flesh, and force shift beneath your skin, answering instinct before reason. <br> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. <br> You learn the Alter Self spell and one 1st-level spell of your choice. The 1st-level spell must be from the Evocation or Transmutation school of magic. <br> You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you cannot cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. <br> The spells’ spellcasting ability is the ability increased by this feat.",
       "contentText": ""
     }
   ]
