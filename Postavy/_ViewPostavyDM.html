@@ -466,6 +466,7 @@ overflow-wrap: break-word;
             <option value="Quote">Citát</option>
             <option value="Music">Hudba</option>
             <option value="Description">Popis</option>
+            <option value="DM_Data">DM_Data</option>
         </select>
 
         <label for="sortField">Zoradiť podľa:</label>
@@ -510,7 +511,7 @@ overflow-wrap: break-word;
 
     const searchableFields = [
         "Name", "FirstName", "FamilyName", "Race", "Focus", "Origin",
-        "God", "Age", "Status", "Title", "Position", "Logo", "Quote", "Music", "Description"
+        "God", "Age", "Status", "Title", "Position", "Logo", "Quote", "Music", "Description", "DM_Data"
     ];
 
     function escapeHtml(value) {
@@ -679,7 +680,8 @@ overflow-wrap: break-word;
             Status,
             Title,
             Position,
-            Description
+            Description,
+            DM_Data
         } = character;
 
         const quote = character["Citát"] ?? "";
@@ -733,6 +735,8 @@ overflow-wrap: break-word;
             <br><b>Okupácia:</b> ${escapeHtml(Logo)}
             <hr>
             ${Description ?? ""}
+            <hr>
+            ${DM_Data ?? ""}
         `;
 
         return characterDiv;
