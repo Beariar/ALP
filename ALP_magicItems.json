@@ -111,7 +111,9 @@
 				"two-handed",
 				"special"
 			],
-			"tags": ["attunement by creature with cold resistnace or cold immunity"],
+			"tags": [
+				"attunement by creature with cold resistnace or cold immunity"
+			],
 			"entries": [
 				"3d6 bludgeoning + 2d8 cold",
 				"<b>Special Traits</b>",
@@ -144,11 +146,11 @@
 					"str": "0",
 					"dex": "0",
 					"con": "0",
-					"wis":"0",
-					"int":"0",
-					"cha":"0"
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [
@@ -160,7 +162,9 @@
 				"thrown (60/150)",
 				"special"
 			],
-			"tags": ["attunement by creature with fire resistnace or fire immunity"],
+			"tags": [
+				"attunement by creature with fire resistnace or fire immunity"
+			],
 			"entries": [
 				"1d6 bludgeoning + 2d6 fire",
 				"<b>Special Traits</b>",
@@ -176,249 +180,265 @@
 				"<b>Fire Recoil</b>",
 				"If the wielder is not attuned to the Chakram, they take 3d8 Fire damage at the start of each turn while holding it and must succeed on a DC 17 Constitution saving throw or be restrained in ice until the end of their next turn. If reduced to 0 HP while holding the weapon, they are reduced to ash."
 			]
-			},
-			{
-				"name": "Spiked Armor",
-				"meno": "ÚtokOchrany",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "rare",
-				"reqAttune": "no",
-				"type": "armor",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["medium", "heavy"],
-				"tags": [],
-				"entries": [
-					"Hunters known as \"Hedgehog Hunters\" or \"Porcupine Stalkers\" favor this armor, which is covered in sharp, sturdy spikes. While wearing this armor, whenever a creature within 5 feet of you hits you with a melee attack, it must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier + academy level). On a failed save, the attacker takes piercing damage equal to your academy level in d6s (e.g., at academy level 3 (bojon), the damage is 3d6).",
-					"This damage is always piercing. However, some hunters coat the armor in weapon oils to change the damage type. Applying an oil to this armor takes twice as long as applying it to a weapon.",
-					"Additionally, only clumsy or reckless creatures suffer from the armor’s spikes—creatures with high agility can avoid them. A creature that has the Evasion feature or advantage on Dexterity saving throws against effects it can see automatically succeeds on this saving throw."
-				]
-			},
-			{
-				"name": "Noble Masochist",
-				"meno": "DokonalýOchranca",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "very rare",
-				"reqAttune": "yes",
-				"type": "armor",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["heavy"],
-				"tags": [],
-				"entries": [
-					"This enchanted armor is favored by those who would sacrifice themselves to protect others. While wearing this armor, you can use a bonus action or a reaction to form a protective bond with a creature within 50 feet of you. While bonded, any damage that the bonded creature would take is instead transferred to you. This bond lasts until you end it as a bonus action, the bonded creature moves more than 50 feet away from you, or you become unconscious.",
-					"You gain temporary hit points equal to your academy level * your constitution bonus when forming the bond.",
-					"Damage transferred in this way bypasses any resistances or immunities you have. If the damage would reduce you to 0 hit points, the bond ends, but the excess damage is still taken by you." 
-				]
-			},
-			{
-				"name": "Reductor",
-				"meno": "Reduktor",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "varies",
-				"reqAttune": "no",
-				"type": "armor",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["light", "medium"],
-				"tags": [],
-				"entries": [
-					"Crafted primarily from the hides of powerful creatures, this armor retains traces of their natural resistances. While it does not grant full immunity to damage types, it reduces their effects.",
-					"<b>Rare</b>: Grants resistance to one damage type.<br><b>Very Rare:</b> Grants resistance to two damage types.<br><b>Legendary:</b> Grants resistance to three damage types.",
-					"The damage types are determined when the armor is created and cannot be changed."
-				]
-			},
-			{
-				"name": "Swift-Healing Bandages",
-				"meno": "Obväzy Rýchlo Liečby",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "uncommon",
-				"reqAttune": "no",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["consumable"],
-				"tags": [],
-				"entries": [
-					"These enchanted bandages accelerate the body's natural healing process, providing an alternative to resting. Using a set of bandages requires an action, and when applied, they allow a creature to regain hit points as if they had completed a Short Rest, including the ability to spend Hit Dice for healing.",
-					"Each set of bandages can be used three times before becoming ineffective. If a creature exhausts its hit dices, it cannot regain additional hit points through normal Short Rest healing unless it completes a Long Rest or restore the hit dices by other means."
-				]
-			},
-			{
-				"name": "Last Aid Brooch",
-				"meno": "Posledná pomoc",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "very rare",
-				"reqAttune": "no",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["consumable"],
-				"tags": [],
-				"entries": [
-					"When all hope is lost and a hunter falls, this magical brooch—shaped like a small spider—offers one final chance at survival. If a creature wearing this brooch dies, another creature can use an action to activate it within 1 hour of the wearer’s death.",
-					"Upon activation, the brooch unfolds into a spectral spider that weaves a cocoon of enchanted webbing around the fallen creature. Over the next 1d3 + 1 days, the cocoon slowly restores the body, healing wounds and repairing damage. When the process is complete, the cocoon crumbles away, and the creature emerges fully restored to life, as if finishing long rest. However, the revived creature suffers two levels of exhaustion due to the strain of regeneration.",
-					"Once used, the brooch crumbles into dust and is destroyed."
-				]
-			},
-			{
-				"name": "Healing and Health Potions",
-				"meno": "",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "varies",
-				"reqAttune": "no",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack":"0",
-					"spellSaveDc":"0",
-					"weaponAttack":"0",
-					"abilityScores": {
-						"str":"0",
-						"dex":"0",
-						"con":"0",
-						"wis":"0",
-						"int":"0",
-						"cha":"0"
-					},
-					"savingThrow":"0"
-				},
-				"spellFocus": "no",
-				"properties": ["consumable"],
-				"tags": [],
-				"entries": [
-					"These magical potions are designed to restore vitality and cure ailments. A creature can drink a potion as a bonus action, rapidly benefiting from its effects. However, administering a potion to another creature within 5 feet requires an action as it takes more time and care.",
-					"Once used, the brooch crumbles into dust and is destroyed.",
-					"<b>Elixir of Health</b> (rare) - This potent elixir purges afflictions from the body. When you drink this potion, it:<br> - Cures any disease affecting you.<br> - Removes the blinded, deafened, paralyzed, and poisoned conditions.",
-					"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points.",
-					"<b>⇊ ⇊ CAREFULL ⇊ ⇊</b>",
-					"<b>Potion of Poison (uncommon)</b> - This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.",
-					"If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
-				]
-			},
+		},
 		{
-			"name": "Arcane Syringe",
-			"meno": "Obnomág",
+			"name": "Spiked Armor",
+			"meno": "ÚtokOchrany",
 			"source": "ALP",
-			"page":"0",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "no",
+			"type": "armor",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"medium",
+				"heavy"
+			],
+			"tags": [],
+			"entries": [
+				"Hunters known as \"Hedgehog Hunters\" or \"Porcupine Stalkers\" favor this armor, which is covered in sharp, sturdy spikes. While wearing this armor, whenever a creature within 5 feet of you hits you with a melee attack, it must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier + academy level). On a failed save, the attacker takes piercing damage equal to your academy level in d6s (e.g., at academy level 3 (bojon), the damage is 3d6).",
+				"This damage is always piercing. However, some hunters coat the armor in weapon oils to change the damage type. Applying an oil to this armor takes twice as long as applying it to a weapon.",
+				"Additionally, only clumsy or reckless creatures suffer from the armor’s spikes—creatures with high agility can avoid them. A creature that has the Evasion feature or advantage on Dexterity saving throws against effects it can see automatically succeeds on this saving throw."
+			]
+		},
+		{
+			"name": "Noble Masochist",
+			"meno": "DokonalýOchranca",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "very rare",
+			"reqAttune": "yes",
+			"type": "armor",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"heavy"
+			],
+			"tags": [],
+			"entries": [
+				"This enchanted armor is favored by those who would sacrifice themselves to protect others. While wearing this armor, you can use a bonus action or a reaction to form a protective bond with a creature within 50 feet of you. While bonded, any damage that the bonded creature would take is instead transferred to you. This bond lasts until you end it as a bonus action, the bonded creature moves more than 50 feet away from you, or you become unconscious.",
+				"You gain temporary hit points equal to your academy level * your constitution bonus when forming the bond.",
+				"Damage transferred in this way bypasses any resistances or immunities you have. If the damage would reduce you to 0 hit points, the bond ends, but the excess damage is still taken by you."
+			]
+		},
+		{
+			"name": "Reductor",
+			"meno": "Reduktor",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "armor",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"light",
+				"medium"
+			],
+			"tags": [],
+			"entries": [
+				"Crafted primarily from the hides of powerful creatures, this armor retains traces of their natural resistances. While it does not grant full immunity to damage types, it reduces their effects.",
+				"<b>Rare</b>: Grants resistance to one damage type.<br><b>Very Rare:</b> Grants resistance to two damage types.<br><b>Legendary:</b> Grants resistance to three damage types.",
+				"The damage types are determined when the armor is created and cannot be changed."
+			]
+		},
+		{
+			"name": "Swift-Healing Bandages",
+			"meno": "Obväzy Rýchlo Liečby",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "uncommon",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"These enchanted bandages accelerate the body's natural healing process, providing an alternative to resting. Using a set of bandages requires an action, and when applied, they allow a creature to regain hit points as if they had completed a Short Rest, including the ability to spend Hit Dice for healing.",
+				"Each set of bandages can be used three times before becoming ineffective. If a creature exhausts its hit dices, it cannot regain additional hit points through normal Short Rest healing unless it completes a Long Rest or restore the hit dices by other means."
+			]
+		},
+		{
+			"name": "Last Aid Brooch",
+			"meno": "Posledná pomoc",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "very rare",
 			"reqAttune": "no",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
-					"str":"0",
-					"dex":"0",
-					"con":"0",
-					"wis":"0",
-					"int":"0",
-					"cha":"0"
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
-			"properties": ["consumable"],
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"When all hope is lost and a hunter falls, this magical brooch—shaped like a small spider—offers one final chance at survival. If a creature wearing this brooch dies, another creature can use an action to activate it within 1 hour of the wearer’s death.",
+				"Upon activation, the brooch unfolds into a spectral spider that weaves a cocoon of enchanted webbing around the fallen creature. Over the next 1d3 + 1 days, the cocoon slowly restores the body, healing wounds and repairing damage. When the process is complete, the cocoon crumbles away, and the creature emerges fully restored to life, as if finishing long rest. However, the revived creature suffers two levels of exhaustion due to the strain of regeneration.",
+				"Once used, the brooch crumbles into dust and is destroyed."
+			]
+		},
+		{
+			"name": "Healing and Health Potions",
+			"meno": "",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"These magical potions are designed to restore vitality and cure ailments. A creature can drink a potion as a bonus action, rapidly benefiting from its effects. However, administering a potion to another creature within 5 feet requires an action as it takes more time and care.",
+				"Once used, the brooch crumbles into dust and is destroyed.",
+				"<b>Elixir of Health</b> (rare) - This potent elixir purges afflictions from the body. When you drink this potion, it:<br> - Cures any disease affecting you.<br> - Removes the blinded, deafened, paralyzed, and poisoned conditions.",
+				"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points.",
+				"<b>⇊ ⇊ CAREFULL ⇊ ⇊</b>",
+				"<b>Potion of Poison (uncommon)</b> - This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.",
+				"If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
+			]
+		},
+		{
+			"name": "Arcane Syringe",
+			"meno": "Obnomág",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "very rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
 			"tags": [],
 			"entries": [
 				"Not all hunters rely on weapons—some wield magic, but even the most skilled spellcasters can find themselves drained at a crucial moment. When a monster is closing in and no spells remain, a desperate mage may turn to the Arcane Syringe notoriously painful injection that restores magical power at a cost.",
 				"When you use a Arcane Syringe as an action, you regain one expended spell slot for each spell level you can cast, up to 6th level. This does not restore 7th, 8th, or 9th-level spell slots, as the Syringe is not potent enough to replenish such immense power.",
 				"However, the sudden surge of magic strains the body. Upon injecting the fluid to your Magic Vein, you immediately gain one level of exhaustion. If you already have exhaustion levels, using another Syringe exacerbates the toll, making further spellcasting even more dangerous.",
-				"Many experienced mages learn the secrets of the Arcane Syringe, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive." 
+				"Many experienced mages learn the secrets of the Arcane Syringe, refining its formula to reduce its drawbacks—but for most, the risk is often necessary to survive."
 			]
 		},
 		{
 			"name": "Weapon of Power",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
 					"str": "+2",
-					"dex":"0",
-					"con":"0",
-					"wis":"0",
-					"int":"0",
-					"cha":"0"
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [],
@@ -431,24 +451,24 @@
 		{
 			"name": "Weapon of Agility",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
 					"str": "0",
 					"dex": "+2",
-					"con":"0",
-					"wis":"0",
-					"int":"0",
-					"cha":"0"
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [],
@@ -461,24 +481,24 @@
 		{
 			"name": "Shield of Endurance",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "armor",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
 					"str": "0",
 					"dex": "0",
 					"con": "+2",
-					"wis":"0",
-					"int":"0",
-					"cha":"0"
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [],
@@ -491,24 +511,24 @@
 		{
 			"name": "Staff of Instinct",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
 					"str": "0",
 					"dex": "0",
-					"con":"0",
+					"con": "0",
 					"wis": "+2",
-					"int":"0",
-					"cha":"0"
+					"int": "0",
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "yes",
 			"properties": [],
@@ -520,24 +540,24 @@
 		{
 			"name": "Wand of Knowledge",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
-				"spellAttack":"0",
-				"spellSaveDc":"0",
-				"weaponAttack":"0",
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
 				"abilityScores": {
 					"str": "0",
-					"dex":"0",
-					"con":"0",
-					"wis":"0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
 					"int": "+2",
-					"cha":"0"
+					"cha": "0"
 				},
-				"savingThrow":"0"
+				"savingThrow": "0"
 			},
 			"spellFocus": "no",
 			"properties": [],
@@ -549,8 +569,8 @@
 		{
 			"name": "Gem of Impression",
 			"meno": "",
-"source": "ALP",
-			"page":"0",
+			"source": "ALP",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
@@ -572,124 +592,125 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Charisma score increases by 2 but can't exceed 20"]
-			},
-			{
-				"name": "Quickmagic Coin",
-				"meno": "RýchloMágia",
-"source": "ALP",
-				"page":"0",
-				"rarity": "varies",
-				"reqAttune": "no",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack": "0",
-					"spellSaveDc": "0",
-					"weaponAttack": "0",
-					"abilityScores": {
-						"str": "0",
-						"dex": "0",
-						"con": "0",
-						"wis": "0",
-						"int": "0",
-						"cha": "0"
-					},
-					"savingThrow": "0"
+				"Your Charisma score increases by 2 but can't exceed 20"
+			]
+		},
+		{
+			"name": "Quickmagic Coin",
+			"meno": "RýchloMágia",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"spellFocus": "no",
-				"properties": [],
-				"tags": [],
-				"entries": [
-					"Not all hunters have the luxury of a mage in their ranks, and magical scrolls remain useless to those untrained in the arcane arts. Quickmagic Coins offer a different solution—single-use magic imbued within a small enchanted token, requiring no prior magical knowledge to activate.",
-					"Each Quickmagic Coin contains a single spell, represented by intricate patterns engraved on its surface. Some symbols may be misleading or unclear, but the Identify spell can always reveal the spell within.",
-					"<b>Using a Quickmagic Coin</b>",
-					"Anyone, even those without magical ability, can activate a Quickmagic Coin by pressing it against a magic-sensitive vein (such as the wrist or temple). The coin is absorbed into the user, and the spell is immediately cast. If the spell requires an attack roll or saving throw, its effectiveness depends on the user's mental attributes.",
-					"<b>Determining Spellcasting Ability</b>",
-					"The effectiveness of a Quickmagic Coin depends on the spell’s school, which dictates which mental ability modifies its power:", 
-					"<i><b>Intelligence:</b><br>Evocation, Abjuration, Transmutation, Divination<i>",
-					"<i><b>Wisdom:</b><br>Conjuration, Necromancy<i>",
-					"<i><b>Charisma:</b><br>Enchantment, Illusion<i>",
-					"<b>Spellcasting Attributes</b>",
-					"<i><b>Quickmagic Saved DC:</b><br>6 + proficiency bonus + spell ability modifier<i>",
-					"<i><b>Quickmagic Attack Bonus:</b><br>proficiency bonus + spell ability modifier + 2<i>",
-					"Since these coins require no training to use, they have become highly demanded items. AS such they are frequently appearing on the black markets, where untrained individuals can for price wield dangerous magic without restriction."
-				]
+				"savingThrow": "0"
 			},
-			{
-				"name": "Self-Squire",
-				"meno": "SamoPanoš",
-"source": "ALP",
-				"page":"0",
-				"rarity": "rare",
-				"reqAttune": "yes",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack": "0",
-					"spellSaveDc": "0",
-					"weaponAttack": "0",
-					"abilityScores": {
-						"str": "0",
-						"dex": "0",
-						"con": "0",
-						"wis": "0",
-						"int": "0",
-						"cha": "0"
-					},
-					"savingThrow": "0"
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Not all hunters have the luxury of a mage in their ranks, and magical scrolls remain useless to those untrained in the arcane arts. Quickmagic Coins offer a different solution—single-use magic imbued within a small enchanted token, requiring no prior magical knowledge to activate.",
+				"Each Quickmagic Coin contains a single spell, represented by intricate patterns engraved on its surface. Some symbols may be misleading or unclear, but the Identify spell can always reveal the spell within.",
+				"<b>Using a Quickmagic Coin</b>",
+				"Anyone, even those without magical ability, can activate a Quickmagic Coin by pressing it against a magic-sensitive vein (such as the wrist or temple). The coin is absorbed into the user, and the spell is immediately cast. If the spell requires an attack roll or saving throw, its effectiveness depends on the user's mental attributes.",
+				"<b>Determining Spellcasting Ability</b>",
+				"The effectiveness of a Quickmagic Coin depends on the spell’s school, which dictates which mental ability modifies its power:",
+				"<i><b>Intelligence:</b><br>Evocation, Abjuration, Transmutation, Divination<i>",
+				"<i><b>Wisdom:</b><br>Conjuration, Necromancy<i>",
+				"<i><b>Charisma:</b><br>Enchantment, Illusion<i>",
+				"<b>Spellcasting Attributes</b>",
+				"<i><b>Quickmagic Saved DC:</b><br>6 + proficiency bonus + spell ability modifier<i>",
+				"<i><b>Quickmagic Attack Bonus:</b><br>proficiency bonus + spell ability modifier + 2<i>",
+				"Since these coins require no training to use, they have become highly demanded items. AS such they are frequently appearing on the black markets, where untrained individuals can for price wield dangerous magic without restriction."
+			]
+		},
+		{
+			"name": "Self-Squire",
+			"meno": "SamoPanoš",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"spellFocus": "no",
-				"properties": [],
-				"tags": [],
-				"entries": [
-					"During battle, a hunter may need to swap weapons quickly—yet not all weapons can be conveniently carried on a belt or back. To solve this problem, the Self-Squire was created, a magical assistant that hovers near its wielder and manages their armaments.",
-					"<b>Functionality</b>",
-					"When activated as a bonus action, the Auto-Squire levitates within 5 feet of its attuned user, similar to the Quill-Scribe or Tome-Glide. While active, it can:",
-					" - <b>Hold up to three weapons</b> - additionaly it can also carry one shield",
-					" - <b>Retrieve dropped weapons</b> - it can lift one weapon per round from the ground",
-					" - <b>Swap weapons</b> - as a free action user can drop current weapon and pick new one, provided Self-Squire is within reach.",
-					"<b>Limitations</b>",
-					"The Auto-Squire does not wield weapons, attack, or block. It simply carries and retrieves them.",
-					"If struck by an area effect (such as Fireball), it makes a Dexterity saving throw using the attuned user’s Dexterity modifier + proficiency bonus. On failure, it drops all carried weapons.",
-					"This magical assistant ensures that a hunter is never caught unarmed, even in the heat of battle."
-				]
+				"savingThrow": "0"
 			},
-			{
-				"name": "LongSpeak 2.0",
-				"meno": "DiaľkoReč 2.0",
-				"source": "ALP",
-				"page":"0",
-				"rarity": "rare",
-				"reqAttune": "no",
-				"type": "wondrous",
-				"bonuses": {
-					"spellAttack": "0",
-					"spellSaveDc": "0",
-					"weaponAttack": "0",
-					"abilityScores": {
-						"str": "0",
-						"dex": "0",
-						"con": "0",
-						"wis": "0",
-						"int": "0",
-						"cha": "0"
-					},
-					"savingThrow": "0"
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"During battle, a hunter may need to swap weapons quickly—yet not all weapons can be conveniently carried on a belt or back. To solve this problem, the Self-Squire was created, a magical assistant that hovers near its wielder and manages their armaments.",
+				"<b>Functionality</b>",
+				"When activated as a bonus action, the Auto-Squire levitates within 5 feet of its attuned user, similar to the Quill-Scribe or Tome-Glide. While active, it can:",
+				" - <b>Hold up to three weapons</b> - additionaly it can also carry one shield",
+				" - <b>Retrieve dropped weapons</b> - it can lift one weapon per round from the ground",
+				" - <b>Swap weapons</b> - as a free action user can drop current weapon and pick new one, provided Self-Squire is within reach.",
+				"<b>Limitations</b>",
+				"The Auto-Squire does not wield weapons, attack, or block. It simply carries and retrieves them.",
+				"If struck by an area effect (such as Fireball), it makes a Dexterity saving throw using the attuned user’s Dexterity modifier + proficiency bonus. On failure, it drops all carried weapons.",
+				"This magical assistant ensures that a hunter is never caught unarmed, even in the heat of battle."
+			]
+		},
+		{
+			"name": "LongSpeak 2.0",
+			"meno": "DiaľkoReč 2.0",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
 				},
-				"spellFocus": "no",
-				"properties": [],
-				"tags": [],
-				"entries": [
-					"Long-distance communication is vital for hunters. Cities rely on it for up-to-date reports from the wilds, while hunters need to stay informed about the state of civilization. Traditional magic alone is insufficient to connect every hunter, leading to the development of LongSpeak, a techno-magical device that enables instant communication over great distances.",
-					"<b>Functionality</b>",
-					"The LongSpeak 2.0 is a small pouch-like device with metal components. As an action, the user can establish a connection with another LongSpeak within range.<br> - <b>Relay Tower Network:</b> The LongSpeak 2.0 functions only within the coverage area of magical relay towers, which each have a range of 400 miles. These towers can connect with each other, extending communication range indefinitely as long as a chain of towers exists between users.<br> - <b>Direct Pairing (Legacy Mode):</b> If outside tower coverage, the LongSpeak 2.0 cannot establish a direct link. However, the older LongSpeak 1.0—a bulkier backpack-sized model—can still operate without towers by linking directly with another LongSpeak 1.0 or LongSpeak 2.0 within 40 miles.<br> - <b>Legacy Tower Link:</b> The LongSpeak 1.0 can also connect to magical relay towers, and like the towers themselves, LongSpeak 1.0 units can link together to extend their range, creating a relay chain. In fact, this direct-link system was the blueprint for how the relay towers were eventually designed.",
-					"Though LongSpeak 2.0 is far more convenient, hunters traveling deep into the wilderness may still carry a LongSpeak 1.0 as a backup—despite its impractical size—when tower coverage is uncertain."
-				]
+				"savingThrow": "0"
 			},
-			{
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Long-distance communication is vital for hunters. Cities rely on it for up-to-date reports from the wilds, while hunters need to stay informed about the state of civilization. Traditional magic alone is insufficient to connect every hunter, leading to the development of LongSpeak, a techno-magical device that enables instant communication over great distances.",
+				"<b>Functionality</b>",
+				"The LongSpeak 2.0 is a small pouch-like device with metal components. As an action, the user can establish a connection with another LongSpeak within range.<br> - <b>Relay Tower Network:</b> The LongSpeak 2.0 functions only within the coverage area of magical relay towers, which each have a range of 400 miles. These towers can connect with each other, extending communication range indefinitely as long as a chain of towers exists between users.<br> - <b>Direct Pairing (Legacy Mode):</b> If outside tower coverage, the LongSpeak 2.0 cannot establish a direct link. However, the older LongSpeak 1.0—a bulkier backpack-sized model—can still operate without towers by linking directly with another LongSpeak 1.0 or LongSpeak 2.0 within 40 miles.<br> - <b>Legacy Tower Link:</b> The LongSpeak 1.0 can also connect to magical relay towers, and like the towers themselves, LongSpeak 1.0 units can link together to extend their range, creating a relay chain. In fact, this direct-link system was the blueprint for how the relay towers were eventually designed.",
+				"Though LongSpeak 2.0 is far more convenient, hunters traveling deep into the wilderness may still carry a LongSpeak 1.0 as a backup—despite its impractical size—when tower coverage is uncertain."
+			]
+		},
+		{
 			"name": "Quill-Scribe & Tome-Glide",
 			"meno": "Peropíš a Kniholet",
 			"source": "ALP",
-			"page":"0",
+			"page": "0",
 			"rarity": "uncommon",
 			"reqAttune": "yes",
 			"type": "wondrous",
@@ -723,222 +744,262 @@
 			]
 		},
 		{
-		"name": "Magical Glasses of...",
-		"meno": "",
-		"source": "ALP",
-		"page":"0",
-		"rarity": "uncommon",
-		"reqAttune": "no",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
+			"name": "Magical Glasses of...",
+			"meno": "",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "uncommon",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
 			},
-			"savingThrow": "0"
-		},
-		"spellFocus": "no",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"These finely crafted glasses come in a variety of designs, each imbued with a subtle magical enhancement. While wearing a pair, you gain one of the following benefits, depending on the type of glasses:",
-			"<b>Glasses of the Scribe</b> → You can read one additional language of your choice.",
-			"<b>Glasses of the Scout</b> → You gain a +1 bonus to Perception checks.",
-			"<b>Glasses of the Night</b> → Your darkvision increases by 5 feet.",
-			"<b>Glasses of Magic</b> → The range of Detect Magic increases by 10 feet.",
-			"<b>Glasses of Arcana</b> → You gain a +5-foot increase to the range at which you can see the aura of magical objects and effects.",
-			"<b>Glasses of the Silver Tongue</b> → You gain a +1 bonus to Persuasion checks.",
-			"<b>Glasses of the Deceiver</b> → You gain a +1 bonus to Deception checks.",
-			"<b>Glasses of the Scholar</b> → You gain a +1 bonus to History checks.",
-			"<b>Glasses of the Mystic</b> → You gain a +1 bonus to Arcana checks.",
-			"<b>Glasses of the Investigator</b> → You gain a +1 bonus to Investigation checks.",
-			"<b>Glasses of the Observer</b> → You gain a +1 bonus to Insight checks.",
-			"<b>Glasses of the Masquerade</b> → The DC to see through your Disguise Self spell increases by 1.",
-			"<b>Glasses of the Sharpshooter</b> → If a weapon or spell has a range greater than 30 feet, its range increases by 5 feet (e.g., a shortbow’s range changes from 80/320 to 85/325).",
-			"Each pair of glasses grants only one effect, and their magic does not stack with other magical items that provide the same benefit."
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"These finely crafted glasses come in a variety of designs, each imbued with a subtle magical enhancement. While wearing a pair, you gain one of the following benefits, depending on the type of glasses:",
+				"<b>Glasses of the Scribe</b> → You can read one additional language of your choice.",
+				"<b>Glasses of the Scout</b> → You gain a +1 bonus to Perception checks.",
+				"<b>Glasses of the Night</b> → Your darkvision increases by 5 feet.",
+				"<b>Glasses of Magic</b> → The range of Detect Magic increases by 10 feet.",
+				"<b>Glasses of Arcana</b> → You gain a +5-foot increase to the range at which you can see the aura of magical objects and effects.",
+				"<b>Glasses of the Silver Tongue</b> → You gain a +1 bonus to Persuasion checks.",
+				"<b>Glasses of the Deceiver</b> → You gain a +1 bonus to Deception checks.",
+				"<b>Glasses of the Scholar</b> → You gain a +1 bonus to History checks.",
+				"<b>Glasses of the Mystic</b> → You gain a +1 bonus to Arcana checks.",
+				"<b>Glasses of the Investigator</b> → You gain a +1 bonus to Investigation checks.",
+				"<b>Glasses of the Observer</b> → You gain a +1 bonus to Insight checks.",
+				"<b>Glasses of the Masquerade</b> → The DC to see through your Disguise Self spell increases by 1.",
+				"<b>Glasses of the Sharpshooter</b> → If a weapon or spell has a range greater than 30 feet, its range increases by 5 feet (e.g., a shortbow’s range changes from 80/320 to 85/325).",
+				"Each pair of glasses grants only one effect, and their magic does not stack with other magical items that provide the same benefit."
 			]
-	},
-	{
-		"name": "Health Injector",
-		"meno": "Ihla zdravia",
-		"source": "ALP",
-		"page": "0",
-		"rarity": "rare",
-		"reqAttune": "yes",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
-			},
-			"savingThrow": "0"
 		},
-		"spellFocus": "no",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"This intricate arcane bracer is fitted with a small vial chamber, capable of holding one potion of healing. When a potion is placed inside, the bracer magically refines and pressurizes it, enhancing its effects.",
-			"While attuned to this item, you can activate it in one of the following ways:<br>• <b>Adrenaline Surge (Free Action)</b>: You can inject yourself with the stored healing potion as a free action on your turn.<br>• <b>Last-Second Save (Reaction)</b>: If you are reduced to 0 HP but not killed outright, you can use your reaction to inject the potion instead of falling unconscious.",
-			"<b>Enhanced Healing:</b>",
-			"When consumed through the Health Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
-			"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
-		]
-	},
-	{
-		"name": "Arcane Condenser",
-		"meno": "Arcanicský vodolapač",
-		"source": "ALP",
-		"page": "0",
-		"rarity": "common",
-		"reqAttune": "no",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
+		{
+			"name": "Health Injector",
+			"meno": "Ihla zdravia",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
 			},
-			"savingThrow": "0"
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"This intricate arcane bracer is fitted with a small vial chamber, capable of holding one potion of healing. When a potion is placed inside, the bracer magically refines and pressurizes it, enhancing its effects.",
+				"While attuned to this item, you can activate it in one of the following ways:<br>• <b>Adrenaline Surge (Free Action)</b>: You can inject yourself with the stored healing potion as a free action on your turn.<br>• <b>Last-Second Save (Reaction)</b>: If you are reduced to 0 HP but not killed outright, you can use your reaction to inject the potion instead of falling unconscious.",
+				"<b>Enhanced Healing:</b>",
+				"When consumed through the Health Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
+				"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
+			]
 		},
-		"spellFocus": "no",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"Can rapidly extract water from the air, refilling flasks or hydrating a group in minutes.",
-			"Combat Effect: When used against creatures with the [Water] trait (e.g., water elementals), it siphons moisture from them, dealing force or necrotic damage as they partially dry out.",
-			"Charges: Has 3 charges, regaining all at dawn. One charge can:<br>- Create water equivalent to a full waterskin.<br>- Deal 2d8 force/necrotic damage to a water-based creature"
-		]
-	},
-	{
-		"name": "Obsidian Parchment",
-		"meno": "Obsidiánový pergamen",
-		"source": "ALP",
-		"page": "0",
-		"rarity": "rare",
-		"reqAttune": "no",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
+		{
+			"name": "Arcane Condenser",
+			"meno": "Arcanicský vodolapač",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "common",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
 			},
-			"savingThrow": "0"
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"Can rapidly extract water from the air, refilling flasks or hydrating a group in minutes.",
+				"Combat Effect: When used against creatures with the [Water] trait (e.g., water elementals), it siphons moisture from them, dealing force or necrotic damage as they partially dry out.",
+				"Charges: Has 3 charges, regaining all at dawn. One charge can:<br>- Create water equivalent to a full waterskin.<br>- Deal 2d8 force/necrotic damage to a water-based creature"
+			]
 		},
-		"spellFocus": "no",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"This book is bound in smooth obsidian and contains pages of absolute blackness that swallow light. Its pages cannot be marked, read, or altered by mundane or magical means unless the proper passwords are used.",
-"<b>Layered Passwords</b>",
-"When the obsidian parchment is completely empty, its owner sets up to four passwords, each tied to a specific function. Each password can be a word, phrase, name, or short spoken statement, chosen by the owner at the time of setting.",
-"The default layers are:",
-"Reveal Password — Allows the reader to see text already written on the pages.<br>Write Password — Allows the user to write on the pages using any writing implement.<br>Erase Password — Allows the user to erase text from the pages.<br>Hidden Password — Reveals concealed annotations, invisible script, or suppressed entries if any exist.",
-"A creature must speak the appropriate password aloud while holding the book to activate that layer. Speaking an incorrect password has no effect.",
-"<b>Magical Resilience</b>",
-"The obsidian parchment is immune to spells that would reveal, copy, alter, or magically transcribe its contents unless the correct password is used. Attempts to bypass the passwords with divination magic automatically fail.",
-"<b>Antimagic Fragility</b>",
-"If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
-"Once this occurs, the item loses all magical properties and cannot be restored, even by wish."
-		]
-	},
-	{
-		"name": "Bow of Trinity",
-		"meno": "Luk trojice",
-		"source": "ALP",
-		"page": "0",
-		"rarity": "rare",
-		"reqAttune": "yes",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
+		{
+			"name": "Obsidian Parchment",
+			"meno": "Obsidiánový pergamen",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
 			},
-			"savingThrow": "0"
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"This book is bound in smooth obsidian and contains pages of absolute blackness that swallow light. Its pages cannot be marked, read, or altered by mundane or magical means unless the proper passwords are used.",
+				"<b>Layered Passwords</b>",
+				"When the obsidian parchment is completely empty, its owner sets up to four passwords, each tied to a specific function. Each password can be a word, phrase, name, or short spoken statement, chosen by the owner at the time of setting.",
+				"The default layers are:",
+				"Reveal Password — Allows the reader to see text already written on the pages.<br>Write Password — Allows the user to write on the pages using any writing implement.<br>Erase Password — Allows the user to erase text from the pages.<br>Hidden Password — Reveals concealed annotations, invisible script, or suppressed entries if any exist.",
+				"A creature must speak the appropriate password aloud while holding the book to activate that layer. Speaking an incorrect password has no effect.",
+				"<b>Magical Resilience</b>",
+				"The obsidian parchment is immune to spells that would reveal, copy, alter, or magically transcribe its contents unless the correct password is used. Attempts to bypass the passwords with divination magic automatically fail.",
+				"<b>Antimagic Fragility</b>",
+				"If the obsidian parchment remains within an antimagic field for 24 continuous hours, its enchantment permanently collapses. The book becomes a mundane obsidian-bound volume with black pages that can never again be read or written upon by any means, magical or otherwise.",
+				"Once this occurs, the item loses all magical properties and cannot be restored, even by wish."
+			]
 		},
-		"spellFocus": "yes",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"TThree crystal rings hum with psionic energy. When worn on three different fingers (Thumb, Index finger, Little finger) of the same hand, faint lines of force connect them in a triangular lattice.",
-			"While attuned and wearing all three rings, you can use a bonus action to manifest a psionic hand-bow—a construct of luminous force stretching between your fingers. The hand-bow lasts until dismissed (no action), you are incapacitated, or you remove a ring.",
-			"<b>Psionic Hand-Bow</b>",
-			"The hand-bow is a ranged weapon with which you are proficient if you are proficient with hand crossbows or simple weapons.<br><b>Damage:</b> 1d6 piercing/psychic<br><b>Properties:</b> Light, Loading<br><b>Range:</b> 30/120<br><b>Damage Type:</b> Piercing (force for conjured darts; see below)<br><b>Attack Ability:</b> Dexterity<br>The rings share a pool of <b>30 charges</b> and regain 2d6 + 4 charges daily at dawn. If the last charge is expended, roll a d20. On a 1, one ring cracks and becomes nonmagical.",
-			"<b>Ammunition Options</b>",
-			"When you make an attack with the hand-bow, choose one of the following:<br><br>Regular Dart (1 Charge)<br>- You may fire a normal dart (you provide the ammunition).<br>- The dart is propelled by psionic force.<br>- The attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.<br>- The dart deals 1d6 piercing damage.<br><br>Conjured Psionic Dart (3 Charges)<br>- You create a glowing dart of solidified thought and fire it as part of the same attack.<br>- The dart deals 1d6 psychic damage.<br>- The dart vanishes immediately after hitting or missing.<br>- On a hit, the target must succeed on a DC 14 Strength saving throw or have its speed reduced by 10 feet until the start of your next turn as faint psionic tethers cling to it."
-		]
-	},
-	{
-		"name": "Archivist’s Arcane Camera",
-		"meno": "Foťhák",
-		"source": "ALP",
-		"page": "0",
-		"rarity": "very rare",
-		"reqAttune": "no",
-		"type": "wondrous",
-		"bonuses": {
-			"spellAttack": "0",
-			"spellSaveDc": "0",
-			"weaponAttack": "0",
-			"abilityScores": {
-				"str": "0",
-				"dex": "0",
-				"con": "0",
-				"wis": "0",
-				"int": "0",
-				"cha": "0"
+		{
+			"name": "Bow of Trinity",
+			"meno": "Luk trojice",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "rare",
+			"reqAttune": "yes",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
 			},
-			"savingThrow": "0"
+			"spellFocus": "yes",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"TThree crystal rings hum with psionic energy. When worn on three different fingers (Thumb, Index finger, Little finger) of the same hand, faint lines of force connect them in a triangular lattice.",
+				"While attuned and wearing all three rings, you can use a bonus action to manifest a psionic hand-bow—a construct of luminous force stretching between your fingers. The hand-bow lasts until dismissed (no action), you are incapacitated, or you remove a ring.",
+				"<b>Psionic Hand-Bow</b>",
+				"The hand-bow is a ranged weapon with which you are proficient if you are proficient with hand crossbows or simple weapons.<br><b>Damage:</b> 1d6 piercing/psychic<br><b>Properties:</b> Light, Loading<br><b>Range:</b> 30/120<br><b>Damage Type:</b> Piercing (force for conjured darts; see below)<br><b>Attack Ability:</b> Dexterity<br>The rings share a pool of <b>30 charges</b> and regain 2d6 + 4 charges daily at dawn. If the last charge is expended, roll a d20. On a 1, one ring cracks and becomes nonmagical.",
+				"<b>Ammunition Options</b>",
+				"When you make an attack with the hand-bow, choose one of the following:<br><br>Regular Dart (1 Charge)<br>- You may fire a normal dart (you provide the ammunition).<br>- The dart is propelled by psionic force.<br>- The attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.<br>- The dart deals 1d6 piercing damage.<br><br>Conjured Psionic Dart (3 Charges)<br>- You create a glowing dart of solidified thought and fire it as part of the same attack.<br>- The dart deals 1d6 psychic damage.<br>- The dart vanishes immediately after hitting or missing.<br>- On a hit, the target must succeed on a DC 14 Strength saving throw or have its speed reduced by 10 feet until the start of your next turn as faint psionic tethers cling to it."
+			]
 		},
-		"spellFocus": "no",
-		"properties": [],
-		"tags": [],
-		"entries": [
-			"This intricate brass-and-crystal device contains a polished smoky quartz lens etched with faint illusion glyphs. The camera captures magical visual impressions and stores them within removable arcane cartridges.",
-			"<b>Arcane Capture</b>",
-			"While holding the camera, you can use an action to speak its command word and capture a still image of a creature, object, or area you can see within 120 feet of you. The captured image perfectly records visual detail, including lighting and coloration at the moment of capture.<br>The camera can store up to 20 still images at one time. Invisible creatures or objects appear in an image only if they are visible to naked eye when the image is taken.<br>As a bonus action, you can project one stored image into an unoccupied space within 10 feet of you. The image appears as a floating, intangible illusion up to 10 feet on a side and lasts for 1 minute, or until dismissed (no concentration required).<br>A creature can use its action to examine the projection and must succeed on an Intelligence (Investigation) check against your spell save DC to determine that it is an illusion.",
-			"<b>Three-Dimensional Scan</b>",
-			"Instead of capturing a still image, you can use an action to record a three-dimensional arcane scan of an area within 60 feet of you. The scan captures a 30-foot-radius area centered on a point you can see. This scan occupies 10 image slots.<br>As an action, you can project a stored scan into an area within 10 feet of item. The projection creates an illusory recreation of the recorded space in a 30-foot radius centered on you and lasts for up to 10 minutes.<br>Creatures and objects within the projection are intangible and cannot cause damage, provide cover, or physically impede movement. Hidden doors, invisible creatures, and magical effects are recorded only if visible at the time of the scan.<br>Such projection is visible illusion and any creature with intelligence above 6 can spot it without need for any check.",
-			"<b>Arcane Cartridges</b>",
-			"The camera stores its images within a removable arcane cartridge. Each cartridge can hold up to 20 still images or two three-dimensional scans (or a combination thereof, where one scan equals 10 images).<br>Swapping a cartridge requires 1 minute. Blank cartridges are uncommon magical items and typically cost 250–500 gp at the DM’s discretion."	
-		]
-	}
-]
+		{
+			"name": "Archivist’s Arcane Camera",
+			"meno": "Foťhák",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "very rare",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"This intricate brass-and-crystal device contains a polished smoky quartz lens etched with faint illusion glyphs. The camera captures magical visual impressions and stores them within removable arcane cartridges.",
+				"<b>Arcane Capture</b>",
+				"While holding the camera, you can use an action to speak its command word and capture a still image of a creature, object, or area you can see within 120 feet of you. The captured image perfectly records visual detail, including lighting and coloration at the moment of capture.<br>The camera can store up to 20 still images at one time. Invisible creatures or objects appear in an image only if they are visible to naked eye when the image is taken.<br>As a bonus action, you can project one stored image into an unoccupied space within 10 feet of you. The image appears as a floating, intangible illusion up to 10 feet on a side and lasts for 1 minute, or until dismissed (no concentration required).<br>A creature can use its action to examine the projection and must succeed on an Intelligence (Investigation) check against your spell save DC to determine that it is an illusion.",
+				"<b>Three-Dimensional Scan</b>",
+				"Instead of capturing a still image, you can use an action to record a three-dimensional arcane scan of an area within 60 feet of you. The scan captures a 30-foot-radius area centered on a point you can see. This scan occupies 10 image slots.<br>As an action, you can project a stored scan into an area within 10 feet of item. The projection creates an illusory recreation of the recorded space in a 30-foot radius centered on you and lasts for up to 10 minutes.<br>Creatures and objects within the projection are intangible and cannot cause damage, provide cover, or physically impede movement. Hidden doors, invisible creatures, and magical effects are recorded only if visible at the time of the scan.<br>Such projection is visible illusion and any creature with intelligence above 6 can spot it without need for any check.",
+				"<b>Arcane Cartridges</b>",
+				"The camera stores its images within a removable arcane cartridge. Each cartridge can hold up to 20 still images or two three-dimensional scans (or a combination thereof, where one scan equals 10 images).<br>Swapping a cartridge requires 1 minute. Blank cartridges are uncommon magical items and typically cost 250–500 gp at the DM’s discretion."
+			]
+		},
+		{
+			"name": "Spell Scrolls",
+			"meno": "Pergamen Mágie",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, you need to provide components.",
+				"<br>",
+				"Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
+				"<br>",
+				"If the spell is of higher level than your highest (natural) spell slot, you must make an ability check using spellcasting ability of the spells school to determine whether you cast it successfully. The DC for this check is in table. On a failed check, the spell disappears from the scroll with no other effect.",
+				"<br>",
+				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust. A spell cast from scroll has a save DC and an attack bonus set by the spells level.",
+				"<br>",
+				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. However Cantrips can not be coppied.",
+				"<br>",
+				"When a spell is copied from a spell scroll, the copier must succeed on a Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+				"<br>",
+				"<b>Intelligence:</b> Evocation, Abjuration, Transmutation, Divination<br><b>Wisdom:</b> Conjuration, Necromancy<br><b>Charisma:</b> Enchantment, Illusion",
+				"<br>",
+				"<table><thead> <tr> <th>Level</th> <th>Cast DC</th> <th>Save DC</th> <th>Attack Bonus</th> </tr></thead> <tbody> <tr> <td>Cantrip</td> <td>10</td> <td>13</td> <td>5</td> </tr> <tr> <td>1</td> <td>11</td> <td>13</td> <td>5</td> </tr> <tr> <td>2</td> <td>12</td> <td>13</td> <td>5</td> </tr> <tr> <td>3</td> <td>13</td> <td>15</td> <td>7</td> </tr> <tr> <td>4</td> <td>14</td> <td>15</td> <td>7</td> </tr> <tr> <td>5</td> <td>15</td> <td>17</td> <td>9</td> </tr> <tr> <td>6</td> <td>16</td> <td>17</td> <td>9</td> </tr> <tr> <td>7</td> <td>17</td> <td>18</td> <td>10</td> </tr> <tr> <td>8</td> <td>18</td> <td>18</td> <td>10</td> </tr> <tr> <td>9</td> <td>19</td> <td>19</td> <td>11</td> </tr> </tbody> </table>"
+			]
+		}
+	]
 }
-
-
-
