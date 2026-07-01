@@ -1095,8 +1095,8 @@
         "core",
         "weapon"
       ],
-      "contentHtml": "<br/>You have practiced extensively with a variety of weapons, gaining the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon.",
-      "contentText": "You have practiced extensively with a variety of weapons, gaining the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+      "contentHtml": "<br/>You have practiced extensively with a variety of weapons, gaining the following benefits:\n        <br/><br/>• Increase your Strength or Dexterity by 1, to a maximum of 20.\n        <br/><br/>• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon, OR You gain proficiency with two weapons of your choice from Axria weapon list.",
+      "contentText": "You have practiced extensively with a variety of weapons, gaining the following benefits:\n• Increase your Strength or Dexterity by 1, to a maximum of 20.\n• You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon, OR You gain proficiency with two weapons of your choice from Axria weapon list."
     },
     {
       "order": 43,
