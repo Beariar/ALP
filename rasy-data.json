@@ -599,13 +599,13 @@
               "text": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
             },
             {
-              "type": "text",
-              "text": "Applies only if variant (b) is chosen:"
-            },
-            {
               "type": "entry",
               "label": "Skills",
               "text": "You gain proficiency in one skill of your choice."
+            },
+            {
+              "type": "text",
+              "text": "Applies only if variant (b) is chosen:"
             },
             {
               "type": "entry",
@@ -615,8 +615,8 @@
           ]
         }
       ],
-      "renderedText": "Overview Ability Scores Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +2 Size Medium Speed 30 ft. Traits Age Humans reach adulthood in their late teens and live less than a century. Size Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium. Languages You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on. Applies only if variant (b) is chosen: Skills You gain proficiency in one skill of your choice. Feat You gain one feat of your choice.",
-      "searchText": "HUMAN STARÁ KRV Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two +2 Medium 30 ft. Choice / Variant Humans are the flexible heart of many realms: short-lived, ambitious, and endlessly varied. They fit almost any path, from common-born survivor to trained specialist, gifted prodigy, or determined adventurer. Overview Ability Scores Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +2 Size Medium Speed 30 ft. Traits Age Humans reach adulthood in their late teens and live less than a century. Size Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium. Languages You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on. Applies only if variant (b) is chosen: Skills You gain proficiency in one skill of your choice. Feat You gain one feat of your choice."
+      "renderedText": "Overview Ability Scores Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +2 Size Medium Speed 30 ft. Traits Age Humans reach adulthood in their late teens and live less than a century. Size Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium. Languages You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on. Skills You gain proficiency in one skill of your choice. Applies only if variant (b) is chosen: Feat You gain one feat of your choice.",
+      "searchText": "HUMAN STARÁ KRV Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two +2 Medium 30 ft. Choice / Variant Humans are the flexible heart of many realms: short-lived, ambitious, and endlessly varied. They fit almost any path, from common-born survivor to trained specialist, gifted prodigy, or determined adventurer. Overview Ability Scores Choose one of: (a) Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1 (b) Choose any two unique +2 Size Medium Speed 30 ft. Traits Age Humans reach adulthood in their late teens and live less than a century. Size Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium. Languages You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on. Skills You gain proficiency in one skill of your choice. Applies only if variant (b) is chosen: Feat You gain one feat of your choice."
     },
     {
       "id": "Orc",
