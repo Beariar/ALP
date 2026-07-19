@@ -254,7 +254,7 @@
         "weapon",
         "resource"
       ],
-      "contentHtml": "<b>Prerequisite:</b> dex 13 alebo viac\n        <br/><br/>When you are wielding a finesse weapon with which you are proficient and another creature hits you with\n        a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially\n        causing the attack to miss you.",
+      "contentHtml": "<b>Prerequisite:</b> dex 13 alebo viac\n        <br/><br/>When you are wielding a finesse or exquisite weapon with which you are proficient and another creature hits you with\n        a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially\n        causing the attack to miss you.",
       "contentText": "Prerequisite:\ndex 13 alebo viac\nWhen you are wielding a finesse weapon with which you are proficient and another creature hits you with\na melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially\ncausing the attack to miss you."
     },
     {
@@ -390,7 +390,7 @@
         "resource",
         "damage"
       ],
-      "contentHtml": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You\n        gain the following benefits:\n        <br/><br/>• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points\n        with one, you can make one melee weapon attack as a bonus action.\n        <br/><br/>• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to\n        take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+      "contentHtml": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You\n        gain the following benefits:\n        <br/><br/>• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points\n        with one, you can make one melee weapon attack as a bonus action.\n        <br/><br/>• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage. <br><br>• Before you make a melee attack with a hulking weapon that you are proficient with, you can choose to take a -5 or -10 penalty to the attack roll. If the attack hits, you add +10 or +30 to the attack's damage.",
       "contentText": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You\ngain the following benefits:\n• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points\nwith one, you can make one melee weapon attack as a bonus action.\n• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to\ntake a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.\n• Before you make a melee attack with a hulking weapon that you are proficient with, you can choose to take a -5 or -10 penalty to the attack roll. If the attack hits, you add +10 or +30 to the attack's damage."
     },
     {
@@ -2171,6 +2171,29 @@
         "resource"
       ],
       "contentHtml": "Touched by the Elemental Chaos, your body and magic remember that matter is not fixed. Flame, stone, water, wind, flesh, and force shift beneath your skin, answering instinct before reason. <br> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. <br> You learn the Alter Self spell and one 1st-level spell of your choice. The 1st-level spell must be from the Evocation or Transmutation school of magic. <br> You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you cannot cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. <br> The spells’ spellcasting ability is the ability increased by this feat.",
+      "contentText": ""
+    },
+    {
+      "order": 79,
+      "id": "ElegantWeaponMaster",
+      "name": "Elegant Weapon Master",
+      "source": "axrie",
+      "sourceLabel": "Featy Axrie",
+      "prerequisite": null,
+      "prerequisiteTypes": [],
+      "requiredAbilities": [],
+      "requiredClasses": [],
+      "abilityScoreIncreases": [],
+      "tags": [
+        "core",
+        "melee",
+        "bonus-action",
+        "action",
+        "weapon",
+        "resource",
+        "mobility"
+      ],
+      "contentHtml": "You have mastered a swift and precise fighting style, passing between opponents before they can react. <br><br>• On your turn, when you score a critical hit with a melee weapon attack using Dexterity, or reduce a creature to 0 hit points with one, you can use your bonus action to gain half of your Speed which will not provoke opportunity attacks and to make one melee weapon attack using Dexterity with a finesse or exquisite weapon. (You can use this movement before or after the attack, or divide it.) <br><br>• Before you make a melee weapon attack using Dexterity with a finesse or exquisite weapon with which you are proficient, you can choose to take a −5 penalty to the attack roll. If the attack hits, your movement does not provoke opportunity attacks until the end of the current turn. <br><br>• Before you make a melee weapon attack using Dexterity with an exquisite weapon with which you are proficient, you can instead choose to take a −10 penalty to the attack roll. If the attack hits, your movement does not provoke opportunity attacks until the end of the current turn and you gain additional movement equal to half your Speed until the end of the current turn. (You can gain this additional movement only once per turn.)",
       "contentText": ""
     }
   ]
