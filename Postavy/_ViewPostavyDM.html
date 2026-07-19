@@ -46,10 +46,18 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 100vh;
-            /* 100% of the viewport height */
+            min-height: 100vh;
+            height: auto;
+            /* The body must grow with all character cards. A fixed 100vh height
+               limits position: sticky to only the first viewport of content. */
             background-image: url(https://github.com/Beariar/ALP/blob/main/WoodBackground.jpg?raw=true);
             background-attachment: fixed;
+        }
+
+        .HlavnyNadpis,
+        .Controls,
+        .Postava {
+            flex: 0 0 auto;
         }
 
         div {
@@ -184,13 +192,123 @@ overflow-wrap: break-word;
 
 
     .Controls {
+        position: sticky;
+        top: 10px;
+        z-index: 30;
+        display: block;
+        width: 55%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0;
+        /* Keep the outer <details> from becoming a clipping/scroll container.
+           Scrolling belongs only to .control-panel-body below. */
+        overflow: visible;
+        border: 3px solid #000000;
+        border-radius: 12px;
+        background-color: #e0b384;
+        background-image: url(https://github.com/Beariar/ALP/blob/main/SpellDetailBackground3.jpg?raw=true);
+        background-position: center;
+        background-size: auto;
+        background-repeat: repeat;
+        box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    }
+
+    .control-summary {
+        box-sizing: border-box;
+        list-style: none;
+        cursor: pointer;
+        display: block;
+        min-height: 54px;
+        padding: 0;
+        font-family: 'Lexend Giga';
+        font-size: 0.78rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #140b07;
+        background: rgba(255, 248, 227, 0.36);
+        border-radius: 9px 9px 0 0;
+        border-bottom: 2px solid rgba(83, 3, 24, 0.28);
+    }
+
+    .control-summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .control-summary::marker {
+        content: "";
+    }
+
+    .control-summary-content {
+        box-sizing: border-box;
+        min-height: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 14px;
+    }
+
+    .control-summary-content::before {
+        content: "−";
+        width: 28px;
+        height: 28px;
+        display: inline-grid;
+        place-items: center;
+        flex: 0 0 auto;
+        border-radius: 999px;
+        color: #ffffff;
+        background-image: linear-gradient(#090909, #07105C);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+    }
+
+    .Controls:not([open]) .control-summary-content::before {
+        content: "+";
+    }
+
+    .Controls:not([open]) .control-summary {
+        border-bottom-color: transparent;
+        border-radius: 9px;
+    }
+
+    .control-summary-title {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .control-summary-meta {
+        color: #5c4638;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 0.9rem;
+        letter-spacing: normal;
+        text-transform: none;
+        text-align: right;
+    }
+
+    .control-panel-body {
+        display: block;
+        max-height: min(66vh, 640px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 10px;
+        scrollbar-width: thin;
+    }
+
+    .Controls:not([open]) .control-panel-body {
+        display: none;
+    }
+
+    .controls-layout {
         display: flex;
         flex-direction: row;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
         flex-wrap: wrap;
         gap: 10px;
         align-items: center;
         justify-content: center;
-        width: 55%;
     }
 
     .Controls label {
@@ -225,9 +343,25 @@ overflow-wrap: break-word;
         color: #040832;
     }
 
-
     .Controls.narrow-mode {
         width: 95%;
+        top: 0;
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .Controls.narrow-mode .control-panel-body {
+        max-height: 72vh;
+    }
+
+    .Controls.narrow-mode .control-summary {
+        align-items: flex-start;
+    }
+
+    .Controls.narrow-mode .control-summary-meta {
+        display: none;
     }
 
     .Controls.narrow-mode input,
@@ -444,52 +578,62 @@ overflow-wrap: break-word;
         <h1>Postavy</h1>
     </div>
 
-    <div class="Controls">
-        <label for="searchInput">Hľadať:</label>
-        <input id="searchInput" type="text" placeholder="Meno, citát, hudba, priezvisko, rasa, zameranie, pôvod...">
+    <details class="Controls" aria-label="Vyhľadávanie a zoradenie postáv" open>
+        <summary class="control-summary">
+            <span class="control-summary-content">
+                <span class="control-summary-title">Vyhľadávanie a zoradenie</span>
+                <span class="control-summary-meta" id="filterSummary">Načítavam postavy...</span>
+            </span>
+        </summary>
+        <form class="control-panel-body" onsubmit="return false;">
+            <fieldset class="controls-layout" aria-label="Ovládanie zoznamu postáv">
+                <label for="searchInput">Hľadať:</label>
+                <input id="searchInput" type="search" placeholder="Meno, citát, hudba, priezvisko, rasa, zameranie, pôvod...">
 
-        <label for="searchField">V poli:</label>
-        <select id="searchField">
-            <option value="All">Všetko</option>
-            <option value="Name">Meno</option>
-            <option value="FirstName">Krstné meno</option>
-            <option value="FamilyName">Priezvisko</option>
-            <option value="Race">Rasa</option>
-            <option value="Focus">Zameranie</option>
-            <option value="Origin">Pôvod</option>
-            <option value="God">Boh</option>
-            <option value="Age">Vek</option>
-            <option value="Status">Stav</option>
-            <option value="Title">Titul</option>
-            <option value="Position">Pozícia</option>
-            <option value="Logo">Okupácia</option>
-            <option value="Quote">Citát</option>
-            <option value="Music">Hudba</option>
-            <option value="Description">Popis</option>
-            <option value="DM_Data">DM_Data</option>
-        </select>
+                <label for="searchField">V poli:</label>
+                <select id="searchField">
+                    <option value="All">Všetko</option>
+                    <option value="Name">Meno</option>
+                    <option value="FirstName">Krstné meno</option>
+                    <option value="FamilyName">Priezvisko</option>
+                    <option value="Race">Rasa</option>
+                    <option value="Focus">Zameranie</option>
+                    <option value="Origin">Pôvod</option>
+                    <option value="God">Boh</option>
+                    <option value="Age">Vek</option>
+                    <option value="Status">Stav</option>
+                    <option value="Title">Titul</option>
+                    <option value="Position">Pozícia</option>
+                    <option value="Logo">Okupácia</option>
+                    <option value="Quote">Citát</option>
+                    <option value="Music">Hudba</option>
+                    <option value="Description">Popis</option>
+                    <option value="DM_Data">DM_Data</option>
+                </select>
 
-        <label for="sortField">Zoradiť podľa:</label>
-        <select id="sortField">
-            <option value="OriginalOrder">Pôvodné poradie zo súboru</option>
-            <option value="Name">Meno</option>
-            <option value="FirstName">Krstné meno</option>
-            <option value="FamilyName">Priezvisko</option>
-            <option value="Race">Rasa</option>
-            <option value="Focus">Zameranie</option>
-            <option value="Origin">Pôvod</option>
-            <option value="God">Boh</option>
-            <option value="Age">Vek</option>
-            <option value="Status">Stav</option>
-            <option value="Title">Titul</option>
-            <option value="Position">Pozícia</option>
-            <option value="Logo">Okupácia</option>
-        </select>
+                <label for="sortField">Zoradiť podľa:</label>
+                <select id="sortField">
+                    <option value="OriginalOrder">Pôvodné poradie zo súboru</option>
+                    <option value="Name">Meno</option>
+                    <option value="FirstName">Krstné meno</option>
+                    <option value="FamilyName">Priezvisko</option>
+                    <option value="Race">Rasa</option>
+                    <option value="Focus">Zameranie</option>
+                    <option value="Origin">Pôvod</option>
+                    <option value="God">Boh</option>
+                    <option value="Age">Vek</option>
+                    <option value="Status">Stav</option>
+                    <option value="Title">Titul</option>
+                    <option value="Position">Pozícia</option>
+                    <option value="Logo">Okupácia</option>
+                </select>
 
-        <button id="sortDirectionButton" class="button" type="button" data-direction="asc">A → Z</button>
-        <button id="resetFiltersButton" class="button" type="button">Reset</button>
-        <span id="resultCount"></span>
-    </div>
+                <button id="sortDirectionButton" class="button" type="button" data-direction="asc">A → Z</button>
+                <button id="resetFiltersButton" class="button" type="button">Reset</button>
+                <span id="resultCount"></span>
+            </fieldset>
+        </form>
+    </details>
 
     <aside id="musicPlayer" class="music-player-sticky" hidden>
         <span id="musicPlayerTitle" class="music-player-title">Hudba postavy</span>
@@ -868,7 +1012,9 @@ overflow-wrap: break-word;
             document.body.appendChild(createCharacterCard(character));
         });
 
-        document.getElementById("resultCount").textContent = `Zobrazené: ${visibleCharacters.length} / ${allCharacters.length}`;
+        const resultText = `Zobrazené: ${visibleCharacters.length} / ${allCharacters.length}`;
+        document.getElementById("resultCount").textContent = resultText;
+        document.getElementById("filterSummary").textContent = `${visibleCharacters.length} / ${allCharacters.length}`;
         applyOrientationStyles();
     }
 
