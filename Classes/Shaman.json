@@ -1,0 +1,778 @@
+{
+    "classes": [
+        {
+            "name": "Shaman",
+            "description": "A campfire collapses into a Shaman's open palm, leaving only cold ash as a fox-shaped ember rises behind them. A stone guardian settles over another Shaman like armor and guides two measured weapon strikes. At the edge of a storm, a third calls a silver hound of lightning that races from enemy to enemy before fading into silence.\r\n\r\nShamans are full spellcasters who form reciprocal bonds with elemental spirits. These spirits temporarily manifest as Embodiments: visible but untargetable magical presences that alter how the Shaman fights, casts, protects allies, heals, or moves. A Shaman remains a capable spellcaster after these spirits fade, but loses the class's strongest and most distinctive abilities until their Spirit Reserve is restored.\r\n\r\n- Embodiments -\r\nAn Embodiment is not a permanent companion and does not use a creature stat block. It is a temporary expression of a spirit bond: a spectral weapon, guardian animal, elemental warrior, mask, mantle, armor, current, storm, or other manifestation. Different Embodiments require different amounts of Spirit Reserve, and stronger manifestations become available at higher levels.\r\n\r\n- Drain -\r\nA Shaman can draw accumulated power from a suitable elemental source. The fire dies, the river stills, the stone cracks, or the storm becomes silent. This Drain can restore Spirit Reserve or help a creature draw on its own vitality, but the source is weakened or consumed. Shamans therefore make practical and moral decisions about what power may safely be taken.\r\n\r\n- Creating a Shaman -\r\nWhen creating a Shaman, consider how the first spirit bond was formed. Did a local spirit choose the character during a disaster? Was the bond inherited through an ancient tradition? Did the Shaman rescue a spirit from corruption, or force it into service? Decide whether the Shaman treats Embodiments as allies, ancestors, tools, fragments of gods, or dangerous beings held under strict ritual control.\r\n\r\nIn the Monster Hunter campaign, Shamanism can be an ancient predecessor to the modern distinction between Tamers and Absorbers. Tamers develop external creatures, Absorbers internalize conquered essence, and Shamans cooperate with spirits that remain distinct beings even when portions of them manifest through the Shaman.",
+            "source": "ALP-HB",
+            "hit_die": "d8",
+            "primary_ability": "Wisdom",
+            "saving_throws": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "refImage": [],
+            "level_table": [
+                {
+                    "level": 1,
+                    "features": [
+                        "Spellcasting",
+                        "Spirit Reserve",
+                        "Manifest Embodiment",
+                        "Lesser Embodiments"
+                    ],
+                    "Cantrips Known": "2",
+                    "Spirit Reserve": "2",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "1",
+                    "1st Ss": "2",
+                    "2nd Ss": "-",
+                    "3rd Ss": "-",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 2,
+                    "features": [
+                        "Drain"
+                    ],
+                    "Cantrips Known": "2",
+                    "Spirit Reserve": "2",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "1",
+                    "1st Ss": "3",
+                    "2nd Ss": "-",
+                    "3rd Ss": "-",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 3,
+                    "features": [
+                        "Shamanic Tradition"
+                    ],
+                    "Cantrips Known": "2",
+                    "Spirit Reserve": "3",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "1",
+                    "1st Ss": "4",
+                    "2nd Ss": "2",
+                    "3rd Ss": "-",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 4,
+                    "features": [
+                        "Ability Score Improvement",
+                        "Cantrip Versatility"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "3",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "1",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "-",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 5,
+                    "features": [
+                        "Greater Embodiments"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "4",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "2",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 6,
+                    "features": [
+                        "Shamanic Tradition feature"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "4",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "-",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 7,
+                    "features": [
+                        "Enduring Manifestation"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "5",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "1",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 8,
+                    "features": [
+                        "Ability Score Improvement",
+                        "Cantrip Versatility"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "5",
+                    "Spirit Die": "d6",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "2",
+                    "5th Ss": "-",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 9,
+                    "features": [
+                        "Spirit Die Improvement"
+                    ],
+                    "Cantrips Known": "3",
+                    "Spirit Reserve": "6",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "1",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 10,
+                    "features": [
+                        "Shamanic Tradition feature"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "6",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "2",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "-",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 11,
+                    "features": [
+                        "Major Embodiments"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "7",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 12,
+                    "features": [
+                        "Ability Score Improvement",
+                        "Cantrip Versatility"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "7",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "-",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 13,
+                    "features": [
+                        "Deep Drain"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "8",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 14,
+                    "features": [
+                        "Shamanic Tradition feature"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "8",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "-",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 15,
+                    "features": [
+                        "Dual Manifestation"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "9",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "1",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 16,
+                    "features": [
+                        "Ability Score Improvement",
+                        "Cantrip Versatility"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "9",
+                    "Spirit Die": "d8",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "1",
+                    "9th Ss": "-"
+                },
+                {
+                    "level": 17,
+                    "features": [
+                        "Spirit Die Improvement"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "10",
+                    "Spirit Die": "d10",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "2",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "1",
+                    "9th Ss": "1"
+                },
+                {
+                    "level": 18,
+                    "features": [
+                        "Unfading Spirit"
+                    ],
+                    "Cantrips Known": "4",
+                    "Spirit Reserve": "10",
+                    "Spirit Die": "d10",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "3",
+                    "6th Ss": "1",
+                    "7th Ss": "1",
+                    "8th Ss": "1",
+                    "9th Ss": "1"
+                },
+                {
+                    "level": 19,
+                    "features": [
+                        "Ability Score Improvement",
+                        "Cantrip Versatility"
+                    ],
+                    "Cantrips Known": "5",
+                    "Spirit Reserve": "10",
+                    "Spirit Die": "d10",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "3",
+                    "6th Ss": "2",
+                    "7th Ss": "1",
+                    "8th Ss": "1",
+                    "9th Ss": "1"
+                },
+                {
+                    "level": 20,
+                    "features": [
+                        "Perfect Communion"
+                    ],
+                    "Cantrips Known": "5",
+                    "Spirit Reserve": "12",
+                    "Spirit Die": "d10",
+                    "Max Embodiment Cost": "3",
+                    "1st Ss": "4",
+                    "2nd Ss": "3",
+                    "3rd Ss": "3",
+                    "4th Ss": "3",
+                    "5th Ss": "3",
+                    "6th Ss": "2",
+                    "7th Ss": "2",
+                    "8th Ss": "1",
+                    "9th Ss": "1"
+                }
+            ],
+            "core_traits": [
+                {
+                    "hit_point_die": "D8 per level",
+                    "hit_points_level_1": "8 + Con. modifier",
+                    "hit_points_additional_levels": "D8 + Con. modifier or 5 + Con. modifier",
+                    "saving_throw_proficiencies": [
+                        "Wisdom",
+                        "Charisma"
+                    ],
+                    "skill_proficiencies": {
+                        "choose": 2,
+                        "options": [
+                            "Arcana",
+                            "Animal Handling",
+                            "Insight",
+                            "Medicine",
+                            "Nature",
+                            "Perception",
+                            "Religion",
+                            "Survival"
+                        ]
+                    },
+                    "weapon_proficiencies": [
+                        "Simple weapons"
+                    ],
+                    "tool_proficiencies": [
+                        "Herbalism kit or one artisan's tool of your choice"
+                    ],
+                    "armor_training": [
+                        "Light armor",
+                        "Medium armor"
+                    ]
+                }
+            ],
+            "starting_equipment": [
+                {
+                    "default": [
+                        "(a) a quarterstaff or (b) any simple weapon",
+                        "(a) a component pouch or (b) a spiritual focus",
+                        "(a) leather armor or (b) scale mail",
+                        "(a) an explorer's pack or (b) a scholar's pack",
+                        "An herbalism kit"
+                    ],
+                    "alternative": "3d4 \u00d7 10 gp to buy your own equipment"
+                }
+            ],
+            "multiclassing": [
+                {
+                    "ability_score_minimum": {
+                        "Wisdom": 13
+                    },
+                    "weapon_proficiencies": [
+                        "Simple weapons"
+                    ],
+                    "tool_proficiencies": [
+                        "None"
+                    ],
+                    "armor_training": [
+                        "Light armor",
+                        "Medium armor"
+                    ]
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "feature_name": "Spellcasting",
+                    "feature_detail": "Through reciprocal bonds with elemental spirits, you can cast Shaman spells.\r\n\r\nCantrips.\r\nAt 1st level, you know two cantrips of your choice from the Shaman spell list. You learn additional Shaman cantrips at higher levels, as shown in the Cantrips Known column of the Shaman table.\r\n\r\nPreparing and Casting Spells.\r\nThe Shaman table shows how many spell slots you have to cast your Shaman spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\r\n\r\nYou prepare the list of Shaman spells available for you to cast, choosing from the Shaman spell list. When you do so, choose a number of Shaman spells equal to your Wisdom modifier + your Shaman level (minimum of one spell). The spells must be of a level for which you have spell slots.\r\n\r\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list requires time spent in meditation and communion with your spirits: at least 1 minute per spell level for each spell on your list.\r\n\r\nSpellcasting Ability.\r\nWisdom is your spellcasting ability for your Shaman spells. You use Wisdom whenever a spell refers to your spellcasting ability.\r\n\r\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\r\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\r\n\r\nRitual Casting.\r\nYou can cast a Shaman spell as a ritual if that spell has the ritual tag and you have the spell prepared.\r\n\r\nSpellcasting Focus.\r\nYou can use a druidic focus, carved totem, ritual mask, spirit vessel, sacred stone, or another suitable spiritual implement as a spellcasting focus for your Shaman spells.\r\n\r\nThe following list is the recommended working Shaman spell list. Spells marked with an asterisk are homebrew spells from Kaatgar's Study Notes or revised spells inspired by that source.\r\n\r\nCantrips\r\nControl Flames, Create Bonfire, Druidcraft, Frostbite, Guidance, Gust, Magic Stone, Mending, Mold Earth, Primordial Bolt*, Produce Flame, Resistance, Shape Water, Shillelagh, Spare the Dying, Thorn Whip, Thunderclap, Word of Ancients*\r\n\r\n1st Level\r\nAbsorb Elements, Animal Friendship, Charm Person, Create or Destroy Water, Cure Wounds, Detect Evil and Good, Detect Magic, Earth Tremor, Entangle, Faerie Fire, Feather Fall, Fog Cloud, Goodberry, Healing Word, Ice Knife, Jump, Longstrider, Protection from Evil and Good, Purify Food and Drink, Sanctuary, Speak with Animals\r\n\r\n2nd Level\r\nAid, Alter Self, Augury, Beast Sense, Continual Flame, Darkvision, Dust Devil, Enhance Ability, Find Traps, Flame Blade, Gust of Wind, Healing Spirit, Heat Metal, Lesser Restoration, Locate Animals or Plants, Moonbeam, Pass without Trace, Protection from Poison, Skywrite, Spike Growth, Warding Wind\r\n\r\n3rd Level\r\nAura of Vitality, Call Lightning, Clairvoyance, Dispel Magic, Elemental Weapon, Erupting Earth, Gaseous Form, Meld into Stone, Plant Growth, Primordial Guardians*, Protection from Energy, Revivify, Sleet Storm, Speak with Dead, Tidal Wave, Water Breathing, Water Walk, Wind Wall\r\n\r\n4th Level\r\nBanishment, Blight, Conjure Minor Elementals, Control Water, Divination, Elemental Bane, Fire Shield, Freedom of Movement, Guardian of Nature, Ice Storm, Locate Creature, Stone Shape, Stoneskin, Storm Sphere, Watery Sphere\r\n\r\n5th Level\r\nCommune with Nature, Conjure Elemental, Contact Other Plane, Control Winds, Destructive Wave, Greater Restoration, Maelstrom, Mass Cure Wounds, Planar Binding, Reincarnate, Scrying, Transmute Rock, Wall of Stone\r\n\r\n6th Level\r\nBones of the Earth, Chain Lightning, Find the Path, Heal, Investiture of Flame, Investiture of Ice, Investiture of Stone, Investiture of Storm*, Investiture of Wind, Move Earth, True Seeing\r\n\r\n7th Level\r\nCrown of Primordials*, Fire Storm, Plane Shift, Regenerate, Reverse Gravity, Whirlwind\r\n\r\n8th Level\r\nControl Weather, Earthquake, Heatburst*, Tsunami\r\n\r\n9th Level\r\nForesight, Mass Heal, Meteor Swarm, Prismatic Wall, Shapechange, Storm of Vengeance"
+                },
+                {
+                    "level": 1,
+                    "feature_name": "Spirit Reserve",
+                    "feature_detail": "Your bonds can sustain only a limited number of manifestations before their power fades. You have a pool of Spirit Reserve shown in the Shaman table.\r\n\r\nYou spend Spirit Reserve to manifest Embodiments and fuel certain Shaman features. You regain all expended Spirit Reserve when you finish a long rest. Your Drain feature allows you to recover part of the reserve before a long rest.\r\n\r\nYou can never have more Spirit Reserve than the maximum shown for your Shaman level."
+                },
+                {
+                    "level": 1,
+                    "feature_name": "Manifest Embodiment",
+                    "feature_detail": "You can temporarily manifest a bonded elemental spirit. As a bonus action, spend the Embodiment's listed Spirit Reserve cost. The Embodiment manifests for 1 minute.\r\n\r\nAn Embodiment follows these rules:\r\n - It is a magical class effect, not a creature or object.\r\n - It does not occupy a space and cannot be attacked, damaged, grappled, healed, moved, or targeted.\r\n - It does not require concentration.\r\n - It is visible or otherwise perceptible unless its description says otherwise.\r\n - It can appear as a spirit animal, elemental warrior, spectral weapon, mask, mantle, wings, armor, orbiting flame, flowing current, or another form appropriate to the bond.\r\n - It ends early if you dismiss it, become incapacitated, die, or manifest another Embodiment.\r\n - It is suppressed inside an antimagic field, though its duration continues to elapse.\r\n - It cannot normally affect a creature through total cover unless its description says otherwise.\r\n\r\nAt 1st level, you can maintain only one Embodiment at a time. You do not permanently choose from the general Embodiment list; you can manifest any general Embodiment for which you meet the level and cost requirements. Embodiments granted by a Shamanic Tradition are available only to members of that tradition."
+                },
+                {
+                    "level": 1,
+                    "feature_name": "Lesser Embodiments",
+                    "feature_detail": "Beginning at 1st level, you can manifest the following Embodiments. Each costs 1 Spirit Reserve.\r\n\r\nEmbodiment of Protection.\r\nA guardian spirit circles you or hovers behind you. When you or a creature you can see within 10 feet takes damage, you can use your reaction to reduce the damage by one roll of your Spirit Die. The range becomes 20 feet at 9th level and 30 feet at 17th level.\r\n\r\nEmbodiment of Focus.\r\nOnce on each of your turns, when you cast a Shaman spell using a spell slot, add one roll of your Spirit Die to one damage or healing roll of that spell. A spell affecting multiple creatures gains this bonus only once.\r\n\r\nEmbodiment of Reach.\r\nA Shaman spell with a range of Touch can originate from an unoccupied point you can see within 30 feet. The spirit can also manipulate unattended objects weighing no more than 10 pounds within 30 feet, but cannot activate magic items or perform tasks requiring fine tool use.\r\n\r\nEmbodiment of Passage.\r\nYour walking speed increases by 10 feet, you ignore nonmagical difficult terrain, and standing from prone costs only 5 feet of movement. Opportunity attacks against you are made with disadvantage during a turn in which you cast a Shaman spell.\r\n\r\nEmbodiment of Instinct.\r\nYou cannot be surprised and have advantage on Wisdom (Perception) checks. Once during the manifestation, you can add your Spirit Die to an initiative roll or saving throw after seeing the roll but before knowing whether it succeeds."
+                },
+                {
+                    "level": 2,
+                    "feature_name": "Drain",
+                    "feature_detail": "You learn to draw stored elemental force from an independent source. You perform a 10-minute ritual while touching or remaining immediately beside a suitable source. A source created by you or by one of your spells cannot normally be Drained.\r\n\r\nAfter successfully using Drain, you cannot use it again until you finish a short or long rest. The DM determines a source's strength.\r\n\r\nMinor Source.\r\nExamples include a sustained campfire, naturally collected water, a large sun-warmed stone, a powerful natural wind current, or a charged lightning rod. Choose one benefit: recover 1 Spirit Reserve; or one creature immediately spends 1 Hit Die and adds your Wisdom modifier to the healing. The source is extinguished, emptied, cracked, stilled, discharged, or rendered inert.\r\n\r\nPotent Source.\r\nExamples include a working forge, flowing stream, large stone formation, violent wind current, active storm front, or elemental engine. Choose one benefit: recover 2 Spirit Reserve; or one creature immediately spends up to 2 Hit Dice and adds your Wisdom modifier to each die. The source is visibly weakened or temporarily disrupted.\r\n\r\nPrimordial Source.\r\nExamples include a sacred spring, volcanic heart, living mountain shrine, permanent storm, elemental portal, or divine elemental relic. Choose one benefit: recover 3 Spirit Reserve; or one creature immediately spends up to 3 Hit Dice and adds your Wisdom modifier to each die. Draining such a source can have major spiritual, environmental, religious, or political consequences.\r\n\r\nDrain is not automatically evil. Its consequences depend on whether the source or its custodian consented, whether the source naturally renews, whether local creatures are harmed, and whether the source is sacred, sentient, unstable, or corrupted."
+                },
+                {
+                    "level": 3,
+                    "feature_name": "Shamanic Tradition",
+                    "feature_detail": "At 3rd level, choose a Shamanic Tradition from the available traditions. Your choice grants you always-prepared Tradition Spells, tradition-specific Embodiments, and features at 3rd level and again at 6th, 10th, and 14th level."
+                },
+                {
+                    "level": 4,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, increase two ability scores of your choice by 1, or take a feat if your campaign uses feats. As normal, you cannot increase an ability score above 20 using this feature."
+                },
+                {
+                    "level": 4,
+                    "feature_name": "Optional: Cantrip Versatility",
+                    "feature_detail": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the Shaman spell list."
+                },
+                {
+                    "level": 5,
+                    "feature_name": "Greater Embodiments",
+                    "feature_detail": "You can manifest Embodiments that cost 2 Spirit Reserve. You gain access to the following general Greater Embodiments.\r\n\r\nEmbodiment of the Spirit Weapon.\r\nWhen manifested, and as a bonus action on later turns, make a melee spell attack against one creature within 30 feet. On a hit, the target takes 1d8 + your Wisdom modifier force damage. The damage becomes 2d8 + your Wisdom modifier at 11th level and 3d8 + your Wisdom modifier at 17th level. The spirit weapon can appear beside any target within range and does not occupy a space.\r\n\r\nEmbodiment of the Steady Vessel.\r\nYou have advantage on Constitution saving throws made to maintain concentration. Once during the manifestation, after failing such a save, roll your Spirit Die and add it to the result. You also have advantage on saving throws against possession.\r\n\r\nEmbodiment of Elemental Shelter.\r\nWhen manifested, choose acid, cold, fire, lightning, or thunder. You have resistance to that damage type. When a creature within 15 feet takes the chosen damage type, you can use a reaction to grant it resistance against that instance of damage. After using this reaction, the Embodiment ends at the end of the current turn.\r\n\r\nEmbodiment of the Guiding Hand.\r\nWhen a creature you can see within 30 feet begins its turn, you can use a reaction to let it move up to 10 feet without provoking opportunity attacks. You can use this reaction a number of times during the manifestation equal to your proficiency bonus."
+                },
+                {
+                    "level": 6,
+                    "feature_name": "Shamanic Tradition feature",
+                    "feature_detail": "At 6th level, you gain a feature granted by your Shamanic Tradition."
+                },
+                {
+                    "level": 7,
+                    "feature_name": "Enduring Manifestation",
+                    "feature_detail": "Your bond becomes harder to disrupt.\r\n\r\n- If you become incapacitated, an active Embodiment remains until the end of your next turn rather than ending immediately.\r\n - You have advantage on saving throws against effects that would sever, suppress, banish, or forcibly disrupt a spirit bond.\r\n - You can dismiss an Embodiment and manifest another as part of the same bonus action, paying the new Embodiment's full cost."
+                },
+                {
+                    "level": 8,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 8th level, you gain the Ability Score Improvement feature again."
+                },
+                {
+                    "level": 9,
+                    "feature_name": "Spirit Die Improvement",
+                    "feature_detail": "At 9th level, your Spirit Die becomes a d8."
+                },
+                {
+                    "level": 10,
+                    "feature_name": "Shamanic Tradition feature",
+                    "feature_detail": "At 10th level, you gain a feature granted by your Shamanic Tradition."
+                },
+                {
+                    "level": 11,
+                    "feature_name": "Major Embodiments",
+                    "feature_detail": "You can manifest Embodiments that cost 3 Spirit Reserve. You gain access to the following general Major Embodiments.\r\n\r\nEmbodiment of the Primordial Guardian.\r\nYou and allies within 10 feet gain half cover against ranged attacks and Dexterity saving throws. Once per round, when a creature in the aura takes damage, reduce that damage by one roll of your Spirit Die without using a reaction. The aura moves with you.\r\n\r\nEmbodiment of the Great Beast.\r\nWhen manifested, choose one movement form appropriate to the spirit: a flying speed equal to your walking speed; a swimming speed equal to twice your walking speed and the ability to breathe underwater; a burrow speed of 20 feet through loose earth and sand; or a climbing speed equal to your walking speed and the ability to move across ceilings. You count as one size larger when determining carrying capacity and which creatures you can push, drag, or grapple.\r\n\r\nEmbodiment of the Second Voice.\r\nOnce during the manifestation, when you cast a Shaman spell of 5th level or lower that targets only one creature and does not have a range of Self, you can target a second eligible creature within the spell's range. The second target takes or receives only half of the spell's rolled damage or healing. Other effects occur normally unless the DM determines duplicating them would be inappropriate. After this feature is used, the Embodiment ends at the end of the turn."
+                },
+                {
+                    "level": 12,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 12th level, you gain the Ability Score Improvement feature again."
+                },
+                {
+                    "level": 13,
+                    "feature_name": "Deep Drain",
+                    "feature_detail": "Your Drain ritual requires only 1 minute instead of 10 minutes.\r\n\r\nWhen you Drain a Potent or Primordial Source, recover 1 additional Spirit Reserve if you choose Restore Spirit.\r\n\r\nAfter examining a source for 1 minute, you learn whether it is Minor, Potent, or Primordial and whether draining it is likely to awaken, injure, anger, or release a spirit."
+                },
+                {
+                    "level": 14,
+                    "feature_name": "Shamanic Tradition feature",
+                    "feature_detail": "At 14th level, you gain a feature granted by your Shamanic Tradition."
+                },
+                {
+                    "level": 15,
+                    "feature_name": "Dual Manifestation",
+                    "feature_detail": "You can maintain two Embodiments simultaneously.\r\n\r\n- Each Embodiment's full cost must be paid.\r\n - Each retains its own remaining duration.\r\n - The same Embodiment cannot be manifested twice.\r\n - If the same event would trigger features from both Embodiments, only one can apply unless a feature specifically says otherwise.\r\n - Manifesting a third Embodiment ends one currently active Embodiment of your choice."
+                },
+                {
+                    "level": 16,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 16th level, you gain the Ability Score Improvement feature again."
+                },
+                {
+                    "level": 17,
+                    "feature_name": "Spirit Die Improvement",
+                    "feature_detail": "At 17th level, your Spirit Die becomes a d10."
+                },
+                {
+                    "level": 18,
+                    "feature_name": "Unfading Spirit",
+                    "feature_detail": "When you roll initiative and have no Spirit Reserve remaining, you regain 2 Spirit Reserve.\r\n\r\nOnce per long rest, when an Embodiment would end because its duration expires, you can extend it for 1 additional minute without paying its cost again."
+                },
+                {
+                    "level": 19,
+                    "feature_name": "Ability Score Improvement",
+                    "feature_detail": "When you reach 19th level, you gain the Ability Score Improvement feature again."
+                },
+                {
+                    "level": 20,
+                    "feature_name": "Perfect Communion",
+                    "feature_detail": "Your maximum Spirit Reserve becomes 12.\r\n\r\nOnce on each of your turns, you can manifest a 1-cost Embodiment without spending Spirit Reserve. This free Embodiment lasts until the start of your next turn.\r\n\r\nWhen you use Drain, you can choose both Restore Spirit and Restore Flesh, though the source is affected as if it were one category stronger.\r\n\r\nYou can communicate with elemental spirits regardless of language."
+                }
+            ],
+            "subclasses": [
+                {
+                    "name": "Shaman of Fierce Fire",
+                    "source": "ALP-HB",
+                    "description": "Fierce Fire Shamans represent controlled escalation, destruction, passion, purification, hunger, and dangerous renewal.\r\n\r\nTheir Embodiments improve offensive spellcasting and transform the battlefield into zones of heat and flame. A covenant Shaman treats flame as a living partner; a dominating Shaman consumes every ember until nothing remains but ash.",
+                    "features": [
+                        {
+                            "name": "Tradition Spells",
+                            "level": 3,
+                            "description": "Your bond with spirits of flame grants you additional spells. These spells are always prepared, do not count against the number of spells you can prepare, and count as Shaman spells for you.\r\n\r\nTradition Spells\r\nShaman Level\tSpells\r\n3rd\tburning hands, hellish rebuke\r\n5th\tflaming sphere, scorching ray\r\n7th\tfireball, Ashardalon's stride\r\n9th\tfire shield, wall of fire\r\n11th\tflame strike, immolation"
+                        },
+                        {
+                            "name": "Controlled Flame",
+                            "level": 3,
+                            "description": "When you cast a spell that deals fire damage, you can choose a number of creatures equal to your Wisdom modifier. Chosen creatures automatically succeed on their saving throws against that spell and take no damage if they would normally take half damage on a successful save. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                        },
+                        {
+                            "name": "Ember Companion",
+                            "level": 3,
+                            "description": "Embodiment; Cost 1 Spirit Reserve.\r\n\r\nA small fire spirit coils around you. Once on each of your turns, when you deal fire damage to a creature, one affected creature takes additional fire damage equal to one roll of your Spirit Die. A creature taking this additional damage cannot benefit from being invisible until the start of your next turn, as flames briefly outline it."
+                        },
+                        {
+                            "name": "Living Ember",
+                            "level": 6,
+                            "description": "Embodiment; Cost 2 Spirit Reserve.\r\n\r\nWhile active, you ignore resistance to fire damage. Once on each turn when you cast a spell that deals fire damage, you can increase one area dimension by 5 feet: radius, cone length, line length, or cube side. You can exclude a number of creatures equal to your Wisdom modifier from the spell's damage. You do not ignore immunity to fire damage."
+                        },
+                        {
+                            "name": "Feed the Flame",
+                            "level": 10,
+                            "description": "When a creature is reduced to 0 hit points by your fire damage, choose one benefit: gain temporary hit points equal to your Shaman level; extend one active Fire Embodiment by 1 round; or move up to half your speed without provoking opportunity attacks. Only one creature can trigger this feature per turn."
+                        },
+                        {
+                            "name": "Living Inferno",
+                            "level": 14,
+                            "description": "Embodiment; Cost 3 Spirit Reserve.\r\n\r\nA large fire spirit surrounds you. While active, you are immune to fire damage. Hostile creatures that enter a space within 10 feet of you for the first time on a turn or start their turn there take fire damage equal to one roll of your Spirit Die. Fire damage you deal treats immunity as resistance and ignores resistance.\r\n\r\nOnce during the manifestation, you can cause the spirit to erupt. Each hostile creature within 20 feet makes a Dexterity saving throw against your spell save DC, taking 6d8 fire damage on a failure or half as much on a success. The Embodiment then ends."
+                        }
+                    ]
+                },
+                {
+                    "name": "Shaman of Enduring Earth",
+                    "source": "ALP-HB",
+                    "description": "Enduring Earth Shamans are armored wardens, immovable guardians, weapon-bearing ritualists, and protectors of settlements, shrines, roads, and mountain passes.\r\n\r\nTheir martial ability comes from temporary spirit possession rather than permanent fighter-level attack progression.",
+                    "features": [
+                        {
+                            "name": "Tradition Spells",
+                            "level": 3,
+                            "description": "These spells are always prepared, do not count against the number of spells you can prepare, and count as Shaman spells for you.\r\n\r\nTradition Spells\r\nShaman Level\tSpells\r\n3rd\tearth tremor, shield\r\n5th\tMaximilian's earthen grasp, spike growth\r\n7th\terupting earth, meld into stone\r\n9th\tstone shape, stoneskin\r\n11th\ttransmute rock, wall of stone"
+                        },
+                        {
+                            "name": "Stone-Bound Training",
+                            "level": 3,
+                            "description": "You gain proficiency with shields, martial weapons, and heavy armor. After each long rest, choose one weapon with which you are proficient that lacks the heavy property. You can use Wisdom instead of Strength or Dexterity for attack and damage rolls made with that weapon."
+                        },
+                        {
+                            "name": "Stoneguard",
+                            "level": 3,
+                            "description": "Embodiment; Cost 1 Spirit Reserve.\r\n\r\nA stone guardian overlaps your body. You have advantage on checks and saving throws made to resist being shoved or knocked prone. When you take bludgeoning, piercing, or slashing damage, you can use a reaction to reduce the damage by one roll of your Spirit Die. If you are standing on natural earth or stone, add your Wisdom modifier to the reduction."
+                        },
+                        {
+                            "name": "Stone Warrior",
+                            "level": 6,
+                            "description": "Embodiment; Cost 2 Spirit Reserve.\r\n\r\nA spectral stone warrior guides your weapon. You can attack twice, instead of once, whenever you take the Attack action. Once on each of your turns, one weapon hit deals additional damage equal to one roll of your Spirit Die. Your weapon attacks count as magical. This Embodiment does not allow you to cast a cantrip in place of one of the attacks unless another feature says otherwise."
+                        },
+                        {
+                            "name": "Rooted Soul",
+                            "level": 10,
+                            "description": "While touching the ground, you have advantage on Strength and Constitution saving throws and cannot be moved against your will unless you choose to be moved. When you succeed on a saving throw against being moved or knocked prone, you can move up to 10 feet toward the source of the effect."
+                        },
+                        {
+                            "name": "Earth Colossus",
+                            "level": 14,
+                            "description": "Embodiment; Cost 3 Spirit Reserve.\r\n\r\nA massive earthen spirit encloses you. You have resistance to bludgeoning, piercing, and slashing damage; your reach with melee weapons increases by 5 feet; and you count as Large if that size would be beneficial. Once on each of your turns, a weapon hit can force the target to make a Strength saving throw against your spell save DC or be knocked prone or pushed 10 feet.\r\n\r\nYou can attack twice whenever you take the Attack action, even if Stone Warrior is not active. If Stone Warrior and Earth Colossus are active simultaneously, you still make only two attacks."
+                        }
+                    ]
+                },
+                {
+                    "name": "Shaman of Aggressive Air",
+                    "source": "ALP-HB",
+                    "description": "Aggressive Air Shamans are mobile spell-blades, scouts, duelists, messengers, and hunters who strike before an enemy can establish control.\r\n\r\nTheir Extra Attack is a temporary spirit-guided combat mode, while their permanent features emphasize movement, projectile defense, and control of position.",
+                    "features": [
+                        {
+                            "name": "Tradition Spells",
+                            "level": 3,
+                            "description": "These spells are always prepared, do not count against the number of spells you can prepare, and count as Shaman spells for you.\r\n\r\nTradition Spells\r\nShaman Level\tSpells\r\n3rd\tfeather fall, zephyr strike\r\n5th\tgust of wind, warding wind\r\n7th\tfly, wind wall\r\n9th\tfreedom of movement, storm sphere\r\n11th\tcontrol winds, steel wind strike"
+                        },
+                        {
+                            "name": "Windblade Training",
+                            "level": 3,
+                            "description": "You gain proficiency with martial weapons that lack the heavy property. You can use Wisdom instead of Strength or Dexterity for attack and damage rolls made with finesse weapons."
+                        },
+                        {
+                            "name": "Whispering Current",
+                            "level": 3,
+                            "description": "Embodiment; Cost 1 Spirit Reserve.\r\n\r\nA thin current of visible air circles you. Your walking speed increases by 10 feet. After you cast a Shaman spell, you can move 5 feet without provoking opportunity attacks. You can move through the space of a hostile creature one size larger than you, though that space is difficult terrain."
+                        },
+                        {
+                            "name": "Gale Duelist",
+                            "level": 6,
+                            "description": "Embodiment; Cost 2 Spirit Reserve.\r\n\r\nA translucent warrior of compressed wind mirrors your attacks. You can attack twice whenever you take the Attack action. After making a weapon attack, hit or miss, you can move up to 10 feet without provoking opportunity attacks. Once on each of your turns, a weapon hit can push the target 5 feet."
+                        },
+                        {
+                            "name": "Deflecting Current",
+                            "level": 10,
+                            "description": "When you or a creature within 15 feet is hit by a ranged weapon attack, you can use your reaction and roll your Spirit Die. Reduce the attack's damage by the result + your Wisdom modifier. If this reduces the damage to 0, you can redirect the projectile toward another creature within 30 feet of the original target. Make a ranged spell attack; on a hit, the new target takes the weapon's normal damage. You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+                        },
+                        {
+                            "name": "Tempest Wings",
+                            "level": 14,
+                            "description": "Embodiment; Cost 3 Spirit Reserve.\r\n\r\nLarge wings, ribbons, or a predatory air spirit manifest around you. You gain a flying speed of 60 feet and can hover. Opportunity attacks against you are made with disadvantage. Once on each of your turns, after dealing damage, you can move up to 15 feet without provoking opportunity attacks. When you deal damage to a creature, you can move it 10 feet in any horizontal direction if it fails a Strength saving throw against your spell save DC."
+                        }
+                    ]
+                },
+                {
+                    "name": "Shaman of Wild Water",
+                    "source": "ALP-HB",
+                    "description": "Wild Water Shamans manipulate the distribution of vitality, movement, poison, pressure, and harm.\r\n\r\nThey are healers and protectors, but their healing is intended to remain less efficient than that of a dedicated Cleric unless they also spend Spirit Reserve.",
+                    "features": [
+                        {
+                            "name": "Tradition Spells",
+                            "level": 3,
+                            "description": "These spells are always prepared, do not count against the number of spells you can prepare, and count as Shaman spells for you.\r\n\r\nTradition Spells\r\nShaman Level\tSpells\r\n3rd\tcreate or destroy water, cure wounds\r\n5th\thealing spirit, lesser restoration\r\n7th\ttidal wave, water breathing\r\n9th\tcontrol water, watery sphere\r\n11th\tgreater restoration, maelstrom"
+                        },
+                        {
+                            "name": "Flowing Mercy",
+                            "level": 3,
+                            "description": "Once on each of your turns, when you restore hit points to a creature using a spell, choose one benefit for that creature: it moves 5 feet without provoking opportunity attacks; it gains temporary hit points equal to your Wisdom modifier; or it can immediately stand from prone without spending movement."
+                        },
+                        {
+                            "name": "River Keeper",
+                            "level": 3,
+                            "description": "Embodiment; Cost 1 Spirit Reserve.\r\n\r\nA water spirit circles you and nearby allies. Once on each of your turns, when you restore hit points to one creature, a second creature within 15 feet of the first regains hit points equal to one roll of your Spirit Die. The same creature cannot receive both the original healing and River Keeper healing from the same spell."
+                        },
+                        {
+                            "name": "Current Bearer",
+                            "level": 6,
+                            "description": "Embodiment; Cost 2 Spirit Reserve.\r\n\r\nWhen an ally within 30 feet is targeted by an attack, you can use a reaction to move that ally up to 10 feet without provoking opportunity attacks. If the movement places the ally outside the attacker's reach or range, the attack misses. Once on each of your turns, when a spell restores hit points, you can transfer up to one roll of your Spirit Die of that healing from the original target to another creature within 30 feet."
+                        },
+                        {
+                            "name": "Purifying Current",
+                            "level": 10,
+                            "description": "When you restore hit points to a creature using a spell of 1st level or higher, you can also end one of the following on that creature: the poisoned, blinded, or deafened condition; one disease; or one nonmagical toxin or contamination. You can use this feature a number of times equal to your Wisdom modifier, regaining all uses after a long rest. After expending those uses, you can spend 1 Spirit Reserve to use it again."
+                        },
+                        {
+                            "name": "Deep Current",
+                            "level": 14,
+                            "description": "Embodiment; Cost 3 Spirit Reserve.\r\n\r\nA large current surrounds you in a 15-foot aura. You and allies in the aura have resistance to acid and cold damage. Once per round, when an ally in the aura takes damage, you can redirect damage equal to one roll of your Spirit Die to yourself; this redirected damage cannot be reduced. At the start of each of your turns, choose one creature in the aura; it regains hit points equal to your Wisdom modifier.\r\n\r\nOnce during the manifestation, you can release a restorative wave. Chosen creatures in the aura regain 4d8 + your Wisdom modifier hit points, and the Embodiment ends."
+                        }
+                    ]
+                },
+                {
+                    "name": "Shaman of Loose Lightning",
+                    "source": "ALP-HB",
+                    "description": "Loose Lightning Shamans bond with volatile storm spirits and specialize in priority targets, chain effects, sudden repositioning, and marking enemies as conductors.\r\n\r\nLightning Genasi possess lightning innately. A Lightning Shaman negotiates with and directs a separate lightning spirit. A Lightning Genasi can become a Lightning Shaman, but the two concepts are not interchangeable.",
+                    "features": [
+                        {
+                            "name": "Tradition Spells",
+                            "level": 3,
+                            "description": "These spells are always prepared, do not count against the number of spells you can prepare, and count as Shaman spells for you. Lightning Discharge and Storm Strike are homebrew spells requiring final revision.\r\n\r\nTradition Spells\r\nShaman Level\tSpells\r\n3rd\tthunderwave, witch bolt\r\n5th\tmisty step, shatter\r\n7th\tlightning bolt, thunder step\r\n9th\tlightning discharge, storm sphere\r\n11th\tdestructive wave, storm strike"
+                        },
+                        {
+                            "name": "Conductor Mark",
+                            "level": 3,
+                            "description": "Once on each of your turns, when you deal lightning or thunder damage to a creature, you can mark it until the start of your next turn. The next attack roll made against the marked creature before the mark ends gains a bonus equal to one roll of your Spirit Die. Only one creature can be marked at a time."
+                        },
+                        {
+                            "name": "Storm Hound",
+                            "level": 3,
+                            "description": "Embodiment; Cost 1 Spirit Reserve.\r\n\r\nA small lightning beast races between targets. Once on each of your turns, when you deal lightning or thunder damage to a creature, choose a second creature within 10 feet of it. The second creature takes lightning damage equal to one roll of your Spirit Die."
+                        },
+                        {
+                            "name": "Flash Spirit",
+                            "level": 6,
+                            "description": "Embodiment; Cost 2 Spirit Reserve.\r\n\r\nWhen you are targeted by an attack, you can use a reaction to teleport up to 15 feet to a space you can see. If the teleport moves you outside the attack's reach or range, the attack misses. Once on each of your turns, after dealing lightning or thunder damage, you can teleport 10 feet without provoking opportunity attacks."
+                        },
+                        {
+                            "name": "Living Conduit",
+                            "level": 10,
+                            "description": "You gain resistance to lightning and thunder damage. When you succeed on a saving throw against lightning or thunder damage, you can cause one creature within 30 feet to take lightning damage equal to one roll of your Spirit Die. You can do this once per round."
+                        },
+                        {
+                            "name": "Thunder Twin",
+                            "level": 14,
+                            "description": "Embodiment; Cost 3 Spirit Reserve.\r\n\r\nOnce on each of your turns, when a Shaman spell deals lightning or thunder damage to exactly one creature, a second eligible creature within 30 feet of the first takes lightning or thunder damage equal to half the damage dealt to the first creature. You can use a reaction to teleport 30 feet when a creature affected by your lightning or thunder damage moves.\r\n\r\nOnce during the manifestation, you can cast a lightning or thunder spell of 5th level or lower that normally targets one creature and target two creatures instead. The Embodiment then ends."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
