@@ -3,7 +3,7 @@
         {
             "name": "Shaman",
             "description": "A campfire collapses into a Shaman's open palm, leaving only cold ash as a fox-shaped ember rises behind them. A stone guardian settles over another Shaman like armor and guides two measured weapon strikes. At the edge of a storm, a third calls a silver hound of lightning that races from enemy to enemy before fading into silence.\r\n\r\nShamans are full spellcasters who form reciprocal bonds with elemental spirits. These spirits temporarily manifest as Embodiments: visible but untargetable magical presences that alter how the Shaman fights, casts, protects allies, heals, or moves. A Shaman remains a capable spellcaster after these spirits fade, but loses the class's strongest and most distinctive abilities until their Spirit Reserve is restored.\r\n\r\n- Embodiments -\r\nAn Embodiment is not a permanent companion and does not use a creature stat block. It is a temporary expression of a spirit bond: a spectral weapon, guardian animal, elemental warrior, mask, mantle, armor, current, storm, or other manifestation. Different Embodiments require different amounts of Spirit Reserve, and stronger manifestations become available at higher levels.\r\n\r\n- Drain -\r\nA Shaman can draw accumulated power from a suitable elemental source. The fire dies, the river stills, the stone cracks, or the storm becomes silent. This Drain can restore Spirit Reserve or help a creature draw on its own vitality, but the source is weakened or consumed. Shamans therefore make practical and moral decisions about what power may safely be taken.\r\n\r\n- Creating a Shaman -\r\nWhen creating a Shaman, consider how the first spirit bond was formed. Did a local spirit choose the character during a disaster? Was the bond inherited through an ancient tradition? Did the Shaman rescue a spirit from corruption, or force it into service? Decide whether the Shaman treats Embodiments as allies, ancestors, tools, fragments of gods, or dangerous beings held under strict ritual control.\r\n\r\nIn the Monster Hunter campaign, Shamanism can be an ancient predecessor to the modern distinction between Tamers and Absorbers. Tamers develop external creatures, Absorbers internalize conquered essence, and Shamans cooperate with spirits that remain distinct beings even when portions of them manifest through the Shaman.",
-            "source": "ALP-HB",
+            "source": "ALP",
             "hit_die": "d8",
             "primary_ability": "Wisdom",
             "saving_throws": [
@@ -569,7 +569,7 @@
             "subclasses": [
                 {
                     "name": "Shaman of Fierce Fire",
-                    "source": "ALP-HB",
+                    "source": "ALP",
                     "description": "Fierce Fire Shamans represent controlled escalation, destruction, passion, purification, hunger, and dangerous renewal.\r\n\r\nTheir Embodiments improve offensive spellcasting and transform the battlefield into zones of heat and flame. A covenant Shaman treats flame as a living partner; a dominating Shaman consumes every ember until nothing remains but ash.",
                     "features": [
                         {
@@ -606,7 +606,7 @@
                 },
                 {
                     "name": "Shaman of Enduring Earth",
-                    "source": "ALP-HB",
+                    "source": "ALP",
                     "description": "Enduring Earth Shamans are armored wardens, immovable guardians, weapon-bearing ritualists, and protectors of settlements, shrines, roads, and mountain passes.\r\n\r\nTheir martial ability comes from temporary spirit possession rather than permanent fighter-level attack progression.",
                     "features": [
                         {
@@ -643,7 +643,7 @@
                 },
                 {
                     "name": "Shaman of Aggressive Air",
-                    "source": "ALP-HB",
+                    "source": "ALP",
                     "description": "Aggressive Air Shamans are mobile spell-blades, scouts, duelists, messengers, and hunters who strike before an enemy can establish control.\r\n\r\nTheir Extra Attack is a temporary spirit-guided combat mode, while their permanent features emphasize movement, projectile defense, and control of position.",
                     "features": [
                         {
@@ -680,7 +680,7 @@
                 },
                 {
                     "name": "Shaman of Wild Water",
-                    "source": "ALP-HB",
+                    "source": "ALP",
                     "description": "Wild Water Shamans manipulate the distribution of vitality, movement, poison, pressure, and harm.\r\n\r\nThey are healers and protectors, but their healing is intended to remain less efficient than that of a dedicated Cleric unless they also spend Spirit Reserve.",
                     "features": [
                         {
@@ -717,7 +717,7 @@
                 },
                 {
                     "name": "Shaman of Loose Lightning",
-                    "source": "ALP-HB",
+                    "source": "ALP",
                     "description": "Loose Lightning Shamans bond with volatile storm spirits and specialize in priority targets, chain effects, sudden repositioning, and marking enemies as conductors.\r\n\r\nLightning Genasi possess lightning innately. A Lightning Shaman negotiates with and directs a separate lightning spirit. A Lightning Genasi can become a Lightning Shaman, but the two concepts are not interchangeable.",
                     "features": [
                         {
