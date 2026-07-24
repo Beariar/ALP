@@ -164,7 +164,8 @@
                 {
                     "level": 9,
                     "features": [
-                        "Spirit Die Improvement"
+                        "Spirit Die Improvement",
+                        "Deep Drain"
                     ],
                     "Cantrips Known": "3",
                     "Spirit Reserve": "6",
@@ -200,7 +201,7 @@
                 {
                     "level": 11,
                     "features": [
-                        "Major Embodiments"
+                       "Dual Manifestation"
                     ],
                     "Cantrips Known": "4",
                     "Spirit Reserve": "7",
@@ -237,7 +238,6 @@
                 {
                     "level": 13,
                     "features": [
-                        "Deep Drain"
                     ],
                     "Cantrips Known": "4",
                     "Spirit Reserve": "8",
@@ -273,7 +273,8 @@
                 {
                     "level": 15,
                     "features": [
-                        "Dual Manifestation"
+                        "Major Embodiments",
+                        "Primordial Drain"
                     ],
                     "Cantrips Known": "4",
                     "Spirit Reserve": "9",
@@ -468,7 +469,7 @@
                 {
                     "level": 2,
                     "feature_name": "Drain",
-                    "feature_detail": "You learn to draw stored elemental force from an independent source. You perform a 10-minute ritual while touching or remaining immediately beside a suitable source. A source created by you or by one of your spells cannot normally be Drained.\r\n\r\nAfter successfully using Drain, you cannot use it again until you finish a short or long rest. The DM determines a source's strength.\r\n\r\nMinor Source.\r\nExamples include a sustained campfire, naturally collected water, a large sun-warmed stone, a powerful natural wind current, or a charged lightning rod. Choose one benefit: recover 1 Spirit Reserve; or one creature immediately spends 1 Hit Die and adds your Wisdom modifier to the healing. The source is extinguished, emptied, cracked, stilled, discharged, or rendered inert.\r\n\r\nPotent Source.\r\nExamples include a working forge, flowing stream, large stone formation, violent wind current, active storm front, or elemental engine. Choose one benefit: recover 2 Spirit Reserve; or one creature immediately spends up to 2 Hit Dice and adds your Wisdom modifier to each die. The source is visibly weakened or temporarily disrupted.\r\n\r\nPrimordial Source.\r\nExamples include a sacred spring, volcanic heart, living mountain shrine, permanent storm, elemental portal, or divine elemental relic. Choose one benefit: recover 3 Spirit Reserve; or one creature immediately spends up to 3 Hit Dice and adds your Wisdom modifier to each die. Draining such a source can have major spiritual, environmental, religious, or political consequences.\r\n\r\nDrain is not automatically evil. Its consequences depend on whether the source or its custodian consented, whether the source naturally renews, whether local creatures are harmed, and whether the source is sacred, sentient, unstable, or corrupted."
+                    "feature_detail": "You learn to draw stored elemental force from an independent source. You perform a 10-minute ritual while touching or remaining immediately beside a suitable source. A source created by you or by one of your spells cannot normally be Drained.\r\n\r\nWhyn you drain resorce the source is weakened and you either heal 1 hit dice + constitution (does not consume hit dice as short rest) or renew 1 Spirit Reserve.\r\n\r\nYou can use Drain, twice between long rests."
                 },
                 {
                     "level": 3,
@@ -511,24 +512,24 @@
                     "feature_detail": "At 9th level, your Spirit Die becomes a d8."
                 },
                 {
+                    "level": 9,
+                    "feature_name": "Deep Drain",
+                    "feature_detail": "Your Drain ritual requires only 1 minute instead of 10 minutes.\r\n\r\nWhen you Drain you either heal 2 hit dice + constitution (does not consume hit dice as short rest) or renew 2 Spirit Reserve."
+                },
+                {
                     "level": 10,
                     "feature_name": "Shamanic Tradition feature",
                     "feature_detail": "At 10th level, you gain a feature granted by your Shamanic Tradition."
                 },
                 {
                     "level": 11,
-                    "feature_name": "Major Embodiments",
-                    "feature_detail": "You can manifest Embodiments that cost 3 Spirit Reserve. You gain access to the following general Major Embodiments.\r\n\r\nEmbodiment of the Primordial Guardian.\r\nYou and allies within 10 feet gain half cover against ranged attacks and Dexterity saving throws. Once per round, when a creature in the aura takes damage, reduce that damage by one roll of your Spirit Die without using a reaction. The aura moves with you.\r\n\r\nEmbodiment of the Great Beast.\r\nWhen manifested, choose one movement form appropriate to the spirit: a flying speed equal to your walking speed; a swimming speed equal to twice your walking speed and the ability to breathe underwater; a burrow speed of 20 feet through loose earth and sand; or a climbing speed equal to your walking speed and the ability to move across ceilings. You count as one size larger when determining carrying capacity and which creatures you can push, drag, or grapple.\r\n\r\nEmbodiment of the Second Voice.\r\nOnce during the manifestation, when you cast a Shaman spell of 5th level or lower that targets only one creature and does not have a range of Self, you can target a second eligible creature within the spell's range. The second target takes or receives only half of the spell's rolled damage or healing. Other effects occur normally unless the DM determines duplicating them would be inappropriate. After this feature is used, the Embodiment ends at the end of the turn."
+                    "feature_name": "Dual Manifestation",
+                    "feature_detail": "You can maintain two Embodiments simultaneously.\r\n\r\n- Each Embodiment's full cost must be paid.\r\n - Each retains its own remaining duration.\r\n - The same Embodiment cannot be manifested twice.\r\n - If the same event would trigger features from both Embodiments, only one can apply unless a feature specifically says otherwise.\r\n - Manifesting a third Embodiment ends one currently active Embodiment of your choice."
                 },
                 {
                     "level": 12,
                     "feature_name": "Ability Score Improvement",
                     "feature_detail": "When you reach 12th level, you gain the Ability Score Improvement feature again."
-                },
-                {
-                    "level": 13,
-                    "feature_name": "Deep Drain",
-                    "feature_detail": "Your Drain ritual requires only 1 minute instead of 10 minutes.\r\n\r\nWhen you Drain a Potent or Primordial Source, recover 1 additional Spirit Reserve if you choose Restore Spirit.\r\n\r\nAfter examining a source for 1 minute, you learn whether it is Minor, Potent, or Primordial and whether draining it is likely to awaken, injure, anger, or release a spirit."
                 },
                 {
                     "level": 14,
@@ -537,8 +538,13 @@
                 },
                 {
                     "level": 15,
-                    "feature_name": "Dual Manifestation",
-                    "feature_detail": "You can maintain two Embodiments simultaneously.\r\n\r\n- Each Embodiment's full cost must be paid.\r\n - Each retains its own remaining duration.\r\n - The same Embodiment cannot be manifested twice.\r\n - If the same event would trigger features from both Embodiments, only one can apply unless a feature specifically says otherwise.\r\n - Manifesting a third Embodiment ends one currently active Embodiment of your choice."
+                    "feature_name": "Major Embodiments",
+                    "feature_detail": "You can manifest Embodiments that cost 3 Spirit Reserve. You gain access to the following general Major Embodiments.\r\n\r\nEmbodiment of the Primordial Guardian.\r\nYou and allies within 10 feet gain half cover against ranged attacks and Dexterity saving throws. Once per round, when a creature in the aura takes damage, reduce that damage by one roll of your Spirit Die without using a reaction. The aura moves with you.\r\n\r\nEmbodiment of the Great Beast.\r\nWhen manifested, choose one movement form appropriate to the spirit: a flying speed equal to your walking speed; a swimming speed equal to twice your walking speed and the ability to breathe underwater; a burrow speed of 20 feet through loose earth and sand; or a climbing speed equal to your walking speed and the ability to move across ceilings. You count as one size larger when determining carrying capacity and which creatures you can push, drag, or grapple.\r\n\r\nEmbodiment of the Second Voice.\r\nOnce during the manifestation, when you cast a Shaman spell of 5th level or lower that targets only one creature and does not have a range of Self, you can target a second eligible creature within the spell's range. The second target takes or receives only half of the spell's rolled damage or healing. Other effects occur normally unless the DM determines duplicating them would be inappropriate. After this feature is used, the Embodiment ends at the end of the turn."
+                },
+                {
+                    "level": 15,
+                    "feature_name": "Primordial Drain",
+                    "feature_detail": "Your Drain ritual requires only 1 minute instead of 10 minutes.\r\n\r\nWhen you Drain you either heal 3 hit dice + constitution (does not consume hit dice as short rest) or renew 3 Spirit Reserve."
                 },
                 {
                     "level": 16,
