@@ -821,19 +821,14 @@
         function createCharacterCard(character) {
             const {
                 Image,
-                Logo,
                 Name,
-                Nickname,
-                Race,
-                Focus,
+                Owner,
+                Type,
                 Origin,
-                God,
-                Age,
-                Status,
-                Title,
-                Position,
-                Description,
-                DM_Data
+                Speed,
+                Movement,
+                Trait,
+                Weakness
             } = character;
 
             const quote = character["Citát"] ?? "";
@@ -858,7 +853,7 @@
               `
                 : "";
 
-            const livingCharacter = isLivingStatus(Status);
+            const livingCharacter = isLivingStatus("Živý");
             const portraitStateClass = livingCharacter ? "portrait--living" : "portrait--departed";
             const portraitTitle = livingCharacter
                 ? escapeHtml(Name)
@@ -867,34 +862,21 @@
             const characterDiv = document.createElement('div');
             characterDiv.className = 'Postava';
 
-            var writeNickname = "";
-
-            if (Nickname !== null && Nickname !== "") {
-                writeNickname = " - "+Nickname;
-            }
-
             characterDiv.innerHTML = `
             <span class="character-portrait ${portraitStateClass}" title="${portraitTitle}">
-                <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/JPEG_2026/${escapeHtml(Image)}.jpg" alt="${escapeHtml(Name)}">
+                <img src="https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Postavy/Mounts/${escapeHtml(Image)}.jpg" alt="${escapeHtml(Name)}">
             </span>
-            ${buildCharacterLogoMarkup(Logo)}
             ${characterMusicMarkup}
-            <h2>${escapeHtml(Name)} ${escapeHtml(writeNickname)}</h2>
+            <h2>${escapeHtml(Name)}}</h2>
             ${characterQuoteMarkup}
             <hr>
-            <b>Rasa:</b> ${escapeHtml(Race)}
-            <br><b>Zameranie:</b> ${escapeHtml(Focus)}
-            <br><b>Pôvod:</b> ${escapeHtml(Origin)}
-            <br><b>Boh:</b> ${escapeHtml(God)}
-            <br><b>Vek:</b> ${escapeHtml(Age)}
-            <br><b>Stav:</b> ${escapeHtml(Status)}
-            <br><b>Titul:</b> ${escapeHtml(Title)}
-            <br><b>Pozícia:</b> ${escapeHtml(Position)}
-            <br><b>Okupácia:</b> ${escapeHtml(Logo)}
-            <hr>
-            ${Description ?? ""}
-            <hr>
-            ${DM_Data ?? ""}
+            <b>Owner:</b> ${escapeHtml(Owner)}
+            <br><b>Type:</b> ${escapeHtml(Type)}
+            <br><b>Origin:</b> ${escapeHtml(Origin)}
+            <br><b>Speed:</b> ${escapeHtml(Speed)}
+            <br><b>Movement:</b> ${escapeHtml(Movement)}
+            <br><b>Trait:</b> ${escapeHtml(Trait)}
+            <br><b>Weakness:</b> ${escapeHtml(Weakness)}
         `;
 
             return characterDiv;
@@ -1033,7 +1015,7 @@
         }
 
         async function loadCharacters() {
-            const response = await fetch('https://raw.githubusercontent.com/Beariar/ALP/main/Postavy/_PostavyFormatDM_2.csv');
+            const response = await fetch('https://raw.githubusercontent.com/Beariar/ALP/main/Postavy/_Mounts-Vehicles.csv');
             const data = await response.text();
 
             // Pre-process the data to remove lines that start with '#'
