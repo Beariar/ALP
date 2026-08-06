@@ -827,6 +827,7 @@
                 Origin,
                 Speed,
                 Movement,
+                Combat,
                 Trait,
                 Weakness
             } = character;
@@ -873,10 +874,11 @@
             <b>Owner:</b> ${escapeHtml(Owner)}
             <br><b>Type:</b> ${escapeHtml(Type)}
             <br><b>Origin:</b> ${escapeHtml(Origin)}
-            <br><b>Speed:</b> ${escapeHtml(Speed)}
-            <br><b>Movement:</b> ${escapeHtml(Movement)}
-            <br><b>Trait:</b> ${escapeHtml(Trait)}
-            <br><b>Weakness:</b> ${escapeHtml(Weakness)}
+            <br><b>Speed (Miles per day):</b> ${escapeHtml(Speed)}
+            <br><b>Special Movement:</b> ${escapeHtml(Movement)}
+            <br><b>Combat Capable :</b> ${escapeHtml(Combat)}
+            <br><b>Special Trait:</b> ${escapeHtml(Trait)}
+            <br><b>Weakness/Limitations:</b> ${escapeHtml(Weakness)}
         `;
 
             return characterDiv;
