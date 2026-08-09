@@ -600,6 +600,7 @@
                     <option value="All">Všetko</option>
                     <option value="Name">Názov</option>
                     <option value="Owner">Vlastník</option>
+                    <option value="Rarity">Vzácnosť</option>
                     <option value="Type">Typ</option>
                     <option value="Origin">Pôvod</option>
                     <option value="Speed">Rýchlosť</option>
@@ -614,6 +615,7 @@
                     <option value="OriginalOrder">Pôvodné poradie zo súboru</option>
                     <option value="Name">Názov</option>
                     <option value="Owner">Vlastník</option>
+                    <option value="Rarity">Vzácnosť</option>
                     <option value="Type">Typ</option>
                     <option value="Origin">Pôvod</option>
                     <option value="Speed">Rýchlosť</option>
@@ -649,7 +651,7 @@
         let currentMusicTrack = null;
 
         const searchableFields = [
-            "Name", "Owner", "Type", "Origin", "Speed",
+            "Name", "Owner", "Rarity", "Type", "Origin", "Speed",
             "Movement", "Combat", "Trait", "Weakness"
         ];
 
@@ -804,6 +806,7 @@
                 Image,
                 Name,
                 Owner,
+                Rarity,
                 Type,
                 Origin,
                 Speed,
@@ -853,6 +856,7 @@
             ${characterQuoteMarkup}
             <hr>
             <b>Owner:</b> ${escapeHtml(Owner)}
+            <br><b>Rarity:</b> ${escapeHtml(Rarity)}
             <br><b>Type:</b> ${escapeHtml(Type)}
             <br><b>Origin:</b> ${escapeHtml(Origin)}
             <br><b>Speed (Miles per day):</b> ${escapeHtml(Speed)}
@@ -998,7 +1002,7 @@
         }
 
         async function loadCharacters() {
-            const response = await fetch('https://raw.githubusercontent.com/Beariar/ALP/main/Postavy/_Mounts-Vehicles.csv');
+            const response = await fetch('https://raw.githubusercontent.com/Beariar/ALP/main/Postavy/_Mounts-Vehicles_Axria_Revised.csv');
             const data = await response.text();
 
             // Pre-process the data to remove lines that start with '#'
