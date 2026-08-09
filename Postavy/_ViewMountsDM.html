@@ -777,7 +777,30 @@
 
             let result;
 
-            if (fieldName === "Speed" && !Number.isNaN(numberA) && !Number.isNaN(numberB)) {
+            if (fieldName === "Rarity") {
+                const rarityOrder = {
+                    "common": 0,
+                    "uncommon": 1,
+                    "rare": 2,
+                    "very rare": 3,
+                    "epic": 4,
+                    "legendary": 5,
+                    "unique": 6
+                };
+
+                const rarityA = rarityOrder[normalizeText(valueA)] ?? Number.MAX_SAFE_INTEGER;
+                const rarityB = rarityOrder[normalizeText(valueB)] ?? Number.MAX_SAFE_INTEGER;
+
+                result = rarityA - rarityB;
+
+                // If both values are unknown, keep their ordering predictable.
+                if (result === 0 && rarityA === Number.MAX_SAFE_INTEGER) {
+                    result = String(valueA).localeCompare(String(valueB), "sk", {
+                        sensitivity: "base",
+                        numeric: true
+                    });
+                }
+            } else if (fieldName === "Speed" && !Number.isNaN(numberA) && !Number.isNaN(numberB)) {
                 result = numberA - numberB;
             } else {
                 result = String(valueA).localeCompare(String(valueB), "sk", {
@@ -1030,6 +1053,10 @@
 
             if (sortField === "Speed") {
                 button.textContent = direction === "asc" ? "0 → 9" : "9 → 0";
+            } else if (sortField === "Rarity") {
+                button.textContent = direction === "asc"
+                    ? "Common → Unique"
+                    : "Unique → Common";
             } else {
                 button.textContent = direction === "asc" ? "A → Z" : "Z → A";
             }
