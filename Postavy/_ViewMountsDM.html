@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lexend Giga' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Sedgwick Ave Display' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@200;300;400&display=swap" rel="stylesheet">
-    <title>Postavy DM</title>
+    <title>Mounts</title>
     <style>
         table {
             border-collapse: collapse;
@@ -582,57 +582,45 @@
         <h1>Postavy</h1>
     </div>
 
-    <details class="Controls" aria-label="Vyhľadávanie a zoradenie postáv" open>
+    <details class="Controls" aria-label="Vyhľadávanie a zoradenie mountov a vozidiel" open>
         <summary class="control-summary">
             <span class="control-summary-content">
                 <span class="control-summary-title">Vyhľadávanie a zoradenie</span>
-                <span class="control-summary-meta" id="filterSummary">Načítavam postavy...</span>
+                <span class="control-summary-meta" id="filterSummary">Načítavam mounty a vozidlá...</span>
             </span>
         </summary>
         <form class="control-panel-body" onsubmit="return false;">
-            <fieldset class="controls-layout" aria-label="Ovládanie zoznamu postáv">
+            <fieldset class="controls-layout" aria-label="Ovládanie zoznamu mountov a vozidiel">
                 <label for="searchInput">Hľadať:</label>
                 <input id="searchInput" type="search"
-                    placeholder="Meno, citát, hudba, priezvisko, rasa, zameranie, pôvod...">
+                    placeholder="Názov, vlastník, typ, pôvod, pohyb, boj, vlastnosť, slabina...">
 
                 <label for="searchField">V poli:</label>
                 <select id="searchField">
                     <option value="All">Všetko</option>
-                    <option value="Name">Meno</option>
-                    <option value="FirstName">Krstné meno</option>
-                    <option value="FamilyName">Priezvisko</option>
-                    <option value="Nickname">Prezývka</option>
-                    <option value="Race">Rasa</option>
-                    <option value="Focus">Zameranie</option>
+                    <option value="Name">Názov</option>
+                    <option value="Owner">Vlastník</option>
+                    <option value="Type">Typ</option>
                     <option value="Origin">Pôvod</option>
-                    <option value="God">Boh</option>
-                    <option value="Age">Vek</option>
-                    <option value="Status">Stav</option>
-                    <option value="Title">Titul</option>
-                    <option value="Position">Pozícia</option>
-                    <option value="Logo">Okupácia</option>
-                    <option value="Quote">Citát</option>
-                    <option value="Music">Hudba</option>
-                    <option value="Description">Popis</option>
-                    <option value="DM_Data">DM_Data</option>
+                    <option value="Speed">Rýchlosť</option>
+                    <option value="Movement">Špeciálny pohyb</option>
+                    <option value="Combat">Bojová spôsobilosť</option>
+                    <option value="Trait">Špeciálna vlastnosť</option>
+                    <option value="Weakness">Slabina / obmedzenie</option>
                 </select>
 
                 <label for="sortField">Zoradiť podľa:</label>
                 <select id="sortField">
                     <option value="OriginalOrder">Pôvodné poradie zo súboru</option>
-                    <option value="Name">Meno</option>
-                    <option value="FirstName">Krstné meno</option>
-                    <option value="FamilyName">Priezvisko</option>
-                    <option value="Nickname">Prezývka</option>
-                    <option value="Race">Rasa</option>
-                    <option value="Focus">Zameranie</option>
+                    <option value="Name">Názov</option>
+                    <option value="Owner">Vlastník</option>
+                    <option value="Type">Typ</option>
                     <option value="Origin">Pôvod</option>
-                    <option value="God">Boh</option>
-                    <option value="Age">Vek</option>
-                    <option value="Status">Stav</option>
-                    <option value="Title">Titul</option>
-                    <option value="Position">Pozícia</option>
-                    <option value="Logo">Okupácia</option>
+                    <option value="Speed">Rýchlosť</option>
+                    <option value="Movement">Špeciálny pohyb</option>
+                    <option value="Combat">Bojová spôsobilosť</option>
+                    <option value="Trait">Špeciálna vlastnosť</option>
+                    <option value="Weakness">Slabina / obmedzenie</option>
                 </select>
 
                 <button id="sortDirectionButton" class="button" type="button" data-direction="asc">A → Z</button>
@@ -661,8 +649,8 @@
         let currentMusicTrack = null;
 
         const searchableFields = [
-            "Name", "FirstName", "FamilyName", "Nickname", "Race", "Focus", "Origin",
-            "God", "Age", "Status", "Title", "Position", "Logo", "Quote", "Music", "Description", "DM_Data"
+            "Name", "Owner", "Type", "Origin", "Speed",
+            "Movement", "Combat", "Trait", "Weakness"
         ];
 
         function escapeHtml(value) {
@@ -771,13 +759,6 @@
         }
 
         function getFieldValue(character, fieldName) {
-            const nameParts = getNameParts(character.Name);
-
-            if (fieldName === "FirstName") return nameParts.firstName;
-            if (fieldName === "FamilyName") return nameParts.familyName;
-            if (fieldName === "Quote") return character["Citát"] ?? "";
-            if (fieldName === "Music") return getCharacterMusic(character);
-
             return character[fieldName] ?? "";
         }
 
@@ -794,7 +775,7 @@
 
             let result;
 
-            if (fieldName === "Age" && !Number.isNaN(numberA) && !Number.isNaN(numberB)) {
+            if (fieldName === "Speed" && !Number.isNaN(numberA) && !Number.isNaN(numberB)) {
                 result = numberA - numberB;
             } else {
                 result = String(valueA).localeCompare(String(valueB), "sk", {
@@ -1038,10 +1019,25 @@
             });
         }
 
+        function updateSortDirectionButtonLabel() {
+            const button = document.getElementById("sortDirectionButton");
+            const sortField = document.getElementById("sortField").value;
+            const direction = button.dataset.direction;
+
+            if (sortField === "Speed") {
+                button.textContent = direction === "asc" ? "0 → 9" : "9 → 0";
+            } else {
+                button.textContent = direction === "asc" ? "A → Z" : "Z → A";
+            }
+        }
+
         function setupControls() {
             document.getElementById("searchInput").addEventListener("input", renderCharacters);
             document.getElementById("searchField").addEventListener("change", renderCharacters);
-            document.getElementById("sortField").addEventListener("change", renderCharacters);
+            document.getElementById("sortField").addEventListener("change", () => {
+                updateSortDirectionButtonLabel();
+                renderCharacters();
+            });
 
             document.getElementById("sortDirectionButton").addEventListener("click", event => {
                 const button = event.currentTarget;
@@ -1049,7 +1045,7 @@
                 const nextDirection = currentDirection === "asc" ? "desc" : "asc";
 
                 button.dataset.direction = nextDirection;
-                button.textContent = nextDirection === "asc" ? "A → Z" : "Z → A";
+                updateSortDirectionButtonLabel();
                 renderCharacters();
             });
 
@@ -1058,7 +1054,7 @@
                 document.getElementById("searchField").value = "All";
                 document.getElementById("sortField").value = "OriginalOrder";
                 document.getElementById("sortDirectionButton").dataset.direction = "asc";
-                document.getElementById("sortDirectionButton").textContent = "A → Z";
+                updateSortDirectionButtonLabel();
                 renderCharacters();
             });
         }
