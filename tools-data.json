@@ -632,7 +632,7 @@
     "craftingUses": [],
     "summary": "Proficiency with painter's supplies represents your ability to paint and draw. You also acquire an understanding of art history, which can aid you in examining works of art.",
     "canDo": [
-      "Painting and Drawing: As part of a short or short rest (classic long rest), you can produce a simple work of art.",
+      "Painting and Drawing: As part of a quick or short rest (classic short or long rest), you can produce a simple work of art.",
       "Paint an accurate portrait",
       "Create a painting with a hidden message"
     ],
@@ -657,7 +657,7 @@
     "features": [
       {
         "name": "Painting and Drawing",
-        "text": "As part of a short or short rest (classic long rest), you can produce a simple work of art. Although your work might lack precision, you can capture an image or a scene, or make a quick copy of a piece of art you saw."
+        "text": "As part of a quick or short rest (classic short or long rest), you can produce a simple work of art. Although your work might lack precision, you can capture an image or a scene, or make a quick copy of a piece of art you saw."
       }
     ],
     "activities": [
