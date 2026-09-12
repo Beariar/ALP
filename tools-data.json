@@ -37,7 +37,7 @@
     "features": [
       {
         "name": "Alchemical Crafting",
-        "text": "You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a long rest, you can use alchemist's supplies to make one dose of acid, alchemist's fire, antitoxin, oil, perfume, or soap. Subtract half the value of the created item from the total gp worth of raw materials you are carrying."
+        "text": "You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a short rest (classic long rest), you can use alchemist's supplies to make one dose of acid, alchemist's fire, antitoxin, oil, perfume, or soap. Subtract half the value of the created item from the total gp worth of raw materials you are carrying."
       }
     ],
     "activities": [
@@ -103,7 +103,7 @@
     "features": [
       {
         "name": "Potable Water",
-        "text": "Your knowledge of brewing enables you to purify water that would otherwise be undrinkable. As part of a long rest, you can purify up to 6 gallons of water, or 1 gallon as part of a short rest."
+        "text": "Your knowledge of brewing enables you to purify water that would otherwise be undrinkable. As part of a short rest (classic long rest), you can purify up to 6 gallons of water, or 1 gallon as part of a quick rest (classic short rest)."
       }
     ],
     "activities": [
@@ -189,7 +189,7 @@
     "summary": "Skill at carpentry enables a character to construct wooden structures. A carpenter can build a house, a shack, a wooden cabinet, or similar items.",
     "canDo": [
       "Fortify: With 1 minute of work and raw materials, you can make a door or window harder to force open.",
-      "Temporary Shelter: As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest.",
+      "Temporary Shelter: As part of a short rest (classic long rest), you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest.",
       "Build a simple wooden structure",
       "Design a complex wooden structure",
       "Find a weak point in a wooden wall",
@@ -229,7 +229,7 @@
       },
       {
         "name": "Temporary Shelter",
-        "text": "As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses 1d3 days after being assembled."
+        "text": "As part of a short rest (classic long rest), you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses 1d3 days after being assembled."
       }
     ],
     "activities": [
@@ -324,7 +324,7 @@
     "summary": "Although the cobbler's trade might seem too humble for an adventurer, a good pair of boots will see a character across rugged wilderness and through deadly dungeons.",
     "canDo": [
       "Craft Boots",
-      "Maintain Shoes: As part of a long rest, you can repair your companions' shoes.",
+      "Maintain Shoes: As part of a short rest (classic long rest), you can repair your companions' shoes.",
       "Craft Hidden Compartment: With 8 hours of work, you can add a hidden compartment to a pair of shoes.",
       "Determine a shoe's age and origin",
       "Find a hidden compartment in a boot heel"
@@ -348,7 +348,7 @@
     "features": [
       {
         "name": "Maintain Shoes",
-        "text": "As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid exhaustion."
+        "text": "As part of a short rest (classic long rest), you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid exhaustion."
       },
       {
         "name": "Craft Hidden Compartment",
@@ -379,7 +379,7 @@
     "canDo": [
       "Craft Drink",
       "Craft Food",
-      "Prepare Meals: As part of a short rest, you can prepare a tasty meal that helps your companions regain their strength.",
+      "Prepare Meals: As part of a quick rest (classic short rest), you can prepare a tasty meal that helps your companions regain their strength.",
       "Create a typical meal",
       "Duplicate a meal",
       "Spot poison or impurities in food",
@@ -409,7 +409,7 @@
     "features": [
       {
         "name": "Prepare Meals",
-        "text": "As part of a short rest, you can prepare a tasty meal that helps your companions regain their strength. You and up to five creatures of your choice regain 1 extra hit point per Hit Die spent during a short rest, provided you have access to your cook's utensils and sufficient food."
+        "text": "As part of a quick rest (classic short rest), you can prepare a tasty meal that helps your companions regain their strength. You and up to five creatures of your choice regain 1 extra hit point per Hit Die spent during a quick rest (classic short rest), provided you have access to your cook's utensils and sufficient food."
       }
     ],
     "activities": [
@@ -632,7 +632,7 @@
     "craftingUses": [],
     "summary": "Proficiency with painter's supplies represents your ability to paint and draw. You also acquire an understanding of art history, which can aid you in examining works of art.",
     "canDo": [
-      "Painting and Drawing: As part of a short or long rest, you can produce a simple work of art.",
+      "Painting and Drawing: As part of a short or short rest (classic long rest), you can produce a simple work of art.",
       "Paint an accurate portrait",
       "Create a painting with a hidden message"
     ],
@@ -657,7 +657,7 @@
     "features": [
       {
         "name": "Painting and Drawing",
-        "text": "As part of a short or long rest, you can produce a simple work of art. Although your work might lack precision, you can capture an image or a scene, or make a quick copy of a piece of art you saw."
+        "text": "As part of a short or short rest (classic long rest), you can produce a simple work of art. Although your work might lack precision, you can capture an image or a scene, or make a quick copy of a piece of art you saw."
       }
     ],
     "activities": [
@@ -845,8 +845,8 @@
       "Craft Cloaks",
       "Craft Robes",
       "Craft Light Armor",
-      "Repair: As part of a short rest, you can repair a single damaged cloth object.",
-      "Craft Clothing: Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a long rest.",
+      "Repair: As part of a quick rest (classic short rest), you can repair a single damaged cloth object.",
+      "Craft Clothing: Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a short rest (classic long rest).",
       "Repurpose cloth",
       "Mend a hole in a piece of cloth",
       "Tailor an outfit"
@@ -870,11 +870,11 @@
     "features": [
       {
         "name": "Repair",
-        "text": "As part of a short rest, you can repair a single damaged cloth object."
+        "text": "As part of a quick rest (classic short rest), you can repair a single damaged cloth object."
       },
       {
         "name": "Craft Clothing",
-        "text": "Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a long rest."
+        "text": "Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a short rest (classic long rest)."
       }
     ],
     "activities": [
@@ -905,8 +905,8 @@
     "canDo": [
       "Craft Arrows",
       "Craft Wooden Shields",
-      "Repair: As part of a short rest, you can repair a single damaged wooden object.",
-      "Craft Arrows: As part of a short rest, you can craft up to five arrows.",
+      "Repair: As part of a quick rest (classic short rest), you can repair a single damaged wooden object.",
+      "Craft Arrows: As part of a quick rest (classic short rest), you can craft up to five arrows.",
       "Craft a small wooden figurine",
       "Carve an intricate pattern in wood"
     ],
@@ -929,11 +929,11 @@
     "features": [
       {
         "name": "Repair",
-        "text": "As part of a short rest, you can repair a single damaged wooden object."
+        "text": "As part of a quick rest (classic short rest), you can repair a single damaged wooden object."
       },
       {
         "name": "Craft Arrows",
-        "text": "As part of a short rest, you can craft up to five arrows. As part of a long rest, you can craft up to twenty. You must have enough wood on hand to produce them."
+        "text": "As part of a quick rest (classic short rest), you can craft up to five arrows. As part of a short rest (classic long rest), you can craft up to twenty. You must have enough wood on hand to produce them."
       }
     ],
     "activities": [
@@ -955,7 +955,7 @@
     "craftingUses": [],
     "summary": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise. The perfect tool for anyone who wants to engage in trickery, a disguise kit enables its owner to adopt a false identity.",
     "canDo": [
-      "Create Disguise: As part of a long rest, you can create a disguise.",
+      "Create Disguise: As part of a short rest (classic long rest), you can create a disguise.",
       "Cover injuries or distinguishing marks",
       "Spot a disguise being used by someone else",
       "Copy a humanoid's appearance"
@@ -990,7 +990,7 @@
     "features": [
       {
         "name": "Create Disguise",
-        "text": "As part of a long rest, you can create a disguise. It takes you 1 minute to don such a disguise once you have created it. You can carry only one such disguise on you at a time without drawing undue attention, unless you have a bag of holding or a similar method to keep them hidden. Each disguise weighs 1 pound. At other times, it takes 10 minutes to craft a disguise that involves moderate changes to your appearance, and 30 minutes for one that requires more extensive changes."
+        "text": "As part of a short rest (classic long rest), you can create a disguise. It takes you 1 minute to don such a disguise once you have created it. You can carry only one such disguise on you at a time without drawing undue attention, unless you have a bag of holding or a similar method to keep them hidden. Each disguise weighs 1 pound. At other times, it takes 10 minutes to craft a disguise that involves moderate changes to your appearance, and 30 minutes for one that requires more extensive changes."
       }
     ],
     "activities": [
@@ -1017,7 +1017,7 @@
     "summary": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document. A forgery kit is designed to duplicate documents and to make it easier to copy a person's seal or signature.",
     "canDo": [
       "Other Tools: Knowledge of other tools makes your forgeries that much more believable.",
-      "Quick Fake: As part of a short rest, you can produce a forged document no more than one page in length.",
+      "Quick Fake: As part of a quick rest (classic short rest), you can produce a forged document no more than one page in length.",
       "Mimic handwriting",
       "Duplicate a wax seal"
     ],
@@ -1055,7 +1055,7 @@
       },
       {
         "name": "Quick Fake",
-        "text": "As part of a short rest, you can produce a forged document no more than one page in length. As part of a long rest, you can produce a document that is up to four pages long. Your Intelligence check using a forgery kit determines the DC for someone else's Intelligence (Investigation) check to spot the fake."
+        "text": "As part of a quick rest (classic short rest), you can produce a forged document no more than one page in length. As part of a short rest (classic long rest), you can produce a document that is up to four pages long. Your Intelligence check using a forgery kit determines the DC for someone else's Intelligence (Investigation) check to spot the fake."
       }
     ],
     "activities": [
@@ -1199,7 +1199,7 @@
     "features": [
       {
         "name": "Set a Trap",
-        "text": "Just as you can disable traps, you can also set them. As part of a short rest, you can create a trap using items you have on hand. The total of your check becomes the DC for someone else's attempt to discover or disable the trap. The trap deals damage appropriate to the materials used in crafting it (such as poison or a weapon) or damage equal to half the total of your check, whichever the DM deems appropriate."
+        "text": "Just as you can disable traps, you can also set them. As part of a quick rest (classic short rest), you can create a trap using items you have on hand. The total of your check becomes the DC for someone else's attempt to discover or disable the trap. The trap deals damage appropriate to the materials used in crafting it (such as poison or a weapon) or damage equal to half the total of your check, whichever the DM deems appropriate."
       }
     ],
     "activities": [
