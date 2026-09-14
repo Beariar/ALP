@@ -6,9 +6,7 @@
     "weight": "8 lb.",
     "craftingUses": [
       "Throwables",
-      "Oils",
-      "Non-Healing Potions",
-      "Alchemical Reagents"
+      "Oils"
     ],
     "summary": "Alchemist's supplies enable a character to produce useful concoctions, such as acid or alchemist's fire.",
     "canDo": [
@@ -19,11 +17,7 @@
       "Identify a poison",
       "Identify a substance",
       "Start a fire",
-      "Neutralize acid",
-      "Craft Non-Healing Potions",
-      "Craft Alchemical Reagents",
-      "Refine Monster Reagents: Process suitable harvested monster parts into stable ingredients for alchemical crafting.",
-      "Analyze an unknown liquid or chemical mixture"
+      "Neutralize acid"
     ],
     "components": "Alchemist's supplies include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.",
     "skillUses": [
@@ -44,14 +38,6 @@
       {
         "name": "Alchemical Crafting",
         "text": "You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a short rest (classic long rest), you can use alchemist's supplies to make one dose of acid, alchemist's fire, antitoxin, oil, perfume, or soap. Subtract half the value of the created item from the total gp worth of raw materials you are carrying."
-      },
-      {
-        "name": "Potion Brewing",
-        "text": "You can use alchemist's supplies to craft non-healing potions when you have an appropriate formula, suitable reagents, and raw materials. This includes potions such as resistance, growth, diminution, water breathing, or giant strength. Healing potions remain the domain of the herbalism kit unless another rule says otherwise."
-      },
-      {
-        "name": "Refine Reagents",
-        "text": "Given suitable raw materials, you can process monster parts, minerals, acids, salts, and similar substances into stable alchemical reagents. The resulting reagent does not gain value from nothing; its value is based on the materials used, the difficulty of refinement, and the quality of the finished product."
       }
     ],
     "activities": [
@@ -74,22 +60,6 @@
       {
         "activity": "Neutralize acid",
         "dc": "20"
-      },
-      {
-        "activity": "Analyze an unknown liquid or chemical mixture",
-        "dc": "15"
-      },
-      {
-        "activity": "Refine a difficult alchemical reagent",
-        "dc": "15"
-      },
-      {
-        "activity": "Stabilize a volatile alchemical mixture",
-        "dc": "20"
-      },
-      {
-        "activity": "Identify the likely properties of an unfamiliar potion from residue",
-        "dc": "20"
       }
     ]
   },
@@ -99,8 +69,7 @@
     "cost": "20 gp",
     "weight": "9 lb.",
     "craftingUses": [
-      "Alcoholic Drinks",
-      "Vinegar and Fermented Ingredients"
+      "Alcoholic Drinks"
     ],
     "summary": "Brewing is the art of producing beer. Not only does beer serve as an alcoholic beverage, but the process of brewing purifies water. Crafting beer takes weeks of fermentation, but only a few hours of work.",
     "canDo": [
@@ -108,11 +77,7 @@
       "Potable Water: Your knowledge of brewing enables you to purify water that would otherwise be undrinkable.",
       "Detect poison or impurities in a drink",
       "Identify alcohol",
-      "Ignore effects of alcohol",
-      "Craft Vinegar and Fermented Ingredients",
-      "Judge the progress of fermentation",
-      "Identify a spoiled or contaminated brew",
-      "Identify an unfamiliar fermented food or drink"
+      "Ignore effects of alcohol"
     ],
     "components": "Brewer's supplies include a large glass jug, a quantity of hops, a siphon, and several feet of tubing.",
     "skillUses": [
@@ -139,10 +104,6 @@
       {
         "name": "Potable Water",
         "text": "Your knowledge of brewing enables you to purify water that would otherwise be undrinkable. As part of a short rest (classic long rest), you can purify up to 6 gallons of water, or 1 gallon as part of a quick rest (classic short rest)."
-      },
-      {
-        "name": "Controlled Fermentation",
-        "text": "Your knowledge of yeast, temperature, storage, and fermentation lets you deliberately sour, ferment, or preserve suitable ingredients. You can produce mundane products such as vinegar, fermented fruit, brewing starters, and similar ingredients when given enough time and proper containers."
       }
     ],
     "activities": [
@@ -157,18 +118,6 @@
       {
         "activity": "Ignore effects of alcohol",
         "dc": "20"
-      },
-      {
-        "activity": "Judge the progress of fermentation",
-        "dc": "10"
-      },
-      {
-        "activity": "Identify a spoiled or contaminated brew",
-        "dc": "15"
-      },
-      {
-        "activity": "Identify an unfamiliar fermented food or drink",
-        "dc": "20"
       }
     ]
   },
@@ -179,10 +128,7 @@
     "weight": "5 lb.",
     "craftingUses": [
       "Scrolls",
-      "Books",
-      "Illuminated Manuscripts",
-      "Formal Documents",
-      "Inscriptions"
+      "Books"
     ],
     "summary": "Calligraphy treats writing as a delicate, beautiful art. Calligraphers produce text that is pleasing to the eye, using a style that is difficult to forge. Their supplies also give them some ability to examine scripts and determine if they are legitimate, since a calligrapher's training involves long hours of studying writing and attempting to replicate its style and design.",
     "canDo": [
@@ -192,11 +138,7 @@
       "Identify writer of nonmagical script",
       "Determine writer's state of mind",
       "Spot forged text",
-      "Forge a signature",
-      "Craft Illuminated Manuscripts",
-      "Craft Formal Documents",
-      "Copy unfamiliar runes or script accurately",
-      "Create coded writing hidden in decorative lettering"
+      "Forge a signature"
     ],
     "components": "Calligrapher's supplies include ink, a dozen sheets of parchment, and three quills.",
     "skillUses": [
@@ -217,14 +159,6 @@
       {
         "name": "Decipher Treasure Map",
         "text": "This tool proficiency grants you expertise in examining maps. You can make an Intelligence check to determine a map's age, whether a map includes any hidden messages, or similar facts."
-      },
-      {
-        "name": "Exact Copy",
-        "text": "Given a clear original, you can reproduce the visible layout, lettering, diagrams, and decorative elements of a page with high accuracy. This does not by itself create a legal forgery or duplicate a magical effect, but it is useful for preserving inscriptions, runes, diagrams, and damaged texts."
-      },
-      {
-        "name": "Illumination",
-        "text": "You can decorate manuscripts with borders, initials, symbols, and miniature illustrations, creating ceremonial books, charters, certificates, and other formal works."
       }
     ],
     "activities": [
@@ -243,18 +177,6 @@
       {
         "activity": "Forge a signature",
         "dc": "20"
-      },
-      {
-        "activity": "Copy unfamiliar script accurately",
-        "dc": "20"
-      },
-      {
-        "activity": "Create an illuminated manuscript page",
-        "dc": "10"
-      },
-      {
-        "activity": "Hide a coded message in decorative lettering",
-        "dc": "20"
       }
     ]
   },
@@ -263,12 +185,7 @@
     "category": "Artisan Tool",
     "cost": "8 gp",
     "weight": "6 lb.",
-    "craftingUses": [
-      "Wooden Structures",
-      "Furniture",
-      "Wooden Containers",
-      "Hidden Compartments"
-    ],
+    "craftingUses": [],
     "summary": "Skill at carpentry enables a character to construct wooden structures. A carpenter can build a house, a shack, a wooden cabinet, or similar items.",
     "canDo": [
       "Fortify: With 1 minute of work and raw materials, you can make a door or window harder to force open.",
@@ -276,12 +193,7 @@
       "Build a simple wooden structure",
       "Design a complex wooden structure",
       "Find a weak point in a wooden wall",
-      "Pry apart a door",
-      "Craft Wooden Structures",
-      "Craft Furniture and Wooden Containers",
-      "Craft Hidden Compartment: Add a concealed space to a suitable wooden object or structure.",
-      "Find a hidden compartment in wooden construction",
-      "Build a barricade or wooden reinforcement"
+      "Pry apart a door"
     ],
     "components": "Carpenter's tools include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel.",
     "skillUses": [
@@ -318,14 +230,6 @@
       {
         "name": "Temporary Shelter",
         "text": "As part of a short rest (classic long rest), you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses 1d3 days after being assembled."
-      },
-      {
-        "name": "Craft Hidden Compartment",
-        "text": "With 8 hours of work and suitable materials, you can add a hidden compartment to a wooden object or structure large enough to contain it, such as a chest, cabinet, wall panel, floor, wagon, or piece of furniture. Make an Intelligence check using your tool proficiency; the total becomes the Intelligence (Investigation) check DC needed to find the compartment."
-      },
-      {
-        "name": "Wooden Construction",
-        "text": "You can construct mundane wooden fixtures, containers, furniture, barricades, frames, ladders, scaffolding, and similar structures when you have enough lumber, fasteners, and working space."
       }
     ],
     "activities": [
@@ -344,22 +248,6 @@
       {
         "activity": "Pry apart a door",
         "dc": "20"
-      },
-      {
-        "activity": "Build a sturdy wooden chest or crate",
-        "dc": "10"
-      },
-      {
-        "activity": "Build a barricade or reinforcement",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a hidden compartment in wooden construction",
-        "dc": "20"
-      },
-      {
-        "activity": "Find a hidden compartment in wooden construction",
-        "dc": "15"
       }
     ]
   },
@@ -368,23 +256,14 @@
     "category": "Artisan Tool",
     "cost": "15 gp",
     "weight": "6 lb.",
-    "craftingUses": [
-      "Maps",
-      "Floorplans",
-      "Route Charts"
-    ],
+    "craftingUses": [],
     "summary": "Using cartographer's tools, you can create accurate maps to make travel easier for yourself and those who come after you. These maps can range from large-scale depictions of mountain ranges to diagrams that show the layout of a dungeon level.",
     "canDo": [
       "Craft a Map: While traveling, you can draw a map as you go in addition to engaging in other activity.",
       "Determine a map's age and origin",
       "Estimate direction and distance to a landmark",
       "Discern that a map is fake",
-      "Fill in a missing part of a map",
-      "Craft Maps and Floorplans",
-      "Create a dungeon floorplan while exploring",
-      "Estimate travel distance and travel time from a map",
-      "Compare old and new maps to identify geographic changes",
-      "Plan a practical route through known terrain"
+      "Fill in a missing part of a map"
     ],
     "components": "Cartographer's tools consist of a quill, ink, parchment, a pair of compasses, calipers, and a ruler.",
     "skillUses": [
@@ -413,14 +292,6 @@
       {
         "name": "Craft a Map",
         "text": "While traveling, you can draw a map as you go in addition to engaging in other activity."
-      },
-      {
-        "name": "Route Planning",
-        "text": "Given a reasonably accurate map and known destination, you can estimate the distance, likely travel time, major terrain obstacles, and obvious alternative routes. This feature cannot reveal hazards or geography that are absent from the available information."
-      },
-      {
-        "name": "Survey Sketch",
-        "text": "When you can observe a location from a useful vantage point, you can create a practical sketch showing relative distances, elevations, roads, rivers, structures, and other major features."
       }
     ],
     "activities": [
@@ -439,22 +310,6 @@
       {
         "activity": "Fill in a missing part of a map",
         "dc": "20"
-      },
-      {
-        "activity": "Estimate travel time along a mapped route",
-        "dc": "10"
-      },
-      {
-        "activity": "Create a useful floorplan from memory",
-        "dc": "20"
-      },
-      {
-        "activity": "Reconstruct missing local geography from surrounding information",
-        "dc": "15"
-      },
-      {
-        "activity": "Identify significant geographic changes between two maps",
-        "dc": "10"
       }
     ]
   },
@@ -464,10 +319,7 @@
     "cost": "5 gp",
     "weight": "5 lb.",
     "craftingUses": [
-      "Boots",
-      "Footwear",
-      "Specialized Footwear",
-      "Hidden Compartments"
+      "Boots"
     ],
     "summary": "Although the cobbler's trade might seem too humble for an adventurer, a good pair of boots will see a character across rugged wilderness and through deadly dungeons.",
     "canDo": [
@@ -475,11 +327,7 @@
       "Maintain Shoes: As part of a short rest (classic long rest), you can repair your companions' shoes.",
       "Craft Hidden Compartment: With 8 hours of work, you can add a hidden compartment to a pair of shoes.",
       "Determine a shoe's age and origin",
-      "Find a hidden compartment in a boot heel",
-      "Craft Specialized Footwear",
-      "Waterproof a pair of boots",
-      "Fit simple snow, mud, ice, or climbing attachments to footwear",
-      "Assess a traveler's recent terrain from wear on footwear"
+      "Find a hidden compartment in a boot heel"
     ],
     "components": "Cobbler's tools consist of a hammer, an awl, a knife, a shoe stand, a cutter, spare leather, and thread.",
     "skillUses": [
@@ -505,10 +353,6 @@
       {
         "name": "Craft Hidden Compartment",
         "text": "With 8 hours of work, you can add a hidden compartment to a pair of shoes. The compartment can hold an object up to 3 inches long and 1 inch wide and deep. You make an Intelligence check using your tool proficiency to determine the Intelligence (Investigation) check DC needed to find the compartment."
-      },
-      {
-        "name": "Terrain Footwear",
-        "text": "With suitable materials and 1 hour of work, you can adapt a pair of mundane footwear for a specific ordinary environment, such as deep mud, snow, ice, rocky ground, or prolonged wet conditions. These adaptations do not grant magical movement, but they can negate minor footwear-related penalties or inconveniences at the DM's discretion."
       }
     ],
     "activities": [
@@ -519,18 +363,6 @@
       {
         "activity": "Find a hidden compartment in a boot heel",
         "dc": "15"
-      },
-      {
-        "activity": "Waterproof a pair of boots",
-        "dc": "20"
-      },
-      {
-        "activity": "Fit terrain-specific attachments to footwear",
-        "dc": "15"
-      },
-      {
-        "activity": "Determine recent terrain from wear on footwear",
-        "dc": "10"
       }
     ]
   },
@@ -541,10 +373,7 @@
     "weight": "8 lb.",
     "craftingUses": [
       "Drink",
-      "Food",
-      "Preserved Food",
-      "Travel Rations",
-      "Specialty Meals"
+      "Food"
     ],
     "summary": "Adventuring is a hard life. With a cook along on the journey, your meals will be much better than the typical mix of hardtack and dried fruit.",
     "canDo": [
@@ -554,12 +383,7 @@
       "Create a typical meal",
       "Duplicate a meal",
       "Spot poison or impurities in food",
-      "Create a gourmet meal",
-      "Craft Preserved Food",
-      "Craft Travel Rations",
-      "Safely prepare unfamiliar edible plants or monster meat",
-      "Stretch limited ingredients into a serviceable meal",
-      "Identify spoiled food"
+      "Create a gourmet meal"
     ],
     "components": "Cook's utensils include a metal pot, knives, forks, a stirring spoon, and a ladle.",
     "skillUses": [
@@ -586,14 +410,6 @@
       {
         "name": "Prepare Meals",
         "text": "As part of a quick rest (classic short rest), you can prepare a tasty meal that helps your companions regain their strength. You and up to five creatures of your choice regain 1 extra hit point per Hit Die spent during a quick rest (classic short rest), provided you have access to your cook's utensils and sufficient food."
-      },
-      {
-        "name": "Preserve Food",
-        "text": "Given salt, smoke, sugar, oil, vinegar, drying space, or another appropriate method, you can preserve suitable food for travel and storage. The exact shelf life depends on the ingredient, preservation method, and local conditions."
-      },
-      {
-        "name": "Unusual Ingredients",
-        "text": "Your training lets you assess how unfamiliar but potentially edible ingredients should be cleaned, cut, cooked, soaked, or otherwise prepared to reduce ordinary culinary hazards. This does not automatically make inherently poisonous or magical material safe."
       }
     ],
     "activities": [
@@ -612,22 +428,6 @@
       {
         "activity": "Create a gourmet meal",
         "dc": "15"
-      },
-      {
-        "activity": "Preserve a batch of food",
-        "dc": "15"
-      },
-      {
-        "activity": "Identify spoiled food",
-        "dc": "10"
-      },
-      {
-        "activity": "Safely prepare an unfamiliar edible ingredient",
-        "dc": "20"
-      },
-      {
-        "activity": "Stretch limited ingredients into a full meal",
-        "dc": "20"
       }
     ]
   },
@@ -636,22 +436,12 @@
     "category": "Artisan Tool",
     "cost": "30 gp",
     "weight": "5 lb.",
-    "craftingUses": [
-      "Glass Containers",
-      "Laboratory Glassware",
-      "Glass Ornaments",
-      "Glass Lenses"
-    ],
+    "craftingUses": [],
     "summary": "Someone who is proficient with glassblower's tools has not only the ability to shape glass, but also specialized knowledge of the methods used to produce glass objects.",
     "canDo": [
       "Identify Weakness: With 1 minute of study, you can identify the weak points in a glass object.",
       "Identify source of glass",
-      "Determine what a glass object once held",
-      "Craft Glass Containers",
-      "Craft Laboratory Glassware",
-      "Craft Glass Ornaments and Figurines",
-      "Craft Simple Lenses and Mirrors",
-      "Restore a simple glass object if enough of it remains"
+      "Determine what a glass object once held"
     ],
     "components": "The tools include a blowpipe, a small marver, blocks, and tweezers. You need a source of heat to work glass.",
     "skillUses": [
@@ -673,14 +463,6 @@
       {
         "name": "Identify Weakness",
         "text": "With 1 minute of study, you can identify the weak points in a glass object. Any damage dealt to the object by striking a weak spot is doubled."
-      },
-      {
-        "name": "Glass Vessel Crafting",
-        "text": "With an adequate heat source and suitable glass, you can create mundane vials, potion bottles, flasks, jars, ampoules, tubes, beakers, and similar containers. Fine laboratory pieces or pressure-resistant vessels may require a higher check."
-      },
-      {
-        "name": "Precision Glasswork",
-        "text": "You can shape delicate ornaments, figurines, lenses, mirrors, and specialized laboratory glass. Complex optical pieces require high-quality glass and careful finishing."
       }
     ],
     "activities": [
@@ -690,22 +472,6 @@
       },
       {
         "activity": "Determine what a glass object once held",
-        "dc": "20"
-      },
-      {
-        "activity": "Craft a simple vial, bottle, or jar",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a decorative glass ornament",
-        "dc": "15"
-      },
-      {
-        "activity": "Craft delicate laboratory glassware",
-        "dc": "15"
-      },
-      {
-        "activity": "Craft a precision lens or intricate glass figurine",
         "dc": "20"
       }
     ]
@@ -717,10 +483,7 @@
     "weight": "2 lb.",
     "craftingUses": [
       "Jewels",
-      "Gems",
-      "Ornaments",
-      "Precious-Metal Objects",
-      "Engraved Spell Components"
+      "Gems"
     ],
     "summary": "Training with jeweler's tools includes the basic techniques needed to beautify gems. It also gives you expertise in identifying precious stones.",
     "canDo": [
@@ -728,13 +491,7 @@
       "Craft Gems",
       "Identify Gems: You can identify gems and determine their value at a glance.",
       "Modify a gem's appearance",
-      "Determine a gem's history",
-      "Craft Ornaments",
-      "Craft Small Precious-Metal Objects and Figurines",
-      "Engrave a detailed symbol or image into a precious object",
-      "Set or replace a gemstone",
-      "Craft valuable nonmagical spell components",
-      "Appraise the quality of precious-metal workmanship"
+      "Determine a gem's history"
     ],
     "components": "Jeweler's tools consist of a small saw and hammer, files, pliers, and tweezers.",
     "skillUses": [
@@ -755,14 +512,6 @@
       {
         "name": "Identify Gems",
         "text": "You can identify gems and determine their value at a glance."
-      },
-      {
-        "name": "Precious Component Crafting",
-        "text": "You can craft compact nonmagical objects intended to satisfy a spell's specified material component, such as an engraved figurine, jeweled icon, ornament, jewels with holy symbols or precious-metal focus, provided the finished object actually meets the spell's description and required value. Note: Crafting does not create value from nothing: the value must come from precious materials, workmanship, rarity, or a combination of them."
-      },
-      {
-        "name": "Fine Engraving",
-        "text": "You can engrave detailed images, lettering, heraldry, runes, and decorative patterns onto suitable gems, jewelry, and small precious-metal objects."
       }
     ],
     "activities": [
@@ -772,22 +521,6 @@
       },
       {
         "activity": "Determine a gem's history",
-        "dc": "20"
-      },
-      {
-        "activity": "Set a gemstone securely",
-        "dc": "10"
-      },
-      {
-        "activity": "Engrave a detailed symbol or image",
-        "dc": "20"
-      },
-      {
-        "activity": "Craft a small precious figurine or ornament",
-        "dc": "15"
-      },
-      {
-        "activity": "Craft a masterwork valuable spell component",
         "dc": "20"
       }
     ]
@@ -799,11 +532,7 @@
     "weight": "5 lb.",
     "craftingUses": [
       "Leather Armor",
-      "Boots",
-      "Bags and Pouches",
-      "Belts and Harnesses",
-      "Scabbards and Holsters",
-      "Saddles"
+      "Boots"
     ],
     "summary": "Knowledge of leatherworking extends to lore concerning animal hides and their properties. It also confers knowledge of leather armor and similar goods.",
     "canDo": [
@@ -811,12 +540,7 @@
       "Craft Boots",
       "Identify Hides: When looking at a hide or a leather item, you can determine the source of the leather and any special techniques used to treat it.",
       "Modify a leather item's appearance",
-      "Determine a leather item's history",
-      "Craft Bags, Pouches, and Backpacks",
-      "Craft Belts, Harnesses, Scabbards, and Holsters",
-      "Craft Saddles and Tack",
-      "Add a concealed pocket to a suitable leather item",
-      "Fit leather gear to a specific creature"
+      "Determine a leather item's history"
     ],
     "components": "Leatherworker's tools include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.",
     "skillUses": [
@@ -837,14 +561,6 @@
       {
         "name": "Identify Hides",
         "text": "When looking at a hide or a leather item, you can determine the source of the leather and any special techniques used to treat it. For example, you can spot the difference between leather crafted using dwarven methods and leather crafted using halfling methods."
-      },
-      {
-        "name": "Field Leather Gear",
-        "text": "With suitable hide, leather, buckles, and thread, you can craft or repair mundane travel gear such as belts, pouches, backpacks, straps, scabbards, holsters, harnesses, waterskins, saddles, and similar items."
-      },
-      {
-        "name": "Concealed Pocket",
-        "text": "With 4 hours of work, you can add a small concealed pocket to a suitable leather item such as a belt, bag, scabbard, coat panel, or saddle. Make an Intelligence check using your tool proficiency; the total becomes the Intelligence (Investigation) check DC needed to notice the pocket."
       }
     ],
     "activities": [
@@ -855,22 +571,6 @@
       {
         "activity": "Determine a leather item's history",
         "dc": "20"
-      },
-      {
-        "activity": "Craft a simple leather pouch or belt",
-        "dc": "10"
-      },
-      {
-        "activity": "Fit a harness or saddle",
-        "dc": "15"
-      },
-      {
-        "activity": "Add a concealed pocket to a leather item",
-        "dc": "20"
-      },
-      {
-        "activity": "Identify an unusual hide treatment technique",
-        "dc": "15"
       }
     ]
   },
@@ -879,23 +579,12 @@
     "category": "Artisan Tool",
     "cost": "10 gp",
     "weight": "8 lb.",
-    "craftingUses": [
-      "Stone Structures",
-      "Stone Statues",
-      "Stone Containers",
-      "Stone Ornaments"
-    ],
+    "craftingUses": [],
     "summary": "Mason's tools allow you to craft stone structures, including walls and buildings crafted from brick.",
     "canDo": [
       "Demolition: Your knowledge of masonry allows you to spot weak points in brick walls.",
       "Chisel a small hole in a stone wall",
-      "Find a weak point in a stone wall",
-      "Craft Stone Structures",
-      "Craft Stone Statues and Reliefs",
-      "Craft Stone Containers and Ornaments",
-      "Repair damaged masonry",
-      "Seal or reinforce a stone opening",
-      "Carve a hidden niche into suitable stonework"
+      "Find a weak point in a stone wall"
     ],
     "components": "Mason's tools consist of a trowel, a hammer, a chisel, brushes, and a square.",
     "skillUses": [
@@ -922,14 +611,6 @@
       {
         "name": "Demolition",
         "text": "Your knowledge of masonry allows you to spot weak points in brick walls. You deal double damage to such structures with your weapon attacks."
-      },
-      {
-        "name": "Stonecraft",
-        "text": "With appropriate stone, mortar, and working space, you can construct or repair mundane stone walls, steps, supports, paving, containers, monuments, and similar masonry. You can restore 10 hit points to a damaged nonmagical stone object or section of masonry for each hour of work if you have suitable raw materials."
-      },
-      {
-        "name": "Stone Sculpture",
-        "text": "You can carve statues, busts, reliefs, inscriptions, grave markers, ornaments, and other decorative stonework. The time required depends heavily on size and detail."
       }
     ],
     "activities": [
@@ -940,22 +621,6 @@
       {
         "activity": "Find a weak point in a stone wall",
         "dc": "15"
-      },
-      {
-        "activity": "Repair damaged masonry",
-        "dc": "10"
-      },
-      {
-        "activity": "Carve a simple relief or inscription",
-        "dc": "10"
-      },
-      {
-        "activity": "Sculpt an accurate bust or small statue",
-        "dc": "15"
-      },
-      {
-        "activity": "Create a hidden stone niche/passage",
-        "dc": "20"
       }
     ]
   },
@@ -964,20 +629,12 @@
     "category": "Artisan Tool",
     "cost": "10 gp",
     "weight": "5 lb.",
-    "craftingUses": [
-      "Paintings",
-      "Portraits",
-      "Murals",
-      "Signs and Heraldry"
-    ],
+    "craftingUses": [],
     "summary": "Proficiency with painter's supplies represents your ability to paint and draw. You also acquire an understanding of art history, which can aid you in examining works of art.",
     "canDo": [
       "Painting and Drawing: As part of a quick or short rest (classic short or long rest), you can produce a simple work of art.",
       "Paint an accurate portrait",
-      "Create a painting with a hidden message",
-      "Craft Paintings",
-      "Paint Murals, Signs, and Heraldry",
-      "Reproduce a visual scene or symbol from memory"
+      "Create a painting with a hidden message"
     ],
     "components": "Painter's supplies include an easel, canvas, paints, brushes, charcoal sticks, and a palette.",
     "skillUses": [
@@ -1001,14 +658,6 @@
       {
         "name": "Painting and Drawing",
         "text": "As part of a quick or short rest (classic short or long rest), you can produce a simple work of art. Although your work might lack precision, you can capture an image or a scene, or make a quick copy of a piece of art you saw."
-      },
-      {
-        "name": "Create a work of Art",
-        "text": "During long rest you can create portraits, landscapes, murals, signs, heraldic designs, religious works, and other art. Such art can be sold for possibly a great price. The work's market value depends on materials, quality, reputation, subject, and the local market."
-      },
-      {
-        "name": "Field Sketch",
-        "text": "With at least 10 minutes of observation, you can make a useful sketch of a creature, object, symbol, location, or scene. A successful check can preserve identifying details well enough for another person to recognize or investigate the subject later."
       }
     ],
     "activities": [
@@ -1019,22 +668,6 @@
       {
         "activity": "Create a painting with a hidden message",
         "dc": "20"
-      },
-      {
-        "activity": "Paint a clear sign or heraldic device",
-        "dc": "10"
-      },
-      {
-        "activity": "Reproduce a detailed scene from memory",
-        "dc": "15"
-      },
-      {
-        "activity": "Create a high-quality painting",
-        "dc": "15"
-      },
-      {
-        "activity": "Imitate another artist's visual style convincingly",
-        "dc": "20"
       }
     ]
   },
@@ -1043,23 +676,13 @@
     "category": "Artisan Tool",
     "cost": "10 gp",
     "weight": "3 lb.",
-    "craftingUses": [
-      "Ceramic Vessels",
-      "Tableware",
-      "Clay Figurines",
-      "Crucibles and Molds"
-    ],
+    "craftingUses": [],
     "summary": "Potter's tools are used to create a variety of ceramic objects, most typically pots and similar vessels.",
     "canDo": [
       "Reconstruction: By examining pottery shards, you can determine an object's original, intact form and its likely purpose.",
       "Determine what a vessel once held",
       "Create a serviceable pot",
-      "Find a weak point in a ceramic object",
-      "Craft Ceramic Vessels and Tableware",
-      "Craft Clay Figurines and Ornaments",
-      "Craft Crucibles and Ceramic Molds",
-      "Create a sealable ceramic storage vessel",
-      "Reconstruct a simple ceramic shape from a surviving fragment"
+      "Find a weak point in a ceramic object"
     ],
     "components": "Potter's tools include potter's needles, ribs, scrapers, a knife, and calipers.",
     "skillUses": [
@@ -1081,10 +704,6 @@
       {
         "name": "Reconstruction",
         "text": "By examining pottery shards, you can determine an object's original, intact form and its likely purpose."
-      },
-      {
-        "name": "Kiln Work",
-        "text": "With access to suitable clay and a kiln or comparable firing setup, you can produce durable mundane ceramic vessels, plates, cups, tiles, bottles, jars, figurines, molds, crucibles, and similar objects. Unfired clay pieces remain fragile and unsuitable for long-term use."
       }
     ],
     "activities": [
@@ -1099,26 +718,6 @@
       {
         "activity": "Find a weak point in a ceramic object",
         "dc": "20"
-      },
-      {
-        "activity": "Craft simple cups, bowls, or plates",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a sealable storage jar or bottle",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a detailed clay figurine",
-        "dc": "15"
-      },
-      {
-        "activity": "Craft a reliable crucible or mold",
-        "dc": "15"
-      },
-      {
-        "activity": "Create an intricate glazed ornament",
-        "dc": "20"
       }
     ]
   },
@@ -1130,11 +729,7 @@
     "craftingUses": [
       "Armor",
       "Weapons",
-      "Shields",
-      "Metal Tools",
-      "Ammunition",
-      "Hardware",
-      "Metal Containers"
+      "Shields"
     ],
     "summary": "Smith's tools allow you to work metal, heating it to alter its shape, repair damage, or work raw ingots into useful items.",
     "canDo": [
@@ -1144,12 +739,7 @@
       "Repair: With access to your tools and an open flame hot enough to make metal pliable, you can restore 10 hit points to a damaged metal object for each hour of work.",
       "Sharpen a dull blade",
       "Repair a suit of armor",
-      "Sunder a nonmagical metal object",
-      "Craft Metal Tools",
-      "Craft Metal Ammunition and Weapon Parts",
-      "Craft Hardware such as nails, hooks, hinges, chains, buckles, and horseshoes",
-      "Craft Simple Metal Containers",
-      "Forge or replace a mundane metal fitting"
+      "Sunder a nonmagical metal object"
     ],
     "components": "Smith's tools include hammers, tongs, charcoal, rags, and a whetstone.",
     "skillUses": [
@@ -1170,11 +760,7 @@
     "features": [
       {
         "name": "Repair",
-        "text": "With access to your tools and an open flame hot enough to make metal pliable, you can restore 10 hit points to a damaged metal object or 0.5 durability to weapon for each hour of work."
-      },
-      {
-        "name": "Forge Hardware",
-        "text": "With access to a suitable forge and raw metal, you can produce mundane hardware and fittings such as nails, hooks, buckles, hinges, brackets, horseshoes, chain links, simple tools, and similar pieces. Precision mechanisms may also require tinker's tools or thieves' tools."
+        "text": "With access to your tools and an open flame hot enough to make metal pliable, you can restore 10 hit points to a damaged metal object or 0,5 výdrž to weapon for each hour of work."
       }
     ],
     "activities": [
@@ -1189,22 +775,6 @@
       {
         "activity": "Sunder a nonmagical metal object",
         "dc": "15"
-      },
-      {
-        "activity": "Forge a simple metal tool or fitting",
-        "dc": "10"
-      },
-      {
-        "activity": "Fit a horseshoe or replace a metal fitting",
-        "dc": "10"
-      },
-      {
-        "activity": "Forge a chain, simple lock body, or precise weapon part",
-        "dc": "15"
-      },
-      {
-        "activity": "Reproduce a complex metal component from a sample",
-        "dc": "20"
       }
     ]
   },
@@ -1214,11 +784,7 @@
     "cost": "50 gp",
     "weight": "10 lb.",
     "craftingUses": [
-      "Mechanical Items",
-      "Repairs",
-      "Simple Mechanisms",
-      "Locks",
-      "Mechanical Traps"
+      "Mechanical Items"
     ],
     "summary": "A set of tinker's tools is designed to enable you to repair many mundane objects. Though you can't manufacture much with tinker's tools, you can mend torn clothes, sharpen a worn sword, and patch a tattered suit of chain mail.",
     "canDo": [
@@ -1226,13 +792,7 @@
       "Repair: You can restore 10 hit points to a damaged object for each hour of work.",
       "Temporarily repair a disabled device",
       "Repair an item in half the time",
-      "Improvise a temporary item using scraps",
-      "Craft Simple Mechanisms",
-      "Craft a Simple Lock",
-      "Craft or Modify Mechanical Trap Components",
-      "Disassemble a mechanical device without damaging its useful parts",
-      "Identify how a mundane mechanism is intended to operate",
-      "Modify a simple trigger, latch, timer, or release mechanism"
+      "Improvise a temporary item using scraps"
     ],
     "components": "Tinker's tools include a variety of hand tools, thread, needles, a whetstone, scraps of cloth and leather, and a small pot of glue.",
     "skillUses": [
@@ -1253,14 +813,6 @@
       {
         "name": "Repair",
         "text": "You can restore 10 hit points to a damaged object for each hour of work. For any object, you need access to the raw materials required to repair it. For metal objects, you need access to an open flame hot enough to make the metal pliable."
-      },
-      {
-        "name": "Mechanism Analysis",
-        "text": "After 1 minute examining a mundane mechanical device you can reach, you can identify its general purpose, moving parts, likely power source, obvious failure points, and whether it has been damaged or modified. Complex or very unfamiliar mechanisms may require an higher Intelligence check."
-      },
-      {
-        "name": "Jury-Rig",
-        "text": "Using suitable scraps and spare parts, you can assemble a temporary mundane mechanism or replacement component. A jury-rigged item is intended as a short-term solution and may fail after heavy use, at the DM's discretion."
       }
     ],
     "activities": [
@@ -1275,22 +827,6 @@
       {
         "activity": "Improvise a temporary item using scraps",
         "dc": "20"
-      },
-      {
-        "activity": "Disassemble a simple device without damaging useful parts",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a simple trigger, latch, or release mechanism",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a simple lock or mechanical trap component",
-        "dc": "15"
-      },
-      {
-        "activity": "Reverse-engineer an unfamiliar mechanism",
-        "dc": "20"
       }
     ]
   },
@@ -1302,11 +838,7 @@
     "craftingUses": [
       "Cloaks",
       "Robes",
-      "Light Armor",
-      "Clothing",
-      "Banners and Tapestries",
-      "Tents and Bedrolls",
-      "Hidden Compartments"
+      "Light Armor"
     ],
     "summary": "Weaver's tools allow you to create cloth and tailor it into articles of clothing.",
     "canDo": [
@@ -1317,13 +849,7 @@
       "Craft Clothing: Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a short rest (classic long rest).",
       "Repurpose cloth",
       "Mend a hole in a piece of cloth",
-      "Tailor an outfit",
-      "Craft Clothing",
-      "Craft Banners, Flags, and Tapestries",
-      "Craft Tents, Blankets, and Bedrolls",
-      "Craft Hidden Compartment: Add a concealed pocket or lining to suitable cloth equipment.",
-      "Find a hidden compartment in clothing or woven goods",
-      "Create simple camouflage cloth suited to local colors and vegetation"
+      "Tailor an outfit"
     ],
     "components": "Weaver's tools include thread, needles, and scraps of cloth. You know how to work a loom, but such equipment is too large to transport.",
     "skillUses": [
@@ -1349,14 +875,6 @@
       {
         "name": "Craft Clothing",
         "text": "Assuming you have access to sufficient cloth and thread, you can create an outfit for a creature as part of a short rest (classic long rest)."
-      },
-      {
-        "name": "Craft Hidden Compartment",
-        "text": "With 4 hours of work, you can add a concealed pocket, double lining, false seam, or similar compartment to a suitable garment, cloak, bag, blanket, or other woven item. Make an Intelligence check using your tool proficiency; the total becomes the Intelligence (Investigation) check DC needed to find the compartment."
-      },
-      {
-        "name": "Textile Field Gear",
-        "text": "With sufficient cloth and thread, you can make mundane tents, tarps, blankets, bedrolls, banners, sacks, uniforms, and similar textile goods in addition to ordinary clothing."
       }
     ],
     "activities": [
@@ -1371,22 +889,6 @@
       {
         "activity": "Tailor an outfit",
         "dc": "15"
-      },
-      {
-        "activity": "Craft a banner, flag, or simple uniform",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a hidden compartment in clothing or woven goods",
-        "dc": "15"
-      },
-      {
-        "activity": "Find a hidden compartment in clothing or woven goods",
-        "dc": "15"
-      },
-      {
-        "activity": "Reproduce a distinctive uniform or complex textile pattern",
-        "dc": "20"
       }
     ]
   },
@@ -1397,11 +899,7 @@
     "weight": "5 lb.",
     "craftingUses": [
       "Arrows",
-      "Wooden Shields",
-      "Wooden Weapons",
-      "Weapon Components",
-      "Wands and Rods",
-      "Wooden Ornaments"
+      "Wooden Shields"
     ],
     "summary": "Woodcarver's tools allow you to craft intricate objects from wood, such as wooden tokens or arrows.",
     "canDo": [
@@ -1410,12 +908,7 @@
       "Repair: As part of a quick rest (classic short rest), you can repair a single damaged wooden object.",
       "Craft Arrows: As part of a quick rest (classic short rest), you can craft up to five arrows.",
       "Craft a small wooden figurine",
-      "Carve an intricate pattern in wood",
-      "Craft Wooden Weapons",
-      "Craft Wooden Weapon Components",
-      "Craft Wands, Rods, and Wooden Spell Foci",
-      "Craft Wooden Ornaments and Holy Symbols",
-      "Replace a broken wooden haft, shaft, stock, or handle"
+      "Carve an intricate pattern in wood"
     ],
     "components": "Woodcarver's tools consist of a knife, a gouge, and a small saw.",
     "skillUses": [
@@ -1441,14 +934,6 @@
       {
         "name": "Craft Arrows",
         "text": "As part of a quick rest (classic short rest), you can craft up to five arrows. As part of a short rest (classic long rest), you can craft up to twenty. You must have enough wood on hand to produce them."
-      },
-      {
-        "name": "Weapon Stock and Shaft",
-        "text": "With suitable wood, you can craft or replace mundane wooden weapon bodies and components such as staffs, clubs, spear shafts, axe handles, bow bodies, crossbow stocks, and similar parts. Weapons that require metal mechanisms, blades, strings, or fittings may also require smith's tools, tinker's tools, or atleast other  materials."
-      },
-      {
-        "name": "Focus Carving",
-        "text": "You can carve wands, rods, wooden holy symbols, totems, decorative grips, and other compact wooden objects intended as mundane spellcasting or ceremonial components."
       }
     ],
     "activities": [
@@ -1459,26 +944,6 @@
       {
         "activity": "Carve an intricate pattern in wood",
         "dc": "15"
-      },
-      {
-        "activity": "Craft a staff, club, handle, or spear shaft",
-        "dc": "10"
-      },
-      {
-        "activity": "Fit or replace a wooden weapon component",
-        "dc": "10"
-      },
-      {
-        "activity": "Craft a bow body or crossbow stock",
-        "dc": "15"
-      },
-      {
-        "activity": "Carve a precise wand, rod, or other wooden spell focus",
-        "dc": "15"
-      },
-      {
-        "activity": "Craft a masterwork wooden weapon",
-        "dc": "20"
       }
     ]
   },
@@ -1487,21 +952,13 @@
     "category": "Specific Tool",
     "cost": "25 gp",
     "weight": "3 lb.",
-    "craftingUses": [
-      "Disguises",
-      "Cosmetic Alterations",
-      "Costume Props"
-    ],
+    "craftingUses": [],
     "summary": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise. The perfect tool for anyone who wants to engage in trickery, a disguise kit enables its owner to adopt a false identity.",
     "canDo": [
       "Create Disguise: As part of a short rest (classic long rest), you can create a disguise.",
       "Cover injuries or distinguishing marks",
       "Spot a disguise being used by someone else",
-      "Copy a humanoid's appearance",
-      "Disguise Another Creature",
-      "Change a creature's apparent age, profession, or social status",
-      "Create theatrical makeup and simple costume props",
-      "Reproduce the visible look of a known uniform when suitable clothing is available"
+      "Copy a humanoid's appearance"
     ],
     "components": "A disguise kit includes cosmetics, hair dye, small props, and a few pieces of clothing.",
     "skillUses": [
@@ -1534,14 +991,6 @@
       {
         "name": "Create Disguise",
         "text": "As part of a short rest (classic long rest), you can create a disguise. It takes you 1 minute to don such a disguise once you have created it. You can carry only one such disguise on you at a time without drawing undue attention, unless you have a bag of holding or a similar method to keep them hidden. Each disguise weighs 1 pound. At other times, it takes 10 minutes to craft a disguise that involves moderate changes to your appearance, and 30 minutes for one that requires more extensive changes."
-      },
-      {
-        "name": "Disguise Another",
-        "text": "You can create and apply a disguise to a willing creature using the same general process and time requirements as creating a disguise for yourself. Significant differences in body shape, species, or size may increase the difficulty or make a disguise impossible without additional props or clothing."
-      },
-      {
-        "name": "Role Disguise",
-        "text": "If you have seen appropriate examples, you can build a disguise around a recognizable social role such as a servant, guard, clerk, priest, laborer, noble, or performer. This changes appearance, not knowledge, mannerisms, credentials, or authority."
       }
     ],
     "activities": [
@@ -1556,22 +1005,6 @@
       {
         "activity": "Copy a humanoid's appearance",
         "dc": "20"
-      },
-      {
-        "activity": "Change apparent age, profession, or social status",
-        "dc": "10"
-      },
-      {
-        "activity": "Disguise another willing creature",
-        "dc": "15"
-      },
-      {
-        "activity": "Reproduce a recognizable uniform or occupational appearance",
-        "dc": "15"
-      },
-      {
-        "activity": "Mimic a specific individual's distinguishing visual features (Race/Size complications migh apply)",
-        "dc": "20"
       }
     ]
   },
@@ -1580,23 +1013,13 @@
     "category": "Specific Tool",
     "cost": "15 gp",
     "weight": "5 lb.",
-    "craftingUses": [
-      "Forged Documents",
-      "Passes and Permits",
-      "Seals",
-      "Counterfeit Maps"
-    ],
+    "craftingUses": [],
     "summary": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document. A forgery kit is designed to duplicate documents and to make it easier to copy a person's seal or signature.",
     "canDo": [
       "Other Tools: Knowledge of other tools makes your forgeries that much more believable.",
       "Quick Fake: As part of a quick rest (classic short rest), you can produce a forged document no more than one page in length.",
       "Mimic handwriting",
-      "Duplicate a wax seal",
-      "Craft Forged Documents",
-      "Craft False Passes, Permits, Warrants, Invitations, Tickets, and Certificates",
-      "Alter a small detail in an existing document",
-      "Counterfeit a map when combined with appropriate cartographic knowledge",
-      "Match the apparent age, paper type, ink style, or administrative format of a document"
+      "Duplicate a wax seal"
     ],
     "components": "A forgery kit includes several different types of ink, a variety of parchments and papers, several quills, seals and sealing wax, gold and silver leaf, and small tools to sculpt melted wax to mimic a seal.",
     "skillUses": [
@@ -1633,10 +1056,6 @@
       {
         "name": "Quick Fake",
         "text": "As part of a quick rest (classic short rest), you can produce a forged document no more than one page in length. As part of a short rest (classic long rest), you can produce a document that is up to four pages long. Your Intelligence check using a forgery kit determines the DC for someone else's Intelligence (Investigation) check to spot the fake."
-      },
-      {
-        "name": "Alter Document",
-        "text": "You can alter a limited detail in an existing mundane document, such as a name, date, destination, amount, signature line, or authorization mark. Make an Intelligence check using your tool proficiency; the total becomes the Intelligence (Investigation) check DC needed to notice the alteration. Major changes may require recreating the entire document instead."
       }
     ],
     "activities": [
@@ -1647,22 +1066,6 @@
       {
         "activity": "Duplicate a wax seal",
         "dc": "20"
-      },
-      {
-        "activity": "Alter a simple name, date, or number in a document",
-        "dc": "10"
-      },
-      {
-        "activity": "Create a convincing official pass or permit",
-        "dc": "15"
-      },
-      {
-        "activity": "Match an unusual paper, ink, or administrative style",
-        "dc": "20"
-      },
-      {
-        "activity": "Create a convincing multi-page forged record",
-        "dc": "20"
       }
     ]
   },
@@ -1671,22 +1074,12 @@
     "category": "Specific Tool",
     "cost": "25 gp",
     "weight": "2 lb.",
-    "craftingUses": [
-      "Navigation Charts",
-      "Route Plans",
-      "Travel Logs"
-    ],
+    "craftingUses": [],
     "summary": "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea. Proficiency with navigator's tools helps you determine a true course based on observing the stars. It also grants you insight into charts and maps while developing your sense of direction.",
     "canDo": [
       "Sighting: By taking careful measurements, you can determine your position on a nautical chart and the time of day.",
       "Plot a course",
-      "Discover your position on a nautical chart",
-      "Craft Navigation Charts",
-      "Determine cardinal direction from the stars",
-      "Estimate local time from celestial observations",
-      "Plot an overland course",
-      "Estimate position by dead reckoning",
-      "Maintain a navigation log"
+      "Discover your position on a nautical chart"
     ],
     "components": "Navigator's tools include a sextant, a compass, calipers, a ruler, parchment, ink, and a quill.",
     "skillUses": [
@@ -1701,14 +1094,6 @@
       {
         "name": "Sighting",
         "text": "By taking careful measurements, you can determine your position on a nautical chart and the time of day."
-      },
-      {
-        "name": "Dead Reckoning",
-        "text": "If you know your approximate starting position, direction of travel, speed, and elapsed time, you can estimate your current position even without visible landmarks. Poor weather, currents, detours, difficult terrain, or unreliable measurements can require a Wisdom or Intelligence check."
-      },
-      {
-        "name": "Celestial Navigation",
-        "text": "When the sky is sufficiently visible, you can use the sun, stars, and other celestial references to determine direction and approximate time, and to help correct accumulated navigation error."
       }
     ],
     "activities": [
@@ -1719,22 +1104,6 @@
       {
         "activity": "Discover your position on a nautical chart",
         "dc": "15"
-      },
-      {
-        "activity": "Determine cardinal direction from visible stars",
-        "dc": "10"
-      },
-      {
-        "activity": "Estimate local time from celestial observations",
-        "dc": "10"
-      },
-      {
-        "activity": "Plot an overland course through known terrain",
-        "dc": "15"
-      },
-      {
-        "activity": "Recover an estimated position after a storm or major detour",
-        "dc": "20"
       }
     ]
   },
@@ -1744,21 +1113,14 @@
     "cost": "50 gp",
     "weight": "2 lb.",
     "craftingUses": [
-      "Poisons",
-      "Antidotes",
-      "Venom Preparations"
+      "Poisons"
     ],
     "summary": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons. Additionally, the Crafting and Harvesting Poison rules require the use of a poisoner's kit. A poisoner's kit is a favored resource for thieves, assassins, and others who engage in skulduggery. It allows you to apply poisons and create them from various materials. Your knowledge of poisons also helps you treat them.",
     "canDo": [
       "Craft Poisons",
       "Handle Poison: Your proficiency allows you to handle and apply a poison without risk of exposing yourself to its effects.",
       "Spot a poisoned object",
-      "Determine the effects of a poison",
-      "Craft Specific Antidotes",
-      "Harvest poison or venom from a suitable creature or plant",
-      "Preserve a poison or venom sample",
-      "Dilute or concentrate a poison preparation",
-      "Safely coat ammunition, weapons, or traps with poison"
+      "Determine the effects of a poison"
     ],
     "components": "A poisoner's kit includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod.",
     "skillUses": [
@@ -1793,14 +1155,6 @@
       {
         "name": "Handle Poison",
         "text": "Your proficiency allows you to handle and apply a poison without risk of exposing yourself to its effects."
-      },
-      {
-        "name": "Harvest Poison",
-        "text": "When you have access to a suitable poisonous creature, plant, gland, sac, secretion, or similar source, you can attempt to harvest a usable poison or venom sample without exposing yourself. The DC depends on the source and condition of the material; particularly dangerous or delicate sources may require a higher check."
-      },
-      {
-        "name": "Specific Antidote",
-        "text": "If you can identify a particular poison and obtain suitable reagents, you can formulate an antidote intended for that poison. A specific antidote is not a universal antitoxin and does not automatically neutralize unrelated poisons."
       }
     ],
     "activities": [
@@ -1811,22 +1165,6 @@
       {
         "activity": "Determine the effects of a poison",
         "dc": "15"
-      },
-      {
-        "activity": "Preserve a poison or venom sample",
-        "dc": "10"
-      },
-      {
-        "activity": "Harvest poison or venom from a suitable source",
-        "dc": "15"
-      },
-      {
-        "activity": "Determine suitable ingredients for a specific antidote",
-        "dc": "15"
-      },
-      {
-        "activity": "Formulate a specific antidote or poison",
-        "dc": "20"
       }
     ]
   },
@@ -1835,22 +1173,12 @@
     "category": "Specific Tool",
     "cost": "25 gp",
     "weight": "1 lb.",
-    "craftingUses": [
-      "Locks",
-      "Mechanical Traps",
-      "Keys and Lock Parts"
-    ],
+    "craftingUses": [],
     "summary": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks. Perhaps the most common tools used by adventurers, thieves' tools are designed for picking locks and foiling traps. Proficiency with the tools also grants you a general knowledge of traps and locks.",
     "canDo": [
       "Set a Trap: Just as you can disable traps, you can also set them.",
       "Pick a lock",
-      "Disable a trap",
-      "Craft a Simple Lock",
-      "Craft or Modify Mechanical Traps",
-      "Make an impression of a key",
-      "Duplicate a simple key from an impression when suitable material or a blank is available",
-      "Jam or deliberately foul a lock",
-      "Assess the quality and mechanism of a lock"
+      "Disable a trap"
     ],
     "components": "Thieves' tools include a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers.",
     "skillUses": [
@@ -1872,14 +1200,6 @@
       {
         "name": "Set a Trap",
         "text": "Just as you can disable traps, you can also set them. As part of a quick rest (classic short rest), you can create a trap using items you have on hand. The total of your check becomes the DC for someone else's attempt to discover or disable the trap. The trap deals damage appropriate to the materials used in crafting it (such as poison or a weapon) or damage equal to half the total of your check, whichever the DM deems appropriate."
-      },
-      {
-        "name": "Assess Lock",
-        "text": "After 1 minute examining a mundane lock you can reach, you can identify its general mechanism, quality, obvious damage, whether it has been tampered with, and the likely difficulty of opening it. Unusual or concealed mechanisms may require an Intelligence check."
-      },
-      {
-        "name": "Key Impression",
-        "text": "With wax, clay, soap, or another suitable soft material and brief access to a key, you can make an impression of it. Given an appropriate blank or workable material, you can later attempt to shape a duplicate simple key."
       }
     ],
     "activities": [
@@ -1890,26 +1210,6 @@
       {
         "activity": "Disable a trap",
         "dc": "Varies"
-      },
-      {
-        "activity": "Identify a lock's mechanism and quality",
-        "dc": "10"
-      },
-      {
-        "activity": "Jam a mundane lock",
-        "dc": "10"
-      },
-      {
-        "activity": "Duplicate a simple key from an impression",
-        "dc": "15"
-      },
-      {
-        "activity": "Construct a simple lock",
-        "dc": "15"
-      },
-      {
-        "activity": "Alter a mechanical trap trigger without fully disarming it",
-        "dc": "20"
       }
     ]
   },
@@ -1919,20 +1219,11 @@
     "cost": "5 gp",
     "weight": "3 lb.",
     "craftingUses": [
-      "Healing Potions",
-      "Antitoxin",
-      "Antidotes",
-      "Herbal Remedies",
-      "Medicinal Poultices"
+      "Healing Potions"
     ],
-    "summary": "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing. Proficiency with an herbalism kit allows you to identify plants and safely collect their useful elements.",
+    "summary": "his kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing. Proficiency with an herbalism kit allows you to identify plants and safely collect their useful elements.",
     "canDo": [
-      "Craft Healing Potions",
-      "Craft Antitoxin",
-      "Craft Specific Herbal Antidotes",
-      "Craft Herbal Remedies and Poultices",
-      "Preserve harvested herbs and medicinal plants",
-      "Identify the likely medicinal use of an unfamiliar plant"
+      "Craft Healing Potions"
     ],
     "components": "An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.",
     "skillUses": [
@@ -1953,7 +1244,8 @@
           "Medicine"
         ],
         "text": "Your mastery of herbalism improves your ability to treat illnesses and wounds by augmenting your methods of care with medicinal plants."
-      },
+      }
+      ,
       {
         "skills": [
           "Nature",
@@ -1966,173 +1258,17 @@
       {
         "name": "Identify Plants",
         "text": "You can identify most plants with a quick inspection of their appearance and smell."
-      },
-      {
-        "name": "Antitoxin and Antidotes",
-        "text": "You can use an herbalism kit to create antitoxin. If you know the nature of a specific poison and have access to appropriate medicinal plants or other natural reagents, you can also attempt to create an antidote tailored to that poison. A specific antidote does not automatically work against unrelated poisons."
-      },
-      {
-        "name": "Preserve Herbs",
-        "text": "You can dry, press, wrap, salt, steep, or otherwise preserve freshly gathered herbs and medicinal plant material to prevent ordinary spoilage during travel and storage, provided the plant can reasonably be preserved by mundane means."
       }
     ],
     "activities": [
-      {
+       {
         "activity": "Find plants",
         "dc": "15"
       },
       {
         "activity": "Identify poison",
         "dc": "20"
-      },
-      {
-        "activity": "Prepare a simple medicinal poultice or herbal remedy",
-        "dc": "10"
-      },
-      {
-        "activity": "Preserve harvested herbs and medicinal plants",
-        "dc": "10"
-      },
-      {
-        "activity": "Identify the likely medicinal property of an unfamiliar plant",
-        "dc": "15"
-      },
-      {
-        "activity": "Create a specific herbal antidote",
-        "dc": "20"
       }
     ]
-  },
-  {
-  "name": "Accountant's Tools",
-  "category": "Artisan Tool",
-  "cost": "15 gp",
-  "weight": "4 lb.",
-  "craftingUses": [
-    "Ledgers",
-    "Financial Records"
-  ],
-  "summary": "Accountant's tools are used to count money, maintain financial records, calculate costs and payments, track time and schedules, and uncover discrepancies in accounts. A skilled accountant can quickly determine whether numbers add up, estimate the financial requirements of a project, and recognize when records have been altered or manipulated.",
-  "canDo": [
-    "Craft Ledgers",
-    "Craft Financial Records",
-    "Quick Calculation: You can rapidly perform arithmetic involving money, quantities, time, wages, prices, debts, interest, or similar practical calculations.",
-    "Bookkeeping: You can maintain organized records of income, expenses, inventory, debts, wages, and payments.",
-    "Estimate the cost of a project",
-    "Calculate wages, taxes, fees, interest, or shares",
-    "Count a large amount of coins or goods",
-    "Determine whether an account balances",
-    "Spot a discrepancy in financial records",
-    "Estimate elapsed time from schedules or records",
-    "Reconstruct incomplete financial records"
-  ],
-  "components": "Accountant's tools include a counting board or abacus, a small set of calibrated weights, chalk, ink, quills, several sheets of parchment, a ledger, and measuring cords or marked strips used for keeping track of quantities and time.",
-  "skillUses": [
-    {
-      "skills": [
-        "History"
-      ],
-      "text": "Your knowledge of accounting can help you understand old prices, wages, taxes, trade practices, currencies, financial institutions, and records of historical transactions."
-    },
-    {
-      "skills": [
-        "Investigation"
-      ],
-      "text": "When examining ledgers, receipts, inventories, contracts, schedules, or other records containing numbers, your proficiency helps you notice inconsistencies, missing entries, manipulated totals, or patterns that others might overlook."
-    },
-    {
-      "skills": [
-        "Insight"
-      ],
-      "text": "Financial records can reveal behavior. Repeated withdrawals, unusual expenses, hidden debts, or deliberately vague bookkeeping can provide insight into the motives or habits of the person maintaining the accounts."
-    }
-  ],
-  "features": [
-    {
-      "name": "Quick Calculation",
-      "text": "When you have the necessary information available, you can quickly perform ordinary calculations involving money, quantities, time, wages, prices, debts, interest, shares, travel expenses, or similar practical matters without requiring a check. Particularly complicated, incomplete, or deliberately misleading calculations may still require an Intelligence check using your accountant's tools."
-    },
-    {
-      "name": "Bookkeeping",
-      "text": "You can maintain accurate records of a group's income, expenses, inventory, wages, debts, and payments. If you have maintained the records yourself, you can determine the current totals and identify when something has been added, removed, or changed without authorization."
-    },
-    {
-      "name": "Project Estimate",
-      "text": "Given sufficient information about materials, workers, prices, and expected working time, you can estimate the cost and duration of a construction project, expedition, business venture, production run, or similar undertaking. The estimate is reasonably accurate unless important information was unavailable or deliberately concealed."
-    }
-  ],
-  "activities": [
-    {
-      "activity": "Count and verify a large quantity of coins or goods",
-      "dc": "10"
-    },
-    {
-      "activity": "Calculate complicated costs, wages, interest, taxes, or shares",
-      "dc": "10"
-    },
-    {
-      "activity": "Estimate the cost and duration of a project",
-      "dc": "15"
-    },
-    {
-      "activity": "Spot an error or discrepancy in financial records",
-      "dc": "15"
-    },
-    {
-      "activity": "Determine when a transaction or recorded event occurred from incomplete records",
-      "dc": "15"
-    },
-    {
-      "activity": "Detect deliberately manipulated or fraudulent accounting",
-      "dc": "20"
-    },
-    {
-      "activity": "Reconstruct incomplete or damaged financial records",
-      "dc": "20"
-    }
-  ]
-},
-{
-  "name": "Fishing Rod",
-  "category": "Specific Tool",
-  "cost": "1 gp",
-  "weight": "2 lb.",
-  "craftingUses": [],
-  "summary": "A fishing rod is a simple tool used to catch fish in rivers, lakes, ponds, and coastal waters. Proficiency with a fishing rod represents practical knowledge of bait, casting, suitable fishing spots, and recognizing when a fish has taken the hook.",
-  "canDo": [
-    "Catch Fish",
-    "Choose suitable bait",
-    "Identify a promising fishing spot"
-  ],
-  "components": "A fishing rod consists of a wooden rod, fishing line, hooks, a small float or weight, and a small amount of basic tackle.",
-  "skillUses": [
-    {
-      "skills": [
-        "Nature",
-        "Survival"
-      ],
-      "text": "Your fishing experience helps you recognize suitable fishing locations, choose appropriate bait, and understand the habits of common freshwater and coastal fish."
-    }
-  ],
-  "features": [
-    {
-      "name": "Fishing",
-      "text": "If you spend at least 1 hour fishing in waters that contain edible fish, you can attempt a check using your fishing rod. On a success, you catch enough fish to provide food for one creature for one day. Particularly rich or poor fishing grounds can increase or decrease the amount caught at the DM's discretion."
-    }
-  ],
-  "activities": [
-    {
-      "activity": "Catch fish in suitable waters",
-      "dc": "10"
-    },
-    {
-      "activity": "Catch fish in poor or difficult waters",
-      "dc": "15"
-    },
-    {
-      "activity": "Catch fish in at sea wile baot is sailing",
-      "dc": "20"
-    }
-  ]
-}
+  }
 ]
