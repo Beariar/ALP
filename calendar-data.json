@@ -128,6 +128,42 @@
       "category": "birthday",
       "importance": "medium",
       "description": "Poznáte? Tak 'oni majú' sviatok a môže sa tešiť na práty na streche školy? Možno, už to raz bolo tak prečo nie opäť."
+    },
+    {
+      "id": "toedor-narodeniny",
+      "name": "Teodor Narodeniny",
+      "date": {
+        "month": 10,
+        "day": 1
+      },
+      "recurrence": "yearly",
+      "category": "birthday",
+      "importance": "medium",
+      "description": "Von Hohenberg má narodeniny!"
+    },
+    {
+      "id": "page-narodeniny",
+      "name": "Page Narodeniny",
+      "date": {
+        "month": 2,
+        "day": 11
+      },
+      "recurrence": "yearly",
+      "category": "birthday",
+      "importance": "medium",
+      "description": "Narodeniny znalca... to asi nebude veľká zábava.. či?"
+    },
+    {
+      "id": "zori-narodeniny",
+      "name": "Zori Narodeniny",
+      "date": {
+        "month": 1,
+        "day": 1
+      },
+      "recurrence": "yearly",
+      "category": "birthday",
+      "importance": "medium",
+      "description": "počkať, toto nieje správny dátum!! Toto je len 'place holder'!"
     }
   ]
 }
