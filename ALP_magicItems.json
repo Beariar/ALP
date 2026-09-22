@@ -378,7 +378,7 @@
 				"These magical potions are designed to restore vitality and cure ailments. A creature can drink a potion as a bonus action, rapidly benefiting from its effects. However, administering a potion to another creature within 5 feet requires an action as it takes more time and care.",
 				"Once used, the brooch crumbles into dust and is destroyed.",
 				"<b>Elixir of Health</b> (rare) - This potent elixir purges afflictions from the body. When you drink this potion, it:<br> - Cures any disease affecting you.<br> - Removes the blinded, deafened, paralyzed, and poisoned conditions.",
-				"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores all missing hit points.",
+				"<b>Potions of Healing</b> - These potions restore hit points when consumed. Their strength varies by rarity:<br> - <b>Potion of Healing (Common):</b> Restores 2d4 + 2 hit points.<br> - <b>Greater Healing Potion (Uncommon):</b> Restores 4d4 + 4 hit points.<br> - <b>Superior Healing Potion (Rare):</b> Restores 8d4 + 8 hit points.<br> - <b>Supreme Healing Potion (Very Rare):</b> Restores 10d4 + 20 hit points.<br> - <b>Mythic Healing Potion (Legendary):</b> Restores 10d4 now + 20 hit points each round for next 2+d4 rounds.",
 				"<b>⇊ ⇊ CAREFULL ⇊ ⇊</b>",
 				"<b>Potion of Poison (uncommon)</b> - This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.",
 				"If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
@@ -993,6 +993,37 @@
 				"<b>Intelligence:</b> Evocation, Abjuration, Transmutation, Divination<br><b>Wisdom:</b> Conjuration, Necromancy<br><b>Charisma:</b> Enchantment, Illusion",
 				"<table><thead> <tr> <th>Level</th> <th>Cast DC</th> <th>Save DC</th> <th>Attack Bonus</th> </tr></thead> <tbody> <tr> <td>Cantrip</td> <td>10</td> <td>13</td> <td>5</td> </tr> <tr> <td>1</td> <td>11</td> <td>13</td> <td>5</td> </tr> <tr> <td>2</td> <td>12</td> <td>13</td> <td>5</td> </tr> <tr> <td>3</td> <td>13</td> <td>15</td> <td>7</td> </tr> <tr> <td>4</td> <td>14</td> <td>15</td> <td>7</td> </tr> <tr> <td>5</td> <td>15</td> <td>17</td> <td>9</td> </tr> <tr> <td>6</td> <td>16</td> <td>17</td> <td>9</td> </tr> <tr> <td>7</td> <td>17</td> <td>18</td> <td>10</td> </tr> <tr> <td>8</td> <td>18</td> <td>18</td> <td>10</td> </tr> <tr> <td>9</td> <td>19</td> <td>19</td> <td>11</td> </tr> </tbody> </table>"
 			]
+		},
+		{
+			"name": "Ring of Hades",
+			"meno": "Pergamen Mágie",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "very rare",
+			"reqAttune": "yes (by a Fiend warlock)",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "yes",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"This black iron ring is warm even in freezing air. Its surface looks cracked like cooled volcanic stone, and faint red light pulses beneath it whenever its wearer calls on their patron.",
+				"While wearing this ring, you gain one additional warlock spell slot from your Pact Magic feature. This spell slot is the same level as your other warlock spell slots and returns when you finish a short or long rest. It can only be used to cast warlock spells and cannot be used for Mystic Arcanum.",
+				"When you finish a long rest, choose a number of Axria weapons equal to half your proficiency bonus, rounded up. You gain proficiency with those weapons until you finish another long rest and choose again.",
+				"In addition, when you hit a creature with your pact weapon, the attack deals extra fire or necrotic damage equal to half your proficiency bonus, rounded down. You choose the damage type when you finish a long rest."]
 		}
 	]
 }
