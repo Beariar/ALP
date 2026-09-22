@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dark Tarot • Draw a Fate</title>
+  <style>
+    :root {
+      /* Dark Tarot cards are authored at a true 3:4 ratio. */
+      --card-w: clamp(128px, 15vw, 214px);
+      --card-h: calc(var(--card-w) * 4 / 3);
+      --wood-bg: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/WoodBackground.jpg');
+      --modal-bg: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/SpellDetailBackground3.jpg');
+      --card-back: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Tarot/T3/_TarotCardBack.jpg');
+
+      --blood: #8f1720;
+      --blood-bright: #b62a32;
+      --blood-soft: rgba(143, 23, 32, 0.24);
+      --ash: #b7b2ad;
+      --ash-dim: #77716d;
+      --bone: #d5d0c8;
+      --void: #080708;
+      --panel: rgba(15, 13, 14, 0.94);
+      --panel-soft: rgba(25, 21, 22, 0.91);
+      --line: rgba(188, 177, 170, 0.22);
+      --line-strong: rgba(188, 177, 170, 0.38);
+      --text: #ddd8d2;
+      --text-muted: #9e9792;
+      --text-faint: #716b67;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { min-height: 100%; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: 'Lexend Giga', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 50% -8%, rgba(111, 13, 20, 0.14), transparent 35%),
+        radial-gradient(circle at 15% 30%, rgba(104, 100, 96, 0.055), transparent 32%),
+        linear-gradient(rgba(2, 2, 3, 0.78), rgba(0, 0, 0, 0.92)),
+        #080708 var(--wood-bg) center / cover no-repeat fixed;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.24), transparent 20%, transparent 80%, rgba(0,0,0,.24)),
+        radial-gradient(ellipse at center, transparent 25%, rgba(0,0,0,.43) 78%, rgba(0,0,0,.76) 100%);
+    }
+
+    body.modal-open {
+      position: fixed;
+      width: 100%;
+      overflow: hidden;
+      touch-action: none;
+    }
+
+    .toolbar {
+      width: min(94vw, 1500px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      padding: 18px 4px 10px;
+      position: relative;
+      z-index: 2;
+      border-bottom: 1px solid rgba(143, 23, 32, 0.16);
+    }
+
+    .toolbar-title {
+      margin: 0;
+      font-size: clamp(1.15rem, 3vw, 1.8rem);
+      color: #e1dcda;
+      text-shadow: 0 2px 18px rgba(0,0,0,.95), 0 0 22px rgba(143,23,32,.16);
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+    }
+
+    .toolbar-title::before {
+      content: "◈";
+      color: var(--blood);
+      margin-right: .55em;
+      font-size: .82em;
+      text-shadow: 0 0 12px rgba(143,23,32,.45);
+    }
+
+    .toolbar-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .deck-note {
+      border: 1px solid var(--line);
+      background: rgba(6, 5, 6, 0.76);
+      color: #aaa39e;
+      border-radius: 4px;
+      padding: 9px 12px;
+      font-size: clamp(0.69rem, 2vw, 0.82rem);
+      letter-spacing: .035em;
+      backdrop-filter: blur(6px);
+      box-shadow: inset 0 0 22px rgba(143,23,32,.035), 0 8px 24px rgba(0,0,0,.24);
+    }
+
+    .shuffle-button,
+    .dm-overview-button,
+    .modal-close,
+    .modal-draw-again {
+      appearance: none;
+      border: 1px solid rgba(145, 137, 132, 0.35);
+      color: #cec8c4;
+      background: linear-gradient(180deg, rgba(31, 26, 27, .97), rgba(10, 9, 10, .98));
+      border-radius: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.82rem;
+      letter-spacing: .035em;
+      box-shadow: 0 10px 28px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.035);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease, background 180ms ease;
+    }
+
+    .shuffle-button:hover,
+    .dm-overview-button:hover,
+    .modal-close:hover,
+    .modal-draw-again:hover {
+      transform: translateY(-1px);
+      color: #f0e9e5;
+      border-color: rgba(143,23,32,.84);
+      background: linear-gradient(180deg, rgba(50,25,28,.97), rgba(13,10,11,.99));
+      box-shadow: 0 0 0 1px rgba(143,23,32,.18), 0 0 22px rgba(95,10,16,.22), 0 12px 30px rgba(0,0,0,.52);
+    }
+
+    #deck {
+      position: relative;
+      width: min(96vw, 1580px);
+      min-height: 420px;
+      padding: clamp(26px, 4vw, 54px) clamp(8px, 2vw, 26px) clamp(42px, 5vw, 72px);
+      perspective: 1400px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: flex-start;
+      align-items: flex-start;
+      gap: clamp(14px, 1.8vw, 28px);
+      isolation: isolate;
+    }
+
+    #deck::before {
+      content: "";
+      position: absolute;
+      inset: 20px 0 24px;
+      border-top: 1px solid rgba(143,23,32,.08);
+      border-bottom: 1px solid rgba(143,23,32,.06);
+      background:
+        linear-gradient(90deg, transparent, rgba(143,23,32,.035) 50%, transparent),
+        radial-gradient(ellipse at 50% 28%, rgba(110,105,101,.035), transparent 57%);
+      pointer-events: none;
+      z-index: -2;
+    }
+
+    #deck::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 15px;
+      width: min(88vw, 1100px);
+      height: 90px;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,.58), transparent 68%);
+      filter: blur(12px);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .deck-disabled { pointer-events: none; }
+
+    .card,
+    .drawn-card {
+      width: var(--card-w);
+      aspect-ratio: 3 / 4;
+      height: auto;
+      position: relative;
+      flex: 0 0 var(--card-w);
+      transform: rotate(var(--orientation, 0deg));
+      transform-origin: center center;
+      transition: transform 260ms ease, filter 260ms ease, opacity 220ms ease;
+      cursor: pointer;
+      will-change: transform, opacity, filter;
+      touch-action: manipulation;
+      perspective: 1200px;
+      border-radius: 9px;
+      filter: drop-shadow(0 14px 18px rgba(0,0,0,.72));
+      appearance: none;
+      -webkit-appearance: none;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+    }
+
+    .card.reversed,
+    .drawn-card.reversed { --orientation: 180deg; }
+
+    .card.shuffling { --orientation: 0deg; }
+
+    .card-inner {
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      transform-style: preserve-3d;
+      transition: transform 780ms cubic-bezier(.2,.72,.19,1.03);
+    }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      backface-visibility: hidden;
+      overflow: hidden;
+      border: 1px solid rgba(123, 116, 111, .48);
+      box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.025),
+        inset 0 0 30px rgba(0,0,0,.62);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .card-back {
+      background-image:
+        linear-gradient(145deg, rgba(255,255,255,.015), transparent 35%, rgba(0,0,0,.33)),
+        linear-gradient(rgba(30, 0, 4, .15), rgba(0,0,0,.17)),
+        var(--card-back);
+      filter: saturate(.65) brightness(.67) contrast(1.08);
+    }
+
+    .card-front {
+      transform: rotateY(180deg);
+      background-image: var(--front-image);
+      background-color: #090809;
+    }
+
+    .card-front::after,
+    .card-back::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(120deg, rgba(255,255,255,.035), transparent 24%, transparent 72%, rgba(255,255,255,.018)),
+        radial-gradient(circle at 50% 45%, transparent 47%, rgba(0,0,0,.16));
+      pointer-events: none;
+    }
+
+    .card.is-flipped .card-inner,
+    .drawn-card.is-flipped .card-inner { transform: rotateY(180deg); }
+
+    @media (hover: hover) and (pointer: fine) {
+      .card:hover {
+        transform: rotate(var(--orientation, 0deg)) scale(1.035) translateY(-7px);
+        filter:
+          drop-shadow(0 0 7px rgba(160,26,34,.58))
+          drop-shadow(0 0 20px rgba(91,12,18,.36))
+          drop-shadow(0 20px 25px rgba(0,0,0,.78));
+      }
+
+      .card:hover .card-face {
+        border-color: rgba(166,42,49,.85);
+        box-shadow:
+          0 0 0 1px rgba(143,23,32,.24),
+          0 0 18px rgba(77,8,13,.24),
+          inset 0 0 32px rgba(0,0,0,.61);
+      }
+    }
+
+    .card.shuffling {
+      animation: deckShuffle 760ms cubic-bezier(.26,.84,.24,1) both;
+      animation-delay: var(--shuffle-delay, 0ms);
+    }
+
+    @keyframes deckShuffle {
+      0%   { transform: translate3d(0,0,0) rotate(var(--orientation,0deg)); opacity: .72; }
+      25%  { transform: translate3d(var(--shuffle-x, 10px), -6px, 0) rotate(var(--shuffle-r, 3deg)); }
+      55%  { transform: translate3d(calc(var(--shuffle-x, 10px) * -.55), 3px, 0) rotate(calc(var(--shuffle-r, 3deg) * -.7)); }
+      80%  { transform: translate3d(calc(var(--shuffle-x, 10px) * .18), -2px, 0) rotate(calc(var(--shuffle-r, 3deg) * .2)); }
+      100% { transform: translate3d(0,0,0) rotate(var(--orientation,0deg)); opacity: 1; }
+    }
+
+    .draw-stage {
+      position: fixed;
+      inset: 0;
+      z-index: 9000;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(116,15,22,.16), transparent 28%),
+        radial-gradient(circle at 50% 50%, rgba(102,98,94,.06), transparent 46%),
+        rgba(0,0,0,.76);
+      opacity: 0;
+      transition: opacity 300ms ease;
+    }
+
+    .draw-stage.active { opacity: 1; }
+
+    .drawn-card {
+      position: fixed;
+      left: var(--start-left);
+      top: var(--start-top);
+      width: var(--start-width);
+      height: var(--start-height);
+      flex: none;
+      z-index: 1;
+      cursor: default;
+      transition:
+        left 720ms cubic-bezier(.18,.78,.18,1),
+        top 720ms cubic-bezier(.18,.78,.18,1),
+        width 720ms cubic-bezier(.18,.78,.18,1),
+        height 720ms cubic-bezier(.18,.78,.18,1),
+        transform 720ms cubic-bezier(.18,.78,.18,1),
+        filter 720ms ease;
+    }
+
+    .drawn-card.centered {
+      left: 50%;
+      top: 50%;
+      width: min(66vw, 390px);
+      height: auto;
+      aspect-ratio: 3 / 4;
+      transform: translate(-50%, -50%) rotate(var(--draw-rotation, 0deg));
+      filter:
+        drop-shadow(0 0 10px rgba(143,23,32,.56))
+        drop-shadow(0 0 32px rgba(64,7,11,.44))
+        drop-shadow(0 25px 46px rgba(0,0,0,.9));
+    }
+
+    .drawn-card.reversed.centered { --draw-rotation: 180deg; }
+
+    .draw-stage::before,
+    .draw-stage::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: min(64vw, 510px);
+      aspect-ratio: 1;
+      transform: translate(-50%, -50%) scale(.64) rotate(0deg);
+      border: 1px solid rgba(143,23,32,.18);
+      border-radius: 50%;
+      opacity: 0;
+      animation: omenPulse 1250ms ease both;
+    }
+
+    .draw-stage::after {
+      width: min(50vw, 390px);
+      border-color: rgba(170,163,158,.09);
+      animation-delay: 170ms;
+    }
+
+    @keyframes omenPulse {
+      0%   { opacity: 0; transform: translate(-50%, -50%) scale(.64); }
+      35%  { opacity: .5; }
+      100% { opacity: 0; transform: translate(-50%, -50%) scale(1.16); }
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      background:
+        radial-gradient(circle at 50% 12%, rgba(105,13,20,.09), transparent 34%),
+        linear-gradient(rgba(0,0,0,.88), rgba(0,0,0,.94)),
+        var(--wood-bg) center / cover no-repeat;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      z-index: 9999;
+      padding: clamp(12px, 3vw, 28px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+      animation: modalFade 230ms ease both;
+    }
+
+    @keyframes modalFade { from { opacity: 0; } to { opacity: 1; } }
+
+    .modal-content {
+      position: relative;
+      background:
+        radial-gradient(circle at 16% 8%, rgba(143,23,32,.075), transparent 27%),
+        radial-gradient(circle at 88% 15%, rgba(126,120,116,.04), transparent 30%),
+        linear-gradient(rgba(12,10,11,.93), rgba(9,8,9,.96)),
+        var(--modal-bg) center / cover no-repeat,
+        #0d0b0c;
+      border-radius: 12px;
+      border: 1px solid var(--line-strong);
+      padding: clamp(14px, 2.6vw, 28px);
+      width: min(96vw, 1180px);
+      margin: auto 0;
+      overflow: visible;
+      box-shadow: 0 28px 90px rgba(0,0,0,.88), inset 0 0 0 1px rgba(255,255,255,.018);
+    }
+
+    .modal-content::before {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border-radius: 8px;
+      border: 1px solid rgba(143,23,32,.11);
+      pointer-events: none;
+    }
+
+    .modal-header {
+      position: sticky;
+      top: -1px;
+      z-index: 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: .55rem;
+      padding: 0 0 .35rem;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .modal-close, .modal-draw-again { color: #cec8c4; flex: 0 0 auto; }
+    .modal-body { color: var(--text); }
+
+    .reading-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(18px, 4vw, 36px);
+      align-items: stretch;
+    }
+
+    @media (min-width: 900px) {
+      .reading-layout { grid-template-columns: minmax(260px, 37%) 1fr; }
+    }
+
+    .revealed-card-frame {
+      position: relative;
+      align-self: start;
+      padding: clamp(11px, 2vw, 17px);
+      border-radius: 11px;
+      background: linear-gradient(145deg, rgba(28,22,23,.95), rgba(5,5,6,.98));
+      border: 1px solid rgba(140,132,127,.34);
+      box-shadow: 0 22px 58px rgba(0,0,0,.64), inset 0 0 34px rgba(143,23,32,.025);
+    }
+
+    .revealed-card-frame img {
+      width: min(100%, 430px);
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 7px;
+      border: 1px solid rgba(157,148,143,.45);
+      box-shadow: 0 0 18px rgba(82,10,15,.22), 0 20px 44px rgba(0,0,0,.58);
+      display: block;
+      margin-inline: auto;
+      background: #090809;
+    }
+
+    .revealed-card-frame.reversed img { transform: rotate(180deg); }
+
+    .orientation-seal {
+      position: absolute;
+      left: 50%;
+      bottom: 4px;
+      transform: translate(-50%, 50%);
+      color: #c5beba;
+      background: linear-gradient(180deg, rgba(31,25,26,.98), rgba(7,6,7,.99));
+      border: 1px solid rgba(143,23,32,.5);
+      border-radius: 4px;
+      padding: 8px 15px;
+      font-size: .72rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      box-shadow: 0 10px 28px rgba(0,0,0,.52);
+      white-space: nowrap;
+    }
+
+    .reading-panel {
+      border-radius: 11px;
+      padding: clamp(16px, 3vw, 29px);
+      color: var(--text);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(143,23,32,.055), transparent 34%),
+        linear-gradient(145deg, rgba(28,24,25,.94), rgba(13,12,13,.97));
+      border: 1px solid rgba(145,137,132,.28);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.018), 0 22px 58px rgba(0,0,0,.48);
+    }
+
+    .reading-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #a79f9a;
+      font-size: .71rem;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      border: 1px solid rgba(143,23,32,.25);
+      background: rgba(7,6,7,.44);
+      border-radius: 4px;
+      padding: 7px 10px;
+      margin-bottom: .9rem;
+    }
+
+    .reading-panel h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3.6vw, 3rem);
+      line-height: 1.02;
+      color: #e3ddda;
+      text-shadow: 0 2px 14px rgba(0,0,0,.8);
+    }
+
+    .omen-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin: 1rem 0;
+    }
+
+    .omen-chip {
+      border-radius: 7px;
+      padding: 12px;
+      background: rgba(0,0,0,.24);
+      border: 1px solid rgba(154,145,140,.17);
+    }
+
+    .omen-chip span {
+      display: block;
+      font-size: .69rem;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+      margin-bottom: 5px;
+    }
+
+    .omen-chip strong {
+      display: block;
+      font-size: .96rem;
+      color: #cfc8c4;
+    }
+
+    .effect-card {
+      position: relative;
+      overflow: hidden;
+      margin-top: 1rem;
+      border-radius: 8px;
+      padding: clamp(14px, 2.4vw, 22px);
+      background:
+        radial-gradient(circle at top right, rgba(143,23,32,.065), transparent 34%),
+        rgba(5,5,6,.37);
+      border: 1px solid rgba(145,137,132,.16);
+      box-shadow: inset 0 0 30px rgba(0,0,0,.16);
+    }
+
+    .effect-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(#5d5552, var(--blood));
+      opacity: .78;
+    }
+
+    .effect-card h3 {
+      margin: 0 0 .75rem;
+      font-size: clamp(1.02rem, 2.4vw, 1.3rem);
+      color: #cfc8c4;
+    }
+
+    .effect-text {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: clamp(1rem, 2.2vw, 1.13rem);
+      line-height: 1.68;
+      color: #bdb6b2;
+    }
+
+    .effect-text p:first-child { margin-top: 0; }
+    .effect-text p:last-child { margin-bottom: 0; }
+    .effect-text ul, .effect-text ol { padding-left: 1.25rem; }
+    .effect-text li { margin: .35rem 0; }
+
+    .dm-overview-panel { display: flex; flex-direction: column; gap: 14px; }
+
+    .dm-overview-intro {
+      margin: 0;
+      color: #9d9691;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      line-height: 1.55;
+    }
+
+    .dm-overview-controls {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: .5rem 0 0;
+    }
+
+    @media (min-width: 720px) {
+      .dm-overview-controls { grid-template-columns: minmax(240px,1fr) 220px; }
+    }
+
+    .dm-overview-controls input,
+    .dm-overview-controls select {
+      width: 100%;
+      border: 1px solid rgba(145,137,132,.25);
+      border-radius: 5px;
+      padding: 12px 14px;
+      color: #d2cbc7;
+      background: rgba(3,3,4,.48);
+      font: 600 .93rem system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      box-shadow: inset 0 0 18px rgba(0,0,0,.15);
+      outline: none;
+    }
+
+    .dm-overview-controls select option { color: #ddd7d2; background: #161314; }
+
+    .dm-overview-controls input:focus,
+    .dm-overview-controls select:focus {
+      border-color: rgba(143,23,32,.72);
+      box-shadow: 0 0 0 3px rgba(143,23,32,.11), inset 0 0 18px rgba(0,0,0,.18);
+    }
+
+    .dm-overview-count {
+      color: #706a66;
+      font: 700 .75rem system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .dm-overview-list { display: grid; gap: 12px; }
+
+    .dm-card-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      border-radius: 8px;
+      padding: 14px;
+      background: rgba(0,0,0,.24);
+      border: 1px solid rgba(145,137,132,.15);
+      box-shadow: inset 0 0 24px rgba(0,0,0,.13);
+    }
+
+    @media (min-width: 900px) {
+      .dm-card-row { grid-template-columns: minmax(210px,.62fr) 1fr 1fr; }
+    }
+
+    .dm-card-name {
+      display: grid;
+      grid-template-columns: 82px 1fr;
+      gap: 12px;
+      align-items: center;
+      border-radius: 7px;
+      padding: 12px;
+      background: rgba(0,0,0,.29);
+      border: 1px solid rgba(145,137,132,.13);
+    }
+
+    .dm-card-thumb {
+      width: 82px;
+      aspect-ratio: 3 / 4;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 5px;
+      border: 1px solid rgba(145,137,132,.35);
+      background: #090809;
+      box-shadow: 0 8px 18px rgba(0,0,0,.46);
+      display: block;
+    }
+
+    .dm-card-title { min-width: 0; }
+    .dm-card-name strong { display:block; font-size:1.01rem; color:#d2cbc7; line-height:1.25; }
+    .dm-card-name span {
+      display:block; margin-top:5px; color:#77706c;
+      font:700 .7rem system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      letter-spacing:.08em; text-transform:uppercase;
+    }
+
+    .dm-effect-column {
+      min-width: 0;
+      border-radius: 7px;
+      padding: 12px;
+      background: rgba(12,10,11,.52);
+      border: 1px solid rgba(145,137,132,.12);
+    }
+
+    .dm-effect-column h3 {
+      margin:0 0 .55rem;
+      color:#817a76;
+      font-size:.75rem;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+    }
+
+    .dm-effect-column .effect-text { font-size:.96rem; line-height:1.55; }
+
+    .dm-overview-empty {
+      padding:18px;
+      text-align:center;
+      border-radius:7px;
+      color:#847d79;
+      background:rgba(0,0,0,.24);
+      border:1px solid rgba(145,137,132,.13);
+    }
+
+    .loading,
+    .error-message {
+      width: min(90vw, 640px);
+      text-align: center;
+      padding: 24px;
+      border-radius: 8px;
+      background: rgba(5,5,6,.82);
+      border: 1px solid rgba(145,137,132,.28);
+      box-shadow: 0 16px 50px rgba(0,0,0,.56);
+      backdrop-filter: blur(8px);
+      color: #aaa39e;
+      margin: auto;
+    }
+
+    .error-message { color: #d4a4a7; border-color: rgba(143,23,32,.42); }
+
+    @media (max-width: 560px) {
+      :root { --card-w: clamp(118px, 42vw, 170px); }
+      .toolbar { align-items: stretch; flex-direction: column; }
+      .toolbar-actions { justify-content: space-between; }
+      .deck-note { flex: 1; text-align: center; }
+      .shuffle-button, .dm-overview-button { flex: 1; }
+      .modal-header { justify-content: stretch; }
+      .modal-actions { width: 100%; }
+      .modal-close, .modal-draw-again { flex: 1; }
+      #deck { gap: 14px 10px; padding-inline: 4px; }
+    }
+
+    @media (max-width: 420px) {
+      .dm-card-name { grid-template-columns: 64px 1fr; }
+      .dm-card-thumb { width: 64px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card, .drawn-card, .card-inner, .modal, .draw-stage,
+      .shuffle-button, .dm-overview-button, .modal-close, .modal-draw-again {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="toolbar" aria-label="Tarot controls">
+    <h1 class="toolbar-title">Dark Tarot</h1>
+    <div class="toolbar-actions">
+      <div class="deck-note" id="deck-note">Shuffle the omens, then choose a card.</div>
+      <button class="dm-overview-button" type="button" id="dm-overview-button">DM Overview</button>
+      <button class="shuffle-button" type="button" id="shuffle-button">Shuffle deck</button>
+    </div>
+  </header>
+
+  <div id="deck" aria-label="Tarot deck"></div>
+
+  <script>
+    const JSON_URL = 'https://raw.githubusercontent.com/Beariar/ALP/refs/heads/main/Tarot/T4Dark/TarotDarkDetails.json';
+    const IMAGE_BASE_URL = 'https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Tarot/T4Dark/';
+    // Keep reverse-card mechanics intact for future use. Current Dark Tarot draws are upright only.
+    const REVERSED_RATIO = 0;
+
+    let modalOpen = false;
+    let currentDeck = [];
+    let allCards = [];
+    let isBusy = false;
+    let scrollLockDepth = 0;
+    let savedScrollY = 0;
+
+    const deckEl = document.getElementById('deck');
+    const shuffleButton = document.getElementById('shuffle-button');
+    const dmOverviewButton = document.getElementById('dm-overview-button');
+    const deckNote = document.getElementById('deck-note');
+
+    function lockPageScroll() {
+      if (scrollLockDepth === 0) {
+        savedScrollY = window.scrollY || document.documentElement.scrollTop || 0;
+        document.body.style.top = `-${savedScrollY}px`;
+        document.body.classList.add('modal-open');
+      }
+      scrollLockDepth += 1;
+    }
+
+    function unlockPageScroll() {
+      scrollLockDepth = Math.max(0, scrollLockDepth - 1);
+      if (scrollLockDepth === 0) {
+        document.body.classList.remove('modal-open');
+        document.body.style.top = '';
+        window.scrollTo(0, savedScrollY);
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function safeRichText(value) {
+      const raw = String(value ?? '').trim();
+      if (!raw) return '<p>No effect text found for this card.</p>';
+
+      const template = document.createElement('template');
+      template.innerHTML = raw;
+      const allowedTags = new Set(['BR', 'B', 'STRONG', 'I', 'EM', 'U', 'UL', 'OL', 'LI', 'P', 'DIV', 'SPAN']);
+      const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_ELEMENT, null);
+      const elements = [];
+
+      while (walker.nextNode()) elements.push(walker.currentNode);
+
+      for (const el of elements) {
+        if (!allowedTags.has(el.tagName)) {
+          el.replaceWith(document.createTextNode(el.textContent || ''));
+          continue;
+        }
+        for (const attr of [...el.attributes]) el.removeAttribute(attr.name);
+      }
+
+      const html = template.innerHTML.trim();
+      const hasHtmlTags = /<\/?[a-z][\s\S]*>/i.test(raw);
+      if (hasHtmlTags && html) return html.replace(/\n/g, '<br>');
+
+      const paragraphs = escapeHtml(raw)
+        .split(/\n{2,}/)
+        .map(part => part.trim())
+        .filter(Boolean)
+        .map(part => `<p>${part.replace(/\n/g, '<br>')}</p>`)
+        .join('');
+
+      return paragraphs || '<p>No effect text found for this card.</p>';
+    }
+
+
+    async function loadDeck() {
+      const res = await fetch(JSON_URL, { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`Could not load tarot details (${res.status})`);
+      const data = await res.json();
+      allCards = Array.isArray(data) ? data : [];
+      return assignOrientations(shuffle([...allCards]));
+    }
+
+    function assignOrientations(cards) {
+      return cards.map(card => ({
+        ...card,
+        _isReversed: Math.random() < REVERSED_RATIO
+      }));
+    }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function clearDeck() {
+      deckEl.innerHTML = '';
+    }
+
+    function getCardSize() {
+      const root = getComputedStyle(document.documentElement);
+      const w = parseFloat(root.getPropertyValue('--card-w'));
+      const h = parseFloat(root.getPropertyValue('--card-h')) || w * (4 / 3);
+      return { w, h };
+    }
+
+    function getImageSrc(cardData) {
+      return `${IMAGE_BASE_URL}${encodeURIComponent(cardData.Card)}.jpg`;
+    }
+
+    function createCardElement(card, angleDeg, isReversed) {
+      const div = document.createElement('button');
+      div.type = 'button';
+      div.className = 'card';
+      if (isReversed) div.classList.add('reversed');
+      div.style.setProperty('--front-image', `url("${getImageSrc(card)}")`);
+      div.setAttribute('aria-label', `${card.Card || 'Tarot card'} - ${isReversed ? 'reversed' : 'upright'}`);
+      div.innerHTML = `
+        <span class="card-inner" aria-hidden="true">
+          <span class="card-face card-back"></span>
+          <span class="card-face card-front"></span>
+        </span>`;
+      div.dataset.angle = String(angleDeg);
+      return div;
+    }
+
+    function renderDeck(deck, animate = true) {
+      clearDeck();
+      deckEl.classList.remove('deck-disabled');
+      const total = deck.length;
+
+      if (!total) {
+        deckEl.innerHTML = '<div class="error-message">No cards found in the dark tarot data.</div>';
+        return;
+      }
+
+      const targets = [];
+
+      deck.forEach((card, index) => {
+        const isReversed = Boolean(card._isReversed);
+        // Cards now live in normal document flow: no fan rotation and no overlap.
+        const div = createCardElement(card, 0, isReversed);
+        div.style.zIndex = '1';
+        div.style.opacity = animate ? '0.72' : '1';
+        div.style.setProperty('--angle', '0deg');
+        div.style.setProperty('--shuffle-x', `${Math.round((Math.random() * 22) - 11)}px`);
+        div.style.setProperty('--shuffle-r', `${Math.round((Math.random() * 8) - 4)}deg`);
+        div.style.setProperty('--shuffle-delay', `${Math.min(index, 24) * 24}ms`);
+
+        targets.push({ el: div, card, isReversed });
+        div.addEventListener('click', () => {
+          if (!modalOpen && !isBusy) drawCard(card, isReversed, div);
+        }, { passive: true });
+        deckEl.appendChild(div);
+      });
+
+      if (animate) {
+        playShuffle(targets);
+      } else {
+        deckNote.textContent = 'Choose one omen. Every card is upright.';
+      }
+    }
+
+    function playShuffle(items) {
+      isBusy = true;
+      deckEl.classList.add('deck-disabled');
+      deckNote.textContent = 'The omens are being rearranged...';
+
+      items.forEach(t => t.el.classList.add('shuffling'));
+
+      window.setTimeout(() => {
+        items.forEach(t => {
+          t.el.classList.remove('shuffling');
+          t.el.style.opacity = '1';
+        });
+      }, 900);
+
+      window.setTimeout(() => {
+        deckEl.classList.remove('deck-disabled');
+        deckNote.textContent = 'Choose one omen. Every card is upright.';
+        isBusy = false;
+      }, 1120);
+    }
+
+    function openModal(bodyHtml, ariaLabel = 'Card detail', options = {}) {
+      if (modalOpen) return null;
+      const showDrawAgain = options.showDrawAgain !== false;
+      modalOpen = true;
+      lockPageScroll();
+      deckEl.classList.add('deck-disabled');
+
+      const modal = document.createElement('div');
+      modal.className = 'modal';
+      modal.innerHTML = `
+        <div class="modal-content" role="dialog" aria-modal="true" aria-label="${escapeHtml(ariaLabel)}">
+          <div class="modal-header">
+            <div class="modal-actions">
+              ${showDrawAgain ? '<button class="modal-draw-again" type="button">Draw again</button>' : ''}
+              <button class="modal-close" type="button" aria-label="Close">Close</button>
+            </div>
+          </div>
+          <div class="modal-body">${bodyHtml}</div>
+        </div>`;
+
+      document.body.appendChild(modal);
+
+      function escapeHandler(event) {
+        if (event.key === 'Escape' && modalOpen) closeOnly();
+      }
+
+      const finishClose = () => {
+        document.removeEventListener('keydown', escapeHandler);
+        modal.remove();
+        modalOpen = false;
+        unlockPageScroll();
+        deckEl.classList.remove('deck-disabled');
+        deckNote.textContent = 'Choose one omen. Every card is upright.';
+      };
+
+      const closeOnly = () => {
+        if (!modalOpen) return;
+        finishClose();
+      };
+
+      const drawAgain = async () => {
+        if (!modalOpen) return;
+        finishClose();
+        await reshuffleDeck(true);
+      };
+
+      modal.querySelector('.modal-close').addEventListener('click', closeOnly);
+      const drawAgainButton = modal.querySelector('.modal-draw-again');
+      if (drawAgainButton) drawAgainButton.addEventListener('click', drawAgain);
+      modal.addEventListener('click', event => {
+        if (event.target === modal) closeOnly();
+      });
+      document.addEventListener('keydown', escapeHandler);
+      return modal;
+    }
+
+
+    function getDmOverviewCards() {
+      const source = allCards.length ? allCards : currentDeck;
+      return source.map(card => ({ ...card }));
+    }
+
+    function sortCardsForOverview(cards, sortMode) {
+      return [...cards].sort((a, b) => {
+        const nameA = String(a.Card || '').trim();
+        const nameB = String(b.Card || '').trim();
+        const result = nameA.localeCompare(nameB, undefined, { sensitivity: 'base', numeric: true });
+        return sortMode === 'za' ? -result : result;
+      });
+    }
+
+    function renderDmOverviewList(container, countEl, cards, filterValue, sortMode) {
+      const needle = String(filterValue || '').trim().toLowerCase();
+      const filtered = sortCardsForOverview(cards, sortMode)
+        .filter(card => String(card.Card || '').toLowerCase().includes(needle));
+
+      countEl.textContent = `${filtered.length} / ${cards.length} cards shown`;
+
+      if (!filtered.length) {
+        container.innerHTML = '<div class="dm-overview-empty">No cards match this filter.</div>';
+        return;
+      }
+
+      container.innerHTML = filtered.map(card => {
+        const cardName = card.Card || 'Unknown Card';
+        const character = card.Character || 'Unknown character';
+        const upright = card['Upright Effect'] ?? card.Effect ?? '';
+        const reverse = card['Reverse Effect'] ?? '';
+
+        return `
+          <article class="dm-card-row">
+            <div class="dm-card-name">
+              <img class="dm-card-thumb" src="${getImageSrc(card)}" alt="${escapeHtml(cardName)}" loading="lazy">
+              <div class="dm-card-title">
+                <strong>${escapeHtml(cardName)}</strong>
+                <span>${escapeHtml(character)}</span>
+              </div>
+            </div>
+            <section class="dm-effect-column">
+              <h3>Normal Effect</h3>
+              <div class="effect-text">${safeRichText(upright)}</div>
+            </section>
+            <section class="dm-effect-column">
+              <h3>Reverse Effect</h3>
+              <div class="effect-text">${safeRichText(reverse)}</div>
+            </section>
+          </article>`;
+      }).join('');
+    }
+
+    async function openDmOverview() {
+      if (modalOpen) return;
+
+      if (!allCards.length && !isBusy) {
+        try {
+          currentDeck = await loadDeck();
+        } catch (error) {
+          openModal(`<div class="error-message">${escapeHtml(error.message || 'Could not load the tarot deck.')}</div>`, 'DM Overview', { showDrawAgain: false });
+          return;
+        }
+      }
+
+      const cards = getDmOverviewCards();
+      const body = `
+        <section class="reading-panel dm-overview-panel">
+          <div class="reading-eyebrow">◈ DM tools ◈</div>
+          <h2>DM Overview</h2>
+          <p class="dm-overview-intro">All dark tarot cards in one reference list. Reverse effects remain visible here for future use, while current draws stay upright.</p>
+          <div class="dm-overview-controls" aria-label="DM overview controls">
+            <input id="dm-card-filter" type="search" placeholder="Filter by card name..." autocomplete="off">
+            <select id="dm-card-sort" aria-label="Sort cards by name">
+              <option value="az">Sort by name A → Z</option>
+              <option value="za">Sort by name Z → A</option>
+            </select>
+          </div>
+          <div class="dm-overview-count" id="dm-overview-count"></div>
+          <div class="dm-overview-list" id="dm-overview-list"></div>
+        </section>`;
+
+      const modal = openModal(body, 'DM Overview', { showDrawAgain: false });
+      if (!modal) return;
+
+      const filterInput = modal.querySelector('#dm-card-filter');
+      const sortSelect = modal.querySelector('#dm-card-sort');
+      const list = modal.querySelector('#dm-overview-list');
+      const count = modal.querySelector('#dm-overview-count');
+
+      const refresh = () => renderDmOverviewList(list, count, cards, filterInput.value, sortSelect.value);
+      filterInput.addEventListener('input', refresh);
+      sortSelect.addEventListener('change', refresh);
+      refresh();
+      filterInput.focus({ preventScroll: true });
+    }
+
+
+    function drawCard(cardData, isReversed, sourceEl) {
+      if (modalOpen || isBusy) return;
+      isBusy = true;
+      lockPageScroll();
+      deckEl.classList.add('deck-disabled');
+      deckNote.textContent = isReversed ? 'A reversed omen turns...' : 'The chosen omen turns...';
+
+      const imageSrc = getImageSrc(cardData);
+      const rect = sourceEl.getBoundingClientRect();
+      const stage = document.createElement('div');
+      const hero = document.createElement('div');
+      const ratio = rect.height / Math.max(1, rect.width);
+
+      stage.className = 'draw-stage';
+      hero.className = `drawn-card${isReversed ? ' reversed' : ''}`;
+      hero.style.setProperty('--start-left', `${rect.left}px`);
+      hero.style.setProperty('--start-top', `${rect.top}px`);
+      hero.style.setProperty('--start-width', `${rect.width}px`);
+      hero.style.setProperty('--start-height', `${rect.width * ratio}px`);
+      hero.style.setProperty('--front-image', `url("${imageSrc}")`);
+      hero.innerHTML = `
+        <span class="card-inner" aria-hidden="true">
+          <span class="card-face card-back"></span>
+          <span class="card-face card-front"></span>
+        </span>`;
+
+      sourceEl.style.opacity = '0';
+      stage.appendChild(hero);
+      document.body.appendChild(stage);
+
+      requestAnimationFrame(() => {
+        stage.classList.add('active');
+        hero.classList.add('centered');
+      });
+
+      window.setTimeout(() => {
+        hero.classList.add('is-flipped');
+      }, 760);
+
+      window.setTimeout(() => {
+        stage.remove();
+        sourceEl.style.opacity = '1';
+        isBusy = false;
+        openCardDetails(cardData, isReversed);
+        unlockPageScroll();
+      }, 1620);
+    }
+
+    function openCardDetails(cardData, isReversed) {
+      const imageSrc = getImageSrc(cardData);
+      const orientationLabel = isReversed ? 'Reversed' : 'Upright';
+      const effectKey = isReversed ? 'Reverse Effect' : 'Upright Effect';
+      const effect = cardData[effectKey] ?? cardData.Effect ?? '';
+      const cardName = cardData.Card || 'Unknown Card';
+      const character = cardData.Character || 'Unknown character';
+
+      const body = `
+        <div class="reading-layout">
+          <aside class="revealed-card-frame${isReversed ? ' reversed' : ''}">
+            <img src="${imageSrc}" alt="${escapeHtml(cardName)}">
+            <div class="orientation-seal">${orientationLabel}</div>
+          </aside>
+          <section class="reading-panel">
+            <div class="reading-eyebrow">◈ Drawn omen ◈</div>
+            <h2>${escapeHtml(cardName)}</h2>
+            <div class="omen-grid" aria-label="Card summary">
+              <div class="omen-chip"><span>Orientation</span><strong>${orientationLabel}</strong></div>
+              <div class="omen-chip"><span>Character</span><strong>${escapeHtml(character)}</strong></div>
+            </div>
+            <article class="effect-card">
+              <h3>${escapeHtml(effectKey)}</h3>
+              <div class="effect-text">${safeRichText(effect)}</div>
+            </article>
+          </section>
+        </div>`;
+
+      openModal(body, `${cardName} tarot reading`);
+    }
+
+    async function reshuffleDeck(animate = true) {
+      if (isBusy) return;
+      isBusy = true;
+      deckEl.classList.add('deck-disabled');
+      deckNote.textContent = 'Gathering the omens...';
+      clearDeck();
+      deckEl.innerHTML = '<div class="loading">The omens are gathering...</div>';
+
+      try {
+        currentDeck = await loadDeck();
+        clearDeck();
+        renderDeck(currentDeck, animate);
+        if (!animate) isBusy = false;
+      } catch (error) {
+        clearDeck();
+        deckEl.innerHTML = `<div class="error-message">${escapeHtml(error.message || 'Could not load the tarot deck.')}</div>`;
+        deckNote.textContent = 'Deck could not be loaded.';
+        isBusy = false;
+      }
+    }
+
+    shuffleButton.addEventListener('click', () => {
+      if (!modalOpen && !isBusy) reshuffleDeck(true);
+    });
+
+    dmOverviewButton.addEventListener('click', () => {
+      if (!modalOpen) openDmOverview();
+    });
+
+    (async function init() {
+      await reshuffleDeck(true);
+    })();
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        if (!modalOpen && !isBusy && currentDeck.length) renderDeck(currentDeck, false);
+      }, 140);
+    });
+  </script>
+</body>
+
+</html>

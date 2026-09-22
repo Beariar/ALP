@@ -1,0 +1,58 @@
+[
+  {
+    "No": "1",
+    "Character": "Man",
+    "Card": "The Bereaved Huntsman",
+    "Upright Effect": "Your phychokinetic mind awakes and untill long rest you can her voices which in crutial moment can help you avoid trouble. <br><br>You have advatage on Wisdom and Intelligence saving throws.",
+    "Reverse Effect": "Something from the realm of unknown is focusing you and firring at your grey matter. <br><br>Untill long rest, you have disadvatange on Wisdom and Intelligence saving throws."
+  },
+  {
+    "No": "2",
+    "Character": "Werewolf",
+    "Card": "The Eternal Mourner",
+    "Upright Effect": "There is honor in justice and passion in crime. <br><br>Your alignment temporarily shifts to its opposite, until the next long rest. (True neutral alignment is not shifted)",
+    "Reverse Effect": "There is no justic or crime, things just are. <br><br>Your alignment temporarily shifts to \"\"True neutral\"\", until the next long rest."
+  },
+  {
+    "No": "3",
+    "Character": "God",
+    "Card": "The Fallen Swift-One",
+    "Upright Effect": "Primal instinct takes over as soon as battle begins. <br><br>Until your next long rest, you have advantage on initiative rolls and cannot be surprised.",
+    "Reverse Effect": "You feel sluggish, as if your body craves hibernation. <br><br>Until your next long rest, you have disadvantage on initiative rolls and cannot surprise enemies with attacks."
+  },
+  {
+    "No": "4",
+    "Character": "Man",
+    "Card": "The Fearless Fallen",
+    "Upright Effect": "The situation may be dire, but your memory will not fail you its like you have all the memorries written down. <br><br>Until your next long rest, you have advantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks.",
+    "Reverse Effect": "Your thoughts feel scattered, as if knowledge slips through your fingers right before you note it.. <br><br>Until your next long rest, you have disadvantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks."
+  },
+  {
+    "No": "5",
+    "Character": "Man",
+    "Card": "The Hate-Bound Warden",
+    "Upright Effect": "You feel confident and capable of overcoming any obstacle as simply as if walking on bridge. <br><br>Until your next long rest, you may choose to automatically succeed on one ability check, attack roll, or saving throw as if you had rolled a natural 20. You must decide to use this before rolling.",
+    "Reverse Effect": "Not every bridge holds forever, without maintenance collapse was imminent. <br><br>Until your next long rest, one of your successful ability checks, attack rolls, or saving throws will instead count as a natural 1, determined by the DM."
+  },
+  {
+    "No": "6",
+    "Character": "Vampire",
+    "Card": "The Chained Thirst",
+    "Upright Effect": "The warmth of the fire soothes your body and soul. <br><br>Your next long rest requires only the time of a short rest to complete.",
+    "Reverse Effect": "The fire offers no comfort. This night shines with grim glow. <br><br>You cannot take a short rest until you have completed a long rest first."
+  },
+  {
+    "No": "7",
+    "Character": "Vampire",
+    "Card": "The Pierced Mask",
+    "Upright Effect": "You attune to the twists and turns of stone and shadow. You feel as the hidden were-spider. <br><br>Until your next long rest, you gain a magical climbing ability that lets you move along vertical surfaces and ceilings as if under the effect of spider climb. This ability cannot be dispelled by magic. Lasts until the next long rest.",
+    "Reverse Effect": "The ground shifts beneath you, and even the air feels unfriendly. Its the curse of hidden were-spider. <br><br>Until your next long rest, you cannot benefit from any climbing speed. Your flying speed is halved. Whenever you dash, roll a d4 — on a 1, you fall prone and slide uncontrollably to your destination. Lasts until the next long rest."
+  },
+  {
+    "No": "8",
+    "Character": "Man",
+    "Card": "The Soul-Bound Martyr",
+    "Upright Effect": "It’s as if the gods have chosen you for a glorious purpose. <br><br>Until your next long rest, your weapon attacks deal an additional dice of radiant damage. If the attack normally uses multiple dices, the highest dice is added again (e.g., a greatsword adds 1d6 radiant).",
+    "Reverse Effect": "You feel abandoned, as if the gods have turned their backs to you. <br><br>Until your next long rest, whenever a creature within 15 feet of you takes damage, you suffer psychic pain equal to one-tenth of the damage they receive (rounded down)."
+  }
+]
