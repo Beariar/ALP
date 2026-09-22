@@ -1,6 +1,7 @@
 [
   {
     "No": "1",
+    "Read": "",
     "Character": "Man",
     "Card": "The Bereaved Huntsman",
     "Upright Effect": "Your phychokinetic mind awakes and untill long rest you can her voices which in crutial moment can help you avoid trouble. <br><br>You have advatage on Wisdom and Intelligence saving throws.",
@@ -8,6 +9,7 @@
   },
   {
     "No": "2",
+    "Read": "",
     "Character": "Werewolf",
     "Card": "The Eternal Mourner",
     "Upright Effect": "There is honor in justice and passion in crime. <br><br>Your alignment temporarily shifts to its opposite, until the next long rest. (True neutral alignment is not shifted)",
@@ -15,6 +17,7 @@
   },
   {
     "No": "3",
+    "Read": "",
     "Character": "God",
     "Card": "The Fallen Swift-One",
     "Upright Effect": "Primal instinct takes over as soon as battle begins. <br><br>Until your next long rest, you have advantage on initiative rolls and cannot be surprised.",
@@ -22,6 +25,7 @@
   },
   {
     "No": "4",
+    "Read": "",
     "Character": "Man",
     "Card": "The Fearless Fallen",
     "Upright Effect": "The situation may be dire, but your memory will not fail you its like you have all the memorries written down. <br><br>Until your next long rest, you have advantage on Intelligence (History), Intelligence (Arcana), and Intelligence (Religion) checks.",
@@ -29,6 +33,7 @@
   },
   {
     "No": "5",
+    "Read": "",  
     "Character": "Man",
     "Card": "The Hate-Bound Warden",
     "Upright Effect": "You feel confident and capable of overcoming any obstacle as simply as if walking on bridge. <br><br>Until your next long rest, you may choose to automatically succeed on one ability check, attack roll, or saving throw as if you had rolled a natural 20. You must decide to use this before rolling.",
@@ -36,6 +41,7 @@
   },
   {
     "No": "6",
+    "Read": "",
     "Character": "Vampire",
     "Card": "The Chained Thirst",
     "Upright Effect": "The warmth of the fire soothes your body and soul. <br><br>Your next long rest requires only the time of a short rest to complete.",
@@ -43,6 +49,7 @@
   },
   {
     "No": "7",
+    "Read": "",
     "Character": "Vampire",
     "Card": "The Pierced Mask",
     "Upright Effect": "You attune to the twists and turns of stone and shadow. You feel as the hidden were-spider. <br><br>Until your next long rest, you gain a magical climbing ability that lets you move along vertical surfaces and ceilings as if under the effect of spider climb. This ability cannot be dispelled by magic. Lasts until the next long rest.",
@@ -50,6 +57,7 @@
   },
   {
     "No": "8",
+    "Read": "",
     "Character": "Man",
     "Card": "The Soul-Bound Martyr",
     "Upright Effect": "It’s as if the gods have chosen you for a glorious purpose. <br><br>Until your next long rest, your weapon attacks deal an additional dice of radiant damage. If the attack normally uses multiple dices, the highest dice is added again (e.g., a greatsword adds 1d6 radiant).",

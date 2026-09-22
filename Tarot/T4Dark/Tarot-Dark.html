@@ -7,9 +7,13 @@
   <title>Dark Tarot • Draw a Fate</title>
   <style>
     :root {
-      /* Dark Tarot cards are authored at a true 3:4 ratio. */
-      --card-w: clamp(128px, 15vw, 214px);
+      /* Dark Tarot cards are authored at a true 3:4 ratio.
+         JavaScript updates --card-w and --deck-cols to fit the current
+         number of cards to the available viewport. */
+      --card-w: 214px;
       --card-h: calc(var(--card-w) * 4 / 3);
+      --deck-cols: 4;
+      --deck-gap: clamp(10px, 1.4vw, 24px);
       --wood-bg: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/WoodBackground.jpg');
       --modal-bg: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/SpellDetailBackground3.jpg');
       --card-back: url('https://cdn.jsdelivr.net/gh/Beariar/ALP@main/Tarot/T4Dark/BackCard.jpg');
@@ -148,14 +152,15 @@
       position: relative;
       width: min(96vw, 1580px);
       min-height: 420px;
-      padding: clamp(26px, 4vw, 54px) clamp(8px, 2vw, 26px) clamp(42px, 5vw, 72px);
+      padding: clamp(22px, 3vw, 42px) clamp(8px, 2vw, 26px) clamp(30px, 4vw, 52px);
       perspective: 1400px;
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(var(--deck-cols), var(--card-w));
+      grid-auto-rows: calc(var(--card-w) * 4 / 3);
       justify-content: center;
-      align-content: flex-start;
-      align-items: flex-start;
-      gap: clamp(14px, 1.8vw, 28px);
+      align-content: center;
+      align-items: center;
+      gap: var(--deck-gap);
       isolation: isolate;
     }
 
@@ -195,7 +200,6 @@
       aspect-ratio: 3 / 4;
       height: auto;
       position: relative;
-      flex: 0 0 var(--card-w);
       transform: rotate(var(--orientation, 0deg));
       transform-origin: center center;
       transition: transform 260ms ease, filter 260ms ease, opacity 220ms ease;
@@ -270,6 +274,16 @@
 
     .card.is-flipped .card-inner,
     .drawn-card.is-flipped .card-inner { transform: rotateY(180deg); }
+
+    .card.read-card {
+      filter:
+        drop-shadow(0 0 5px rgba(112, 104, 100, .18))
+        drop-shadow(0 14px 18px rgba(0,0,0,.72));
+    }
+
+    .card.read-card .card-face {
+      border-color: rgba(150, 137, 132, .52);
+    }
 
     @media (hover: hover) and (pointer: fine) {
       .card:hover {
@@ -747,7 +761,6 @@
     .error-message { color: #d4a4a7; border-color: rgba(143,23,32,.42); }
 
     @media (max-width: 560px) {
-      :root { --card-w: clamp(118px, 42vw, 170px); }
       .toolbar { align-items: stretch; flex-direction: column; }
       .toolbar-actions { justify-content: space-between; }
       .deck-note { flex: 1; text-align: center; }
@@ -755,7 +768,7 @@
       .modal-header { justify-content: stretch; }
       .modal-actions { width: 100%; }
       .modal-close, .modal-draw-again { flex: 1; }
-      #deck { gap: 14px 10px; padding-inline: 4px; }
+      #deck { padding-inline: 4px; }
     }
 
     @media (max-width: 420px) {
@@ -903,19 +916,91 @@
       return `${IMAGE_BASE_URL}${encodeURIComponent(cardData.Card)}.jpg`;
     }
 
+    function isCardRead(card) {
+      const value = card?.read ?? card?.Read ?? '';
+      return value === true || String(value).trim().toUpperCase() === 'Y';
+    }
+
+    function fitDeckLayout(total) {
+      if (!total) return;
+
+      const viewportW = Math.max(320, window.innerWidth || document.documentElement.clientWidth || 320);
+      const viewportH = Math.max(480, window.innerHeight || document.documentElement.clientHeight || 480);
+      const toolbarH = document.querySelector('.toolbar')?.getBoundingClientRect().height || 82;
+
+      // Keep the deck at least as tall as the remaining viewport so small decks
+      // sit naturally in the available space, but allow larger decks to scroll.
+      const deckViewportH = Math.max(260, viewportH - toolbarH);
+      deckEl.style.minHeight = `${deckViewportH}px`;
+
+      const style = getComputedStyle(deckEl);
+      const padX = (parseFloat(style.paddingLeft) || 0) + (parseFloat(style.paddingRight) || 0);
+      const padY = (parseFloat(style.paddingTop) || 0) + (parseFloat(style.paddingBottom) || 0);
+
+      const deckOuterW = Math.min(viewportW * 0.96, 1580);
+      const availableW = Math.max(220, deckOuterW - padX);
+      const availableH = Math.max(220, deckViewportH - padY);
+
+      const gap = Math.min(24, Math.max(10, viewportW * 0.014));
+      const maxCardW = viewportW < 560 ? 180 : 240;
+      const minPreferredW = viewportW < 560 ? 82 : 96;
+
+      let best = null;
+
+      for (let cols = 1; cols <= total; cols += 1) {
+        const rows = Math.ceil(total / cols);
+        const widthLimit = (availableW - gap * Math.max(0, cols - 1)) / cols;
+        const heightLimit = ((availableH - gap * Math.max(0, rows - 1)) / rows) * (3 / 4);
+        const cardW = Math.min(maxCardW, widthLimit, heightLimit);
+
+        if (cardW <= 0) continue;
+
+        const emptyCells = (cols * rows) - total;
+        const shapePenalty = emptyCells * 0.7;
+        const tinyPenalty = cardW < minPreferredW ? (minPreferredW - cardW) * 0.12 : 0;
+        const score = cardW - shapePenalty - tinyPenalty;
+
+        if (!best || score > best.score + 0.01 ||
+            (Math.abs(score - best.score) <= 0.01 && emptyCells < best.emptyCells)) {
+          best = { cols, rows, cardW, emptyCells, score };
+        }
+      }
+
+      if (!best) return;
+
+      // If fitting every card into one viewport would make them unreasonably
+      // small, preserve a readable minimum and let the page grow vertically.
+      const finalCardW = Math.max(best.cardW, minPreferredW);
+
+      document.documentElement.style.setProperty('--card-w', `${finalCardW.toFixed(1)}px`);
+      document.documentElement.style.setProperty('--deck-cols', String(best.cols));
+      document.documentElement.style.setProperty('--deck-gap', `${gap.toFixed(1)}px`);
+
+      deckEl.dataset.columns = String(best.cols);
+      deckEl.dataset.rows = String(Math.ceil(total / best.cols));
+    }
+
     function createCardElement(card, angleDeg, isReversed) {
       const div = document.createElement('button');
+      const alreadyRead = isCardRead(card);
+
       div.type = 'button';
       div.className = 'card';
       if (isReversed) div.classList.add('reversed');
+      if (alreadyRead) div.classList.add('is-flipped', 'read-card');
+
       div.style.setProperty('--front-image', `url("${getImageSrc(card)}")`);
-      div.setAttribute('aria-label', `${card.Card || 'Tarot card'} - ${isReversed ? 'reversed' : 'upright'}`);
+      div.setAttribute(
+        'aria-label',
+        `${card.Card || 'Tarot card'} - ${isReversed ? 'reversed' : 'upright'}${alreadyRead ? ', already read' : ', unread'}`
+      );
       div.innerHTML = `
         <span class="card-inner" aria-hidden="true">
           <span class="card-face card-back"></span>
           <span class="card-face card-front"></span>
         </span>`;
       div.dataset.angle = String(angleDeg);
+      div.dataset.read = alreadyRead ? 'Y' : 'N';
       return div;
     }
 
@@ -928,6 +1013,8 @@
         deckEl.innerHTML = '<div class="error-message">No cards found in the dark tarot data.</div>';
         return;
       }
+
+      fitDeckLayout(total);
 
       const targets = [];
 
@@ -952,7 +1039,22 @@
       if (animate) {
         playShuffle(targets);
       } else {
+        updateDeckNote(deck);
+      }
+    }
+
+    function updateDeckNote(deck = currentDeck) {
+      const total = Array.isArray(deck) ? deck.length : 0;
+      const readCount = Array.isArray(deck) ? deck.filter(isCardRead).length : 0;
+
+      if (!total) {
+        deckNote.textContent = 'No omens are present.';
+      } else if (readCount === 0) {
         deckNote.textContent = 'Choose one omen. Every card is upright.';
+      } else if (readCount === total) {
+        deckNote.textContent = `All ${total} omens have already been read.`;
+      } else {
+        deckNote.textContent = `${readCount} of ${total} omens already read. Choose another.`;
       }
     }
 
@@ -972,7 +1074,7 @@
 
       window.setTimeout(() => {
         deckEl.classList.remove('deck-disabled');
-        deckNote.textContent = 'Choose one omen. Every card is upright.';
+        updateDeckNote(currentDeck);
         isBusy = false;
       }, 1120);
     }
@@ -1009,7 +1111,7 @@
         modalOpen = false;
         unlockPageScroll();
         deckEl.classList.remove('deck-disabled');
-        deckNote.textContent = 'Choose one omen. Every card is upright.';
+        updateDeckNote(currentDeck);
       };
 
       const closeOnly = () => {
@@ -1145,8 +1247,10 @@
       const hero = document.createElement('div');
       const ratio = rect.height / Math.max(1, rect.width);
 
+      const alreadyRead = isCardRead(cardData);
+
       stage.className = 'draw-stage';
-      hero.className = `drawn-card${isReversed ? ' reversed' : ''}`;
+      hero.className = `drawn-card${isReversed ? ' reversed' : ''}${alreadyRead ? ' is-flipped' : ''}`;
       hero.style.setProperty('--start-left', `${rect.left}px`);
       hero.style.setProperty('--start-top', `${rect.top}px`);
       hero.style.setProperty('--start-width', `${rect.width}px`);
@@ -1167,9 +1271,11 @@
         hero.classList.add('centered');
       });
 
-      window.setTimeout(() => {
-        hero.classList.add('is-flipped');
-      }, 760);
+      if (!alreadyRead) {
+        window.setTimeout(() => {
+          hero.classList.add('is-flipped');
+        }, 760);
+      }
 
       window.setTimeout(() => {
         stage.remove();
@@ -1248,7 +1354,7 @@
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
-        if (!modalOpen && !isBusy && currentDeck.length) renderDeck(currentDeck, false);
+        if (!modalOpen && currentDeck.length) fitDeckLayout(currentDeck.length);
       }, 140);
     });
   </script>
