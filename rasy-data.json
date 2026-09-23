@@ -3365,22 +3365,22 @@
             {
               "type": "entry",
               "label": "Beasthide",
-              "text": "You gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class. Ability Scores: Con +2; Str +1"
+              "text": " Ability Scores: Con +2; Str +1. Then when you shift you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class."
             },
             {
               "type": "entry",
               "label": "Longtooth",
-              "text": "When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Ability Scores: Str +2; Dex +1"
+              "text": "Ability Scores: Str +2; Dex +1. Then when you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
             },
             {
               "type": "entry",
               "label": "Swiftstride",
-              "text": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks. Ability Scores: Dex +2; Cha +1"
+              "text": "Ability Scores: Dex +2; Cha +1. Then while shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks."
             },
             {
               "type": "entry",
               "label": "Wildhunt",
-              "text": "While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated. Ability Scores: Wis +2; Dex +1"
+              "text": "Ability Scores: Wis +2; Dex +1. Then while shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated."
             },
             {
               "type": "entry",
