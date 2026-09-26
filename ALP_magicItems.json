@@ -509,11 +509,11 @@
 			]
 		},
 		{
-			"name": "Staff of Instinct",
+			"name": "Focus of Instinct (Staff)",
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
@@ -534,15 +534,16 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Wisdom score increases by 2 but can't exceed 20"
+				"Your Wisdom score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
 		{
-			"name": "Wand of Knowledge",
+			"name": "Focus of Knowledge (Wand)",
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
@@ -563,15 +564,16 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Intelligence score increases by 2 but can't exceed 20"
+				"Your Intelligence score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
 		{
-			"name": "Gem of Impression",
+			"name": "Focus of Impression (Gem)",
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "wondrous",
 			"bonuses": {
@@ -592,7 +594,8 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Charisma score increases by 2 but can't exceed 20"
+				"Your Charisma score increases by 2 but can't exceed 20",
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
 		{
