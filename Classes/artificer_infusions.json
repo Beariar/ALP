@@ -1,0 +1,477 @@
+{
+  "_meta": {
+    "featureType": "AI",
+    "source": "TCE",
+    "count": 16,
+    "note": "Normalized for the ALP Classes auxiliary optional-feature loader. Rule text is concise/paraphrased; names, prerequisites, levels, and Replicate Magic Item tables follow the referenced 2014 5e.tools TCE Artificer Infusions filter."
+  },
+  "optionalfeature": [
+    {
+      "name": "Arcane Propulsion Armor",
+      "source": "TCE",
+      "page": 20,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "14th-level Artificer, a suit of armor (requires attunement)",
+      "entries": [
+        "The infused armor increases the wearer's walking speed by 5 feet.",
+        "Its gauntlets become magic melee weapons that deal {@damage 1d8} force damage, have the thrown property (20/60 feet), and immediately return after being thrown.",
+        "The armor cannot be removed against the wearer's will and can functionally replace missing limbs."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Armor of Magical Strength",
+      "source": "TCE",
+      "page": 20,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A suit of armor (requires attunement)",
+      "entries": [
+        "The armor has 6 charges. A wearer can spend 1 charge to add their Intelligence modifier to a Strength check or Strength saving throw.",
+        "If the wearer would be knocked {@condition prone}, they can use a reaction and spend 1 charge to remain standing.",
+        "The armor regains {@dice 1d6} expended charges daily at dawn."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Boots of the Winding Path",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "6th-level Artificer, a pair of boots (requires attunement)",
+      "entries": [
+        "While wearing the boots, a creature can use a bonus action to teleport up to 15 feet to an unoccupied space it can see, provided it occupied that space earlier in the current turn."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Enhanced Arcane Focus",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A rod, staff, or wand (requires attunement)",
+      "entries": [
+        "While holding the focus, a creature gains a +1 bonus to spell attack rolls and ignores half cover when making spell attacks.",
+        "The bonus becomes +2 when the artificer reaches 10th level."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Enhanced Defense",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A suit of armor or a shield",
+      "entries": [
+        "The infused armor or shield grants a +1 bonus to AC while worn or wielded.",
+        "The bonus becomes +2 when the artificer reaches 10th level."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Enhanced Weapon",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A simple or martial weapon",
+      "entries": [
+        "The infused weapon grants a +1 bonus to attack and damage rolls.",
+        "The bonus becomes +2 when the artificer reaches 10th level."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Helm of Awareness",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "10th-level Artificer, a helmet (requires attunement)",
+      "entries": [
+        "While wearing the helm, a creature has advantage on initiative rolls and cannot be surprised unless it is {@condition incapacitated}."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Homunculus Servant",
+      "source": "TCE",
+      "page": 21,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A gem or crystal worth at least 100 gp",
+      "entries": [
+        "The infused gem or crystal becomes the heart of a Tiny magical construct that serves the artificer. The artificer chooses its appearance.",
+        "The servant acts on the artificer's initiative immediately after them. It can move and use its reaction on its own, but normally takes the Dodge action unless the artificer uses a bonus action to command another action.",
+        "Its combat statistics scale with the artificer's level and proficiency bonus; it can make a ranged force attack and can deliver the artificer's touch-range spells by using its reaction."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Mind Sharpener",
+      "source": "TCE",
+      "page": 22,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A suit of armor or robes",
+      "entries": [
+        "The infused item has 4 charges. When its wearer fails a Constitution saving throw to maintain {@status concentration} on a spell, the wearer can use a reaction and spend 1 charge to succeed instead.",
+        "The item regains {@dice 1d4} expended charges daily at dawn."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Radiant Weapon",
+      "source": "TCE",
+      "page": 22,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "6th-level Artificer, a simple or martial weapon (requires attunement)",
+      "entries": [
+        "The infused weapon grants a +1 bonus to attack and damage rolls.",
+        "As a bonus action, the wielder can make the weapon shed bright light for 30 feet and dim light for another 30 feet, or extinguish that light.",
+        "The weapon has 4 charges. After being hit by an attack, the wielder can use a reaction and spend 1 charge to force the attacker to make a Constitution saving throw against the artificer's spell save DC; on a failure, the attacker is {@condition blinded} until the end of its next turn. The weapon regains {@dice 1d4} charges daily at dawn."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Repeating Shot",
+      "source": "TCE",
+      "page": 22,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A simple or martial weapon with the ammunition property (requires attunement)",
+      "entries": [
+        "When used for a ranged attack, the infused weapon grants a +1 bonus to attack and damage rolls and ignores the loading property.",
+        "If no ammunition is loaded, the weapon creates its own piece of magical ammunition for each ranged attack; that ammunition disappears immediately after the attack resolves."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Replicate Magic Item",
+      "source": "TCE",
+      "page": 22,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": null,
+      "entries": [
+        "Choose a magic item the artificer is eligible to reproduce. This infusion can be learned multiple times, with a different eligible item chosen each time.",
+        "In addition to the listed options, the artificer can choose a common magic item, except a potion or spell scroll.",
+        {
+          "type": "table",
+          "caption": "Replicable Items (2nd-Level Artificer)",
+          "colLabels": [
+            "Magic Item",
+            "Attunement"
+          ],
+          "rows": [
+            [
+              "{@item Alchemy jug}",
+              "No"
+            ],
+            [
+              "{@item Bag of holding}",
+              "No"
+            ],
+            [
+              "{@item Cap of water breathing}",
+              "No"
+            ],
+            [
+              "{@item Goggles of night}",
+              "No"
+            ],
+            [
+              "{@item Rope of climbing}",
+              "No"
+            ],
+            [
+              "{@item Sending stones}",
+              "No"
+            ],
+            [
+              "{@item Wand of magic detection}",
+              "No"
+            ],
+            [
+              "{@item Wand of secrets}",
+              "No"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Replicable Items (6th-Level Artificer)",
+          "colLabels": [
+            "Magic Item",
+            "Attunement"
+          ],
+          "rows": [
+            [
+              "{@item Boots of elvenkind}",
+              "No"
+            ],
+            [
+              "{@item Cloak of elvenkind}",
+              "Yes"
+            ],
+            [
+              "{@item Cloak of the manta ray}",
+              "No"
+            ],
+            [
+              "{@item Eyes of charming}",
+              "Yes"
+            ],
+            [
+              "{@item Gloves of thievery}",
+              "No"
+            ],
+            [
+              "{@item Lantern of revealing}",
+              "No"
+            ],
+            [
+              "{@item Pipes of haunting}",
+              "No"
+            ],
+            [
+              "{@item Ring of water walking}",
+              "No"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Replicable Items (10th-Level Artificer)",
+          "colLabels": [
+            "Magic Item",
+            "Attunement"
+          ],
+          "rows": [
+            [
+              "{@item Boots of striding and springing}",
+              "Yes"
+            ],
+            [
+              "{@item Boots of the Winterlands}",
+              "Yes"
+            ],
+            [
+              "{@item Bracers of archery}",
+              "Yes"
+            ],
+            [
+              "{@item Brooch of shielding}",
+              "Yes"
+            ],
+            [
+              "{@item Cloak of protection}",
+              "Yes"
+            ],
+            [
+              "{@item Eyes of the eagle}",
+              "Yes"
+            ],
+            [
+              "{@item Gauntlets of ogre power}",
+              "Yes"
+            ],
+            [
+              "{@item Gloves of missile snaring}",
+              "Yes"
+            ],
+            [
+              "{@item Gloves of swimming and climbing}",
+              "Yes"
+            ],
+            [
+              "{@item Hat of disguise}",
+              "Yes"
+            ],
+            [
+              "{@item Headband of intellect}",
+              "Yes"
+            ],
+            [
+              "{@item Helm of telepathy}",
+              "Yes"
+            ],
+            [
+              "{@item Medallion of thoughts}",
+              "Yes"
+            ],
+            [
+              "{@item Necklace of adaptation}",
+              "Yes"
+            ],
+            [
+              "{@item Periapt of wound closure}",
+              "Yes"
+            ],
+            [
+              "{@item Pipes of the sewers}",
+              "Yes"
+            ],
+            [
+              "{@item Quiver of Ehlonna}",
+              "No"
+            ],
+            [
+              "{@item Ring of jumping}",
+              "Yes"
+            ],
+            [
+              "{@item Ring of mind shielding}",
+              "Yes"
+            ],
+            [
+              "{@item Slippers of spider climbing}",
+              "Yes"
+            ],
+            [
+              "{@item Ventilating lungs|ERLW}",
+              "Yes"
+            ],
+            [
+              "{@item Winged boots}",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Replicable Items (14th-Level Artificer)",
+          "colLabels": [
+            "Magic Item",
+            "Attunement"
+          ],
+          "rows": [
+            [
+              "{@item Amulet of health}",
+              "Yes"
+            ],
+            [
+              "{@item Arcane propulsion arm|ERLW}",
+              "Yes"
+            ],
+            [
+              "{@item Belt of hill giant strength}",
+              "Yes"
+            ],
+            [
+              "{@item Boots of levitation}",
+              "Yes"
+            ],
+            [
+              "{@item Boots of speed}",
+              "Yes"
+            ],
+            [
+              "{@item Bracers of defense}",
+              "Yes"
+            ],
+            [
+              "{@item Cloak of the bat}",
+              "Yes"
+            ],
+            [
+              "{@item Dimensional shackles}",
+              "No"
+            ],
+            [
+              "{@item Gem of seeing}",
+              "Yes"
+            ],
+            [
+              "{@item Horn of blasting}",
+              "No"
+            ],
+            [
+              "{@item Ring of free action}",
+              "Yes"
+            ],
+            [
+              "{@item Ring of protection}",
+              "Yes"
+            ],
+            [
+              "{@item Ring of the ram}",
+              "Yes"
+            ]
+          ]
+        }
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Repulsion Shield",
+      "source": "TCE",
+      "page": 23,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "6th-level Artificer, a shield (requires attunement)",
+      "entries": [
+        "The infused shield grants a +1 bonus to AC while wielded.",
+        "It has 4 charges. Immediately after being hit by a melee attack, the wielder can use a reaction and spend 1 charge to push the attacker up to 15 feet away. The shield regains {@dice 1d4} charges daily at dawn."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Resistant Armor",
+      "source": "TCE",
+      "page": 23,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "6th-level Artificer, a suit of armor (requires attunement)",
+      "entries": [
+        "When the armor is infused, choose acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. A creature wearing the armor has resistance to the chosen damage type."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Returning Weapon",
+      "source": "TCE",
+      "page": 23,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "A simple or martial weapon with the thrown property",
+      "entries": [
+        "The infused weapon grants a +1 bonus to attack and damage rolls and returns to the wielder's hand immediately after it is used to make a ranged attack."
+      ],
+      "allowed": "allowed"
+    },
+    {
+      "name": "Spell-Refueling Ring",
+      "source": "TCE",
+      "page": 23,
+      "featureType": [
+        "AI"
+      ],
+      "prerequisite-entry": "6th-level Artificer, a ring (requires attunement)",
+      "entries": [
+        "While wearing the ring, a creature can use an action to recover one expended spell slot of 3rd level or lower. After the ring is used, it cannot be used again until the next dawn."
+      ],
+      "allowed": "allowed"
+    }
+  ]
+}
