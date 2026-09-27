@@ -447,7 +447,8 @@
 				"Your Strength score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following base items: Martial Melee Weapon, Martial Range Weapon, Axria Melee Weapon, Axria Range Weapon",
-				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon."
+				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
@@ -479,7 +480,8 @@
 				"Your Dexterity score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following base items: Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon.",
-				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon."
+				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
@@ -511,7 +513,8 @@
 				"Your Constitution score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following base items: Classic Shield, Tower Shield",
-				"Variant can not apply on: Buckler Shield."
+				"Variant can not apply on: Buckler Shield.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
@@ -542,7 +545,8 @@
 			"entries": [
 				"Your Wisdom score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
-				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
@@ -573,7 +577,8 @@
 			"entries": [
 				"Your Intelligence score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
-				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
@@ -604,7 +609,8 @@
 			"entries": [
 				"Your Charisma score increases by 2 but can exceed 20 but not 30.",
 				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
-				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
+				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting.",
+				"Uncommon variant of this item exists but with it the stat score can't exceed 20."
 			]
 		},
 		{
