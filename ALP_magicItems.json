@@ -423,7 +423,7 @@
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
@@ -444,8 +444,10 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Strength score increases by 2 but can't exceed 20",
-				"This item variant can be applied to the following base items: Simple Melee Weapon,Simple Range Weapon, Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon"
+				"Your Strength score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
+				"This item variant can be applied to the following base items: Martial Melee Weapon, Martial Range Weapon, Axria Melee Weapon, Axria Range Weapon",
+				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon."
 			]
 		},
 		{
@@ -453,7 +455,7 @@
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "weapon",
 			"bonuses": {
@@ -474,8 +476,10 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Dexterity score increases by 2 but can't exceed 20",
-				"This item variant can be applied to the following base items: Simple Melee Weapon,Simple Range Weapon, Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon"
+				"Your Dexterity score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
+				"This item variant can be applied to the following base items: Martial Melee Weapon, Martial Range Weapon, Acria Melee Weapon, Axria Range Weapon.",
+				"Variant can not apply on: Simple Melee Weapon or Simple Range Weapon."
 			]
 		},
 		{
@@ -483,7 +487,7 @@
 			"meno": "",
 			"source": "ALP",
 			"page": "0",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "yes",
 			"type": "armor",
 			"bonuses": {
@@ -504,8 +508,10 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Constitution score increases by 2 but can't exceed 20",
-				"This item variant can be applied to the following base items: Buckler Shield, Classic Shield, Tower Shield"
+				"Your Constitution score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
+				"This item variant can be applied to the following base items: Classic Shield, Tower Shield",
+				"Variant can not apply on: Buckler Shield."
 			]
 		},
 		{
@@ -534,7 +540,8 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Wisdom score increases by 2 but can't exceed 20",
+				"Your Wisdom score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
@@ -564,7 +571,8 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Intelligence score increases by 2 but can't exceed 20",
+				"Your Intelligence score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
@@ -594,7 +602,8 @@
 			"properties": [],
 			"tags": [],
 			"entries": [
-				"Your Charisma score increases by 2 but can't exceed 20",
+				"Your Charisma score increases by 2 but can exceed 20 but not 30.",
+				"This item can increase stat even if its already increated by some other item. Hence its 'highest stat value +2' and NOT 'core stat value +2'",
 				"This item variant can be applied to the following items: Arcane Focus, Druidic Focus, Holy Symbol, Musical Instruments or other form of item which is replacing component for purpose of spellcasting."
 			]
 		},
