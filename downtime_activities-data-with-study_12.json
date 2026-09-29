@@ -2558,7 +2558,7 @@
         "calligraphersSupplies": {
           "required": false,
           "proficiencyBenefit": [
-            "Reduce the total scribing time by 20%, to a minimum of 1 day. Round the final duration up to the next whole day according to the campaign calendar.",
+            "Reduce the total scribing time, new amouth is seen in table.",
             "Reduce each Scribing complication check from 10% to 5%.",
             "When a complication specifically results from handwriting, inscription, rune placement, ink placement, or transcription error, roll twice and use the less harmful or more favorable result."
           ],
