@@ -1,0 +1,3844 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Example Downtime Activities",
+  "intendedUse": "Structured data source for a web page or app that displays and processes downtime activities.",
+  "units": {
+    "currency": "gp",
+    "time": [
+      "day",
+      "week",
+      "workweek"
+    ],
+    "diceNotation": "Standard tabletop notation, e.g. 1d6 means roll one six-sided die."
+  },
+  "globalDmGuidance": [
+    "The DM has the final say on which activities are available.",
+    "Available activities can depend on the area where the characters are located.",
+    "The DM can disallow magic item creation or buying if the location is too isolated or unsuitable.",
+    "Spells or magic item effect can affect with skill check only if the effect is applied during the whole Time"
+  ],
+  "activities": [
+    {
+      "id": "buying_magic_item",
+      "name": "Buying a Magic Item",
+      "category": "commerce",
+      "summary": "A character can buy magic items directly through roleplay when a merchant actually has or can obtain the item, or spend downtime searching a wider regular or black market for a specific item. Better searches improve both the chance of finding the item and the price.",
+      "resources": {
+        "baseSearchTime": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "baseSearchCost": {
+          "amount": 100,
+          "currency": "gp",
+          "purpose": "Advertisements, correspondence, travel, gifts, bribes, introductions, and other seller-search expenses."
+        },
+        "specificItemRequired": true,
+        "searchInvestment": {
+          "extraTimeBonus": {
+            "bonus": "+1",
+            "condition": "For every additional workweek beyond the first spent searching."
+          },
+          "extraMoneyBonus": {
+            "bonus": "+1",
+            "condition": "For every additional 100 gp spent beyond the initial 100 gp search cost."
+          },
+          "maximumCombinedBonus": "+10",
+          "timing": "Extra time and money must be committed before the Buying check is rolled."
+        }
+      },
+      "resolution": {
+        "purchaseMethods": [
+          {
+            "method": "Direct Merchant Purchase",
+            "time": "Usually immediate or resolved through normal roleplay.",
+            "rule": "If a merchant already has the requested item or can obtain it immediately, the purchase can be handled through normal roleplay without using the downtime activity.",
+            "availability": "Limited to what that merchant plausibly has access to.",
+            "priceGuidance": "Usually around 125% to 150% of the Current Market Price, but the DM may set any reasonable price."
+          },
+          {
+            "method": "Friendly Merchant Order",
+            "time": "Variable delivery time determined by the DM.",
+            "rule": "A known or friendly merchant may try to obtain the item through their own contacts without requiring the full downtime search.",
+            "availability": "Determined by the merchant's network and the DM.",
+            "priceGuidance": "Usually around 110% to 140% of the Current Market Price; a deposit may be required."
+          },
+          {
+            "method": "Independent Market Search",
+            "time": "1 or more workweeks.",
+            "rule": "The character actively searches the wider market for one specific magic item and makes a Buying check."
+          },
+          {
+            "method": "Merchant Broker",
+            "time": "Uses the same time as the chosen market search.",
+            "rule": "A suitable merchant or professional broker uses their network to assist the search and grants +2 to the Buying check.",
+            "brokerBonus": "+2",
+            "brokerFee": "10% of the final purchase price, paid only if the item is successfully purchased.",
+            "marketAccess": "A suitable broker may count as access to a broader market than the character could normally reach, at the DM's discretion."
+          }
+        ],
+        "check": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Locate a seller and determine how favorable the available offer is."
+        },
+        "blackMarketCheckOptions": [
+          {
+            "ability": "Charisma",
+            "skill": "Persuasion",
+            "purpose": "Negotiate and locate an illicit seller."
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Deception",
+            "condition": "The character is using a false identity or posing as a criminal buyer and the DM allows it."
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Intimidation",
+            "condition": "The underworld situation strongly supports intimidation and the DM allows it."
+          }
+        ],
+        "raritySellerDCs": [
+          {
+            "rarity": "Common",
+            "regularMarketDC": 10,
+            "blackMarketDC": 5
+          },
+          {
+            "rarity": "Uncommon",
+            "regularMarketDC": 15,
+            "blackMarketDC": 10
+          },
+          {
+            "rarity": "Rare",
+            "regularMarketDC": 20,
+            "blackMarketDC": 15
+          },
+          {
+            "rarity": "Very Rare",
+            "regularMarketDC": 25,
+            "blackMarketDC": 20
+          },
+          {
+            "rarity": "Legendary",
+            "regularMarketDC": 30,
+            "blackMarketDC": 25
+          }
+        ],
+        "marketChoice": {
+          "regularMarket": {
+            "description": "Respectable merchants, collectors, guilds, legal auctions, licensed brokers, institutions, and other legitimate sellers.",
+            "complicationChancePercent": 10,
+            "priceTableId": "regular_market_purchase_offers"
+          },
+          "blackMarket": {
+            "description": "Smugglers, illicit auctions, criminal artificers, corrupt collectors, underground brokers, stolen-goods networks, and other unregulated sellers.",
+            "dcModifier": "-5 compared with the Regular Market rarity DC",
+            "complicationChancePercent": 30,
+            "priceTableId": "black_market_purchase_offers",
+            "availabilityRule": "The DM decides whether a functioning black market capable of handling the requested rarity exists in the current location.",
+            "riskNote": "Black Market complications represent the risks of the chosen market. They do not automatically mean the item is defective."
+          }
+        },
+        "pricing": {
+          "currentMarketPriceRule": "Before resolving the Buying check, the DM establishes the Current Market Price for that specific item in the current market. Use the Base Price by default, or choose a value within the Normal Price Range when local supply, demand, usefulness, provenance, scarcity, culture, geography, or current events make the item cheaper or more expensive.",
+          "fixedForAttempt": "Once established for a specific search attempt, the Current Market Price remains fixed while resolving that attempt.",
+          "marketChangeRule": "The Current Market Price may change after a market refresh, when moving to another settlement or region, or when local circumstances change.",
+          "outsideRangeRule": "The DM may set a price outside the Normal Price Range for an exceptional story or market situation, but this should be deliberate rather than routine.",
+          "consumableRule": "Consumable magic items use half of the listed Base Price and half of the chosen Current Market Price."
+        },
+        "nearMissRule": {
+          "condition": "The Buying check misses the seller DC by 1 to 4.",
+          "effect": "The requested item is not found, but the DM may offer a related alternative item, similar effect, or different seller opportunity. The character is never required to buy the alternative."
+        },
+        "marketExhaustion": {
+          "rule": "Repeated searches in the same local market may stop providing meaningful new opportunities once that market has been exhausted. The DM may require the character to wait for a market refresh, move to a different settlement or region, or access a meaningfully different network.",
+          "antiArbitrageNote": "Buying and selling the same or equivalent item repeatedly within the same local market may exhaust that market; the DM determines when no meaningful new buyers or sellers remain."
+        }
+      },
+      "tables": [
+        {
+          "id": "magic_item_market_prices",
+          "title": "Magic Item Market Prices",
+          "columns": [
+            "rarity",
+            "basePrice",
+            "normalPriceRange",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "basePrice": {
+                "amount": 100,
+                "currency": "gp"
+              },
+              "normalPriceRange": {
+                "minimum": 75,
+                "maximum": 150,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Uncommon",
+              "basePrice": {
+                "amount": 400,
+                "currency": "gp"
+              },
+              "normalPriceRange": {
+                "minimum": 300,
+                "maximum": 600,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Rare",
+              "basePrice": {
+                "amount": 4000,
+                "currency": "gp"
+              },
+              "normalPriceRange": {
+                "minimum": 3000,
+                "maximum": 6000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Very Rare",
+              "basePrice": {
+                "amount": 40000,
+                "currency": "gp"
+              },
+              "normalPriceRange": {
+                "minimum": 30000,
+                "maximum": 60000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Legendary",
+              "basePrice": {
+                "amount": 200000,
+                "currency": "gp"
+              },
+              "normalPriceRange": {
+                "minimum": 150000,
+                "maximum": 300000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            }
+          ],
+          "notes": [
+            "Base Price is the default reference under neutral market conditions.",
+            "Normal Price Range is the usual range for a specific item of that rarity under ordinary local market variation.",
+            "The DM establishes a Current Market Price for the specific item before resolving the search."
+          ]
+        },
+        {
+          "id": "magic_item_seller_dcs",
+          "title": "Magic Item Seller DCs",
+          "columns": [
+            "rarity",
+            "regularMarketDC",
+            "blackMarketDC"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "regularMarketDC": 10,
+              "blackMarketDC": 5
+            },
+            {
+              "rarity": "Uncommon",
+              "regularMarketDC": 15,
+              "blackMarketDC": 10
+            },
+            {
+              "rarity": "Rare",
+              "regularMarketDC": 20,
+              "blackMarketDC": 15
+            },
+            {
+              "rarity": "Very Rare",
+              "regularMarketDC": 25,
+              "blackMarketDC": 20
+            },
+            {
+              "rarity": "Legendary",
+              "regularMarketDC": 30,
+              "blackMarketDC": 25
+            }
+          ]
+        },
+        {
+          "id": "regular_market_purchase_offers",
+          "title": "Regular Market Purchase Offers",
+          "columns": [
+            "result",
+            "purchasePricePercent",
+            "outcome"
+          ],
+          "rows": [
+            {
+              "result": "Below Seller DC",
+              "purchasePricePercent": null,
+              "outcome": "The requested item is not found."
+            },
+            {
+              "result": "Meet Seller DC",
+              "purchasePricePercent": 150,
+              "outcome": "Found at 150% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 5+",
+              "purchasePricePercent": 125,
+              "outcome": "Found at 125% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 10+",
+              "purchasePricePercent": 100,
+              "outcome": "Found at 100% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 15+",
+              "purchasePricePercent": 90,
+              "outcome": "Found at 90% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 20+",
+              "purchasePricePercent": 75,
+              "outcome": "Found at 75% of Current Market Price."
+            }
+          ],
+          "notes": [
+            "Use the highest threshold reached.",
+            "A strong roll does not automatically cause a complication."
+          ]
+        },
+        {
+          "id": "black_market_purchase_offers",
+          "title": "Black Market Purchase Offers",
+          "columns": [
+            "result",
+            "purchasePricePercent",
+            "outcome"
+          ],
+          "rows": [
+            {
+              "result": "Below Seller DC",
+              "purchasePricePercent": null,
+              "outcome": "The requested item is not found."
+            },
+            {
+              "result": "Meet Seller DC",
+              "purchasePricePercent": 125,
+              "outcome": "Found at 125% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 5+",
+              "purchasePricePercent": 100,
+              "outcome": "Found at 100% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 10+",
+              "purchasePricePercent": 90,
+              "outcome": "Found at 90% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 15+",
+              "purchasePricePercent": 75,
+              "outcome": "Found at 75% of Current Market Price."
+            },
+            {
+              "result": "Beat Seller DC by 20+",
+              "purchasePricePercent": 65,
+              "outcome": "Found at 65% of Current Market Price."
+            }
+          ],
+          "notes": [
+            "Use the highest threshold reached.",
+            "Black Market searches are easier and can be cheaper, but carry a higher complication chance."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "type": "dmChoice",
+          "display": "DM may roll or invent a complication."
+        },
+        "table": {
+          "id": "magic_item_purchase_complications",
+          "title": "Magic Item Purchase Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "The item is a fake, planted by an enemy.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "The item is stolen by the party's enemies.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "The item is cursed by a god.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "The item's original owner will kill to reclaim it; the party's enemies spread news of its sale.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "The item is at the center of a dark prophecy.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "The seller is murdered before the sale.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 7,
+              "text": "The seller is a devil looking to make a bargain.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 8,
+              "text": "The item is the key to freeing an evil entity.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 9,
+              "text": "A third party bids on the item, doubling its price.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 10,
+              "text": "The item is an enslaved, intelligent entity.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 11,
+              "text": "The item is tied to a cult.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 12,
+              "text": "The party's enemies spread rumors that the item is an artifact of evil.",
+              "mightInvolveRival": true
+            }
+          ]
+        },
+        "marketRisk": {
+          "regularMarketChancePercent": 10,
+          "blackMarketChancePercent": 30,
+          "rule": "Use the same purchase-complication table for both markets unless the DM creates a more specific result. Black Market complications should be flavored toward illicit ownership, criminal ties, forged provenance, surveillance, wanted sellers, damaged or suspicious goods, rival buyers, or similar underworld risks.",
+          "importantNote": "A complication does not automatically mean the item is defective, cursed, or unusable. It may instead create legal, social, criminal, financial, or narrative consequences around the purchase."
+        }
+      }
+    },
+    {
+      "id": "carousing",
+      "name": "Carousing",
+      "category": "social",
+      "summary": "A character spends a workweek socializing within a chosen social class to learn useful local information, gossip, customs, reputations, opportunities, and secrets. Carousing is social research rather than automatic contact generation.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "socialClassOptions": [
+          {
+            "class": "Lower Class",
+            "lifestyles": [
+              "Príšerný",
+              "Biedny",
+              "Chudobný"
+            ],
+            "cost": {
+              "amount": 10,
+              "currency": "gp"
+            },
+            "typicalSources": [
+              "laborers",
+              "servants",
+              "guards",
+              "mercenaries",
+              "criminals",
+              "cheap tavern regulars",
+              "dockworkers",
+              "street vendors"
+            ]
+          },
+          {
+            "class": "Middle Class",
+            "lifestyles": [
+              "Skromný",
+              "Pohodlný"
+            ],
+            "cost": {
+              "amount": 50,
+              "currency": "gp"
+            },
+            "typicalSources": [
+              "guild members",
+              "merchants",
+              "craftspeople",
+              "clerks",
+              "academics",
+              "town officials",
+              "respectable tavern regulars",
+              "professionals"
+            ]
+          },
+          {
+            "class": "Upper Class",
+            "lifestyles": [
+              "Bohatý",
+              "Aristokratický"
+            ],
+            "cost": {
+              "amount": 250,
+              "currency": "gp"
+            },
+            "typicalSources": [
+              "nobles",
+              "wealthy merchants",
+              "patrons",
+              "court officials",
+              "elite collectors",
+              "high-ranking clergy",
+              "political families",
+              "prestigious institutions"
+            ],
+            "accessRequirement": "Upper-Class Carousing may still require an invitation, escort, recognizable status, forged credentials, or other believable access if the venue is restricted."
+          }
+        ],
+        "classRule": "A character may carouse in any social class. Their maintained lifestyle determines which social class they naturally understand and fit into."
+      },
+      "resolution": {
+        "baseCheck": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Blend into the chosen social environment, build rapport, listen effectively, and draw out useful information."
+        },
+        "falseIdentityOption": {
+          "ability": "Charisma",
+          "skill": "Deception",
+          "condition": "The character is maintaining a false identity, pretending to belong to another class, or otherwise relying on deception and the DM allows it."
+        },
+        "socialClassDC": {
+          "sameTier": 15,
+          "oneTierAway": 20,
+          "twoTiersAway": 25,
+          "rule": "Compare the character's maintained lifestyle social class with the chosen Carousing social class. Carousing within the same class uses DC 15; one class away uses DC 20; two classes away uses DC 25."
+        },
+        "disguiseKit": {
+          "rule": "If the character is proficient with a Disguise Kit and has enough clothing, access, preparation, and opportunity to maintain a believable appearance, the increased DC caused by Carousing outside their natural social class is negated and the check uses DC 15.",
+          "importantNote": "A disguise only removes the social-class mismatch penalty. It does not automatically grant entry to restricted locations and does not guarantee a successful social check."
+        },
+        "carousingFocus": {
+          "rule": "Before the activity begins, choose a broad social focus. The DM uses that focus to determine what kind of information is learned.",
+          "options": [
+            {
+              "focus": "People & Families",
+              "examples": "Notable locals, reputations, relationships, rivalries, family histories, marriages, grudges, and social standing."
+            },
+            {
+              "focus": "Places & Shops",
+              "examples": "Useful merchants, unreliable merchants, unusual shops, hidden venues, local services, meeting places, and places locals avoid."
+            },
+            {
+              "focus": "Customs & Traditions",
+              "examples": "Holidays, etiquette, taboos, rituals, local habits, superstitions, celebrations, and expected behavior."
+            },
+            {
+              "focus": "Opportunities & Trouble",
+              "examples": "Jobs, shortages, criminal activity, dangerous districts, rumors of treasure, local problems, and unusual opportunities."
+            },
+            {
+              "focus": "Gossip & Politics",
+              "examples": "Scandals, rivalries, public opinion, political tensions, hidden loyalties, social conflicts, and who dislikes whom."
+            }
+          ]
+        },
+        "informationByClass": [
+          {
+            "class": "Lower Class",
+            "informationTheme": "Street rumors, labor conditions, guards, servants, gangs, smugglers, cheap shops, unsafe areas, local scams, everyday hardships, and practical neighborhood knowledge."
+          },
+          {
+            "class": "Middle Class",
+            "informationTheme": "Guilds, merchants, craftspeople, academics, clerks, officials, respectable businesses, trade problems, permits, professional rivalries, civic affairs, and market trends."
+          },
+          {
+            "class": "Upper Class",
+            "informationTheme": "Noble families, political influence, inheritance, patronage, elite scandals, expensive auctions, court etiquette, private rivalries, prestigious institutions, and high-level social maneuvering."
+          }
+        ],
+        "informationTypes": {
+          "localTidbit": "Interesting local information that adds context or flavor but usually is not immediately actionable.",
+          "usefulInsight": "Information that can reasonably affect a decision, point toward a useful person or place, reveal a practical local advantage, or help the party avoid trouble.",
+          "significantSecret": "Sensitive, unusually valuable, or socially important information that is not commonly discussed openly and may meaningfully affect future choices."
+        },
+        "rumorTruthRule": "Carousing reliably reveals what people know, believe, discuss, fear, value, or gossip about. A rumor learned through Carousing is not automatically proof that the rumor itself is factually true. The learned information is accurate about the social belief or rumor that exists.",
+        "dmGuidance": [
+          "Carousing should reveal information appropriate to the chosen social class and declared focus.",
+          "Carousing is broader and more social than formal Research and should not normally reveal exact technical secrets, hidden mechanical weaknesses, or precise archival facts unless those are genuinely circulating socially.",
+          "Results do not automatically create NPCs who owe favors or grant access to restricted locations."
+        ]
+      },
+      "tables": [
+        {
+          "id": "carousing_social_classes",
+          "title": "Carousing Social Classes",
+          "columns": [
+            "class",
+            "lifestyles",
+            "cost",
+            "typicalInformation"
+          ],
+          "rows": [
+            {
+              "class": "Lower Class",
+              "lifestyles": "Príšerný, Biedny, Chudobný",
+              "cost": "10 gp",
+              "typicalInformation": "Street rumors, guards, servants, gangs, smugglers, laborers, cheap shops, unsafe areas, scams, hardships, and neighborhood knowledge."
+            },
+            {
+              "class": "Middle Class",
+              "lifestyles": "Skromný, Pohodlný",
+              "cost": "50 gp",
+              "typicalInformation": "Guilds, merchants, craftspeople, officials, academics, permits, trade problems, respectable businesses, civic affairs, and professional rivalries."
+            },
+            {
+              "class": "Upper Class",
+              "lifestyles": "Bohatý, Aristokratický",
+              "cost": "250 gp",
+              "typicalInformation": "Noble families, political influence, inheritance, elite scandals, auctions, court traditions, private rivalries, patronage, and prestigious institutions."
+            }
+          ]
+        },
+        {
+          "id": "carousing_social_dc",
+          "title": "Carousing Social Class DC",
+          "columns": [
+            "relationshipToNaturalClass",
+            "dc"
+          ],
+          "rows": [
+            {
+              "relationshipToNaturalClass": "Same social class",
+              "dc": 15
+            },
+            {
+              "relationshipToNaturalClass": "One social class away",
+              "dc": 20
+            },
+            {
+              "relationshipToNaturalClass": "Two social classes away",
+              "dc": 25
+            }
+          ],
+          "notes": [
+            "Disguise Kit proficiency can negate the increased DC caused by social-class mismatch if the disguise and access are plausible.",
+            "Restricted venues may still require invitations, escorts, credentials, or other access even when the social-class DC penalty is negated."
+          ]
+        },
+        {
+          "id": "carousing_outcomes",
+          "title": "Carousing Outcomes",
+          "columns": [
+            "result",
+            "localTidbits",
+            "usefulInsights",
+            "significantSecrets",
+            "outcome"
+          ],
+          "rows": [
+            {
+              "result": "Below DC",
+              "localTidbits": 1,
+              "usefulInsights": 0,
+              "significantSecrets": 0,
+              "outcome": "You still pick up one interesting local tidbit, but nothing immediately useful."
+            },
+            {
+              "result": "Meet DC",
+              "localTidbits": 1,
+              "usefulInsights": 1,
+              "significantSecrets": 0,
+              "outcome": "You learn one useful insight and one local tidbit."
+            },
+            {
+              "result": "Beat DC by 5+",
+              "localTidbits": 1,
+              "usefulInsights": 2,
+              "significantSecrets": 0,
+              "outcome": "You learn two useful insights and one local tidbit."
+            },
+            {
+              "result": "Beat DC by 10+",
+              "localTidbits": 0,
+              "usefulInsights": 2,
+              "significantSecrets": 1,
+              "outcome": "You uncover one significant secret and two useful insights."
+            },
+            {
+              "result": "Beat DC by 15+",
+              "localTidbits": 0,
+              "usefulInsights": 2,
+              "significantSecrets": 2,
+              "outcome": "You uncover two significant secrets and two useful insights."
+            }
+          ],
+          "notes": [
+            "Use the highest threshold reached.",
+            "The DM decides the exact information revealed based on the chosen focus, social class, location, and current campaign situation.",
+            "A Significant Secret is sensitive or unusually valuable social information, not automatically an objectively verified fact."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "tables": [
+          {
+            "id": "lower_class_carousing_complications",
+            "title": "Lower-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "A pickpocket lifts 1d10 × 5 gp from you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "A bar brawl leaves you with a scar.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 3,
+                "text": "You have fuzzy memories of doing something very, very illegal, but can't remember exactly what.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 4,
+                "text": "You are banned from a tavern after some obnoxious behavior.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "After a few drinks, you swore in the town square to pursue a dangerous quest.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 6,
+                "text": "Surprise! You're married.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "Streaking naked through the streets seemed like a great idea at the time.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 8,
+                "text": "Everyone is calling you by some weird, embarrassing nickname, like Puddle Drinker or Bench Slayer, and no one will say why.",
+                "mightInvolveRival": true
+              }
+            ]
+          },
+          {
+            "id": "middle_class_carousing_complications",
+            "title": "Middle-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "You accidentally insulted a guild master, and only a public apology will let you do business with the guild again.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "You swore to complete some quest on behalf of a temple or a guild.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 3,
+                "text": "A social gaffe has made you the talk of the town.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 4,
+                "text": "A particularly obnoxious person has taken an intense romantic interest in you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "You have made a foe out of a local spellcaster.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 6,
+                "text": "You have been recruited to help run a local festival, play, or similar event.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "You made a drunken toast that scandalized the locals.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 8,
+                "text": "You spent an additional 100 gp trying to impress people.",
+                "mightInvolveRival": false
+              }
+            ]
+          },
+          {
+            "id": "upper_class_carousing_complications",
+            "title": "Upper-Class Carousing Complications",
+            "columns": [
+              "roll",
+              "text"
+            ],
+            "rows": [
+              {
+                "roll": 1,
+                "text": "A pushy noble family wants to marry off one of their scions to you.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 2,
+                "text": "You tripped and fell during a dance, and people can't stop talking about it.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 3,
+                "text": "You have agreed to take on a noble's debts.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 4,
+                "text": "You have been challenged to a joust by a knight.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 5,
+                "text": "You have made a foe out of a local noble.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 6,
+                "text": "A boring noble insists you visit each day and listen to long, tedious theories of magic.",
+                "mightInvolveRival": false
+              },
+              {
+                "roll": 7,
+                "text": "You have become the target of a variety of embarrassing rumors.",
+                "mightInvolveRival": true
+              },
+              {
+                "roll": 8,
+                "text": "You spent an additional 500 gp trying to impress people.",
+                "mightInvolveRival": false
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Existing Carousing complications remain class-specific and can represent overspending, embarrassment, offended locals, debts, social obligations, rumors, or other consequences.",
+          "If the character is Carousing outside their natural social class while using a disguise or false identity, a complication may involve suspicion about their identity or social standing.",
+          "The normal complication chance is not increased merely because the character carouses outside their natural social class; the increased DC already represents that difficulty."
+        ]
+      }
+    },
+    {
+      "id": "crafting_an_item",
+      "name": "Crafting an Item",
+      "category": "crafting",
+      "summary": "A character crafts nonmagical gear or, with additional requirements, a magic item.",
+      "nonmagicalCrafting": {
+        "resources": {
+          "tools": "Appropriate tools for the item being crafted.",
+          "rawMaterialsCost": "Half of the item's selling cost.",
+          "toolProficiencyRequired": true,
+          "equipmentRequired": "Appropriate equipment, as judged by the DM."
+        },
+        "timeCalculation": {
+          "formula": "itemGoldCost / 50",
+          "unit": "workweeks",
+          "notes": [
+            "A character can complete multiple items in a workweek if their combined cost is 50 gp or lower.",
+            "Items costing more than 50 gp can be completed over longer periods if stored safely."
+          ]
+        },
+        "collaboration": {
+          "allowed": true,
+          "timeFormula": "baseTime / numberOfCollaboratingCharacters",
+          "requirements": "Every collaborator needs the appropriate tool proficiency.",
+          "dmGuidance": "The DM decides how many characters can reasonably work on an item."
+        },
+        "result": "If requirements are met, the process creates the desired item. The item can be sold at its listed price."
+      },
+      "magicItemCrafting": {
+        "summary": "Creating a magic item is a long-term process involving formulae, rare materials, and often an adventure.",
+        "exceptions": [
+          "Potions of healing",
+          "Spell scrolls"
+        ],
+        "requirements": {
+          "formulaRequired": true,
+          "exoticMaterialRequired": true,
+          "adventureLikelyRequired": true,
+          "proficiencyOptions": [
+            "Appropriate tool proficiency",
+            "Arcana skill proficiency"
+          ]
+        },
+        "consumableRule": "Halve the listed cost and creation time for consumable items.",
+        "dmGuidance": [
+          "Choose monsters or locations that thematically fit the item.",
+          "Facing a creature does not necessarily mean killing it; the creature might guard the needed location or resource."
+        ],
+        "examples": [
+          {
+            "item": "mariner's armor",
+            "possibleRequirement": "essence of a water weird"
+          },
+          {
+            "item": "staff of charming",
+            "possibleRequirement": "cooperation of a specific arcanaloth"
+          },
+          {
+            "item": "staff of power",
+            "possibleRequirement": "a piece of ancient stone touched by the god of magic and guarded by an androsphinx"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "crafting_tool_examples",
+          "title": "Crafting Tool Examples",
+          "columns": [
+            "proficiency",
+            "items"
+          ],
+          "rows": [
+            {
+              "proficiency": "Herbalism kit",
+              "items": [
+                "Antitoxin",
+                "Potion of healing"
+              ]
+            },
+            {
+              "proficiency": "Leatherworker's tools",
+              "items": [
+                "Leather armor",
+                "Boots"
+              ]
+            },
+            {
+              "proficiency": "Smith's tools",
+              "items": [
+                "Armor",
+                "Weapons"
+              ]
+            },
+            {
+              "proficiency": "Weaver's tools",
+              "items": [
+                "Cloaks",
+                "Robes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "magic_item_ingredients",
+          "title": "Magic Item Ingredients",
+          "columns": [
+            "itemRarity",
+            "crRange"
+          ],
+          "rows": [
+            {
+              "itemRarity": "Common",
+              "crRange": "1—3"
+            },
+            {
+              "itemRarity": "Uncommon",
+              "crRange": "4—8"
+            },
+            {
+              "itemRarity": "Rare",
+              "crRange": "9—12"
+            },
+            {
+              "itemRarity": "Very rare",
+              "crRange": "13—18"
+            },
+            {
+              "itemRarity": "Legendary",
+              "crRange": "19+"
+            }
+          ]
+        },
+        {
+          "id": "magic_item_crafting_time_and_cost",
+          "title": "Magic Item Crafting Time and Cost",
+          "columns": [
+            "itemRarity",
+            "workweeks",
+            "cost",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "itemRarity": "Common",
+              "workweeks": 1,
+              "cost": {
+                "amount": 50,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Uncommon",
+              "workweeks": 2,
+              "cost": {
+                "amount": 200,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Rare",
+              "workweeks": 10,
+              "cost": {
+                "amount": 2000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Very rare",
+              "workweeks": 25,
+              "cost": {
+                "amount": 20000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            },
+            {
+              "itemRarity": "Legendary",
+              "workweeks": 50,
+              "cost": {
+                "amount": 100000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve time and cost."
+            }
+          ]
+        },
+        {
+          "id": "potion_of_healing_creation",
+          "title": "Potion of Healing Creation",
+          "columns": [
+            "type",
+            "time",
+            "cost"
+          ],
+          "rows": [
+            {
+              "type": "Healing",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Greater healing",
+              "time": {
+                "quantity": 1,
+                "unit": "workweek"
+              },
+              "cost": {
+                "amount": 100,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Superior healing",
+              "time": {
+                "quantity": 3,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 1000,
+                "currency": "gp"
+              }
+            },
+            {
+              "type": "Supreme healing",
+              "time": {
+                "quantity": 4,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 10000,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "5 workweeks spent crafting an item"
+        },
+        "notes": [
+          "Complications are most interesting when characters are working on a magic item."
+        ],
+        "table": {
+          "id": "crafting_complications",
+          "title": "Crafting Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Rumors swirl that what you're working on is unstable and a threat to the community.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your tools are stolen, forcing you to buy new ones.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A local wizard shows keen interest in your work and insists on observing you.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A powerful noble offers a hefty price for your work and is not interested in hearing no for an answer.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "A dwarf clan accuses you of stealing its secret lore to fuel your work.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "A competitor spreads rumors that your work is shoddy and prone to failure.",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crime",
+      "name": "Crime",
+      "category": "illegal",
+      "summary": "A character spends a week gathering information and attempting a crime of a chosen difficulty. The target tier determines the base value, while the character's Honor affects the quality of criminal opportunities available.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "week"
+        },
+        "minimumCost": {
+          "amount": 25,
+          "currency": "gp",
+          "purpose": "gathering information on potential targets"
+        }
+      },
+      "resolution": {
+        "dcOptions": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ],
+        "checks": [
+          {
+            "ability": "Dexterity",
+            "skill": "Stealth"
+          },
+          {
+            "ability": "Dexterity",
+            "tool": "Thieves' tools"
+          },
+          {
+            "choice": [
+              {
+                "ability": "Intelligence",
+                "skill": "Investigation"
+              },
+              {
+                "ability": "Wisdom",
+                "skill": "Perception"
+              },
+              {
+                "ability": "Charisma",
+                "skill": "Deception"
+              }
+            ]
+          }
+        ],
+        "honorOpportunityRule": {
+          "description": "Honor changes the quality and profitability of criminal opportunities the character is offered. It does not change the Crime DC itself.",
+          "bands": [
+            {
+              "honor": "0–5",
+              "label": "Low Honor",
+              "valueMultiplier": 0.8,
+              "display": "-20% opportunity value",
+              "reason": "Criminal contacts consider the character dangerous or unreliable and avoid offering the best jobs."
+            },
+            {
+              "honor": "6–10",
+              "label": "Criminal Sweet Spot",
+              "valueMultiplier": 1.0,
+              "display": "100% opportunity value",
+              "reason": "The character appears criminal enough to be useful, but reliable enough to be trusted with profitable work."
+            },
+            {
+              "honor": "11+",
+              "label": "High Honor",
+              "valueMultiplier": 0.9,
+              "display": "-10% opportunity value",
+              "reason": "Criminal contacts do not expect the character to be experienced or discreet, so they tend to offer weaker opportunities."
+            }
+          ],
+          "applicationOrder": "Apply the Honor multiplier to the base opportunity value first, then apply the payout multiplier from the number of successful checks.",
+          "notes": [
+            "Honor never prevents the character from choosing a Crime DC tier.",
+            "Honor affects the quality of the opportunity found, not how difficult locks, guards, or security are.",
+            "The fine for being caught is based on the base legal value of the crime, not the Honor-adjusted opportunity value."
+          ]
+        },
+        "outcomesBySuccesses": [
+          {
+            "successes": 0,
+            "outcome": "Caught and jailed.",
+            "penalty": "Gain no loot. Pay a fine equal to the base value of the selected crime tier, serve the jail sentence listed for that tier, and lose the listed amount of Honor. The Honor loss represents being publicly identified or convicted."
+          },
+          {
+            "successes": 1,
+            "outcome": "The heist fails, but the character escapes.",
+            "payoutMultiplier": 0
+          },
+          {
+            "successes": 2,
+            "outcome": "Partial success.",
+            "payoutMultiplier": 0.5
+          },
+          {
+            "successes": 3,
+            "outcome": "Full success.",
+            "payoutMultiplier": 1
+          }
+        ],
+        "honorLossRule": {
+          "captureOnly": true,
+          "rule": "Honor is lost when the character is identified or captured for the crime. Successfully committing an undiscovered crime does not automatically reduce Honor.",
+          "delayedExposure": "If a later complication or investigation publicly reveals the character's involvement, the DM may apply the same Honor loss at that time."
+        }
+      },
+      "tables": [
+        {
+          "id": "loot_value",
+          "title": "Crime Opportunity Value",
+          "columns": [
+            "dc",
+            "baseValue",
+            "target",
+            "jailTime",
+            "honorLossOnCapture"
+          ],
+          "rows": [
+            {
+              "dc": 10,
+              "baseValue": {
+                "amount": 60,
+                "currency": "gp"
+              },
+              "target": "Petty robbery, poorly protected shop, or minor theft.",
+              "jailTime": {
+                "quantity": 1,
+                "unit": "week"
+              },
+              "honorLossOnCapture": -1
+            },
+            {
+              "dc": 15,
+              "baseValue": {
+                "amount": 125,
+                "currency": "gp"
+              },
+              "target": "Prosperous merchant, warehouse, or minor smuggling job.",
+              "jailTime": {
+                "quantity": 2,
+                "unit": "weeks"
+              },
+              "honorLossOnCapture": -1
+            },
+            {
+              "dc": 20,
+              "baseValue": {
+                "amount": 250,
+                "currency": "gp"
+              },
+              "target": "Wealthy merchant, guild office, minor noble, or well-guarded shipment.",
+              "jailTime": {
+                "quantity": 4,
+                "unit": "weeks"
+              },
+              "honorLossOnCapture": -2
+            },
+            {
+              "dc": 25,
+              "baseValue": {
+                "amount": 500,
+                "currency": "gp"
+              },
+              "target": "Major noble, treasury shipment, important institution, or heavily protected business.",
+              "jailTime": {
+                "quantity": 6,
+                "unit": "weeks"
+              },
+              "honorLossOnCapture": -3
+            },
+            {
+              "dc": 30,
+              "baseValue": {
+                "amount": 1000,
+                "currency": "gp"
+              },
+              "target": "Exceptionally wealthy or heavily protected target, major treasury, or one of the richest figures in the area.",
+              "jailTime": {
+                "quantity": 8,
+                "unit": "weeks"
+              },
+              "honorLossOnCapture": -4
+            }
+          ],
+          "notes": [
+            "The base value determines both the legal severity of the crime and the fine on capture.",
+            "Apply the character's Honor opportunity modifier to the base value to determine how much the job is actually worth to that character.",
+            "The jail sentence is tier-based rather than calculated per 25 gp, to avoid extremely long periods that remove a character from play."
+          ]
+        },
+        {
+          "id": "crime_honor_opportunities",
+          "title": "Crime Opportunities by Honor",
+          "columns": [
+            "honor",
+            "opportunityValue",
+            "reason"
+          ],
+          "rows": [
+            {
+              "honor": "0–5",
+              "opportunityValue": "80% of base value",
+              "reason": "Very low Honor makes criminal contacts expect betrayal, violence, or unreliability."
+            },
+            {
+              "honor": "6–10",
+              "opportunityValue": "100% of base value",
+              "reason": "The character has the best balance of criminal credibility and professional trust."
+            },
+            {
+              "honor": "11+",
+              "opportunityValue": "90% of base value",
+              "reason": "High-Honor characters are not usually trusted with the best criminal opportunities."
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "trigger": [
+          "Roll or create a complication if the character succeeds on only one check.",
+          "If the character's rival is involved in crime or law enforcement, a complication occurs if the character succeeds on only two checks."
+        ],
+        "table": {
+          "id": "crime_complications",
+          "title": "Crime Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A bounty equal to your earnings is offered for information about your crime.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "An unknown person contacts you, threatening to reveal your crime if you don't render a service.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "Your victim is financially ruined by your crime.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "Someone who knows of your crime has been arrested on an unrelated matter.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "Your loot is a single, easily identified item that you can't fence in this region.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "You robbed someone who was under a local crime lord's protection, and who now wants revenge.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 7,
+              "text": "Your victim calls in a favor from a guard, doubling the efforts to solve the case.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 8,
+              "text": "Your victim asks one of your adventuring companions to solve the crime.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gambling",
+      "name": "Gambling",
+      "category": "games",
+      "summary": "A character spends a workweek gambling at a chosen table. Higher-stakes tables attract more skilled opposition, increasing both the difficulty and the consequences of being caught cheating.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "stake": {
+          "minimum": 10,
+          "maximumDefault": 1000,
+          "currency": "gp",
+          "notes": [
+            "The chosen stake must fit the limits of the selected gambling table.",
+            "The stake is committed before the gambling checks begin.",
+            "The DM may allow higher-stakes games in exceptional locations."
+          ]
+        }
+      },
+      "resolution": {
+        "baseDcFormula": "5 + 2d10",
+        "dcGeneration": "Generate a separate base DC for each of the three checks, then add the gambling table's current difficulty modifier.",
+        "tableDifficultyRule": "For tables with a modifier range, determine one modifier for the entire gambling activity. The DM may choose an appropriate value or roll within the listed range to represent the skill of the players present.",
+        "checks": [
+          {
+            "ability": "Wisdom",
+            "skill": "Insight"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Deception"
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Intimidation"
+          }
+        ],
+        "toolSubstitution": "Proficiency with an appropriate gaming set can replace the relevant skill in any of the checks.",
+        "cheating": {
+          "optional": true,
+          "timing": "After making a Gambling check and seeing the result, the player may choose to cheat.",
+          "bonus": "Roll 1d4 and add it to that check.",
+          "limitations": [
+            "Cheating can only affect the check on which it is declared.",
+            "If the original roll misses the DC by 5 or more, the 1d4 cannot turn the failure into a success.",
+            "A character may attempt to cheat on more than one of the three checks."
+          ],
+          "detection": "Each time the character cheats, the DM secretly rolls d100. If the result is equal to or below the selected table's cheating detection chance, the cheating is noticed.",
+          "failedCheatStillRisky": "The detection roll is made even if the 1d4 bonus is not enough to turn the failed check into a success.",
+          "caughtRule": "If cheating is detected, the gambling session ends immediately. Ignore the normal success-count payout and apply the selected table's Caught Cheating consequence instead."
+        }
+      },
+      "tables": [
+        {
+          "id": "gambling_tables",
+          "title": "Gambling Tables",
+          "columns": [
+            "table",
+            "stake",
+            "dcModifier",
+            "cheatingDetection",
+            "caughtCheating"
+          ],
+          "rows": [
+            {
+              "table": "Casual Table",
+              "stake": "10–50 gp",
+              "minimumStake": 10,
+              "maximumStake": 50,
+              "dcModifier": "+0",
+              "dcModifierMinimum": 0,
+              "dcModifierMaximum": 0,
+              "cheatingDetection": "10%",
+              "cheatingDetectionPercent": 10,
+              "caughtCheating": "Lose the entire stake. You are thrown out and cannot gamble at that establishment again for 1d4 weeks."
+            },
+            {
+              "table": "Serious Table",
+              "stake": "51–200 gp",
+              "minimumStake": 51,
+              "maximumStake": 200,
+              "dcModifier": "+2 to +3",
+              "dcModifierMinimum": 2,
+              "dcModifierMaximum": 3,
+              "cheatingDetection": "20%",
+              "cheatingDetectionPercent": 20,
+              "caughtCheating": "Lose the entire stake and owe an additional amount equal to half the stake. Gain a hostile contact or a local reputation as a cheat, at the DM's choice."
+            },
+            {
+              "table": "High-Stakes Table",
+              "stake": "201–500 gp",
+              "minimumStake": 201,
+              "maximumStake": 500,
+              "dcModifier": "+4 to +5",
+              "dcModifierMinimum": 4,
+              "dcModifierMaximum": 5,
+              "cheatingDetection": "35%",
+              "cheatingDetectionPercent": 35,
+              "caughtCheating": "Lose the entire stake and owe an additional amount equal to the stake. You are banned from the establishment and roll once on the Gambling Complications table."
+            },
+            {
+              "table": "Elite Table",
+              "stake": "501–1,000 gp",
+              "minimumStake": 501,
+              "maximumStake": 1000,
+              "dcModifier": "+6 to +8",
+              "dcModifierMinimum": 6,
+              "dcModifierMaximum": 8,
+              "cheatingDetection": "50%",
+              "cheatingDetectionPercent": 50,
+              "caughtCheating": "Lose the entire stake and owe an additional amount equal to twice the stake. Roll twice on the Serious Cheating Consequences table; the DM applies the worse or more relevant result."
+            }
+          ],
+          "notes": [
+            "The table modifier represents the quality of the opposition, not the amount of money itself.",
+            "A specific gambling den, tournament, or group of players may use a fixed modifier within its tier."
+          ]
+        },
+        {
+          "id": "gambling_results",
+          "title": "Gambling Results",
+          "columns": [
+            "successes",
+            "value"
+          ],
+          "rows": [
+            {
+              "successes": 0,
+              "value": "Lose all the money you bet, and accrue a debt equal to that amount.",
+              "netStakeMultiplier": -2
+            },
+            {
+              "successes": 1,
+              "value": "Lose half the money you bet.",
+              "netStakeMultiplier": -0.5
+            },
+            {
+              "successes": 2,
+              "value": "Gain the amount you bet plus half again more.",
+              "grossStakeMultiplier": 1.5
+            },
+            {
+              "successes": 3,
+              "value": "Gain double the amount you bet.",
+              "grossStakeMultiplier": 2
+            }
+          ],
+          "notes": [
+            "These results apply only if the character is not caught cheating."
+          ]
+        },
+        {
+          "id": "serious_cheating_consequences",
+          "title": "Serious Cheating Consequences",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Security detains you. Local guards, hired enforcers, or another authority becomes involved."
+            },
+            {
+              "roll": 2,
+              "text": "The house demands repayment. Until the debt is paid, collectors or enforcers pursue you."
+            },
+            {
+              "roll": 3,
+              "text": "Your cheating becomes known. You are banned from respectable gambling establishments in this settlement or region until you repair your reputation."
+            },
+            {
+              "roll": 4,
+              "text": "You cheated the wrong person. Gain a powerful hostile contact connected to the table."
+            },
+            {
+              "roll": 5,
+              "text": "The house wants compensation other than money. You owe a dangerous favor."
+            },
+            {
+              "roll": 6,
+              "text": "Someone offers to keep quiet for a price. Pay an additional amount equal to the stake or accept ongoing blackmail."
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "gambling_complications",
+          "title": "Gambling Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You are accused of cheating. You decide whether you actually did cheat or were framed.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "The town guards raid the gambling hall and throw you in jail.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A noble in town loses badly to you and loudly vows to get revenge.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "A local crime boss insists you start frequenting the boss's gambling parlor and no others.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "A high-stakes gambler comes to town and insists that you take part in a game.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pit_fighting",
+      "name": "Pit Fighting",
+      "category": "competition",
+      "summary": "A character spends a workweek participating in organized nonlethal combat such as boxing or wrestling, risking a chosen stake for greater winnings. Higher stakes attract tougher opponents and make every bout harder.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "stake": {
+          "minimum": 50,
+          "maximumDefault": 450,
+          "currency": "gp",
+          "notes": [
+            "The stake is committed before the bouts begin.",
+            "The maximum standard stake is 450 gp because the stake-based DC modifier is capped at +8.",
+            "A location may impose a lower maximum stake if its fighting scene cannot support high-stakes bouts."
+          ]
+        }
+      },
+      "resolution": {
+        "scope": "Nonlethal organized fighting with predetermined matches. Nonlethal does not mean harmless; poor results can cause exhaustion, reduced maximum hit points, or a lingering injury.",
+        "deathMatchNote": "For battle-to-the-death combat, use standard combat rules instead.",
+        "baseDcFormula": "5 + 2d10",
+        "dcGeneration": "Generate a separate DC for each of the three checks, then add the stake modifier to each DC.",
+        "stakeDcModifier": {
+          "formula": "+1 DC for every full 50 gp of stake above the first 50 gp",
+          "examples": {
+            "50 gp": "+0",
+            "100 gp": "+1",
+            "150 gp": "+2",
+            "200 gp": "+3",
+            "250 gp": "+4",
+            "300 gp": "+5",
+            "350 gp": "+6",
+            "400 gp": "+7",
+            "450 gp": "+8"
+          },
+          "maximum": "+8"
+        },
+        "checks": [
+          {
+            "ability": "Strength",
+            "skill": "Athletics"
+          },
+          {
+            "ability": "Dexterity",
+            "skill": "Acrobatics"
+          },
+          {
+            "ability": "Constitution",
+            "specialBonus": "Roll the character's largest Hit Die and add it as a bonus; this does not spend the die."
+          }
+        ],
+        "substitution": "The character may replace one of these three checks with an attack roll using one of the character's weapons.",
+        "payoutDefinition": "All listed multipliers are gross payouts and include the returned stake. For example, a 1.5× payout on a 200 gp stake returns 300 gp total, for a net profit of 100 gp.",
+        "maxHpReduction": {
+          "rule": "When an outcome reduces maximum hit points, reduce the character's normal maximum hit points by the listed percentage, rounding up.",
+          "recovery": "This reduction ends after the character completes a Long Rest or receives suitable treatment that specifically restores reduced maximum hit points, at the DM's discretion."
+        },
+        "lingeringInjury": "When an outcome causes a Lingering Injury, roll on the campaign's Lingering Injury table.",
+        "championRound": {
+          "availability": "Available only after succeeding on all three normal Pit Fighting checks.",
+          "choice": "The character may cash out normally or push their luck by challenging the champion.",
+          "check": "Generate one fresh DC using 5 + 2d10 plus the same stake modifier. The character makes one additional Pit Fighting check, choosing Athletics, Acrobatics, the Constitution check with the largest Hit Die bonus, or the normal permitted weapon attack-roll substitution.",
+          "success": "Receive a total payout equal to 4× the stake.",
+          "failure": "Receive a total payout equal to 1× the stake (the original stake is returned, with no profit) and suffer a Lingering Injury."
+        }
+      },
+      "tables": [
+        {
+          "id": "pit_fighting_results",
+          "title": "Pit Fighting Results",
+          "columns": [
+            "successes",
+            "payout",
+            "result"
+          ],
+          "rows": [
+            {
+              "successes": 0,
+              "payout": "0× stake",
+              "grossStakeMultiplier": 0,
+              "result": "Lose the entire stake. Suffer a Lingering Injury and reduce maximum hit points by 20%."
+            },
+            {
+              "successes": 1,
+              "payout": "0.75× stake",
+              "grossStakeMultiplier": 0.75,
+              "result": "Recover only three quarters of the stake, for a net loss of 25%. Gain 1 level of exhaustion and reduce maximum hit points by 10%."
+            },
+            {
+              "successes": 2,
+              "payout": "1.5× stake",
+              "grossStakeMultiplier": 1.5,
+              "result": "Receive one and a half times the stake, for a net profit of 50%. Gain 1 level of exhaustion."
+            },
+            {
+              "successes": 3,
+              "payout": "2× stake",
+              "grossStakeMultiplier": 2,
+              "result": "Receive double the stake, for a net profit equal to the stake. Gain no exhaustion. You may instead push your luck and challenge the champion."
+            }
+          ],
+          "notes": [
+            "If the champion challenge is attempted, replace the normal 2× payout with the champion-round result.",
+            "Champion success pays 4× the stake total. Champion failure pays 1× the stake total and causes a Lingering Injury."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "pit_fighting_complications",
+          "title": "Pit Fighting Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "An opponent swears to take revenge on you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "A crime boss approaches you and offers to pay you to intentionally lose a few matches.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "You defeat a popular local champion, drawing the crowd's ire.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "You defeat a noble's servant, drawing the wrath of the noble's house.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You accidentally deliver a near-fatal wound to a foe.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "relaxation",
+      "name": "Relaxation",
+      "category": "recovery",
+      "summary": "A character spends a full week deliberately resting at their maintained lifestyle or a temporarily higher lifestyle. Better lifestyles cost more but grant stronger short-term benefits. Most benefits last only through the following week.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "week",
+          "days": 9
+        },
+        "lifestyleRule": {
+          "minimumTier": "A character must relax at their currently maintained lifestyle or at a higher lifestyle. They cannot choose a lower lifestyle merely to reduce the cost.",
+          "temporaryUpgrade": "A character may choose a higher lifestyle only for this Relaxation activity. They do not need to maintain that higher lifestyle afterward.",
+          "benefitTier": "The character gains the benefits of the lifestyle actually purchased for the Relaxation activity."
+        },
+        "costFormula": {
+          "baseFormula": "Daily lifestyle expense × 9 days × 3",
+          "baseMultiplier": 27,
+          "reason": "Relaxation represents spending beyond ordinary living costs on accommodation, baths, spa treatments, food, drink, entertainment, privacy, attendants, restorative procedures, and other comforts.",
+          "temporaryUpgradeSurcharge": {
+            "rule": "If the chosen Relaxation lifestyle is higher than the character's maintained lifestyle, add +25% to the total Relaxation cost for each lifestyle tier above the maintained lifestyle, to a maximum surcharge of +100%.",
+            "perTierPercent": 25,
+            "maximumPercent": 100,
+            "reason": "Characters unfamiliar with a higher lifestyle tend to overpay, buy redundant services, choose inefficient packages, or otherwise spend more than someone accustomed to that standard of living."
+          },
+          "paymentTiming": "Pay the full Relaxation cost at the start of the activity. If the week is interrupted before completion, the character does not gain the post-Relaxation benefits and the spent cost is not automatically refunded."
+        },
+        "lifestyleDailyExpenses": [
+          {
+            "lifestyle": "Príšerný",
+            "tier": 0,
+            "dailyExpenseGp": 0,
+            "baseRelaxationCostGp": 0
+          },
+          {
+            "lifestyle": "Biedny",
+            "tier": 1,
+            "dailyExpenseGp": 0.1,
+            "baseRelaxationCostGp": 2.7
+          },
+          {
+            "lifestyle": "Chudobný",
+            "tier": 2,
+            "dailyExpenseGp": 0.2,
+            "baseRelaxationCostGp": 5.4
+          },
+          {
+            "lifestyle": "Skromný",
+            "tier": 3,
+            "dailyExpenseGp": 1,
+            "baseRelaxationCostGp": 27
+          },
+          {
+            "lifestyle": "Pohodlný",
+            "tier": 4,
+            "dailyExpenseGp": 2,
+            "baseRelaxationCostGp": 54
+          },
+          {
+            "lifestyle": "Bohatý",
+            "tier": 5,
+            "dailyExpenseGp": 4,
+            "baseRelaxationCostGp": 108
+          },
+          {
+            "lifestyle": "Aristokratický",
+            "tier": 6,
+            "dailyExpenseGp": 10,
+            "dailyExpenseMinimum": true,
+            "baseRelaxationCostGp": 270,
+            "baseRelaxationCostMinimum": true,
+            "notes": "If the character's actual Aristocratic daily expense is higher than 10 gp, use that actual daily expense in the formula."
+          }
+        ]
+      },
+      "resolution": {
+        "duringRelaxationBenefit": "While completing the Relaxation week, the character has advantage on saving throws made to recover from long-acting diseases and poisons.",
+        "postRelaxationDuration": "Post-Relaxation benefits become available when the Relaxation week is completed and expire at the end of the immediately following week.",
+        "expirationRule": "All unused Relaxation Dice, Temporary Hit Dice, Well Rested rerolls, Initiative bonuses, and death-save protection expire at the end of the week immediately following the Relaxation activity.",
+        "nonPermanentRule": "Relaxation grants no permanent statistic increases, permanent hit dice, permanent inspiration, or other permanent benefits.",
+        "benefitRules": {
+          "relaxationDie": {
+            "rule": "After making an attack roll, ability check, saving throw, or Initiative roll, but before the DM announces whether it succeeds, the character may spend one Relaxation Die and add it to the roll.",
+            "stacking": "Relaxation Dice are stored individually and can stack, but a character can have no more than 3 stored Relaxation Dice at a time.",
+            "useLimit": "Only one Relaxation Die can be spent on a single roll."
+          },
+          "temporaryHitDie": {
+            "rule": "A Temporary Hit Die uses the character's largest normal Hit Die. It may be spent whenever the character could normally spend a Hit Die to recover hit points. It does not consume or count against the character's normal Hit Dice.",
+            "expiration": "Unused Temporary Hit Dice expire with the other Relaxation benefits."
+          },
+          "wellRested": {
+            "rule": "Once during the benefit period, after rolling an ability check but before learning whether it succeeds, the character may reroll the d20 and use either result.",
+            "stacking": "Multiple Well Rested benefits do not stack."
+          },
+          "freshStart": {
+            "rule": "Once during the benefit period, add +2 to one Initiative roll.",
+            "stacking": "Multiple Fresh Start benefits do not stack."
+          },
+          "refuseToDrop": {
+            "rule": "The first time the character fails a Death Saving Throw during the benefit period, they may reroll it. They must use the new result.",
+            "stacking": "Multiple Refuse to Drop benefits do not stack."
+          }
+        },
+        "higherTierRule": "Each lifestyle package is self-contained. Higher-tier packages replace lower-tier packages; benefits are not cumulatively added from every lower lifestyle."
+      },
+      "tables": [
+        {
+          "id": "relaxation_lifestyle_benefits",
+          "title": "Relaxation Lifestyle Benefits",
+          "columns": [
+            "lifestyle",
+            "dailyExpense",
+            "baseRelaxationCost",
+            "benefits"
+          ],
+          "rows": [
+            {
+              "lifestyle": "Príšerný",
+              "dailyExpense": "0 gp",
+              "baseRelaxationCost": "0 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "No post-Relaxation adventuring benefit."
+              ]
+            },
+            {
+              "lifestyle": "Biedny",
+              "dailyExpense": "1 sp",
+              "baseRelaxationCost": "2.7 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "1 Temporary Hit Die."
+              ]
+            },
+            {
+              "lifestyle": "Chudobný",
+              "dailyExpense": "2 sp",
+              "baseRelaxationCost": "5.4 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "1 Temporary Hit Die.",
+                "1 Relaxation Die (d4)."
+              ]
+            },
+            {
+              "lifestyle": "Skromný",
+              "dailyExpense": "1 gp",
+              "baseRelaxationCost": "27 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "1 Temporary Hit Die.",
+                "1 Relaxation Die (d4).",
+                "Well Rested: reroll one ability check and use either result."
+              ]
+            },
+            {
+              "lifestyle": "Pohodlný",
+              "dailyExpense": "2 gp",
+              "baseRelaxationCost": "54 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "2 Temporary Hit Dice.",
+                "1 Relaxation Die (d6).",
+                "Well Rested: reroll one ability check and use either result."
+              ]
+            },
+            {
+              "lifestyle": "Bohatý",
+              "dailyExpense": "4 gp",
+              "baseRelaxationCost": "108 gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "2 Temporary Hit Dice.",
+                "2 Relaxation Dice (d6 each).",
+                "Well Rested: reroll one ability check and use either result.",
+                "Fresh Start: add +2 to one Initiative roll."
+              ]
+            },
+            {
+              "lifestyle": "Aristokratický",
+              "dailyExpense": "10+ gp",
+              "baseRelaxationCost": "270+ gp",
+              "benefits": [
+                "Advantage on saving throws to recover from long-acting diseases and poisons during the Relaxation week.",
+                "3 Temporary Hit Dice.",
+                "2 Relaxation Dice (d8 each).",
+                "Well Rested: reroll one ability check and use either result.",
+                "Fresh Start: add +2 to one Initiative roll.",
+                "Refuse to Drop: reroll the first failed Death Saving Throw and use the new result."
+              ]
+            }
+          ],
+          "notes": [
+            "Base Relaxation cost assumes the character is relaxing at their maintained lifestyle.",
+            "If a higher lifestyle is chosen temporarily, apply the temporary-upgrade surcharge after calculating the base Relaxation cost.",
+            "Aristocratic lifestyle uses 10 gp as the minimum daily expense; use a higher actual daily expense if applicable."
+          ]
+        },
+        {
+          "id": "relaxation_upgrade_surcharge",
+          "title": "Temporary Lifestyle Upgrade Surcharge",
+          "columns": [
+            "tiersAboveMaintainedLifestyle",
+            "surcharge"
+          ],
+          "rows": [
+            {
+              "tiersAboveMaintainedLifestyle": 0,
+              "surcharge": "+0%"
+            },
+            {
+              "tiersAboveMaintainedLifestyle": 1,
+              "surcharge": "+25%"
+            },
+            {
+              "tiersAboveMaintainedLifestyle": 2,
+              "surcharge": "+50%"
+            },
+            {
+              "tiersAboveMaintainedLifestyle": 3,
+              "surcharge": "+75%"
+            },
+            {
+              "tiersAboveMaintainedLifestyle": "4 or more",
+              "surcharge": "+100% maximum"
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "type": "rare"
+        },
+        "guidance": "Relaxation rarely has complications. If desired, the DM can introduce an event connected to a rival."
+      }
+    },
+    {
+      "id": "religious_service",
+      "name": "Religious Service",
+      "category": "social",
+      "summary": "A character spends a workweek serving a temple or faith through rites, teaching, charity, organization, maintenance, proselytizing, or other suitable service. Most service provides no immediate mechanical reward, but exceptional service can slowly improve Honor or even draw direct divine acknowledgement.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "cost": {
+          "amount": 0,
+          "currency": "gp"
+        },
+        "accessRequirement": "Access to a temple, shrine, religious order, or community whose beliefs and ethos are sufficiently aligned with the character for meaningful service."
+      },
+      "resolution": {
+        "checkChoice": [
+          {
+            "ability": "Intelligence",
+            "skill": "Religion",
+            "purpose": "Represents rites, scripture, theology, ceremonial work, correct observance, teaching doctrine, or other knowledge-based service."
+          },
+          {
+            "ability": "Charisma",
+            "skill": "Persuasion",
+            "purpose": "Represents preaching, helping worshippers, organizing people, inspiring the faithful, or socially supporting the temple community."
+          }
+        ],
+        "honorRule": {
+          "threshold": 20,
+          "gain": 1,
+          "monthlyCap": 1,
+          "rule": "A result of 20 or higher can increase Honor by +1, but Religious Service can increase a character's Honor by no more than +1 per month.",
+          "reason": "Religious Service can slowly rebuild reputation and trust, but it should not restore Honor as quickly as reckless or criminal behavior can damage it.",
+          "alreadyGainedThisMonth": "If the character has already gained Honor from Religious Service during the current month, further successful Religious Service does not grant additional Honor that month."
+        },
+        "divineAcknowledgement": {
+          "threshold": 32,
+          "guaranteed": true,
+          "rule": "A check total of 32 or higher means the character's service draws the attention of the deity, a direct divine agent, or another unmistakably sacred power associated with the faith.",
+          "dmDeterminesForm": true,
+          "guidance": "The DM determines how the acknowledgement manifests based on the deity, character, campaign, current circumstances, and the tone of the faith.",
+          "possibleForms": [
+            "A temporary or permanent boon.",
+            "A unique blessing.",
+            "A sacred item, relic, or divine gift.",
+            "Otherwise unobtainable knowledge.",
+            "A prophetic dream, omen, or vision.",
+            "Direct guidance or an unmistakable sign.",
+            "Removal of a curse or spiritual burden.",
+            "An unusual spell-like gift.",
+            "Recognition as favored by the faith.",
+            "Intervention through a celestial, spirit, saint, or divine servant."
+          ],
+          "importantNote": "A 32+ result guarantees acknowledgement, not a fixed reward or fixed power level. The acknowledgement may be narrative, mechanical, temporary, permanent, subtle, or dramatic.",
+          "honorInteraction": "Divine Acknowledgement can occur even if the character has already reached the monthly +1 Honor cap."
+        },
+        "favorRule": "Religious Service does not automatically generate stored Temple Favors. Favors can still arise through roleplay, quests, relationships, Additional Work, or other specific circumstances determined by the DM."
+      },
+      "tables": [
+        {
+          "id": "religious_service_results",
+          "title": "Religious Service",
+          "columns": [
+            "checkTotal",
+            "result",
+            "honorGain",
+            "divineAcknowledgement"
+          ],
+          "rows": [
+            {
+              "checkTotal": {
+                "display": "1—19"
+              },
+              "result": "You spend the week serving faithfully, but nothing mechanically exceptional happens.",
+              "honorGain": 0,
+              "divineAcknowledgement": false
+            },
+            {
+              "checkTotal": {
+                "display": "20—31"
+              },
+              "result": "Your service makes a meaningful positive impression. Gain +1 Honor, subject to the monthly Religious Service Honor cap.",
+              "honorGain": 1,
+              "divineAcknowledgement": false
+            },
+            {
+              "checkTotal": {
+                "display": "32+"
+              },
+              "result": "Gain +1 Honor, subject to the monthly cap, and receive Divine Acknowledgement. The DM decides how the deity or divine power responds.",
+              "honorGain": 1,
+              "divineAcknowledgement": true
+            }
+          ],
+          "notes": [
+            "Religious Service can increase Honor by at most +1 per month.",
+            "A 32+ result can still grant Divine Acknowledgement even if no additional Honor can be gained that month.",
+            "Most Religious Service produces no immediate mechanical reward; the exceptional result is intentionally rare."
+          ]
+        },
+        {
+          "id": "divine_acknowledgement_examples",
+          "title": "Divine Acknowledgement Examples",
+          "columns": [
+            "type",
+            "example"
+          ],
+          "rows": [
+            {
+              "type": "Boon or Blessing",
+              "example": "A temporary or permanent divine benefit chosen by the DM."
+            },
+            {
+              "type": "Sacred Gift",
+              "example": "A relic, holy item, symbolic gift, or other divine object."
+            },
+            {
+              "type": "Knowledge",
+              "example": "A vision, omen, prophecy, revelation, or otherwise unobtainable information."
+            },
+            {
+              "type": "Intervention",
+              "example": "A celestial, saint, spirit, or divine servant acts on the character's behalf."
+            },
+            {
+              "type": "Spiritual Change",
+              "example": "A curse, burden, mark, or spiritual condition is altered or removed."
+            },
+            {
+              "type": "Recognition",
+              "example": "The character is unmistakably recognized as having drawn the attention or favor of the deity."
+            }
+          ],
+          "notes": [
+            "These are examples only. The DM is not required to roll on or choose from this table."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "table": {
+          "id": "religious_service_complications",
+          "title": "Religious Service Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You have offended a priest through your words or actions.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Blasphemy is still blasphemy, even if you did it by accident.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 3,
+              "text": "A secret sect in the temple offers you membership.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "Another temple tries to recruit you as a spy.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "The temple elders implore you to take up a holy quest.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "You accidentally discover that an important person in the temple is a fiend worshiper.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "category": "knowledge",
+      "summary": "A character spends a workweek investigating a specific person, place, creature, item, event, organization, or other topic. Research remains Intelligence-focused, but combines source-finding with relevant subject expertise.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "minimumCost": {
+          "amount": 50,
+          "currency": "gp",
+          "purpose": "materials, books, access fees, bribes, gifts, questions, translations, copies, and other research expenses"
+        },
+        "accessRequirement": "Research usually requires access to suitable sources such as a library, archive, sage, specialist, witness, collection, institution, or other relevant source of information."
+      },
+      "resolution": {
+        "researchFocusRequired": true,
+        "researchDifficulty": {
+          "rule": "The DM determines the Research DC before the checks based on how common, specialized, restricted, secret, forgotten, suppressed, or otherwise difficult the desired information is to obtain.",
+          "tiers": [
+            {
+              "difficulty": "Common",
+              "dc": 10,
+              "examples": "Public history, widely known monster behavior, common professional knowledge, or easily available records."
+            },
+            {
+              "difficulty": "Specialized",
+              "dc": 15,
+              "examples": "Academic, professional, technical, regional, or otherwise specialized knowledge."
+            },
+            {
+              "difficulty": "Restricted",
+              "dc": 20,
+              "examples": "Obscure records, guarded archives, uncommon monster lore, private histories, or information known only to specialists."
+            },
+            {
+              "difficulty": "Secret",
+              "dc": 25,
+              "examples": "Deliberately hidden lore, suppressed records, concealed identities, forbidden practices, or closely guarded knowledge."
+            },
+            {
+              "difficulty": "Lost / Forbidden",
+              "dc": 30,
+              "examples": "Nearly forgotten, destroyed, ancient, heavily suppressed, exceptionally rare, or forbidden knowledge."
+            }
+          ]
+        },
+        "checks": [
+          {
+            "name": "Research Check",
+            "ability": "Intelligence",
+            "skill": "Investigation",
+            "purpose": "Locate, compare, evaluate, and connect useful sources."
+          },
+          {
+            "name": "Subject Check",
+            "ability": "Intelligence",
+            "skillChoiceByTopic": [
+              "Arcana",
+              "History",
+              "Nature",
+              "Religion"
+            ],
+            "purpose": "Understand and correctly interpret the information found.",
+            "dmException": "If the subject or research method strongly fits another skill, the DM may allow a different appropriate skill. The default structure should remain Intelligence-focused."
+          }
+        ],
+        "moneySupport": {
+          "rule": "For each additional 50 gp spent beyond the initial 50 gp, gain +1 to either the Research Check or the Subject Check.",
+          "maximumTotalBonus": "+6",
+          "maximumBonusPerCheck": "+3",
+          "examples": [
+            "Buying rare books or paying archive fees.",
+            "Paying specialists, translators, witnesses, or informants.",
+            "Purchasing copies, maps, records, or reference materials.",
+            "Offering gifts, bribes, or consultation fees."
+          ]
+        },
+        "sourceSupport": {
+          "rule": "A particularly appropriate, well-stocked, or authoritative source grants advantage on one of the two checks.",
+          "examples": [
+            "A royal archive may grant advantage on the Research Check.",
+            "An archmage specializing in planar magic may grant advantage on an Arcana Subject Check.",
+            "An ancient druidic collection may grant advantage on a Nature Subject Check.",
+            "A temple archive or theologian may grant advantage on a Religion Subject Check."
+          ],
+          "limit": "A source normally grants advantage to only one check unless the DM decides the source is exceptionally comprehensive."
+        },
+        "loreDefinitions": {
+          "minorLore": "Useful or interesting information that improves understanding but usually does not solve the problem by itself.",
+          "majorLore": "Information with immediate practical, strategic, mechanical, or narrative importance.",
+          "minorExamples": [
+            "Approximate age, origin, creator, region, heraldry, affiliation, or historical context.",
+            "Known habits, traditions, minor weaknesses, common practices, or background relationships.",
+            "Where a subject was previously seen, studied, recorded, or associated."
+          ],
+          "majorExamples": [
+            "A creature's important vulnerability, resistance, or exploitable behavior.",
+            "A hidden entrance, password, key phrase, ritual requirement, or ward weakness.",
+            "A critical relationship, secret allegiance, identity, motive, or dangerous dependency.",
+            "A practical weakness in an enemy plan, artifact, organization, ritual, or location."
+          ]
+        },
+        "outcomeRule": "Count the number of successful checks against the chosen Research DC, then apply any strong-success bonus.",
+        "strongSuccessRule": {
+          "oneCheckBeatsDcBy5": "Gain 1 additional Minor Lore.",
+          "bothChecksBeatDcBy5": "Instead of the normal strong-success bonus, gain 1 additional Major Lore.",
+          "notes": [
+            "Use only the highest applicable strong-success bonus.",
+            "Beating the DC by 5 or more represents especially effective research, not a separate third check."
+          ]
+        },
+        "failureRule": "If neither check succeeds, the character finds nothing useful or new. Failure does not normally provide false information.",
+        "falseInformationRule": "False or misleading information should normally come from a specific complication, unreliable source, hostile interference, or another established narrative reason rather than from ordinary failed Research checks.",
+        "dmGuidance": "The DM decides the exact facts revealed, but should clearly distinguish Minor Lore from Major Lore when presenting the result."
+      },
+      "tables": [
+        {
+          "id": "research_difficulty",
+          "title": "Research Difficulty",
+          "columns": [
+            "difficulty",
+            "dc",
+            "example"
+          ],
+          "rows": [
+            {
+              "difficulty": "Common",
+              "dc": 10,
+              "example": "Public history, common monster behavior, or easily available records."
+            },
+            {
+              "difficulty": "Specialized",
+              "dc": 15,
+              "example": "Academic, technical, professional, or specialized knowledge."
+            },
+            {
+              "difficulty": "Restricted",
+              "dc": 20,
+              "example": "Obscure, guarded, private, or specialist-only information."
+            },
+            {
+              "difficulty": "Secret",
+              "dc": 25,
+              "example": "Deliberately hidden, suppressed, forbidden, or closely guarded knowledge."
+            },
+            {
+              "difficulty": "Lost / Forbidden",
+              "dc": 30,
+              "example": "Nearly forgotten, destroyed, ancient, exceptionally rare, or heavily suppressed lore."
+            }
+          ]
+        },
+        {
+          "id": "research_outcomes",
+          "title": "Research Outcomes",
+          "columns": [
+            "successfulChecks",
+            "outcome",
+            "minorLore",
+            "majorLore"
+          ],
+          "rows": [
+            {
+              "successfulChecks": 0,
+              "outcome": "You do not find anything useful or new.",
+              "minorLore": 0,
+              "majorLore": 0
+            },
+            {
+              "successfulChecks": 1,
+              "outcome": "You uncover useful context.",
+              "minorLore": 1,
+              "majorLore": 0
+            },
+            {
+              "successfulChecks": 2,
+              "outcome": "You uncover both important information and useful context.",
+              "minorLore": 1,
+              "majorLore": 1
+            }
+          ],
+          "notes": [
+            "If one check beats the DC by 5 or more, gain 1 additional Minor Lore.",
+            "If both checks beat the DC by 5 or more, gain 1 additional Major Lore instead of the additional Minor Lore.",
+            "The strongest possible normal result is 2 Major Lore and 1 Minor Lore."
+          ]
+        },
+        {
+          "id": "research_skill_examples",
+          "title": "Research Subject Skill Examples",
+          "columns": [
+            "topic",
+            "researchCheck",
+            "subjectCheck"
+          ],
+          "rows": [
+            {
+              "topic": "Ancient war, dynasty, ruined city, historical figure",
+              "researchCheck": "Intelligence (Investigation)",
+              "subjectCheck": "Intelligence (History)"
+            },
+            {
+              "topic": "Magic item, spell, planar phenomenon, magical anomaly",
+              "researchCheck": "Intelligence (Investigation)",
+              "subjectCheck": "Intelligence (Arcana)"
+            },
+            {
+              "topic": "Monster, ecosystem, plant, beast, natural phenomenon",
+              "researchCheck": "Intelligence (Investigation)",
+              "subjectCheck": "Intelligence (Nature)"
+            },
+            {
+              "topic": "Cult, deity, temple, ritual, holy or profane tradition",
+              "researchCheck": "Intelligence (Investigation)",
+              "subjectCheck": "Intelligence (Religion)"
+            }
+          ],
+          "notes": [
+            "The DM may permit another appropriate skill when the topic or research method strongly supports it."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "riskTheme": "False information, especially if a scholarly rival interferes.",
+        "rivalOptions": [
+          "Plant false information.",
+          "Bribe sages to give bad advice.",
+          "Steal key tomes needed to find the truth."
+        ],
+        "table": {
+          "id": "research_complications",
+          "title": "Research Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You accidentally damage a rare book.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 2,
+              "text": "You offend a sage, who demands an extravagant gift.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "If you had known that book was cursed, you never would have opened it.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A sage becomes obsessed with convincing you of a number of strange theories about reality.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 5,
+              "text": "Your actions cause you to be banned from a library until you make reparations.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 6,
+              "text": "You uncovered useful lore, but only by promising to complete a dangerous task in return.",
+              "mightInvolveRival": false
+            }
+          ]
+        },
+        "notes": [
+          "Ordinary failed Research checks do not provide false information.",
+          "False or misleading information should come from an explicit complication, unreliable source, rival interference, or another established narrative cause.",
+          "Complications should create uncertainty, cost, access problems, obligations, or story consequences without making all research inherently untrustworthy."
+        ]
+      }
+    },
+    {
+      "id": "scribing_a_spell_scroll",
+      "name": "Scribing a Spell Scroll",
+      "category": "crafting",
+      "summary": "A spellcaster transfers a known or prepared spell to a scroll by spending time, money, and required components. Arcana proficiency is required to encode the magic correctly, while proficiency with Calligrapher's Supplies improves the speed and reliability of the physical inscription.",
+      "resources": {
+        "requirements": [
+          "The character must have proficiency in Arcana.",
+          "The character must provide any material components required for casting the spell.",
+          "The spell must be prepared or among the character's known spells."
+        ],
+        "calligraphersSupplies": {
+          "required": false,
+          "proficiencyBenefit": [
+            "Reduce the total scribing time by 20%, to a minimum of 1 day. Round the final duration up to the next whole day according to the campaign calendar.",
+            "Reduce each Scribing complication check from 10% to 5%.",
+            "When a complication specifically results from handwriting, inscription, rune placement, ink placement, or transcription error, roll twice and use the less harmful or more favorable result."
+          ],
+          "designNote": "Calligrapher's Supplies proficiency improves craftsmanship but does not replace Arcana proficiency. Understanding how to encode a spell magically and physically inscribing it are separate skills."
+        },
+        "cantripRule": "If the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st level.",
+        "progressRule": {
+          "canPause": true,
+          "rule": "Scribing progress does not need to be continuous. Record completed days or workweeks of progress. The character may pause the project and resume it later.",
+          "storage": "Completed progress and invested materials are preserved as long as the unfinished scroll and its materials are stored safely. If the unfinished scroll is lost, destroyed, stolen, or magically corrupted, the DM determines how much progress or material is lost."
+        }
+      },
+      "resolution": {
+        "automaticCompletion": "Scribing does not require a final success check. If the character meets the requirements, spends the required time and cost, and the unfinished work survives, the scroll is completed.",
+        "reasoning": "The activity is reliable crafting rather than a gamble. Its difficulty is represented by access requirements, time, material cost, and possible complications.",
+        "calligraphersSuppliesTimeRule": "If proficient with Calligrapher's Supplies, multiply the listed base scribing time by 0.8, rounding up to the next whole day, minimum 1 day."
+      },
+      "tables": [
+        {
+          "id": "spell_scroll_costs",
+          "title": "Spell Scroll Costs",
+          "columns": [
+            "spellLevel",
+            "time",
+            "cost"
+          ],
+          "rows": [
+            {
+              "spellLevel": "Cantrip",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 15,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "1st",
+              "time": {
+                "quantity": 1,
+                "unit": "day"
+              },
+              "cost": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "2nd",
+              "time": {
+                "quantity": 3,
+                "unit": "days"
+              },
+              "cost": {
+                "amount": 250,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "3rd",
+              "time": {
+                "quantity": 1,
+                "unit": "workweek"
+              },
+              "cost": {
+                "amount": 500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "4th",
+              "time": {
+                "quantity": 2,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 2500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "5th",
+              "time": {
+                "quantity": 4,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 5000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "6th",
+              "time": {
+                "quantity": 8,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 15000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "7th",
+              "time": {
+                "quantity": 16,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 25000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "8th",
+              "time": {
+                "quantity": 32,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 50000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "9th",
+              "time": {
+                "quantity": 48,
+                "unit": "workweeks"
+              },
+              "cost": {
+                "amount": 250000,
+                "currency": "gp"
+              }
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "once per 5 workweeks of scribing progress",
+          "withCalligraphersSuppliesProficiencyPercent": 5
+        },
+        "notes": [
+          "Scribing is usually solitary; complications are more likely to involve preparation, materials, magical instability, theft, or outside attention.",
+          "Long projects can generate several complication checks, but only one check is made for each complete 5-workweek block rather than one check every workweek.",
+          "A complication should create a cost, choice, delay, or story consequence rather than automatically erase months of completed work."
+        ],
+        "table": {
+          "id": "scribe_a_scroll_complications",
+          "title": "Scribe a Scroll Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "You bought up the last of the rare ink used to craft scrolls, angering a wizard in town.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 2,
+              "text": "The priest of a temple of good accuses you of trafficking in dark magic.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A wizard eager to collect one of your spells in a book presses you to sell the scroll.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A transcription instability alters part of the spell matrix. The scroll instead contains a random spell of the same level unless the character spends 10% of the original scribing cost and 10% of the original scribing time correcting it.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "The rare parchment you bought for your scroll has a barely visible map on it.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "A thief attempts to break into your workroom.",
+              "mightInvolveRival": true
+            }
+          ]
+        },
+        "timingRule": "Make one complication check for each complete 5-workweek block of scribing progress. This is '10% once per 5 weeks', not '10% every fifth week'. The check represents risks accumulated during that block of work and does not require the character to reach a specific calendar boundary. Partial blocks shorter than 5 workweeks do not cause an additional check.",
+        "shortProjectRule": "Projects whose total scribing time is less than 5 workweeks do not normally require a complication check unless the DM introduces one for story reasons.",
+        "calligraphersSuppliesRule": "If the scribe is proficient with Calligrapher's Supplies, each required complication check is 5% instead of 10%. For inscription- or transcription-related complications, roll twice and use the less harmful or more favorable result."
+      }
+    },
+    {
+      "id": "selling_a_magic_item",
+      "name": "Selling a Magic Item",
+      "category": "commerce",
+      "summary": "A character may sell a magic item directly to a merchant for a fast and reliable price, or spend downtime searching for a specialized end buyer willing to pay closer to or above the item's full value.",
+      "resources": {
+        "standardSearchTime": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "itemLimit": "One magic item at a time.",
+        "searchCostsByRarity": [
+          {
+            "rarity": "Common",
+            "cost": 25,
+            "currency": "gp"
+          },
+          {
+            "rarity": "Uncommon",
+            "cost": 25,
+            "currency": "gp"
+          },
+          {
+            "rarity": "Rare",
+            "cost": 50,
+            "currency": "gp"
+          },
+          {
+            "rarity": "Very rare",
+            "cost": 100,
+            "currency": "gp"
+          },
+          {
+            "rarity": "Legendary",
+            "cost": 250,
+            "currency": "gp"
+          }
+        ],
+        "searchCostPurpose": "Advertising, appraisals, travel inside the local market, demonstrations, introductions, entertaining potential buyers, and other expenses involved in locating a serious buyer."
+      },
+      "resolution": {
+        "saleMethods": [
+          {
+            "method": "Direct Merchant Sale",
+            "time": "Usually resolved through normal roleplay, often within a day.",
+            "check": "No downtime check is required unless the DM wants to negotiate the exact price in play.",
+            "typicalOffer": "Usually 75% to 100% of base price, depending on the item, merchant, relationship, local demand, and available cash.",
+            "purpose": "Fast, low-risk liquidity.",
+            "notes": [
+              "A merchant buys with resale and risk in mind, so they usually do not pay collector prices.",
+              "A merchant may be unable or unwilling to tie up enough money to buy a particularly expensive item."
+            ]
+          },
+          {
+            "method": "Independent Buyer Search",
+            "time": "1 workweek",
+            "check": "Charisma (Persuasion)",
+            "purpose": "Locate and negotiate with a specialized end buyer.",
+            "notes": [
+              "This method can produce offers above normal market value.",
+              "The rarity of the item determines the Buyer DC, search cost, and market refresh time."
+            ]
+          },
+          {
+            "method": "Merchant Broker",
+            "time": "1 workweek",
+            "check": "Charisma (Persuasion)",
+            "bonus": "+2 to the Selling check",
+            "commission": "The broker receives 10% of the final sale price.",
+            "purpose": "Use a trusted merchant's contacts and reputation to reach serious buyers.",
+            "notes": [
+              "A suitable broker can count as access to a proper market even if the current settlement would not normally support a sale of that rarity.",
+              "The broker's commission is paid only if the sale is completed."
+            ]
+          },
+          {
+            "method": "Quick Sale",
+            "time": "1 day",
+            "check": "No check.",
+            "offer": "50% of base price.",
+            "purpose": "Dispose of the item quickly when an appropriate merchant or buyer is available."
+          }
+        ],
+        "check": {
+          "ability": "Charisma",
+          "skill": "Persuasion",
+          "purpose": "Determine the quality of buyer found and the strength of the final offer."
+        },
+        "buyerDifficulty": [
+          {
+            "rarity": "Common",
+            "buyerDC": 10,
+            "searchCost": "25 gp",
+            "marketRefresh": "1 week"
+          },
+          {
+            "rarity": "Uncommon",
+            "buyerDC": 12,
+            "searchCost": "25 gp",
+            "marketRefresh": "2 weeks"
+          },
+          {
+            "rarity": "Rare",
+            "buyerDC": 15,
+            "searchCost": "50 gp",
+            "marketRefresh": "1 month"
+          },
+          {
+            "rarity": "Very rare",
+            "buyerDC": 18,
+            "searchCost": "100 gp",
+            "marketRefresh": "2 months"
+          },
+          {
+            "rarity": "Legendary",
+            "buyerDC": 22,
+            "searchCost": "250 gp",
+            "marketRefresh": "3 months"
+          }
+        ],
+        "extraInvestment": {
+          "rule": "For each additional amount equal to the item's base search cost spent on brokers, advertisements, appraisers, demonstrations, entertaining buyers, or similar sale expenses, gain +1 to the Selling check.",
+          "maximumBonus": "+3"
+        },
+        "offerRule": "Compare the final Selling check to the item's Buyer DC and use the margin of success or failure to determine the offer.",
+        "sellerChoice": "The character may accept or reject the resulting offer.",
+        "marketExhaustion": {
+          "rule": "If the seller rejects an offer found through downtime, the current local market for that specific item is considered exhausted.",
+          "retry": "The seller cannot repeat the same buyer search in that market until the market refresh time for that rarity has passed.",
+          "newMarket": "Travelling to a meaningfully different market can allow a new attempt before the refresh time expires.",
+          "examples": [
+            "A different major city, nation, specialist enclave, dwarven hold, magical district, or other genuinely separate buyer network can count as a new market.",
+            "Changing taverns, shops, or districts inside the same local market does not normally count as a new market."
+          ]
+        },
+        "premiumBuyerRule": {
+          "150PercentOffer": "A 150% offer represents a buyer with a strong personal, professional, political, magical, historical, or strategic interest in the item.",
+          "200PercentOffer": "A 200% offer represents an exceptional buyer for whom the item is worth dramatically more than its ordinary market value.",
+          "buyerIdentity": "For 150% and 200% offers, the DM should usually establish why this buyer values the item so highly."
+        },
+        "premiumComplications": {
+          "150PercentOffer": "Automatically roll once on the Magic Item Sale Complications table.",
+          "200PercentOffer": "Automatically roll twice on the Magic Item Sale Complications table and use the more interesting or more relevant result. The sale does not automatically fail."
+        }
+      },
+      "tables": [
+        {
+          "id": "magic_item_base_prices",
+          "title": "Magic Item Base Prices",
+          "columns": [
+            "rarity",
+            "basePrice",
+            "consumableRule"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "basePrice": {
+                "amount": 100,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Uncommon",
+              "basePrice": {
+                "amount": 400,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Rare",
+              "basePrice": {
+                "amount": 4000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Very rare",
+              "basePrice": {
+                "amount": 40000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            },
+            {
+              "rarity": "Legendary",
+              "basePrice": {
+                "amount": 200000,
+                "currency": "gp"
+              },
+              "consumableRule": "Halve the price."
+            }
+          ]
+        },
+        {
+          "id": "magic_item_buyer_difficulty",
+          "title": "Magic Item Buyer Difficulty",
+          "columns": [
+            "rarity",
+            "buyerDC",
+            "searchCost",
+            "marketRefresh"
+          ],
+          "rows": [
+            {
+              "rarity": "Common",
+              "buyerDC": 10,
+              "searchCost": "25 gp",
+              "marketRefresh": "1 week"
+            },
+            {
+              "rarity": "Uncommon",
+              "buyerDC": 12,
+              "searchCost": "25 gp",
+              "marketRefresh": "2 weeks"
+            },
+            {
+              "rarity": "Rare",
+              "buyerDC": 15,
+              "searchCost": "50 gp",
+              "marketRefresh": "1 month"
+            },
+            {
+              "rarity": "Very rare",
+              "buyerDC": 18,
+              "searchCost": "100 gp",
+              "marketRefresh": "2 months"
+            },
+            {
+              "rarity": "Legendary",
+              "buyerDC": 22,
+              "searchCost": "250 gp",
+              "marketRefresh": "3 months"
+            }
+          ]
+        },
+        {
+          "id": "magic_item_offer",
+          "title": "Magic Item Offer",
+          "columns": [
+            "resultComparedToBuyerDC",
+            "offer"
+          ],
+          "rows": [
+            {
+              "resultComparedToBuyerDC": "Fail by 5 or more",
+              "offer": {
+                "basePricePercent": 0,
+                "display": "No credible buyer found"
+              }
+            },
+            {
+              "resultComparedToBuyerDC": "Fail by 1–4",
+              "offer": {
+                "basePricePercent": 75,
+                "display": "75% of base price"
+              }
+            },
+            {
+              "resultComparedToBuyerDC": "Meet DC",
+              "offer": {
+                "basePricePercent": 100,
+                "display": "100% of base price"
+              }
+            },
+            {
+              "resultComparedToBuyerDC": "Beat DC by 5+",
+              "offer": {
+                "basePricePercent": 125,
+                "display": "125% of base price"
+              }
+            },
+            {
+              "resultComparedToBuyerDC": "Beat DC by 10+",
+              "offer": {
+                "basePricePercent": 150,
+                "display": "150% of base price"
+              }
+            },
+            {
+              "resultComparedToBuyerDC": "Beat DC by 20+",
+              "offer": {
+                "basePricePercent": 200,
+                "display": "200% of base price"
+              }
+            }
+          ],
+          "notes": [
+            "Use the highest threshold reached.",
+            "A 150% offer automatically causes one Magic Item Sale Complication roll.",
+            "A 200% offer automatically causes two Magic Item Sale Complication rolls; use the more interesting or relevant result."
+          ]
+        },
+        {
+          "id": "magic_item_sale_methods",
+          "title": "Magic Item Sale Methods",
+          "columns": [
+            "method",
+            "time",
+            "offerOrBenefit"
+          ],
+          "rows": [
+            {
+              "method": "Direct Merchant Sale",
+              "time": "Roleplay / usually within 1 day",
+              "offerOrBenefit": "Usually 75–100% of base price; fast and low risk."
+            },
+            {
+              "method": "Quick Sale",
+              "time": "1 day",
+              "offerOrBenefit": "50% of base price; no check."
+            },
+            {
+              "method": "Independent Buyer Search",
+              "time": "1 workweek",
+              "offerOrBenefit": "Use Buyer DC and Selling check; possible 0–200% offer."
+            },
+            {
+              "method": "Merchant Broker",
+              "time": "1 workweek",
+              "offerOrBenefit": "+2 to the Selling check; broker receives 10% of final sale price."
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "riskTheme": "Thieves, illegitimate buyers, and people attempting to undermine the sale.",
+        "table": {
+          "id": "magic_item_sale_complications",
+          "title": "Magic Item Sale Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Your enemy secretly arranges to buy the item to use it against you.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "A thieves' guild, alerted to the sale, attempts to steal your item.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A foe circulates rumors that your item is a fake.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "A sorcerer claims your item as a birthright and demands you hand it over.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "Your item's previous owner, or surviving allies of the owner, vow to retake the item by force.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "The buyer is murdered before the sale is finalized.",
+              "mightInvolveRival": true
+            }
+          ]
+        },
+        "premiumOfferNotes": [
+          "The normal complication chance still applies to ordinary sales.",
+          "A 150% premium offer automatically triggers one complication roll.",
+          "A 200% exceptional offer automatically triggers two complication rolls; use the more interesting or more relevant result.",
+          "Premium complications create attention or story consequences and do not automatically cancel the sale."
+        ]
+      }
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "category": "learning",
+      "summary": "A character learns a language or tool proficiency with enough time and an instructor.",
+      "resources": {
+        "baseTime": {
+          "quantity": 10,
+          "unit": "workweeks"
+        },
+        "timeReduction": "Reduce by a number of workweeks equal to the character's Intelligence modifier. An Intelligence penalty does not increase the time.",
+        "costPerWorkweek": {
+          "amount": 25,
+          "currency": "gp"
+        },
+        "requiresInstructor": true,
+        "learnableOptions": [
+          "Language",
+          "Tool proficiency"
+        ]
+      },
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "10 workweeks spent training"
+        },
+        "theme": "Complications usually involve the teacher.",
+        "table": {
+          "id": "training_complications",
+          "title": "Training Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "Your instructor disappears, forcing you to spend one workweek finding a new one.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your teacher instructs you in rare, archaic methods, which draw comments from others.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 3,
+              "text": "Your teacher is a spy sent to learn your plans.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 4,
+              "text": "Your teacher is a wanted criminal.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "Your teacher is a cruel taskmaster.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "Your teacher asks for help dealing with a threat.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "workalp",
+      "name": "Additional Work ALP",
+      "category": "employment",
+      "summary": "A character finds temporary work, with quality and wages determined by an specific ability check relating to the work/task decided by DM.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {
+        "checkOptions": [
+          {
+            "result": "9 or lower",
+            "earning": "25%",
+            "effect": "100% Complication"
+          },
+          {
+            "result": "10–14",
+            "earning": "50%",
+            "effect": "30% Complication"
+          },
+          {
+            "result": "15–19",
+            "earning": "100%",
+            "effect": "10% Complication"
+          },
+          {
+            "result": "20–24",
+            "earning": "125%",
+            "effect": "5% Complication"
+          },
+          {
+            "result": "25+",
+            "earning": "150%",
+            "effect": "0% Complication"
+          }
+        ]
+      },
+      "tables": [
+        {
+          "id": "income",
+          "title": "Income",
+          "columns": [
+            "Lifestyle",
+            "Low Honor (0-9)",
+            "Medium Honor (10-19)",
+            "High Honor (20+)"
+          ],
+          "rows": [
+            {
+              "Lifestyle": {
+                "display": "Príšerný"
+              },
+              "Low Honor (0-9)": "25 gp",
+              "Medium Honor (10-19)": "1 gp",
+              "High Honor (20+)": "1 gp + favor"
+            },
+            {
+              "Lifestyle": {
+                "display": "Biedny"
+              },
+              "Low Honor (0-9)": "12 gp",
+              "Medium Honor (10-19)": "1 gp",
+              "High Honor (20+)": "2 gp + favor"
+            },
+            {
+              "Lifestyle": {
+                "display": "Chudobný"
+              },
+              "Low Honor (0-9)": "5 gp",
+              "Medium Honor (10-19)": "2 gp",
+              "High Honor (20+)": "3 gp + favor"
+            },
+            {
+              "Lifestyle": {
+                "display": "Skromný"
+              },
+              "Low Honor (0-9)": "12 gp",
+              "Medium Honor (10-19)": "9 gp",
+              "High Honor (20+)": "11 gp + favor"
+            },
+            {
+              "Lifestyle": {
+                "display": "Pohodlný"
+              },
+              "Low Honor (0-9)": "24 gp",
+              "Medium Honor (10-19)": "18 gp",
+              "High Honor (20+)": "32 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Bohatý"
+              },
+              "Low Honor (0-9)": "60 gp",
+              "Medium Honor (10-19)": "36 gp",
+              "High Honor (20+)": "75 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Aristokratický"
+              },
+              "Low Honor (0-9)": "120 gp",
+              "Medium Honor (10-19)": "90 gp",
+              "High Honor (20+)": "160 gp"
+            }
+          ]
+        },
+        {
+          "id": "favor",
+          "title": "Favor",
+          "columns": [
+            "Type",
+            "Example"
+          ],
+          "rows": [
+            {
+              "Type": {
+                "display": "Temple Favor"
+              },
+              "Example": "free lesser restoration, shelter, funeral rites, sanctuary"
+            },
+            {
+              "Type": {
+                "display": "Guild Favor"
+              },
+              "Example": "discount, access to restricted tool, legal crafting permit"
+            },
+            {
+              "Type": {
+                "display": "Noble Favor"
+              },
+              "Example": "invitation, recommendation, political protection"
+            },
+            {
+              "Type": {
+                "display": "Commoner Favor"
+              },
+              "Example": "rumors, hiding place, local help"
+            },
+            {
+              "Type": {
+                "display": "Guard Favor"
+              },
+              "Example": "ignored minor offense, warning before arrest"
+            },
+            {
+              "Type": {
+                "display": "Merchant Favor"
+              },
+              "Example": "discount, special item, transport"
+            }
+          ]
+        }
+      ],
+      "complications": {
+        "table": {
+          "id": "Work_complications",
+          "title": "Work Complications",
+          "columns": [
+            "honor",
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "honor": "Low",
+              "roll": 1,
+              "text": "Someone saw something. Rumors begin.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Low",
+              "roll": 2,
+              "text": "Local guards or gangs start asking questions.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Low",
+              "roll": 3,
+              "text": "The character is watched, followed, or blackmailed.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Low",
+              "roll": 4,
+              "text": "Bounty, arrest attempt, gang revenge, or victim’s family seeks justice.",
+              "mightInvolveRival": false
+            },
+            {
+              "honor": "Low",
+              "roll": 5,
+              "text": "Serious legal/criminal consequence. Trial, exile, assassination attempt, confiscation, etc.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Low",
+              "roll": 6,
+              "text": "Before the work ended you were kindnapped.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Medium",
+              "roll": 1,
+              "text": "The work was harder than expected; gain 1 level of exhaustion unless resting.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Medium",
+              "roll": 2,
+              "text": "Payment is delayed until next week.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Medium",
+              "roll": 3,
+              "text": "A tool, weapon, or piece of gear is damaged.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Medium",
+              "roll": 4,
+              "text": "The employer is dissatisfied. And work with you again for some time.",
+              "mightInvolveRival": false
+            },
+            {
+              "honor": "Medium",
+              "roll": 5,
+              "text": "Not knowing why some of the 'customers' are irritaed by you.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "Medium",
+              "roll": 6,
+              "text": "You were accused of stealing and now have to face the court.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "High",
+              "roll": 1,
+              "text": "Someone asks for help later.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "High",
+              "roll": 2,
+              "text": "A temple, guild, or noble expects loyalty.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "High",
+              "roll": 3,
+              "text": "Your name is attached to the outcome of someones else plan, they relay on you.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "High",
+              "roll": 4,
+              "text": "You need to spend 1d4 days to provide support for someone.",
+              "mightInvolveRival": false
+            },
+            {
+              "honor": "High",
+              "roll": 5,
+              "text": "You become temporarely responsible for someone or something.",
+              "mightInvolveRival": true
+            },
+            {
+              "honor": "High",
+              "roll": 6,
+              "text": "The job lead you to the local ruler which asks you for a Favor",
+              "mightInvolveRival": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "income",
+      "name": "Regular Income",
+      "category": "employment",
+      "summary": "A character spends time to ear his monthly income + something extra. This actvity however can be used only once per month as such opportunity is rare to rise.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        }
+      },
+      "resolution": {},
+      "tables": [
+        {
+          "id": "income",
+          "title": "Income",
+          "columns": [
+            "Lifestyle",
+            "earnings"
+          ],
+          "rows": [
+            {
+              "Lifestyle": {
+                "display": "Príšerný"
+              },
+              "earnings": "+1d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Biedny"
+              },
+              "earnings": "36 sp +1d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Chudobný"
+              },
+              "earnings": "36*2 sp +2d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Skromný"
+              },
+              "earnings": "36 +1d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Pohodlný"
+              },
+              "earnings": "36*2 +2d4 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Bohatý"
+              },
+              "earnings": "36*4 +2d6 gp"
+            },
+            {
+              "Lifestyle": {
+                "display": "Aristokratický"
+              },
+              "earnings": "36*10 +2d8 gp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "category": "academy",
+      "summary": "A character spends a workweek attending lessons, practicing faculty techniques, reviewing notes, and maintaining Academy know-how for future academy exams. The Study DC depends on the character's current academy level.",
+      "resources": {
+        "time": {
+          "quantity": 1,
+          "unit": "workweek"
+        },
+        "minimumCost": {
+          "amount": 0,
+          "currency": "gp",
+          "purpose": "basic study while enrolled in the academy"
+        },
+        "optionalCosts": [
+          {
+            "amount": 10,
+            "currency": "gp",
+            "purpose": "extra notes, practice materials, tutoring gifts, or access to special classrooms",
+            "benefit": "The DM may grant advantage on one Study check if the expense is relevant to the lesson."
+          }
+        ],
+        "accessRequirement": "The character must be enrolled in the academy or have temporary permission to attend academy lessons, use academy facilities, or train with academy mentors."
+      },
+      "academyKnowHow": {
+        "variableName": "Academy know-how",
+        "description": "Academy know-how represents the character's current grasp of the academy's methods, terminology, rituals, expectations, and practical exam habits.",
+        "minimum": 0,
+        "suggestedMaximum": 10,
+        "startingValue": 0,
+        "finalExamUse": "During final exams, reduce the DC of academy-related ability checks and saving throws by 1 for each point of Academy know-how the character has. The suggested maximum DC reduction is 10.",
+        "resetNote": "Each academy level will reset the academy know-how."
+      },
+      "resolution": {
+        "facultyChoice": "The character normally studies with their own faculty. With DM permission, they may study another faculty's curriculum, but the DM may impose disadvantage on one check or require an in-story reason.",
+        "dcRule": {
+          "description": "Use the Study DC for the character's current academy level. (Table: Study DC by Academy Level)",
+          "currentLevelDefinition": "The relevant academy level is the level whose curriculum the character is currently studying."
+        },
+        "checks": [
+          {
+            "type": "dominantAbility",
+            "ability": "First dominant ability of the chosen faculty",
+            "purpose": "Practical drills, physical technique, social performance, or theory depending on the faculty."
+          },
+          {
+            "type": "dominantAbility",
+            "ability": "Second dominant ability of the chosen faculty",
+            "purpose": "A different part of the same faculty curriculum."
+          },
+          {
+            "type": "facultySkill",
+            "skill": "One of the chosen faculty's granted skills",
+            "purpose": "Apply the faculty's signature method to academy problems."
+          }
+        ],
+        "skillRules": [
+          "For faculties with more than one granted skill, the player chooses one unless the DM says the week's lesson requires a specific skill.",
+          "The DM may pair a faculty skill with a nonstandard ability when it fits the lesson, such as Strength (Intimidation), Intelligence (Survival), or Charisma (Nature)."
+        ],
+        "modifiers": [
+          {
+            "advantage": true,
+            "condition": "A relevant mentor, tutor, library, laboratory, training hall, or field exercise directly supports the week's study. (Often costs extra effort/time or money)"
+          },
+          {
+            "disadvantage": true,
+            "condition": "The character lacks access to academy resources, is studying the wrong faculty's curriculum, or is trying to catch up after a major absence. (Often means less time spend on actvity)"
+          },
+          {
+            "bonus": "+1",
+            "condition": "Another student who succeeded on Study this same workweek helps the character review.",
+            "maximumBonus": "+1"
+          }
+        ],
+        "dmGuidance": [
+          "Academy know-how will only apply to academy exams, academy practicals, and closely related academy challenges.",
+          "Academy know-how is not general expertise and will not reduce unrelated adventuring DCs.",
+          "If a character reaches the suggested maximum Academy know-how, further successful Study workweeks can grant narrative benefits such as a mentor's praise, access to better notes, or advantage on one future academy-related check instead of increasing the value."
+        ]
+      },
+      "tables": [
+        {
+          "id": "academy_faculties",
+          "title": "Academy Faculties",
+          "columns": [
+            "faculty",
+            "dominantAbilities",
+            "grantedSkills"
+          ],
+          "rows": [
+            {
+              "faculty": "Absorberi",
+              "dominantAbilities": [
+                "Dexterity",
+                "Charisma"
+              ],
+              "grantedSkills": [
+                "Survival"
+              ]
+            },
+            {
+              "faculty": "Popravcovia",
+              "dominantAbilities": [
+                "Strength",
+                "Dexterity"
+              ],
+              "grantedSkills": [
+                "Intimidation"
+              ]
+            },
+            {
+              "faculty": "Krotitelia",
+              "dominantAbilities": [
+                "Charisma",
+                "Intelligence"
+              ],
+              "grantedSkills": [
+                "Persuasion",
+                "Deception"
+              ]
+            },
+            {
+              "faculty": "Ochrancovia",
+              "dominantAbilities": [
+                "Wisdom",
+                "Strength"
+              ],
+              "grantedSkills": [
+                "Insight"
+              ]
+            },
+            {
+              "faculty": "Znalci",
+              "dominantAbilities": [
+                "Intelligence",
+                "Wisdom"
+              ],
+              "grantedSkills": [
+                "Investigation",
+                "Nature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "study_academy_level_dcs",
+          "title": "Study DC by Academy Level",
+          "columns": [
+            "academyLevel",
+            "rank",
+            "dc"
+          ],
+          "rows": [
+            {
+              "academyLevel": 1,
+              "rank": "Mermel",
+              "dc": 13
+            },
+            {
+              "academyLevel": 2,
+              "rank": "Skaut",
+              "dc": 18
+            },
+            {
+              "academyLevel": 3,
+              "rank": "Bojon",
+              "dc": 21
+            },
+            {
+              "academyLevel": 4,
+              "rank": "Hed",
+              "dc": 24
+            },
+            {
+              "academyLevel": 5,
+              "rank": "Jäger",
+              "dc": 27
+            }
+          ],
+          "notes": [
+            "These DCs are used for all three Study checks during the workweek unless the DM changes one check for a specific reason or lesson.",
+            "Jäger will not lose the academy know-how due to absence and does not have to improve it as it will grant no benefit in exams (as there are none) it can only grant narrative benefits."
+          ]
+        },
+        {
+          "id": "study_results",
+          "title": "Study Results",
+          "columns": [
+            "successes",
+            "result",
+            "academyKnowHowChange"
+          ],
+          "rows": [
+            {
+              "successes": 0,
+              "result": "You fall behind and lose 1 Academy know-how, to a minimum of 0.",
+              "academyKnowHowChange": -1
+            },
+            {
+              "successes": 1,
+              "result": "You keep up but make no meaningful progress.",
+              "academyKnowHowChange": 0
+            },
+            {
+              "successes": 2,
+              "result": "You gain 1 Academy know-how.",
+              "academyKnowHowChange": 1
+            },
+            {
+              "successes": 3,
+              "result": "You gain 2 Academy know-how.",
+              "academyKnowHowChange": 2
+            }
+          ],
+          "notes": [
+            "Academy know-how can go below 0. Then its added to DC on exams.",
+            "Suggested maximum Academy know-how is 10 per academy level.",
+            "Note: Each academy level will reset the academy know-how."
+          ]
+        }
+      ],
+      "complications": {
+        "chance": {
+          "percent": 10,
+          "per": "workweek"
+        },
+        "riskTheme": "Academic pressure, rival students, faculty politics, missing notes, dangerous practical lessons, or misunderstood theory.",
+        "table": {
+          "id": "study_complications",
+          "title": "Study Complications",
+          "columns": [
+            "roll",
+            "text"
+          ],
+          "rows": [
+            {
+              "roll": 1,
+              "text": "A rival student spreads a rumor that your recent progress came from cheating.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 2,
+              "text": "Your notes are incomplete or misleading. Until you spend a day fixing them, your next Study activity starts with disadvantage on one check.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 3,
+              "text": "A mentor demands that you prove your understanding through an extra practical assignment before they will help you again.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 4,
+              "text": "A faculty tradition clashes with your personal methods. The next time you study curriculums of your faculty, increase one Study DC by 2.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 5,
+              "text": "You damage, lose, or overuse academy materials and must pay 1d4*10 gp or owe a favor before using that resource again.",
+              "mightInvolveRival": false
+            },
+            {
+              "roll": 6,
+              "text": "A teacher publicly criticizes your technique. You have disadvantage on your next 1d6 social checks involving academy or reputation unless you duel the teacher.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 7,
+              "text": "Your study group breaks apart over faculty politics, removing any possible bonus or advatange from your next Study activity.",
+              "mightInvolveRival": true
+            },
+            {
+              "roll": 8,
+              "text": "You uncover a contradiction in the curriculum. The DM may turn this into a clue, a debate, or a small side quest.",
+              "mightInvolveRival": false
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Not participating in study for a month will result in -2 Academy know-how."
+      ]
+    }
+  ]
+}
