@@ -1786,7 +1786,7 @@
           ],
           "notes": [
             "If the champion challenge is attempted, replace the normal 2× payout with the champion-round result.",
-            "Champion success pays 4× the stake total. Champion failure pays 1× the stake total and causes a Lingering Injury."
+            "Champion success pays 4× the stake total, but champion DC is 3d10 instead of 2d10 and only for athletics check. Champion failure pays 1× the stake total and causes a Lingering Injury."
           ]
         }
       ],
