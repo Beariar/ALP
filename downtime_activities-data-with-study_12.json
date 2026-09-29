@@ -176,8 +176,7 @@
               },
               "normalPriceRange": {
                 "minimum": 75,
-                "maximum": 150,
-                "currency": "gp"
+                "maximum": 150
               },
               "consumableRule": "Halve the price."
             },
@@ -189,8 +188,7 @@
               },
               "normalPriceRange": {
                 "minimum": 300,
-                "maximum": 600,
-                "currency": "gp"
+                "maximum": 600
               },
               "consumableRule": "Halve the price."
             },
@@ -202,8 +200,7 @@
               },
               "normalPriceRange": {
                 "minimum": 3000,
-                "maximum": 6000,
-                "currency": "gp"
+                "maximum": 6000
               },
               "consumableRule": "Halve the price."
             },
@@ -215,8 +212,7 @@
               },
               "normalPriceRange": {
                 "minimum": 30000,
-                "maximum": 60000,
-                "currency": "gp"
+                "maximum": 60000
               },
               "consumableRule": "Halve the price."
             },
@@ -228,8 +224,7 @@
               },
               "normalPriceRange": {
                 "minimum": 150000,
-                "maximum": 300000,
-                "currency": "gp"
+                "maximum": 300000
               },
               "consumableRule": "Halve the price."
             }
@@ -1780,7 +1775,7 @@
               "successes": 2,
               "payout": "1.5× stake",
               "grossStakeMultiplier": 1.5,
-              "result": "Receive one and a half times the stake, for a net profit of 50%. Gain 1 level of exhaustion."
+              "result": "Receive one and a half times the stake, for a net profit of 50%. Reduce maximum hit points by 10%."
             },
             {
               "successes": 3,
@@ -1815,7 +1810,7 @@
             },
             {
               "roll": 2,
-              "text": "A crime boss approaches you and offers to pay you to intentionally lose a few matches.",
+              "text": "That was a nasty hit, you receive a lingering injury.",
               "mightInvolveRival": true
             },
             {
