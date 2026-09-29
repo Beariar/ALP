@@ -2577,128 +2577,168 @@
         "calligraphersSuppliesTimeRule": "If proficient with Calligrapher's Supplies, reduce the time as can be seen in the table bellow."
       },
       "tables": [
-        {
-          "id": "spell_scroll_costs",
-          "title": "Spell Scroll Costs",
-          "columns": [
-            "spellLevel",
-            "time",
-            "cost"
-          ],
-          "rows": [
-            {
-              "spellLevel": "Cantrip",
-              "time": {
-                "quantity": 1,
-                "unit": "day"
-              },
-              "cost": {
-                "amount": 15,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "1st",
-              "time": {
-                "quantity": 1,
-                "unit": "day"
-              },
-              "cost": {
-                "amount": 25,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "2nd",
-              "time": {
-                "quantity": 3,
-                "unit": "days"
-              },
-              "cost": {
-                "amount": 250,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "3rd",
-              "time": {
-                "quantity": 1,
-                "unit": "workweek"
-              },
-              "cost": {
-                "amount": 500,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "4th",
-              "time": {
-                "quantity": 2,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 2500,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "5th",
-              "time": {
-                "quantity": 4,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 5000,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "6th",
-              "time": {
-                "quantity": 8,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 15000,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "7th",
-              "time": {
-                "quantity": 16,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 25000,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "8th",
-              "time": {
-                "quantity": 32,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 50000,
-                "currency": "gp"
-              }
-            },
-            {
-              "spellLevel": "9th",
-              "time": {
-                "quantity": 48,
-                "unit": "workweeks"
-              },
-              "cost": {
-                "amount": 250000,
-                "currency": "gp"
-              }
-            }
-          ]
+  {
+    "id": "spell_scroll_costs",
+    "title": "Spell Scroll Costs",
+    "columns": [
+      "spellLevel",
+      "time",
+      "toolTime",
+      "cost"
+    ],
+    "rows": [
+      {
+        "spellLevel": "Cantrip",
+        "time": {
+          "days": 1
+        },
+        "toolTime": {
+          "days": 1
+        },
+        "cost": {
+          "amount": 15,
+          "currency": "gp"
         }
-      ],
+      },
+      {
+        "spellLevel": "1st",
+        "time": {
+          "days": 1
+        },
+        "toolTime": {
+          "days": 1
+        },
+        "cost": {
+          "amount": 25,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "2nd",
+        "time": {
+          "days": 3
+        },
+        "toolTime": {
+          "days": 2
+        },
+        "cost": {
+          "amount": 250,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "3rd",
+        "time": {
+          "workweeks": 1,
+          "days": 6
+        },
+        "toolTime": {
+          "days": 5
+        },
+        "cost": {
+          "amount": 500,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "4th",
+        "time": {
+          "workweeks": 2,
+          "days": 12
+        },
+        "toolTime": {
+          "workweeks": 1,
+          "remainingDays": 3,
+          "days": 9
+        },
+        "cost": {
+          "amount": 2500,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "5th",
+        "time": {
+          "workweeks": 4,
+          "days": 24
+        },
+        "toolTime": {
+          "workweeks": 2,
+          "remainingDays": 5,
+          "days": 17
+        },
+        "cost": {
+          "amount": 5000,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "6th",
+        "time": {
+          "workweeks": 8,
+          "days": 48
+        },
+        "toolTime": {
+          "workweeks": 5,
+          "remainingDays": 4,
+          "days": 34
+        },
+        "cost": {
+          "amount": 15000,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "7th",
+        "time": {
+          "workweeks": 16,
+          "days": 96
+        },
+        "toolTime": {
+          "workweeks": 11,
+          "remainingDays": 2,
+          "days": 68
+        },
+        "cost": {
+          "amount": 25000,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "8th",
+        "time": {
+          "workweeks": 32,
+          "days": 192
+        },
+        "toolTime": {
+          "workweeks": 22,
+          "remainingDays": 3,
+          "days": 135
+        },
+        "cost": {
+          "amount": 50000,
+          "currency": "gp"
+        }
+      },
+      {
+        "spellLevel": "9th",
+        "time": {
+          "workweeks": 48,
+          "days": 288
+        },
+        "toolTime": {
+          "workweeks": 33,
+          "remainingDays": 4,
+          "days": 202
+        },
+        "cost": {
+          "amount": 250000,
+          "currency": "gp"
+        }
+      }
+    ]
+  }
+],
       "complications": {
         "chance": {
           "percent": 10,
