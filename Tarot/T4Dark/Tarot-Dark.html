@@ -921,6 +921,25 @@
       return value === true || String(value).trim().toUpperCase() === 'Y';
     }
 
+    function isCardFaceUp(card) {
+      return isCardRead(card) || Boolean(card?._revealedOnTable);
+    }
+
+    function revealCardOnTable(card, cardEl) {
+      if (card && typeof card === 'object') {
+        card._revealedOnTable = true;
+      }
+
+      if (cardEl) {
+        cardEl.classList.add('is-flipped', 'read-card');
+        cardEl.dataset.tableRevealed = 'true';
+        cardEl.setAttribute(
+          'aria-label',
+          `${card?.Card || 'Tarot card'} - ${card?._isReversed ? 'reversed' : 'upright'}, face up`
+        );
+      }
+    }
+
     function fitDeckLayout(total) {
       if (!total) return;
 
@@ -983,16 +1002,17 @@
     function createCardElement(card, angleDeg, isReversed) {
       const div = document.createElement('button');
       const alreadyRead = isCardRead(card);
+      const faceUp = isCardFaceUp(card);
 
       div.type = 'button';
       div.className = 'card';
       if (isReversed) div.classList.add('reversed');
-      if (alreadyRead) div.classList.add('is-flipped', 'read-card');
+      if (faceUp) div.classList.add('is-flipped', 'read-card');
 
       div.style.setProperty('--front-image', `url("${getImageSrc(card)}")`);
       div.setAttribute(
         'aria-label',
-        `${card.Card || 'Tarot card'} - ${isReversed ? 'reversed' : 'upright'}${alreadyRead ? ', already read' : ', unread'}`
+        `${card.Card || 'Tarot card'} - ${isReversed ? 'reversed' : 'upright'}${faceUp ? ', face up' : ', face down'}`
       );
       div.innerHTML = `
         <span class="card-inner" aria-hidden="true">
@@ -1001,6 +1021,7 @@
         </span>`;
       div.dataset.angle = String(angleDeg);
       div.dataset.read = alreadyRead ? 'Y' : 'N';
+      div.dataset.tableRevealed = card?._revealedOnTable ? 'true' : 'false';
       return div;
     }
 
@@ -1045,16 +1066,16 @@
 
     function updateDeckNote(deck = currentDeck) {
       const total = Array.isArray(deck) ? deck.length : 0;
-      const readCount = Array.isArray(deck) ? deck.filter(isCardRead).length : 0;
+      const faceUpCount = Array.isArray(deck) ? deck.filter(isCardFaceUp).length : 0;
 
       if (!total) {
         deckNote.textContent = 'No omens are present.';
-      } else if (readCount === 0) {
+      } else if (faceUpCount === 0) {
         deckNote.textContent = 'Choose one omen. Every card is upright.';
-      } else if (readCount === total) {
-        deckNote.textContent = `All ${total} omens have already been read.`;
+      } else if (faceUpCount === total) {
+        deckNote.textContent = `All ${total} omens are face-up on the table.`;
       } else {
-        deckNote.textContent = `${readCount} of ${total} omens already read. Choose another.`;
+        deckNote.textContent = `${faceUpCount} of ${total} omens are face-up. Choose another.`;
       }
     }
 
@@ -1247,10 +1268,10 @@
       const hero = document.createElement('div');
       const ratio = rect.height / Math.max(1, rect.width);
 
-      const alreadyRead = isCardRead(cardData);
+      const alreadyFaceUp = isCardFaceUp(cardData);
 
       stage.className = 'draw-stage';
-      hero.className = `drawn-card${isReversed ? ' reversed' : ''}${alreadyRead ? ' is-flipped' : ''}`;
+      hero.className = `drawn-card${isReversed ? ' reversed' : ''}${alreadyFaceUp ? ' is-flipped' : ''}`;
       hero.style.setProperty('--start-left', `${rect.left}px`);
       hero.style.setProperty('--start-top', `${rect.top}px`);
       hero.style.setProperty('--start-width', `${rect.width}px`);
@@ -1271,7 +1292,7 @@
         hero.classList.add('centered');
       });
 
-      if (!alreadyRead) {
+      if (!alreadyFaceUp) {
         window.setTimeout(() => {
           hero.classList.add('is-flipped');
         }, 760);
@@ -1279,7 +1300,14 @@
 
       window.setTimeout(() => {
         stage.remove();
+
+        // Keep this card revealed on the table for the rest of the current deal.
+        // This is intentionally session-only; reshuffling reloads the JSON and
+        // therefore restores only cards whose `read` tag is Y.
+        revealCardOnTable(cardData, sourceEl);
+
         sourceEl.style.opacity = '1';
+        updateDeckNote(currentDeck);
         isBusy = false;
         openCardDetails(cardData, isReversed);
         unlockPageScroll();
