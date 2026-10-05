@@ -4147,7 +4147,7 @@
             "use": "May be used when identifying rare plants, unusual animal materials, fungi, or valuable natural reagents."
           },
           {
-            "ability": "Intelligence",
+            "ability": "Wisdom",
             "skill": "Animal Handling",
             "use": "To hunt animals or follow them to source of water."
           }
