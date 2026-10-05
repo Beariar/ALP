@@ -3888,89 +3888,6 @@
         },
         "travelRequirement": "The character must be actively traveling and able to devote attention to route observation. The DM may rule that driving a demanding vehicle, sleeping, or another incompatible duty prevents Trailwatch."
       },
-      "sharedTravelRules": {
-        "travelInterval": {
-          "minimumDays": 1,
-          "maximumDays": 9,
-          "weekDefinition": "A campaign week is 9 days.",
-          "rule": "Choose an uninterrupted interval of 1 to 9 travel days. Make one activity check for the entire interval rather than one check per day.",
-          "interruptionRule": "The interval ends early if something materially changes, such as an encounter, major route change, significant terrain change, catastrophic weather, stopping travel, or switching to another travel activity. After the interruption is resolved, a new interval may begin."
-        },
-        "resultPortions": {
-          "rule": "Longer travel intervals produce more result portions without requiring additional activity checks.",
-          "bands": [
-            {
-              "days": "1-3",
-              "resultPortions": 1
-            },
-            {
-              "days": "4-6",
-              "resultPortions": 2
-            },
-            {
-              "days": "7-9",
-              "resultPortions": 3
-            }
-          ]
-        },
-        "weather": {
-          "rule": "Weather modifies the activity DC during travel abstraction.",
-          "modifiers": [
-            {
-              "weather": "Good or Normal",
-              "dcModifier": 0
-            },
-            {
-              "weather": "Bad",
-              "dcModifier": 2
-            },
-            {
-              "weather": "Catastrophic",
-              "dcModifier": 5
-            }
-          ],
-          "combatAndSceneRule": "If an encounter or active scene occurs, use the full weather effects normally during that scene. The travel modifier only abstracts the difficulty during overland travel.",
-          "changingWeatherRule": "If weather changes enough to materially alter the DC, the DM may end the current travel interval and begin a new one. Alternatively, if one weather state affected a substantial majority of the interval, the DM may use that modifier for the interval."
-        },
-        "travelEvents": {
-          "rule": "Travel Events are separate from the activity check. Roll once per travel interval unless the DM already has a planned event. An event does not automatically mean danger.",
-          "chanceByInterval": [
-            {
-              "days": "1-3",
-              "eventChancePercent": 10
-            },
-            {
-              "days": "4-6",
-              "eventChancePercent": 20
-            },
-            {
-              "days": "7-9",
-              "eventChancePercent": 30
-            }
-          ],
-          "plannedEventRule": "If the DM already has a planned event, the event exists regardless of the Travel Event roll. The activity check can determine how early, clearly, or safely the character notices or interacts with it.",
-          "examples": [
-            "tracks leaving the road",
-            "abandoned camp",
-            "wounded traveler",
-            "strange shrine",
-            "rare animal",
-            "merchant caravan",
-            "destroyed wagon",
-            "signs of monsters",
-            "valuable plant patch",
-            "weather shift",
-            "suspicious roadblock",
-            "planned ambush",
-            "someone following the party",
-            "strange magical phenomenon",
-            "corpse",
-            "shortcut",
-            "damaged bridge",
-            "territorial beast"
-          ]
-        }
-      },
       "resolution": {
         "focusChoice": {
           "rule": "Choose one Trailwatch focus when the interval begins.",
@@ -4132,28 +4049,6 @@
           ]
         },
         {
-          "id": "trailwatch_result_portions",
-          "title": "Travel Result Portions",
-          "columns": [
-            "interval",
-            "resultPortions"
-          ],
-          "rows": [
-            {
-              "interval": "1-3 days",
-              "resultPortions": 1
-            },
-            {
-              "interval": "4-6 days",
-              "resultPortions": 2
-            },
-            {
-              "interval": "7-9 days",
-              "resultPortions": 3
-            }
-          ]
-        },
-        {
           "id": "trailwatch_weather_modifiers",
           "title": "Travel Weather Modifiers",
           "columns": [
@@ -4217,89 +4112,6 @@
         },
         "travelRequirement": "The character must be traveling through an environment where gathering is physically possible and must have enough freedom to search the surrounding area. The DM may rule that certain vehicles, forced marches, or other duties prevent the activity."
       },
-      "sharedTravelRules": {
-        "travelInterval": {
-          "minimumDays": 1,
-          "maximumDays": 9,
-          "weekDefinition": "A campaign week is 9 days.",
-          "rule": "Choose an uninterrupted interval of 1 to 9 travel days. Make one activity check for the entire interval rather than one check per day.",
-          "interruptionRule": "The interval ends early if something materially changes, such as an encounter, major route change, significant terrain change, catastrophic weather, stopping travel, or switching to another travel activity. After the interruption is resolved, a new interval may begin."
-        },
-        "resultPortions": {
-          "rule": "Longer travel intervals produce more result portions without requiring additional activity checks.",
-          "bands": [
-            {
-              "days": "1-3",
-              "resultPortions": 1
-            },
-            {
-              "days": "4-6",
-              "resultPortions": 2
-            },
-            {
-              "days": "7-9",
-              "resultPortions": 3
-            }
-          ]
-        },
-        "weather": {
-          "rule": "Weather modifies the activity DC during travel abstraction.",
-          "modifiers": [
-            {
-              "weather": "Good or Normal",
-              "dcModifier": 0
-            },
-            {
-              "weather": "Bad",
-              "dcModifier": 2
-            },
-            {
-              "weather": "Catastrophic",
-              "dcModifier": 5
-            }
-          ],
-          "combatAndSceneRule": "If an encounter or active scene occurs, use the full weather effects normally during that scene. The travel modifier only abstracts the difficulty during overland travel.",
-          "changingWeatherRule": "If weather changes enough to materially alter the DC, the DM may end the current travel interval and begin a new one. Alternatively, if one weather state affected a substantial majority of the interval, the DM may use that modifier for the interval."
-        },
-        "travelEvents": {
-          "rule": "Travel Events are separate from the activity check. Roll once per travel interval unless the DM already has a planned event. An event does not automatically mean danger.",
-          "chanceByInterval": [
-            {
-              "days": "1-3",
-              "eventChancePercent": 10
-            },
-            {
-              "days": "4-6",
-              "eventChancePercent": 20
-            },
-            {
-              "days": "7-9",
-              "eventChancePercent": 30
-            }
-          ],
-          "plannedEventRule": "If the DM already has a planned event, the event exists regardless of the Travel Event roll. The activity check can determine how early, clearly, or safely the character notices or interacts with it.",
-          "examples": [
-            "tracks leaving the road",
-            "abandoned camp",
-            "wounded traveler",
-            "strange shrine",
-            "rare animal",
-            "merchant caravan",
-            "destroyed wagon",
-            "signs of monsters",
-            "valuable plant patch",
-            "weather shift",
-            "suspicious roadblock",
-            "planned ambush",
-            "someone following the party",
-            "strange magical phenomenon",
-            "corpse",
-            "shortcut",
-            "damaged bridge",
-            "territorial beast"
-          ]
-        }
-      },
       "resolution": {
         "focusChoice": {
           "rule": "Choose one Foraging & Gathering focus when the interval begins.",
@@ -4350,10 +4162,6 @@
           {
             "tool": "Leatherworker's Tools",
             "benefit": "Helps properly process hides and similar animal materials."
-          },
-          {
-            "tool": "Relevant hunting or butchering equipment",
-            "benefit": "Helps preserve meat and animal materials from larger prey."
           }
         ],
         "toolRule": "Finding a resource does not automatically mean it is properly processed. The DM may require relevant tools or proficiency to preserve delicate herbs, hides, meat, organs, magical reagents, or other specialized materials.",
