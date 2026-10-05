@@ -4266,28 +4266,6 @@
           ]
         },
         {
-          "id": "foraging_result_portions",
-          "title": "Travel Result Portions",
-          "columns": [
-            "interval",
-            "resultPortions"
-          ],
-          "rows": [
-            {
-              "interval": "1-3 days",
-              "resultPortions": 1
-            },
-            {
-              "interval": "4-6 days",
-              "resultPortions": 2
-            },
-            {
-              "interval": "7-9 days",
-              "resultPortions": 3
-            }
-          ]
-        },
-        {
           "id": "foraging_weather_modifiers",
           "title": "Travel Weather Modifiers",
           "columns": [
