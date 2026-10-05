@@ -3886,6 +3886,7 @@
           "minimumDays": 1,
           "maximumDays": 9
         },
+        "travelPace": "The pace decides if the activity is better suited for day-by-day or multiple days or by weekly checks.",
         "travelRequirement": "The character must be actively traveling and able to devote attention to route observation. The DM may rule that driving a demanding vehicle, sleeping, or another incompatible duty prevents Trailwatch."
       },
       "resolution": {
