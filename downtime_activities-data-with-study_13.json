@@ -2577,168 +2577,168 @@
         "calligraphersSuppliesTimeRule": "If proficient with Calligrapher's Supplies, reduce the time as can be seen in the table bellow."
       },
       "tables": [
-  {
-    "id": "spell_scroll_costs",
-    "title": "Spell Scroll Costs",
-    "columns": [
-      "spellLevel",
-      "time",
-      "toolTime",
-      "cost"
-    ],
-    "rows": [
-      {
-        "spellLevel": "Cantrip",
-        "time": {
-          "days": 1
-        },
-        "toolTime": {
-          "days": 1
-        },
-        "cost": {
-          "amount": 15,
-          "currency": "gp"
+        {
+          "id": "spell_scroll_costs",
+          "title": "Spell Scroll Costs",
+          "columns": [
+            "spellLevel",
+            "time",
+            "toolTime",
+            "cost"
+          ],
+          "rows": [
+            {
+              "spellLevel": "Cantrip",
+              "time": {
+                "days": 1
+              },
+              "toolTime": {
+                "days": 1
+              },
+              "cost": {
+                "amount": 15,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "1st",
+              "time": {
+                "days": 1
+              },
+              "toolTime": {
+                "days": 1
+              },
+              "cost": {
+                "amount": 25,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "2nd",
+              "time": {
+                "days": 3
+              },
+              "toolTime": {
+                "days": 2
+              },
+              "cost": {
+                "amount": 250,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "3rd",
+              "time": {
+                "workweeks": 1,
+                "days": 6
+              },
+              "toolTime": {
+                "days": 5
+              },
+              "cost": {
+                "amount": 500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "4th",
+              "time": {
+                "workweeks": 2,
+                "days": 12
+              },
+              "toolTime": {
+                "workweeks": 1,
+                "remainingDays": 3,
+                "days": 9
+              },
+              "cost": {
+                "amount": 2500,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "5th",
+              "time": {
+                "workweeks": 4,
+                "days": 24
+              },
+              "toolTime": {
+                "workweeks": 2,
+                "remainingDays": 5,
+                "days": 17
+              },
+              "cost": {
+                "amount": 5000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "6th",
+              "time": {
+                "workweeks": 8,
+                "days": 48
+              },
+              "toolTime": {
+                "workweeks": 5,
+                "remainingDays": 4,
+                "days": 34
+              },
+              "cost": {
+                "amount": 15000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "7th",
+              "time": {
+                "workweeks": 16,
+                "days": 96
+              },
+              "toolTime": {
+                "workweeks": 11,
+                "remainingDays": 2,
+                "days": 68
+              },
+              "cost": {
+                "amount": 25000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "8th",
+              "time": {
+                "workweeks": 32,
+                "days": 192
+              },
+              "toolTime": {
+                "workweeks": 22,
+                "remainingDays": 3,
+                "days": 135
+              },
+              "cost": {
+                "amount": 50000,
+                "currency": "gp"
+              }
+            },
+            {
+              "spellLevel": "9th",
+              "time": {
+                "workweeks": 48,
+                "days": 288
+              },
+              "toolTime": {
+                "workweeks": 33,
+                "remainingDays": 4,
+                "days": 202
+              },
+              "cost": {
+                "amount": 250000,
+                "currency": "gp"
+              }
+            }
+          ]
         }
-      },
-      {
-        "spellLevel": "1st",
-        "time": {
-          "days": 1
-        },
-        "toolTime": {
-          "days": 1
-        },
-        "cost": {
-          "amount": 25,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "2nd",
-        "time": {
-          "days": 3
-        },
-        "toolTime": {
-          "days": 2
-        },
-        "cost": {
-          "amount": 250,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "3rd",
-        "time": {
-          "workweeks": 1,
-          "days": 6
-        },
-        "toolTime": {
-          "days": 5
-        },
-        "cost": {
-          "amount": 500,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "4th",
-        "time": {
-          "workweeks": 2,
-          "days": 12
-        },
-        "toolTime": {
-          "workweeks": 1,
-          "remainingDays": 3,
-          "days": 9
-        },
-        "cost": {
-          "amount": 2500,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "5th",
-        "time": {
-          "workweeks": 4,
-          "days": 24
-        },
-        "toolTime": {
-          "workweeks": 2,
-          "remainingDays": 5,
-          "days": 17
-        },
-        "cost": {
-          "amount": 5000,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "6th",
-        "time": {
-          "workweeks": 8,
-          "days": 48
-        },
-        "toolTime": {
-          "workweeks": 5,
-          "remainingDays": 4,
-          "days": 34
-        },
-        "cost": {
-          "amount": 15000,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "7th",
-        "time": {
-          "workweeks": 16,
-          "days": 96
-        },
-        "toolTime": {
-          "workweeks": 11,
-          "remainingDays": 2,
-          "days": 68
-        },
-        "cost": {
-          "amount": 25000,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "8th",
-        "time": {
-          "workweeks": 32,
-          "days": 192
-        },
-        "toolTime": {
-          "workweeks": 22,
-          "remainingDays": 3,
-          "days": 135
-        },
-        "cost": {
-          "amount": 50000,
-          "currency": "gp"
-        }
-      },
-      {
-        "spellLevel": "9th",
-        "time": {
-          "workweeks": 48,
-          "days": 288
-        },
-        "toolTime": {
-          "workweeks": 33,
-          "remainingDays": 4,
-          "days": 202
-        },
-        "cost": {
-          "amount": 250000,
-          "currency": "gp"
-        }
-      }
-    ]
-  }
-],
+      ],
       "complications": {
         "chance": {
           "percent": 10,
@@ -3932,7 +3932,7 @@
             "use": "May be used when reconstructing events from evidence or interpreting unusual signs."
           }
         ],
-         "toolSupport": [
+        "toolSupport": [
           {
             "tool": "Navigator's Tools",
             "benefit": "Makes your task much easier and allows you to work on two Trailwatch focuses, instead of one only. (In such case only the highest 'beat by' resolution applies)"
@@ -4023,7 +4023,6 @@
             }
           ]
         },
-        
         {
           "id": "trailwatch_terrain_dcs",
           "title": "Trailwatch Environment DCs",
@@ -4171,8 +4170,13 @@
           },
           {
             "tool": "Cook's Utensils",
-            "benefit": "Helps turn gathered food into useful meals and provisions.",
-            "focus": "Hunting"
+            "benefit": "Can convert gathered edible resources into ration-equivalents, improve food efficiency, stretch limited ingredients, or safely prepare unfamiliar edible herbs and components.",
+            "focus": [
+              "Hunting",
+              "Food & Water",
+              "Herbs & Components"
+            ],
+            "processingRule": "See rationConversion for the exact conversion results on success and failure."
           },
           {
             "tool": "Leatherworker's Tools",
@@ -4233,15 +4237,83 @@
         },
         "outcomes": {
           "belowDC": "Nothing useful is found during the interval.",
-          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1d4 gp)",
-          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 2d4 gp)",
-          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d6 gp)",
-          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 4d6 gp)"
+          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1 gp)",
+          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 1d4 gp)",
+          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d4 gp)",
+          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 2d6 gp)"
         },
         "quantityRule": "A single activity check determines the quality of the whole interval. The number of result portions determines how many separate batches, finds, or periods of useful gathering are produced.",
         "huntingEncounterRule": "For ordinary harmless prey, hunting may be abstracted into the activity result. If the desired prey is large, dangerous, magical, or especially valuable, a successful result may locate tracks, territory, or the creature itself rather than automatically providing the harvested materials.",
         "sellingRule": "Gathered resources are primarily intended to be eaten, processed, crafted, used as spell components, or otherwise consumed. They may be sold when a suitable buyer and demand exist, but the DM determines availability and value.",
-        "eventInteraction": "A Travel Event may be discovered while gathering. A strong result can make the event an opportunity the party notices deliberately; a weak result may mean the character enters the area or territory without recognizing the danger early."
+        "eventInteraction": "A Travel Event may be discovered while gathering. A strong result can make the event an opportunity the party notices deliberately; a weak result may mean the character enters the area or territory without recognizing the danger early.",
+        "rationConversion": {
+          "rationMarketReference": {
+            "rationCost": "5 sp",
+            "baseConversion": "For Hunting and Food & Water, every 1 gp worth of gathered edible provisions equals 2 rations before further processing."
+          },
+          "generalRules": [
+            "Rations created through these rules are ration-equivalents for travel and daily food consumption; they do not need to represent literal preserved trail rations.",
+            "Processing gathered resources with Cook's Utensils consumes the selected amount of gathered resource value. The same gp value cannot remain available as herbs, components, meat, or other saleable material after it has been converted into rations.",
+            "For Food & Water and Hunting, water sufficient for the gathered provisions is abstracted unless water scarcity is specifically relevant to the journey or environment.",
+            "Cook's Utensils do not automatically succeed. Resolve the appropriate tool-related check using the campaign's normal Tool-Skill relation rules."
+          ],
+          "focusRules": [
+            {
+              "focus": "Hunting",
+              "baseFoodValue": "1 gp = 2 rations",
+              "cookOptions": [
+                {
+                  "cookUse": "Create a typical meal",
+                  "input": "1 gp worth of gathered edible provisions",
+                  "success": "3 rations",
+                  "failure": "1 ration",
+                  "remainingValueOnFailure": "5 sp"
+                },
+                {
+                  "cookUse": "Stretch limited ingredients into a full meal",
+                  "input": "1 gp worth of gathered edible provisions",
+                  "success": "5 rations",
+                  "failure": "0 rations",
+                  "remainingValueOnFailure": "0 sp"
+                }
+              ]
+            },
+            {
+              "focus": "Food & Water",
+              "baseFoodValue": "1 gp = 2 rations",
+              "cookOptions": [
+                {
+                  "cookUse": "Create a typical meal",
+                  "input": "1 gp worth of gathered edible provisions",
+                  "success": "3 rations",
+                  "failure": "1 ration",
+                  "remainingValueOnFailure": "5 sp"
+                },
+                {
+                  "cookUse": "Stretch limited ingredients into a full meal",
+                  "input": "1 gp worth of gathered edible provisions",
+                  "success": "5 rations",
+                  "failure": "0 rations",
+                  "remainingValueOnFailure": "0 sp"
+                }
+              ]
+            },
+            {
+              "focus": "Herbs & Components",
+              "baseFoodValue": "1 gp = 0 rations",
+              "cookOptions": [
+                {
+                  "cookUse": "Safely prepare an unfamiliar edible ingredient",
+                  "input": "1 gp worth of gathered Herbs & Components",
+                  "success": "2 rations",
+                  "failure": "0 rations",
+                  "remainingValueOnFailure": "0 sp",
+                  "note": "The selected herb or component value is consumed by the attempt and is no longer available as a spell component, crafting reagent, or saleable material."
+                }
+              ]
+            }
+          ]
+        }
       },
       "tables": [
         {
@@ -4260,22 +4332,22 @@
             {
               "result": "Meet DC",
               "effect": "Each result portion provides basic useful resources.",
-              "value": "1d4 gp"
+              "value": "1 gp"
             },
             {
               "result": "Beat DC by 5+",
               "effect": "Each result portion provides good resources or an uncommon find.",
-              "value": "2d4 gp"
+              "value": "1d4 gp"
             },
             {
               "result": "Beat DC by 10+",
               "effect": "Excellent haul; rare regional resources may be included.",
-              "value": "2d6 gp"
+              "value": "2d4 gp"
             },
             {
               "result": "Beat DC by 15+",
               "effect": "Exceptional find; unusual or valuable resources may be included.",
-              "value": "4d6 gp"
+              "value": "2d6 gp"
             }
           ]
         },
@@ -4352,6 +4424,62 @@
               "interval": "7-9 days",
               "eventChancePercent": 30
             }
+          ]
+        },
+        {
+          "id": "foraging_ration_processing",
+          "title": "Foraging Food & Cook's Utensils",
+          "columns": [
+            "focus",
+            "processingMethod",
+            "inputValue",
+            "baseRations",
+            "successRations",
+            "failureRations",
+            "remainingValueOnFailure"
+          ],
+          "rows": [
+            {
+              "focus": "Hunting / Food & Water",
+              "processingMethod": "No cooking",
+              "inputValue": "1 gp",
+              "baseRations": 2,
+              "successRations": 2,
+              "failureRations": 2,
+              "remainingValueOnFailure": "1 gp"
+            },
+            {
+              "focus": "Hunting / Food & Water",
+              "processingMethod": "Cook's Utensils — Create a typical meal",
+              "inputValue": "1 gp",
+              "baseRations": 2,
+              "successRations": 3,
+              "failureRations": 1,
+              "remainingValueOnFailure": "5 sp"
+            },
+            {
+              "focus": "Hunting / Food & Water",
+              "processingMethod": "Cook's Utensils — Stretch limited ingredients into a full meal",
+              "inputValue": "1 gp",
+              "baseRations": 2,
+              "successRations": 5,
+              "failureRations": 0,
+              "remainingValueOnFailure": "0 sp"
+            },
+            {
+              "focus": "Herbs & Components",
+              "processingMethod": "Cook's Utensils — Safely prepare an unfamiliar edible ingredient",
+              "inputValue": "1 gp",
+              "baseRations": 0,
+              "successRations": 2,
+              "failureRations": 0,
+              "remainingValueOnFailure": "0 sp"
+            }
+          ],
+          "notes": [
+            "A standard ration costs 5 sp, so 1 gp of ordinary edible gathered provisions equals 2 rations before processing.",
+            "Processing consumes the selected resource value; the same gp value cannot also remain available as herbs, components, meat, or saleable goods.",
+            "Use the campaign's normal Tool-Skill relation rules to resolve Cook's Utensils checks."
           ]
         }
       ],
