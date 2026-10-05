@@ -4039,6 +4039,25 @@
             }
           ]
         },
+        "weather": {
+          "rule": "Weather modifies the activity DC during travel abstraction.",
+          "modifiers": [
+            {
+              "weather": "Good or Normal",
+              "dcModifier": 0
+            },
+            {
+              "weather": "Bad",
+              "dcModifier": 2
+            },
+            {
+              "weather": "Catastrophic",
+              "dcModifier": 5
+            }
+          ],
+          "combatAndSceneRule": "If an encounter or active scene occurs, use the full weather effects normally during that scene. The travel modifier only abstracts the difficulty during overland travel.",
+          "changingWeatherRule": "If weather changes enough to materially alter the DC, the DM may end the current travel interval and begin a new one. Alternatively, if one weather state affected a substantial majority of the interval, the DM may use that modifier for the interval."
+        },
         "outcomes": {
           "belowDC": "No reliable information is gained. Route mistakes, pursuit signs, hazards, or unusual activity may go unnoticed.",
           "meetDC": "The chosen focus is successfully maintained throughout the interval and the character gains the core information reasonably available from it.",
@@ -4080,6 +4099,7 @@
             }
           ]
         },
+        
         {
           "id": "trailwatch_terrain_dcs",
           "title": "Trailwatch Environment DCs",
@@ -4108,21 +4128,6 @@
               "difficulty": "Extreme",
               "dc": 25,
               "examples": "Magically warped terrain, deliberately concealed trail, exceptional environmental difficulty."
-            },
-            {
-              "difficulty": "Calm weather",
-              "dc": "+0",
-              "examples": "Weather is clear, no winds, snow, rains or anything else obscuring the road."
-            },
-            {
-              "difficulty": "Bad weather",
-              "dc": "+2",
-              "examples": "Weather is unpleasant, but mostly stable. Rain, snow or wind complicates it but its managable."
-            },
-            {
-              "difficulty": "Catastrophic weather",
-              "dc": "+5",
-              "examples": "Weather is problematic, its hard to walk not to cary out the task, vision is obscured and in general everything is harder to make out."
             }
           ]
         },
