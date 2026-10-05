@@ -4042,9 +4042,9 @@
         "outcomes": {
           "belowDC": "No reliable information is gained. Route mistakes, pursuit signs, hazards, or unusual activity may go unnoticed.",
           "meetDC": "The chosen focus is successfully maintained throughout the interval and the character gains the core information reasonably available from it.",
-          "beatBy5": "The chosen focus succeeds, and the DM provides one useful additional observation per result portion.",
-          "beatBy10": "As Beat by 5, and one of the observations may be significant enough to create a strong practical advantage, such as early warning, a useful shortcut, clearer numbers, direction, timing, or route choice.",
-          "beatBy15": "Exceptional awareness. The DM gives the clearest reasonable picture of relevant route activity, pursuit, hazards, and movement during the interval."
+          "beatBy5": "The chosen focus succeeds, and the DM provides one useful additional observation information if any is available.",
+          "beatBy10": "As Beat by 5, but dm will also provide infomration on one other random Trailwatch focus",
+          "beatBy15": "Exceptional awareness. As Beat by 5, but dm will also provide infomration on two other random Trailwatch focuses."
         },
         "noThreatRule": "A strong result does not create danger. If nothing is following the party or nothing unusual is ahead, the character can instead become reasonably confident that no such signs were present during the interval.",
         "eventInteraction": "If a Travel Event or planned encounter occurs, Trailwatch can determine whether the party notices warning signs, identifies the nature or location of the threat, or gains time to choose another route before the scene begins."
@@ -4082,7 +4082,7 @@
         },
         {
           "id": "trailwatch_terrain_dcs",
-          "title": "Trailwatch Terrain DCs",
+          "title": "Trailwatch Environment DCs",
           "columns": [
             "difficulty",
             "dc",
@@ -4108,6 +4108,21 @@
               "difficulty": "Extreme",
               "dc": 25,
               "examples": "Magically warped terrain, deliberately concealed trail, exceptional environmental difficulty."
+            },
+            {
+              "difficulty": "Calm weather",
+              "dc": "+0",
+              "examples": "Weather is clear, no winds, snow, rains or anything else obscuring the road."
+            },
+            {
+              "difficulty": "Bad weather",
+              "dc": "+2",
+              "examples": "Weather is unpleasant, but mostly stable. Rain, snow or wind complicates it but its managable."
+            },
+            {
+              "difficulty": "Catastrophic weather",
+              "dc": "+5",
+              "examples": "Weather is problematic, its hard to walk not to cary out the task, vision is obscured and in general everything is harder to make out."
             }
           ]
         },
