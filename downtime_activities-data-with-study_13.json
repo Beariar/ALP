@@ -4249,7 +4249,8 @@
           "title": "Foraging & Gathering Interval Results",
           "columns": [
             "result",
-            "effect"
+            "effect",
+            "value"
           ],
           "rows": [
             {
