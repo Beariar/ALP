@@ -4096,7 +4096,7 @@
       ],
       "complications": {
         "type": "travel event",
-        "rule": "Trailwatch does not use a separate punishment-style complication roll. Travel Events represent unexpected discoveries, encounters, hazards, opportunities, or planned scenes during the interval.",
+        "rule": "Trailwatch does not use a separate punishment-style complication roll. Travel Events represent unexpected discoveries, encounters, hazards, opportunities, or similar scenes during the interval.",
         "interaction": "A good Trailwatch result may reveal an event early or provide useful information about it. A poor result may allow the event to begin with less warning."
       }
     },
@@ -4145,27 +4145,56 @@
             "ability": "Intelligence",
             "skill": "Nature",
             "use": "May be used when identifying rare plants, unusual animal materials, fungi, or valuable natural reagents."
+          },
+          {
+            "ability": "Intelligence",
+            "skill": "Animal Handling",
+            "use": "To hunt animals or follow them to source of water."
           }
         ],
         "toolSupport": [
           {
             "tool": "Herbalism Kit",
-            "benefit": "Helps identify, harvest, and preserve medicinal plants, herbs, and plant-based reagents."
+            "benefit": "Helps identify, harvest, and preserve medicinal plants, herbs, and plant-based reagents.",
+            "focus": "Herbs & Components"
+          },
+          {
+            "tool": "Poisoner's Kit",
+            "benefit": "Helps identify, harvest, and preserve poisonous plants, herbs, and other dangerous reagents.",
+            "focus": "Herbs & Components"
           },
           {
             "tool": "Cook's Utensils",
-            "benefit": "Helps turn gathered food into useful meals and provisions."
-          },
-          {
-            "tool": "Alchemist's Supplies",
-            "benefit": "Helps stabilize, process, or preserve alchemical and magical reagents."
+            "benefit": "Helps turn gathered food into useful meals and provisions.",
+            "focus": "Hunting"
           },
           {
             "tool": "Leatherworker's Tools",
-            "benefit": "Helps properly process hides and similar animal materials."
+            "benefit": "Helps properly process hides and similar animal materials.",
+            "focus": "Hunting"
+          },
+          {
+            "tool": "Alchemist's Supplies",
+            "benefit": "Helps stabilize, process, or preserve alchemical and magical reagents.",
+            "focus": "Rare Resources"
+          },
+          {
+            "tool": "Jeweler's Tools",
+            "benefit": "Helps to identify really useful items such as rare metals, gems.",
+            "focus": "Rare Resources"
+          },
+          {
+            "tool": "Cartographer's Tools",
+            "benefit": "Helps to navigate in the land and indetify rivers and lakes.",
+            "focus": "Food & Water"
+          },
+          {
+            "tool": "Navigator's Tools",
+            "benefit": "The tools to surive are at your command.",
+            "focus": "Food & Water"
           }
         ],
-        "toolRule": "Finding a resource does not automatically mean it is properly processed. The DM may require relevant tools or proficiency to preserve delicate herbs, hides, meat, organs, magical reagents, or other specialized materials.",
+        "toolRule": "Using tool does not automatically mean success. Tools just improve the roll of skill check required based on the Tool-Skill relation. (Webpage - Tools; Section - 'How tools work?')",
         "abundanceDC": {
           "rule": "The DM chooses a base DC based on how abundant the desired resource is in the current environment, then applies the weather modifier.",
           "examples": [
@@ -4193,10 +4222,10 @@
         },
         "outcomes": {
           "belowDC": "Nothing useful is found during the interval.",
-          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome.",
-          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area.",
-          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region.",
-          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment."
+          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1d4 gp)",
+          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 2d4 gp)",
+          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d6 gp)",
+          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 3d6 gp)"
         },
         "quantityRule": "A single activity check determines the quality of the whole interval. The number of result portions determines how many separate batches, finds, or periods of useful gathering are produced.",
         "huntingEncounterRule": "For ordinary harmless prey, hunting may be abstracted into the activity result. If the desired prey is large, dangerous, magical, or especially valuable, a successful result may locate tracks, territory, or the creature itself rather than automatically providing the harvested materials.",
@@ -4218,19 +4247,23 @@
             },
             {
               "result": "Meet DC",
-              "effect": "Each result portion provides basic useful resources."
+              "effect": "Each result portion provides basic useful resources.",
+              "value": "1d4 gp"
             },
             {
               "result": "Beat DC by 5+",
-              "effect": "Each result portion provides good resources or an uncommon find."
+              "effect": "Each result portion provides good resources or an uncommon find.",
+              "value": "2d4 gp"
             },
             {
               "result": "Beat DC by 10+",
-              "effect": "Excellent haul; rare regional resources may be included."
+              "effect": "Excellent haul; rare regional resources may be included.",
+              "value": "2d6 gp"
             },
             {
               "result": "Beat DC by 15+",
-              "effect": "Exceptional find; unusual or valuable resources may be included."
+              "effect": "Exceptional find; unusual or valuable resources may be included.",
+              "value": "3d6 gp"
             }
           ]
         },
@@ -4312,7 +4345,7 @@
       ],
       "complications": {
         "type": "travel event",
-        "rule": "Foraging & Gathering does not use a separate punishment-style complication roll. Travel Events represent unexpected discoveries, encounters, hazards, opportunities, territorial creatures, or planned scenes during the interval.",
+        "rule": "Foraging & Gathering does not use a separate punishment-style complication roll. Travel Events represent unexpected discoveries, encounters, hazards, opportunities, territorial creatures, or similar scenes during the interval.",
         "interaction": "The activity result can affect how the event is encountered. Good results may reveal tracks, warning signs, or opportunities early; poor results may place the character closer to the event before its nature becomes clear."
       }
     }
