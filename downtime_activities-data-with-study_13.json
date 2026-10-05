@@ -3932,6 +3932,12 @@
             "use": "May be used when reconstructing events from evidence or interpreting unusual signs."
           }
         ],
+         "toolSupport": [
+          {
+            "tool": "Navigator's Tools",
+            "benefit": "Makes your task much easier and allows you to work on two Trailwatch focuses, instead of one only. (In such case only the highest 'beat by' resolution applies)"
+          }
+        ],
         "terrainDC": {
           "rule": "The DM chooses a base DC based on how difficult the route and terrain are to read, then applies the weather modifier.",
           "examples": [
@@ -4174,6 +4180,11 @@
             "focus": "Hunting"
           },
           {
+            "tool": "Fishing Rod",
+            "benefit": "Helps to get food from water sources. Especialy useful on boats.",
+            "focus": "Hunting"
+          },
+          {
             "tool": "Alchemist's Supplies",
             "benefit": "Helps stabilize, process, or preserve alchemical and magical reagents.",
             "focus": "Rare Resources"
@@ -4194,7 +4205,7 @@
             "focus": "Food & Water"
           }
         ],
-        "toolRule": "Using tool does not automatically mean success. Tools just improve the roll of skill check required based on the Tool-Skill relation. (Webpage - Tools; Section - 'How tools work?')",
+        "toolRule": "Using tool does not automatically mean success. Tools just improve the roll of skill check required based on the Tool-Skill relation. (Webpage - Tools; Section - 'How tools work?').",
         "abundanceDC": {
           "rule": "The DM chooses a base DC based on how abundant the desired resource is in the current environment, then applies the weather modifier.",
           "examples": [
@@ -4225,7 +4236,7 @@
           "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1d4 gp)",
           "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 2d4 gp)",
           "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d6 gp)",
-          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 3d6 gp)"
+          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 4d6 gp)"
         },
         "quantityRule": "A single activity check determines the quality of the whole interval. The number of result portions determines how many separate batches, finds, or periods of useful gathering are produced.",
         "huntingEncounterRule": "For ordinary harmless prey, hunting may be abstracted into the activity result. If the desired prey is large, dangerous, magical, or especially valuable, a successful result may locate tracks, territory, or the creature itself rather than automatically providing the harvested materials.",
@@ -4263,7 +4274,7 @@
             {
               "result": "Beat DC by 15+",
               "effect": "Exceptional find; unusual or valuable resources may be included.",
-              "value": "3d6 gp"
+              "value": "4d6 gp"
             }
           ]
         },
