@@ -3980,7 +3980,7 @@
           "belowDC": "No reliable information is gained. Route mistakes, pursuit signs, hazards, or unusual activity may go unnoticed.",
           "meetDC": "The chosen focus is successfully maintained throughout the interval and the character gains the core information reasonably available from it.",
           "beatBy5": "The chosen focus succeeds, and the DM provides one useful additional observation information if any is available.",
-          "beatBy10": "As Beat by 5, but dm will also provide infomration on one other random Trailwatch focus",
+          "beatBy10": "As Beat by 5, but dm will also provide infomration on one other random Trailwatch focus.",
           "beatBy15": "Exceptional awareness. As Beat by 5, but dm will also provide infomration on two other random Trailwatch focuses."
         },
         "noThreatRule": "A strong result does not create danger. If nothing is following the party or nothing unusual is ahead, the character can instead become reasonably confident that no such signs were present during the interval.",
@@ -4009,11 +4009,11 @@
             },
             {
               "result": "Beat DC by 10+",
-              "effect": "As above, and 1 observation may be significant and grant a practical advantage."
+              "effect": "As Beat by 5, but DM will also provide infomration on ONE other random Trailwatch focus."
             },
             {
               "result": "Beat DC by 15+",
-              "effect": "Exceptional awareness; clearest reasonable picture of the route and relevant activity."
+              "effect": "Exceptional awareness; As Beat by 5, but dm will also provide infomration on TWO other random Trailwatch focuses."
             }
           ]
         },
