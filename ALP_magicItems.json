@@ -1042,6 +1042,38 @@
 				"While wearing this ring, you gain one additional warlock spell slot from your Pact Magic feature. This spell slot is the same level as your other warlock spell slots and returns when you finish a short or long rest. It can only be used to cast warlock spells and cannot be used for Mystic Arcanum.",
 				"When you finish a long rest, choose a number of Axria weapons equal to half your proficiency bonus, rounded up. You gain proficiency with those weapons until you finish another long rest and choose again.",
 				"In addition, when you hit a creature with your pact weapon, the attack deals extra fire or necrotic damage equal to half your proficiency bonus, rounded down. You choose the damage type when you finish a long rest."]
+		},
+		{
+			"name": "Nagi's Travel Excerpt",
+			"meno": "Nagin Výcuc o veciach medzi Jazierchatom a Skalodomom",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "none",
+			"reqAttune": "no",
+			"type": "other",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [],
+			"entries": [
+				"This book contains useful infomation on creatures, environment, roads, facts and legends of the massive location between Jazierchat and Skalodom.",
+				"While traveling this region there is a 34% chance that book contains usefull information for specific Survival, Nature, Investigation or Religion check. In such case the check has extra +5 bonus. Anyone who read the book within week qualifies for this bonus.",
+				"While using activity to Trailwatch or Foraging & Gathering, there is a 50% chance that book contains usefull information on the actvity related check.  In such case the check has extra +5 bonus. Only the person in actual posseseion of the book qualifies for this bonus.",
+				"This book is non-magical and can be burned, so carefull around campfire.. or around Zori.."
+			]
 		}
 	]
 }
