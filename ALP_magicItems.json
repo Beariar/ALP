@@ -834,7 +834,7 @@
 				"While attuned to this item, you can activate it in one of the following ways:<br>• <b>Adrenaline Surge (Free Action)</b>: You can inject yourself with the stored healing potion as a free action on your turn.<br>• <b>Last-Second Save (Reaction)</b>: If you are reduced to 0 HP but not killed outright, you can use your reaction to inject the potion instead of falling unconscious.",
 				"<b>Enhanced Healing:</b>",
 				"When consumed through the Health Injector, a healing potion dices are rolled with advantage. (Roll every dice twice and pick the higher result) Mythic Healing Potion will instead grant + 20 temporary hit points.",
-				"Once used, the bracer must be reloaded with another healing potion as an action. However the bracer will refines and pressurizes the potion only durring the short rest."
+				"Once used, the bracer must be reloaded with another healing potion, this takes a 1 minute, rune on breacer will start to glow. Then the bracer requires another 10 minutes to refine and pressurize the potion. After which the rune on it wills top glow."
 			]
 		},
 		{
