@@ -788,7 +788,7 @@
 			"tags": [],
 			"entries": [
 				"These finely crafted glasses come in a variety of designs, each imbued with a subtle magical enhancement. While wearing a pair, you gain one of the following benefits, depending on the type of glasses:",
-				"<b>Glasses of the Scribe</b> → You can read one additional language of your choice.",
+				"<b>Glasses of the Scribe</b> → You can read one additional language of your choice. (The language is binded to the glasses.)",
 				"<b>Glasses of the Scout</b> → You gain a +1 bonus to Perception checks.",
 				"<b>Glasses of the Night</b> → Your darkvision increases by 5 feet.",
 				"<b>Glasses of Magic</b> → The range of Detect Magic increases by 10 feet.",
