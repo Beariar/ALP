@@ -1077,6 +1077,48 @@
 				" ",
 				"Note: This book is non-magical and can be burned, so carefull around campfire.. or around Zori."
 			]
-		}
+		},
+		{
+  "name": "Hold of Bagging",
+  "meno": "",
+  "source": "ALP",
+  "page": "0",
+  "rarity": "rare",
+  "reqAttune": "no",
+  "type": "wondrous",
+  "bonuses": {
+    "spellAttack": "0",
+    "spellSaveDc": "0",
+    "weaponAttack": "0",
+    "abilityScores": {
+      "str": "0",
+      "dex": "0",
+      "con": "0",
+      "wis": "0",
+      "int": "0",
+      "cha": "0"
+    },
+    "savingThrow": "0"
+  },
+  "spellFocus": "no",
+  "properties": [],
+  "tags": [
+    "extradimensional",
+    "storage",
+    "prison",
+    "utility"
+  ],
+  "entries": [
+    "This heavy sack resembles a Bag of Holding, but its extradimensional space has been altered to safely contain living creatures. Except where described below, it follows the same rules as a Bag of Holding, including its dangerous interaction with Portable Holes, Handy Haversacks, other Bags of Holding, and similar extradimensional spaces.",
+    "<b>Bagging a Creature.</b> A creature can be placed inside only if it is willing or incapacitated. A willing or unconscious creature can be placed inside as an action. A conscious incapacitated creature can resist; placing it inside takes 1 minute and requires a successful DC 15 Strength (Athletics) check contested by the creature's Strength (Athletics) or Dexterity (Acrobatics).",
+    "<b>Capacity.</b> The Hold can contain either one Large creature or up to two Medium or smaller creatures. While at least one living creature occupies the holding chamber, the Hold's ordinary storage space is inaccessible. Items already stored within remain safe, but objects cannot be added or retrieved until the holding chamber is empty.",
+    "<b>Inside the Hold.</b> The interior is a dark, featureless extradimensional chamber approximately 15 feet across. Creatures inside can breathe normally and experience hunger, thirst, fatigue, and the passage of time normally. They cannot see or hear outside the Hold and cannot normally communicate with or affect creatures or objects outside it. A creature inside cannot gain the benefits of a Long Rest, though it can take Short Rests.",
+    "<b>Escape.</b> A creature inside can use its action to attempt a DC 18 Strength (Athletics) check. On a success, it forces open the connection to the mouth of the Hold and escapes. This attempt automatically fails if the Hold's opening is physically secured, such as with a lock, chain, locked container, or similar restraint. Merely tying the drawstring does not prevent an escape attempt.",
+    "<b>Planar Leakage.</b> Living creatures slowly destabilize the extradimensional holding chamber. At the end of every 9-day week during which the Hold contains at least one living creature, roll a d10. On a 1, a planar breach develops. One randomly determined imprisoned creature escapes through the breach and appears in the nearest unoccupied space within 10 feet of the Hold, even if the Hold itself is locked or otherwise secured.",
+    "<b>Unstable Hold.</b> After a creature escapes through Planar Leakage, the Hold becomes unstable until the next dawn. While unstable, no living creature can be placed inside it.",
+    "<b>Extradimensional Interference.</b> A creature carrying a Bag of Holding, Portable Hole, Handy Haversack, or similar extradimensional container cannot be placed inside the Hold of Bagging. If the Hold itself is placed inside another extradimensional storage space, or such an item is somehow brought inside it, use the normal catastrophic interaction rules of a Bag of Holding.",
+    "<b>Damage and Overloading.</b> If the Hold is overloaded, pierced, torn, or destroyed, it suffers the same consequences as a Bag of Holding. Creatures and objects within are affected in the same manner as contents of a normal Bag of Holding."
+  ]
+}
 	]
 }
