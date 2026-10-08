@@ -4479,7 +4479,8 @@
           "notes": [
             "A standard ration costs 5 sp, so 1 gp of ordinary edible gathered provisions equals 2 rations before processing.",
             "Processing consumes the selected resource value; the same gp value cannot also remain available as herbs, components, meat, or saleable goods.",
-            "Use the campaign's normal Tool-Skill relation rules to resolve Cook's Utensils checks."
+            "Use the campaign's normal Tool-Skill relation rules to resolve Cook's Utensils checks.",
+            "Per day max 12 GP input can be used for cooking."
           ]
         }
       ],
