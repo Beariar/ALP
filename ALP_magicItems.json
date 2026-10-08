@@ -1119,6 +1119,134 @@
     "<b>Extradimensional Interference.</b> A creature carrying a Bag of Holding, Portable Hole, Handy Haversack, or similar extradimensional container cannot be placed inside the Hold of Bagging. If the Hold itself is placed inside another extradimensional storage space, or such an item is somehow brought inside it, use the normal catastrophic interaction rules of a Bag of Holding.",
     "<b>Damage and Overloading.</b> If the Hold is overloaded, pierced, torn, or destroyed, it suffers the same consequences as a Bag of Holding. Creatures and objects within are affected in the same manner as contents of a normal Bag of Holding."
   ]
+},
+  {
+    "name": "Purse of Holding",
+    "meno": "",
+    "source": "ALP",
+    "page": "0",
+    "rarity": "uncommon",
+    "reqAttune": "no",
+    "type": "wondrous",
+    "weight": "3",
+    "bonuses": {
+      "spellAttack": "0",
+      "spellSaveDc": "0",
+      "weaponAttack": "0",
+      "abilityScores": {
+        "str": "0",
+        "dex": "0",
+        "con": "0",
+        "wis": "0",
+        "int": "0",
+        "cha": "0"
+      },
+      "savingThrow": "0"
+    },
+    "spellFocus": "no",
+    "properties": [],
+    "tags": [
+      "extradimensional",
+      "storage",
+      "money",
+      "utility"
+    ],
+    "entries": [
+      "This small purse has an interior space considerably larger than its outside dimensions. Its opening is roughly 8 inches across, preventing objects wider than the opening from being placed inside. The purse can hold up to 200 pounds, not exceeding a volume of 16 cubic feet. The purse weighs 3 pounds regardless of its contents.",
+      "The Purse of Holding is commonly used for coins, gemstones, jewelry, documents, potions, ammunition, spell components, and other relatively small objects. Adventurers often use one to carry accumulated treasure, while merchants, accountants, treasurers, and guild officials use them to safely transport or maintain large quantities of currency.",
+      "Retrieving a specific item from the purse requires an action. A creature reaching inside can intuitively locate an object it knows is stored within.",
+      "If the purse is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the purse is turned inside out, its contents spill forth unharmed, but the purse must be put right before it can be used again.",
+      "Breathing creatures placed inside the purse can survive for a number of minutes equal to 10 divided by the number of creatures inside, with a minimum of 1 minute, after which they begin to suffocate. The small opening normally prevents Medium or larger creatures from entering.",
+      "Placing the Purse of Holding inside a Bag of Holding, Backpack of Holding, Handy Haversack, Portable Hole, or similar extradimensional space instantly destroys both items and opens a gate to the Astral Plane. Any creature within 10 feet of the gate is pulled through to a random location on the Astral Plane before the gate closes."
+    ]
+  },
+  {
+    "name": "Backpack of Holding",
+    "meno": "",
+    "source": "ALP",
+    "page": "0",
+    "rarity": "rare",
+    "reqAttune": "no",
+    "type": "wondrous",
+    "weight": "30",
+    "bonuses": {
+      "spellAttack": "0",
+      "spellSaveDc": "0",
+      "weaponAttack": "0",
+      "abilityScores": {
+        "str": "0",
+        "dex": "0",
+        "con": "0",
+        "wis": "0",
+        "int": "0",
+        "cha": "0"
+      },
+      "savingThrow": "0"
+    },
+    "spellFocus": "no",
+    "properties": [],
+    "tags": [
+      "extradimensional",
+      "storage",
+      "expedition",
+      "utility"
+    ],
+    "entries": [
+      "This large and heavily reinforced backpack contains an extradimensional storage space substantially larger than that of a normal Bag of Holding. Its main opening is roughly 3 feet across and the extradimensional interior is approximately 8 feet deep.",
+      "The backpack can hold up to 1,500 pounds, not exceeding a total volume of 192 cubic feet. The Backpack of Holding weighs 30 pounds regardless of its contents.",
+      "Its reinforced straps, buckles, frame, and magically strengthened fabric make it considerably more durable and cumbersome than a normal Bag of Holding. It is commonly used by expedition groups, military quartermasters, traveling merchants, monster hunters, and adventurers expecting to transport large quantities of equipment or recovered treasure.",
+      "Retrieving a specific item from the backpack requires an action. A creature reaching inside can intuitively locate an object it knows is stored within.",
+      "If the backpack is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the backpack is turned inside out, its contents spill forth unharmed, but the backpack must be put right before it can be used again.",
+      "Breathing creatures inside the backpack can survive for a number of minutes equal to 10 divided by the number of creatures inside, with a minimum of 1 minute, after which they begin to suffocate.",
+      "Placing the Backpack of Holding inside a Bag of Holding, Purse of Holding, Handy Haversack, Portable Hole, or similar extradimensional space instantly destroys both items and opens a gate to the Astral Plane. Any creature within 10 feet of the gate is pulled through to a random location on the Astral Plane before the gate closes."
+    ]
+  },{
+  "name": "Napkin of Holding",
+  "meno": "",
+  "source": "ALP",
+  "page": "0",
+  "rarity": "legendary",
+  "reqAttune": "no",
+  "type": "wondrous",
+  "weight": "0.1",
+  "bonuses": {
+    "spellAttack": "0",
+    "spellSaveDc": "0",
+    "weaponAttack": "0",
+    "abilityScores": {
+      "str": "0",
+      "dex": "0",
+      "con": "0",
+      "wis": "0",
+      "int": "0",
+      "cha": "0"
+    },
+    "savingThrow": "0"
+  },
+  "spellFocus": "no",
+  "properties": [],
+  "tags": [
+    "extradimensional",
+    "astral",
+    "storage",
+    "portal",
+    "legendary"
+  ],
+  "entries": [
+    "At first glance, this item appears to be an ordinary folded cloth napkin. Unless closely examined with magic, there is little to distinguish it from a mundane piece of fabric. Despite its unassuming appearance, the napkin is permanently linked to a private chamber hidden within the Astral Plane.",
+    "<b>Opening the Napkin.</b> As an action, the napkin can be unfolded and pressed against a solid vertical surface at least 5 feet wide and 7 feet tall. The cloth spreads magically across the surface and becomes the outline of a doorway. Opening this doorway reveals the private astral chamber connected to the napkin. The doorway remains open until its owner closes it or removes the napkin.",
+    "<b>Astral Storehouse.</b> Beyond the doorway is a stable extradimensional chamber approximately 50 feet long, 50 feet wide, and 20 feet high. The chamber has a solid floor, walls, and ceiling and contains breathable air. Creatures inside experience the passage of time normally and can eat, drink, sleep, and rest there as normal.",
+    "The chamber can contain an enormous quantity of equipment, treasure, furniture, supplies, and other objects, limited primarily by the physical space available within the room. Unlike a Bag of Holding, objects are not suspended within an abstract extradimensional space. They remain exactly where they are placed, allowing shelves, chests, racks, labels, worktables, and other forms of organization to be used normally.",
+    "<b>Permanent Interior.</b> Closing the doorway does not disturb anything within the chamber. Objects and creatures remain where they were left. The next time the Napkin of Holding is opened, it always connects to the same chamber.",
+    "<b>Secure Entrance.</b> The owner of the napkin can spend 1 minute establishing or changing a password, phrase, gesture, symbol, or combination of these as the key to the chamber. When the doorway is opened, creatures that do not provide the correct key cannot cross its threshold. To such creatures, the doorway appears to contain an impenetrable dark surface.",
+    "The owner can designate specific creatures as authorized users. An authorized creature can open and enter the chamber without providing the normal password or symbol until that permission is revoked.",
+    "<b>Hidden Nature.</b> When folded, the napkin appears completely mundane to ordinary inspection. Detect Magic reveals faint conjuration magic upon it, but does not reveal the nature, size, contents, or location of the chamber. Identifying the item's full properties requires an Identify spell or similarly powerful magic.",
+    "<b>Moving the Entrance.</b> Removing or folding the napkin immediately closes the doorway. Creatures and objects within the astral chamber remain there safely. The napkin can later be unfolded elsewhere, creating a new entrance to the same chamber.",
+    "<b>Inside the Chamber.</b> The doorway is visible from within while it is open. If it closes while creatures remain inside, they cannot reopen it from within unless they possess another means of planar travel. They must wait for the Napkin of Holding to be opened again or escape using magic capable of planar travel.",
+    "<b>Extradimensional Interference.</b> Bags of Holding, Purses of Holding, Backpacks of Holding, Handy Haversacks, Portable Holes, and similar extradimensional containers should not be carried through the doorway. If one enters the chamber, both magical spaces destabilize. The Napkin of Holding and the extradimensional item are destroyed, and all creatures within the chamber are cast into random locations on the Astral Plane.",
+    "<b>Destruction.</b> If the Napkin of Holding is destroyed while its doorway is closed, the astral chamber continues to exist but loses its connection to the Material Plane. Its contents remain stranded within the Astral Plane and can only be recovered through planar travel or similarly powerful magic. If the napkin is destroyed while the doorway is open, the doorway immediately collapses and creatures within 10 feet of it must succeed on a DC 18 Dexterity saving throw or be pulled into the chamber before the connection is severed."
+  ]
 }
+
 	]
 }
