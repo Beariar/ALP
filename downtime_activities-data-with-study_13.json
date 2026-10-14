@@ -3886,7 +3886,7 @@
           "minimumDays": 1,
           "maximumDays": 9
         },
-        "travelPace": "The pace decides if the activity is better suited for day-by-day or multiple days or by weekly checks.",
+        "travelPace": "The pace decides if the activity is better suited for day-by-day or multiple days or by weekly checks. For multiple days the actvity can be reduced to 1 check per 3 days, so 3 checks per week (9 days).",
         "travelRequirement": "The character must be actively traveling and able to devote attention to route observation. The DM may rule that driving a demanding vehicle, sleeping, or another incompatible duty prevents Trailwatch."
       },
       "resolution": {
@@ -4116,6 +4116,7 @@
           "minimumDays": 1,
           "maximumDays": 9
         },
+        "travelPace": "The pace decides if the activity is better suited for day-by-day or multiple days or by weekly checks. Multiple days are covered with one check and reward is then multiplied by days covered.",
         "travelRequirement": "The character must be traveling through an environment where gathering is physically possible and must have enough freedom to search the surrounding area. The DM may rule that certain vehicles, forced marches, or other duties prevent the activity."
       },
       "resolution": {
@@ -4237,10 +4238,10 @@
         },
         "outcomes": {
           "belowDC": "Nothing useful is found during the interval.",
-          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1 gp)",
-          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 1d4 gp)",
-          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d4 gp)",
-          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 2d6 gp)"
+          "meetDC": "Each result portion provides a basic useful resource appropriate to the chosen focus and biome. (worth 1 gp x days)",
+          "beatBy5": "Each result portion provides a good quantity or quality of resources, or an uncommon find appropriate to the area. (worth 1d4 gp x days)",
+          "beatBy10": "Each result portion provides an excellent haul, and the DM may include a rare resource appropriate to the region. (worth 2d4 gp x days)",
+          "beatBy15": "Exceptional find. The DM may include unusual herbs, valuable creature materials, rare magical reagents, or another exceptional resource appropriate to the environment. (worth 2d6 gp x days)"
         },
         "quantityRule": "A single activity check determines the quality of the whole interval. The number of result portions determines how many separate batches, finds, or periods of useful gathering are produced.",
         "huntingEncounterRule": "For ordinary harmless prey, hunting may be abstracted into the activity result. If the desired prey is large, dangerous, magical, or especially valuable, a successful result may locate tracks, territory, or the creature itself rather than automatically providing the harvested materials.",
@@ -4332,22 +4333,22 @@
             {
               "result": "Meet DC",
               "effect": "Each result portion provides basic useful resources.",
-              "value": "1 gp"
+              "value": "1 gp x days"
             },
             {
               "result": "Beat DC by 5+",
               "effect": "Each result portion provides good resources or an uncommon find.",
-              "value": "1d4 gp"
+              "value": "1d4 gp x days"
             },
             {
               "result": "Beat DC by 10+",
               "effect": "Excellent haul; rare regional resources may be included.",
-              "value": "2d4 gp"
+              "value": "2d4 gp x days"
             },
             {
               "result": "Beat DC by 15+",
               "effect": "Exceptional find; unusual or valuable resources may be included.",
-              "value": "2d6 gp"
+              "value": "2d6 gp x days"
             }
           ]
         },
