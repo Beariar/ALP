@@ -1,0 +1,3398 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    "Proficiency",
+    "Movement",
+    "Action",
+    "Bonus Action",
+    "Reaction",
+    "Condition",
+    "Environment Effects",
+    "Fall Damage",
+    "Language"
+  ],
+  "entries": [
+    {
+      "id": "proficiency-data",
+      "title": "Proficiency",
+      "navigationTitle": "Proff",
+      "category": "Proficiency",
+      "subgroup": "",
+      "label": "Proficiency",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Experience Points"
+              ],
+              [
+                "Level"
+              ],
+              [
+                "Proficiency Bonus"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "0"
+              ],
+              [
+                "1"
+              ],
+              [
+                "+2"
+              ]
+            ],
+            [
+              [
+                "300"
+              ],
+              [
+                "2"
+              ],
+              [
+                "+2"
+              ]
+            ],
+            [
+              [
+                "900"
+              ],
+              [
+                "3"
+              ],
+              [
+                "+2"
+              ]
+            ],
+            [
+              [
+                "2,700"
+              ],
+              [
+                "4"
+              ],
+              [
+                "+2"
+              ]
+            ],
+            [
+              [
+                "6,500"
+              ],
+              [
+                "5"
+              ],
+              [
+                "+3"
+              ]
+            ],
+            [
+              [
+                "14,000"
+              ],
+              [
+                "6"
+              ],
+              [
+                "+3"
+              ]
+            ],
+            [
+              [
+                "23,000"
+              ],
+              [
+                "7"
+              ],
+              [
+                "+3"
+              ]
+            ],
+            [
+              [
+                "34,000"
+              ],
+              [
+                "8"
+              ],
+              [
+                "+3"
+              ]
+            ],
+            [
+              [
+                "48,000"
+              ],
+              [
+                "9"
+              ],
+              [
+                "+4"
+              ]
+            ],
+            [
+              [
+                "64,000"
+              ],
+              [
+                "10"
+              ],
+              [
+                "+4"
+              ]
+            ],
+            [
+              [
+                "85,000"
+              ],
+              [
+                "11"
+              ],
+              [
+                "+4"
+              ]
+            ],
+            [
+              [
+                "100,000"
+              ],
+              [
+                "12"
+              ],
+              [
+                "+4"
+              ]
+            ],
+            [
+              [
+                "120,000"
+              ],
+              [
+                "13"
+              ],
+              [
+                "+5"
+              ]
+            ],
+            [
+              [
+                "140,000"
+              ],
+              [
+                "14"
+              ],
+              [
+                "+5"
+              ]
+            ],
+            [
+              [
+                "165,000"
+              ],
+              [
+                "15"
+              ],
+              [
+                "+5"
+              ]
+            ],
+            [
+              [
+                "195,000"
+              ],
+              [
+                "16"
+              ],
+              [
+                "+5"
+              ]
+            ],
+            [
+              [
+                "225,000"
+              ],
+              [
+                "17"
+              ],
+              [
+                "+6"
+              ]
+            ],
+            [
+              [
+                "265,000"
+              ],
+              [
+                "18"
+              ],
+              [
+                "+6"
+              ]
+            ],
+            [
+              [
+                "305,000"
+              ],
+              [
+                "19"
+              ],
+              [
+                "+6"
+              ]
+            ],
+            [
+              [
+                "355,000"
+              ],
+              [
+                "20"
+              ],
+              [
+                "+6"
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "movement-move",
+      "title": "Move",
+      "navigationTitle": "Move",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 5ft per 5ft moved"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. ",
+        {
+          "type": "divider"
+        },
+        "You can move through a nonhostile creature's space. ",
+        {
+          "type": "divider"
+        },
+        "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. ",
+        {
+          "type": "divider"
+        },
+        "Another creature's space is difficult terrain for you. ",
+        {
+          "type": "divider"
+        },
+        "Whether a creature is a friend or an enemy, you can't willingly end your move in its space. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-climb",
+      "title": "Climb",
+      "navigationTitle": "Climb",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 10ft per 5ft climbed"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "May involve a Strength (Athletics) check if the climb is difficult ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-swim",
+      "title": "Swim",
+      "navigationTitle": "Swim",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 10ft per 5ft swum"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "May involve a Strength (Athletics) check if the swim is difficult ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-drop-prone",
+      "title": "Drop prone",
+      "navigationTitle": "Drop prone",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 0ft (free)"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can drop prone without using any of your speed ",
+        {
+          "type": "divider"
+        },
+        "To move while prone, you must crawl or use magic such as teleportation ",
+        {
+          "type": "divider"
+        },
+        "Dropping prone adds the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Prone"
+          ]
+        },
+        " condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage) ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-crawl",
+      "title": "Crawl",
+      "navigationTitle": "Crawl",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 10ft per 5ft crawled"
+          ]
+        },
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-stand-up",
+      "title": "Stand up",
+      "navigationTitle": "Stand up",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: half of your speed"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can't stand up if you don't have enough movement left or if your speed is 0 ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-high-jump",
+      "title": "High jump",
+      "navigationTitle": "High jump",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 5ft per 5ft jumped"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You leap into the air a number of feet equal to ",
+        {
+          "type": "strong",
+          "content": [
+            "3 + your Strength modifier"
+          ]
+        },
+        " if you move at least 10 feet on foot immediately before the jump. ",
+        {
+          "type": "divider"
+        },
+        "When you make a standing high jump, you can jump only half that distance. ",
+        {
+          "type": "divider"
+        },
+        "You can extend your arms half your height above yourself during the jump. ",
+        {
+          "type": "divider"
+        },
+        "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-long-jump",
+      "title": "Long jump",
+      "navigationTitle": "Long jump",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Movement cost: 5ft per 5ft jumped"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You cover a number of feet up to your ",
+        {
+          "type": "strong",
+          "content": [
+            "Strength score"
+          ]
+        },
+        " if you move at least 10 feet on foot immediately before the jump. ",
+        {
+          "type": "divider"
+        },
+        "When you make a standing long jump, you can leap only half that distance ",
+        {
+          "type": "divider"
+        },
+        "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check. ",
+        {
+          "type": "divider"
+        },
+        "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-improvise",
+      "title": "Improvise",
+      "navigationTitle": "Improvise",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Perform any movement or stunt you can imagine"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-difficult-terrain",
+      "title": "Difficult terrain",
+      "navigationTitle": "Difficult terrain",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Moving in difficult terrain costs an additional 5ft per 5ft of movement"
+          ]
+        },
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "movement-grapple-move",
+      "title": "Grapple move",
+      "navigationTitle": "Grapple move",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Drag or carry the grappled creature with you"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you. ",
+        {
+          "type": "divider"
+        },
+        "See the attack action for how to grapple a creature. "
+      ]
+    },
+    {
+      "id": "action-fortification",
+      "title": "Fortification",
+      "navigationTitle": "Fortification",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Focus your vein of magic on incoming magical effects"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Until the start of your next turn, any magical attack roll made against you has disadvantage if you can see the attacker, and you make saving throws agains magic with advantage. ",
+        {
+          "type": "divider"
+        },
+        "You lose this benefit if you are ",
+        {
+          "type": "emphasis",
+          "content": [
+            "incapacitated"
+          ]
+        },
+        ", ",
+        {
+          "type": "emphasis",
+          "content": [
+            "deafened"
+          ]
+        },
+        " or when you use ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Absorb"
+          ]
+        },
+        " reaction. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "divider"
+        },
+        "Additionaly if you have spell casting ability score more than 22 you can use special Absorb reaction while in Fortification. ",
+        {
+          "type": "divider"
+        },
+        "When you are targeted by a single target or area of spell, even if you manage to avoid the spell effect, you can use your reaction to Absorb the spell. This will restore your lowest level empty spell slot and heal you for your profficiency bonus times the level of resotered spell slot. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-attack",
+      "title": "Attack",
+      "navigationTitle": "Attack",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Perform a melee or ranged attack with your weapon"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Certain features, such as the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Extra Attack"
+          ]
+        },
+        " feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks. ",
+        {
+          "type": "divider"
+        },
+        "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Offhand attack"
+          ]
+        },
+        " bonus action). ",
+        {
+          "type": "divider"
+        },
+        "You may replace Action with ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Shove"
+          ]
+        },
+        ", ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Grapple"
+          ]
+        },
+        " or ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Toss"
+          ]
+        },
+        ". ",
+        {
+          "type": "divider"
+        },
+        "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers. ",
+        {
+          "type": "divider"
+        },
+        "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "non-lethal-damage",
+      "title": "Non-Lethal Damage",
+      "navigationTitle": "Non-Lethal Damage",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action sub-type",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Before making an attack or casting a damaging spell, a creature can declare its intention to incapacitate rather than kill."
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Non-lethal attacks are more difficult to execute: ",
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Attack Type"
+              ],
+              [
+                "Penalty"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Unarmed or bludgeoning melee attack"
+              ],
+              [
+                "Target AC +2"
+              ]
+            ],
+            [
+              [
+                "Slashing or piercing melee attack"
+              ],
+              [
+                "Target AC +4"
+              ]
+            ],
+            [
+              [
+                "Ranged weapon attack"
+              ],
+              [
+                "Target AC +5"
+              ]
+            ],
+            [
+              [
+                "Melee spell attack"
+              ],
+              [
+                "Target AC +2"
+              ]
+            ],
+            [
+              [
+                "Ranged spell attack"
+              ],
+              [
+                "Target AC +5"
+              ]
+            ],
+            [
+              [
+                "Spell requiring a saving throw"
+              ],
+              [
+                "Spell Save DC −5"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Damage remains unchanged. If a non-lethal attack reduces a creature to 0 HP, it falls unconscious and stable instead of dying. ",
+        {
+          "type": "divider"
+        },
+        "Spells that explicitly kill or destroy their targets, such as Power Word Kill or Disintegrate, cannot be used non-lethally. ",
+        {
+          "type": "divider"
+        },
+        "For area-of-effect spells, the reduced Spell Save DC applies to all affected creatures. "
+      ]
+    },
+    {
+      "id": "action-grapple",
+      "title": "Grapple",
+      "navigationTitle": "Grapple",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Attempt to grab a creature or wrestle with it"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can use the action to make a special melee attack, a grapple. ",
+        {
+          "type": "divider"
+        },
+        "The target of your grapple must be no more than one size larger than you, and it must be within your reach. ",
+        {
+          "type": "divider"
+        },
+        "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). ",
+        {
+          "type": "divider"
+        },
+        "If you succeed, you subject the target to the grappled condition (its speed is set to 0). "
+      ]
+    },
+    {
+      "id": "action-toss",
+      "title": "Toss",
+      "navigationTitle": "Toss",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Attempt to toss grappled creature"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "If you have Strenght score more than 22 you can use the action to make a special melee attack, Toss, on the creature you hold in grapple. If you're able to make multiple attacks you can use Grepple and Toss on same turn. ",
+        {
+          "type": "divider"
+        },
+        "You can toss the creature up to a distance equal to 5 feet per 2 points of your Strength modifier (With 6 Strenght modifier it would be 5*(6/2) -> 15 feet). ",
+        {
+          "type": "divider"
+        },
+        "The creature suffers falling damage based on the distance tossed and where it lands. It also must succeed on Dexterity saving throw (DC = Distance traveled) or will land prone. ",
+        {
+          "type": "divider"
+        },
+        "If you toss the creature into another creature (target), target creature must succeed on Dexterity saving throw (DC = 8 + your Strength modifier + proficiency bonus) or will take same damage as tossed creature, in success no damage is dealt. ",
+        {
+          "type": "divider"
+        },
+        "If you toss the creature into environmental hazard it will take damage depending on the type of hazard (determined by the DM). Example, Spikes, will deal one time damage durring the toss, while flames will deal overtime damage on creatures turn. "
+      ]
+    },
+    {
+      "id": "action-shove",
+      "title": "Shove",
+      "navigationTitle": "Shove",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Shove a creature, either to knock it prone or push it away from you"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Using the action, you can make a special melee attack to shove a creature. ",
+        {
+          "type": "divider"
+        },
+        "The target of your shove must be no more than one size larger than you, and it must be within your reach. ",
+        {
+          "type": "divider"
+        },
+        "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). ",
+        {
+          "type": "divider"
+        },
+        "If you win the contest, you either knock the target prone or push it 5 feet away from you or to the side. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-cast-a-spell",
+      "title": "Cast a spell",
+      "navigationTitle": "Cast a spell",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Cast a spell with a casting time of 1 action"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip. ",
+        {
+          "type": "divider"
+        },
+        "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover. ",
+        {
+          "type": "divider"
+        },
+        "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch. ",
+        {
+          "type": "divider"
+        },
+        "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-dash",
+      "title": "Dash",
+      "navigationTitle": "Dash",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Gain extra movement for the current turn"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The increase equals your speed, after applying any modifiers. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-disengage",
+      "title": "Disengage",
+      "navigationTitle": "Disengage",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Your movement doesn't provoke opportunity attacks for the rest of the turn"
+          ]
+        },
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-dodge",
+      "title": "Dodge",
+      "navigationTitle": "Dodge",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Focus entirely on avoiding attacks"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Until the start of your next turn, any weapon attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. ",
+        {
+          "type": "divider"
+        },
+        "You lose this benefit if you are ",
+        {
+          "type": "emphasis",
+          "content": [
+            "incapacitated"
+          ]
+        },
+        " or if your speed drops to 0. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-escape",
+      "title": "Escape",
+      "navigationTitle": "Escape",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Escape a grapple"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check. ",
+        {
+          "type": "divider"
+        },
+        "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-help",
+      "title": "Help",
+      "navigationTitle": "Help",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Grant an ally advantage on an ability check (if you have the know-how [proff. or expt.] with the ability) or attack"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The target gains advantage on the next ability check it makes to perform the task you are helping with. ",
+        {
+          "type": "divider"
+        },
+        "Alternatively, the target gains advantage on the next attack roll against a creature within 5 feet of you. ",
+        {
+          "type": "divider"
+        },
+        "The advantage lasts until the start of your next turn. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-use-object",
+      "title": "Use Object",
+      "navigationTitle": "Use Object",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Interact with a second object or use special object abilities"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action. ",
+        {
+          "type": "divider"
+        },
+        "When an object requires your action for its use, you also take this action. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-use-shield",
+      "title": "Use shield",
+      "navigationTitle": "Use shield",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Equip or unequip a shield"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A shield always takes an action to equip or unequip. ",
+        {
+          "type": "divider"
+        },
+        "Armor takes several minutes to equip or unequip. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-hide",
+      "title": "Hide",
+      "navigationTitle": "Hide",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Attempt to hide"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision. ",
+        {
+          "type": "divider"
+        },
+        "If you make noise (such as shouting a warning or knocking over a vase), you give away your position. ",
+        {
+          "type": "divider"
+        },
+        "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence. ",
+        {
+          "type": "divider"
+        },
+        "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception. ",
+        {
+          "type": "divider"
+        },
+        "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-search",
+      "title": "Search",
+      "navigationTitle": "Search",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Devote your attention to finding something"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-ready",
+      "title": "Ready",
+      "navigationTitle": "Ready",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Choose a trigger and a response reaction"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "First, you decide what perceivable circumstance will trigger your reaction. ",
+        {
+          "type": "divider"
+        },
+        "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. ",
+        {
+          "type": "divider"
+        },
+        "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. ",
+        {
+          "type": "divider"
+        },
+        "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "divider"
+        },
+        "Additionaly if you have Strength or Dexterity score more than 18 you, can use your available extra attacks as part of the readied Attack action. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-use-class-feature",
+      "title": "Use class feature",
+      "navigationTitle": "Use class feature",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Use a racial or class feature that uses an action"
+          ]
+        },
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-stabilize-a-creature",
+      "title": "Stabilize a creature",
+      "navigationTitle": "Stabilize a creature",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Stop a dying creature from needing to make death saving throws"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Make a Wisdom (Medicine) check with DC 10 ",
+        {
+          "type": "divider"
+        },
+        "On a success, the creature is stable and no longer needs to make death saving throws ",
+        {
+          "type": "divider"
+        },
+        "A stable creature regains 1 hit point after 1d4 hours ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-climb-onto-a-bigger-creature",
+      "title": "Climb onto a Bigger Creature",
+      "navigationTitle": "Climb onto a Bigger Creature",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Get to unexpected position"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        " If one creature wants to jump onto another creature, it can do so by grappling. A small or Medium creature has little chance of making a successful grapple against a Huge or Gargantuan creature, however, unless magic has granted the grappler supernatural might. ",
+        {
+          "type": "divider"
+        },
+        " As an alternative, a suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check. If it wins the contest, the smaller creature successfully moves into the target creature's space, the smaller creature moves with the target and has advantage on attack rolls against it. ",
+        {
+          "type": "divider"
+        },
+        " The smaller creature can move around within the larger creature's space, treating the space as difficult terrain. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action—knocking it off, scraping it against a wall, or grabbing and throwing it—by making a Strength (Athletics) check contested by the smaller creature's Strength (Athletics) or Dexterity (Acrobatics) check. The smaller creature chooses which ability to use. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-disarm",
+      "title": "Disarm",
+      "navigationTitle": "Disarm",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Remove the opponents weapon"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        " A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the target's Strength (Athletics) check or Dexterity (Acrobatics) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item. ",
+        {
+          "type": "divider"
+        },
+        " The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-overrun",
+      "title": "Overrun",
+      "navigationTitle": "Overrun",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Run across occupied space with brute force"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        " When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature. As an action or a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check. The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller. If the mover wins the contest, it can move through the hostile creature's space once this turn. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-tumble",
+      "title": "Tumble",
+      "navigationTitle": "Tumble",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Run across occupied space with skill"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        " A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent. As an action or a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check. If the tumbler wins the contest, it can move through the hostile creature's space once this turn. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "action-tieup",
+      "title": "Tie Up",
+      "navigationTitle": "Tie Up",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Attempt to bind a creature with rope or similar restraints."
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can use your action to tie up a creature that is Grappled or Unconscious. You must have suitable binding materials and be within your reach of the target. ",
+        {
+          "type": "divider"
+        },
+        "If the target is Grappled, make a Dexterity (Sleight of Hand) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). ",
+        {
+          "type": "divider"
+        },
+        "If you succeed, the target is subjected to the Bound condition. On a failure, the target remains Grappled but is not Bound. ",
+        {
+          "type": "divider"
+        },
+        "If the target is Unconscious, you can tie it up without making a contested check. The target automatically gains the Bound condition. "
+      ]
+    },
+    {
+      "id": "action-improvise",
+      "title": "Improvise",
+      "navigationTitle": "Improvise",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Perform any action you can imagine"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure. "
+      ]
+    },
+    {
+      "id": "bonus-action-offhand-attack",
+      "title": "Offhand Attack",
+      "navigationTitle": "Offhand Attack",
+      "category": "Bonus Action",
+      "subgroup": "",
+      "label": "Bonus Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Attack with your off hand"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Only usable if you take the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Attack"
+          ]
+        },
+        " action and attack with a light melee weapon that you're holding in one hand. ",
+        {
+          "type": "divider"
+        },
+        "Perform a single attack with a different light melee weapon that you're holding in the other hand. ",
+        {
+          "type": "divider"
+        },
+        "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. ",
+        {
+          "type": "divider"
+        },
+        "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "bonus-action-cast-a-spell",
+      "title": "Cast a spell",
+      "navigationTitle": "Cast a spell",
+      "category": "Bonus Action",
+      "subgroup": "",
+      "label": "Bonus Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Cast a spell with a casting time of 1 bonus action"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip. ",
+        {
+          "type": "divider"
+        },
+        "For further details, see the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Cast a spell"
+          ]
+        },
+        " action. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "bonus-action-use-class-feature",
+      "title": "Use class feature",
+      "navigationTitle": "Use class feature",
+      "category": "Bonus Action",
+      "subgroup": "",
+      "label": "Bonus Action",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Use a racial or class feature that uses a bonus action"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reaction-vykrytie",
+      "title": "Vykrytie",
+      "navigationTitle": "Vykrytie",
+      "category": "Reaction",
+      "subgroup": "",
+      "label": "Reaction",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You have the ability to nullify critical weapon attacks at the cost of your weapons durability"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Trigger: When you wield a weapon you're proficient with and an enemy creature you can see scores a Critical Hit with weapon attack against you. ",
+        {
+          "type": "divider"
+        },
+        "Your weapon loses one durability and the enemy attack becomes regular attack. ",
+        {
+          "type": "divider"
+        },
+        "If your weapon possesses the Hulking property, you can engage in an Athletics check contested by the attacker's Athletics or Acrobatics check. Succeeding in this contest negates the damage from the attack, while failure results in your weapon losing two durabilities instead of one. ",
+        {
+          "type": "divider"
+        },
+        "If your weapon possesses the Exquisite property, you can engage in an Acrobatics check contested by the attacker's Athletics or Acrobatics check. Succeeding in this contest allows you to successfully counterattack the assailant, rolling damage. However, failing results in your weapon losing two durabilities instead of one. ",
+        {
+          "type": "divider"
+        },
+        "If your weapon possesses both the Hulking and Exquisite properties, you must choose to utilize only one of them for the purpose of this reaction. "
+      ]
+    },
+    {
+      "id": "reaction-opportunity-attack",
+      "title": "Opportunity attack",
+      "navigationTitle": "Opportunity attack",
+      "category": "Reaction",
+      "subgroup": "",
+      "label": "Reaction",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can rarely move heedlessly past your foes without putting yourself in danger"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Trigger: enemy creature you can see leaves your reach. ",
+        {
+          "type": "divider"
+        },
+        "Make one melee attack against the provoking creature. ",
+        {
+          "type": "divider"
+        },
+        "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach. ",
+        {
+          "type": "divider"
+        },
+        "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "reaction-readied-action",
+      "title": "Readied action",
+      "navigationTitle": "Readied action",
+      "category": "Reaction",
+      "subgroup": "",
+      "label": "Reaction",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Execute the reaction specified by your Ready action"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Trigger: specified by your ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Ready"
+          ]
+        },
+        " action. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "reaction-cast-a-spell",
+      "title": "Cast a spell",
+      "navigationTitle": "Cast a spell",
+      "category": "Reaction",
+      "subgroup": "",
+      "label": "Reaction",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Cast a spell with a casting time of 1 reaction"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Trigger: specified by the spell. ",
+        {
+          "type": "divider"
+        },
+        "For further details, see the ",
+        {
+          "type": "emphasis",
+          "content": [
+            "Cast a spell"
+          ]
+        },
+        " action. "
+      ]
+    },
+    {
+      "id": "condition-blinded",
+      "title": "Blinded",
+      "navigationTitle": "Blinded",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can't see"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You automatically fail any ability check which requires sight. ",
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on attack rolls. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-charmed",
+      "title": "Charmed",
+      "navigationTitle": "Charmed",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are charmed by another creature"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You can't attack your charmer or target them with harmful abilities or magical effects. ",
+        {
+          "type": "divider"
+        },
+        "Your charmer has advantage on ability checks to interact socially with you. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-deafened",
+      "title": "Deafened",
+      "navigationTitle": "Deafened",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can't hear"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You automatically fail any ability check which requires hearing. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-exhaustion",
+      "title": "Exhaustion",
+      "navigationTitle": "Exhaustion",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Exhaustion is measured in six levels"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Level"
+              ],
+              [
+                "Effect"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "1"
+              ],
+              [
+                "Disadvantage on ability checks"
+              ]
+            ],
+            [
+              [
+                "2"
+              ],
+              [
+                "Speed halved"
+              ]
+            ],
+            [
+              [
+                "3"
+              ],
+              [
+                "Disadvantage on attack rolls and saving throws"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "Hit point maximum halved"
+              ]
+            ],
+            [
+              [
+                "5"
+              ],
+              [
+                "Speed reduced to 0"
+              ]
+            ],
+            [
+              [
+                "6"
+              ],
+              [
+                "Death"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You suffer the effect of your current level of exhaustion as well as all lower levels. ",
+        {
+          "type": "divider"
+        },
+        "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink. ",
+        {
+          "type": "divider"
+        },
+        "Also, being raised from the dead reduces a creature’s exhaustion level by 1. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-frightened",
+      "title": "Frightened",
+      "navigationTitle": "Frightened",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are frightened"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight. ",
+        {
+          "type": "divider"
+        },
+        "You can't willingly move closer to the source of your fear. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-grappled",
+      "title": "Grappled",
+      "navigationTitle": "Grappled",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are grappled"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Your speed becomes 0, and you can't benefit from any bonus to your speed. ",
+        {
+          "type": "divider"
+        },
+        "The condition ends if your grappler is incapacitated. ",
+        {
+          "type": "divider"
+        },
+        "The condition also ends if you are removed from the reach of your grappler. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-incapacitated",
+      "title": "Incapacitated",
+      "navigationTitle": "Incapacitated",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can't take actions or reactions"
+          ]
+        },
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-invisible",
+      "title": "Invisible",
+      "navigationTitle": "Invisible",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can't be seen without the aid of magic or a special sense"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "For the purpose of hiding, you are heavily obscured. ",
+        {
+          "type": "divider"
+        },
+        "You can still be detected by any noise you make or tracks you leave. ",
+        {
+          "type": "divider"
+        },
+        "You have advantage on attack rolls. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have disadvantage. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-paralyzed",
+      "title": "Paralyzed",
+      "navigationTitle": "Paralyzed",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You can't do anything"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You are incapacitated and can't move or speak. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        },
+        "Any attack that hits you is a critical hit if the attacker is within 5 feet of you. ",
+        {
+          "type": "divider"
+        },
+        "You automatically fail Strength and Dexterity saving throws. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-petrified",
+      "title": "Petrified",
+      "navigationTitle": "Petrified",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Your weight increases by a factor of ten, and you cease aging. ",
+        {
+          "type": "divider"
+        },
+        "You are incapacitated, can't move or speak, and are unaware of your surroundings. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        },
+        "You automatically fail Strength and Dexterity saving throws. ",
+        {
+          "type": "divider"
+        },
+        "You have resistance to all damage. ",
+        {
+          "type": "divider"
+        },
+        "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-poisoned",
+      "title": "Poisoned",
+      "navigationTitle": "Poisoned",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are poisoned"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on attack rolls and ability checks. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-prone",
+      "title": "Prone",
+      "navigationTitle": "Prone",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are prone"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Your only movement option is to crawl, unless you stand up. ",
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on attack rolls. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-restrained",
+      "title": "Restrained",
+      "navigationTitle": "Restrained",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are restrained"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Your speed becomes 0, and you can't benefit from any bonus to your speed. ",
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on attack rolls. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on Dexterity saving throws. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-stunned",
+      "title": "Stunned",
+      "navigationTitle": "Stunned",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are stunned"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You are incapacitated, can't move, and can speak only falteringly. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        },
+        "You automatically fail Strength and Dexterity saving throws. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-frostbitten",
+      "title": "Frostbitten",
+      "navigationTitle": "Frostbitten",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are partially frozen"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on Strength and Dexterity saving throws. ",
+        {
+          "type": "divider"
+        },
+        "Your speed is halved. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-overheated",
+      "title": "Overheated",
+      "navigationTitle": "Overheated",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You body is overheating"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You have disadvantage on Strength and Intelligence saving throws. ",
+        {
+          "type": "divider"
+        },
+        "You cannot take reactions. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-disoriented",
+      "title": "Disoriented",
+      "navigationTitle": "Disoriented",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You feel dizzy and slighly confused"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The creature can’t take the Dash action or benefit from any movement speed bonuses. ",
+        {
+          "type": "divider"
+        },
+        "When the creature makes an attack and has more than one valid target in sight, it must 1d6, on 1 it hits the the nearest target other then the main target. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-unconscious",
+      "title": "Unconscious",
+      "navigationTitle": "Unconscious",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You are unconscious"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "You are incapacitated, can't move or speak, and are unaware of your surroundings. ",
+        {
+          "type": "divider"
+        },
+        "You drop whatever you're holding and fall prone. ",
+        {
+          "type": "divider"
+        },
+        "Attack rolls against you have advantage. ",
+        {
+          "type": "divider"
+        },
+        "Any attack that hits you is a critical hit if the attacker is within 5 feet of you. ",
+        {
+          "type": "divider"
+        },
+        "You automatically fail Strength and Dexterity saving throws. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-suffocating",
+      "title": "Suffocating",
+      "navigationTitle": "Suffocating",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Out of breath and suffocating"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds). ",
+        {
+          "type": "divider"
+        },
+        "When a creature runs out of breath or is choking, it can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round). At the start of its next turn, it drops to 0 hit points and is dying, and it can’t regain hit points or be stabilized until it can breathe again. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "condition-bound",
+      "title": "Bound",
+      "navigationTitle": "Bound",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A creature secured by rope, chains, or similar restraints."
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds). ",
+        {
+          "type": "divider"
+        },
+        "A Bound creature cannot use limbs that are tied or otherwise secured. ",
+        {
+          "type": "divider"
+        },
+        "If both its arms and legs are bound, the creature also suffers the Restrained condition. ",
+        {
+          "type": "divider"
+        },
+        "A Bound creature can use its action to attempt a Dexterity (Acrobatics) check against the original binder's Dexterity (Sleight of Hand) result (minimum DC 10). On a success, it escapes the bindings. ",
+        {
+          "type": "divider"
+        },
+        "A creature can instead use its action to attempt a Strength check to break DC 20 ordinary ropes or DC 30 for ordinary chains. ",
+        {
+          "type": "divider"
+        },
+        "Another creature within reach can use its action to untie the bindings without a check. "
+      ]
+    },
+    {
+      "id": "condition-dying",
+      "title": "Dying",
+      "navigationTitle": "Dying",
+      "category": "Condition",
+      "subgroup": "",
+      "label": "Condition",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "You have been dropped to zero hit points and are dying"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying. ",
+        {
+          "type": "divider"
+        },
+        "If you receive any healing you immediately regain consciousness again and no longer dying. ",
+        {
+          "type": "divider"
+        },
+        "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers. ",
+        {
+          "type": "divider"
+        },
+        "A 10 or higher is a success, 9 or lower is a failure. ",
+        {
+          "type": "divider"
+        },
+        "On your third success, you become stable. ",
+        {
+          "type": "divider"
+        },
+        "On your third failure, you die. ",
+        {
+          "type": "divider"
+        },
+        "Rolling a 1 counts as two failures. ",
+        {
+          "type": "divider"
+        },
+        "Rolling a 20 counts as two successes. ",
+        {
+          "type": "divider"
+        },
+        "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check. ",
+        {
+          "type": "divider"
+        },
+        "Once stable, you regain 1 hit point after 1d4 hours. "
+      ]
+    },
+    {
+      "id": "environment-effects-environment-obscurance-lightly-obscured",
+      "title": "Lightly obscured",
+      "navigationTitle": "Lightly obscured",
+      "category": "Environment Effects",
+      "subgroup": "Environment obscurance",
+      "label": "Environment obscurance",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Dim light, patchy fog, moderate foliage"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Creatures have ",
+        {
+          "type": "strong",
+          "content": [
+            "disadvantage on Wisdom (Perception)"
+          ]
+        },
+        " checks that rely on sight. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-obscurance-heavily-obscured",
+      "title": "Heavily obscured",
+      "navigationTitle": "Heavily obscured",
+      "category": "Environment Effects",
+      "subgroup": "Environment obscurance",
+      "label": "Environment obscurance",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Darkness, opaque fog, dense foliage"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A creature in a heavily obscured area effectively suffers from the ",
+        {
+          "type": "strong",
+          "content": [
+            "blinded condition"
+          ]
+        },
+        ". "
+      ]
+    },
+    {
+      "id": "environment-effects-environment-light-bright-light",
+      "title": "Bright light",
+      "navigationTitle": "Bright light",
+      "category": "Environment Effects",
+      "subgroup": "Environment light",
+      "label": "Environment light",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Bright light lets most creatures see normally"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-light-dim-light",
+      "title": "Dim light",
+      "navigationTitle": "Dim light",
+      "category": "Environment Effects",
+      "subgroup": "Environment light",
+      "label": "Environment light",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Dim light, also called shadows"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Creates a ",
+        {
+          "type": "strong",
+          "content": [
+            "lightly obscured"
+          ]
+        },
+        " area. ",
+        {
+          "type": "divider"
+        },
+        "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness. ",
+        {
+          "type": "divider"
+        },
+        "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-light-darkness",
+      "title": "Darkness",
+      "navigationTitle": "Darkness",
+      "category": "Environment Effects",
+      "subgroup": "Environment light",
+      "label": "Environment light",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Darkness creates a heavily obscured area"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Creates a ",
+        {
+          "type": "strong",
+          "content": [
+            "heavily obscured"
+          ]
+        },
+        " area. ",
+        {
+          "type": "divider"
+        },
+        "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness. "
+      ]
+    },
+    {
+      "id": "environment-effects-environment-vision-blindsight",
+      "title": "Blindsight",
+      "navigationTitle": "Blindsight",
+      "category": "Environment Effects",
+      "subgroup": "Environment vision",
+      "label": "Environment vision",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "Perceive your surroundings without relying on sight, within a certain radius"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-vision-darkvision",
+      "title": "Darkvision",
+      "navigationTitle": "Darkvision",
+      "category": "Environment Effects",
+      "subgroup": "Environment vision",
+      "label": "Environment vision",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Within a specified range, a creature with darkvision can ",
+        {
+          "type": "strong",
+          "content": [
+            "see in darkness as if the darkness were dim light"
+          ]
+        },
+        ", so areas of darkness are only lightly obscured as far as that creature is concerned. ",
+        {
+          "type": "divider"
+        },
+        "However, the creature can’t discern color in darkness, only shades of gray. ",
+        {
+          "type": "divider"
+        },
+        "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-vision-arcsight",
+      "title": "Arcsight",
+      "navigationTitle": "Arcsight",
+      "category": "Environment Effects",
+      "subgroup": "Environment vision",
+      "label": "Environment vision",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A creature with Arcsight can see active magic on objects or creatures they can already see with thier sight"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Within a specified range, a creature with arcsight can see traces of magic on magical objects, magical aura around places affected by magic or active magic on creature. They can also distinguish if certain effect was caused by magic or not. ",
+        {
+          "type": "divider"
+        },
+        "However, the creature can’t discern school of magic or its purpose. ",
+        {
+          "type": "divider"
+        },
+        "Most of high level Intelligence casters have Arcsight, how ever it can also be common for monsters. ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-vision-truesight",
+      "title": "Truesight",
+      "navigationTitle": "Truesight",
+      "category": "Environment Effects",
+      "subgroup": "Environment vision",
+      "label": "Environment vision",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A creature with truesight can see everything in its true form, independent of the environment"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. ",
+        {
+          "type": "divider"
+        },
+        "Furthermore, the creature can see into the Ethereal Plane. "
+      ]
+    },
+    {
+      "id": "environment-effects-environment-cover-half-cover",
+      "title": "Half cover",
+      "navigationTitle": "Half cover",
+      "category": "Environment Effects",
+      "subgroup": "Environment cover",
+      "label": "Environment cover",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A target has half cover if an obstacle blocks at least half of its body"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend. ",
+        {
+          "type": "divider"
+        },
+        "A target with half cover has a ",
+        {
+          "type": "strong",
+          "content": [
+            "+2 bonus to AC and Dexterity saving throws"
+          ]
+        },
+        ". ",
+        {
+          "type": "divider"
+        },
+        " If a target is behind multiple sources of cover, only the most protective degree of cover applies ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-cover-three-quarters-cover",
+      "title": "Three-quarters cover",
+      "navigationTitle": "Three-quarters cover",
+      "category": "Environment Effects",
+      "subgroup": "Environment cover",
+      "label": "Environment cover",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A target has three-quarters cover if about three-quarters of it is covered by an obstacle"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk. ",
+        {
+          "type": "divider"
+        },
+        "A target with three-quarters cover has a ",
+        {
+          "type": "strong",
+          "content": [
+            "+5 bonus to AC and Dexterity saving throws"
+          ]
+        },
+        ". ",
+        {
+          "type": "divider"
+        },
+        " If a target is behind multiple sources of cover, only the most protective degree of cover applies ",
+        {
+          "type": "divider"
+        }
+      ]
+    },
+    {
+      "id": "environment-effects-environment-cover-full-cover",
+      "title": "Full cover",
+      "navigationTitle": "Full cover",
+      "category": "Environment Effects",
+      "subgroup": "Environment cover",
+      "label": "Environment cover",
+      "content": [
+        {
+          "type": "strong",
+          "content": [
+            "A target has total cover if it is completely concealed by an obstacle"
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A target with total cover ",
+        {
+          "type": "strong",
+          "content": [
+            "can’t be targeted directly"
+          ]
+        },
+        " by an attack or a spell, although some spells can reach such a target by including it in an area of effect. ",
+        {
+          "type": "divider"
+        },
+        "If a target is behind multiple sources of cover, only the most protective degree of cover applies "
+      ]
+    },
+    {
+      "id": "fall-damage-fall-damage",
+      "title": "Fall Damage",
+      "navigationTitle": "Fall Damage",
+      "category": "Fall Damage",
+      "subgroup": "",
+      "label": "Fall Damage",
+      "content": [
+        " Fall speed is 190feet per round. Damage then depends on both height and weight of the fallen creature/object. Heavy creatures/objects can create aura of Fear and cause creatures to become Frightened of the impacted locattion. Creatures Frightened in such way will stay Frightened untill they will pass the saving throw at the end of their turn or untill few days since passed. ",
+        {
+          "type": "lineBreak"
+        },
+        "Impact point is always the space covered by size of creature/object. This is where fall damage is dealt to both fallen craeture/object and the creatures, objects or anything else in the area. Heavy objects can also create area around intial impact point. This area is marked in table and each creature, obejct or anything else in area will receive third of the fall damage. ",
+        {
+          "type": "lineBreak"
+        },
+        {
+          "type": "lineBreak"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "kg"
+              ],
+              [
+                "lbs"
+              ],
+              [
+                "dmg [blu] (per 10ft fall)"
+              ],
+              [
+                "1/3 dmg radius [ft]"
+              ],
+              [
+                "Fear DC [Wis]"
+              ],
+              [
+                "Fear Radius [ft]"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "0,5 - 50"
+              ],
+              [
+                "1 - 110"
+              ],
+              [
+                "d4"
+              ],
+              [
+                "0"
+              ],
+              [
+                "3"
+              ],
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "51 - 100"
+              ],
+              [
+                "111 - 220"
+              ],
+              [
+                "d6"
+              ],
+              [
+                "1"
+              ],
+              [
+                "5"
+              ],
+              [
+                "7"
+              ]
+            ],
+            [
+              [
+                "101 - 200"
+              ],
+              [
+                "221 - 440"
+              ],
+              [
+                "d8"
+              ],
+              [
+                "3"
+              ],
+              [
+                "10"
+              ],
+              [
+                "15"
+              ]
+            ],
+            [
+              [
+                "201 - 400"
+              ],
+              [
+                "441 - 881"
+              ],
+              [
+                "d10"
+              ],
+              [
+                "5"
+              ],
+              [
+                "15"
+              ],
+              [
+                "30"
+              ]
+            ],
+            [
+              [
+                "401 - 1000"
+              ],
+              [
+                "882 - 2200"
+              ],
+              [
+                "d12"
+              ],
+              [
+                "8"
+              ],
+              [
+                "20"
+              ],
+              [
+                "40"
+              ]
+            ],
+            [
+              [
+                "1001 - 1999"
+              ],
+              [
+                "2201 - 4408"
+              ],
+              [
+                "d20"
+              ],
+              [
+                "12"
+              ],
+              [
+                "25"
+              ],
+              [
+                "50"
+              ]
+            ],
+            [
+              [
+                "2000+"
+              ],
+              [
+                "4409+"
+              ],
+              [
+                "d100"
+              ],
+              [
+                "20"
+              ],
+              [
+                "30"
+              ],
+              [
+                "100"
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall-damage-creature-size",
+      "title": "Creature Size",
+      "navigationTitle": "Creature Size",
+      "category": "Fall Damage",
+      "subgroup": "",
+      "label": "Fall Damage",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Size"
+              ],
+              [
+                "Space"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Tiny"
+              ],
+              [
+                "2½ by 2½ ft."
+              ]
+            ],
+            [
+              [
+                "Small"
+              ],
+              [
+                "5 by 5 ft."
+              ]
+            ],
+            [
+              [
+                "Medium"
+              ],
+              [
+                "5 by 5 ft."
+              ]
+            ],
+            [
+              [
+                "Large"
+              ],
+              [
+                "10 by 10 ft."
+              ]
+            ],
+            [
+              [
+                "Huge"
+              ],
+              [
+                "15 by 15 ft."
+              ]
+            ],
+            [
+              [
+                "Gargantuan"
+              ],
+              [
+                "20 by 20 ft."
+              ]
+            ],
+            [
+              [
+                "Colossal"
+              ],
+              [
+                "40 by 40 ft. or larger"
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "navigationTitle": "Language",
+      "category": "Language",
+      "subgroup": "",
+      "label": "",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "LANGUAGE"
+              ],
+              [
+                "TYPICAL SPEAKERS"
+              ],
+              [
+                "SCRIPT"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Common"
+              ],
+              [
+                "Humans; widespread on Axria"
+              ],
+              [
+                "Common"
+              ]
+            ],
+            [
+              [
+                "Dwarvish"
+              ],
+              [
+                "Dwarves"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Elvish"
+              ],
+              [
+                "Elves"
+              ],
+              [
+                "Elvish"
+              ]
+            ],
+            [
+              [
+                "Giant"
+              ],
+              [
+                "Giants, ogres"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Gnomish"
+              ],
+              [
+                "Gnomes"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Goblin"
+              ],
+              [
+                "Goblinoids"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Halfling"
+              ],
+              [
+                "Halflings"
+              ],
+              [
+                "Common"
+              ]
+            ],
+            [
+              [
+                "Orc"
+              ],
+              [
+                "Orcs"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Vedalken"
+              ],
+              [
+                "Vedalken"
+              ],
+              [
+                "Kraftografi"
+              ]
+            ],
+            [
+              [
+                "Loxodon"
+              ],
+              [
+                "Loxodons"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Minotaur"
+              ],
+              [
+                "Minotaurs"
+              ],
+              [
+                "Infernal"
+              ]
+            ],
+            [
+              [
+                "Eldercommon"
+              ],
+              [
+                "Ancient Humans"
+              ],
+              [
+                "Common-like"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "LANGUAGE"
+              ],
+              [
+                "PLANE / ORIGIN"
+              ],
+              [
+                "SCRIPT"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Primordial"
+              ],
+              [
+                "Elemental - Plane of Chaos"
+              ],
+              [
+                "Dwarvish"
+              ]
+            ],
+            [
+              [
+                "Trinaria"
+              ],
+              [
+                "Apparatus — Plane of Order"
+              ],
+              [
+                "Kraftografi"
+              ]
+            ],
+            [
+              [
+                "Sylvan / Fey"
+              ],
+              [
+                "Lesy života — Forests of Life"
+              ],
+              [
+                "Elvish"
+              ]
+            ],
+            [
+              [
+                "Undercommon"
+              ],
+              [
+                "Ruiny temnoty — Ruins of Darkness"
+              ],
+              [
+                "Elvish"
+              ]
+            ],
+            [
+              [
+                "Draconic"
+              ],
+              [
+                "Raj drakov — Dragon Paradise"
+              ],
+              [
+                "Draconic"
+              ]
+            ],
+            [
+              [
+                "Infernal"
+              ],
+              [
+                "Hades; associated with devils"
+              ],
+              [
+                "Infernal"
+              ]
+            ],
+            [
+              [
+                "Abyssal"
+              ],
+              [
+                "Hades; associated with demons"
+              ],
+              [
+                "Infernal"
+              ]
+            ],
+            [
+              [
+                "Celestial"
+              ],
+              [
+                "Elysium"
+              ],
+              [
+                "Celestial"
+              ]
+            ],
+            [
+              [
+                "Deep Speech"
+              ],
+              [
+                "Unknown; unmapped outer planes & distant entities"
+              ],
+              [
+                "None / unknown"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "content": [
+            "Language notes"
+          ],
+          "level": 3
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Common Dialects"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " Innumerable Dialects. Each major city has at least 60 dialects, frequently shaped by mixed heritage and subtle blending of Common with ancestral racial languages. Most are mutually intelligible; variation appears in accents, turns of phrase, and names for particular objects. Speakers may not notice the difference until a single unfamiliar word comes up. There is no practical exhaustive list. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Clan Languages"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " No Uniform Standard. Typically descended from Common or Elder Common. No two clans speak exactly alike. Differences may involve vocabulary, sentence order, grammar, or strongly guttural sounds. One clan may sound like a familiar Common dialect; another may be effectively unintelligible to outsiders. “Clan Language” is a cultural classification, not a fixed degree of divergence. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Elder Common"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " Elder Common An ancient, extinct ancestral tongue. It no longer has living native-speaker communities; traces survive in texts, inscriptions, and languages descended from it. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Deep Speech"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " Deep Speech Of unknown origin, tied only to mysterious outer planes, distant entities, and unmapped locations. It has no established home plane, people, or known script. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Trinaria"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " Binary with Symbolic Nodes, know as Kraftografi. Binary can represent the complete and exact meaning of any message, but long sequences are inefficient. Nodes are unique symbols that encapsulate full binary meaning into compact, reusable representations (objects, directions, actions, or complex instructions). Nodes improve speed and communication with non-Apparatus beings; they do not discard information. Pure binary remains sufficient within Apparatus. ",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "strong",
+          "content": [
+            "Primordial"
+          ]
+        },
+        {
+          "type": "lineBreak"
+        },
+        " Primordial can be split into 5 mian dialects. Aquan - Water, Auran - Air, Ignan - Fire, Terran - Earth, Boltan - Lightning. There are also sub-categories to each which mostly reside in the planes between elements. But those 5 are the main ones which can be often encountered in the Axria as well. "
+      ]
+    }
+  ]
+}
