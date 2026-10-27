@@ -820,7 +820,7 @@
         {
           "type": "divider"
         },
-        "You can use the action to make a special melee attack, a grapple. ",
+        "You can use the Attack Action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them but not multiple of them.",
         {
           "type": "divider"
         },
@@ -852,7 +852,7 @@
         {
           "type": "divider"
         },
-        "If you have Strenght score more than 22 you can use the action to make a special melee attack, Toss, on the creature you hold in grapple. If you're able to make multiple attacks you can use Grepple and Toss on same turn. ",
+        "If you have Strenght score more than 22 you can use the Attack action to make a special melee attack, Toss, on the creature you hold in grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them but not multiple of them. (Still means you can use Grepple and Toss on same turn.)",
         {
           "type": "divider"
         },
@@ -888,7 +888,7 @@
         {
           "type": "divider"
         },
-        "Using the action, you can make a special melee attack to shove a creature. ",
+        "Using the Attack action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them but not multiple of them.",
         {
           "type": "divider"
         },
