@@ -51,7 +51,11 @@
         {
           "type": "divider"
         },
-        "For the six standard abilities, 10–11 is the ordinary human baseline; 18 is exceptional. Adventurers normally have a maximum of 20 unless a feature says otherwise. Monsters and divine beings may reach 30. Honor is assigned by the DM rather than advanced normally."
+        "For the six standard abilities, 10–11 is the ordinary human baseline; 18 is exceptional. Adventurers normally have a maximum of 20 unless a feature says otherwise. Monsters and divine beings may reach 30. Honor is assigned by the DM rather than advanced normally.",
+        {
+          "type": "divider"
+        },
+        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality"
       ]
     },
     {
