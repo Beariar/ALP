@@ -1254,6 +1254,50 @@
 				"<b>Extradimensional Interference.</b> Bags of Holding, Purses of Holding, Backpacks of Holding, Handy Haversacks, Portable Holes, and similar extradimensional containers should not be carried through the doorway. If one enters the chamber, both magical spaces destabilize. The Napkin of Holding and the extradimensional item are destroyed, and all creatures within the chamber are cast into random locations on the Astral Plane.",
 				"<b>Destruction.</b> If the Napkin of Holding is destroyed while its doorway is closed, the astral chamber continues to exist but loses its connection to the Material Plane. Its contents remain stranded within the Astral Plane and can only be recovered through planar travel or similarly powerful magic. If the napkin is destroyed while the doorway is open, the doorway immediately collapses and creatures within 10 feet of it must succeed on a DC 18 Dexterity saving throw or be pulled into the chamber before the connection is severed."
 			]
+		},
+		{
+			"name": "Satchel of Spoils",
+			"meno": "Vak na úlovky",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "common",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [],
+			"tags": [
+				"utility",
+				"storage"
+			],
+			"entries": [
+				"This seemingly ordinary satchel contains a one-way dimensional passage connected to a fixed destination, typically a designated collection area within the Academy's halls. Anything placed inside is transported directly to that location and cannot be retrieved through the satchel.",
+				" ",
+				"<b>Capacity.</b> The satchel can accommodate the remains of Small creatures in their entirety, as well as smaller Medium creatures, roughly the size of a dwarf. Larger creatures must be dismembered into manageable portions before their remains can pass through.",
+				" ",
+				"<b>Restrictions.</b> The satchel is designed to transport dead or otherwise inert matter, primarily monster remains, harvested body parts, trophies, and other spoils. Mundane objects and equipment may also pass through, provided they fit within its opening.",
+				" ",
+				"Living creatures, undead, and active or animated objects cannot enter the satchel naturally. Although they may be forced into its opening, doing so carries a high risk of permanently destroying its magic.",
+				" ",
+				"When such an attempt fails, the contents may simply be expelled, or the satchel may tear and lose its magical properties, becoming an ordinary, damaged bag.",
+				" ",
+				"This destruction is entirely uneventful. There is no explosion, magical backlash, or spectacular discharge of arcane energy. The satchel simply ceases to function.",
+				" ",
+				"<i>For this reason, Academy personnel strongly discourage using these satchels to transport anything that is still moving, breathing, or otherwise refusing to remain dead.</i>"
+			]
 		}
 	]
 }
