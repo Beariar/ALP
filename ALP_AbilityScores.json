@@ -1445,7 +1445,7 @@
         {
           "type": "divider"
         },
-        "The DM decides when it applies and what success or failure means. This homebrew does not automatically replace the saving throw named by a spell or other existing effect."
+        "The DM decides when it applies and what success or failure means. This homebrew does not automatically replace the saving throw used for a spell or other existing effect BUT in rare story appropriate occasion it might be the case and check might be replaced by Honor. For example Excalibur was not lifted by Strength but by Honor."
       ]
     },
     {
@@ -1458,7 +1458,7 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Use Honor sparingly, when the character’s conduct or determination carries particular weight. The value follows behaviour; it cannot be improved by ordinary character-building choices.",
+        "Honor is impacted, when the character’s conduct or determination carries particular weight. The value follows decisions and behaviour; it cannot be improved by ordinary character-building choices.",
         {
           "type": "divider"
         },
