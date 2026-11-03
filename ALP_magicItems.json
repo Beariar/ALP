@@ -1127,6 +1127,7 @@
 		{
 			"name": "Purse of Holding",
 			"meno": "",
+			"image": "https://imgur.com/BixBa1z.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "uncommon",
@@ -1170,6 +1171,7 @@
 		{
 			"name": "Backpack of Holding",
 			"meno": "",
+			"image": "https://imgur.com/UW0SXTJ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -1212,7 +1214,8 @@
 		},
 		{
 			"name": "Napkin of Holding",
-			"meno": "",
+			"meno": "",			
+			"image": "https://imgur.com/5WSHWW5.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "legendary",
