@@ -7,7 +7,8 @@
 	"item": [
 		{
 			"name": "#First Item Name",
-			"meno": "",
+			"meno": "",			
+			"image": "https://imgur.com/EMTPYEMPTY.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -39,7 +40,8 @@
 		},
 		{
 			"name": "Weapon Oils",
-			"meno": "Oleje na zbrane",
+			"meno": "Oleje na zbrane",			
+			"image": "https://imgur.com/mgkcSfg.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -82,7 +84,8 @@
 		},
 		{
 			"name": "#Dark Ice Huhammer",
-			"meno": "HuHammer temného ľadu",
+			"meno": "HuHammer temného ľadu",			
+			"image": "https://imgur.com/8W2Mgfs.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "Legendary",
@@ -132,7 +135,8 @@
 		},
 		{
 			"name": "#Shadow Fire Chakram",
-			"meno": "Chakram Tieňového Plameňa",
+			"meno": "Chakram Tieňového Plameňa",			
+			"image": "https://imgur.com/4gl4XuJ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "Legendary",
@@ -183,7 +187,8 @@
 		},
 		{
 			"name": "Spiked Armor",
-			"meno": "ÚtokOchrany",
+			"meno": "ÚtokOchrany",			
+			"image": "https://imgur.com/BRDXKEP.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -217,7 +222,8 @@
 		},
 		{
 			"name": "Noble Masochist",
-			"meno": "DokonalýOchranca",
+			"meno": "DokonalýOchranca",			
+			"image": "https://imgur.com/S4SUPdJ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "very rare",
@@ -250,7 +256,8 @@
 		},
 		{
 			"name": "Reductor",
-			"meno": "Reduktor",
+			"meno": "Reduktor",			
+			"image": "https://imgur.com/swgu3eu.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -284,7 +291,8 @@
 		},
 		{
 			"name": "Swift-Healing Bandages",
-			"meno": "Obväzy Rýchlo Liečby",
+			"meno": "Obväzy Rýchlo Liečby",			
+			"image": "https://imgur.com/6AV2KUQ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "uncommon",
@@ -316,7 +324,8 @@
 		},
 		{
 			"name": "Last Aid Brooch",
-			"meno": "Posledná pomoc",
+			"meno": "Posledná pomoc",			
+			"image": "https://imgur.com/1IaivQI.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "very rare",
@@ -349,7 +358,8 @@
 		},
 		{
 			"name": "Healing and Health Potions",
-			"meno": "",
+			"meno": "Elixíry liečenia",			
+			"image": "https://imgur.com/x8Qnx8w.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -386,7 +396,8 @@
 		},
 		{
 			"name": "Arcane Syringe",
-			"meno": "Obnomág",
+			"meno": "Obnomág",			
+			"image": "https://imgur.com/OHqGhvB.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "very rare",
@@ -420,7 +431,8 @@
 		},
 		{
 			"name": "Weapon of Power",
-			"meno": "",
+			"meno": "Zbraň sily",			
+			"image": "https://imgur.com/PMOM51h.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -453,7 +465,8 @@
 		},
 		{
 			"name": "Weapon of Agility",
-			"meno": "",
+			"meno": "Zbraň obratnosti",			
+			"image": "https://imgur.com/NQTEikx.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -486,7 +499,8 @@
 		},
 		{
 			"name": "Shield of Endurance",
-			"meno": "",
+			"meno": "Štíť sebazáchovy",			
+			"image": "https://imgur.com/Q17mHIk.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -519,7 +533,8 @@
 		},
 		{
 			"name": "Focus of Instinct (Staff)",
-			"meno": "",
+			"meno": "Vedomý caster",			
+			"image": "https://imgur.com/UkrztqE.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -551,7 +566,8 @@
 		},
 		{
 			"name": "Focus of Knowledge (Wand)",
-			"meno": "",
+			"meno": "Múdry caster",			
+			"image": "https://imgur.com/V97GUl5.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -583,7 +599,8 @@
 		},
 		{
 			"name": "Focus of Impression (Gem)",
-			"meno": "",
+			"meno": "Pôsobý caster",			
+			"image": "https://imgur.com/O4MqRDn.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -615,7 +632,8 @@
 		},
 		{
 			"name": "Quickmagic Coin",
-			"meno": "RýchloMágia",
+			"meno": "RýchloMágia",			
+			"image": "https://imgur.com/NiSTYGY.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -656,7 +674,8 @@
 		},
 		{
 			"name": "Self-Squire",
-			"meno": "SamoPanoš",
+			"meno": "SamoPanoš",			
+			"image": "https://imgur.com/IPIjCvQ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -694,7 +713,8 @@
 		},
 		{
 			"name": "LongSpeak 2.0",
-			"meno": "DiaľkoReč 2.0",
+			"meno": "DiaľkoReč 2.0",			
+			"image": "https://imgur.com/ntYy475.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -726,7 +746,8 @@
 		},
 		{
 			"name": "Quill-Scribe & Tome-Glide",
-			"meno": "Peropíš a Kniholet",
+			"meno": "Peropíš a Kniholet",			
+			"image": "https://imgur.com/lbA61QJ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "uncommon",
@@ -763,7 +784,8 @@
 		},
 		{
 			"name": "Magical Glasses of...",
-			"meno": "",
+			"meno": "Okulky magulky...",			
+			"image": "https://imgur.com/VEy3gjX.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "uncommon",
@@ -806,7 +828,8 @@
 		},
 		{
 			"name": "Health Injector",
-			"meno": "Ihla zdravia",
+			"meno": "Ihla zdravia",						
+			"image": "https://imgur.com/3nIJdRq.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -839,7 +862,8 @@
 		},
 		{
 			"name": "Arcane Condenser",
-			"meno": "Arcanicský vodolapač",
+			"meno": "Arcanicský vodolapač",			
+			"image": "https://imgur.com/00yEHjd.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "common",
@@ -870,7 +894,8 @@
 		},
 		{
 			"name": "Obsidian Parchment",
-			"meno": "Obsidiánový pergamen",
+			"meno": "Obsidiánový pergamen",			
+			"image": "https://imgur.com/Og9pIrQ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -909,7 +934,8 @@
 		},
 		{
 			"name": "Bow of Trinity",
-			"meno": "Luk trojice",
+			"meno": "Luk trojice",			
+			"image": "https://imgur.com/lViW7pZ.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "rare",
@@ -943,7 +969,8 @@
 		},
 		{
 			"name": "Archivist’s Arcane Camera",
-			"meno": "Foťhák",
+			"meno": "Foťhák",			
+			"image": "https://imgur.com/s0Km8sx.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "very rare",
@@ -978,7 +1005,8 @@
 		},
 		{
 			"name": "Spell Scrolls",
-			"meno": "Pergamen Mágie",
+			"meno": "Pergamen Mágie",			
+			"image": "https://imgur.com/khUvsb7.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "varies",
@@ -1014,7 +1042,8 @@
 		},
 		{
 			"name": "Ring of Hades",
-			"meno": "Pergamen Mágie",
+			"meno": "Pergamen Mágie",			
+			"image": "https://imgur.com/U4AMegB.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "very rare",
@@ -1046,7 +1075,8 @@
 		},
 		{
 			"name": "Nagi's Travel Excerpt",
-			"meno": "Nagin Výcuc o veciach medzi Jazierchatom a Skalodomom",
+			"meno": "Nagin Výcuc o veciach medzi Jazierchatom a Skalodomom",			
+			"image": "https://imgur.com/EMTPYEMPTY.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "none",
@@ -1083,7 +1113,7 @@
 		},
 		{
 			"name": "Hold of Bagging",
-			"meno": "",
+			"meno": "Držobný baliak",
 			"image": "https://imgur.com/916eOkR.jpg",
 			"source": "ALP",
 			"page": "0",
@@ -1126,7 +1156,7 @@
 		},
 		{
 			"name": "Purse of Holding",
-			"meno": "",
+			"meno": "Penažka držby",
 			"image": "https://imgur.com/BixBa1z.jpg",
 			"source": "ALP",
 			"page": "0",
@@ -1170,7 +1200,7 @@
 		},
 		{
 			"name": "Backpack of Holding",
-			"meno": "",
+			"meno": "Vak držby",
 			"image": "https://imgur.com/UW0SXTJ.jpg",
 			"source": "ALP",
 			"page": "0",
@@ -1214,7 +1244,7 @@
 		},
 		{
 			"name": "Napkin of Holding",
-			"meno": "",			
+			"meno": "Vreckovka držby",			
 			"image": "https://imgur.com/5WSHWW5.jpg",
 			"source": "ALP",
 			"page": "0",
@@ -1261,7 +1291,8 @@
 		},
 		{
 			"name": "Satchel of Spoils",
-			"meno": "Vak na úlovky",
+			"meno": "Vak na úlovky",			
+			"image": "https://imgur.com/YlHWpAX.jpg",
 			"source": "ALP",
 			"page": "0",
 			"rarity": "common",
