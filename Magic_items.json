@@ -4475,7 +4475,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Bag of Devouring",
+			"name": "Bag of Devouring",						
+			"image": "https://imgur.com/63Ihl5M.jpg",
 			"source": "DMG",
 			"page": 153,
 			"srd": true,
@@ -4498,7 +4499,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Bag of Devouring",
+			"name": "Bag of Devouring",						
+			"image": "https://imgur.com/63Ihl5M.jpg",
 			"source": "XDMG",
 			"page": 234,
 			"freeRules2024": true,
@@ -4552,6 +4554,7 @@
 		},
 		{
 			"name": "Bag of Holding",
+			"image": "https://imgur.com/8dLG4V3.jpg",
 			"source": "XDMG",
 			"page": 234,
 			"freeRules2024": true,
@@ -49518,7 +49521,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ring of Spell Storing",
+			"name": "Ring of Spell Storing",						
+			"image": "https://imgur.com/diXGwHO.jpg",
 			"source": "DMG",
 			"page": 192,
 			"srd": true,
@@ -49540,7 +49544,8 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ring of Spell Storing",
+			"name": "Ring of Spell Storing",						
+			"image": "https://imgur.com/diXGwHO.jpg",
 			"source": "XDMG",
 			"page": 295,
 			"freeRules2024": true,
