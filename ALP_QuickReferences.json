@@ -2,10 +2,14 @@
   "schemaVersion": 1,
   "categories": [
     "Proficiency",
+    "Combat",
     "Movement",
     "Action",
     "Bonus Action",
     "Reaction",
+    "Attack Rules",
+    "Damage & Healing",
+    "Mounted Combat",
     "Condition",
     "Environment Effects",
     "Fall Damage",
@@ -261,6 +265,77 @@
       ]
     },
     {
+      "id": "combat-order",
+      "title": "Combat Order",
+      "navigationTitle": "Combat Order",
+      "category": "Combat",
+      "subgroup": "",
+      "label": "Combat",
+      "content": [
+        "The DM determines surprise and starting positions, including where each side stands relative to the other. Everyone then rolls initiative.",
+        {
+          "type": "divider"
+        },
+        "Each participant takes a turn in initiative order. Once everyone has acted, begin another round in the same order if the fight continues. A round represents about 6 seconds."
+      ]
+    },
+    {
+      "id": "combat-surprise",
+      "title": "Surprise",
+      "navigationTitle": "Surprise",
+      "category": "Combat",
+      "subgroup": "",
+      "label": "Combat",
+      "content": [
+        "When one side tries to approach unnoticed, the DM compares the hiding creatures’ Dexterity (Stealth) checks with each opponent’s passive Wisdom (Perception). A creature that notices no threat is surprised. When neither side is trying to be stealthy, both sides notice each other.",
+        {
+          "type": "divider"
+        },
+        "Surprise is determined individually. A surprised creature cannot move or take an action or bonus action on its first turn, and it cannot react until that turn ends."
+      ]
+    },
+    {
+      "id": "combat-initiative",
+      "title": "Initiative",
+      "navigationTitle": "Initiative",
+      "category": "Combat",
+      "subgroup": "",
+      "label": "Combat",
+      "content": [
+        "At the start of combat, make a Dexterity check. Higher totals act earlier. The DM can use a single initiative roll for a group of identical creatures, which then act at the same initiative.",
+        {
+          "type": "divider"
+        },
+        "Players settle ties among their characters, and the DM settles ties among DM-controlled creatures and between the two sides. As an option, tied combatants can each roll a d20 and act in descending order of those rolls."
+      ]
+    },
+    {
+      "id": "combat-your-turn",
+      "title": "Your Turn",
+      "navigationTitle": "Your Turn",
+      "category": "Combat",
+      "subgroup": "",
+      "label": "Combat",
+      "content": [
+        "On your turn you normally get one action and movement up to your speed. Use them in either order, split up your movement, or skip either entirely.",
+        {
+          "type": "divider"
+        },
+        "You can make brief remarks or gestures during your turn when able. Ordinary object interactions and bonus actions have their own limits in the Action and Bonus Action categories."
+      ]
+    },
+    {
+      "id": "movement-combat-overview",
+      "title": "Movement in Combat",
+      "navigationTitle": "Movement in Combat",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        "Your speed sets how much movement you can use on your turn. You can combine walking, climbing, swimming, and jumping in one turn. Spend movement for each part at its applicable cost and stop when you are done or run out."
+      ]
+    },
+    {
       "id": "movement-move",
       "title": "Move",
       "navigationTitle": "Move",
@@ -296,7 +371,23 @@
         "Whether a creature is a friend or an enemy, you can't willingly end your move in its space. ",
         {
           "type": "divider"
-        }
+        },
+        "If subtracting the distance already moved leaves 0 or less for the new speed, you cannot move farther using that speed."
+      ]
+    },
+    {
+      "id": "movement-split-move",
+      "title": "Splitting Your Movement",
+      "navigationTitle": "Splitting Your Movement",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        "You can spend part of your movement before your action and the rest afterward. For example, with a 30-foot speed you can move 10 feet, take your action, then move another 20 feet.",
+        {
+          "type": "divider"
+        },
+        "An action that includes multiple weapon attacks also lets you move between those attacks, within the same movement budget."
       ]
     },
     {
@@ -399,7 +490,8 @@
         },
         {
           "type": "divider"
-        }
+        },
+        "Crawling through difficult terrain costs 15 feet of movement for every 5 feet travelled."
       ]
     },
     {
@@ -548,7 +640,8 @@
         },
         {
           "type": "divider"
-        }
+        },
+        "Several sources of difficult terrain in the same space do not increase the difficult-terrain cost again."
       ]
     },
     {
@@ -573,6 +666,62 @@
           "type": "divider"
         },
         "See the attack action for how to grapple a creature. "
+      ]
+    },
+    {
+      "id": "movement-flying",
+      "title": "Flying Movement",
+      "navigationTitle": "Flying Movement",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        "A flying creature falls if it is knocked prone, its speed becomes 0, or it otherwise loses the ability to move. It stays aloft if it can hover or magic is holding it up, such as the Fly spell."
+      ]
+    },
+    {
+      "id": "movement-creature-space",
+      "title": "Creature Space",
+      "navigationTitle": "Creature Space",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        "A creature’s space is the area it controls and needs to fight in. For instance, a Medium creature controls a 5-foot-wide space. See Creature Size under Fall Damage for the existing size table.",
+        {
+          "type": "divider"
+        },
+        "On a 5-foot grid, up to eight Medium creatures can surround another Medium creature. Larger creatures occupy more space, so fewer can fit around the same target. Size categories can also describe objects."
+      ]
+    },
+    {
+      "id": "movement-squeezing",
+      "title": "Squeezing",
+      "navigationTitle": "Squeezing",
+      "category": "Movement",
+      "subgroup": "",
+      "label": "Movement",
+      "content": [
+        "You can squeeze through a space that fits a creature one size smaller than you. A Large creature could therefore pass through a 5-foot-wide passage.",
+        {
+          "type": "divider"
+        },
+        "While squeezing, each foot moved costs 1 extra foot of movement. You have disadvantage on attack rolls and Dexterity saving throws, and attacks against you have advantage."
+      ]
+    },
+    {
+      "id": "action-overview",
+      "title": "Actions in Combat",
+      "navigationTitle": "Actions in Combat",
+      "category": "Action",
+      "subgroup": "",
+      "label": "Action",
+      "content": [
+        "On your turn, spend your action on a standard action, an option granted by a class or other feature, or an improvised action. Monsters can also use options in their stat blocks.",
+        {
+          "type": "divider"
+        },
+        "For an improvised action, tell the DM what you want to do. The DM decides whether it is possible and whether you need a roll."
       ]
     },
     {
@@ -832,7 +981,11 @@
         {
           "type": "divider"
         },
-        "If you succeed, you subject the target to the grappled condition (its speed is set to 0). "
+        "If you succeed, you subject the target to the grappled condition (its speed is set to 0). ",
+        {
+          "type": "divider"
+        },
+        "You may release a creature you are grappling at any time without spending an action."
       ]
     },
     {
@@ -938,7 +1091,8 @@
         "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. ",
         {
           "type": "divider"
-        }
+        },
+        "The spell’s casting time determines which action, bonus action, or reaction it uses, or whether it takes longer to cast. A spell with a casting time of 1 action uses your action."
       ]
     },
     {
@@ -961,7 +1115,8 @@
         "The increase equals your speed, after applying any modifiers. ",
         {
           "type": "divider"
-        }
+        },
+        "If your speed changes during the turn, adjust the extra movement from Dash by the same amount. For example, a speed reduced from 30 to 15 feet gives you 30 feet of total movement with Dash."
       ]
     },
     {
@@ -1099,7 +1254,8 @@
         "When an object requires your action for its use, you also take this action. ",
         {
           "type": "divider"
-        }
+        },
+        "The free interaction can happen during your move or action. Drawing or sheathing a weapon, pulling an ordinary lever, or handing someone an item are common examples. The DM can require an action for an interaction that needs unusual effort or care, such as forcing a stuck mechanism."
       ]
     },
     {
@@ -1230,7 +1386,8 @@
         "Additionaly if you have Strength or Dexterity score more than 18 you, can use your available extra attacks as part of the readied Attack action. ",
         {
           "type": "divider"
-        }
+        },
+        "The readied response is available only until the start of your next turn and uses your reaction. If you lose concentration before releasing a readied spell, the spell dissipates without taking effect."
       ]
     },
     {
@@ -1440,6 +1597,21 @@
       ]
     },
     {
+      "id": "bonus-action-overview",
+      "title": "Bonus Actions",
+      "navigationTitle": "Bonus Actions",
+      "category": "Bonus Action",
+      "subgroup": "",
+      "label": "Bonus Action",
+      "content": [
+        "You can take a bonus action only if a spell, feature, or other rule gives you one. You can use at most one on your turn, even if you have several options.",
+        {
+          "type": "divider"
+        },
+        "Choose when during your turn to use it unless the option specifies a timing or prerequisite. If you cannot take actions, you also cannot take bonus actions."
+      ]
+    },
+    {
       "id": "bonus-action-offhand-attack",
       "title": "Offhand Attack",
       "navigationTitle": "Offhand Attack",
@@ -1529,6 +1701,21 @@
             "Use a racial or class feature that uses a bonus action"
           ]
         }
+      ]
+    },
+    {
+      "id": "reaction-overview",
+      "title": "Reactions",
+      "navigationTitle": "Reactions",
+      "category": "Reaction",
+      "subgroup": "",
+      "label": "Reaction",
+      "content": [
+        "A reaction responds to a specified trigger on your turn or someone else’s. After using one, you get it back at the start of your next turn.",
+        {
+          "type": "divider"
+        },
+        "If your reaction interrupts another creature’s turn, that creature continues its turn once the reaction resolves. Follow the timing specified by the trigger."
       ]
     },
     {
@@ -1661,6 +1848,423 @@
           ]
         },
         " action. "
+      ]
+    },
+    {
+      "id": "combat-making-an-attack",
+      "title": "Making an Attack",
+      "navigationTitle": "Making an Attack",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "Pick a creature, object, or location within the attack’s reach or range. Determine cover, advantage or disadvantage, and any other modifiers before rolling.",
+        {
+          "type": "divider"
+        },
+        "Make the attack roll. A hit normally deals damage, and the attack can also specify additional effects or substitute an effect for damage.",
+        {
+          "type": "divider"
+        },
+        "An attack roll counts as an attack. Special attacks such as grappling and shoving use the contests described in their own entries."
+      ]
+    },
+    {
+      "id": "combat-attack-roll",
+      "title": "Attack Rolls",
+      "navigationTitle": "Attack Rolls",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "Roll a d20 and add the applicable attack modifiers. The attack hits if its total meets or exceeds the target’s Armor Class.",
+        {
+          "type": "divider"
+        },
+        "Melee weapon attacks normally use Strength, ranged weapon attacks normally use Dexterity, and spell attacks use the caster’s spellcasting ability. Finesse and thrown weapons follow their weapon properties.",
+        {
+          "type": "divider"
+        },
+        "Add proficiency if you are proficient with the weapon or making a spell attack. Monsters normally use the attack bonus listed in their stat blocks."
+      ]
+    },
+    {
+      "id": "combat-natural-rolls",
+      "title": "Natural 1 and Natural 20",
+      "navigationTitle": "Natural 1 and Natural 20",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "A natural 1 on an attack roll misses regardless of the total. A natural 20 hits regardless of the target’s AC and scores a critical hit. See Critical Hits under Damage & Healing for the damage roll."
+      ]
+    },
+    {
+      "id": "combat-unseen-attacks",
+      "title": "Unseen Attackers and Targets",
+      "navigationTitle": "Unseen Attackers and Targets",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "Attacking a target you cannot see gives you disadvantage, even if you can hear it. If you aim at the wrong location, you miss. The DM can report the miss without confirming where the target is.",
+        {
+          "type": "divider"
+        },
+        "You have advantage against a target that cannot see you. If you were hidden from the target, your attack reveals your location whether it hits or misses."
+      ]
+    },
+    {
+      "id": "combat-melee-reach",
+      "title": "Melee Attacks and Reach",
+      "navigationTitle": "Melee Attacks and Reach",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "A melee attack can target something within your reach. Most creatures have a 5-foot reach, though particular weapons, creature attacks, and features can specify a different reach. Some spells also call for melee attacks."
+      ]
+    },
+    {
+      "id": "combat-unarmed-strike",
+      "title": "Unarmed Strikes",
+      "navigationTitle": "Unarmed Strikes",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "You can make a melee weapon attack by punching, kicking, or striking with your body. You are proficient with your unarmed strikes.",
+        {
+          "type": "divider"
+        },
+        "On a hit, a basic unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier, to a minimum of 0. Features can change the damage or the ability used. An unarmed strike does not use a weapon."
+      ]
+    },
+    {
+      "id": "combat-ranged-attacks",
+      "title": "Ranged Attacks and Range",
+      "navigationTitle": "Ranged Attacks and Range",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "An attack with one listed range cannot reach beyond it. If two distances are listed, the first is the normal range and the second is the maximum range.",
+        {
+          "type": "divider"
+        },
+        "Attacks beyond normal range have disadvantage. You cannot attack a target beyond the maximum range."
+      ]
+    },
+    {
+      "id": "combat-ranged-close",
+      "title": "Ranged Attacks in Close Combat",
+      "navigationTitle": "Ranged Attacks in Close Combat",
+      "category": "Attack Rules",
+      "subgroup": "",
+      "label": "Attack Rules",
+      "content": [
+        "A ranged attack roll has disadvantage if a hostile creature within 5 feet of you can see you and is not incapacitated. This applies to ranged spell attacks as well as ranged weapon attacks. The nearby creature can be different from the target."
+      ]
+    },
+    {
+      "id": "combat-hit-points",
+      "title": "Hit Points",
+      "navigationTitle": "Hit Points",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Current hit points range from 0 to your hit point maximum. Damage reduces current hit points. Losing hit points by itself does not impair you before you reach 0."
+      ]
+    },
+    {
+      "id": "combat-damage-rolls",
+      "title": "Damage Rolls",
+      "navigationTitle": "Damage Rolls",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Use the dice and modifiers specified by the attack or effect. Damage cannot drop below 0. A weapon attack usually adds the ability modifier used for its attack roll. Follow any exception in the attack or feature, such as Offhand Attack.",
+        {
+          "type": "divider"
+        },
+        "If one effect deals damage to several targets simultaneously, roll the damage once and apply each target’s own saves, resistance, or other modifiers to that result."
+      ]
+    },
+    {
+      "id": "combat-critical-hits",
+      "title": "Critical Hits",
+      "navigationTitle": "Critical Hits",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Roll twice the normal number of damage dice for the attack, including extra dice such as Sneak Attack. Add flat modifiers once. For example, a critical hit that normally deals 1d8 + 3 deals 2d8 + 3."
+      ]
+    },
+    {
+      "id": "combat-damage-types",
+      "title": "Standard Damage Types",
+      "navigationTitle": "Standard Damage Types",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Use the type named by the attack or effect. This table lists the standard 5e types. Axria features may also refer to campaign-specific damage categories.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Type"
+              ],
+              [
+                "Example"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Acid"
+              ],
+              [
+                "Corrosive fluid"
+              ]
+            ],
+            [
+              [
+                "Bludgeoning"
+              ],
+              [
+                "A club’s impact"
+              ]
+            ],
+            [
+              [
+                "Cold"
+              ],
+              [
+                "Freezing breath"
+              ]
+            ],
+            [
+              [
+                "Fire"
+              ],
+              [
+                "Burning oil"
+              ]
+            ],
+            [
+              [
+                "Force"
+              ],
+              [
+                "A bolt of concentrated magic"
+              ]
+            ],
+            [
+              [
+                "Lightning"
+              ],
+              [
+                "An electrical discharge"
+              ]
+            ],
+            [
+              [
+                "Necrotic"
+              ],
+              [
+                "Life-draining magic"
+              ]
+            ],
+            [
+              [
+                "Piercing"
+              ],
+              [
+                "An arrowhead"
+              ]
+            ],
+            [
+              [
+                "Poison"
+              ],
+              [
+                "Venom"
+              ]
+            ],
+            [
+              [
+                "Psychic"
+              ],
+              [
+                "A mental assault"
+              ]
+            ],
+            [
+              [
+                "Radiant"
+              ],
+              [
+                "Searing holy light"
+              ]
+            ],
+            [
+              [
+                "Slashing"
+              ],
+              [
+                "A sword cut"
+              ]
+            ],
+            [
+              [
+                "Thunder"
+              ],
+              [
+                "A damaging shockwave of sound"
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat-damage-resistance",
+      "title": "Resistance and Vulnerability",
+      "navigationTitle": "Resistance and Vulnerability",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Resistance halves damage of the specified type, rounding down. Vulnerability doubles it. Apply other damage modifiers first, then resistance, then vulnerability.",
+        {
+          "type": "divider"
+        },
+        "Overlapping sources of resistance to the same damage apply only once. The same limit applies to vulnerability. For example, 25 damage reduced by 5 before resistance becomes 10 damage."
+      ]
+    },
+    {
+      "id": "combat-healing",
+      "title": "Healing",
+      "navigationTitle": "Healing",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Add healing to your current hit points, up to your hit point maximum. Any amount beyond the maximum is lost. Rest, spells, and potions can restore hit points as their rules specify.",
+        {
+          "type": "divider"
+        },
+        "A dead creature must first be restored to life before it can regain hit points."
+      ]
+    },
+    {
+      "id": "combat-instant-death",
+      "title": "Instant Death from Massive Damage",
+      "navigationTitle": "Instant Death from Massive Damage",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "When a hit takes a creature to 0 HP, compare the leftover damage with its hit point maximum. If the leftover damage reaches or exceeds that maximum, the creature dies immediately.",
+        {
+          "type": "divider"
+        },
+        "For example, a creature with 6 current HP and a maximum of 12 dies instantly if it takes 18 damage. If the hit does not kill the creature outright, see Dying under Condition."
+      ]
+    },
+    {
+      "id": "combat-monsters-at-zero",
+      "title": "Monsters at 0 HP",
+      "navigationTitle": "Monsters at 0 HP",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "The DM usually treats ordinary monsters as dead when they drop to 0 HP. A major villain or other important NPC can instead fall unconscious and use the campaign’s Dying rules. See Non-Lethal Damage when an attacker deliberately aims to incapacitate."
+      ]
+    },
+    {
+      "id": "combat-temporary-hp",
+      "title": "Temporary Hit Points",
+      "navigationTitle": "Temporary Hit Points",
+      "category": "Damage & Healing",
+      "subgroup": "",
+      "label": "Damage & Healing",
+      "content": [
+        "Temporary HP absorb damage before your regular HP. For example, if you have 5 temporary HP and take 7 damage, you lose the 5 temporary HP and 2 regular HP.",
+        {
+          "type": "divider"
+        },
+        "Temporary HP are tracked separately from regular HP, can put your combined total above your normal maximum, and cannot be restored by healing. If you receive more while you still have some, choose which pool to keep.",
+        {
+          "type": "divider"
+        },
+        "At 0 regular HP, temporary HP can still absorb damage. Receiving them does not stabilize you or wake you up. Unless the source specifies a duration, they last until spent or until you finish a long rest."
+      ]
+    },
+    {
+      "id": "combat-mount-overview",
+      "title": "Eligible Mounts",
+      "navigationTitle": "Eligible Mounts",
+      "category": "Mounted Combat",
+      "subgroup": "",
+      "label": "Mounted Combat",
+      "content": [
+        "A willing creature can serve as a mount if its anatomy allows it and it is at least one size larger than the rider."
+      ]
+    },
+    {
+      "id": "combat-mount-dismount",
+      "title": "Mounting and Dismounting",
+      "navigationTitle": "Mounting and Dismounting",
+      "category": "Mounted Combat",
+      "subgroup": "",
+      "label": "Mounted Combat",
+      "content": [
+        "Once during your move you can mount a creature within 5 feet or dismount. Either costs movement equal to half your speed. Your speed must be above 0 and you must have enough movement left."
+      ]
+    },
+    {
+      "id": "combat-mount-falling",
+      "title": "Falling from a Mount",
+      "navigationTitle": "Falling from a Mount",
+      "category": "Mounted Combat",
+      "subgroup": "",
+      "label": "Mounted Combat",
+      "content": [
+        "If your mount is moved against its will while you are riding, or if you are knocked prone while mounted, make a DC 10 Dexterity saving throw. On a failure, you fall off and land prone within 5 feet of the mount.",
+        {
+          "type": "divider"
+        },
+        "If the mount itself falls prone, you can spend your reaction to dismount and land on your feet. Otherwise you land prone within 5 feet of it."
+      ]
+    },
+    {
+      "id": "combat-mount-control",
+      "title": "Controlled and Independent Mounts",
+      "navigationTitle": "Controlled and Independent Mounts",
+      "category": "Mounted Combat",
+      "subgroup": "",
+      "label": "Mounted Combat",
+      "content": [
+        "You can control a mount trained to accept a rider. When you mount it, its initiative matches yours. It moves as you direct, can move and act on the turn you mount it, and can choose only Dash, Disengage, or Dodge as its action.",
+        {
+          "type": "divider"
+        },
+        "An independent mount keeps its initiative and its own action options. It moves and acts as it chooses. Intelligent mounts such as dragons act independently.",
+        {
+          "type": "divider"
+        },
+        "If either kind of mount provokes an opportunity attack while you are riding it, the attacker can choose the rider or the mount as the target."
       ]
     },
     {
@@ -2391,7 +2995,19 @@
         {
           "type": "divider"
         },
-        "Once stable, you regain 1 hit point after 1d4 hours. "
+        "Once stable, you regain 1 hit point after 1d4 hours. ",
+        {
+          "type": "divider"
+        },
+        "Successes and failures are tracked separately and need not be consecutive. Reset both counts when you regain hit points or become stable.",
+        {
+          "type": "divider"
+        },
+        "Damage taken at 0 HP adds one death save failure, or two if it comes from a critical hit. If that damage equals or exceeds your hit point maximum, you die outright.",
+        {
+          "type": "divider"
+        },
+        "A stable creature at 0 HP remains unconscious. If it takes damage, it loses stability and must resume death saves if it survives."
       ]
     },
     {
@@ -2660,6 +3276,17 @@
       ]
     },
     {
+      "id": "environment-cover-overview",
+      "title": "Cover and Line of Attack",
+      "navigationTitle": "Cover and Line of Attack",
+      "category": "Environment Effects",
+      "subgroup": "Environment cover",
+      "label": "Environment Effects",
+      "content": [
+        "Cover protects a target when an obstacle stands between it and the source of an attack or other effect. Cover can therefore differ depending on the attacker’s position."
+      ]
+    },
+    {
       "id": "environment-effects-environment-cover-half-cover",
       "title": "Half cover",
       "navigationTitle": "Half cover",
@@ -2694,7 +3321,8 @@
         " If a target is behind multiple sources of cover, only the most protective degree of cover applies ",
         {
           "type": "divider"
-        }
+        },
+        "Half cover applies when the obstacle blocks at least half the target’s body."
       ]
     },
     {
@@ -2732,7 +3360,8 @@
         " If a target is behind multiple sources of cover, only the most protective degree of cover applies ",
         {
           "type": "divider"
-        }
+        },
+        "Three-quarters cover applies when the obstacle blocks roughly three quarters of the target’s body."
       ]
     },
     {
@@ -2763,7 +3392,44 @@
         {
           "type": "divider"
         },
-        "If a target is behind multiple sources of cover, only the most protective degree of cover applies "
+        "If a target is behind multiple sources of cover, only the most protective degree of cover applies ",
+        {
+          "type": "divider"
+        },
+        "Total cover applies when an obstacle completely blocks the target from the source of the attack or effect."
+      ]
+    },
+    {
+      "id": "environment-underwater-melee",
+      "title": "Underwater Melee Attacks",
+      "navigationTitle": "Underwater Melee Attacks",
+      "category": "Environment Effects",
+      "subgroup": "Underwater combat",
+      "label": "Environment Effects",
+      "content": [
+        "Underwater, melee weapon attacks made without a swimming speed have disadvantage. Daggers, javelins, shortswords, spears, and tridents are exceptions. A swimming speed can be natural or granted by magic."
+      ]
+    },
+    {
+      "id": "environment-underwater-ranged",
+      "title": "Underwater Ranged Attacks",
+      "navigationTitle": "Underwater Ranged Attacks",
+      "category": "Environment Effects",
+      "subgroup": "Underwater combat",
+      "label": "Environment Effects",
+      "content": [
+        "A ranged weapon attack underwater automatically misses beyond the weapon’s normal range. Within normal range, it has disadvantage unless you use a crossbow, a net, or a weapon thrown like a javelin, such as a spear, trident, or dart."
+      ]
+    },
+    {
+      "id": "environment-underwater-fire",
+      "title": "Fire Damage Underwater",
+      "navigationTitle": "Fire Damage Underwater",
+      "category": "Environment Effects",
+      "subgroup": "Underwater combat",
+      "label": "Environment Effects",
+      "content": [
+        "Fully submerged creatures and objects have resistance to fire damage."
       ]
     },
     {
