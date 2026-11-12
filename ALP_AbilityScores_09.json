@@ -1,0 +1,1603 @@
+{
+  "schemaVersion": 1,
+  "title": "Ability Scores",
+  "ruleset": "D&D 5e (2014) + Axria Honor",
+  "categories": [
+    "General Rules",
+    "Strength",
+    "Dexterity",
+    "Constitution",
+    "Intelligence",
+    "Wisdom",
+    "Charisma",
+    "Honor"
+  ],
+  "sources": [
+    {
+      "id": "srd-5.1",
+      "title": "System Reference Document 5.1",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1.pdf",
+      "license": "CC BY 4.0",
+      "attribution": "This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+      "changes": "Summarized, reorganized, and illustrated with brief explanations."
+    },
+    {
+      "id": "roll20-reference",
+      "title": "Ability Scores — Roll20 Compendium (requested reference)",
+      "url": "https://roll20.net/compendium/dnd5e/Ability%20Scores#content"
+    },
+    {
+      "id": "axria-honor",
+      "title": "Axria Honor — user-provided campaign rules",
+      "changes": "Revised Honor around virtue, integrity, and conduct, with examples and standard checks and saves."
+    }
+  ],
+  "entries": [
+    {
+      "id": "general-rules-ability-scores-modifiers",
+      "title": "Ability scores & modifiers",
+      "navigationTitle": "Ability scores & modifiers",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma describe different physical and mental capabilities. Axria also uses Honor, governed by the campaign rules in its own section.",
+        {
+          "type": "divider"
+        },
+        "An ability score describes the capability; its modifier is the number usually added to a d20 roll. Calculate the modifier as (score − 10) ÷ 2, rounded down. For example, 9 gives −1, 14 gives +2, and 19 gives +4.",
+        {
+          "type": "divider"
+        },
+        "For the six standard abilities, 10–11 is the ordinary human baseline; 18 is exceptional. Adventurers normally have a maximum of 20 unless a feature says otherwise. Monsters and divine beings may reach 30. Honor is assigned by the DM rather than advanced normally.",
+        {
+          "type": "divider"
+        },
+        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality<br>Honor measures virtue, trustworthiness, and integrity"
+      ]
+    },
+    {
+      "id": "general-rules-score-to-modifier-table",
+      "title": "Score-to-modifier table",
+      "navigationTitle": "Score-to-modifier table",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Score"
+              ],
+              [
+                "Modifier"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "1"
+              ],
+              [
+                "−5"
+              ]
+            ],
+            [
+              [
+                "2–3"
+              ],
+              [
+                "-4"
+              ]
+            ],
+            [
+              [
+                "4–5"
+              ],
+              [
+                "-3"
+              ]
+            ],
+            [
+              [
+                "6–7"
+              ],
+              [
+                "-2"
+              ]
+            ],
+            [
+              [
+                "8–9"
+              ],
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "10–11"
+              ],
+              [
+                "+0"
+              ]
+            ],
+            [
+              [
+                "12–13"
+              ],
+              [
+                "+1"
+              ]
+            ],
+            [
+              [
+                "14–15"
+              ],
+              [
+                "+2"
+              ]
+            ],
+            [
+              [
+                "16–17"
+              ],
+              [
+                "+3"
+              ]
+            ],
+            [
+              [
+                "18–19"
+              ],
+              [
+                "+4"
+              ]
+            ],
+            [
+              [
+                "20–21"
+              ],
+              [
+                "+5"
+              ]
+            ],
+            [
+              [
+                "22–23"
+              ],
+              [
+                "+6"
+              ]
+            ],
+            [
+              [
+                "24–25"
+              ],
+              [
+                "+7"
+              ]
+            ],
+            [
+              [
+                "26–27"
+              ],
+              [
+                "+8"
+              ]
+            ],
+            [
+              [
+                "28–29"
+              ],
+              [
+                "+9"
+              ]
+            ],
+            [
+              [
+                "30"
+              ],
+              [
+                "+10"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "Use the modifier for checks and saving throws involving that ability. Apply proficiency and other bonuses only when the relevant rule allows them."
+      ]
+    },
+    {
+      "id": "general-rules-ability-checks",
+      "title": "Ability checks",
+      "navigationTitle": "Ability checks",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "The DM calls for an ability check when an attempted task has an uncertain outcome and a meaningful chance of failure. The DM chooses the ability and the Difficulty Class (DC).",
+        {
+          "type": "divider"
+        },
+        "Roll d20 + the chosen ability modifier + applicable bonuses. A total equal to or greater than the DC succeeds; a lower total fails, with the DM determining the consequences.",
+        {
+          "type": "divider"
+        },
+        "A skill is a particular application of an ability. A check may use an ability without any skill. Under the 2014 rules, a natural 1 or 20 does not automatically fail or succeed on an ordinary ability check."
+      ]
+    },
+    {
+      "id": "general-rules-typical-difficulty-classes",
+      "title": "Typical Difficulty Classes",
+      "navigationTitle": "Typical Difficulty Classes",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Task difficulty"
+              ],
+              [
+                "DC"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Very easy"
+              ],
+              [
+                "5"
+              ]
+            ],
+            [
+              [
+                "Easy"
+              ],
+              [
+                "10"
+              ]
+            ],
+            [
+              [
+                "Medium"
+              ],
+              [
+                "15"
+              ]
+            ],
+            [
+              [
+                "Hard"
+              ],
+              [
+                "20"
+              ]
+            ],
+            [
+              [
+                "Very hard"
+              ],
+              [
+                "25"
+              ]
+            ],
+            [
+              [
+                "Nearly impossible"
+              ],
+              [
+                "30"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "These are reference DCs. The DM sets the DC for the actual task; a specific rule may supply its own."
+      ]
+    },
+    {
+      "id": "general-rules-advantage-disadvantage",
+      "title": "Advantage & disadvantage",
+      "navigationTitle": "Advantage & disadvantage",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "With advantage, roll two d20s and use the higher result. With disadvantage, use the lower. Neither stacks into additional dice.",
+        {
+          "type": "divider"
+        },
+        "If both advantage and disadvantage apply, they cancel: roll one d20, regardless of how many sources of either apply.",
+        {
+          "type": "divider"
+        },
+        "When a rule allows a reroll or replacement of a d20 while you have advantage or disadvantage, you can reroll or replace only one of the two dice, unless the rule says otherwise."
+      ]
+    },
+    {
+      "id": "general-rules-proficiency-bonus",
+      "title": "Proficiency bonus",
+      "navigationTitle": "Proficiency bonus",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Add your proficiency bonus when a skill, tool, attack, or saving throw proficiency applies. Your class level table gives the bonus; for a multiclass character it is based on total character level.",
+        {
+          "type": "divider"
+        },
+        "Apply the bonus only once to a roll. A feature such as Expertise can double it for specified uses; proficiency is not added a second time from another applicable source.",
+        {
+          "type": "divider"
+        },
+        "If a rule doubles or halves the bonus, do so only once for that roll. A multiplier cannot create a proficiency bonus for a check that would not normally receive one."
+      ]
+    },
+    {
+      "id": "general-rules-skills-other-abilities",
+      "title": "Skills & other abilities",
+      "navigationTitle": "Skills & other abilities",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules · Includes variant",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "The usual skill–ability pairings appear under each ability. When the DM calls for Wisdom (Perception), for example, add Wisdom and add proficiency if you are proficient in Perception.",
+        {
+          "type": "divider"
+        },
+        "Variant: the DM may pair a skill with a different ability when the approach warrants it. A long swim could use Constitution (Athletics); a display of physical menace could use Strength (Intimidation). A relevant skill proficiency still applies."
+      ]
+    },
+    {
+      "id": "general-rules-contests",
+      "title": "Contests",
+      "navigationTitle": "Contests",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "When two creatures directly oppose one another, both make the ability check appropriate to their own effort. Compare the totals rather than checking a fixed DC.",
+        {
+          "type": "divider"
+        },
+        "The higher total wins. On a tie, the situation remains as it was before the contest: a tied attempt to wrench away an object fails to change who holds it, for example."
+      ]
+    },
+    {
+      "id": "general-rules-passive-checks",
+      "title": "Passive checks",
+      "navigationTitle": "Passive checks",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "A passive check uses no die roll. The DM can use it for repeated efforts or to resolve something secretly.",
+        {
+          "type": "divider"
+        },
+        "Passive total = 10 + all modifiers that normally apply to the check. Add 5 for advantage, or subtract 5 for disadvantage. If both apply, they cancel.",
+        {
+          "type": "divider"
+        },
+        "Example: Wisdom 15 gives +2. With proficiency bonus +2 and Perception proficiency, passive Wisdom (Perception) is 14."
+      ]
+    },
+    {
+      "id": "general-rules-working-together",
+      "title": "Working together",
+      "navigationTitle": "Working together",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "One character makes the check with advantage when another character can meaningfully assist. In combat, providing this assistance requires the Help action.",
+        {
+          "type": "divider"
+        },
+        "The helper must be able to attempt the task alone, and cooperation must actually be useful. A task that requires a particular proficiency may prevent an untrained character from helping."
+      ]
+    },
+    {
+      "id": "general-rules-group-checks",
+      "title": "Group checks",
+      "navigationTitle": "Group checks",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "When the group succeeds or fails together, the DM may ask everyone to make an ability check.",
+        {
+          "type": "divider"
+        },
+        "If at least half the group succeeds, the group succeeds. Otherwise, it fails. This lets stronger participants compensate for weaker ones when cooperation is appropriate."
+      ]
+    },
+    {
+      "id": "general-rules-saving-throws",
+      "title": "Saving throws",
+      "navigationTitle": "Saving throws",
+      "category": "General Rules",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "A saving throw resists a threat such as a spell, trap, poison, or disease. The threatening effect normally tells you when to save, which ability to use, and the consequences.",
+        {
+          "type": "divider"
+        },
+        "Roll d20 + the relevant ability modifier. Add proficiency only if you are proficient in that saving throw, and include any other applicable modifiers.",
+        {
+          "type": "divider"
+        },
+        "Meet or exceed the effect’s save DC to succeed. Advantage, disadvantage, and situational bonuses can apply. Skills do not supply saving throw proficiency.",
+        {
+          "type": "divider"
+        },
+        "For a spell, the usual save DC is 8 + the caster’s spellcasting ability modifier + proficiency bonus. Specific effects may use another formula. Death saving throws have their own rules and do not use this ordinary ability-save formula."
+      ]
+    },
+    {
+      "id": "strength-strength-overview",
+      "title": "Strength — Overview",
+      "navigationTitle": "Strength — Overview",
+      "category": "Strength",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Strength represents physical power, athletic capability, and the force you can exert.",
+        {
+          "type": "divider"
+        },
+        "Associated skill: Athletics.",
+        {
+          "type": "divider"
+        },
+        "Use Strength checks for brute force: moving heavy objects, breaking restraints, forcing an opening, or holding something in place."
+      ]
+    },
+    {
+      "id": "strength-athletics",
+      "title": "Athletics",
+      "navigationTitle": "Athletics",
+      "category": "Strength",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Strength (Athletics) for difficult climbing, jumping, or swimming.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              "Climb a slick or sheer surface, avoid hazards during a climb, or cling on while being dislodged."
+            ],
+            [
+              "Attempt an exceptional jump or a stunt during a leap."
+            ],
+            [
+              "Swim against dangerous currents, stay afloat in turbulent water, or resist being pulled underwater."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strength-other-strength-checks",
+      "title": "Other Strength checks",
+      "navigationTitle": "Other Strength checks",
+      "category": "Strength",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Force a stuck, locked, or barred door."
+            ],
+            [
+              "Break bonds or force yourself through a tight passage."
+            ],
+            [
+              "Hold onto a moving wagon while dragged."
+            ],
+            [
+              "Topple a statue or stop a rolling boulder."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The DM decides whether a skill applies; raw Strength checks do not automatically use Athletics."
+      ]
+    },
+    {
+      "id": "strength-melee-attacks-damage",
+      "title": "Melee attacks & damage",
+      "navigationTitle": "Melee attacks & damage",
+      "category": "Strength",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Strength is normally added to both the attack and damage rolls of a melee weapon.",
+        {
+          "type": "divider"
+        },
+        "Finesse weapons can use Strength or Dexterity, using the same ability for both rolls. A thrown melee weapon normally uses the same ability it would use in melee; a thrown finesse weapon can use either."
+      ]
+    },
+    {
+      "id": "strength-lifting-carrying",
+      "title": "Lifting & carrying",
+      "navigationTitle": "Lifting & carrying",
+      "category": "Strength",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Activity"
+              ],
+              [
+                "Limit for a Medium creature"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Carry"
+              ],
+              [
+                "Strength × 15 lb"
+              ]
+            ],
+            [
+              [
+                "Push, drag, or lift"
+              ],
+              [
+                "Strength × 30 lb"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "While pushing or dragging a load greater than your carrying capacity, your speed becomes 5 feet.",
+        {
+          "type": "divider"
+        },
+        "For each size category above Medium, double these limits. Tiny creatures halve them. Small creatures use the same limits as Medium creatures."
+      ]
+    },
+    {
+      "id": "strength-encumbrance-variant",
+      "title": "Encumbrance — Variant",
+      "navigationTitle": "Encumbrance — Variant",
+      "category": "Strength",
+      "subgroup": "Other uses",
+      "label": "2014 rules · Optional variant",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use this optional system only if the DM adopts it. Ignore the Strength requirement column of the Armor table when using this variant.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              [
+                "Carried weight"
+              ],
+              [
+                "Effect"
+              ]
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "More than Strength × 5 lb"
+              ],
+              [
+                "Encumbered: speed reduced by 10 ft"
+              ]
+            ],
+            [
+              [
+                "More than Strength × 10 lb, up to carrying capacity"
+              ],
+              [
+                "Heavily encumbered: speed reduced by 20 ft; disadvantage on Strength, Dexterity, and Constitution ability checks, attack rolls, and saving throws"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The heavily encumbered speed reduction is 20 feet total, not an additional 20 feet on top of the encumbered reduction."
+      ]
+    },
+    {
+      "id": "dexterity-dexterity-overview",
+      "title": "Dexterity — Overview",
+      "navigationTitle": "Dexterity — Overview",
+      "category": "Dexterity",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Dexterity represents agility, balance, and quick reactions.",
+        {
+          "type": "divider"
+        },
+        "Associated skills: Acrobatics, Sleight of Hand, and Stealth.",
+        {
+          "type": "divider"
+        },
+        "It commonly affects ranged weapon attacks, finesse weapon attacks, Armor Class, and initiative."
+      ]
+    },
+    {
+      "id": "dexterity-acrobatics",
+      "title": "Acrobatics",
+      "navigationTitle": "Acrobatics",
+      "category": "Dexterity",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Dexterity (Acrobatics) to stay balanced or perform acrobatic movements.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              "Keep your footing on ice, a narrow rope, or a ship’s moving deck."
+            ],
+            [
+              "Perform a dive, roll, somersault, or flip when the outcome is uncertain."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "It does not automatically replace Athletics for climbing, jumping distance, or other tasks based on force."
+      ]
+    },
+    {
+      "id": "dexterity-sleight-of-hand",
+      "title": "Sleight of Hand",
+      "navigationTitle": "Sleight of Hand",
+      "category": "Dexterity",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Dexterity (Sleight of Hand) for discreet manual tricks.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              "Conceal an object on your person or secretly plant it on someone else."
+            ],
+            [
+              "Lift a coin purse or remove something from another person’s pocket."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dexterity-stealth",
+      "title": "Stealth",
+      "navigationTitle": "Stealth",
+      "category": "Dexterity",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Dexterity (Stealth) to avoid notice: conceal yourself, slip past sentries, move away unseen, or approach without being heard.",
+        {
+          "type": "divider"
+        },
+        "The situation must permit hiding; a successful roll cannot make you hidden from a creature that clearly sees you. See Hiding & detection for the accompanying rules."
+      ]
+    },
+    {
+      "id": "dexterity-other-dexterity-checks",
+      "title": "Other Dexterity checks",
+      "navigationTitle": "Other Dexterity checks",
+      "category": "Dexterity",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Control a loaded cart on a steep descent or steer a chariot through a tight turn."
+            ],
+            [
+              "Pick a lock or disable a trap when the required tools and proficiency allow it."
+            ],
+            [
+              "Tie a prisoner securely or wriggle out of bonds."
+            ],
+            [
+              "Play a stringed instrument or craft a small, intricate object."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dexterity-attacks-armor-class-initiative",
+      "title": "Attacks, Armor Class & initiative",
+      "navigationTitle": "Attacks, Armor Class & initiative",
+      "category": "Dexterity",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Dexterity is normally added to attack and damage rolls with ranged weapons. Finesse melee weapons can use Dexterity in place of Strength.",
+        {
+          "type": "divider"
+        },
+        "Armor determines how much Dexterity contributes to AC: light armor normally allows the full modifier, medium armor normally caps the bonus at +2, and heavy armor normally does not use it. Apply the actual armor or feature’s formula.",
+        {
+          "type": "divider"
+        },
+        "Initiative is a Dexterity check. A skill proficiency such as Acrobatics does not automatically apply."
+      ]
+    },
+    {
+      "id": "dexterity-hiding-detection",
+      "title": "Hiding & detection",
+      "navigationTitle": "Hiding & detection",
+      "category": "Dexterity",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "The DM decides whether the circumstances allow you to hide. Roll Dexterity (Stealth); until you are found or stop hiding, active searches use Wisdom (Perception) in a contest with your result.",
+        {
+          "type": "divider"
+        },
+        "A creature that sees you clearly prevents you from hiding from it. Noise can reveal your position. Being invisible permits an attempt to hide, but does not automatically make you hidden; sound or traces may still give you away.",
+        {
+          "type": "divider"
+        },
+        "A creature that is not actively searching may notice you through passive Wisdom (Perception). Compare its passive score against your Stealth result.",
+        {
+          "type": "divider"
+        },
+        "Approaching a creature in open view usually reveals you. Distraction or other circumstances may let you remain hidden at the DM’s discretion. Visibility and obscurement also matter."
+      ]
+    },
+    {
+      "id": "constitution-constitution-overview",
+      "title": "Constitution — Overview",
+      "navigationTitle": "Constitution — Overview",
+      "category": "Constitution",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Constitution represents health, endurance, and bodily resilience.",
+        {
+          "type": "divider"
+        },
+        "No skills are normally associated with Constitution. A plain Constitution check can represent pushing your endurance beyond its ordinary limits.",
+        {
+          "type": "divider"
+        },
+        "Do not confuse Constitution checks with Constitution saving throws: the relevant task or effect decides which roll is used."
+      ]
+    },
+    {
+      "id": "constitution-constitution-checks",
+      "title": "Constitution checks",
+      "navigationTitle": "Constitution checks",
+      "category": "Constitution",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Hold your breath when the DM calls for an endurance check."
+            ],
+            [
+              "March or work for hours, or go without sleep."
+            ],
+            [
+              "Endure a shortage of food or water."
+            ],
+            [
+              "Drink a large quantity of ale in one attempt."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "These are examples of situations involving endurance. Specific rules for suffocation, travel, starvation, or other hazards still determine when a check or saving throw is required."
+      ]
+    },
+    {
+      "id": "constitution-hit-points",
+      "title": "Hit points",
+      "navigationTitle": "Hit points",
+      "category": "Constitution",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Your Constitution modifier normally contributes to the hit points you receive at each level and to Hit Dice rolls used to regain hit points.",
+        {
+          "type": "divider"
+        },
+        "If the modifier changes, adjust maximum hit points as though the new modifier had applied at every level. A +1 increase to the modifier at level 7 increases maximum hit points by 7; a −1 change reduces them by 7.",
+        {
+          "type": "divider"
+        },
+        "Use the specific class or effect’s instructions for the rest of the hit point calculation."
+      ]
+    },
+    {
+      "id": "intelligence-intelligence-overview",
+      "title": "Intelligence — Overview",
+      "navigationTitle": "Intelligence — Overview",
+      "category": "Intelligence",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Intelligence represents reasoning, memory, education, and analysis.",
+        {
+          "type": "divider"
+        },
+        "Associated skills: Arcana, History, Investigation, Nature, and Religion.",
+        {
+          "type": "divider"
+        },
+        "Use it to recall knowledge, interpret clues, or solve a problem through deduction."
+      ]
+    },
+    {
+      "id": "intelligence-arcana",
+      "title": "Arcana",
+      "navigationTitle": "Arcana",
+      "category": "Intelligence",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Intelligence (Arcana) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Recall knowledge about spells, magic items, magical symbols and traditions, planes of existence, and planar inhabitants."
+      ]
+    },
+    {
+      "id": "intelligence-history",
+      "title": "History",
+      "navigationTitle": "History",
+      "category": "Intelligence",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Intelligence (History) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Recall historical events, notable people, old kingdoms, earlier disputes and wars, or vanished civilizations."
+      ]
+    },
+    {
+      "id": "intelligence-investigation",
+      "title": "Investigation",
+      "navigationTitle": "Investigation",
+      "category": "Intelligence",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Intelligence (Investigation) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Examine clues and draw conclusions: infer where something is hidden, identify a weapon from a wound, find a structural weak point, or search documents for the crucial evidence."
+      ]
+    },
+    {
+      "id": "intelligence-nature",
+      "title": "Nature",
+      "navigationTitle": "Nature",
+      "category": "Intelligence",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Intelligence (Nature) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Recall knowledge about terrain, plants, animals, weather, and the workings of natural cycles."
+      ]
+    },
+    {
+      "id": "intelligence-religion",
+      "title": "Religion",
+      "navigationTitle": "Religion",
+      "category": "Intelligence",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Intelligence (Religion) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Recall knowledge about deities, prayers, religious practices and organizations, sacred symbols, or cult traditions."
+      ]
+    },
+    {
+      "id": "intelligence-other-intelligence-checks",
+      "title": "Other Intelligence checks",
+      "navigationTitle": "Other Intelligence checks",
+      "category": "Intelligence",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Communicate an idea without speech."
+            ],
+            [
+              "Estimate the value of an object."
+            ],
+            [
+              "Assemble a convincing disguise or forge a document."
+            ],
+            [
+              "Recall how a craft or trade works."
+            ],
+            [
+              "Play a game whose outcome depends on skill."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "A tool proficiency may be relevant when the DM calls for one; these examples are not automatic applications of Investigation."
+      ]
+    },
+    {
+      "id": "intelligence-spellcasting-intelligence",
+      "title": "Spellcasting — Intelligence",
+      "navigationTitle": "Spellcasting — Intelligence",
+      "category": "Intelligence",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Wizards use Intelligence as their spellcasting ability. For their spells, it determines the ability modifier in spell attack rolls and saving throw DCs.",
+        {
+          "type": "divider"
+        },
+        "Spell attack bonus = Intelligence modifier + proficiency bonus. Spell save DC = 8 + Intelligence modifier + proficiency bonus. Follow a class or feature’s own text if it says otherwise."
+      ]
+    },
+    {
+      "id": "wisdom-wisdom-overview",
+      "title": "Wisdom — Overview",
+      "navigationTitle": "Wisdom — Overview",
+      "category": "Wisdom",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Wisdom represents awareness, intuition, and sensitivity to what is happening around you.",
+        {
+          "type": "divider"
+        },
+        "Associated skills: Animal Handling, Insight, Medicine, Perception, and Survival.",
+        {
+          "type": "divider"
+        },
+        "Use it to read behaviour, notice danger, care for injuries, or navigate the natural world."
+      ]
+    },
+    {
+      "id": "wisdom-animal-handling",
+      "title": "Animal Handling",
+      "navigationTitle": "Animal Handling",
+      "category": "Wisdom",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Wisdom (Animal Handling) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Calm a domesticated animal, keep a mount from panicking, judge an animal’s intentions, or control a mount during a risky maneuver."
+      ]
+    },
+    {
+      "id": "wisdom-insight",
+      "title": "Insight",
+      "navigationTitle": "Insight",
+      "category": "Wisdom",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Wisdom (Insight) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Infer someone’s intentions from their body language, mannerisms, and behaviour. This can help you assess a possible lie or anticipate a move; it does not guarantee access to their thoughts."
+      ]
+    },
+    {
+      "id": "wisdom-medicine",
+      "title": "Medicine",
+      "navigationTitle": "Medicine",
+      "category": "Wisdom",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Wisdom (Medicine) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Attempt to stabilize a dying creature or identify an illness. Other rules may supply the action and DC, such as the check to stabilize a creature."
+      ]
+    },
+    {
+      "id": "wisdom-perception",
+      "title": "Perception",
+      "navigationTitle": "Perception",
+      "category": "Wisdom",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Wisdom (Perception) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Notice something through your senses: overhear a quiet conversation, detect movement nearby, or spot a hidden creature, object, or light."
+      ]
+    },
+    {
+      "id": "wisdom-survival",
+      "title": "Survival",
+      "navigationTitle": "Survival",
+      "category": "Wisdom",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Wisdom (Survival) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Follow tracks, hunt, guide others through wilderness, recognize signs of nearby creatures, predict weather, or avoid natural hazards."
+      ]
+    },
+    {
+      "id": "wisdom-other-wisdom-checks",
+      "title": "Other Wisdom checks",
+      "navigationTitle": "Other Wisdom checks",
+      "category": "Wisdom",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Get an intuitive sense of which course of action to take."
+            ],
+            [
+              "Determine whether an apparently living or dead creature is actually undead."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The DM chooses whether these uses require a check and whether a particular skill applies."
+      ]
+    },
+    {
+      "id": "wisdom-spellcasting-wisdom",
+      "title": "Spellcasting — Wisdom",
+      "navigationTitle": "Spellcasting — Wisdom",
+      "category": "Wisdom",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Clerics, druids, and rangers use Wisdom as their spellcasting ability.",
+        {
+          "type": "divider"
+        },
+        "Spell attack bonus = Wisdom modifier + proficiency bonus. Spell save DC = 8 + Wisdom modifier + proficiency bonus. A particular feature may specify another ability or formula."
+      ]
+    },
+    {
+      "id": "charisma-charisma-overview",
+      "title": "Charisma — Overview",
+      "navigationTitle": "Charisma — Overview",
+      "category": "Charisma",
+      "subgroup": "",
+      "label": "2014 rules",
+      "kind": "overview",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Charisma represents social presence, confidence, expression, and the ability to influence others.",
+        {
+          "type": "divider"
+        },
+        "Associated skills: Deception, Intimidation, Performance, and Persuasion.",
+        {
+          "type": "divider"
+        },
+        "It covers both forceful and subtle social approaches. A high Charisma score does not require kindness or honesty."
+      ]
+    },
+    {
+      "id": "charisma-deception",
+      "title": "Deception",
+      "navigationTitle": "Deception",
+      "category": "Charisma",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Charisma (Deception) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Mislead someone with words or actions: tell a plausible lie, conceal the truth, pass off a disguise, make false assurances, cheat a mark, or hide your reaction."
+      ]
+    },
+    {
+      "id": "charisma-intimidation",
+      "title": "Intimidation",
+      "navigationTitle": "Intimidation",
+      "category": "Charisma",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Charisma (Intimidation) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Influence someone through threats, hostility, or the prospect of violence: pressure a prisoner, deter attackers, or threaten a powerful official."
+      ]
+    },
+    {
+      "id": "charisma-performance",
+      "title": "Performance",
+      "navigationTitle": "Performance",
+      "category": "Charisma",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Charisma (Performance) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Entertain an audience through music, dance, acting, storytelling, or another form of performance."
+      ]
+    },
+    {
+      "id": "charisma-persuasion",
+      "title": "Persuasion",
+      "navigationTitle": "Persuasion",
+      "category": "Charisma",
+      "subgroup": "Skills",
+      "label": "2014 rules",
+      "kind": "skill",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Use Charisma (Persuasion) for this skill.",
+        {
+          "type": "divider"
+        },
+        "Influence someone through tact, courtesy, or a good-faith appeal: obtain an audience, negotiate peace, make a cordial request, or inspire a community."
+      ]
+    },
+    {
+      "id": "charisma-other-charisma-checks",
+      "title": "Other Charisma checks",
+      "navigationTitle": "Other Charisma checks",
+      "category": "Charisma",
+      "subgroup": "Checks",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            [
+              "Find a useful person to ask about local news, gossip, or rumours."
+            ],
+            [
+              "Blend into a crowd to learn what people are talking about."
+            ]
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        "The approach and the circumstances determine whether a skill applies. A social check does not guarantee that another creature will agree to an impossible demand."
+      ]
+    },
+    {
+      "id": "charisma-spellcasting-charisma",
+      "title": "Spellcasting — Charisma",
+      "navigationTitle": "Spellcasting — Charisma",
+      "category": "Charisma",
+      "subgroup": "Other uses",
+      "label": "2014 rules",
+      "kind": "rule",
+      "sourceId": "srd-5.1",
+      "content": [
+        "Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability.",
+        {
+          "type": "divider"
+        },
+        "Spell attack bonus = Charisma modifier + proficiency bonus. Spell save DC = 8 + Charisma modifier + proficiency bonus. Follow the relevant class or feature if it gives different instructions."
+      ]
+    },
+    {
+      "id": "honor-honor-overview",
+      "title": "Honor — Overview",
+      "navigationTitle": "Honor — Overview",
+      "category": "Honor",
+      "subgroup": "",
+      "label": "Axria homebrew",
+      "kind": "overview",
+      "sourceId": "axria-honor",
+      "content": [
+        "Honor measures virtue, trustworthiness, and integrity. It reflects how well a character behaves and how considerate they remain, especially when circumstances are difficult.",
+        {
+          "type": "divider"
+        },
+        "A noble knight and a rugged thief can both have high Honor. A character’s choices show their courage, decency, fairness, and honesty, especially when those qualities come at a cost. A title, an alignment, or a reputation can shape what others expect, while Honor follows how the character actually acts.",
+        {
+          "type": "divider"
+        },
+        "Honor is one ability score with one modifier and no associated skills. The DM calls for Honor rolls when integrity, trustworthiness, or resolve is at stake."
+      ]
+    },
+    {
+      "id": "honor-high-honor",
+      "title": "High Honor",
+      "navigationTitle": "High Honor",
+      "category": "Honor",
+      "subgroup": "",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "High Honor shows in people who keep their word, deal fairly, and take responsibility when it would be easier to walk away. Knightly honor and honor among thieves are expressions of the same score.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Knightly honor."
+                ]
+              },
+              " A knight stays to defend people they promised to protect, even when retreat would be safer. When challenging an unsuspecting, unarmed rival and there is time for a fair contest, the knight announces the challenge and lends them a weapon."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Honor among thieves."
+                ]
+              },
+              " After a job, a thief gives an injured accomplice their full share and offers some of their own for treatment. They keep faith with their partner even when nobody could prove what the partner was owed."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Honesty at a cost."
+                ]
+              },
+              " A character admits their own mistake when someone else is about to take the blame. Telling the truth may cost them a reward, a promotion, or an ally’s approval."
+            ]
+          ]
+        }
+      ],
+      "honorSide": "high"
+    },
+    {
+      "id": "honor-low-honor",
+      "title": "Low Honor",
+      "navigationTitle": "Low Honor",
+      "category": "Honor",
+      "subgroup": "",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "Low Honor describes a pattern of putting personal gain or safety ahead of fairness, decency, and commitments to others. A knight with a respected title can act this way as readily as a thief.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Abandoning an obligation."
+                ]
+              },
+              " A knight takes payment to guard a group of travelers, then abandons them when a safer, better paid offer comes along."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Taking advantage of an ally."
+                ]
+              },
+              " A thief withholds an injured accomplice’s promised share because the accomplice is too weak to contest it."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Passing the blame."
+                ]
+              },
+              " A character lets an innocent companion take the punishment for their own mistake to keep their position."
+            ]
+          ]
+        }
+      ],
+      "honorSide": "low"
+    },
+    {
+      "id": "honor-earning-losing-honor",
+      "title": "Earning & losing Honor",
+      "navigationTitle": "Earning & losing Honor",
+      "category": "Honor",
+      "subgroup": "Progression",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "The DM sets and adjusts Honor based on a character’s conduct. Look at consequential choices and patterns of behavior. Keeping a promise at a cost, treating a vulnerable person fairly, or taking responsibility can raise Honor. Betraying a promise for profit, exploiting someone who cannot defend their interests, or knowingly shifting blame can lower it.",
+        {
+          "type": "divider"
+        },
+        "Judge what the character knew and what choices they reasonably had. Killing an attacker in self-defense ordinarily leaves Honor where it is. Killing a defeated opponent who poses no danger, when you could reasonably spare them, can lower Honor. Sparing them, tending their wounds, turning them over for trial, or letting them go can show Honor, especially when it costs you something.",
+        {
+          "type": "divider"
+        },
+        "Private deeds count. A character’s actions determine their Honor even if nobody witnesses them. Other people judge the character from what they know or believe.",
+        {
+          "type": "divider"
+        },
+        "Ability Score Improvements and other features that normally alter ability scores do not change Honor. The DM decides when the conduct merits a change and how large it should be."
+      ]
+    },
+    {
+      "id": "honor-honor-checks",
+      "title": "Honor checks",
+      "navigationTitle": "Honor checks",
+      "category": "Honor",
+      "subgroup": "Checks",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "Roll a d20 and add your Honor modifier. You succeed if the total meets or exceeds the DC the DM sets. Apply advantage or disadvantage as usual.",
+        {
+          "type": "divider"
+        },
+        "Use an Honor check when integrity, a personal guarantee, or a judgment about someone’s character can resolve the situation.",
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Give your word in a formal setting."
+                ]
+              },
+              " Ask a magistrate to release someone into your custody on your personal guarantee that they will return for trial."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Assess trustworthiness."
+                ]
+              },
+              " Based on what you know about someone’s past choices and what they stand to lose, judge whether you could count on them to keep a difficult promise."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Calm a tense situation."
+                ]
+              },
+              " Offer your word to both sides that anyone who stands down will be allowed to leave safely, and make clear that you’ll answer for that promise."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honor-honor-saving-throws",
+      "title": "Honor saving throws",
+      "navigationTitle": "Honor saving throws",
+      "category": "Honor",
+      "subgroup": "Saving throws",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "The DM can call for an Honor saving throw when outside pressure tests your resolve to stand by a commitment or uphold your principles. Roll a d20, add your Honor modifier and any applicable saving throw proficiency, and compare the total with the DC.",
+        {
+          "type": "divider"
+        },
+        "You might roll to hold your ground when fear or despair threatens to overwhelm you, or to speak up for yourself or an ally when a hostile crowd is trying to shame you into silence. The DM sets the stakes and explains what success and failure mean. You decide what your character believes and which commitments they choose to make.",
+        {
+          "type": "divider"
+        },
+        "A spell or other effect can call for an Honor save. In a rare story-appropriate situation, the DM can offer an Honor save in place of the usual save when the effect specifically tests courage or integrity."
+      ]
+    },
+    {
+      "id": "honor-honor-at-the-table",
+      "title": "Honor at the table",
+      "navigationTitle": "Honor at the table",
+      "category": "Honor",
+      "subgroup": "Adjudication",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "Choose the ability by what is uncertain. Use Honor when someone is weighing your integrity or your word, Charisma when success depends on how convincingly you speak, and Wisdom (Insight) when you are reading immediate motives or looking for signs of deception.",
+        {
+          "type": "divider"
+        },
+        "Anyone can attempt an Honor roll when the situation calls for one. A low Honor modifier makes it harder to meet the same DC. A character can seek another approach, such as presenting evidence to the magistrate or offering a surety who can vouch for the accused.",
+        {
+          "type": "divider"
+        },
+        "Suppose you capture a wounded bandit and promise them a fair hearing. Keeping that promise can show Honor even if the bandit insulted you or harmed your friends. Later, use an Honor check if the magistrate doubts your guarantee. If someone tries to frighten you into withdrawing it, the DM may call for an Honor saving throw to see whether you can hold your ground."
+      ]
+    }
+  ]
+}
