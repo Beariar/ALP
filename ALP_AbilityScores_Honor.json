@@ -29,7 +29,7 @@
     {
       "id": "axria-honor",
       "title": "Axria Honor — user-provided campaign rules",
-      "changes": "Expanded to cover both ends of Honor, including positive and negative DCs. The DM still assigns the score through play."
+      "changes": "Defines formal and underworld standing, signed DCs, and when known conduct changes Honor."
     }
   ],
   "entries": [
@@ -55,7 +55,7 @@
         {
           "type": "divider"
         },
-        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality<br>Honor measures the kind of trust a character earns through their code of conduct"
+        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality<br>Honor measures a character’s standing when they invoke formal or underworld obligations."
       ]
     },
     {
@@ -1374,50 +1374,50 @@
       "kind": "overview",
       "sourceId": "axria-honor",
       "content": [
-        "Honor measures what kind of trust a character earns through their code of conduct, especially when keeping that code costs them something. High Honor earns trust through principles the character extends even to strangers and enemies. Low Honor earns trust through fierce loyalty to a chosen circle and a willingness to use tactics outsiders would condemn.",
+        "Can you deal with them on their terms? Honor measures the standing a character brings to dealings governed by a recognized code. A court may honor a guild’s charter. An underworld crew may honor a truce brokered by a mutual contact. A character’s Honor helps determine how much weight that appeal carries.",
         {
           "type": "divider"
         },
-        "Both ends offer advantages and carry costs. A knight may stake their reputation on your word after seeing you spare an enemy. A crew may trust you with their lives after seeing that you would break a truce to get one of them home. Honor is independent of moral alignment, courage, and familiarity with a culture. People judge it by the code they value and the conduct they know about.",
+        "Higher Honor favors formal dealings. Lower Honor favors underworld dealings. Both can give a character a way to be heard. A character with a +0 modifier has baseline odds on either kind of check.",
         {
           "type": "divider"
         },
-        "Honor is one ability score with one modifier and no associated skills. The DM calls for it sparingly, when someone’s code, loyalty, or reputation carries real stakes."
+        "Honor is one ability score with one modifier and no associated skills. The DM sets and adjusts the score through play."
       ]
     },
     {
       "id": "honor-high-honor",
-      "title": "High Honor — Mercy and duty",
-      "navigationTitle": "High Honor — Mercy and duty",
+      "title": "High Honor — Formal standing",
+      "navigationTitle": "High Honor — Formal standing",
       "category": "Honor",
       "subgroup": "High Honor",
       "label": "Axria homebrew",
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "A high-Honor warrior might spare an enemy who surrenders and offer to bind their wounds. They may defend a stranger or insist on hearing a captive’s story before passing judgment. “I don’t know their story. I’ll hear it before I pass judgment.”",
+        "High Honor helps when you invoke an obligation recognized by a court, the watch, a temple, a guild, or another institution. You might invoke sanctuary, a charter, a sworn duty, or the rules for turning a prisoner over to the authorities.",
         {
           "type": "divider"
         },
-        "Guards, nobles, knights, and others who value public duty may trust that warrior to keep their word when it costs them. Mercy can redeem a former enemy or win a lasting ally. It can also let an enemy regroup or strain ties with allies who wanted a quicker end to the conflict."
+        "A knight takes a surrendered enemy to trial because the court has the right to judge them. Later, that same knight could ask a mob boss to recognize safe passage guaranteed by the knight’s order. Both appeals rely on a formal obligation."
       ],
       "honorSide": "high"
     },
     {
       "id": "honor-low-honor",
-      "title": "Low Honor — Loyalty to one’s own",
-      "navigationTitle": "Low Honor — Loyalty to one’s own",
+      "title": "Low Honor — Underworld standing",
+      "navigationTitle": "Low Honor — Underworld standing",
       "category": "Honor",
       "subgroup": "Low Honor",
       "label": "Axria homebrew",
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "A low-Honor warrior might throw dirt in an enemy’s eyes, then spit at their feet when they surrender. The same warrior might take a beating to get a friend home safely. Their circle knows where they stand. “My people are under my protection. Walk away.”",
+        "Low Honor helps when you invoke underworld customs, private debts, or an unofficial agreement. You might call in a favor, invoke a truce brokered by a mutual contact, or ask someone to honor a private guarantee.",
         {
           "type": "divider"
         },
-        "Crews, mobs, and underworld enforcers who prize loyalty may trust that warrior to stand by an ally when official protection fails. That solidarity can keep vulnerable people safe. It can also feed grudges, shut out strangers who need help, or turn a small threat into a lasting feud."
+        "A broker protects a guest because they guaranteed safe passage under a truce. The same broker could bargain privately with a king by invoking a debt the king owes to a mutual contact. Both appeals rely on obligations outside the formal process."
       ],
       "honorSide": "low"
     },
@@ -1431,17 +1431,17 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "The DM sets the direction and difficulty before the roll. Use a positive DC when trust depends on restraint, fairness, or keeping a promise even to an outsider. Use a negative DC when trust depends on loyalty to one’s own people or willingness to set aside those broader standards. Choose the direction based on what the person or situation values.",
+        "The terms of the appeal determine the sign. Use a positive DC for a formal obligation and a negative DC for an underworld obligation. The DM sets the difficulty before the roll. The same person may recognize either kind of obligation, depending on what the character invokes.",
         {
           "type": "divider"
         },
-        "Use the ordinary ability modifier: (Honor score − 10) ÷ 2, rounded down. Roll one d20 and use the formula for that DC. A high natural die roll helps in either direction. DC −20 is harder than DC −10.",
+        "Calculate your Honor modifier as (Honor score − 10) ÷ 2, rounded down. Roll one d20 and apply the formula for the DC. A higher natural roll helps on either side. DC −20 is harder than DC −10.",
         {
           "type": "table",
           "headers": [
             [
               [
-                "DC"
+                "Terms"
               ],
               [
                 "Roll total"
@@ -1454,7 +1454,7 @@
           "rows": [
             [
               [
-                "Positive"
+                "Formal (positive DC)"
               ],
               [
                 "d20 + Honor modifier"
@@ -1465,7 +1465,7 @@
             ],
             [
               [
-                "Negative"
+                "Underworld (negative DC)"
               ],
               [
                 "Honor modifier − d20"
@@ -1476,11 +1476,18 @@
             ]
           ]
         },
-        "White-armored knights ask you to guarantee safe passage for a prisoner. Against DC +15, a character with Honor 16 (+3) rolls 12 for a total of +15 and succeeds.",
         {
           "type": "divider"
         },
-        "An underworld enforcer asks whether your crew can count on you to hide one of their own from the watch. Against DC −15, a character with Honor 4 (−3) rolls 12 for a total of −15 and succeeds."
+        "A knight with Honor 16 (+3) invokes a formal right of sanctuary. Against DC +15, a natural 12 gives 12 + 3 = +15 and succeeds.",
+        {
+          "type": "divider"
+        },
+        "A broker with Honor 4 (−3) invokes an underworld truce. Against DC −15, a natural 12 gives −3 − 12 = −15 and succeeds.",
+        {
+          "type": "divider"
+        },
+        "With a +0 modifier, a natural 15 reaches either DC +15 or DC −15 when you use the corresponding formula."
       ]
     },
     {
@@ -1493,15 +1500,11 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "The DM may call for an Honor saving throw when an outside force tries to humiliate a character, break their resolve, or coerce them into betraying their code. Use the same signed roll as an Honor check.",
+        "Roll an Honor saving throw when an effect explicitly calls for one. The effect specifies the sign and DC. Use the same signed roll as for an Honor check and apply the outcome described by the effect.",
         {
           "type": "divider"
         },
-        "A positive DC can test whether a knight keeps a promise to protect a surrendered enemy under threat of public disgrace. A negative DC can test whether a crew member keeps an ally’s whereabouts secret while an enforcer offers them a way out. The DM sets the stakes and describes what the pressure can accomplish. The player decides how their character responds.",
-        {
-          "type": "divider"
-        },
-        "Use the saving throw named by an existing rule in ordinary play. The DM may call for Honor instead in a rare story-specific situation. An enchantment might test whether the character breaks a sworn vow, for example. A sword that yields only to a character who lives by its code would call for a check if a roll is needed."
+        "A magical seal protecting a formal oath could call for a positive Honor save. A curse tied to an underworld pact could call for a negative Honor save. In ordinary play, players decide whether their characters keep their promises, accept a bargain, or break a truce."
       ]
     },
     {
@@ -1514,15 +1517,19 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "The DM sets the starting score and adjusts it through play. Honoring a promise to an enemy or risking something to protect a stranger can move the score upward. Repeatedly putting one’s own people ahead of outsiders, or gaining an advantage by breaking terms with outsiders, can move it downward. Look at choices under pressure and patterns of conduct.",
+        "The DM changes Honor when a consequential act becomes known to people whose standing or trust is at stake. Routine etiquette and ordinary dealings usually leave the score where it is. If nobody relevant learns what happened, leave the score as it was. Reassess it if the act becomes known later.",
         {
           "type": "divider"
         },
-        "Moving downward can build trust with groups that prize fierce loyalty to their own. Moving upward can build trust with groups that expect restraint and fairness across faction lines. A character who betrays their own crew may lose that crew’s trust regardless of where their Honor score sits.",
+        "Honor can rise when you uphold a recognized formal obligation at a cost. A knight who brings a personal enemy to trial and testifies despite the risk of public embarrassment gives the court a reason to rely on them.",
         {
           "type": "divider"
         },
-        "Ability Score Improvements and features that normally change ability scores have no effect on Honor. The DM determines the timing and size of any change based on the character’s conduct."
+        "Honor can fall when you commit to underworld terms in a consequential dispute or when an exposed act damages your formal standing. A broker who risks their position with the watch to keep an underworld truce may strengthen their standing with the crews involved. The response of any particular group still depends on what it knows and values.",
+        {
+          "type": "divider"
+        },
+        "Apply the stated gains and losses from downtime rules such as Crime and Religious Service. Ability Score Improvements and features that normally change ability scores have no effect on Honor."
       ]
     },
     {
@@ -1535,11 +1542,15 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Use Honor when the outcome hinges on a code of conduct or the trust it earns. Use Charisma when it hinges on charm, negotiation, or force of personality. Opening a conversation with a noble or a mob lieutenant can use either ability, depending on what is at stake.",
+        "Use Honor when the outcome hinges on a recognized obligation and the standing you bring to it. Use Charisma when it hinges on how convincingly you make your case. If an obligation already settles the matter, the DM can resolve it without a roll.",
         {
           "type": "divider"
         },
-        "A person’s title or faction is only a clue. A corrupt knight might prize loyalty to their inner circle. A smuggler who keeps every truce might prize restraint and fairness. The DM can let established trust settle the matter without a roll."
+        "At a bandit camp, you arrest three bandits and kill a fourth who is still attacking you. Even if others learn what happened, self-defense usually leaves Honor as it was. A duty to bring the bandit in alive could change what the watch expects.",
+        {
+          "type": "divider"
+        },
+        "If you kill the fourth bandit after they surrender or while they are in custody, the watch may lower your standing if it learns what happened and recognizes protections you violated. A promise of safe passage can make the same act matter to the underworld. If nobody relevant ever finds out, Honor stays the same."
       ]
     }
   ]
