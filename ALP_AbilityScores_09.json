@@ -1571,7 +1571,7 @@
         {
           "type": "divider"
         },
-        "You might roll to hold your ground when fear or despair threatens to overwhelm you, or to speak up for yourself or an ally when a hostile crowd is trying to shame you into silence. The DM sets the stakes and explains what success and failure mean. You decide what your character believes and which commitments they choose to make.",
+        "You might roll to hold your ground when fear or despair threatens to overwhelm you, or to speak up for yourself or an ally when a hostile crowd is trying to shame you into silence. DM decides the stakes but decide what your character believes and which commitments they choose to make.",
         {
           "type": "divider"
         },
@@ -1588,7 +1588,7 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Choose the ability by what is uncertain. Use Honor when someone is weighing your integrity or your word, Charisma when success depends on how convincingly you speak, and Wisdom (Insight) when you are reading immediate motives or looking for signs of deception.",
+        "Choose the ability by what is uncertain. Use Honor when someone is weighing your integrity, your word or you are weighing theirs. Charisma when success depends on how convincingly you speak. Wisdom (Insight) when you are reading immediate motives or looking for signs of deception.",
         {
           "type": "divider"
         },
@@ -1596,7 +1596,7 @@
         {
           "type": "divider"
         },
-        "Suppose you capture a wounded bandit and promise them a fair hearing. Keeping that promise can show Honor even if the bandit insulted you or harmed your friends. Later, use an Honor check if the magistrate doubts your guarantee. If someone tries to frighten you into withdrawing it, the DM may call for an Honor saving throw to see whether you can hold your ground."
+        "Suppose you capture a wounded bandit and promise them a fair hearing. Keeping that promise can show Honor even if the bandit insulted you or harmed you or your friends. Later yoi can use an Honor check if the magistrate doubts your guarantee. If someone tries to frighten you into withdrawing it, the DM may call for an Honor saving throw to see whether you can hold your ground."
       ]
     }
   ]
