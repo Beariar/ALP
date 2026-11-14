@@ -29,7 +29,7 @@
     {
       "id": "axria-honor",
       "title": "Axria Honor — user-provided campaign rules",
-      "changes": "Clarifies Honor as standing when invoking an obligation or offering a guarantee under formal or underworld codes."
+      "changes": "Edited for spelling, grammar, and reference layout. No numeric progression system added."
     }
   ],
   "entries": [
@@ -55,7 +55,7 @@
         {
           "type": "divider"
         },
-        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality<br>Honor measures a character’s standing when they invoke formal or underworld obligations."
+        "Six abilities provide a quick description of every creature’s physical and mental characteristics:<br>Strength, measuring physical power<br>Dexterity, measuring agility<br>Constitution, measuring endurance<br>Intelligence, measuring reasoning and memory<br>Wisdom, measuring perception and insight<br>Charisma, measuring force of personality<br>Honor measures virtue, trustworthiness, and integrity"
       ]
     },
     {
@@ -1374,220 +1374,57 @@
       "kind": "overview",
       "sourceId": "axria-honor",
       "content": [
-        "Can you make this agreement count? Honor measures how much weight your word carries when you invoke an obligation or offer a guarantee under a code the other party recognizes. A court might recognize a right of sanctuary. A crew might recognize a truce brokered by a mutual contact.",
+        "Honor measures virtue, trustworthiness, and integrity. It reflects how well a character behaves and how considerate they remain, especially when circumstances are difficult.",
         {
           "type": "divider"
         },
-        "Higher Honor gives you more standing under formal codes. Lower Honor gives you more standing under underworld codes. Trust, respect, or fear can give people reason to take your word seriously. Each group still decides whether to recognize the obligation and how much it trusts you personally.",
+        "Honor does not determine whether a character is a “good person.” It reflects their conduct, principles, and consideration for others rather than assigning moral alignment.",
         {
           "type": "divider"
         },
-        "Honor is one ability score with one modifier and no associated skills. The DM sets and adjusts the score through play."
+        "Honor has no associated skills. It is rarely called upon, but when it matters, it can have greater significance than the other ability scores."
       ]
     },
     {
-      "id": "honor-high-honor",
-      "title": "High Honor — Formal standing",
-      "navigationTitle": "High Honor — Formal standing",
+      "id": "honor-earning-losing-honor",
+      "title": "Earning & losing Honor",
+      "navigationTitle": "Earning & losing Honor",
       "category": "Honor",
-      "subgroup": "High Honor",
+      "subgroup": "Progression",
       "label": "Axria homebrew",
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "High Honor gives your word weight when you invoke a duty or offer a guarantee backed by a recognized institution. You might appeal to a court, the watch, a temple, or a guild under a charter, a right of sanctuary, a sworn duty, or the rules for taking custody of a prisoner.",
+        "Honor is earned or lost through a character’s behaviour. The DM is responsible for deciding its value based on how the character acts.",
         {
           "type": "divider"
         },
-        "Formal dealings often leave a record and name who is responsible if the agreement fails. A formal obligation can bind a ruler as well as a subject.",
+        "Ability Score Improvements and other features that normally alter ability scores do not change Honor. Changes come from the DM’s judgement of the character’s conduct.",
         {
           "type": "divider"
         },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Right of sanctuary."
-                ]
-              },
-              " A knight asks the crown to recognize a temple’s right to shelter a fugitive. The court has reason to trust the knight to answer for the guest if the terms are broken."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Guild charter."
-                ]
-              },
-              " A guild member invokes the charter to take custody of seized goods and signs for their return. The watch can rely on the record and hold the guild to its guarantee."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "A formal guarantee in the underworld."
-                ]
-              },
-              " A mob boss accepts a knight’s offer of safe passage under the order’s seal. Use a positive check if the boss is weighing the order’s guarantee."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Disadvantage on underworld terms."
-                ]
-              },
-              " The knight invokes an old crew debt to secure a private truce. The crew expects discretion and trusts that its broker will handle breaches privately. It doubts whether the knight would leave the matter with the broker if the watch got involved. This is a negative Honor check with disadvantage."
-            ]
-          ]
-        }
-      ],
-      "honorSide": "high"
-    },
-    {
-      "id": "honor-low-honor",
-      "title": "Low Honor — Underworld standing",
-      "navigationTitle": "Low Honor — Underworld standing",
-      "category": "Honor",
-      "subgroup": "Low Honor",
-      "label": "Axria homebrew",
-      "kind": "rule",
-      "sourceId": "axria-honor",
-      "content": [
-        "Low Honor gives your word weight when you invoke an agreement recognized outside formal channels. You might call in a private debt, appeal to a truce brokered by a mutual contact, or offer a guarantee that the parties expect a broker or crew to enforce.",
-        {
-          "type": "divider"
-        },
-        "An agreement can carry weight through a broker, a witness, or a personal debt. The parties may expect disputes to stay within that circle.",
-        {
-          "type": "divider"
-        },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "A broker’s truce."
-                ]
-              },
-              " Rival crews agree to meet at a neutral inn. An enforcer invokes the broker’s guarantee to bring a guest through rival territory. The crews expect the enforcer to answer to the broker for a breach."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "A debt at court."
-                ]
-              },
-              " A fixer reminds the king, in private, that a mutual contact arranged safe passage for his heir. The king can honor the debt as a private bargain. Use a negative check if that debt is what gives the appeal weight."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "An unwritten rule."
-                ]
-              },
-              " A fence asks a rival crew to return goods taken from a neutral warehouse. The fence can point to the crews’ agreement that neutral ground protects everyone’s business."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Disadvantage on formal terms."
-                ]
-              },
-              " The fixer petitions the court to release a detainee into their custody. The court expects a signed guarantee, a named surety, and a public return date. It doubts whether the fixer will remain accountable if their own crew intervenes. This is a positive Honor check with disadvantage."
-            ]
-          ]
-        }
-      ],
-      "honorSide": "low"
+        "This rule does not assign a fixed starting score, a reward table, or automatic increases and penalties. Those decisions remain with the DM."
+      ]
     },
     {
       "id": "honor-honor-checks",
-      "title": "Honor checks & signed DCs",
-      "navigationTitle": "Honor checks & signed DCs",
+      "title": "Honor checks",
+      "navigationTitle": "Honor checks",
       "category": "Honor",
       "subgroup": "Checks",
       "label": "Axria homebrew",
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Call for an Honor check when a party recognizes the code and it is uncertain how much weight they give this character’s appeal. The DM sets the sign and difficulty before the roll. Use a positive DC for formal terms and a negative DC for underworld terms. The terms can change with the approach, even when the same person hears both appeals.",
+        "The DM may call for an Honor check to determine how justly, diplomatically, or honorably a character behaves in an important situation.",
         {
           "type": "divider"
         },
-        "Calculate your Honor modifier as (Honor score − 10) ÷ 2, rounded down. Use the formula for the DC. A higher natural d20 roll helps on either side. DC −20 is harder than DC −10.",
-        {
-          "type": "table",
-          "headers": [
-            [
-              [
-                "Terms"
-              ],
-              [
-                "Roll total"
-              ],
-              [
-                "Success"
-              ]
-            ]
-          ],
-          "rows": [
-            [
-              [
-                "Formal (positive DC)"
-              ],
-              [
-                "d20 + Honor modifier"
-              ],
-              [
-                "Total ≥ DC"
-              ]
-            ],
-            [
-              [
-                "Underworld (negative DC)"
-              ],
-              [
-                "Honor modifier − d20"
-              ],
-              [
-                "Total ≤ DC"
-              ]
-            ]
-          ]
-        },
+        "These checks are particularly relevant when dealing with officials such as guards, nobles, and other authorities. They can test whether a character upholds standards of conduct when the situation puts those standards under pressure.",
         {
           "type": "divider"
         },
-        "With a positive Honor modifier, you have disadvantage on negative Honor checks. With a negative Honor modifier, you have disadvantage on positive Honor checks. A +0 modifier imposes no disadvantage from Honor.",
-        {
-          "type": "divider"
-        },
-        "For disadvantage, roll two d20s and keep the lower natural die before applying the formula. For advantage, keep the higher natural die. Apply this before turning the roll into a negative total.",
-        {
-          "type": "divider"
-        },
-        "A knight with Honor 16 (+3) invokes a formal right of sanctuary. Against DC +15, a natural 12 gives 12 + 3 = +15 and succeeds.",
-        {
-          "type": "divider"
-        },
-        "A broker with Honor 4 (−3) invokes an underworld truce. Against DC −15, a natural 12 gives −3 − 12 = −15 and succeeds.",
-        {
-          "type": "divider"
-        },
-        "With a +0 modifier, a natural 15 reaches either DC +15 or DC −15 when you use the corresponding formula.",
-        {
-          "type": "divider"
-        },
-        "A fixer with Honor 8 (−1) invokes a formal guarantee at DC +12. They roll 16 and 11 with disadvantage, keep 11, and get +10. A knight with Honor 12 (+1) invokes an underworld debt at DC −12. With the same dice, they keep 11 and get −10. Both checks fail."
+        "Honor has no associated skill proficiency. The DM sets the stakes and decides when the check is appropriate."
       ]
     },
     {
@@ -1600,76 +1437,15 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Roll an Honor saving throw when an effect explicitly calls for one. The effect specifies the sign and DC. Use the same signed roll as for an Honor check and apply the outcome described by the effect. Follow the effect for any advantage or disadvantage on the save.",
+        "The DM may call for an Honor saving throw when a character’s will and determination are tested by an outside source attempting to break or humiliate them.",
         {
           "type": "divider"
         },
-        "A magical seal protecting a formal oath could call for a positive Honor save. A curse tied to an underworld pact could call for a negative Honor save. In ordinary play, players decide whether their characters keep their promises, accept a bargain, or break a truce."
-      ]
-    },
-    {
-      "id": "honor-earning-losing-honor",
-      "title": "Changing Honor",
-      "navigationTitle": "Changing Honor",
-      "category": "Honor",
-      "subgroup": "Progression",
-      "label": "Axria homebrew",
-      "kind": "rule",
-      "sourceId": "axria-honor",
-      "content": [
-        "The DM considers changing Honor when a consequential act becomes known to people who recognize the character’s usual code or see the character as one of their own. Ask whether they feel represented, betrayed, or inspired by the act and whether it changes how much weight they would give the character’s next appeal or guarantee. Strong approval can deepen standing under that code. A group’s repudiation can weaken that standing or show that the character has shifted toward the other code.",
+        "The save concerns maintaining dignity, resolve, and integrity under that pressure. It is a rare roll with potentially significant consequences.",
         {
           "type": "divider"
         },
-        {
-          "type": "list",
-          "items": [
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Formal groups approve."
-                ]
-              },
-              " The watch learns that a knight brought a personal enemy to trial and testified at the risk of public embarrassment. Officers point to the knight as an example of someone they can trust with custody. Honor can rise."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Formal groups disavow the act."
-                ]
-              },
-              " A guild’s sworn agent conceals a seizure from the guild council to settle a private debt. When it comes to light, the council withdraws its backing. Honor can fall."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Underworld groups approve."
-                ]
-              },
-              " A broker keeps a costly truce even after their own crew demands an exception. Other crews uphold the truce in response and begin asking the broker to guarantee future meetings. Honor can fall toward stronger underworld standing."
-            ],
-            [
-              {
-                "type": "strong",
-                "content": [
-                  "Underworld groups disavow the act."
-                ]
-              },
-              " A fixer secretly hands a guest over to the watch after guaranteeing safe passage. When the crews find out, they refuse to accept the fixer’s guarantees. If this weakens the fixer’s underworld standing, their score can move toward the middle. The watch judges the fixer on its own terms."
-            ]
-          ]
-        },
-        {
-          "type": "divider"
-        },
-        "If nobody relevant learns what happened, keep the current score and revisit it if the act becomes known later. Ordinary dealings, routine etiquette, and one person’s passing approval or resentment usually leave the score where it is. If groups react differently, the DM judges which response best reflects the change in the character’s standing.",
-        {
-          "type": "divider"
-        },
-        "Apply the stated gains and losses from downtime rules such as Crime and Religious Service. Ability Score Improvements and features that normally change ability scores have no effect on Honor."
+        "The DM decides when it applies and what success or failure means. This homebrew does not automatically replace the saving throw used for a spell or other existing effect BUT in rare story appropriate occasion it might be the case and check might be replaced by Honor. For example Excalibur was not lifted by Strength but by Honor."
       ]
     },
     {
@@ -1682,19 +1458,15 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Use Honor when an obligation is the reason the other party might agree and your standing determines how much weight it carries. Use Charisma when the outcome hinges on how convincingly you make the case. If the obligation already settles the matter, the DM can resolve it without a roll.",
+        "Honor is impacted, when the character’s conduct or determination carries particular weight. The value follows decisions and behaviour; it cannot be improved by ordinary character-building choices.",
         {
           "type": "divider"
         },
-        "A crew honors a broker’s guarantee at a truce meeting because the broker has standing with both sides. The same crew refuses to hire the broker for a quiet job because their involvement would attract rivals. In Crime downtime, Honor 6–10 yields better offers than Honor 0–5. At the table, a character in the middle-low range might have enough standing to hear about good jobs and still be easy for a crew to bring in.",
+        "Honor checks concern acting justly, diplomatically, or honorably. Honor saving throws concern withstanding an external attempt to break or humiliate the character.",
         {
           "type": "divider"
         },
-        "At a bandit camp, you arrest three bandits and kill a fourth who is still attacking you. Even if others learn what happened, self-defense usually leaves Honor as it was. A duty to bring the bandit in alive could change what the watch expects.",
-        {
-          "type": "divider"
-        },
-        "If you kill the fourth bandit after they surrender or while they are in custody, the watch may lower your standing if it learns what happened and recognizes protections you violated. A promise of safe passage can make the same act matter to the underworld. If nobody relevant ever finds out, Honor stays the same."
+        "The distinction from Charisma is the focus: Charisma concerns social influence and expression; Honor concerns integrity and conduct. Which ability applies depends on what is actually being tested."
       ]
     }
   ]

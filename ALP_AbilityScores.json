@@ -29,7 +29,7 @@
     {
       "id": "axria-honor",
       "title": "Axria Honor — user-provided campaign rules",
-      "changes": "Edited for spelling, grammar, and reference layout. No numeric progression system added."
+      "changes": "Revised Honor around virtue, integrity, and conduct, with examples and standard checks and saves."
     }
   ],
   "entries": [
@@ -1378,12 +1378,110 @@
         {
           "type": "divider"
         },
-        "Honor does not determine whether a character is a “good person.” It reflects their conduct, principles, and consideration for others rather than assigning moral alignment.",
+        "A noble knight and a rugged thief can both have high Honor. A character’s choices show their courage, decency, fairness, and honesty, especially when those qualities come at a cost. A title, an alignment, or a reputation can shape what others expect, while Honor follows how the character actually acts.",
         {
           "type": "divider"
         },
-        "Honor has no associated skills. It is rarely called upon, but when it matters, it can have greater significance than the other ability scores."
+        "Honor is one ability score with one modifier and no associated skills. The DM calls for Honor rolls when integrity, trustworthiness, or resolve is at stake."
       ]
+    },
+    {
+      "id": "honor-high-honor",
+      "title": "High Honor",
+      "navigationTitle": "High Honor",
+      "category": "Honor",
+      "subgroup": "",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "High Honor shows in people who keep their word, deal fairly, and take responsibility when it would be easier to walk away. Knightly honor and honor among thieves are expressions of the same score.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Knightly honor."
+                ]
+              },
+              " A knight stays to defend people they promised to protect, even when retreat would be safer. When challenging an unsuspecting, unarmed rival and there is time for a fair contest, the knight announces the challenge and lends them a weapon."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Honor among thieves."
+                ]
+              },
+              " After a job, a thief gives an injured accomplice their full share and offers some of their own for treatment. They keep faith with their partner even when nobody could prove what the partner was owed."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Honesty at a cost."
+                ]
+              },
+              " A character admits their own mistake when someone else is about to take the blame. Telling the truth may cost them a reward, a promotion, or an ally’s approval."
+            ]
+          ]
+        }
+      ],
+      "honorSide": "high"
+    },
+    {
+      "id": "honor-low-honor",
+      "title": "Low Honor",
+      "navigationTitle": "Low Honor",
+      "category": "Honor",
+      "subgroup": "",
+      "label": "Axria homebrew",
+      "kind": "rule",
+      "sourceId": "axria-honor",
+      "content": [
+        "Low Honor describes a pattern of putting personal gain or safety ahead of fairness, decency, and commitments to others. A knight with a respected title can act this way as readily as a thief.",
+        {
+          "type": "divider"
+        },
+        {
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Abandoning an obligation."
+                ]
+              },
+              " A knight takes payment to guard a group of travelers, then abandons them when a safer, better paid offer comes along."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Taking advantage of an ally."
+                ]
+              },
+              " A thief withholds an injured accomplice’s promised share because the accomplice is too weak to contest it."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Passing the blame."
+                ]
+              },
+              " A character lets an innocent companion take the punishment for their own mistake to keep their position."
+            ]
+          ]
+        }
+      ],
+      "honorSide": "low"
     },
     {
       "id": "honor-earning-losing-honor",
@@ -1395,15 +1493,19 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Honor is earned or lost through a character’s behaviour. The DM is responsible for deciding its value based on how the character acts.",
+        "The DM sets and adjusts Honor based on a character’s conduct. Look at consequential choices and patterns of behavior. Keeping a promise at a cost, treating a vulnerable person fairly, or taking responsibility can raise Honor. Betraying a promise for profit, exploiting someone who cannot defend their interests, or knowingly shifting blame can lower it.",
         {
           "type": "divider"
         },
-        "Ability Score Improvements and other features that normally alter ability scores do not change Honor. Changes come from the DM’s judgement of the character’s conduct.",
+        "Judge what the character knew and what choices they reasonably had. Killing an attacker in self-defense ordinarily leaves Honor where it is. Killing a defeated opponent who poses no danger, when you could reasonably spare them, can lower Honor. Sparing them, tending their wounds, turning them over for trial, or letting them go can show Honor, especially when it costs you something.",
         {
           "type": "divider"
         },
-        "This rule does not assign a fixed starting score, a reward table, or automatic increases and penalties. Those decisions remain with the DM."
+        "Private deeds count. A character’s actions determine their Honor even if nobody witnesses them. Other people judge the character from what they know or believe.",
+        {
+          "type": "divider"
+        },
+        "Ability Score Improvements and other features that normally alter ability scores do not change Honor. The DM decides when the conduct merits a change and how large it should be."
       ]
     },
     {
@@ -1416,15 +1518,43 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "The DM may call for an Honor check to determine how justly, diplomatically, or honorably a character behaves in an important situation.",
+        "Roll a d20 and add your Honor modifier. You succeed if the total meets or exceeds the DC the DM sets. Apply advantage or disadvantage as usual.",
         {
           "type": "divider"
         },
-        "These checks are particularly relevant when dealing with officials such as guards, nobles, and other authorities. They can test whether a character upholds standards of conduct when the situation puts those standards under pressure.",
+        "Use an Honor check when integrity, a personal guarantee, or a judgment about someone’s character can resolve the situation.",
         {
-          "type": "divider"
-        },
-        "Honor has no associated skill proficiency. The DM sets the stakes and decides when the check is appropriate."
+          "type": "list",
+          "items": [
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Give your word in a formal setting."
+                ]
+              },
+              " Ask a magistrate to release someone into your custody on your personal guarantee that they will return for trial."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Assess trustworthiness."
+                ]
+              },
+              " Based on what you know about someone’s past choices and what they stand to lose, judge whether you could count on them to keep a difficult promise."
+            ],
+            [
+              {
+                "type": "strong",
+                "content": [
+                  "Calm a tense situation."
+                ]
+              },
+              " Offer your word to both sides that anyone who stands down will be allowed to leave safely, and make clear that you’ll answer for that promise."
+            ]
+          ]
+        }
       ]
     },
     {
@@ -1437,15 +1567,15 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "The DM may call for an Honor saving throw when a character’s will and determination are tested by an outside source attempting to break or humiliate them.",
+        "The DM can call for an Honor saving throw when outside pressure tests your resolve to stand by a commitment or uphold your principles. Roll a d20, add your Honor modifier and any applicable saving throw proficiency, and compare the total with the DC.",
         {
           "type": "divider"
         },
-        "The save concerns maintaining dignity, resolve, and integrity under that pressure. It is a rare roll with potentially significant consequences.",
+        "You might roll to hold your ground when fear or despair threatens to overwhelm you, or when your or your ally/company integrity, trustworthiness or honor is attacked or tested. ",
         {
           "type": "divider"
         },
-        "The DM decides when it applies and what success or failure means. This homebrew does not automatically replace the saving throw used for a spell or other existing effect BUT in rare story appropriate occasion it might be the case and check might be replaced by Honor. For example Excalibur was not lifted by Strength but by Honor."
+        "A spell or other effect can call for an Honor save, but usually only after the original safe has failed and character repeats saving throw. In a rare story-appropriate situation, the DM can offer an Honor save in place of the usual save when the effect specifically tests courage or integrity."
       ]
     },
     {
@@ -1458,15 +1588,15 @@
       "kind": "rule",
       "sourceId": "axria-honor",
       "content": [
-        "Honor is impacted, when the character’s conduct or determination carries particular weight. The value follows decisions and behaviour; it cannot be improved by ordinary character-building choices.",
+        "Choose the ability by what is uncertain. Use Honor when someone is weighing your integrity, your word or you are weighing theirs. Charisma when success depends on how convincingly you speak. Wisdom (Insight) when you are reading immediate motives or looking for signs of deception.",
         {
           "type": "divider"
         },
-        "Honor checks concern acting justly, diplomatically, or honorably. Honor saving throws concern withstanding an external attempt to break or humiliate the character.",
+        "Anyone can attempt an Honor roll when the situation calls for one. A low Honor modifier makes it harder to meet the same DC. A character can seek another approach, such as presenting evidence to the magistrate or offering a surety who can vouch for the accused.",
         {
           "type": "divider"
         },
-        "The distinction from Charisma is the focus: Charisma concerns social influence and expression; Honor concerns integrity and conduct. Which ability applies depends on what is actually being tested."
+        "Suppose you capture a wounded bandit and promise them a fair hearing. Keeping that promise can show Honor even if the bandit insulted you or harmed you or your friends. Later yoi can use an Honor check if the magistrate doubts your guarantee. If someone tries to frighten you into withdrawing it, the DM may call for an Honor saving throw to see whether you can hold your ground."
       ]
     }
   ]
