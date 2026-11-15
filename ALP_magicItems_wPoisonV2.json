@@ -423,7 +423,7 @@
 			],
 			"tags": [],
 			"entries": [
-				"Injury poisons are applied to piercing or slashing weapons, ammunition, or damaging trap components. A creature exposed through a wound must resolve the poison’s effect. Unless stated otherwise, a coating lasts until delivered through a wound or washed away.",
+				"Injury poisons are applied to piercing or slashing weapons, ammunition, or damaging trap components. Poison applyies only if the weapon or trap actually dealt the piercing or slashing damage. A creature exposed through a wound must resolve the poison’s effect. Unless stated otherwise, a coating lasts until delivered through a wound or washed away.",
 				"<b>Application (Axria):</b> Unless a feature or item specifies otherwise, applying an injury poison requires an action. A standard injury poison coating is expended once delivered through a wound, regardless of the target’s saving throw; specific poison descriptions override this rule.",
 				"<b>Standard poisons (D&D 5e, 2014):</b>",
 				"<b>Basic Poison (100 gp)</b> - As an action, coat one piercing or slashing weapon or up to three pieces of ammunition. A hit requires a DC 10 Constitution saving throw; failure deals 1d4 poison damage. The coating dries after 1 minute. (PHB, p. 153)",
