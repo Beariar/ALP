@@ -1333,6 +1333,235 @@
 				" ",
 				"<i>For this reason, Academy personnel strongly discourage using these satchels to transport anything that is still moving, breathing, or otherwise refusing to remain dead.</i>"
 			]
+		},
+		{
+			"name": "Injury Poisons",
+			"meno": "Zraňujúce jedy",
+			"image": "https://imgur.com/0TsYax6.jpg",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"Injury poisons are applied to piercing or slashing weapons, ammunition, or damaging trap components. A creature exposed through a wound must resolve the poison’s effect. Unless stated otherwise, a coating lasts until delivered through a wound or washed away.",
+				"<b>Application (Axria):</b> Unless a feature or item specifies otherwise, applying an injury poison requires an action. A standard injury poison coating is expended once delivered through a wound, regardless of the target’s saving throw; specific poison descriptions override this rule.",
+				"<b>Standard poisons (D&D 5e, 2014):</b>",
+				"<b>Basic Poison (100 gp)</b> - As an action, coat one piercing or slashing weapon or up to three pieces of ammunition. A hit requires a DC 10 Constitution saving throw; failure deals 1d4 poison damage. The coating dries after 1 minute. (PHB, p. 153)",
+				"<b>Serpent Venom (200 gp)</b> - Harvested from a giant poisonous snake. DC 11 Constitution saving throw; failure deals 3d6 poison damage, success halves it.",
+				"<b>Drow Poison (200 gp)</b> - DC 13 Constitution saving throw; failure causes the poisoned condition for 1 hour. Failure by 5 or more also causes unconsciousness. Damage or an action spent shaking the victim awake ends the unconsciousness.",
+				"<b>Wyvern Poison (1,200 gp)</b> - Harvested from a wyvern. DC 15 Constitution saving throw; failure deals 7d6 poison damage, success halves it.",
+				"<b>Purple Worm Poison (2,000 gp)</b> - Harvested from a purple worm. DC 19 Constitution saving throw; failure deals 12d6 poison damage, success halves it.",
+				"<b>Potent Poison (Poisoner feat)</b> - The feat produces doses equal to proficiency bonus after 1 hour of work and 50 gp in materials. A dose coats one weapon or piece of ammunition, lasting 1 minute or until a hit. When the coated item deals damage, the target makes a DC 14 Constitution saving throw, taking 2d8 poison damage and becoming poisoned until the end of your next turn on failure. The feat allows application as a bonus action and ignores resistance to poison damage, but not immunity. (TCE, p. 80)",
+				"<i>Standard poison prices are per dose. Source: DMG (2014), pp. 257–258, unless otherwise indicated.</i>",
+				"<b>Axria poisons:</b>",
+				"<b>Axria poison rules:</b> Prices are per dose. Multiple doses of the same poison do not stack their effects. Creatures immune to the poisoned condition are immune to these Axria poisons, even if the poison does not impose that condition. Neutralizing a poison ends its ongoing effects unless its description specifies otherwise.",
+				"<b>Frostvein (250 gp)</b> - <i>Mrazivá žila.</i> DC 13 Constitution saving throw. On failure, the creature is poisoned for 1 minute; its speed is halved and it cannot take the Dash action while affected. Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Nervebreaker Venom (300 gp)</b> - <i>Nervolamný jed.</i> DC 14 Constitution saving throw. On failure, the creature is poisoned for 1 minute and cannot take reactions. Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Mindfracture Venom (400 gp)</b> - <i>Jed trieštiaci myseľ.</i> DC 15 Constitution saving throw. On failure, the creature is poisoned for 1 minute and has disadvantage on Constitution saving throws to maintain concentration. Repeat the poison save at the end of each turn, ending the effect on success.",
+				"<b>Withering Fang (450 gp)</b> - <i>Chradnúci tesák.</i> DC 15 Constitution saving throw. On failure, the creature’s Strength score is reduced by 1d4 (minimum 1) for 1 hour. Repeat exposure cannot further reduce its Strength. The effect ends early when the creature finishes a short or long rest.",
+				"<b>Sunderblood (750 gp)</b> - <i>Rozklad krvi.</i> DC 16 Constitution saving throw. On failure, the creature is poisoned for up to 1 minute. The next time it takes bludgeoning, piercing or slashing damage from an attack, it has vulnerability to that damage, and the poison then ends. The attack that delivered the poison cannot benefit from this effect."
+			]
+		},
+		{
+			"name": "Ingested Poisons",
+			"meno": "Požívateľné jedy",
+			"image": "https://imgur.com/I3n2uKq.jpg",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"Ingested poisons take effect after a creature swallows a full dose in food or liquid. The DM may reduce the effect of a partial dose. Unless specified, effects begin immediately.",
+				"<b>Standard poisons (D&D 5e, 2014):</b>",
+				"<b>Assassin’s Blood (150 gp)</b> - DC 10 Constitution saving throw. Failure deals 1d12 poison damage and causes the poisoned condition for 24 hours; success halves the damage and avoids the condition.",
+				"<b>Truth Serum (150 gp)</b> - DC 11 Constitution saving throw; failure causes the poisoned condition for 1 hour. During this time the creature cannot knowingly lie, but can remain silent.",
+				"<b>Pale Tincture (250 gp)</b> - DC 16 Constitution saving throw; failure deals 1d6 poison damage and causes the poisoned condition. Repeat the save every 24 hours, taking another 1d6 poison damage on failure. HP lost to this poison cannot be restored until the poison ends after seven successful saves.",
+				"<b>Torpor (600 gp)</b> - DC 15 Constitution saving throw; failure leaves the creature poisoned and incapacitated for 4d6 hours.",
+				"<b>Midnight Tears (1,500 gp)</b> - No effect until midnight. Unless neutralized beforehand, the victim makes a DC 17 Constitution saving throw at midnight, taking 9d6 poison damage on failure or half on success.",
+				"<b>Potion of Poison (Uncommon)</b> - A magical poison disguised as a beneficial potion; Identify reveals its nature. Drinking it deals 3d6 poison damage immediately. A failed DC 13 Constitution saving throw causes the poisoned condition and recurring 3d6 poison damage at the start of each turn. At the end of each turn, repeat the save; each success reduces subsequent recurring damage by 1d6. The poison ends when this damage reaches zero. Also listed under Healing and Health Potions. (DMG, p. 188)",
+				"<i>Standard poison prices are per dose. Source: DMG (2014), pp. 257–258, unless otherwise indicated.</i>",
+				"<b>Axria poisons:</b>",
+				"<b>Axria poison rules:</b> Prices are per dose. Multiple doses of the same poison do not stack their effects. Creatures immune to the poisoned condition are immune to these Axria poisons, even if the poison does not impose that condition. Neutralizing a poison ends its ongoing effects unless its description specifies otherwise.",
+				"<b>Forget-Me-Not (500 gp)</b> - <i>Nezábudka.</i> DC 15 Constitution saving throw. On failure, for 8 hours the creature cannot form lasting memories. During this time it remains conscious and behaves normally, retaining its existing memories, abilities and personality. Once the poison ends, it cannot recall events that occurred while under its influence. It does not suffer the poisoned condition. An observer who interacts with the creature can make a DC 15 Wisdom (Insight) check to recognize subtle signs that the poison took effect. Neutralizing the poison prevents further memory loss but does not restore lost memories; the Greater Restoration spell can restore them.",
+				"<b>Winter’s Weariness (350 gp)</b> - <i>Únava zimy.</i> One hour after ingestion, the creature makes a DC 14 Constitution saving throw. On failure, it gains one level of exhaustion. Additional doses cannot inflict another level until it recovers from this poison’s level of exhaustion. Normal exhaustion recovery or neutralizing the poison removes that level.",
+				"<b>Fool’s Dream (300 gp)</b> - <i>Bláznov sen.</i> DC 14 Constitution saving throw. On failure, the creature is poisoned for 1 hour and experiences vivid hallucinations. At the start of each turn, roll a d6; on a 1, the creature cannot take an action or bonus action that turn. It can repeat the saving throw every 10 minutes, ending the effect on success.",
+				"<b>Silent Tongue (350 gp)</b> - <i>Nemý jazyk.</i> DC 14 Constitution saving throw. On failure, the creature is poisoned for 1 hour and cannot speak or provide verbal spell components. It can still communicate through writing, gestures or telepathy.",
+				"<b>Hollow Rest (400 gp)</b> - <i>Prázdny odpočinok.</i> DC 15 Constitution saving throw. On failure, the creature is poisoned for 8 hours and cannot gain the benefits of a short or long rest while affected, though it can still sleep normally."
+			]
+		},
+		{
+			"name": "Contact Poisons",
+			"meno": "Kontaktné jedy",
+			"image": "https://imgur.com/HDk7ZEm.jpg",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"Contact poisons are applied to objects or surfaces and affect creatures through direct contact with exposed skin. They remain potent until touched or washed away. No wound is necessary.",
+				"<b>Standard poisons (D&D 5e, 2014):</b>",
+				"<b>Carrion Crawler Mucus (200 gp)</b> - Harvested from a carrion crawler. DC 13 Constitution saving throw; failure leaves the creature poisoned and paralyzed for 1 minute. Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Oil of Taggit (400 gp)</b> - DC 13 Constitution saving throw; failure leaves the creature poisoned and unconscious for 24 hours. Taking damage awakens the creature.",
+				"<i>Standard poison prices are per dose. Source: DMG (2014), pp. 257–258, unless otherwise indicated.</i>",
+				"<b>Axria poisons:</b>",
+				"<b>Axria poison rules:</b> Prices are per dose. Multiple doses of the same poison do not stack their effects. Creatures immune to the poisoned condition are immune to these Axria poisons, even if the poison does not impose that condition. Neutralizing a poison ends its ongoing effects unless its description specifies otherwise.",
+				"<b>Oil of Still Waters (150 gp)</b> - <i>Olej tichých vôd.</i> DC 12 Constitution saving throw. On failure, the creature is poisoned and deafened for 1 hour.",
+				"<b>Shivering Touch (400 gp)</b> - <i>Chvejúci dotyk.</i> DC 14 Constitution saving throw. On failure, the creature’s Dexterity score is reduced by 1d4 (minimum 1) for 1 hour. Repeat exposure cannot further reduce its Dexterity. The effect ends early when the creature finishes a short or long rest.",
+				"<b>Graspbane (250 gp)</b> - <i>Skaza úchopu.</i> DC 13 Constitution saving throw. On failure, the creature is poisoned for 1 minute and immediately drops one held object, chosen by the DM. While affected, it cannot initiate or maintain a grapple, tie knots, or use rope to bind or restrain another creature (including Axria’s tie-up mechanic). Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Phantom Touch (200 gp)</b> - <i>Prízračný dotyk.</i> DC 13 Constitution saving throw. On failure, the creature is poisoned for 1 hour and loses its sense of touch. It automatically fails ability checks that primarily depend on tactile sensation. It can still move, wield weapons and feel the effects of damage.",
+				"<b>Agony Oil (450 gp)</b> - <i>Olej agónie.</i> DC 15 Constitution saving throw. On failure, the creature is poisoned for 1 minute. On each of its turns it may take either an action or a bonus action, but not both. Repeat the save at the end of each turn, ending the effect on success."
+			]
+		},
+		{
+			"name": "Inhaled Poisons",
+			"meno": "Inhalačné jedy",
+			"image": "https://imgur.com/pN4Fg6m.jpg",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"Inhaled poisons are gases or powders. Releasing a dose exposes creatures in a 5-foot cube unless specified otherwise. Holding one’s breath does not prevent exposure. These poisons have no standard throwing range under the 2014 rules. In Axria, inhaled poisons follow the Lingering rules below instead of dispersing immediately.",
+				"<b>Lingering (Axria):</b> An ordinary inhaled poison cloud remains potent for a duration based on the environment:<br> - Moderate or stronger wind: disperses immediately.<br> - Light wind or draft: 1 round.<br> - Open area with still air: 1 minute.<br> - Poorly ventilated interior: 1d4 hours.<br> - Completely sealed interior: 1d4 days.",
+				"<b>Exposure:</b> A creature makes the poison’s saving throw the first time it is exposed to a given cloud, whether present when released or entering later. Remaining in or re-entering an ordinary cloud does not trigger additional exposure saves against that dose. Any repeat saving throws required by an individual poison’s effect still apply. A Persistent poison, such as Grave Mist, can override this rule and affect a creature repeatedly according to its own description.",
+				"<b>Standard poisons (D&D 5e, 2014):</b>",
+				"<b>Malice (250 gp)</b> - DC 15 Constitution saving throw; failure leaves the creature poisoned and blinded for 1 hour.",
+				"<b>Essence of Ether (300 gp)</b> - DC 15 Constitution saving throw; failure leaves the creature poisoned and unconscious for 8 hours. Damage or an action spent shaking the victim awake ends the unconsciousness.",
+				"<b>Burnt Othur Fumes (500 gp)</b> - DC 13 Constitution saving throw; failure deals 3d6 poison damage. Repeat the save at the beginning of each turn, taking 1d6 poison damage on each subsequent failure. The effect ends after three successful saves.",
+				"<i>Standard poison prices are per dose. Source: DMG (2014), pp. 257–258, unless otherwise indicated.</i>",
+				"<b>Axria poisons:</b>",
+				"<b>Axria poison rules:</b> Prices are per dose. Multiple doses of the same poison do not stack their effects. Creatures immune to the poisoned condition are immune to these Axria poisons, even if the poison does not impose that condition. Neutralizing a poison ends its ongoing effects unless its description specifies otherwise.",
+				"<b>Nightmare Dust (300 gp)</b> - <i>Prach nočných môr.</i> DC 14 Constitution saving throw. On failure, the creature is poisoned and frightened of the location where the poison was released for 1 minute. Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Leadbreath (350 gp)</b> - <i>Olovený dych.</i> DC 14 Constitution saving throw. On failure, the creature is poisoned for 1 minute; its speed is reduced by 10 feet (minimum 0) and it cannot take the Dash action. Repeat the save at the end of each turn, ending the effect on success.",
+				"<b>Mana Haze (500 gp)</b> - <i>Manový opar.</i> DC 15 Constitution saving throw. On failure, the creature is poisoned for 1 minute as its fine motor coordination deteriorates. Whenever it attempts to cast a spell requiring a somatic component, it must first succeed on a DC 10 Constitution saving throw. On failure, the spell is not cast and the corresponding action, bonus action or reaction is wasted, but the spell slot is not expended. The creature has disadvantage on Dexterity (Sleight of Hand) checks as part of the poisoned condition. Repeat the original DC 15 saving throw at the end of each turn, ending the effect on success.",
+				"<b>Grave Mist (600 gp)</b> - <i>Hrobová hmla.</i> <b>Persistent:</b> A dose creates a 10-foot-radius sphere of supernatural poisonous vapor. A creature entering the cloud for the first time on a turn or starting its turn there makes a DC 15 Constitution saving throw. On failure, it takes 2d6 poison damage and is poisoned until the end of its next turn; on success, it takes half damage and is not poisoned by that exposure. Unlike ordinary lingering clouds, it can affect the same creature repeatedly. It lasts at least 1 minute even in light wind or a draft; in poorly ventilated or sealed interiors, use the longer Lingering duration. Moderate or stronger wind disperses it immediately.",
+				"<b>Sneezing Ash (100 gp)</b> - <i>Kýchavý popol.</i> DC 12 Constitution saving throw. On failure, the creature is poisoned for 1 minute and suffers uncontrollable coughing and sneezing. It cannot remain hidden from creatures capable of hearing it within 30 feet. This does not remove invisibility. Repeat the save at the end of each turn, ending the effect on success."
+			]
+		},
+		{
+			"name": "Antidotes and Antitoxins",
+			"meno": "Protijedy a antitoxíny",
+			"image": "https://imgur.com/mVrbToN.jpg",
+			"source": "ALP",
+			"page": "0",
+			"rarity": "varies",
+			"reqAttune": "no",
+			"type": "wondrous",
+			"bonuses": {
+				"spellAttack": "0",
+				"spellSaveDc": "0",
+				"weaponAttack": "0",
+				"abilityScores": {
+					"str": "0",
+					"dex": "0",
+					"con": "0",
+					"wis": "0",
+					"int": "0",
+					"cha": "0"
+				},
+				"savingThrow": "0"
+			},
+			"spellFocus": "no",
+			"properties": [
+				"consumable"
+			],
+			"tags": [],
+			"entries": [
+				"Antidotes and antitoxins are medicinal preparations used to protect creatures from poisoning, assist recovery, remove symptoms or neutralize active poisons. Prevention, removal of the poisoned condition and neutralization are distinct effects. Neutralizing a poison ends its ongoing effects unless specified otherwise, but does not normally restore lost hit points or reverse lasting consequences.",
+				"<b>General remedies:</b>",
+				"<b>Antitoxin (Common, 50 gp)</b> - <b>Application:</b> Ingestive consumption. A creature that consumes one dose gains advantage on saving throws against poison for 1 hour. It provides no benefit to undead or constructs. It does not neutralize existing poison. (PHB, 2014)",
+				"<b>Restorative Ointment (Uncommon, 50 gp per dose)</b> - <i>Liečivá masť.</i> A jar contains 1d4 + 1 doses. <b>Application:</b> Apply one dose to a creature’s skin as an action. The recipient regains 2d8 + 2 hit points and gains advantage on its next saving throw against an ongoing poison or disease within 1 hour. The ointment does not neutralize poison, remove conditions or cure disease. (Axria revision)",
+				"<b>Elixir of Health (Rare)</b> - <b>Application:</b> Ingestive consumption. Cures any disease affecting the creature and removes the blinded, deafened, paralyzed and poisoned conditions. It does not explicitly neutralize poisons whose effects are independent of these conditions. Also listed under Healing and Health Potions. (DMG, 2014)",
+				"<b>Universal Antidote (Rare, 250 gp)</b> - <i>Univerzálny protijed.</i> <b>Application:</b> Ingestive consumption. Neutralizes one active poison regardless of its category. If multiple poisons affect the creature, one is selected at random. No effect if no poison is present. It does not restore lost hit points or reverse lasting consequences of poisoning. (Axria)",
+				"<b>Potion of Vitality (Very Rare)</b> - <b>Application:</b> Ingestive consumption. Removes all levels of exhaustion and cures all diseases and poisons affecting the creature. For the next 24 hours, any Hit Die expended to regain hit points restores its maximum possible amount. (DMG, 2014)",
+				"<b>Specialized antidotes (Axria):</b> These remedies neutralize one active poison of the matching category. Each dose is consumed when administered. Use an action to administer a specialized antidote by its designated method.",
+				"<b>Venom Purger (Uncommon, 75 gp)</b> - <i>Čistič jedu.</i> <b>Application:</b> Injection. Neutralizes one Injury poison affecting the creature.",
+				"<b>Purifying Elixir (Uncommon, 75 gp)</b> - <i>Očistný elixír.</i> <b>Application:</b> Ingestive consumption. Neutralizes one Ingested poison affecting the creature.",
+				"<b>Cleansing Balm (Uncommon, 75 gp)</b> - <i>Očistný balzam.</i> <b>Application:</b> Applied to the skin. Neutralizes one Contact poison affecting the creature.",
+				"<b>Breath of Purity (Uncommon, 75 gp)</b> - <i>Dych čistoty.</i> <b>Application:</b> Inhalation. Neutralizes one Inhaled poison affecting the creature.",
+				"<b>Alchemical incompatibility:</b> If a specialized antidote is administered to a creature affected by one or more active poisons and none match the antidote’s designated category, the creature makes a DC 15 Constitution saving throw. On failure it takes 2d6 poison damage; on success it takes half as much damage. The original poisons remain active and the antidote is consumed. If the creature has no active poison, the specialized antidote has no effect. If multiple poisons affect the creature and at least one matches the antidote’s category, the antidote neutralizes one compatible poison without reacting with the others. This rule does not apply to general remedies.",
+				"<i>All listed prices are per dose. Poison identification follows Axria’s existing customized tool rules.</i>"
+			]
 		}
 	]
 }
